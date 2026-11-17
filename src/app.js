@@ -564,7 +564,10 @@
           "<b>Ep. 38:</b> para qué sirven los dedos arrugados sigue en discusión: hay estudios a favor y en contra del mejor agarre.",
           "<b>Ep. 40:</b> se quitó que el bostezo se contagia más entre quienes se quieren: la relación con la empatía está en discusión.",
           "<b>Ep. 44:</b> se añadió la capa aceitosa de las patas de la araña, descrita en un estudio de 2012.",
-          "<b>Ep. 48:</b> el camaleón cambia de color para comunicarse. Que también regule así su temperatura es solo una hipótesis."]) +
+          "<b>Ep. 45:</b> la nube no flota por ser «más ligera que el aire»: la sostienen las corrientes que suben y lo despacio que caen sus gotitas.",
+          "<b>Ep. 48:</b> el camaleón cambia de color para comunicarse. Que también regule así su temperatura es solo una hipótesis.",
+          "<b>Ep. 49:</b> el conflicto entre el oído y la vista es la explicación más aceptada del mareo, no un hecho demostrado. El guion dice «los científicos creen».",
+          "<b>Ep. 52:</b> dormir más no hace crecer más. Lo que está demostrado es que gran parte de la hormona del crecimiento se libera en el sueño profundo."]) +
       "<p class='note'><b>Alcance:</b> la evaluación se hizo con conocimiento científico general y comprobaciones puntuales en la web en noviembre de 2026. No sustituye la revisión de un especialista. Verifica cada ficha con dos fuentes antes de grabar.</p></div></details>";
     h += "<details class='fold'><summary>Cómo se eligieron los temas</summary><div><p>Cada tema pasó por siete preguntas:</p>" +
       ul(["<b>¿Es una pregunta que un niño ya hace?</b> Si hay que convencerlo de que es interesante, no sirve.",

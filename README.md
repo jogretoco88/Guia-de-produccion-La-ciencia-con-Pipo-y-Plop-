@@ -1,23 +1,35 @@
 # Guía de producción · La ciencia con Pipo y Plop
 
-Guía interactiva para producir un año del canal: ciencia en plastilina para niños de 6 años en adelante, con Google Flow (Veo), Nano Banana Pro, ElevenLabs y DaVinci Resolve.
+Guía interactiva para producir un año completo del canal: ciencia en plastilina para niños de 6 años en adelante, hecha con Google Flow (Veo), Nano Banana Pro, ElevenLabs y DaVinci Resolve.
 
-Todo está en un solo archivo: [`index.html`](index.html). Ábrelo en el navegador o publícalo con GitHub Pages.
+La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador o publícalo con GitHub Pages (instrucciones abajo).
 
 ## Qué incluye
 
-- **52 episodios de 5:00** en 16:9, uno por semana. Los episodios 1 a 5 están desarrollados toma por toma. Los episodios 6 a 52 tienen su ficha de desarrollo.
-- **Guía**: los pasos de producción con casillas, el título, la descripción con capítulos y la idea de miniatura.
-- **Guion**: la voz para ElevenLabs, bloque por bloque. Una frase por toma. Incluye efectos de sonido y la ficha científica de cada episodio.
-- **Tomas**: las 39 tomas de cada episodio (34 clips de 8 s y 5 láminas) con su frase, lo que debe verse y el prompt listo para copiar. Cada prompt pide una sola acción continua para los 8 segundos. Cada clip trae un Plan B con fotograma clave.
-- **Elenco**: los prompts maestros de Pipo, Plop y los objetos de cada episodio.
-- **Reglas de Flow**: qué hacer y qué evitar para reducir alucinaciones, soluciones a los fallos comunes y una calculadora de créditos.
-- **Canal**: el formato fijo, cómo habla la voz, título y miniatura, publicación como contenido para niños y ritmo de trabajo.
-- **Plan anual**: los 52 episodios en cuatro temporadas de 13, con filtros por categoría y por motor de interés, estado de cada episodio y un encargo listo para copiar que desarrolla cada ficha en un episodio completo.
+- **52 episodios completos de 5:00**, uno por semana, en cuatro temporadas de 13. Todos están desarrollados toma por toma, con el mismo nivel de detalle: guion, prompts, láminas, efectos, ficha científica, título, miniatura y reto.
+- **Navegación pensada para 52 episodios**: selector agrupado por temporada, botones de episodio anterior y siguiente, buscador en el Plan anual y enlaces directos a cualquier pestaña de cualquier episodio (por ejemplo `index.html#e31-tomas`).
+- **Un solo personaje por episodio en Flow.** Para evitar incoherencias y alucinaciones, cada episodio genera solo a su protagonista: Pipo en los impares y Plop en los pares. El otro aparece con un **banco de 20 reacciones** que se generan una vez y se reutilizan todo el año. Pipo y Plop solo aparecen juntos en la cortinilla y en la tarjeta final, dos imágenes fijas del canal.
+- **Pestañas por episodio**
+  - **Guía**: los pasos de producción con casillas que se guardan, el título, la descripción con capítulos y la idea de miniatura.
+  - **Guion**: la voz para ElevenLabs bloque por bloque, los efectos de sonido y la ficha científica (datos, simplificaciones y nivel de certeza).
+  - **Tomas**: las 39 piezas del episodio (34 clips de 8 s y 5 láminas). Cada clip trae su prompt de una sola acción continua de 8 segundos y un Plan B con fotograma clave.
+  - **Elenco**: el protagonista del episodio, sus objetos de arcilla y el banco de reacciones con casillas de «ya generado».
+- **Pestañas del canal**: Reglas de Flow (qué hacer y qué evitar, fallos comunes y calculadora de créditos), Canal (formato, voz, títulos, miniaturas y publicación como contenido para niños) y Plan anual (los 52 episodios con filtros, buscador, estado de producción y evaluación científica).
+
+## Cifras del año
+
+| | |
+| --- | --- |
+| Episodios | 52 (5:00 cada uno) |
+| Clips propios por episodio | entre 23 y 26 (1.229 en total) |
+| Banco de reacciones | 20 clips, generados una sola vez |
+| Láminas por episodio | 5 (máximo pedido: 5) |
+| Nivel de certeza | 45 de consenso · 5 de explicación más aceptada · 2 de ciencia abierta |
+| Preguntas ancla | 14 episodios con temas que se buscan todo el año |
 
 ## Formato de cada episodio
 
-| Bloque | Tiempo | Tomas |
+| Bloque | Tiempo | Piezas |
 | --- | --- | --- |
 | 1 · El misterio | 0:00–0:28 | 3 clips + cortinilla |
 | 2 · Las ideas de Pipo y Plop | 0:28–1:16 | 6 clips |
@@ -26,6 +38,8 @@ Todo está en un solo archivo: [`index.html`](index.html). Ábrelo en el navegad
 | 5 · La prueba | 3:30–4:10 | 5 clips |
 | 6 · Repaso, dato extra y reto | 4:10–4:48 | lámina de repaso + 3 clips + lámina de reto |
 | 7 · Despedida | 4:48–5:00 | 1 clip + tarjeta final |
+
+En todos los episodios se repiten los mismos momentos: la idea loca de Pipo (clip 4), la pregunta de Plop (clip 7), el «Piénsalo» (clip 9), el «¡Hagamos zoom!» (clip 10), el reto (clip 33) y la despedida que anuncia el episodio siguiente (clip 34). La voz explica; las acciones de los personajes no se narran.
 
 ## El plan anual
 
@@ -36,44 +50,45 @@ Todo está en un solo archivo: [`index.html`](index.html). Ábrelo en el navegad
 | 3 | 27 a 39 | ¿Qué es un agujero negro? |
 | 4 | 40 a 52 | ¿Es verdad que creces mientras duermes? |
 
-Reglas del orden: nunca dos episodios seguidos de la misma categoría, Pipo protagoniza los impares y Plop los pares, y los episodios se llaman entre sí (el volcán recuerda a las palomitas; las burbujas, al jabón; el barco, al hielo).
+Nunca hay dos episodios seguidos de la misma categoría, y los episodios se llaman entre sí. Cada tema lleva uno o dos motores de interés: Me pasa a mí, Asco divertido, Superpoder animal, Antojo, Miedo seguro, Parece magia, Gigante y récord. El plan es un criterio editorial, no un pronóstico de vistas: ajústalo con los datos de YouTube Studio.
 
-Cada tema lleva uno o dos motores de interés: Me pasa a mí, Asco divertido, Superpoder animal, Antojo, Miedo seguro, Parece magia, Gigante y récord. El plan es un criterio editorial apoyado en estudios sobre lo que preguntan y ven los niños, no un pronóstico de vistas: ajústalo con los datos de YouTube Studio.
+## Evaluación científica
+
+Cada episodio declara su nivel de certeza y lo que simplifica a propósito. Los temas con la ciencia todavía abierta (sueños, bostezos) o con detalles en discusión (hipo, cosquillas, cerebro congelado, dedos arrugados, mareo) lo dicen en el guion con «los científicos creen» o «todavía se investiga». El panel **Evaluación científica** del Plan anual lista las correcciones hechas al revisar los temas.
+
+La revisión se hizo con conocimiento científico general y comprobaciones puntuales en noviembre de 2026. No sustituye la revisión de un especialista: verifica cada ficha con dos fuentes antes de publicar.
 
 ## Publicarla con GitHub Pages
 
-1. Lleva `index.html` a la rama principal del repositorio.
-2. En **Settings → Pages**, elige **Deploy from a branch**, la rama principal y la carpeta raíz.
-3. La guía queda en `https://<tu-usuario>.github.io/<nombre-del-repositorio>/`.
+1. En el repositorio, ve a **Settings → Pages**.
+2. En **Build and deployment**, elige **Deploy from a branch**.
+3. Elige la rama donde está la guía (la principal, o esta rama de trabajo si aún no se ha fusionado) y la carpeta **/ (root)**. Guarda.
+4. En uno o dos minutos la guía queda en `https://<tu-usuario>.github.io/<nombre-del-repositorio>/`.
+
+El archivo `.nojekyll` evita que GitHub procese el sitio con Jekyll: se sirve tal cual.
 
 ## Cómo editarla
 
-Los datos están dentro de `index.html`, en el bloque `<script>`, antes de la lógica de la página:
+`index.html` se genera a partir de la carpeta `src/`. No lo edites a mano.
 
-- `BLOCKS`, `CAM`, `STYLE_V`, `STYLE_I`, `WHO`, `KIT`: datos comunes a todos los episodios.
-- `EP.push({...})`: un bloque por episodio desarrollado, con sus objetos, ficha científica, efectos y tomas.
-- `CATS`, `MOTORS`, `SEASONS`, `PLAN`: el plan anual. Cada elemento de `PLAN` es la ficha de un episodio por desarrollar.
-
-Formato de una toma:
-
-```js
-// Clip de 8 s
-["C", cámara, ingredientes, "En pantalla (español)", "Escena inicial (inglés)", "Acción única (inglés)", "Voz (español)", marcas]
-// Lámina fija
-["S", segundos, ingredientes, "En pantalla (español)", "Imagen (inglés)", "Voz (español)", "Rótulos para DaVinci"]
+```
+src/
+  head.html, body.html   estilos y estructura de la página
+  comun.js               datos comunes: bloques, cámaras, estilo, personajes, banco, plan anual
+  episodios/epNN.js      un archivo por episodio (EP.push({...}))
+  app.js                 la lógica de la página
+  FORMATO.md             especificación completa del formato de episodio
+validate.mjs             comprueba todas las reglas de formato
+build.mjs                arma index.html
 ```
 
-- **Cámara**: `W` general, `M` medio, `C` primer plano, `X` macro, `T` cenital, `I` acercamiento lento.
-- **Ingredientes**: `P` Pipo, `L` Plop y las letras de los objetos del episodio. Nunca `P` y `L` juntos, y tres como máximo.
-- **Marcas**: `k` mejor con fotograma clave · `r` sirve para otros episodios · `<18` parte del último fotograma del clip 18 · `=E1_C33` reutiliza ese clip.
+Después de cualquier cambio:
 
-El prompt completo se arma solo a partir de esos campos, así que el estilo se repite palabra por palabra en todas las tomas.
+```sh
+node validate.mjs && node build.mjs
+```
 
-### Pasar una ficha a episodio completo
-
-1. En **Plan anual**, abre la ficha y copia el **encargo para desarrollar este episodio**.
-2. Pégalo en una conversación nueva junto con esta guía y pide el episodio en el formato de `EP.push({...})`.
-3. Añade ese bloque después del último episodio desarrollado. La ficha de `PLAN` se sustituye sola: no hace falta borrarla.
+El validador comprueba, entre otras cosas, que la estructura de cada episodio sea la del formato, que ninguna frase supere 18 palabras por clip, que las láminas quepan en su tiempo, que los prompts no partan la acción ni nombren al personaje que no protagoniza, y que el acompañante aparezca al menos tres veces con clips del banco.
 
 ## Vigencia de los datos
 
