@@ -148,7 +148,7 @@ EP.push({
     ["C", "M", "Lcd", "Cae el agua y la mancha, envuelta en jabón, se desliza y se va.",
       "Plop stands facing the camera with the micelle ball stuck on his belly.",
       "Blue water drops fall onto Plop's belly and the micelle ball slides off and rolls away out of frame.",
-      "Ahora, agua. Y mira: la grasa ya no se resbala… ¡se va con ella!", "k"],
+      "Ahora, agua. Y mira: la grasa ya no se resbala… ¡se va con ella!", "k d=s"],
     ["C", "M", "L", "Plop, limpio, se da palmaditas en la panza.",
       "Plop stands facing the camera, perfectly clean.",
       "Plop pats his clean belly with both paddle arms and bounces happily.",
