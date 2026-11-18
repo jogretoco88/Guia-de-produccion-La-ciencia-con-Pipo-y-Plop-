@@ -12,13 +12,13 @@ EP.push({
   tags: "#DedosArrugados #CuerpoHumano",
   reto: "Pasa diez canicas mojadas de un bol con agua a otro vacío y cronometra cuánto tardas. Repítelo después de un baño, con los dedos arrugados. ¿Cuándo tardas menos?",
   objs: {
-    a: {tag: "@MANO", es: "Maqueta de mano",
+    a: {tag: "@MANO", z: "l", es: "Maqueta de mano",
         en: "the hand model (a big peach clay hand standing upright, palm facing out)",
         p: "A single oversized, friendly stop-motion polymer-clay hand model standing upright on a small white clay base, palm facing forward: smooth peach matte clay with five rounded fingers and soft fingertips. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@YEMA", es: "Yema por dentro",
+    b: {tag: "@YEMA", z: "l", es: "Yema por dentro",
         en: "the fingertip slice (a cut-open fingertip with a peach outer skin and a pale-pink inside with thin red tubes)",
         p: "A single oversized polymer-clay teaching model of a fingertip cut in half lengthwise: a thick peach matte clay outer skin layer over a soft pale-pink clay inside with thin red clay blood tubes running through it. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@CANICAS", es: "Canicas",
+    c: {tag: "@CANICAS", z: "t", es: "Canicas",
         en: "the marbles (colorful round clay marbles)",
         p: "A handful of small round polymer-clay marbles in bright red, blue, green and yellow, with a glossy look and deep fingerprints."}
   },

@@ -12,13 +12,13 @@ EP.push({
   tags: "#Electricidad #Pájaros",
   reto: "Sal con un adulto y, desde lejos, cuenta los pájaros que veas en los cables. ¿Alguno toca dos cables a la vez? Recuerda: los cables no se tocan nunca.",
   objs: {
-    a: {tag: "@PAJARO", es: "Gorrión",
+    a: {tag: "@PAJARO", z: "s", es: "Gorrión",
         en: "the sparrow (a small round brown clay sparrow)",
         p: "A single cute stop-motion polymer-clay sparrow: a small round brown and cream matte clay body, short wings, a tiny dark beak, black bead eyes and thin pink clay feet. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CABLE", es: "Cable eléctrico",
+    b: {tag: "@CABLE", z: "g", es: "Cable eléctrico",
         en: "the power line (a thick black clay cable stretched between grey poles)",
         p: "A single long, thick black matte polymer-clay cable with shiny grey metal strands visible at its cut end, stretched tight between two simple grey clay poles. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@CORRIENTE", es: "Bolitas de electricidad",
+    c: {tag: "@CORRIENTE", z: "t", es: "Bolitas de electricidad",
         en: "the glowing beads (tiny glowing yellow clay beads that stand for electricity)",
         p: "Many tiny round beads of bright yellow polymer clay with a soft glow, lined up in a stream. Deep fingerprints. They represent the flow of electricity."}
   },

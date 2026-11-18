@@ -43,6 +43,7 @@ EP.forEach((ep, i) => {
   for (const [k, o] of Object.entries(ep.objs || {})) {
     if (!/^[a-k]$/.test(k)) err(`${E} objeto ${k}`);
     for (const f of ["tag", "es", "en", "p"]) if (!o[f]) err(`${E} objeto ${k} sin ${f}`);
+    if (!/^[tsmlxg]$/.test(o.z || "")) err(`${E} objeto ${k} sin tamaño (z: t, s, m, l, x o g)`);
   }
   let c = 0, t = 0, tot = 0, shape = [], cur = "", coN = 0, bankN = 0, last = "";
   const used = {};
@@ -68,6 +69,7 @@ EP.forEach((ep, i) => {
         if (tags.includes(ep.star) !== (ep.star === "P" ? /\bPipo\b/ : /\bPlop\b/).test(scene + " " + act)) err(`${id} ingrediente y prompt no coinciden en el protagonista`);
         for (const f of (fl || "").split(" ").filter(Boolean)) {
           if (f[0] === "<") { const n = +f.slice(1); if (!(n >= 1 && n < c)) err(`${id} encadena mal ${f}`); }
+          else if (/^[a-e]=[tsmlxg]$/.test(f)) { if (!ep.objs[f[0]] || !tags.includes(f[0])) err(`${id} tamaño para un objeto que no está en la toma: ${f}`); }
           else if (!"ko".includes(f)) err(`${id} marca ${f}`);
         }
         last = "";

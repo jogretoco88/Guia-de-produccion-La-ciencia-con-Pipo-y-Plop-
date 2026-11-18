@@ -11,13 +11,13 @@ EP.push({
   tags: "#Hipo #CuerpoHumano",
   reto: "La próxima vez que tengas hipo, respira lento y cuenta cuántos «hip» pasan hasta que se va.",
   objs: {
-    a: {tag: "@PULMONES", es: "Maqueta de pulmones y diafragma",
+    a: {tag: "@PULMONES", z: "l", es: "Maqueta de pulmones y diafragma",
         en: "the lungs model (two plump coral-pink clay ovals standing above a curved crimson clay band, the diaphragm)",
         p: "A single adorable, simplified stop-motion polymer-clay anatomy model standing on its own: two plump solid coral-pink clay ovals (the lungs) side by side, sitting above one thick curved crimson-red clay band shaped like a dome (the diaphragm muscle). Solid uniform matte colors, deep fingerprints, simple bold shapes."},
-    b: {tag: "@GARGANTA", es: "Maqueta de la garganta (puerta de las cuerdas vocales)",
+    b: {tag: "@GARGANTA", z: "l", es: "Maqueta de la garganta (puerta de las cuerdas vocales)",
         en: "the throat-door model (a short upright pink clay tube topped by two small cream clay flaps that open and close like a double door)",
         p: "A single simplified stop-motion polymer-clay throat model: a short, wide, upright tube of solid light-pink matte clay, topped by two small cream clay flaps standing open like a tiny double door. Simple bold shapes, deep fingerprints."},
-    c: {tag: "@CEREBRO_NERVIO", es: "Maqueta de cerebro, nervio y pulmones",
+    c: {tag: "@CEREBRO_NERVIO", z: "l", es: "Maqueta de cerebro, nervio y pulmones",
         en: "the brain-and-nerve model (a small pink clay brain on the left joined by a long yellow clay cord to the lungs on the right)",
         p: "A single wide stop-motion polymer-clay model laid out from left to right: a small rounded pink clay brain on the left, a long thick yellow clay cord lying on the floor, and on the right two coral-pink clay ovals above a curved crimson clay band. The yellow cord joins the brain to the crimson band. Solid uniform matte colors, deep fingerprints."}
   },
