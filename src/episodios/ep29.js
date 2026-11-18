@@ -12,13 +12,13 @@ EP.push({
   tags: "#Luna #Espacio",
   reto: "Dibuja la Luna cada noche durante dos semanas, siempre a la misma hora. O prueba con una lámpara y una pelota que gira a tu alrededor.",
   objs: {
-    a: {tag: "@LUNA", z: "m", es: "Luna de arcilla",
+    a: {tag: "@LUNA", es: "Luna de arcilla",
         en: "the clay Moon (a grey clay ball with small craters, one half light grey and the other half dark grey)",
         p: "A single stop-motion polymer-clay Moon: a round ball with small shallow craters, exactly one half solid light-grey matte clay and the other half solid dark-grey matte clay. Deep fingerprints."},
-    b: {tag: "@TIERRA", z: "l", es: "Tierra de arcilla",
+    b: {tag: "@TIERRA", es: "Tierra de arcilla",
         en: "the clay Earth (a blue-and-green clay globe)",
         p: "A single stop-motion polymer-clay Earth globe: a round ball of solid blue matte clay with simple green clay continents, about twice as big as a clay Moon. Deep fingerprints."},
-    c: {tag: "@SOL", z: "l", es: "Sol de arcilla",
+    c: {tag: "@SOL", es: "Sol de arcilla",
         en: "the clay sun (a round bright-yellow clay ball with short chunky orange rays)",
         p: "A single oversized stop-motion polymer-clay sun: a round bright-yellow matte clay ball with eight short, chunky orange clay rays around it. Deep fingerprints, simple bold shapes."}
   },

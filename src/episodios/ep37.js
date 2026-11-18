@@ -12,13 +12,13 @@ EP.push({
   tags: "#Manzana #Cocina",
   reto: "Corta cuatro trozos de manzana: uno sin nada, otro con unas gotas de limón, otro dentro de un vaso de agua y otro en la nevera. Míralos cada media hora: ¿cuál se oscurece último?",
   objs: {
-    a: {tag: "@MANZANA", z: "m", es: "Manzana",
+    a: {tag: "@MANZANA", es: "Manzana",
         en: "the apple (a shiny red clay apple, cut in half when the scene says so, with creamy white flesh)",
         p: "A single oversized stop-motion polymer-clay apple: shiny red matte clay skin with a short brown stem and one green leaf. When cut in half it shows creamy white clay flesh and a small star of dark seeds. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CELDITAS", z: "l", es: "Celditas de la manzana",
+    b: {tag: "@CELDITAS", es: "Celditas de la manzana",
         en: "the apple cells (rounded pale-cream clay cells with green beads in one pocket and yellow beads in another)",
         p: "A group of oversized rounded pale-cream matte polymer-clay cells packed together like soap bubbles. Each cell holds small green clay beads in one pocket and small yellow clay beads in a separate pocket. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@LIMON", z: "s", es: "Medio limón",
+    c: {tag: "@LIMON", es: "Medio limón",
         en: "the lemon half (a bright yellow clay lemon cut in half)",
         p: "A single stop-motion polymer-clay lemon cut in half: bright yellow matte clay skin and a pale-yellow clay inside with simple segment lines. Deep fingerprints."}
   },

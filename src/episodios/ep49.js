@@ -12,10 +12,10 @@ EP.push({
   tags: "#Mareo #CuerpoHumano",
   reto: "Sobre el césped y con un adulto cerca, gira tres veces sin mirar nada y para. Después gira mirando siempre una banderita y girando la cabeza la última. ¿En cuál te mareas menos?",
   objs: {
-    a: {tag: "@OIDO", z: "l", es: "Oído interno",
+    a: {tag: "@OIDO", es: "Oído interno",
         en: "the inner ear model (three clear clay loops and a small coiled shell, filled with pale-blue liquid)",
         p: "A single oversized polymer-clay teaching model of the inner ear on a small white clay stand: three clear, glassy-looking clay loops at right angles to each other, joined to a small coiled snail-shell shape, all filled with pale-blue clay liquid. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@COCHE", z: "m", es: "Coche de juguete",
+    b: {tag: "@COCHE", es: "Coche de juguete",
         en: "the toy car (a small round red clay car)",
         p: "A single small, round stop-motion polymer-clay car with a shiny red matte body, clear clay windows and four black clay wheels. Deep fingerprints, simple bold shapes."}
   },

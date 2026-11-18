@@ -12,13 +12,13 @@ EP.push({
   tags: "#Semillas #Plantas",
   reto: "Pon algodón mojado en un frasco de cristal y mete tres frijoles o garbanzos pegados al cristal. Mantén el algodón húmedo. ¿Cuántos días tarda en salir la raíz? Luego pon el frasco de lado: ¿qué hace la raíz?",
   objs: {
-    a: {tag: "@FRIJOL", z: "s", es: "Frijol",
+    a: {tag: "@FRIJOL", es: "Frijol",
         en: "the bean (a big smooth brown clay bean that can split into two halves)",
         p: "A single oversized stop-motion polymer-clay bean with a smooth brown matte skin and a small pale scar on one side. When split open it shows two thick pale-cream halves with a tiny pale-green baby plant tucked between them. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@FRASCO_SEMILLAS", z: "m", es: "Frasco de germinación",
+    b: {tag: "@FRASCO_SEMILLAS", es: "Frasco de germinación",
         en: "the sprout jar (a clear clay jar packed with wet white cotton and brown beans pressed against the glass)",
         p: "A single clear glassy-looking polymer-clay jar packed with soft white clay cotton, with brown clay beans pressed against the inside of the glass. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@PUNTA_RAIZ", z: "l", es: "Punta de la raíz",
+    c: {tag: "@PUNTA_RAIZ", es: "Punta de la raíz",
         en: "the root tip (a giant rounded white clay root tip with tiny heavy brown grains in its cells)",
         p: "A single oversized polymer-clay teaching model of a root tip: a rounded white matte clay tip made of small visible cells, each holding a few tiny heavy brown clay grains. Deep fingerprints, simple bold shapes."}
   },

@@ -12,13 +12,13 @@ EP.push({
   tags: "#CerebroCongelado #Helado",
   reto: "La próxima vez que te dé cerebro congelado, aprieta la lengua contra el paladar y cuenta cuánto tarda en irse.",
   objs: {
-    a: {tag: "@HELADO", z: "m", es: "Helado de cucurucho",
+    a: {tag: "@HELADO", es: "Helado de cucurucho",
         en: "the ice cream cone (a light-brown clay cone with one round pink clay scoop)",
         p: "A single oversized stop-motion polymer-clay ice cream cone: a light-brown matte clay cone with a crisscross pattern, topped with one round scoop of pink matte clay. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CABEZA", z: "l", es: "Maqueta de cabeza por dentro",
+    b: {tag: "@CABEZA", es: "Maqueta de cabeza por dentro",
         en: "the head model (a friendly peach clay head shape cut in half and seen from the side, with a pink tongue)",
         p: "A single oversized, friendly, toy-like polymer-clay teaching model of a simple head cut in half and seen from the side: smooth peach matte clay outside, a pink clay tongue, the pink roof of the mouth, a pale bony layer above it and a soft pink brain area at the top. No face details, deep fingerprints, simple bold shapes."},
-    c: {tag: "@TUBITO", z: "l", es: "Tubito de sangre",
+    c: {tag: "@TUBITO", es: "Tubito de sangre",
         en: "the blood tube (a soft pale-pink clay tube with red clay beads inside)",
         p: "A single long, soft tube of pale-pink matte polymer clay, open along its top to show small round red clay beads inside. Deep fingerprints. It represents a blood vessel."}
   },
