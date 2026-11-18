@@ -17,7 +17,7 @@ EP.push({
     b: {tag: "@MAIZ_CORTE", z: "l", es: "Grano partido por la mitad",
         en: "the cut-open kernel model (thick yellow shell, white starch filling, one small cyan droplet in the center)",
         p: "A single oversized stop-motion polymer-clay model of a corn kernel cut cleanly in half, its flat cross-section facing the camera: a thick solid golden-yellow outer shell, a solid white starch filling, and one small glossy cyan clay droplet in the very center. Simple, bold, diagram-like shapes."},
-    c: {tag: "@PALOMITA", z: "m", es: "Palomita gigante",
+    c: {tag: "@PALOMITA", z: "l", es: "Palomita gigante",
         en: "the giant popcorn (fluffy irregular white clay with small yellow shell bits)",
         p: "A single oversized stop-motion polymer-clay popped popcorn, about waist-high to a puppet: fluffy irregular rounded lobes of solid matte white clay, with two small golden-yellow shell fragments tucked at its base."}
   },
@@ -45,7 +45,7 @@ EP.push({
       "The kernel shakes harder and harder and finally bursts open into a big fluffy white clay popcorn.",
       "[curious] Un grano de maíz es duro como una piedra. Pero con calor… [surprised] ¡se convierte en una nube!", "k"],
     ["C", "M", "Pc", "Pipo mira asombrado la palomita gigante.",
-      "Pipo stands on the left beside the popcorn, which is almost as tall as he is.",
+      "Pipo stands on the left beside the popcorn, which reaches up to his chest.",
       "Pipo slowly leans toward the popcorn, tilting his head from side to side in amazement.",
       "¿Cómo cabe algo tan grande y esponjoso dentro de algo tan pequeño y tan duro?"],
     ["R", "L7", "Plop también quiere saberlo. Hoy vamos a descubrir el secreto que esconde cada palomita."],
