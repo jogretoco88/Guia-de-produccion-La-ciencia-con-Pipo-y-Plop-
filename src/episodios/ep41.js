@@ -12,13 +12,13 @@ EP.push({
   tags: "#Mar #Ciencia",
   reto: "Disuelve dos cucharadas de sal en medio vaso de agua tibia, échalo en un plato junto a una ventana soleada y espera. ¿Cuántos días tarda en aparecer la sal?",
   objs: {
-    a: {tag: "@MAR", z: "g", es: "Trozo de mar",
+    a: {tag: "@MAR", es: "Trozo de mar",
         en: "the sea pool (a wide round dark-blue clay sea with small white wave crests)",
         p: "A single wide, shallow, round polymer-clay pool of dark-blue matte clay water with small white clay wave crests, edged by a thin pale-yellow clay sand rim. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@ROCA", z: "m", es: "Roca con minerales",
+    b: {tag: "@ROCA", es: "Roca con minerales",
         en: "the rock (a big grey clay rock with sparkly white bits)",
         p: "A single big rounded grey matte polymer-clay rock with small sparkly white and pink clay mineral bits pressed into its surface. Deep fingerprints, simple bold shape."},
-    c: {tag: "@PLATO_SALADO", z: "m", es: "Plato con agua salada",
+    c: {tag: "@PLATO_SALADO", es: "Plato con agua salada",
         en: "the salty plate (a shallow dark-blue clay plate holding clear water)",
         p: "A single shallow, round stop-motion polymer-clay plate of dark-blue matte clay, holding a thin layer of clear glossy clay water. Deep fingerprints, simple bold shape."}
   },

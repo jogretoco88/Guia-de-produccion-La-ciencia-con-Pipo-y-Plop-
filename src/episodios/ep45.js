@@ -12,13 +12,13 @@ EP.push({
   tags: "#Nubes #Clima",
   reto: "Con un adulto, llena un tercio de un frasco de vidrio con agua caliente y pon encima un plato con cubitos de hielo. Espera un minuto: ¿ves cómo se forma tu nube?",
   objs: {
-    a: {tag: "@NUBE", z: "g", es: "Nube",
+    a: {tag: "@NUBE", es: "Nube",
         en: "the cloud (a big fluffy white clay cumulus cloud)",
         p: "A single big, fluffy stop-motion polymer-clay cumulus cloud made of rounded puffs of soft white matte clay, slightly grey underneath. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@GOTITAS", z: "t", es: "Gotitas de nube",
+    b: {tag: "@GOTITAS", es: "Gotitas de nube",
         en: "the cloud droplets (many tiny round clear clay droplets, each with a tiny brown speck inside)",
         p: "Many tiny round droplets of clear glossy polymer clay floating far apart, each holding a tiny brown clay dust speck in its center. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@FRASCO", z: "m", es: "Frasco de la nube",
+    c: {tag: "@FRASCO", es: "Frasco de la nube",
         en: "the cloud jar (a clear clay jar with warm water and a small plate of ice cubes on top)",
         p: "A single clear glassy-looking polymer-clay jar half filled with pale-blue clay water, with a small white clay plate holding three pale-cyan clay ice cubes resting on its open top. Deep fingerprints, simple bold shapes."}
   },

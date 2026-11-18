@@ -27,19 +27,6 @@ La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador
 | Nivel de certeza | 45 de consenso · 5 de explicación más aceptada · 2 de ciencia abierta |
 | Preguntas ancla | 14 episodios con temas que se buscan todo el año |
 
-## Voz de ElevenLabs y duración
-
-El guion de cada episodio dura unos 4 minutos de voz (unas 570 palabras con la velocidad de la voz en 0,9). Es lo correcto: cada frase ocupa unos 6 de los 8 segundos de su clip, y el resto es respiro para la imagen, la música y los efectos. **Los 5:00 los dan los clips**, no la voz. Si se monta al ritmo de una voz generada de corrido, el episodio se queda en unos 3:30.
-
-Por eso la pestaña Guion incluye un archivo **.srt de tiempos**: se importa en DaVinci Resolve (File → Import → Subtitle) y marca dónde empieza cada frase. Se colocan primero los clips, después cada frase sobre su subtítulo.
-
-## Tamaño de los objetos
-
-Una imagen de referencia muestra el objeto solo y a pantalla completa, así que Flow no sabe si es una gota diminuta o una roca enorme, y tiende a hacerlo tan grande como el personaje. Cada uno de los 196 objetos tiene un tamaño fijado respecto al títere (unos 30 cm), y la guía lo escribe en cada prompt donde aparece con otro elemento. Además:
-
-- Cada episodio tiene una **hoja de escala** (pestaña Elenco): una imagen del protagonista junto a todos sus objetos en su tamaño real, para comprobar antes de gastar créditos de video.
-- Las tomas en las que el protagonista aparece junto a algo pequeño están marcadas como **escala crítica**: se compone primero el fotograma en Nano Banana Pro, se comprueba el tamaño y después se anima.
-
 ## Formato de cada episodio
 
 | Bloque | Tiempo | Piezas |

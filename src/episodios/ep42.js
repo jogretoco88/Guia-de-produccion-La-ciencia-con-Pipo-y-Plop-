@@ -12,13 +12,13 @@ EP.push({
   tags: "#Murciélagos #Animales",
   reto: "Juega al murciélago con tu familia en un lugar despejado: uno se tapa los ojos y los demás dan palmadas desde distintos sitios. ¿Consigue encontrarlos solo con el oído?",
   objs: {
-    a: {tag: "@MURCIELAGO", z: "m", es: "Murciélago",
+    a: {tag: "@MURCIELAGO", es: "Murciélago",
         en: "the bat (a small fuzzy brown clay bat with big ears and thin dark wings)",
         p: "A single cute stop-motion polymer-clay bat, about the size of a puppet's head: a fuzzy round brown matte clay body, big pointed ears, small black bead eyes, a tiny snout and two thin dark-brown clay wings with long finger bones visible under the skin. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@ONDAS", z: "m", es: "Ondas de sonido",
+    b: {tag: "@ONDAS", es: "Ondas de sonido",
         en: "the sound arcs (curved pale-yellow clay arcs)",
         p: "A set of thin curved arcs of pale-yellow matte polymer clay, each slightly bigger than the last, with deep fingerprints. They represent sound waves."},
-    c: {tag: "@POLILLA", z: "s", es: "Polilla",
+    c: {tag: "@POLILLA", es: "Polilla",
         en: "the moth (a small fuzzy grey clay moth)",
         p: "A single small stop-motion polymer-clay moth with a fuzzy grey matte clay body, two soft pale-grey wings and feathery antennae. Deep fingerprints, simple bold shapes."}
   },

@@ -24,9 +24,7 @@ EP.push({
   thumb: "¡BUAAA!", thumbIdea: "Qué se ve en la miniatura y color de fondo.",
   vocab: "palabras nuevas", syn: "términos de búsqueda", tags: "#Uno #Dos",
   reto: "Reto en casa, completo.",
-  objs: { a: {tag: "@CEBOLLA", z: "m", es: "Cebolla gigante", en: "the giant onion (…)", p: "Prompt de imagen en inglés."}, … },
-                             // z: tamaño junto al títere (unos 30 cm): t diminuto ~2 cm · s pequeño ~6 cm
-                             //    m mediano ~12 cm · l grande ~20 cm · x como el títere ~30 cm · g gigante >60 cm
+  objs: { a: {tag: "@CEBOLLA", es: "Cebolla gigante", en: "the giant onion (…)", p: "Prompt de imagen en inglés."}, … },
   facts: ["Dato verificable.", …],      // 4 a 6
   simpl: ["Lo que simplificamos.", …],  // 1 a 3
   sfx: [["Nombre", "English sound prompt"], …],   // 4
@@ -48,18 +46,7 @@ EP.push({
 
 - **Cámara**: `W` general · `M` medio · `C` primer plano · `X` macro · `T` cenital · `I` acercamiento lento.
 - **Ingredientes**: la letra del protagonista (`P` o `L`) y las letras de los objetos. Tres como máximo.
-- **Marcas**: `k` mejor con fotograma clave · `<18` parte del último fotograma del clip 18 · `o` la boca puede abrirse (bostezo) · `a=t` cambia el tamaño del objeto `a` solo en esta toma.
-
-## Tamaños (escala)
-
-Las imágenes de referencia muestran cada objeto solo y a pantalla completa, así que Flow no sabe cuánto mide. La página escribe el tamaño en cada prompt donde aparecen dos o más elementos, a partir del campo `z` de cada objeto.
-
-- Si el protagonista aparece junto a un objeto diminuto o pequeño (`t` o `s`), la toma se marca sola como **escala crítica**: su tarjeta propone primero el fotograma clave en Nano Banana Pro y deja los ingredientes sueltos como ruta rápida.
-- No escribas tamaños en la escena («a giant drop»). Si una toma necesita otro tamaño, usa la marca `a=…`.
-
-## Voz y duración
-
-Cada frase dura unos 6 de los 8 segundos de su clip (ElevenLabs, Eleven v3, velocidad 0,9: unas 2,45 palabras por segundo). La voz completa dura unos 4 minutos y los 5:00 los dan los clips. Por eso cada frase tiene un máximo de 18 palabras, y en el montaje se coloca al comienzo de su clip con el archivo .srt de la pestaña Guion.
+- **Marcas**: `k` mejor con fotograma clave · `<18` parte del último fotograma del clip 18 · `o` la boca puede abrirse (bostezo).
 
 ## Esqueleto fijo (5:00 = 34 clips de 8 s + láminas de 4, 6, 8, 6 y 4 s)
 

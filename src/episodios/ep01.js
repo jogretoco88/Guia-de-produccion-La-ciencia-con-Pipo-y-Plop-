@@ -11,13 +11,13 @@ EP.push({
   tags: "#Palomitas #Experimentos",
   reto: "Después de hacer palomitas con un adulto, cuenten los granos que no reventaron y busquen su grieta con una lupa.",
   objs: {
-    a: {tag: "@MAIZ", z: "m", es: "Grano de maíz gigante",
+    a: {tag: "@MAIZ", es: "Grano de maíz gigante",
         en: "the giant corn kernel (knee-high, solid golden-yellow clay with a cream-white base)",
         p: "A single full-body product shot of an oversized, sturdy stop-motion polymer-clay corn kernel, about knee-high to a puppet. Solid uniform golden-yellow matte clay with a rounded cream-white base, deep fingerprints and tool marks. One single solid piece."},
-    b: {tag: "@MAIZ_CORTE", z: "l", es: "Grano partido por la mitad",
+    b: {tag: "@MAIZ_CORTE", es: "Grano partido por la mitad",
         en: "the cut-open kernel model (thick yellow shell, white starch filling, one small cyan droplet in the center)",
         p: "A single oversized stop-motion polymer-clay model of a corn kernel cut cleanly in half, its flat cross-section facing the camera: a thick solid golden-yellow outer shell, a solid white starch filling, and one small glossy cyan clay droplet in the very center. Simple, bold, diagram-like shapes."},
-    c: {tag: "@PALOMITA", z: "m", es: "Palomita gigante",
+    c: {tag: "@PALOMITA", es: "Palomita gigante",
         en: "the giant popcorn (fluffy irregular white clay with small yellow shell bits)",
         p: "A single oversized stop-motion polymer-clay popped popcorn, about waist-high to a puppet: fluffy irregular rounded lobes of solid matte white clay, with two small golden-yellow shell fragments tucked at its base."}
   },
