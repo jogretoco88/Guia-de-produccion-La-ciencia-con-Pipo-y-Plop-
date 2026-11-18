@@ -12,13 +12,13 @@ EP.push({
   tags: "#Colores #Ciencia",
   reto: "Recorta un círculo de cartón, pinta una mitad de azul y la otra de amarillo, atraviésalo con un lápiz por el centro y hazlo girar como una peonza. ¿Ves verde o gris?",
   objs: {
-    a: {tag: "@PINTURAS", es: "Botes de pintura",
+    a: {tag: "@PINTURAS", z: "m", es: "Botes de pintura",
         en: "the paint pots (three small clay pots of red, yellow and blue paint)",
         p: "Three small round stop-motion polymer-clay paint pots in a row, filled with glossy red, yellow and blue clay paint. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@LINTERNAS", es: "Linternas de colores",
+    b: {tag: "@LINTERNAS", z: "s", es: "Linternas de colores",
         en: "the color flashlights (three small clay flashlights shining red, green and blue light)",
         p: "Three small stop-motion polymer-clay flashlights side by side: grey matte clay tubes with round lenses, one glowing red, one green and one blue. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@PRISMA", es: "Prisma",
+    c: {tag: "@PRISMA", z: "m", es: "Prisma",
         en: "the prism (a clear triangular clay prism)",
         p: "A single clear, glassy-looking triangular polymer-clay prism standing upright, with smooth faces and deep fingerprints."}
   },

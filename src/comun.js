@@ -117,6 +117,28 @@ var KIT = [
 ];
 
 /* =====================================================================
+   ESCALA: tamaño real de cada objeto junto al títere (unos 30 cm de alto).
+   Las imágenes de referencia muestran cada objeto solo, sin nada que dé su
+   tamaño; por eso el tamaño se escribe en cada prompt donde aparece con
+   otro elemento. Código en el campo z de cada objeto.
+   ===================================================================== */
+var SIZES = {
+  t: ["Diminuto", "unos 2 cm, más pequeño que la manopla", "tiny, about 2 cm", "much smaller than {N}'s paddle hand"],
+  s: ["Pequeño", "unos 6 cm, como la manopla", "small, about 6 cm", "about the size of {N}'s paddle hand"],
+  m: ["Mediano", "unos 12 cm, como la cabeza", "medium-sized, about 12 cm", "about the size of {N}'s head"],
+  l: ["Grande", "unos 20 cm, le llega al pecho", "large, about 20 cm", "reaching up to {N}'s chest"],
+  x: ["Como el títere", "unos 30 cm, igual de alto", "about 30 cm", "as tall as {N}"],
+  g: ["Gigante", "más de 60 cm, más grande que el títere", "very large, more than 60 cm", "much bigger than {N}"]
+};
+
+/* =====================================================================
+   VOZ: ritmo medido en ElevenLabs (Eleven v3, velocidad 1,0): el guion
+   del Ep. 2, de unas 570 palabras, dio 3:30. Son unas 2,7 palabras por
+   segundo. Con la velocidad en 0,9 baja a unas 2,45.
+   ===================================================================== */
+var VOICE = {rate: 2.7, speed: 0.9, lead: 0.4};
+
+/* =====================================================================
    PLAN ANUAL: categorías, motores de interés, temporadas y niveles de certeza
    ===================================================================== */
 var CATS = {

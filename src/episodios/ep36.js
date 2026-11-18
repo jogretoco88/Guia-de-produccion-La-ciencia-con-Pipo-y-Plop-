@@ -12,13 +12,13 @@ EP.push({
   tags: "#Hormigas #Animales",
   reto: "Con un adulto, deja una miguita de galleta cerca de un hormiguero y mira el reloj. ¿Cuánto tardan en llegar diez hormigas? Obsérvalas sin tocarlas.",
   objs: {
-    a: {tag: "@HORMIGA", es: "Hormiga",
+    a: {tag: "@HORMIGA", z: "s", es: "Hormiga",
         en: "the ant (a small red-brown clay ant)",
         p: "A single cute stop-motion polymer-clay ant, about the size of a puppet's hand: three round red-brown matte clay body parts, a thin neck, six thin legs, two bent antennae and small black bead eyes. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@HOJA", es: "Trozo de hoja",
+    b: {tag: "@HOJA", z: "m", es: "Trozo de hoja",
         en: "the leaf piece (a half-moon piece of green clay leaf)",
         p: "A single half-moon shaped piece of bright green matte polymer-clay leaf with a pale vein, several times bigger than the ant. Deep fingerprints."},
-    c: {tag: "@CUBOS", es: "Cubos de bloques",
+    c: {tag: "@CUBOS", z: "m", es: "Cubos de bloques",
         en: "the block cubes (one small orange clay block and a bigger cube built from eight of the same blocks)",
         p: "Two orange matte polymer-clay shapes: a single small cube block, and a bigger cube built from eight of the same small blocks stacked two by two by two. Deep fingerprints, visible seams between the blocks."}
   },

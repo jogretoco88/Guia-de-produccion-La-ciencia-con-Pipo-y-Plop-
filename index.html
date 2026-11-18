@@ -101,6 +101,7 @@ ul.plain li::marker{color:var(--pipo)}
 .copy.txt{font:400 .95rem/1.55 var(--fb)}
 .btn{align-self:flex-start;min-height:40px;padding:0 14px;border:1px solid var(--pipo);border-radius:9px;background:var(--pipo);color:var(--on-pipo);font:700 .86rem var(--fb)}
 .btn.ghost{background:transparent;color:var(--pipo)}
+a.btn{display:inline-flex;align-items:center;text-decoration:none}
 .cb{display:flex;flex-direction:column;gap:6px;min-width:0}
 .lab{font:700 .74rem/1.2 var(--fb);letter-spacing:.07em;text-transform:uppercase;color:var(--mut)}
 
@@ -341,6 +342,28 @@ var KIT = [
 ];
 
 /* =====================================================================
+   ESCALA: tamaño real de cada objeto junto al títere (unos 30 cm de alto).
+   Las imágenes de referencia muestran cada objeto solo, sin nada que dé su
+   tamaño; por eso el tamaño se escribe en cada prompt donde aparece con
+   otro elemento. Código en el campo z de cada objeto.
+   ===================================================================== */
+var SIZES = {
+  t: ["Diminuto", "unos 2 cm, más pequeño que la manopla", "tiny, about 2 cm", "much smaller than {N}'s paddle hand"],
+  s: ["Pequeño", "unos 6 cm, como la manopla", "small, about 6 cm", "about the size of {N}'s paddle hand"],
+  m: ["Mediano", "unos 12 cm, como la cabeza", "medium-sized, about 12 cm", "about the size of {N}'s head"],
+  l: ["Grande", "unos 20 cm, le llega al pecho", "large, about 20 cm", "reaching up to {N}'s chest"],
+  x: ["Como el títere", "unos 30 cm, igual de alto", "about 30 cm", "as tall as {N}"],
+  g: ["Gigante", "más de 60 cm, más grande que el títere", "very large, more than 60 cm", "much bigger than {N}"]
+};
+
+/* =====================================================================
+   VOZ: ritmo medido en ElevenLabs (Eleven v3, velocidad 1,0): el guion
+   del Ep. 2, de unas 570 palabras, dio 3:30. Son unas 2,7 palabras por
+   segundo. Con la velocidad en 0,9 baja a unas 2,45.
+   ===================================================================== */
+var VOICE = {rate: 2.7, speed: 0.9, lead: 0.4};
+
+/* =====================================================================
    PLAN ANUAL: categorías, motores de interés, temporadas y niveles de certeza
    ===================================================================== */
 var CATS = {
@@ -382,13 +405,13 @@ EP.push({
   tags: "#Palomitas #Experimentos",
   reto: "Después de hacer palomitas con un adulto, cuenten los granos que no reventaron y busquen su grieta con una lupa.",
   objs: {
-    a: {tag: "@MAIZ", es: "Grano de maíz gigante",
+    a: {tag: "@MAIZ", z: "m", es: "Grano de maíz gigante",
         en: "the giant corn kernel (knee-high, solid golden-yellow clay with a cream-white base)",
         p: "A single full-body product shot of an oversized, sturdy stop-motion polymer-clay corn kernel, about knee-high to a puppet. Solid uniform golden-yellow matte clay with a rounded cream-white base, deep fingerprints and tool marks. One single solid piece."},
-    b: {tag: "@MAIZ_CORTE", es: "Grano partido por la mitad",
+    b: {tag: "@MAIZ_CORTE", z: "l", es: "Grano partido por la mitad",
         en: "the cut-open kernel model (thick yellow shell, white starch filling, one small cyan droplet in the center)",
         p: "A single oversized stop-motion polymer-clay model of a corn kernel cut cleanly in half, its flat cross-section facing the camera: a thick solid golden-yellow outer shell, a solid white starch filling, and one small glossy cyan clay droplet in the very center. Simple, bold, diagram-like shapes."},
-    c: {tag: "@PALOMITA", es: "Palomita gigante",
+    c: {tag: "@PALOMITA", z: "m", es: "Palomita gigante",
         en: "the giant popcorn (fluffy irregular white clay with small yellow shell bits)",
         p: "A single oversized stop-motion polymer-clay popped popcorn, about waist-high to a puppet: fluffy irregular rounded lobes of solid matte white clay, with two small golden-yellow shell fragments tucked at its base."}
   },
@@ -558,16 +581,16 @@ EP.push({
   tags: "#Jabón #LavadoDeManos",
   reto: "Lávate las manos con jabón frotando 20 segundos. ¿Qué canción dura lo mismo?",
   objs: {
-    a: {tag: "@GRASA", es: "Mancha de grasa",
+    a: {tag: "@GRASA", z: "s", es: "Mancha de grasa",
         en: "the grease blob (an irregular solid chocolate-brown clay blob)",
         p: "A single oversized stop-motion polymer-clay grease blob: an irregular, lumpy, solid chocolate-brown matte clay mass with deep fingerprints. One single solid piece."},
-    b: {tag: "@JABON", es: "Pieza de jabón (cabeza y cola)",
+    b: {tag: "@JABON", z: "t", es: "Pieza de jabón (cabeza y cola)",
         en: "the soap piece (a bubblegum-pink clay ball head with one short yellow clay tail peg)",
         p: "A single oversized stop-motion polymer-clay soap molecule shaped like a tadpole: one smooth bubblegum-pink clay ball as the head, with one short chunky yellow clay peg sticking out as the tail. Solid uniform matte colors, deep fingerprints."},
-    c: {tag: "@GOTA", es: "Gota de agua",
+    c: {tag: "@GOTA", z: "t", es: "Gota de agua",
         en: "the water drop (a solid sky-blue clay teardrop)",
         p: "A single oversized stop-motion polymer-clay water drop: a plump teardrop of solid uniform sky-blue matte clay, standing upright, with deep fingerprints."},
-    d: {tag: "@MICELA", es: "Micela (grasa envuelta en jabón)",
+    d: {tag: "@MICELA", z: "m", es: "Micela (grasa envuelta en jabón)",
         en: "the micelle ball (the brown grease blob completely wrapped by pink soap heads, their yellow tails pointing inward)",
         p: "A single oversized stop-motion polymer-clay micelle model: a chocolate-brown clay blob in the center, completely surrounded by a ring of bubblegum-pink clay balls, each joined to the blob by a short yellow clay peg pointing inward. Solid uniform matte colors, deep fingerprints."}
   },
@@ -741,19 +764,19 @@ EP.push({
   tags: "#Picante #CuerpoHumano",
   reto: "Pregunta en casa quién aguanta más el picante y qué toma para calmarlo. Cuéntales por qué la leche funciona mejor que el agua.",
   objs: {
-    a: {tag: "@AJI", es: "Ají rojo gigante",
+    a: {tag: "@AJI", z: "m", es: "Ají rojo gigante",
         en: "the giant chili (a curved crimson-red clay chili with a thick green stem)",
         p: "A single oversized, curved stop-motion polymer-clay chili pepper in solid uniform crimson-red matte clay, with a thick solid green clay stem. Deep fingerprints and sculpted facets."},
-    b: {tag: "@AJI_CORTE", es: "Ají partido por la mitad",
+    b: {tag: "@AJI_CORTE", z: "l", es: "Ají partido por la mitad",
         en: "the cut-open chili model (red walls, white inner veins, a few small cream seeds)",
         p: "A single oversized stop-motion polymer-clay chili pepper cut lengthwise, its open inside facing the camera: thick crimson-red walls, two thick white clay inner veins running along it, and a few small cream clay seeds attached to the veins. Simple, bold, diagram-like shapes."},
-    c: {tag: "@LENGUA", es: "Maqueta de la lengua con sensores",
+    c: {tag: "@LENGUA", z: "l", es: "Maqueta de la lengua con sensores",
         en: "the tongue model (a thick pink clay tongue slab with a few round red clay buttons on top)",
         p: "A single oversized stop-motion polymer-clay tongue model: a thick, rounded slab of solid bubblegum-pink matte clay lying flat, with five round red clay buttons sitting on its top surface. Simple and friendly, deep fingerprints."},
-    d: {tag: "@CAPSAICINA", es: "Bolitas de capsaicina",
+    d: {tag: "@CAPSAICINA", z: "t", es: "Bolitas de capsaicina",
         en: "the capsaicin balls (small bright-yellow clay balls)",
         p: "Three small stop-motion polymer-clay balls of solid uniform bright-yellow matte clay, side by side, with deep fingerprints."},
-    e: {tag: "@LECHE", es: "Vaso de leche",
+    e: {tag: "@LECHE", z: "s", es: "Vaso de leche",
         en: "the glass of milk (a chunky white clay glass filled with white clay milk)",
         p: "A single oversized stop-motion polymer-clay drinking glass: a chunky, opaque pale-grey clay cup filled to the top with solid white clay milk. Deep fingerprints, solid uniform matte colors."}
   },
@@ -931,13 +954,13 @@ EP.push({
   tags: "#Hipo #CuerpoHumano",
   reto: "La próxima vez que tengas hipo, respira lento y cuenta cuántos «hip» pasan hasta que se va.",
   objs: {
-    a: {tag: "@PULMONES", es: "Maqueta de pulmones y diafragma",
+    a: {tag: "@PULMONES", z: "l", es: "Maqueta de pulmones y diafragma",
         en: "the lungs model (two plump coral-pink clay ovals standing above a curved crimson clay band, the diaphragm)",
         p: "A single adorable, simplified stop-motion polymer-clay anatomy model standing on its own: two plump solid coral-pink clay ovals (the lungs) side by side, sitting above one thick curved crimson-red clay band shaped like a dome (the diaphragm muscle). Solid uniform matte colors, deep fingerprints, simple bold shapes."},
-    b: {tag: "@GARGANTA", es: "Maqueta de la garganta (puerta de las cuerdas vocales)",
+    b: {tag: "@GARGANTA", z: "l", es: "Maqueta de la garganta (puerta de las cuerdas vocales)",
         en: "the throat-door model (a short upright pink clay tube topped by two small cream clay flaps that open and close like a double door)",
         p: "A single simplified stop-motion polymer-clay throat model: a short, wide, upright tube of solid light-pink matte clay, topped by two small cream clay flaps standing open like a tiny double door. Simple bold shapes, deep fingerprints."},
-    c: {tag: "@CEREBRO_NERVIO", es: "Maqueta de cerebro, nervio y pulmones",
+    c: {tag: "@CEREBRO_NERVIO", z: "l", es: "Maqueta de cerebro, nervio y pulmones",
         en: "the brain-and-nerve model (a small pink clay brain on the left joined by a long yellow clay cord to the lungs on the right)",
         p: "A single wide stop-motion polymer-clay model laid out from left to right: a small rounded pink clay brain on the left, a long thick yellow clay cord lying on the floor, and on the right two coral-pink clay ovals above a curved crimson clay band. The yellow cord joins the brain to the crimson band. Solid uniform matte colors, deep fingerprints."}
   },
@@ -1115,16 +1138,16 @@ EP.push({
   tags: "#Hielo #Agua",
   reto: "Con un adulto, pon hielo en un vaso con agua y míralo de lado: ¿cuánto hielo queda bajo el agua?",
   objs: {
-    a: {tag: "@HIELO", es: "Cubo de hielo gigante",
+    a: {tag: "@HIELO", z: "m", es: "Cubo de hielo gigante",
         en: "the giant ice cube (a slightly rounded pale icy-cyan clay cube)",
         p: "A single oversized, slightly rounded stop-motion polymer-clay cube of solid uniform pale icy-cyan matte clay, about knee-high to a puppet, with deep fingerprints."},
-    b: {tag: "@TINA", es: "Tina de agua",
+    b: {tag: "@TINA", z: "g", es: "Tina de agua",
         en: "the water tub (a low round white clay rim filled with flat dark-blue clay water)",
         p: "A single oversized stop-motion polymer-clay water tub: a low, wide, round rim of solid white matte clay, filled to the top with flat solid dark-blue clay as the water surface. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@MOLECULA", es: "Molécula de agua",
+    c: {tag: "@MOLECULA", z: "s", es: "Molécula de agua",
         en: "the water molecule (a red clay ball with two small white clay ears, like a bear's head)",
         p: "A single oversized stop-motion polymer-clay water molecule: one large ball of solid red matte clay with two small white clay balls attached on top like the ears of a teddy bear's head. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@ANILLO", es: "Anillo de hielo (seis moléculas)",
+    d: {tag: "@ANILLO", z: "m", es: "Anillo de hielo (seis moléculas)",
         en: "the ice ring model (six water molecules joined in a wide hexagonal ring with an empty center)",
         p: "A single stop-motion polymer-clay ice crystal model seen from above: six water molecules, each a red clay ball with two small white clay ears, joined ear to ball in a wide, regular hexagonal ring with a large empty center. Solid uniform matte colors, deep fingerprints."}
   },
@@ -1302,16 +1325,16 @@ EP.push({
   tags: "#Cebolla #Cocina",
   reto: "Con un adulto: corten media cebolla recién sacada de la nevera y media sin enfriar. ¿Cuál hace llorar menos?",
   objs: {
-    a: {tag: "@CEBOLLA", es: "Cebolla gigante",
+    a: {tag: "@CEBOLLA", z: "m", es: "Cebolla gigante",
         en: "the giant onion (a round golden-brown clay onion with a small green sprout on top)",
         p: "A single oversized stop-motion polymer-clay onion, about knee-high to a puppet: a round, solid golden-brown matte clay bulb with a small green clay sprout on top. Deep fingerprints, one single solid piece."},
-    b: {tag: "@CEBOLLA_CORTE", es: "Cebolla partida",
+    b: {tag: "@CEBOLLA_CORTE", z: "m", es: "Cebolla partida",
         en: "the cut onion model (half an onion showing white concentric clay layers)",
         p: "A single oversized stop-motion polymer-clay half onion lying with its flat cut face toward the camera: a golden-brown outer skin and thick white concentric clay rings inside. Simple, bold, diagram-like shapes."},
-    c: {tag: "@CELDA", es: "Maqueta de una celda de cebolla",
+    c: {tag: "@CELDA", z: "l", es: "Maqueta de una celda de cebolla",
         en: "the onion cell model (a white clay box in cross-section with two compartments: green clay balls in one, orange clay balls in the other)",
         p: "A single oversized stop-motion polymer-clay model of a plant cell shown in cross-section: a white clay box with rounded corners, divided by one inner clay wall into two compartments, the left one holding five small green clay balls and the right one five small orange clay balls. Simple, bold, diagram-like shapes."},
-    d: {tag: "@OJO", es: "Maqueta de un ojo",
+    d: {tag: "@OJO", z: "m", es: "Maqueta de un ojo",
         en: "the eye model (a big friendly white clay eyeball with a brown iris under a peach clay eyelid)",
         p: "A single oversized, friendly stop-motion polymer-clay eye model: a round white clay eyeball with a brown clay iris and a black pupil, resting under a soft peach clay upper eyelid. Solid uniform matte colors, deep fingerprints, cute and simple."}
   },
@@ -1479,19 +1502,19 @@ EP.push({
   tags: "#CieloAzul #Luz",
   reto: "Con un adulto: llena un vaso con agua, añade unas gotas de leche y alúmbralo con una linterna en un cuarto oscuro. De lado se ve azulado; de frente, anaranjado.",
   objs: {
-    a: {tag: "@SOL", es: "Sol de arcilla",
+    a: {tag: "@SOL", z: "m", es: "Sol de arcilla",
         en: "the clay sun (a round bright-yellow clay ball with short chunky orange rays)",
         p: "A single oversized stop-motion polymer-clay sun: a round bright-yellow matte clay ball with eight short, chunky orange clay rays around it. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@LUZ_BLANCA", es: "Rayo de luz blanca",
+    b: {tag: "@LUZ_BLANCA", z: "l", es: "Rayo de luz blanca",
         en: "the white light beam (a long thick white clay rod)",
         p: "A single long, thick, straight rod of solid white matte polymer clay lying horizontally, with deep fingerprints. It represents a beam of white light."},
-    c: {tag: "@COLORES", es: "Bolitas de colores (la luz)",
+    c: {tag: "@COLORES", z: "t", es: "Bolitas de colores (la luz)",
         en: "the color balls (small clay balls in rainbow colors: red, orange, yellow, green, blue and violet)",
         p: "A neat row of six small stop-motion polymer-clay balls in solid rainbow colors, from left to right: red, orange, yellow, green, blue and violet. Deep fingerprints, evenly spaced."},
-    d: {tag: "@AIRE", es: "Moléculas de aire",
+    d: {tag: "@AIRE", z: "t", es: "Moléculas de aire",
         en: "the air molecules (small pale-grey clay balls floating apart from each other)",
         p: "Five small stop-motion polymer-clay balls of solid pale-grey matte clay, spread apart from each other with clear space between them, each with deep fingerprints."},
-    e: {tag: "@CIELO", es: "Panel del cielo",
+    e: {tag: "@CIELO", z: "g", es: "Panel del cielo",
         en: "the sky panel (a wide flat sky-blue clay arch standing upright like a backdrop)",
         p: "A single wide, flat, upright arch of solid sky-blue matte polymer clay standing like a small stage backdrop, about twice as tall as a puppet, with deep fingerprints."}
   },
@@ -1662,16 +1685,16 @@ EP.push({
   tags: "#CuerpoHumano #Bacterias",
   reto: "Entrevista: pregunta en casa qué comidas dan más gases. Pista: frijoles, brócoli y refrescos.",
   objs: {
-    a: {tag: "@INTESTINO", es: "Maqueta del intestino",
+    a: {tag: "@INTESTINO", z: "l", es: "Maqueta del intestino",
         en: "the gut model (a long coiled pink clay tube shown in cross-section, open at its right end)",
         p: "A single oversized, friendly stop-motion polymer-clay intestine model: a long, thick, softly coiled tube of solid pink matte clay, cut open along its front so the inside is visible, with one open end on the right. Simple bold shapes, deep fingerprints."},
-    b: {tag: "@BACTERIAS", es: "Bacterias del intestino",
+    b: {tag: "@BACTERIAS", z: "t", es: "Bacterias del intestino",
         en: "the gut bacteria (small clay capsules in purple, orange and teal with tiny dot eyes)",
         p: "Five small, cute stop-motion polymer-clay bacteria: short rounded capsules in solid purple, orange and teal matte clay, each with two tiny black dot eyes. Deep fingerprints, simple shapes."},
-    c: {tag: "@GAS", es: "Burbujas de gas",
+    c: {tag: "@GAS", z: "t", es: "Burbujas de gas",
         en: "the gas bubbles (small pale-yellow clay balls)",
         p: "Six small stop-motion polymer-clay balls of solid pale-yellow matte clay, spread loosely, each with deep fingerprints. They represent gas bubbles."},
-    d: {tag: "@FRIJOL", es: "Frijol gigante",
+    d: {tag: "@FRIJOL", z: "m", es: "Frijol gigante",
         en: "the giant bean (a dark red clay kidney bean)",
         p: "A single oversized stop-motion polymer-clay kidney bean in solid dark red matte clay, with deep fingerprints. One single solid piece."}
   },
@@ -1835,16 +1858,16 @@ EP.push({
   tags: "#Imanes #Magnetismo",
   reto: "Búsqueda del tesoro: con un imán de nevera, descubre qué cosas de tu casa se pegan y cuáles no. Aléjalo de pantallas y tarjetas.",
   objs: {
-    a: {tag: "@IMAN", es: "Imán de barra",
+    a: {tag: "@IMAN", z: "m", es: "Imán de barra",
         en: "the bar magnet (a chunky clay bar, half red and half blue)",
         p: "A single oversized stop-motion polymer-clay bar magnet: a chunky rectangular bar, one half solid red and the other half solid blue matte clay, with deep fingerprints."},
-    b: {tag: "@IMAN_CORTE", es: "Imán por dentro (flechitas ordenadas)",
+    b: {tag: "@IMAN_CORTE", z: "l", es: "Imán por dentro (flechitas ordenadas)",
         en: "the cut magnet model (a grey clay block in cross-section filled with small yellow clay arrows all pointing the same way)",
         p: "A single oversized stop-motion polymer-clay block of solid grey matte clay shown in cross-section, its flat face covered with neat rows of small yellow clay arrows, all pointing to the right. Simple, bold, diagram-like shapes."},
-    c: {tag: "@HIERRO_CORTE", es: "Hierro por dentro (flechitas desordenadas)",
+    c: {tag: "@HIERRO_CORTE", z: "l", es: "Hierro por dentro (flechitas desordenadas)",
         en: "the plain iron model (a grey clay block in cross-section filled with small yellow clay arrows pointing in random directions)",
         p: "A single oversized stop-motion polymer-clay block of solid grey matte clay shown in cross-section, its flat face covered with small yellow clay arrows pointing in many different random directions. Simple, bold, diagram-like shapes."},
-    d: {tag: "@CLAVO", es: "Clavo gigante",
+    d: {tag: "@CLAVO", z: "m", es: "Clavo gigante",
         en: "the giant nail (a thick grey clay nail)",
         p: "A single oversized stop-motion polymer-clay nail lying on its side: a thick grey matte clay shaft with a flat round head and a blunt tip, with deep fingerprints."}
   },
@@ -2019,16 +2042,16 @@ EP.push({
   tags: "#Gatos #Animales",
   reto: "Mira a un gato, o un video, saltar y aterrizar. ¿Qué mueve primero: la cabeza o las patas? Nunca lo pruebes con un gato de verdad.",
   objs: {
-    a: {tag: "@GATO", es: "Gato de arcilla",
+    a: {tag: "@GATO", z: "l", es: "Gato de arcilla",
         en: "the clay cat (a small orange clay cat with a long tail and pointy ears)",
         p: "A single cute stop-motion polymer-clay cat, about knee-high to a puppet: solid orange matte clay body, pointy ears, a long tail, four short legs, small black bead eyes and a tiny pink nose. Deep fingerprints, simple shapes."},
-    b: {tag: "@COJIN", es: "Cojín alto",
+    b: {tag: "@COJIN", z: "x", es: "Cojín alto",
         en: "the tall cushion (a big square purple clay cushion)",
         p: "A single big, tall, square stop-motion polymer-clay cushion of solid purple matte clay with softly rounded corners, about as tall as a puppet. Deep fingerprints."},
-    c: {tag: "@COLUMNA", es: "Maqueta de columna flexible",
+    c: {tag: "@COLUMNA", z: "l", es: "Maqueta de columna flexible",
         en: "the flexible spine model (a row of small white clay blocks joined like a chain)",
         p: "A single stop-motion polymer-clay spine model lying horizontally: a row of about twelve small white clay blocks joined one to the next like a chain, gently curved. Simple, bold, diagram-like shapes."},
-    d: {tag: "@OIDO", es: "Maqueta del oído interno",
+    d: {tag: "@OIDO", z: "m", es: "Maqueta del oído interno",
         en: "the inner ear model (a small pink clay snail-shaped shell with three curved clay loops on top)",
         p: "A single oversized, simplified stop-motion polymer-clay inner ear model: a pink clay snail-shaped shell with three curved pink clay loops rising from it like small arches. Solid uniform matte colors, deep fingerprints."}
   },
@@ -2194,16 +2217,16 @@ EP.push({
   tags: "#Burbujas #Experimentos",
   reto: "Echa unas pasas en un vaso de agua con gas: suben y bajan como buzos. Cuenta cuántos viajes hace cada una.",
   objs: {
-    a: {tag: "@BOTELLA", es: "Botella de refresco",
+    a: {tag: "@BOTELLA", z: "m", es: "Botella de refresco",
         en: "the soda bottle (a chunky orange clay bottle with a red clay cap)",
         p: "A single oversized stop-motion polymer-clay soda bottle, about waist-high to a puppet: a chunky bottle of solid orange matte clay with a round red clay cap. Deep fingerprints, simple bold shape."},
-    b: {tag: "@BOTELLA_CORTE", es: "Botella por dentro",
+    b: {tag: "@BOTELLA_CORTE", z: "l", es: "Botella por dentro",
         en: "the cut-open bottle model (an orange clay bottle in cross-section, filled with flat amber clay liquid, with a red cap)",
         p: "A single oversized stop-motion polymer-clay bottle shown in cross-section, facing the camera: an orange clay outline, filled almost to the top with flat solid amber clay liquid, a small empty space under a red clay cap. Simple, bold, diagram-like shapes."},
-    c: {tag: "@GAS", es: "Bolitas de gas",
+    c: {tag: "@GAS", z: "t", es: "Bolitas de gas",
         en: "the gas balls (small white clay balls)",
         p: "Six small stop-motion polymer-clay balls of solid white matte clay, spread loosely, each with deep fingerprints. They represent gas."},
-    d: {tag: "@VASO", es: "Vaso de refresco",
+    d: {tag: "@VASO", z: "s", es: "Vaso de refresco",
         en: "the clay glass (a chunky pale-grey clay glass filled with amber clay soda)",
         p: "A single oversized stop-motion polymer-clay drinking glass: a chunky pale-grey clay cup filled to the top with solid amber clay soda. Deep fingerprints, simple bold shape."}
   },
@@ -2370,16 +2393,16 @@ EP.push({
   tags: "#Dientes #CuerpoHumano",
   reto: "Cuenta tus dientes frente al espejo. ¿Cuántos son de leche y cuántos nuevos? Dibuja tu sonrisa y márcalos.",
   objs: {
-    a: {tag: "@DIENTE", es: "Diente de leche",
+    a: {tag: "@DIENTE", z: "s", es: "Diente de leche",
         en: "the baby tooth (a small white clay tooth with a root)",
         p: "A single oversized, cute stop-motion polymer-clay baby tooth standing upright: a small rounded white matte clay crown on top of a cream-white clay root. Deep fingerprints, simple shape."},
-    b: {tag: "@ENCIA", es: "Maqueta de encía (corte)",
+    b: {tag: "@ENCIA", z: "l", es: "Maqueta de encía (corte)",
         en: "the gum model (a pink clay gum in cross-section, with a small white baby tooth on top and a bigger white tooth hidden below it)",
         p: "A single oversized stop-motion polymer-clay gum model shown in cross-section, facing the camera: a block of solid pink clay gum with a small white baby tooth sitting on top, its root going down into the gum, and a bigger white tooth hidden inside the gum directly below it. Simple, bold, diagram-like shapes."},
-    c: {tag: "@DIENTE_NUEVO", es: "Diente definitivo",
+    c: {tag: "@DIENTE_NUEVO", z: "s", es: "Diente definitivo",
         en: "the new tooth (a bigger, bright white clay tooth with a long root)",
         p: "A single oversized stop-motion polymer-clay adult tooth standing upright: a big bright-white matte clay crown on top of a long cream-white clay root. Deep fingerprints, simple shape."},
-    d: {tag: "@ALMOHADA", es: "Almohadita",
+    d: {tag: "@ALMOHADA", z: "m", es: "Almohadita",
         en: "the small pillow (a soft pale-blue clay pillow)",
         p: "A single small, plump stop-motion polymer-clay pillow of solid pale-blue matte clay with softly rounded corners. Deep fingerprints."}
   },
@@ -2549,16 +2572,16 @@ EP.push({
   tags: "#Volcanes #Tierra",
   reto: "Con un adulto: haz un volcán de plastilina alrededor de un vasito. Pon dentro dos cucharadas de bicarbonato y añade un chorrito de vinagre.",
   objs: {
-    a: {tag: "@VOLCAN", es: "Volcán de arcilla",
+    a: {tag: "@VOLCAN", z: "x", es: "Volcán de arcilla",
         en: "the clay volcano (a brown clay cone-shaped mountain with a crater on top)",
         p: "A single oversized stop-motion polymer-clay volcano, about as tall as a puppet: a cone-shaped mountain of solid brown matte clay with a round crater at the top. Deep fingerprints, simple bold shape."},
-    b: {tag: "@VOLCAN_CORTE", es: "Volcán por dentro",
+    b: {tag: "@VOLCAN_CORTE", z: "x", es: "Volcán por dentro",
         en: "the cut-open volcano model (a brown clay mountain in cross-section, with a narrow channel running from a round orange magma chamber at the bottom up to the crater)",
         p: "A single oversized stop-motion polymer-clay volcano shown in cross-section, facing the camera: a brown clay mountain cut in half, with a round chamber of solid orange clay at the bottom and a narrow orange channel running straight up from it to the crater at the top. Simple, bold, diagram-like shapes."},
-    c: {tag: "@GAS", es: "Burbujas de gas",
+    c: {tag: "@GAS", z: "t", es: "Burbujas de gas",
         en: "the gas bubbles (small white clay balls)",
         p: "Six small stop-motion polymer-clay balls of solid white matte clay, spread loosely, each with deep fingerprints. They represent gas bubbles."},
-    d: {tag: "@LAVA", es: "Lava",
+    d: {tag: "@LAVA", z: "m", es: "Lava",
         en: "the lava (thick orange-red clay)",
         p: "A single thick, flowing blob of solid orange-red matte polymer clay with rounded edges, like a slow stream of lava, with deep fingerprints."}
   },
@@ -2730,16 +2753,16 @@ EP.push({
   tags: "#Mocos #CuerpoHumano",
   reto: "Con un adulto: mezcla maicena con un poco de agua hasta que quede espesa y espolvorea pimienta encima. Mira cómo lo pegajoso atrapa el «polvo».",
   objs: {
-    a: {tag: "@NARIZ", es: "Maqueta de la nariz (corte)",
+    a: {tag: "@NARIZ", z: "l", es: "Maqueta de la nariz (corte)",
         en: "the nose model (a big peach clay nose shown in cross-section, with a pink tunnel inside)",
         p: "A single oversized, friendly stop-motion polymer-clay nose model shown in cross-section from the side: a peach clay nose shape with a wide pink clay tunnel running through it from the nostril on the left to the back on the right. Simple, bold, diagram-like shapes."},
-    b: {tag: "@MOCO", es: "Capa de moco",
+    b: {tag: "@MOCO", z: "l", es: "Capa de moco",
         en: "the mucus layer (a thick pale-green clay blanket)",
         p: "A single thick, flat, wavy blanket of solid pale-green matte polymer clay with soft rounded edges, lying horizontally, with deep fingerprints. It represents a layer of mucus."},
-    c: {tag: "@CILIOS", es: "Pelitos (cilios)",
+    c: {tag: "@CILIOS", z: "t", es: "Pelitos (cilios)",
         en: "the tiny hairs (a row of short pink clay bristles)",
         p: "A single row of about ten short, thick, upright bristles of solid pink matte polymer clay standing on a thin pink clay base, like a soft brush. Deep fingerprints."},
-    d: {tag: "@POLVO", es: "Polvo y microbios",
+    d: {tag: "@POLVO", z: "t", es: "Polvo y microbios",
         en: "the dust and germs (small grey clay specks and tiny purple clay germs with dot eyes)",
         p: "A loose group of small stop-motion polymer-clay pieces: four irregular grey clay specks and three tiny round purple clay germs with two black dot eyes each. Deep fingerprints."}
   },
@@ -2905,19 +2928,19 @@ EP.push({
   tags: "#Arcoíris #Luz",
   reto: "En un día de sol, ponte de espaldas al Sol y rocía agua con una manguera o un atomizador. Busca tu arcoíris en las gotas.",
   objs: {
-    a: {tag: "@GOTA", es: "Gota de lluvia gigante",
+    a: {tag: "@GOTA", z: "m", es: "Gota de lluvia gigante",
         en: "the giant raindrop (a big round pale-blue clay ball)",
         p: "A single oversized stop-motion polymer-clay raindrop: a big, almost perfectly round ball of solid pale-blue matte clay, about waist-high to a puppet, with deep fingerprints."},
-    b: {tag: "@LUZ_BLANCA", es: "Rayo de luz blanca",
+    b: {tag: "@LUZ_BLANCA", z: "l", es: "Rayo de luz blanca",
         en: "the white light beam (a long thick white clay rod)",
         p: "A single long, thick, straight rod of solid white matte polymer clay lying horizontally, with deep fingerprints. It represents a beam of white light."},
-    c: {tag: "@ARCO", es: "Arcoíris",
+    c: {tag: "@ARCO", z: "g", es: "Arcoíris",
         en: "the rainbow (a wide arch made of seven clay stripes: red, orange, yellow, green, blue, indigo and violet)",
         p: "A single wide, upright stop-motion polymer-clay rainbow arch made of seven thick curved stripes of solid matte clay, from the outside in: red, orange, yellow, green, blue, indigo and violet. Deep fingerprints."},
-    d: {tag: "@SOL", es: "Sol de arcilla",
+    d: {tag: "@SOL", z: "m", es: "Sol de arcilla",
         en: "the clay sun (a round bright-yellow clay ball with short chunky orange rays)",
         p: "A single oversized stop-motion polymer-clay sun: a round bright-yellow matte clay ball with eight short, chunky orange clay rays around it. Deep fingerprints, simple bold shapes."},
-    e: {tag: "@NUBE", es: "Nube de lluvia",
+    e: {tag: "@NUBE", z: "l", es: "Nube de lluvia",
         en: "the rain cloud (a puffy grey clay cloud with blue clay drops under it)",
         p: "A single puffy stop-motion polymer-clay rain cloud of solid light-grey matte clay made of rounded lobes, with five small blue clay raindrops hanging just under it. Deep fingerprints."}
   },
@@ -3088,16 +3111,16 @@ EP.push({
   tags: "#Mosquitos #Animales",
   reto: "Con un adulto, busquen agua estancada en platos de macetas, cubetas y tapas, y vacíenla: ahí ponen sus huevos los mosquitos.",
   objs: {
-    a: {tag: "@MOSQUITO", es: "Mosquito de arcilla",
+    a: {tag: "@MOSQUITO", z: "s", es: "Mosquito de arcilla",
         en: "the clay mosquito (a small grey clay mosquito with six short legs, two wings and a long needle-like snout)",
         p: "A single oversized, cute stop-motion polymer-clay mosquito: a slim grey matte clay body, six short chunky legs, two small pale wings, two black dot eyes and one long, thin, needle-like snout. Deep fingerprints, simple shapes."},
-    b: {tag: "@BRAZO", es: "Maqueta de brazo",
+    b: {tag: "@BRAZO", z: "l", es: "Maqueta de brazo",
         en: "the arm model (a peach clay forearm block with a rounded end, lying flat)",
         p: "A single oversized, simplified stop-motion polymer-clay forearm lying flat: a long rounded block of solid peach matte clay with a softly rounded end. Deep fingerprints, simple bold shape."},
-    c: {tag: "@PIEL_CORTE", es: "Piel por dentro",
+    c: {tag: "@PIEL_CORTE", z: "l", es: "Piel por dentro",
         en: "the skin model (a block of peach clay skin in cross-section with a red clay blood vessel running through it)",
         p: "A single oversized stop-motion polymer-clay skin model shown in cross-section, facing the camera: a rectangular block of solid peach clay with one thick red clay tube running horizontally through its middle. Simple, bold, diagram-like shapes."},
-    d: {tag: "@SALIVA", es: "Gotita de saliva",
+    d: {tag: "@SALIVA", z: "t", es: "Gotita de saliva",
         en: "the saliva drop (a tiny pale-green clay droplet)",
         p: "A single small stop-motion polymer-clay droplet of solid pale-green matte clay, teardrop-shaped, with deep fingerprints."}
   },
@@ -3266,16 +3289,16 @@ EP.push({
   tags: "#Electricidad #Experimentos",
   reto: "Frota un globo en tu pelo seco y acércalo a papelitos, o a un hilo fino de agua del grifo. Mira cómo se doblan hacia el globo.",
   objs: {
-    a: {tag: "@GLOBO", es: "Globo rojo",
+    a: {tag: "@GLOBO", z: "m", es: "Globo rojo",
         en: "the red balloon (a round red clay balloon with a small knot)",
         p: "A single oversized stop-motion polymer-clay balloon: a round ball of solid red matte clay with a small knot at the bottom, about the size of a puppet's head. Deep fingerprints."},
-    b: {tag: "@ELECTRONES", es: "Electrones",
+    b: {tag: "@ELECTRONES", z: "t", es: "Electrones",
         en: "the electrons (tiny yellow clay balls)",
         p: "Eight tiny stop-motion polymer-clay balls of solid bright-yellow matte clay, spread loosely, each with deep fingerprints. They represent electrons."},
-    c: {tag: "@PELO", es: "Mechón de pelo",
+    c: {tag: "@PELO", z: "s", es: "Mechón de pelo",
         en: "the hair tuft (a small tuft of brown clay strands standing on a round peach clay base)",
         p: "A single stop-motion polymer-clay hair tuft: about ten thick brown clay strands lying flat on top of a round peach clay base, like hair on the top of a head. Deep fingerprints, simple shapes."},
-    d: {tag: "@PAPELITOS", es: "Papelitos",
+    d: {tag: "@PAPELITOS", z: "t", es: "Papelitos",
         en: "the paper bits (small flat white clay squares)",
         p: "Seven small, flat, thin squares of solid white matte polymer clay scattered loosely, like bits of torn paper. Deep fingerprints."}
   },
@@ -3447,16 +3470,16 @@ EP.push({
   tags: "#Cosquillas #Cerebro",
   reto: "Intenta hacerte cosquillas en la planta del pie. Luego pide permiso y prueba con alguien de tu familia. ¿Qué cambia?",
   objs: {
-    a: {tag: "@PLUMA", es: "Pluma",
+    a: {tag: "@PLUMA", z: "m", es: "Pluma",
         en: "the feather (a big soft white clay feather with a yellow quill)",
         p: "A single oversized stop-motion polymer-clay feather, about as long as a puppet's arm: a soft, curved white matte clay vane with fine grooves and a short yellow clay quill. Deep fingerprints."},
-    b: {tag: "@CEREBRO", es: "Maqueta del cerebro",
+    b: {tag: "@CEREBRO", z: "l", es: "Maqueta del cerebro",
         en: "the brain model (a pink clay brain seen from the side, with a small darker-pink bump at the back, the cerebellum)",
         p: "A single oversized, friendly stop-motion polymer-clay brain seen from the side: a rounded pink clay shape with soft folds, and a smaller, darker-pink clay bump tucked under its back end. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@NERVIO", es: "Cable de nervio",
+    c: {tag: "@NERVIO", z: "l", es: "Cable de nervio",
         en: "the nerve cable (a long yellow clay cord)",
         p: "A single long, thick cord of solid yellow matte polymer clay lying in a gentle curve, with deep fingerprints. It represents a nerve."},
-    d: {tag: "@PIEL", es: "Trozo de piel con sensores",
+    d: {tag: "@PIEL", z: "m", es: "Trozo de piel con sensores",
         en: "the skin patch (a peach clay patch with small round blue clay sensors on it)",
         p: "A single flat, rounded patch of solid peach matte polymer clay lying on the floor, with six small round blue clay buttons set into its top surface. Deep fingerprints, simple bold shapes."}
   },
@@ -3624,16 +3647,16 @@ EP.push({
   tags: "#Espacio #Astronautas",
   reto: "Afuera y con un adulto: haz un agujero cerca del fondo de un vaso de plástico, llénalo de agua y suéltalo. Mientras cae, el agua deja de salir.",
   objs: {
-    a: {tag: "@ASTRONAUTA", es: "Astronauta de arcilla",
+    a: {tag: "@ASTRONAUTA", z: "m", es: "Astronauta de arcilla",
         en: "the clay astronaut (a small white clay astronaut figure with a round helmet and a dark visor)",
         p: "A single small, simple stop-motion polymer-clay astronaut figure: a chubby white matte clay suit with short arms and legs, a round white helmet with a dark grey visor, and a small grey backpack. Deep fingerprints, simple shapes."},
-    b: {tag: "@TIERRA", es: "Tierra de arcilla",
+    b: {tag: "@TIERRA", z: "x", es: "Tierra de arcilla",
         en: "the clay Earth (a big blue-and-green clay globe)",
         p: "A single oversized stop-motion polymer-clay Earth globe, about as tall as a puppet: a round ball of solid blue matte clay with simple green clay continents and small white clay clouds. Deep fingerprints."},
-    c: {tag: "@ESTACION", es: "Estación espacial",
+    c: {tag: "@ESTACION", z: "m", es: "Estación espacial",
         en: "the space station (a small grey clay capsule with two flat blue clay solar panels)",
         p: "A single small stop-motion polymer-clay space station: a short grey matte clay capsule with one flat rectangular blue clay solar panel on each side. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@PELOTA", es: "Pelota roja",
+    d: {tag: "@PELOTA", z: "s", es: "Pelota roja",
         en: "the red ball (a small solid red clay ball)",
         p: "A single small ball of solid red matte polymer clay, about the size of a puppet's paddle hand, with deep fingerprints."}
   },
@@ -3803,16 +3826,16 @@ EP.push({
   tags: "#Pan #Cocina",
   reto: "Con un adulto: pon una cucharadita de levadura, agua tibia y una cucharada de azúcar en una botella. Coloca un globo en la boca de la botella y espera veinte minutos.",
   objs: {
-    a: {tag: "@MASA", es: "Bola de masa",
+    a: {tag: "@MASA", z: "m", es: "Bola de masa",
         en: "the dough ball (a big round cream-colored clay dough ball)",
         p: "A single oversized stop-motion polymer-clay ball of bread dough: a big, soft-looking round ball of solid cream-colored matte clay, about knee-high to a puppet, with deep fingerprints."},
-    b: {tag: "@LEVADURA", es: "Levaduras",
+    b: {tag: "@LEVADURA", z: "t", es: "Levaduras",
         en: "the yeast cells (small round beige clay balls with tiny dot eyes)",
         p: "Six small, cute stop-motion polymer-clay yeast cells: round balls of solid beige matte clay, each with two tiny black dot eyes. Deep fingerprints, simple shapes."},
-    c: {tag: "@GAS", es: "Burbujas de gas",
+    c: {tag: "@GAS", z: "t", es: "Burbujas de gas",
         en: "the gas bubbles (small white clay balls)",
         p: "Six small stop-motion polymer-clay balls of solid white matte clay, spread loosely, each with deep fingerprints. They represent gas bubbles."},
-    d: {tag: "@REBANADA", es: "Rebanada de pan",
+    d: {tag: "@REBANADA", z: "m", es: "Rebanada de pan",
         en: "the bread slice (a slice of clay bread with a golden-brown crust and many small holes)",
         p: "A single oversized stop-motion polymer-clay slice of bread standing upright: a pale cream clay crumb full of small round holes, with a golden-brown clay crust around its edge. Deep fingerprints."}
   },
@@ -3981,16 +4004,16 @@ EP.push({
   tags: "#Tormenta #Rayos",
   reto: "En la próxima tormenta, desde adentro de casa, cuenta los segundos entre el rayo y el trueno. Cada tres segundos es más o menos un kilómetro. ¿Se acerca o se aleja?",
   objs: {
-    a: {tag: "@NUBE_TORMENTA", es: "Nube de tormenta",
+    a: {tag: "@NUBE_TORMENTA", z: "g", es: "Nube de tormenta",
         en: "the storm cloud (a big puffy dark-grey clay cloud)",
         p: "A single big, puffy stop-motion polymer-clay storm cloud of solid dark-grey matte clay made of many rounded lobes, wider than a puppet is tall. Deep fingerprints."},
-    b: {tag: "@RAYO", es: "Rayo",
+    b: {tag: "@RAYO", z: "l", es: "Rayo",
         en: "the lightning bolt (a jagged bright-yellow clay zigzag)",
         p: "A single stop-motion polymer-clay lightning bolt: a tall, jagged zigzag of solid bright-yellow matte clay with sharp corners, standing upright. Deep fingerprints."},
-    c: {tag: "@HIELO", es: "Trocitos de hielo",
+    c: {tag: "@HIELO", z: "t", es: "Trocitos de hielo",
         en: "the ice bits (small white clay balls and tiny pale-blue clay crystals)",
         p: "A loose group of small stop-motion polymer-clay pieces: four small white clay balls and four tiny pale-blue clay crystals with flat faces. Deep fingerprints."},
-    d: {tag: "@SONIDO", es: "Anillos de sonido",
+    d: {tag: "@SONIDO", z: "m", es: "Anillos de sonido",
         en: "the sound rings (three curved pale-purple clay arcs, like ripples)",
         p: "Three curved arcs of solid pale-purple matte polymer clay, one inside the other like ripples spreading outward, each a little bigger than the last. Deep fingerprints."}
   },
@@ -4155,16 +4178,16 @@ EP.push({
   tags: "#Perros #Animales",
   reto: "Juego del olfato: con los ojos cerrados, pide que te acerquen tres comidas y adivina cuál es cada una solo por su olor.",
   objs: {
-    a: {tag: "@PERRO", es: "Perrito de arcilla",
+    a: {tag: "@PERRO", z: "l", es: "Perrito de arcilla",
         en: "the clay puppy (a small brown clay dog with floppy ears and a big black nose)",
         p: "A single cute stop-motion polymer-clay puppy, about knee-high to a puppet: solid brown matte clay body, two floppy ears, a short tail, four short legs, small black bead eyes and a big round black nose. Deep fingerprints, simple shapes."},
-    b: {tag: "@HOCICO", es: "Hocico por dentro",
+    b: {tag: "@HOCICO", z: "l", es: "Hocico por dentro",
         en: "the snout model (a brown clay dog snout in cross-section, with a pink folded maze inside)",
         p: "A single oversized stop-motion polymer-clay dog snout shown in cross-section from the side: a brown clay outline with a black nose at the tip, and inside it a pink clay maze of soft curled folds. Simple, bold, diagram-like shapes."},
-    c: {tag: "@OLOR", es: "Pedacitos de olor",
+    c: {tag: "@OLOR", z: "t", es: "Pedacitos de olor",
         en: "the smell bits (tiny orange clay balls)",
         p: "Eight tiny stop-motion polymer-clay balls of solid orange matte clay, floating loosely, each with deep fingerprints. They represent smell molecules."},
-    d: {tag: "@GALLETA", es: "Galleta",
+    d: {tag: "@GALLETA", z: "s", es: "Galleta",
         en: "the cookie (a round golden-brown clay cookie with dark chips)",
         p: "A single oversized stop-motion polymer-clay cookie lying flat: a round golden-brown matte clay disc with a few dark-brown clay chips on top. Deep fingerprints."}
   },
@@ -4332,16 +4355,16 @@ EP.push({
   tags: "#Burbujas #Jabón",
   reto: "Haz aros de distintas formas con limpiapipas: triángulo, cuadrado, estrella. Sopla burbujas con cada uno. ¿Sale alguna que no sea redonda?",
   objs: {
-    a: {tag: "@BURBUJA", es: "Burbuja de jabón",
+    a: {tag: "@BURBUJA", z: "m", es: "Burbuja de jabón",
         en: "the soap bubble (a big round pale-blue clay ball)",
         p: "A single oversized stop-motion polymer-clay soap bubble: a big, perfectly round ball of solid pale-blue matte clay with a faint pink swirl on its surface, about the size of a puppet's head. Deep fingerprints."},
-    b: {tag: "@ARO", es: "Aro cuadrado",
+    b: {tag: "@ARO", z: "m", es: "Aro cuadrado",
         en: "the square wand (a square orange clay frame on a short handle)",
         p: "A single stop-motion polymer-clay bubble wand: a square frame of solid orange matte clay on a short straight handle. Deep fingerprints, simple bold shape."},
-    c: {tag: "@JABON", es: "Pieza de jabón (del Ep. 2)",
+    c: {tag: "@JABON", z: "t", es: "Pieza de jabón (del Ep. 2)",
         en: "the soap piece (a bubblegum-pink clay ball head with one short yellow clay tail peg)",
         p: "A single oversized stop-motion polymer-clay soap molecule shaped like a tadpole: one smooth bubblegum-pink clay ball as the head, with one short chunky yellow clay peg sticking out as the tail. Solid uniform matte colors, deep fingerprints."},
-    d: {tag: "@PELICULA", es: "Pared de la burbuja (corte)",
+    d: {tag: "@PELICULA", z: "l", es: "Pared de la burbuja (corte)",
         en: "the soap film model (a thin blue clay layer sandwiched between two rows of pink soap pieces)",
         p: "A single stop-motion polymer-clay model of a soap film in cross-section: a thin horizontal layer of solid blue clay, with a row of small pink clay balls on top of it and another row below it, each ball with a short yellow clay peg pointing away from the blue layer. Simple, bold, diagram-like shapes."}
   },
@@ -4513,19 +4536,19 @@ EP.push({
   tags: "#CuerpoHumano #Sangre",
   reto: "La próxima vez que tengas una costra, dibújala cada dos días sin tocarla. ¿Cuánto tarda en caerse sola?",
   objs: {
-    a: {tag: "@RODILLA", es: "Maqueta de rodilla",
+    a: {tag: "@RODILLA", z: "l", es: "Maqueta de rodilla",
         en: "the knee model (a rounded peach clay knee with a small red scrape on it)",
         p: "A single oversized, simplified stop-motion polymer-clay knee: a rounded dome of solid peach matte clay with a small flat red clay scrape on its front. Deep fingerprints, simple bold shape."},
-    b: {tag: "@VASO_CORTE", es: "Vaso sanguíneo roto (corte)",
+    b: {tag: "@VASO_CORTE", z: "l", es: "Vaso sanguíneo roto (corte)",
         en: "the blood vessel model (a red clay tube in cross-section inside peach clay skin, with a small gap at the top)",
         p: "A single oversized stop-motion polymer-clay model in cross-section, facing the camera: a block of peach clay skin with one thick red clay tube running horizontally through it, and a small gap where the top of the tube and the skin above it are broken open. Simple, bold, diagram-like shapes."},
-    c: {tag: "@PLAQUETAS", es: "Plaquetas",
+    c: {tag: "@PLAQUETAS", z: "t", es: "Plaquetas",
         en: "the platelets (tiny yellow clay discs)",
         p: "Eight tiny stop-motion polymer-clay discs of solid yellow matte clay, slightly irregular, spread loosely, each with deep fingerprints. They represent platelets."},
-    d: {tag: "@GLOBULOS", es: "Glóbulos rojos",
+    d: {tag: "@GLOBULOS", z: "t", es: "Glóbulos rojos",
         en: "the red blood cells (small red clay discs with a dent in the middle)",
         p: "Six small stop-motion polymer-clay discs of solid red matte clay, each with a soft dent in the middle like a tiny doughnut without a hole, spread loosely. Deep fingerprints."},
-    e: {tag: "@RED", es: "Red de hilos",
+    e: {tag: "@RED", z: "s", es: "Red de hilos",
         en: "the thread net (a small net of thin white clay threads)",
         p: "A single small net made of thin white matte polymer-clay threads crossing each other in a loose mesh, stretched flat. Deep fingerprints."}
   },
@@ -4693,16 +4716,16 @@ EP.push({
   tags: "#Chicle #CuerpoHumano",
   reto: "Mastica un chicle durante cinco minutos y míralo: perdió el sabor y el azúcar, pero la goma sigue igual. Luego, tíralo a la basura.",
   objs: {
-    a: {tag: "@CHICLE", es: "Chicle",
+    a: {tag: "@CHICLE", z: "s", es: "Chicle",
         en: "the gum piece (a soft pink clay gum wad)",
         p: "A single oversized stop-motion polymer-clay wad of chewed gum: a soft, lumpy blob of solid pink matte clay with rounded folds, with deep fingerprints."},
-    b: {tag: "@TUBO", es: "Maqueta del tubo digestivo",
+    b: {tag: "@TUBO", z: "l", es: "Maqueta del tubo digestivo",
         en: "the digestive tube model (a pink clay stomach pouch joined to a long coiled pink clay tube, shown in cross-section, open at its far end)",
         p: "A single oversized, friendly stop-motion polymer-clay digestive model shown in cross-section: a rounded pink clay stomach pouch on the left, joined to a long, softly coiled pink clay tube that ends in an open end on the right. Simple, bold, diagram-like shapes."},
-    c: {tag: "@JUGOS", es: "Jugos del estómago",
+    c: {tag: "@JUGOS", z: "t", es: "Jugos del estómago",
         en: "the stomach juices (small green clay drops)",
         p: "Six small stop-motion polymer-clay drops of solid green matte clay, teardrop-shaped, spread loosely, each with deep fingerprints."},
-    d: {tag: "@GALLETA", es: "Galleta",
+    d: {tag: "@GALLETA", z: "s", es: "Galleta",
         en: "the cracker (a small square beige clay cracker)",
         p: "A single stop-motion polymer-clay cracker: a small flat square of solid beige matte clay with a few tiny holes on top. Deep fingerprints."}
   },
@@ -4869,19 +4892,19 @@ EP.push({
   tags: "#Dinosaurios #Tierra",
   reto: "Sal a buscar dinosaurios vivos: observa un pájaro o una gallina. ¿En qué se parecen sus patas a las de un dinosaurio? Dibújalas.",
   objs: {
-    a: {tag: "@DINO", es: "Dinosaurio de arcilla",
+    a: {tag: "@DINO", z: "x", es: "Dinosaurio de arcilla",
         en: "the clay dinosaur (a chubby green clay long-necked dinosaur)",
         p: "A single cute stop-motion polymer-clay long-necked dinosaur, about as tall as a puppet: a chubby solid green matte clay body, a long neck, a small head with black bead eyes, four thick legs and a long tail. Deep fingerprints, simple shapes."},
-    b: {tag: "@ASTEROIDE", es: "Asteroide",
+    b: {tag: "@ASTEROIDE", z: "m", es: "Asteroide",
         en: "the asteroid (a rough dark-grey clay rock with a short orange clay flame tail)",
         p: "A single stop-motion polymer-clay asteroid: a rough, lumpy rock of solid dark-grey matte clay with small craters, and a short tail of orange and yellow clay flames behind it. Deep fingerprints."},
-    c: {tag: "@TIERRA", es: "Tierra de arcilla",
+    c: {tag: "@TIERRA", z: "x", es: "Tierra de arcilla",
         en: "the clay Earth (a big blue-and-green clay globe)",
         p: "A single oversized stop-motion polymer-clay Earth globe, about as tall as a puppet: a round ball of solid blue matte clay with simple green clay continents. Deep fingerprints."},
-    d: {tag: "@PAJARO", es: "Pajarito (del Ep. 3)",
+    d: {tag: "@PAJARO", z: "s", es: "Pajarito (del Ep. 3)",
         en: "the tiny bird (a tiny solid sky-blue clay bird with an orange beak and scaly orange feet)",
         p: "A single tiny, cute stop-motion polymer-clay bird: a round solid sky-blue matte clay body, small wings, an orange beak, black bead eyes and scaly orange feet with three toes in front. Deep fingerprints."},
-    e: {tag: "@HELECHO", es: "Helecho",
+    e: {tag: "@HELECHO", z: "m", es: "Helecho",
         en: "the fern (a small bright-green clay fern)",
         p: "A single small stop-motion polymer-clay fern: several curved fronds of solid bright-green matte clay rising from a small brown clay mound. Deep fingerprints."}
   },
@@ -5050,16 +5073,16 @@ EP.push({
   tags: "#Barcos #Flotación",
   reto: "Haz una bola de plastilina y suéltala en un recipiente con agua: se hunde. Ahora dale forma de barquito. ¿Cuántas monedas aguanta antes de hundirse?",
   objs: {
-    a: {tag: "@BARCO", es: "Barco de arcilla",
+    a: {tag: "@BARCO", z: "x", es: "Barco de arcilla",
         en: "the clay ship (a big hollow red clay boat hull with a small white cabin)",
         p: "A single oversized stop-motion polymer-clay ship, about as long as a puppet is tall: a wide, hollow hull of solid red matte clay, open at the top, with a small white clay cabin at the back. Deep fingerprints, simple bold shape."},
-    b: {tag: "@BOLITA", es: "Bolita maciza",
+    b: {tag: "@BOLITA", z: "s", es: "Bolita maciza",
         en: "the solid ball (a small solid grey clay ball)",
         p: "A single small ball of solid grey matte polymer clay, about the size of a puppet's paddle hand, with deep fingerprints. It represents a solid metal ball."},
-    c: {tag: "@TINA", es: "Tina de agua (del Ep. 5)",
+    c: {tag: "@TINA", z: "g", es: "Tina de agua (del Ep. 5)",
         en: "the water tub (a low round white clay rim filled with flat dark-blue clay water)",
         p: "A single oversized stop-motion polymer-clay water tub: a low, wide, round rim of solid white matte clay, filled to the top with flat solid dark-blue clay as the water surface. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@BLOQUE_AGUA", es: "Bloque de agua",
+    d: {tag: "@BLOQUE_AGUA", z: "l", es: "Bloque de agua",
         en: "the water block (a dark-blue clay cube)",
         p: "A single cube of solid dark-blue matte polymer clay with slightly rounded edges, with deep fingerprints. It represents a block of water."}
   },
@@ -5231,16 +5254,16 @@ EP.push({
   tags: "#Mariposas #Metamorfosis",
   reto: "Busca orugas u hojas mordidas en un parque o un jardín. Míralas sin tocarlas y dibuja lo que encuentres.",
   objs: {
-    a: {tag: "@ORUGA", es: "Oruga",
+    a: {tag: "@ORUGA", z: "m", es: "Oruga",
         en: "the caterpillar (a chubby green clay caterpillar with yellow stripes)",
         p: "A single cute stop-motion polymer-clay caterpillar, about as long as a puppet's arm: a chubby body of round solid green matte clay segments with thin yellow clay stripes, small black bead eyes and tiny stubby legs. Deep fingerprints."},
-    b: {tag: "@CRISALIDA", es: "Crisálida",
+    b: {tag: "@CRISALIDA", z: "m", es: "Crisálida",
         en: "the chrysalis (a smooth green clay pod hanging from a brown clay twig)",
         p: "A single stop-motion polymer-clay chrysalis: a smooth, pointed pod of solid green matte clay hanging from a short brown clay twig. Deep fingerprints, simple bold shape."},
-    c: {tag: "@CRISALIDA_CORTE", es: "Crisálida por dentro",
+    c: {tag: "@CRISALIDA_CORTE", z: "l", es: "Crisálida por dentro",
         en: "the cut-open chrysalis model (a green clay pod in cross-section, filled with pale-yellow clay soup and a few small orange clay discs)",
         p: "A single oversized stop-motion polymer-clay chrysalis shown in cross-section, hanging from a short brown clay twig: a green clay outline filled with smooth pale-yellow clay, with five small flat orange clay discs floating in it. Simple, bold, diagram-like shapes."},
-    d: {tag: "@MARIPOSA", es: "Mariposa",
+    d: {tag: "@MARIPOSA", z: "m", es: "Mariposa",
         en: "the butterfly (an orange-and-black clay butterfly with wide wings)",
         p: "A single stop-motion polymer-clay butterfly with its wings open: wide wings of solid orange matte clay with black clay edges and veins, a thin black body, two antennae and six thin legs. Deep fingerprints, simple shapes."}
   },
@@ -5410,13 +5433,13 @@ EP.push({
   tags: "#Luna #Espacio",
   reto: "Dibuja la Luna cada noche durante dos semanas, siempre a la misma hora. O prueba con una lámpara y una pelota que gira a tu alrededor.",
   objs: {
-    a: {tag: "@LUNA", es: "Luna de arcilla",
+    a: {tag: "@LUNA", z: "m", es: "Luna de arcilla",
         en: "the clay Moon (a grey clay ball with small craters, one half light grey and the other half dark grey)",
         p: "A single stop-motion polymer-clay Moon: a round ball with small shallow craters, exactly one half solid light-grey matte clay and the other half solid dark-grey matte clay. Deep fingerprints."},
-    b: {tag: "@TIERRA", es: "Tierra de arcilla",
+    b: {tag: "@TIERRA", z: "l", es: "Tierra de arcilla",
         en: "the clay Earth (a blue-and-green clay globe)",
         p: "A single stop-motion polymer-clay Earth globe: a round ball of solid blue matte clay with simple green clay continents, about twice as big as a clay Moon. Deep fingerprints."},
-    c: {tag: "@SOL", es: "Sol de arcilla",
+    c: {tag: "@SOL", z: "l", es: "Sol de arcilla",
         en: "the clay sun (a round bright-yellow clay ball with short chunky orange rays)",
         p: "A single oversized stop-motion polymer-clay sun: a round bright-yellow matte clay ball with eight short, chunky orange clay rays around it. Deep fingerprints, simple bold shapes."}
   },
@@ -5588,19 +5611,19 @@ EP.push({
   tags: "#CuerpoHumano #Bacterias",
   reto: "Experimento de una semana: calcetines limpios cada día y zapatos al aire por la noche. ¿Notas la diferencia?",
   objs: {
-    a: {tag: "@ZAPATO", es: "Zapato",
+    a: {tag: "@ZAPATO", z: "m", es: "Zapato",
         en: "the clay shoe (a chunky red clay sneaker)",
         p: "A single oversized stop-motion polymer-clay sneaker, about knee-high to a puppet: a chunky shoe of solid red matte clay with a white clay sole and a wide open top. Deep fingerprints, simple bold shape."},
-    b: {tag: "@PIEL_PIE", es: "Piel del pie por dentro",
+    b: {tag: "@PIEL_PIE", z: "l", es: "Piel del pie por dentro",
         en: "the foot skin model (a block of peach clay skin in cross-section with small coiled blue clay sweat glands inside)",
         p: "A single oversized stop-motion polymer-clay skin model shown in cross-section, facing the camera: a rectangular block of solid peach clay with three small coiled blue clay tubes inside it, each with a thin blue tube rising to the top surface. Simple, bold, diagram-like shapes."},
-    c: {tag: "@BACTERIAS", es: "Bacterias de la piel",
+    c: {tag: "@BACTERIAS", z: "t", es: "Bacterias de la piel",
         en: "the skin bacteria (small round clay bacteria in purple and teal with tiny dot eyes)",
         p: "Six small, cute stop-motion polymer-clay bacteria: round and oval shapes in solid purple and teal matte clay, each with two tiny black dot eyes. Deep fingerprints, simple shapes."},
-    d: {tag: "@OLOR", es: "Nubecita de olor",
+    d: {tag: "@OLOR", z: "s", es: "Nubecita de olor",
         en: "the smell cloud (a small yellow-green clay puff)",
         p: "A single small, puffy cloud of solid yellow-green matte polymer clay made of rounded lobes, with deep fingerprints. It represents a bad smell."},
-    e: {tag: "@SUDOR", es: "Gotas de sudor",
+    e: {tag: "@SUDOR", z: "t", es: "Gotas de sudor",
         en: "the sweat drops (small pale-blue clay drops)",
         p: "Six small stop-motion polymer-clay drops of solid pale-blue matte clay, teardrop-shaped, spread loosely, each with deep fingerprints."}
   },
@@ -5769,16 +5792,16 @@ EP.push({
   tags: "#Aviones #Ciencia",
   reto: "Haz dos aviones de papel iguales. Al segundo dóblale un poquito hacia arriba el borde de atrás de las alas. Lánzalos igual de fuerte: ¿cuál sube?",
   objs: {
-    a: {tag: "@AVION", es: "Avión de arcilla",
+    a: {tag: "@AVION", z: "x", es: "Avión de arcilla",
         en: "the clay airplane (a big white clay passenger airplane with a blue stripe)",
         p: "A single oversized stop-motion polymer-clay passenger airplane, about as long as a puppet is tall: a round white matte clay body with one blue clay stripe along its side, two long straight white wings, a tall tail and two round grey clay engines under the wings. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@ALA", es: "Ala vista de lado",
+    b: {tag: "@ALA", z: "l", es: "Ala vista de lado",
         en: "the wing slice (a white clay wing cross-section, rounded at the front and thin at the back)",
         p: "A single white matte polymer-clay wing cross-section shaped like a long teardrop: thick and rounded at the front, curved on top, almost flat underneath and thin at the back. About as long as a puppet is tall, with deep fingerprints."},
-    c: {tag: "@AIRE", es: "Cintas de aire",
+    c: {tag: "@AIRE", z: "l", es: "Cintas de aire",
         en: "the air ribbons (long thin pale-blue clay ribbons)",
         p: "A set of long, thin, flat ribbons of pale-blue matte polymer clay with deep fingerprints. They represent moving air."},
-    d: {tag: "@AVION_PAPEL", es: "Avión de papel",
+    d: {tag: "@AVION_PAPEL", z: "m", es: "Avión de papel",
         en: "the paper plane (a folded white clay paper airplane)",
         p: "A single white matte polymer-clay paper airplane with sharp folded creases, about the size of a puppet's head, with deep fingerprints."}
   },
@@ -5951,19 +5974,19 @@ EP.push({
   tags: "#Luciérnagas #Animales",
   reto: "Esta noche, con una linterna, inventa una clave con tu familia: dos destellos significan «hola», tres significan «buenas noches».",
   objs: {
-    a: {tag: "@LUCIERNAGA", es: "Luciérnaga",
+    a: {tag: "@LUCIERNAGA", z: "s", es: "Luciérnaga",
         en: "the firefly (a small dark-brown clay beetle with a pale yellow-green tail end)",
         p: "A single cute stop-motion polymer-clay firefly, about the size of a puppet's hand: a small dark-brown matte clay beetle body with a red-orange clay head shield, two hard dark-brown wing covers, small black bead eyes, thin legs and a rounded pale yellow-green clay tail end. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@FAROL", es: "Farol por dentro",
+    b: {tag: "@FAROL", z: "l", es: "Farol por dentro",
         en: "the light lantern (a cut-open pale-yellow clay segment with small yellow clay beads inside)",
         p: "A single oversized polymer-clay segment of a firefly tail, cut in half: a rounded shell of pale-yellow matte clay, open to show many small round yellow clay beads packed inside. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@OXIGENO", es: "Burbujas de oxígeno",
+    c: {tag: "@OXIGENO", z: "t", es: "Burbujas de oxígeno",
         en: "the oxygen bubbles (small round pale-blue clay bubbles)",
         p: "A set of small round bubbles of pale-blue matte polymer clay, each about the size of a pea, with deep fingerprints. They represent oxygen."},
-    d: {tag: "@BOMBILLA", es: "Bombilla antigua",
+    d: {tag: "@BOMBILLA", z: "m", es: "Bombilla antigua",
         en: "the light bulb (an old-style clay light bulb with a pale-yellow top)",
         p: "A single oversized stop-motion polymer-clay old-style light bulb: a round pale-yellow matte clay top on a ridged grey clay base. Deep fingerprints, simple bold shapes."},
-    e: {tag: "@LINTERNA", es: "Linterna pequeña",
+    e: {tag: "@LINTERNA", z: "s", es: "Linterna pequeña",
         en: "the small flashlight (a short red clay flashlight)",
         p: "A single small stop-motion polymer-clay flashlight: a short red matte clay tube with a round pale-yellow clay lens at one end. Deep fingerprints, simple bold shapes."}
   },
@@ -6133,13 +6156,13 @@ EP.push({
   tags: "#CerebroCongelado #Helado",
   reto: "La próxima vez que te dé cerebro congelado, aprieta la lengua contra el paladar y cuenta cuánto tarda en irse.",
   objs: {
-    a: {tag: "@HELADO", es: "Helado de cucurucho",
+    a: {tag: "@HELADO", z: "m", es: "Helado de cucurucho",
         en: "the ice cream cone (a light-brown clay cone with one round pink clay scoop)",
         p: "A single oversized stop-motion polymer-clay ice cream cone: a light-brown matte clay cone with a crisscross pattern, topped with one round scoop of pink matte clay. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CABEZA", es: "Maqueta de cabeza por dentro",
+    b: {tag: "@CABEZA", z: "l", es: "Maqueta de cabeza por dentro",
         en: "the head model (a friendly peach clay head shape cut in half and seen from the side, with a pink tongue)",
         p: "A single oversized, friendly, toy-like polymer-clay teaching model of a simple head cut in half and seen from the side: smooth peach matte clay outside, a pink clay tongue, the pink roof of the mouth, a pale bony layer above it and a soft pink brain area at the top. No face details, deep fingerprints, simple bold shapes."},
-    c: {tag: "@TUBITO", es: "Tubito de sangre",
+    c: {tag: "@TUBITO", z: "l", es: "Tubito de sangre",
         en: "the blood tube (a soft pale-pink clay tube with red clay beads inside)",
         p: "A single long, soft tube of pale-pink matte polymer clay, open along its top to show small round red clay beads inside. Deep fingerprints. It represents a blood vessel."}
   },
@@ -6311,16 +6334,16 @@ EP.push({
   tags: "#Sueños #Cerebro",
   reto: "Deja una libreta junto a la cama. Cada mañana, nada más despertar, dibuja lo que soñaste. ¿Cuántos sueños recuerdas en una semana?",
   objs: {
-    a: {tag: "@CAMA", es: "Cama",
+    a: {tag: "@CAMA", z: "x", es: "Cama",
         en: "the bed (a small light-brown clay bed with a blue blanket and a white pillow)",
         p: "A single stop-motion polymer-clay bed sized for a puppet: a simple light-brown matte clay frame, a fluffy white clay pillow and a thick blue clay blanket. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CEREBRO", es: "Cerebro de plastilina",
+    b: {tag: "@CEREBRO", z: "m", es: "Cerebro de plastilina",
         en: "the brain model (a soft pink clay brain on a small white stand)",
         p: "A single oversized soft pink matte polymer-clay brain model with rounded folds, sitting on a small white clay stand. Deep fingerprints, friendly simple shape."},
-    c: {tag: "@ESCALERA", es: "Escalera del sueño",
+    c: {tag: "@ESCALERA", z: "l", es: "Escalera del sueño",
         en: "the sleep stairs (four wide clay steps from light blue to dark blue, with a soft purple top step)",
         p: "A single wide polymer-clay staircase of four broad steps going down from left to right, colored from pale light blue at the top to deep dark blue at the bottom, plus a separate soft purple clay step at the top right. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@LIBRETA", es: "Libreta de sueños",
+    d: {tag: "@LIBRETA", z: "m", es: "Libreta de sueños",
         en: "the dream notebook (a small yellow clay notebook)",
         p: "A single small stop-motion polymer-clay notebook with a yellow matte clay cover and thick white clay pages, about the size of a puppet's head. Deep fingerprints."}
   },
@@ -6490,16 +6513,16 @@ EP.push({
   tags: "#Terremotos #Ciencia",
   reto: "Busca en casa una mesa fuerte y haz un simulacro con tu familia: agáchate, cúbrete bajo la mesa y agárrate a una pata. ¿Cuántos segundos tardan?",
   objs: {
-    a: {tag: "@TIERRA", es: "Tierra por dentro",
+    a: {tag: "@TIERRA", z: "l", es: "Tierra por dentro",
         en: "the Earth slice (a clay Earth ball with a wedge cut out showing its layers)",
         p: "A single oversized stop-motion polymer-clay Earth ball with blue clay oceans and green clay land, with a wedge cut out to show its layers: a thin brown clay crust, a thick orange clay layer and a yellow clay core. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@PLACAS", es: "Dos placas",
+    b: {tag: "@PLACAS", z: "m", es: "Dos placas",
         en: "the two plates (two thick brown clay slabs with jagged edges)",
         p: "Two thick slabs of brown matte polymer clay with green clay grass on top and rough, jagged facing edges, each about as long as a puppet's arm. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@SISMOGRAFO", es: "Sismógrafo",
+    c: {tag: "@SISMOGRAFO", z: "m", es: "Sismógrafo",
         en: "the seismograph (a grey clay machine with a pen over a white paper strip)",
         p: "A single stop-motion polymer-clay seismograph: a grey matte clay box with a thin arm holding a black clay pen over a long strip of white clay paper. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@MESA", es: "Mesa fuerte",
+    d: {tag: "@MESA", z: "x", es: "Mesa fuerte",
         en: "the sturdy table (a thick light-brown clay table with four strong legs)",
         p: "A single sturdy stop-motion polymer-clay table sized so a puppet can crouch beneath it: a thick light-brown matte clay top on four thick legs. Deep fingerprints, simple bold shapes."}
   },
@@ -6672,13 +6695,13 @@ EP.push({
   tags: "#Hormigas #Animales",
   reto: "Con un adulto, deja una miguita de galleta cerca de un hormiguero y mira el reloj. ¿Cuánto tardan en llegar diez hormigas? Obsérvalas sin tocarlas.",
   objs: {
-    a: {tag: "@HORMIGA", es: "Hormiga",
+    a: {tag: "@HORMIGA", z: "s", es: "Hormiga",
         en: "the ant (a small red-brown clay ant)",
         p: "A single cute stop-motion polymer-clay ant, about the size of a puppet's hand: three round red-brown matte clay body parts, a thin neck, six thin legs, two bent antennae and small black bead eyes. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@HOJA", es: "Trozo de hoja",
+    b: {tag: "@HOJA", z: "m", es: "Trozo de hoja",
         en: "the leaf piece (a half-moon piece of green clay leaf)",
         p: "A single half-moon shaped piece of bright green matte polymer-clay leaf with a pale vein, several times bigger than the ant. Deep fingerprints."},
-    c: {tag: "@CUBOS", es: "Cubos de bloques",
+    c: {tag: "@CUBOS", z: "m", es: "Cubos de bloques",
         en: "the block cubes (one small orange clay block and a bigger cube built from eight of the same blocks)",
         p: "Two orange matte polymer-clay shapes: a single small cube block, and a bigger cube built from eight of the same small blocks stacked two by two by two. Deep fingerprints, visible seams between the blocks."}
   },
@@ -6848,13 +6871,13 @@ EP.push({
   tags: "#Manzana #Cocina",
   reto: "Corta cuatro trozos de manzana: uno sin nada, otro con unas gotas de limón, otro dentro de un vaso de agua y otro en la nevera. Míralos cada media hora: ¿cuál se oscurece último?",
   objs: {
-    a: {tag: "@MANZANA", es: "Manzana",
+    a: {tag: "@MANZANA", z: "m", es: "Manzana",
         en: "the apple (a shiny red clay apple, cut in half when the scene says so, with creamy white flesh)",
         p: "A single oversized stop-motion polymer-clay apple: shiny red matte clay skin with a short brown stem and one green leaf. When cut in half it shows creamy white clay flesh and a small star of dark seeds. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CELDITAS", es: "Celditas de la manzana",
+    b: {tag: "@CELDITAS", z: "l", es: "Celditas de la manzana",
         en: "the apple cells (rounded pale-cream clay cells with green beads in one pocket and yellow beads in another)",
         p: "A group of oversized rounded pale-cream matte polymer-clay cells packed together like soap bubbles. Each cell holds small green clay beads in one pocket and small yellow clay beads in a separate pocket. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@LIMON", es: "Medio limón",
+    c: {tag: "@LIMON", z: "s", es: "Medio limón",
         en: "the lemon half (a bright yellow clay lemon cut in half)",
         p: "A single stop-motion polymer-clay lemon cut in half: bright yellow matte clay skin and a pale-yellow clay inside with simple segment lines. Deep fingerprints."}
   },
@@ -7027,13 +7050,13 @@ EP.push({
   tags: "#DedosArrugados #CuerpoHumano",
   reto: "Pasa diez canicas mojadas de un bol con agua a otro vacío y cronometra cuánto tardas. Repítelo después de un baño, con los dedos arrugados. ¿Cuándo tardas menos?",
   objs: {
-    a: {tag: "@MANO", es: "Maqueta de mano",
+    a: {tag: "@MANO", z: "l", es: "Maqueta de mano",
         en: "the hand model (a big peach clay hand standing upright, palm facing out)",
         p: "A single oversized, friendly stop-motion polymer-clay hand model standing upright on a small white clay base, palm facing forward: smooth peach matte clay with five rounded fingers and soft fingertips. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@YEMA", es: "Yema por dentro",
+    b: {tag: "@YEMA", z: "l", es: "Yema por dentro",
         en: "the fingertip slice (a cut-open fingertip with a peach outer skin and a pale-pink inside with thin red tubes)",
         p: "A single oversized polymer-clay teaching model of a fingertip cut in half lengthwise: a thick peach matte clay outer skin layer over a soft pale-pink clay inside with thin red clay blood tubes running through it. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@CANICAS", es: "Canicas",
+    c: {tag: "@CANICAS", z: "t", es: "Canicas",
         en: "the marbles (colorful round clay marbles)",
         p: "A handful of small round polymer-clay marbles in bright red, blue, green and yellow, with a glossy look and deep fingerprints."}
   },
@@ -7203,16 +7226,16 @@ EP.push({
   tags: "#AgujeroNegro #Espacio",
   reto: "Estira bien una sábana sobre un cesto de ropa o un barreño, pon una naranja en el centro y lanza canicas de lado. ¿Cuántas vueltas dan antes de caer?",
   objs: {
-    a: {tag: "@ESTRELLA", es: "Estrella gigante",
+    a: {tag: "@ESTRELLA", z: "l", es: "Estrella gigante",
         en: "the giant star (a big glowing orange-yellow clay ball)",
         p: "A single big stop-motion polymer-clay star: a round ball of bright orange and yellow matte clay with a soft warm glow and a lumpy surface. Deep fingerprints, simple bold shape."},
-    b: {tag: "@AGUJERO_NEGRO", es: "Agujero negro",
+    b: {tag: "@AGUJERO_NEGRO", z: "l", es: "Agujero negro",
         en: "the black hole (a perfectly black clay sphere with a glowing orange clay ring around it)",
         p: "A single stop-motion polymer-clay black hole: a perfectly matte black clay sphere surrounded by a flat, glowing ring of swirled orange and yellow clay. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@CAMA_ELASTICA", es: "Cama elástica del espacio",
+    c: {tag: "@CAMA_ELASTICA", z: "g", es: "Cama elástica del espacio",
         en: "the stretchy sheet (a smooth grey clay sheet stretched tight on a round frame)",
         p: "A single wide, smooth sheet of grey matte polymer clay with a faint white grid pattern, stretched tight across a round dark-blue clay frame. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@PELOTA", es: "Pelota",
+    d: {tag: "@PELOTA", z: "s", es: "Pelota",
         en: "the small ball (a small red clay ball)",
         p: "A single small ball of bright red matte polymer clay, about the size of a puppet's paddle hand, with deep fingerprints."}
   },
@@ -7385,10 +7408,10 @@ EP.push({
   tags: "#Bostezo #CuerpoHumano",
   reto: "Bosteza a propósito delante de tu familia y cuenta cuántos se contagian en un minuto. ¿Quién aguanta sin bostezar?",
   objs: {
-    a: {tag: "@CEREBRO", es: "Cerebro de plastilina",
+    a: {tag: "@CEREBRO", z: "m", es: "Cerebro de plastilina",
         en: "the brain model (a soft pink clay brain on a small white stand)",
         p: "A single oversized soft pink matte polymer-clay brain model with rounded folds, sitting on a small white clay stand. Deep fingerprints, friendly simple shape."},
-    b: {tag: "@MANDIBULA", es: "Mandíbula",
+    b: {tag: "@MANDIBULA", z: "l", es: "Mandíbula",
         en: "the jaw model (a friendly peach clay jaw in side view, with white teeth)",
         p: "A single oversized, friendly polymer-clay teaching model of a simple jaw seen from the side: smooth peach matte clay with rounded white clay teeth and a pink clay tongue, hinged so it can open wide. No eyes or face details, deep fingerprints, simple bold shapes."}
   },
@@ -7558,13 +7581,13 @@ EP.push({
   tags: "#Mar #Ciencia",
   reto: "Disuelve dos cucharadas de sal en medio vaso de agua tibia, échalo en un plato junto a una ventana soleada y espera. ¿Cuántos días tarda en aparecer la sal?",
   objs: {
-    a: {tag: "@MAR", es: "Trozo de mar",
+    a: {tag: "@MAR", z: "g", es: "Trozo de mar",
         en: "the sea pool (a wide round dark-blue clay sea with small white wave crests)",
         p: "A single wide, shallow, round polymer-clay pool of dark-blue matte clay water with small white clay wave crests, edged by a thin pale-yellow clay sand rim. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@ROCA", es: "Roca con minerales",
+    b: {tag: "@ROCA", z: "m", es: "Roca con minerales",
         en: "the rock (a big grey clay rock with sparkly white bits)",
         p: "A single big rounded grey matte polymer-clay rock with small sparkly white and pink clay mineral bits pressed into its surface. Deep fingerprints, simple bold shape."},
-    c: {tag: "@PLATO_SALADO", es: "Plato con agua salada",
+    c: {tag: "@PLATO_SALADO", z: "m", es: "Plato con agua salada",
         en: "the salty plate (a shallow dark-blue clay plate holding clear water)",
         p: "A single shallow, round stop-motion polymer-clay plate of dark-blue matte clay, holding a thin layer of clear glossy clay water. Deep fingerprints, simple bold shape."}
   },
@@ -7737,13 +7760,13 @@ EP.push({
   tags: "#Murciélagos #Animales",
   reto: "Juega al murciélago con tu familia en un lugar despejado: uno se tapa los ojos y los demás dan palmadas desde distintos sitios. ¿Consigue encontrarlos solo con el oído?",
   objs: {
-    a: {tag: "@MURCIELAGO", es: "Murciélago",
+    a: {tag: "@MURCIELAGO", z: "m", es: "Murciélago",
         en: "the bat (a small fuzzy brown clay bat with big ears and thin dark wings)",
         p: "A single cute stop-motion polymer-clay bat, about the size of a puppet's head: a fuzzy round brown matte clay body, big pointed ears, small black bead eyes, a tiny snout and two thin dark-brown clay wings with long finger bones visible under the skin. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@ONDAS", es: "Ondas de sonido",
+    b: {tag: "@ONDAS", z: "m", es: "Ondas de sonido",
         en: "the sound arcs (curved pale-yellow clay arcs)",
         p: "A set of thin curved arcs of pale-yellow matte polymer clay, each slightly bigger than the last, with deep fingerprints. They represent sound waves."},
-    c: {tag: "@POLILLA", es: "Polilla",
+    c: {tag: "@POLILLA", z: "s", es: "Polilla",
         en: "the moth (a small fuzzy grey clay moth)",
         p: "A single small stop-motion polymer-clay moth with a fuzzy grey matte clay body, two soft pale-grey wings and feathery antennae. Deep fingerprints, simple bold shapes."}
   },
@@ -7913,13 +7936,13 @@ EP.push({
   tags: "#Colores #Ciencia",
   reto: "Recorta un círculo de cartón, pinta una mitad de azul y la otra de amarillo, atraviésalo con un lápiz por el centro y hazlo girar como una peonza. ¿Ves verde o gris?",
   objs: {
-    a: {tag: "@PINTURAS", es: "Botes de pintura",
+    a: {tag: "@PINTURAS", z: "m", es: "Botes de pintura",
         en: "the paint pots (three small clay pots of red, yellow and blue paint)",
         p: "Three small round stop-motion polymer-clay paint pots in a row, filled with glossy red, yellow and blue clay paint. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@LINTERNAS", es: "Linternas de colores",
+    b: {tag: "@LINTERNAS", z: "s", es: "Linternas de colores",
         en: "the color flashlights (three small clay flashlights shining red, green and blue light)",
         p: "Three small stop-motion polymer-clay flashlights side by side: grey matte clay tubes with round lenses, one glowing red, one green and one blue. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@PRISMA", es: "Prisma",
+    c: {tag: "@PRISMA", z: "m", es: "Prisma",
         en: "the prism (a clear triangular clay prism)",
         p: "A single clear, glassy-looking triangular polymer-clay prism standing upright, with smooth faces and deep fingerprints."}
   },
@@ -8092,16 +8115,16 @@ EP.push({
   tags: "#Arañas #Animales",
   reto: "Con un adulto, busca una telaraña por la mañana y mírala con una lupa, sin tocarla. ¿En qué hilos brillan las gotitas? Dibuja la telaraña.",
   objs: {
-    a: {tag: "@ARANA", es: "Araña",
+    a: {tag: "@ARANA", z: "s", es: "Araña",
         en: "the spider (a cute round brown clay spider with eight legs)",
         p: "A single cute stop-motion polymer-clay garden spider, about the size of a puppet's hand: a round brown matte clay body with pale-yellow clay spots, a small head with shiny black bead eyes and eight thin jointed brown clay legs. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@TELARANA", es: "Telaraña",
+    b: {tag: "@TELARANA", z: "l", es: "Telaraña",
         en: "the web (a round clay spider web with straight spokes and a spiral)",
         p: "A single round spider web made of thin white polymer-clay threads: straight spokes running out from the center and a spiral thread wound around them, dotted with tiny shiny clear glue droplets. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@PATA", es: "Pata de araña de cerca",
+    c: {tag: "@PATA", z: "l", es: "Pata de araña de cerca",
         en: "the spider leg (a giant close-up of a brown clay spider leg covered in tiny branching hairs)",
         p: "A single oversized polymer-clay close-up of a spider leg tip: a brown matte clay segment covered in many tiny branching dark clay hairs, ending in two small curved claws. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@MOSCA", es: "Mosca",
+    d: {tag: "@MOSCA", z: "s", es: "Mosca",
         en: "the fly (a small dark-grey clay fly with clear wings)",
         p: "A single small stop-motion polymer-clay housefly with a dark-grey matte clay body, red bead eyes and two clear clay wings. Deep fingerprints, simple bold shapes."}
   },
@@ -8271,13 +8294,13 @@ EP.push({
   tags: "#Nubes #Clima",
   reto: "Con un adulto, llena un tercio de un frasco de vidrio con agua caliente y pon encima un plato con cubitos de hielo. Espera un minuto: ¿ves cómo se forma tu nube?",
   objs: {
-    a: {tag: "@NUBE", es: "Nube",
+    a: {tag: "@NUBE", z: "g", es: "Nube",
         en: "the cloud (a big fluffy white clay cumulus cloud)",
         p: "A single big, fluffy stop-motion polymer-clay cumulus cloud made of rounded puffs of soft white matte clay, slightly grey underneath. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@GOTITAS", es: "Gotitas de nube",
+    b: {tag: "@GOTITAS", z: "t", es: "Gotitas de nube",
         en: "the cloud droplets (many tiny round clear clay droplets, each with a tiny brown speck inside)",
         p: "Many tiny round droplets of clear glossy polymer clay floating far apart, each holding a tiny brown clay dust speck in its center. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@FRASCO", es: "Frasco de la nube",
+    c: {tag: "@FRASCO", z: "m", es: "Frasco de la nube",
         en: "the cloud jar (a clear clay jar with warm water and a small plate of ice cubes on top)",
         p: "A single clear glassy-looking polymer-clay jar half filled with pale-blue clay water, with a small white clay plate holding three pale-cyan clay ice cubes resting on its open top. Deep fingerprints, simple bold shapes."}
   },
@@ -8450,16 +8473,16 @@ EP.push({
   tags: "#PielDeGallina #CuerpoHumano",
   reto: "Haz una lista de cosas que te ponen la piel de gallina: un cubito de hielo un segundo en el brazo, tu canción favorita, una historia de miedo… ¿Cuál funciona mejor?",
   objs: {
-    a: {tag: "@PIEL", es: "Piel por dentro",
+    a: {tag: "@PIEL", z: "l", es: "Piel por dentro",
         en: "the skin slice (a cut-open piece of peach clay skin with a hair, its pocket and a tiny red muscle)",
         p: "A single oversized polymer-clay teaching model of skin cut open from the side: a peach matte clay surface layer, a pale-pink layer below, one fine dark hair growing from a small pocket, and a tiny red clay muscle strip joining the pocket to the surface. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@GATO", es: "Gato",
+    b: {tag: "@GATO", z: "l", es: "Gato",
         en: "the cat (a fluffy orange clay cat)",
         p: "A single cute stop-motion polymer-clay cat with fluffy orange matte clay fur, white paws, a pink nose and green bead eyes. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@PUERCOESPIN", es: "Puercoespín",
+    c: {tag: "@PUERCOESPIN", z: "l", es: "Puercoespín",
         en: "the porcupine (a round brown clay porcupine with long pale quills)",
         p: "A single cute stop-motion polymer-clay porcupine: a round brown matte clay body with a small face, black bead eyes and many long pale-cream clay quills on its back. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@BRAZO", es: "Maqueta de brazo",
+    d: {tag: "@BRAZO", z: "l", es: "Maqueta de brazo",
         en: "the arm model (a big peach clay forearm with fine hairs)",
         p: "A single oversized, friendly polymer-clay forearm model lying flat on a small white clay base: smooth peach matte clay skin with many fine short dark hairs. Deep fingerprints, simple bold shapes."}
   },
@@ -8629,13 +8652,13 @@ EP.push({
   tags: "#Electricidad #Pájaros",
   reto: "Sal con un adulto y, desde lejos, cuenta los pájaros que veas en los cables. ¿Alguno toca dos cables a la vez? Recuerda: los cables no se tocan nunca.",
   objs: {
-    a: {tag: "@PAJARO", es: "Gorrión",
+    a: {tag: "@PAJARO", z: "s", es: "Gorrión",
         en: "the sparrow (a small round brown clay sparrow)",
         p: "A single cute stop-motion polymer-clay sparrow: a small round brown and cream matte clay body, short wings, a tiny dark beak, black bead eyes and thin pink clay feet. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CABLE", es: "Cable eléctrico",
+    b: {tag: "@CABLE", z: "g", es: "Cable eléctrico",
         en: "the power line (a thick black clay cable stretched between grey poles)",
         p: "A single long, thick black matte polymer-clay cable with shiny grey metal strands visible at its cut end, stretched tight between two simple grey clay poles. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@CORRIENTE", es: "Bolitas de electricidad",
+    c: {tag: "@CORRIENTE", z: "t", es: "Bolitas de electricidad",
         en: "the glowing beads (tiny glowing yellow clay beads that stand for electricity)",
         p: "Many tiny round beads of bright yellow polymer clay with a soft glow, lined up in a stream. Deep fingerprints. They represent the flow of electricity."}
   },
@@ -8808,10 +8831,10 @@ EP.push({
   tags: "#Camaleón #Animales",
   reto: "Haz tres tarjetas de colores: verde (tranquilo), naranja (emocionado) y marrón (necesito calma). Durante la cena, usa las tarjetas en lugar de palabras. ¿Te entienden?",
   objs: {
-    a: {tag: "@CAMALEON", es: "Camaleón",
+    a: {tag: "@CAMALEON", z: "m", es: "Camaleón",
         en: "the chameleon (a green clay chameleon with a curled tail and round eyes)",
         p: "A single cute stop-motion polymer-clay panther chameleon, about as long as a puppet's arm: a green matte clay body with a crest on its head, a long curled tail, grippy two-toed feet and two big round turret eyes. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CRISTALES", es: "Cristales de la piel",
+    b: {tag: "@CRISTALES", z: "l", es: "Cristales de la piel",
         en: "the skin crystals (tiny shiny white clay crystals in neat rows inside a pale skin layer)",
         p: "An oversized polymer-clay teaching model of a slice of reptile skin: a pale translucent-looking clay layer holding many tiny shiny white clay crystals arranged in neat rows. Deep fingerprints, simple bold shapes."}
   },
@@ -8981,10 +9004,10 @@ EP.push({
   tags: "#Mareo #CuerpoHumano",
   reto: "Sobre el césped y con un adulto cerca, gira tres veces sin mirar nada y para. Después gira mirando siempre una banderita y girando la cabeza la última. ¿En cuál te mareas menos?",
   objs: {
-    a: {tag: "@OIDO", es: "Oído interno",
+    a: {tag: "@OIDO", z: "l", es: "Oído interno",
         en: "the inner ear model (three clear clay loops and a small coiled shell, filled with pale-blue liquid)",
         p: "A single oversized polymer-clay teaching model of the inner ear on a small white clay stand: three clear, glassy-looking clay loops at right angles to each other, joined to a small coiled snail-shell shape, all filled with pale-blue clay liquid. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@COCHE", es: "Coche de juguete",
+    b: {tag: "@COCHE", z: "m", es: "Coche de juguete",
         en: "the toy car (a small round red clay car)",
         p: "A single small, round stop-motion polymer-clay car with a shiny red matte body, clear clay windows and four black clay wheels. Deep fingerprints, simple bold shapes."}
   },
@@ -9157,16 +9180,16 @@ EP.push({
   tags: "#Abejas #Miel",
   reto: "Con tu familia, prueba dos o tres mieles distintas (de flores, de eucalipto, de azahar…). ¿Cuál es más clara? ¿Cuál más dulce? ¿Cuál te gusta más?",
   objs: {
-    a: {tag: "@ABEJA", es: "Abeja",
+    a: {tag: "@ABEJA", z: "s", es: "Abeja",
         en: "the bee (a cute fuzzy yellow-and-black clay honeybee)",
         p: "A single cute stop-motion polymer-clay honeybee, about the size of a puppet's hand: a fuzzy round body with yellow and black matte clay stripes, small clear wings, black bead eyes and thin legs. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@PANAL", es: "Panal",
+    b: {tag: "@PANAL", z: "l", es: "Panal",
         en: "the honeycomb (a slab of pale-yellow wax clay with six-sided cells)",
         p: "A single slab of pale-yellow matte polymer-clay honeycomb made of neat six-sided cells, some empty, some filled with glossy golden honey and some sealed with thin white wax lids. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@FLOR", es: "Flor",
+    c: {tag: "@FLOR", z: "m", es: "Flor",
         en: "the flower (a big pink clay flower with a yellow center)",
         p: "A single big stop-motion polymer-clay flower with five rounded pink matte clay petals, a yellow clay center and a green clay stem. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@TARRO", es: "Tarro de miel",
+    d: {tag: "@TARRO", z: "m", es: "Tarro de miel",
         en: "the honey jar (a round clear clay jar of golden honey)",
         p: "A single round, clear glassy-looking polymer-clay jar filled with glossy golden clay honey, with a small wooden clay dipper. Deep fingerprints, simple bold shapes."}
   },
@@ -9336,13 +9359,13 @@ EP.push({
   tags: "#Semillas #Plantas",
   reto: "Pon algodón mojado en un frasco de cristal y mete tres frijoles o garbanzos pegados al cristal. Mantén el algodón húmedo. ¿Cuántos días tarda en salir la raíz? Luego pon el frasco de lado: ¿qué hace la raíz?",
   objs: {
-    a: {tag: "@FRIJOL", es: "Frijol",
+    a: {tag: "@FRIJOL", z: "s", es: "Frijol",
         en: "the bean (a big smooth brown clay bean that can split into two halves)",
         p: "A single oversized stop-motion polymer-clay bean with a smooth brown matte skin and a small pale scar on one side. When split open it shows two thick pale-cream halves with a tiny pale-green baby plant tucked between them. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@FRASCO_SEMILLAS", es: "Frasco de germinación",
+    b: {tag: "@FRASCO_SEMILLAS", z: "m", es: "Frasco de germinación",
         en: "the sprout jar (a clear clay jar packed with wet white cotton and brown beans pressed against the glass)",
         p: "A single clear glassy-looking polymer-clay jar packed with soft white clay cotton, with brown clay beans pressed against the inside of the glass. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@PUNTA_RAIZ", es: "Punta de la raíz",
+    c: {tag: "@PUNTA_RAIZ", z: "l", es: "Punta de la raíz",
         en: "the root tip (a giant rounded white clay root tip with tiny heavy brown grains in its cells)",
         p: "A single oversized polymer-clay teaching model of a root tip: a rounded white matte clay tip made of small visible cells, each holding a few tiny heavy brown clay grains. Deep fingerprints, simple bold shapes."}
   },
@@ -9515,16 +9538,16 @@ EP.push({
   tags: "#Crecer #CuerpoHumano",
   reto: "Marca hoy tu altura en una pared o una puerta, con la fecha (pide permiso antes). Guarda la marca y vuelve a medirte dentro de un año: ¿cuántos centímetros creciste?",
   objs: {
-    a: {tag: "@HUESO", es: "Hueso que crece",
+    a: {tag: "@HUESO", z: "l", es: "Hueso que crece",
         en: "the bone model (a long white clay bone with thin pale-blue bands near each end)",
         p: "A single oversized polymer-clay teaching model of a long leg bone standing upright on a small white clay stand: smooth white matte clay with rounded knobby ends and a thin pale-blue clay band just inside each end. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@MEDIDOR", es: "Medidor de altura",
+    b: {tag: "@MEDIDOR", z: "g", es: "Medidor de altura",
         en: "the height chart (a tall cream clay measuring strip with colored lines on a wall)",
         p: "A single tall stop-motion polymer-clay height chart fixed to a wall: a cream matte clay strip with evenly spaced short colored lines and a small giraffe shape at the top, with no numbers or letters. Deep fingerprints, simple bold shapes."},
-    c: {tag: "@COLUMNA", es: "Columna de juguete",
+    c: {tag: "@COLUMNA", z: "l", es: "Columna de juguete",
         en: "the spine model (a stack of small white clay bones with soft pale-blue cushions between them)",
         p: "A single polymer-clay teaching model of a spine: a gently curved stack of small white matte clay bones with soft, puffy pale-blue clay cushions between each pair. Deep fingerprints, simple bold shapes."},
-    d: {tag: "@CAMA", es: "Cama",
+    d: {tag: "@CAMA", z: "x", es: "Cama",
         en: "the bed (a small light-brown clay bed with a blue blanket and a white pillow)",
         p: "A single stop-motion polymer-clay bed sized for a puppet: a simple light-brown matte clay frame, a fluffy white clay pillow and a thick blue clay blanket. Deep fingerprints, simple bold shapes."}
   },
@@ -9727,7 +9750,11 @@ EP.push({
           if (f === "k") s.key = true;
           else if (f === "o") s.open = true;
           else if (f.charAt(0) === "<") s.from = E + "_C" + pad(+f.slice(1));
+          else if (/^[a-e]=[tsmlxg]$/.test(f)) { s.zo = s.zo || {}; s.zo[f.charAt(0)] = f.charAt(2); }
         });
+        /* Escala crítica: el protagonista junto a algo mucho más pequeño que él.
+           Con ingredientes sueltos el modelo no sabe el tamaño: se compone primero la imagen. */
+        if (s.tags.indexOf(ep.star) > -1 && s.tags.split("").some(function (k) { var z = zOf(ep, s, k); return z === "t" || z === "s"; })) { s.sc = true; s.key = true; }
       } else if (k === "R" || k === "W") {
         c++;
         var code = k === "W" ? ep.star + "10" : r[1], B = BANK[code];
@@ -9762,6 +9789,24 @@ EP.push({
     return o;
   }
 
+  /* ---------- Escala ---------- */
+  function zOf(ep, s, k) { var o = ep.objs[k]; return o ? ((s && s.zo && s.zo[k]) || o.z) : ""; }
+  function shortEn(o) { return o.en.split(" (")[0]; }
+  function scale(ep, s) {
+    var tags = s.tags.split(""), who = tags.filter(function (k) { return WHO[k]; })[0];
+    var ob = tags.filter(function (k) { return ep.objs[k]; });
+    if (!ob.length || (!who && ob.length < 2)) return "";
+    if (who) {
+      var N = WHO[who].es;
+      return "Size and scale: " + N + " is about 30 cm tall; " + ob.map(function (k) {
+        var z = SIZES[zOf(ep, s, k)];
+        return shortEn(ep.objs[k]) + " is " + z[2] + ", " + z[3].replace(/\{N\}/g, N);
+      }).join("; ") + ". Keep these exact sizes for the whole shot. ";
+    }
+    return "Size and scale: " + joinEn(ob.map(function (k) { return shortEn(ep.objs[k]) + " is " + SIZES[zOf(ep, s, k)][2]; })) +
+      ". Keep these relative sizes for the whole shot. ";
+  }
+
   /* ---------- Prompts ---------- */
   function refs(ep, tags) { return tags.split("").map(function (k) { return WHO[k] || ep.objs[k]; }); }
   function joinEn(a) { return a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1]; }
@@ -9775,19 +9820,26 @@ EP.push({
     return r.length ? r.map(function (x) { return x.tag; }).join(" + ") : "ninguno (solo el prompt)";
   }
   function pClip(ep, s) {
-    return CAM[s.cam].v + ". " + hdr(ep, s.tags) + s.scene + " One continuous action for the whole 8-second shot: " + s.act +
+    return CAM[s.cam].v + ". " + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + "One continuous action for the whole 8-second shot: " + s.act +
       " Everything else in the frame stays still. " + STYLE_V + " " + puppet(s) + AUDIO;
   }
   function pMotion(ep, s) {
     return CAM[s.cam].v + ". Starting from the provided first frame, one continuous action for the whole 8-second shot: " + s.act +
-      " Everything else stays still, and the colors, clay texture and character design stay exactly as in the first frame. Handmade claymation stop-motion motion, animated on twos at 12 fps. " +
+      " Everything else stays still, and the colors, clay texture, sizes and character design stay exactly as in the first frame. Handmade claymation stop-motion motion, animated on twos at 12 fps. " +
       puppet(s) + AUDIO;
   }
   function pKey(ep, s) {
-    return "16:9 still frame. " + CAM[s.cam].k + ". " + hdr(ep, s.tags) + s.scene + " " + STYLE_I + " The frame holds only these clay figures on the plain white set.";
+    return "16:9 still frame. " + CAM[s.cam].k + ". " + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + STYLE_I + " The frame holds only these clay figures on the plain white set.";
   }
   function pStill(ep, s) {
-    return "16:9 still image. " + hdr(ep, s.tags) + s.scene + " " + STYLE_I + " The image holds only these clay figures on the plain white set.";
+    return "16:9 still image. " + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + STYLE_I + " The image holds only these clay figures on the plain white set.";
+  }
+  function pScale(ep) {
+    var N = WHO[ep.star].es, ks = Object.keys(ep.objs);
+    return "16:9 still image, a size comparison line-up. Using the provided reference images of " + joinEn([WHO[ep.star].en].concat(ks.map(function (k) { return ep.objs[k].en; }))) + ": " +
+      N + " stands on the left, facing the camera, about 30 cm tall. To his right, standing in one straight row on the same floor and evenly spaced, are " +
+      joinEn(ks.map(function (k) { var z = SIZES[ep.objs[k].z]; return shortEn(ep.objs[k]) + " (" + z[2] + ", " + z[3].replace(/\{N\}/g, N) + ")"; })) +
+      ". Every object keeps exactly this real size next to " + N + ". " + STYLE_I + " The image holds only these clay figures on the plain white set.";
   }
   function pObj(o) { return o.p + " 16:9 frame at eye level, the object centered. " + STYLE_I; }
 
@@ -9831,11 +9883,12 @@ EP.push({
       ["Lee el guion en voz alta con cronómetro", "Cada frase corresponde a un clip de 8 s. Si una frase pasa de 7 s al leerla, recórtala antes de generar la voz."]]},
     {t: "2 · Voz en ElevenLabs", i: [
       ["Usa siempre la misma voz del canal", "Una voz cálida y curiosa en español neutro. Guárdala en tus voces y no la cambies entre episodios."],
-      ["Genera el guion bloque por bloque", "Pestaña Guion. Modelo Eleven v3 con estabilidad Natural. Haz dos o tres tomas por bloque y quédate con la mejor."],
-      ["Exporta y nombra cada bloque", "__E___VO_B1 a __E___VO_B7. Comprueba que cada bloque dura menos que su tramo de video."]]},
+      ["Genera el guion bloque por bloque, con velocidad 0,9", "Pestaña Guion. Modelo Eleven v3, estabilidad Natural y velocidad 0,9 en los ajustes de la voz. Haz dos o tres tomas por bloque y quédate con la mejor."],
+      ["Exporta y nombra cada bloque", "__E___VO_B1 a __E___VO_B7. La voz de todo el episodio dura unos 4 minutos: es lo correcto. Los 5:00 los dan los clips, y cada frase se coloca sobre el suyo en el montaje."]]},
     {t: "3 · Elenco y láminas en Nano Banana Pro", i: [
       ["Ten listo el banco del canal", "Pestaña Elenco. Los 20 clips de reacción y las 2 láminas del canal se generan una sola vez y sirven para todos los episodios."],
       ["Genera los objetos del episodio", "Pestaña Elenco. Un objeto por imagen, sobre fondo blanco. Guárdalos como ingredientes en Flow."],
+      ["Comprueba los tamaños con la hoja de escala", "Pestaña Elenco. Una imagen del protagonista junto a todos los objetos en su tamaño real. Es la regla con la que revisas cada fotograma clave."],
       ["Genera las 3 láminas del episodio", "Pestaña Tomas, tarjetas amarillas. Sin texto: los rótulos se añaden en DaVinci."]]},
     {t: "4 · Clips en Google Flow", i: [
       ["Configura el proyecto", "Veo 3.1 Lite, 16:9, 8 segundos, un resultado por prompt. En este episodio el único personaje que se adjunta es __STAR__. __CO__ sale siempre del banco."],
@@ -9843,8 +9896,9 @@ EP.push({
       ["Revisa cada clip antes de seguir", "Personaje correcto, boca cerrada, sin texto, fondo blanco y una sola acción. Descárgalo y nómbralo con su ID."],
       ["Controla los créditos", "__PTS__"]]},
     {t: "5 · Montaje en DaVinci Resolve", i: [
-      ["Línea de tiempo 1920×1080 a 24 fps", "Coloca primero la voz. Deja 2 s de silencio después de «Piénsalo…»."],
-      ["Un clip por frase", "Cada clip entra con su frase (pestaña Tomas). Ajusta con recorte o con velocidad entre 85 % y 115 %, nunca más."],
+      ["Línea de tiempo 1920×1080 a 24 fps", "Coloca primero los clips y las láminas, en orden y sin huecos: son ellos los que dan los 5:00. No montes al ritmo de la voz, o el episodio se queda en unos 3:30."],
+      ["Importa los subtítulos de tiempos", "Pestaña Guion, archivo .srt. En DaVinci: File → Import → Subtitle, y arrástralo a la línea de tiempo. Cada subtítulo marca dónde empieza una frase."],
+      ["Una frase sobre cada clip", "Corta la voz de cada bloque en sus pausas y coloca cada frase al comienzo de su subtítulo. Si una frase pasa de su clip, recórtala o acelérala hasta un 110 %, nunca más. Deja 2 s de silencio después de «Piénsalo…»."],
       ["Clips del banco", "Colócalos donde indica la pestaña Tomas. Para que no se vean idénticos de un episodio a otro, voltéalos en espejo o cambia el encuadre."],
       ["Láminas con rótulos", "Zoom lento de 100 % a 106 % y los rótulos que indica cada lámina, en letra grande."],
       ["Sonido", "Silencia el audio de Flow o déjalo a −18 dB si solo tiene roces de arcilla. Añade los efectos de la pestaña Guion y música suave a −20 dB bajo la voz. Mezcla final a −14 LUFS."],
@@ -9894,11 +9948,30 @@ EP.push({
   }
 
   /* ---------- Vista: Guion ---------- */
+  /* Segundos que tarda la voz en decir una frase, con la velocidad recomendada */
+  function vsec(t) { return words(t) / (VOICE.rate * VOICE.speed); }
+  function srtTime(x) {
+    var ms = Math.round(x * 1000), h = Math.floor(ms / 3600000), m = Math.floor(ms / 60000) % 60, sc = Math.floor(ms / 1000) % 60;
+    return ("0" + h).slice(-2) + ":" + ("0" + m).slice(-2) + ":" + ("0" + sc).slice(-2) + "," + ("00" + (ms % 1000)).slice(-3);
+  }
+  function srt(ep) {
+    var n = 0;
+    return build(ep).filter(function (s) { return s.vo && words(s.vo); }).map(function (s) {
+      var a = s.t0 + VOICE.lead, b = Math.min(s.t1 - 0.2, a + Math.max(1.5, vsec(s.vo)));
+      return (++n) + "\n" + srtTime(a) + " --> " + srtTime(b) + "\n" + s.vo.replace(/\[[^\]]*\]\s*/g, "").trim() + "\n";
+    }).join("\n");
+  }
   function vGuion(ep) {
     var S = build(ep), c = count(ep), all = [], marks = [];
+    var vt = S.reduce(function (n, s) { return n + (s.vo ? vsec(s.vo) : 0); }, 0);
     var h = "<section class='panel'><h2>Guion para ElevenLabs · Ep. " + ep.n + "</h2>" +
       "<p class='mut'>" + c.words + " palabras para " + tc(c.dur) + " de video. Cada línea es la voz de una toma: explica, pregunta y responde a las ideas de Pipo y Plop. La acción la muestra la imagen.</p>" +
+      "<p class='note'><b>La voz dura unos " + tc(vt) + ", no 5:00, y está bien así.</b> Cada frase ocupa unos 6 de los 8 segundos de su clip; el resto es respiro para la imagen, la música y los efectos. " +
+      "Los 5:00 los dan los clips. Si generas la voz de corrido y montas a su ritmo, el episodio se queda en unos 3:30. " +
+      "En el montaje, cada frase se coloca al comienzo de su clip: el archivo de subtítulos de abajo marca dónde.</p>" +
       ul(["<b>Modelo:</b> Eleven v3, que entiende las etiquetas entre corchetes. Admite unos 5.000 caracteres por generación; cada bloque cabe de sobra.",
+          "<b>Velocidad:</b> 0,9 en los ajustes de la voz. Un ritmo algo más pausado, mejor para niños, que llena más cada clip sin pasarse de los 8 segundos. Medido: a velocidad 1,0, el guion del Ep. 2 duró 3:30.",
+          "<b>Pausas:</b> Eleven v3 no admite etiquetas de pausa con tiempo (<i>break</i>). No intentes estirar el audio con pausas: el tiempo se ajusta en el montaje.",
           "<b>Voz:</b> una sola para todo el canal. Cálida, curiosa, español neutro.",
           "<b>Estabilidad:</b> Natural. Si las etiquetas no se notan, baja a Creative y regenera. Si la voz cambia demasiado, sube a Robust.",
           "<b>Etiquetas:</b> ya vienen puestas, una por frase como máximo. Los efectos de sonido van aparte, no en el texto.",
@@ -9909,15 +9982,21 @@ EP.push({
       var w = L.reduce(function (n, s) { return n + words(s.vo); }, 0);
       all.push(txt);
       L.forEach(function (s) { marks.push(tc(s.t0) + "  " + (s.k === "R" ? s.id + " (" + s.bid + ")" : s.id) + "  " + s.vo); });
+      var bs = L.reduce(function (n, s) { return n + (s.vo ? vsec(s.vo) : 0); }, 0);
       h += "<section class='panel'><h3>Bloque " + (bi + 1) + " · " + esc(b[0]) + " · " + tc(sp[0]) + "–" + tc(sp[1]) + "</h3>" +
-        "<p class='mut'>Unos " + Math.round(w / 2.4) + " s de voz para " + (sp[1] - sp[0]) + " s de video · " + txt.length + " caracteres</p>" +
+        "<p class='mut'>Unos " + Math.round(bs) + " s de voz para " + (sp[1] - sp[0]) + " s de video · " + L.length + " frases, una por toma · " + txt.length + " caracteres</p>" +
         cb(txt, "Copiar bloque " + (bi + 1), {txt: 1}) + "</section>";
     });
     var full = all.join("\n\n");
     h += "<details class='fold'><summary>Guion completo en un solo texto (" + full.length + " caracteres)</summary><div>" +
       "<p class='mut'>Para leerlo de corrido o generar todo de una vez. Por bloques es más fácil de sincronizar.</p>" + cb(full, "Copiar guion completo", {txt: 1}) + "</div></details>" +
+      "<section class='panel'><h3>Subtítulos de tiempos para DaVinci (.srt)</h3>" +
+      "<p class='prose'>Cada subtítulo empieza donde debe entrar una frase (" + String(VOICE.lead).replace(".", ",") + " s después del comienzo de su clip) y dura lo que tarda la voz en decirla. " +
+      "En DaVinci Resolve: <b>File → Import → Subtitle</b>, arrástralo a la línea de tiempo y coloca cada frase de la voz sobre su subtítulo. También sirve como subtítulos para YouTube.</p>" +
+      "<p><a class='btn' data-srt='1' download='E" + pad(ep.n) + "_tiempos_voz.srt' href='data:application/x-subrip;charset=utf-8," + encodeURIComponent(srt(ep)) + "'>Descargar E" + pad(ep.n) + "_tiempos_voz.srt</a> <span class='mut' aria-live='polite'></span></p>" +
+      "<details class='fold'><summary>Ver o copiar el .srt (si la descarga no funciona, pégalo en un archivo de texto con extensión .srt)</summary><div>" + cb(srt(ep), "Copiar .srt", {txt: 1}) + "</div></details></section>" +
       "<details class='fold'><summary>Guion con tiempos e ID de cada toma, para el montaje</summary><div>" +
-      "<p class='mut'>No lo pegues en ElevenLabs. Sirve para colocar cada frase bajo su clip y como base de los subtítulos.</p>" + cb(marks.join("\n"), "Copiar guion con tiempos", {txt: 1}) + "</div></details>";
+      "<p class='mut'>No lo pegues en ElevenLabs. Sirve para colocar cada frase bajo su clip.</p>" + cb(marks.join("\n"), "Copiar guion con tiempos", {txt: 1}) + "</div></details>";
     h += "<section class='panel'><h3>Efectos de sonido de este episodio</h3>" +
       "<p class='mut'>Genera cada uno en Sound Effects de ElevenLabs y colócalo en el montaje. Así la voz queda limpia y controlas el volumen.</p>" +
       ep.sfx.map(function (x) { return cb(x[1], "Copiar", {lab: x[0], ghost: 1}); }).join("") + "</section>" +
@@ -9940,7 +10019,7 @@ EP.push({
     if (s.k === "S") {
       return "<article class='shot still'>" + rail(s, "Lámina · " + s.d + " s") + "<div class='body'>" +
         "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
-        "<p class='meta'><b>Ingredientes:</b> " + esc(attach(ep, s.tags)) + " · <b>Rótulos en DaVinci:</b> " + esc(s.lab) + "</p>" +
+        "<p class='meta'><b>Ingredientes:</b> " + esc(attach(ep, s.tags)) + " · <b>Rótulos en DaVinci:</b> " + esc(s.lab) + "</p>" + sizeLine(ep, s) +
         cb(pStill(ep, s), "Copiar prompt de la lámina") + "</div></article>";
     }
     if (s.k === "K") {
@@ -9957,8 +10036,16 @@ EP.push({
     h = "<article class='shot'>" + rail(s, "Clip · 8 s") + "<div class='body'>" +
       "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
       "<p class='meta'><b>Ingredientes:</b> " + esc(attach(ep, s.tags)) + " · <b>Cámara:</b> " + CAM[s.cam].es + "</p>" +
-      (s.key ? "<p><span class='flag k'>Mejor con fotograma clave</span></p>" : "");
-    if (s.from) {
+      sizeLine(ep, s) +
+      (s.sc ? "" : s.key ? "<p><span class='flag k'>Mejor con fotograma clave</span></p>" : "");
+    if (s.sc && !s.from) {
+      h += "<p class='note'><span class='flag k'>Escala crítica · usa fotograma clave</span> " + esc(WHO[ep.star].es) + " aparece junto a algo mucho más pequeño que él. " +
+        "Con ingredientes sueltos, Flow no sabe el tamaño de cada cosa y suele hacer los objetos tan grandes como el personaje. Compón primero la imagen, comprueba los tamaños y después anímala.</p>" +
+        cb(pKey(ep, s), "Copiar prompt del fotograma", {lab: "1 · Imagen en Nano Banana Pro, con los mismos ingredientes. Revisa que los tamaños sean los indicados antes de seguir"}) +
+        cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con esa imagen como fotograma inicial (Frames to Video)"}) +
+        "<details class='alt'><summary>Ruta rápida con ingredientes (más riesgo de tamaño equivocado)</summary><div>" +
+        cb(pClip(ep, s), "Copiar prompt del clip") + "</div></details>";
+    } else if (s.from) {
       h += "<p class='note'><b>Fotograma inicial:</b> el último fotograma de " + s.from + ". Así continúa exactamente donde quedó.</p>" +
         cb(pMotion(ep, s), "Copiar prompt del clip") +
         "<details class='alt'><summary>Si la continuación pierde calidad: fotograma clave nuevo</summary><div>" +
@@ -9970,6 +10057,13 @@ EP.push({
         cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con esa imagen como fotograma inicial"}) + "</div></details>";
     }
     return h + "</div></article>";
+  }
+  function sizeLine(ep, s) {
+    var ob = s.tags.split("").filter(function (k) { return ep.objs[k]; });
+    if (!ob.length) return "";
+    return "<p class='meta'><b>Tamaños:</b> " + ob.map(function (k) {
+      var z = SIZES[zOf(ep, s, k)]; return esc(ep.objs[k].tag) + " " + z[0].toLowerCase() + " (" + z[1].split(",")[0] + ")";
+    }).join(" · ") + "</p>";
   }
   function vTomas(ep) {
     var S = build(ep), c = count(ep);
@@ -10020,9 +10114,15 @@ EP.push({
       "<p class='note'><b>Si ya lo tienes, no lo regeneres.</b> Este es tu prompt maestro original, sin cambios.</p>" +
       cb(w.p, "Copiar prompt maestro", {txt: 1}) + "</section>";
     Object.keys(ep.objs).forEach(function (k) {
-      var o = ep.objs[k];
-      h += "<section class='panel'><h3>" + o.tag + " · " + esc(o.es) + "</h3>" + cb(pObj(o), "Copiar prompt del objeto") + "</section>";
+      var o = ep.objs[k], z = SIZES[o.z];
+      h += "<section class='panel'><h3>" + o.tag + " · " + esc(o.es) + "</h3>" +
+        "<p class='meta'><b>Tamaño en las escenas:</b> " + z[0] + ", " + esc(z[1]) + " de " + w.es + ".</p>" +
+        cb(pObj(o), "Copiar prompt del objeto") + "</section>";
     });
+    h += "<section class='panel'><h3>Hoja de escala del episodio</h3>" +
+      "<p class='prose'>Cada imagen de referencia muestra un objeto solo, a pantalla completa: no dice nada de su tamaño. Por eso Flow puede hacer una gota tan grande como " + w.es + ". " +
+      "Antes de generar los clips, haz esta imagen en Nano Banana Pro con " + w.tag + " y todos los objetos adjuntos. Si los tamaños salen bien, tenla a mano: es la regla con la que compruebas cada fotograma clave.</p>" +
+      cb(pScale(ep), "Copiar prompt de la hoja de escala") + "</section>";
     h += "<section class='panel'><h2>Banco del canal</h2>" +
       "<p class='prose'>Veinte clips de reacción y dos láminas. Se generan una sola vez, con calma, y sirven para los 52 episodios. Genera el banco de Pipo en una sesión y el de Plop en otra, cada una con un solo ingrediente adjunto. Marca cada pieza cuando la apruebes.</p>" +
       "<ul class='stats'><li id='bank-count'>" + bankDone.length + " de " + BANK_TOTAL + " piezas listas</li><li>Costo único: unos " + credits(Object.keys(BANK).length) + " créditos</li></ul></section>" +
@@ -10040,6 +10140,7 @@ EP.push({
     ["Una sola acción continua por clip", "Un verbo principal que dure los 8 s. «Slowly» y «again and again» estiran la acción y te dejan cortar en cualquier punto.", "Comunidad"],
     ["Sigue la fórmula de Google", "Cámara, sujeto, acción, contexto, estilo y ambiente. Siempre en ese orden.", "Google"],
     ["Nombra las referencias", "Empieza con «Using the provided reference images of…» y llama a cada cosa siempre igual.", "Google"],
+    ["Escribe el tamaño de cada cosa", "Una imagen de referencia no trae tamaño: el objeto ocupa todo el cuadro. Cada prompt con dos o más elementos dice cuánto mide cada uno respecto al títere (unos 30 cm). Cuando el protagonista sale con algo pequeño, compón antes el fotograma en Nano Banana Pro y comprueba los tamaños."],
     ["Describe el estado inicial tal como se ve", "Si la imagen muestra a Pipo sentado, el prompt no puede pedirle que se siente. La imagen es el punto de partida; el texto dice qué cambia.", "Google"],
     ["Repite el bloque de estilo palabra por palabra", "El mismo texto de arcilla, luz y fondo en todos los clips. Cambiar un adjetivo cambia el aspecto.", "Comunidad"],
     ["Define el audio aunque lo silencies", "Un clip sin indicación de sonido tiende a inventar voces, música y subtítulos.", "Google"],
@@ -10069,6 +10170,7 @@ EP.push({
     ["La acción termina a los 3 s y el resto queda quieto", "Añade «slowly» o «again and again». O usa solo los segundos buenos y ralentiza al 85 %."],
     ["El clip va y viene entre dos estados", "La imagen de partida ya muestra el final de la acción. Corrige el estado inicial o cambia el fotograma."],
     ["Salen objetos duplicados o de más", "Di la cantidad («one kernel») y usa fotograma clave."],
+    ["Un objeto sale tan grande como el personaje", "Pasa a la ruta del fotograma clave: genera la imagen en Nano Banana Pro, compárala con la hoja de escala del episodio (Elenco) y regenera la imagen hasta que los tamaños sean correctos. Solo entonces anímala. Corregir la imagen cuesta mucho menos que repetir el video."],
     ["El movimiento se ve demasiado fluido", "En DaVinci, convierte el clip a 12 fps. El prompt ya pide «animated on twos»."],
     ["La cámara se mueve sola", "Empieza el prompt con «Locked-off camera, tripod shot»."],
     ["Dos intentos fallidos seguidos", "Para. Cambia de ruta o simplifica la acción antes de gastar más créditos."]
@@ -10366,6 +10468,23 @@ EP.push({
     $("c-out").textContent = calcText(EP[cur]);
   });
   window.addEventListener("hashchange", function () { if (readHash()) render(); });
+
+  /* Descarga del .srt. En una página normal (GitHub Pages) basta el enlace.
+     Dentro del visor de Claude, el enlace no descarga: se usa su capacidad
+     de descargas, que no admite .srt, así que se guarda como .txt. */
+  var DL = null;
+  try { if (window.claude && window.claude.use) window.claude.use("downloads").then(function (d) { DL = d; }, function () {}); } catch (e) { /* sin visor */ }
+  $("view").addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a[data-srt]");
+    if (!a || !DL) return;
+    e.preventDefault();
+    var name = a.getAttribute("download").replace(/\.srt$/, ".txt");
+    DL.save({filename: name, data: srt(EP[cur])}).then(function () {
+      a.nextElementSibling.textContent = "Guardado como " + name + ". Cámbiale la extensión a .srt antes de importarlo en DaVinci.";
+    }, function (err) {
+      a.nextElementSibling.textContent = err && err.code === "declined" ? "Descarga cancelada." : "Aquí no se puede descargar: usa «Copiar .srt» y pégalo en un archivo con extensión .srt.";
+    });
+  });
 
   readHash();
   render(true);

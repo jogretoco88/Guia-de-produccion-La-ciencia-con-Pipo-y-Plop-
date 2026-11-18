@@ -45,7 +45,11 @@
           if (f === "k") s.key = true;
           else if (f === "o") s.open = true;
           else if (f.charAt(0) === "<") s.from = E + "_C" + pad(+f.slice(1));
+          else if (/^[a-e]=[tsmlxg]$/.test(f)) { s.zo = s.zo || {}; s.zo[f.charAt(0)] = f.charAt(2); }
         });
+        /* Escala crítica: el protagonista junto a algo mucho más pequeño que él.
+           Con ingredientes sueltos el modelo no sabe el tamaño: se compone primero la imagen. */
+        if (s.tags.indexOf(ep.star) > -1 && s.tags.split("").some(function (k) { var z = zOf(ep, s, k); return z === "t" || z === "s"; })) { s.sc = true; s.key = true; }
       } else if (k === "R" || k === "W") {
         c++;
         var code = k === "W" ? ep.star + "10" : r[1], B = BANK[code];
@@ -80,6 +84,24 @@
     return o;
   }
 
+  /* ---------- Escala ---------- */
+  function zOf(ep, s, k) { var o = ep.objs[k]; return o ? ((s && s.zo && s.zo[k]) || o.z) : ""; }
+  function shortEn(o) { return o.en.split(" (")[0]; }
+  function scale(ep, s) {
+    var tags = s.tags.split(""), who = tags.filter(function (k) { return WHO[k]; })[0];
+    var ob = tags.filter(function (k) { return ep.objs[k]; });
+    if (!ob.length || (!who && ob.length < 2)) return "";
+    if (who) {
+      var N = WHO[who].es;
+      return "Size and scale: " + N + " is about 30 cm tall; " + ob.map(function (k) {
+        var z = SIZES[zOf(ep, s, k)];
+        return shortEn(ep.objs[k]) + " is " + z[2] + ", " + z[3].replace(/\{N\}/g, N);
+      }).join("; ") + ". Keep these exact sizes for the whole shot. ";
+    }
+    return "Size and scale: " + joinEn(ob.map(function (k) { return shortEn(ep.objs[k]) + " is " + SIZES[zOf(ep, s, k)][2]; })) +
+      ". Keep these relative sizes for the whole shot. ";
+  }
+
   /* ---------- Prompts ---------- */
   function refs(ep, tags) { return tags.split("").map(function (k) { return WHO[k] || ep.objs[k]; }); }
   function joinEn(a) { return a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1]; }
@@ -93,19 +115,26 @@
     return r.length ? r.map(function (x) { return x.tag; }).join(" + ") : "ninguno (solo el prompt)";
   }
   function pClip(ep, s) {
-    return CAM[s.cam].v + ". " + hdr(ep, s.tags) + s.scene + " One continuous action for the whole 8-second shot: " + s.act +
+    return CAM[s.cam].v + ". " + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + "One continuous action for the whole 8-second shot: " + s.act +
       " Everything else in the frame stays still. " + STYLE_V + " " + puppet(s) + AUDIO;
   }
   function pMotion(ep, s) {
     return CAM[s.cam].v + ". Starting from the provided first frame, one continuous action for the whole 8-second shot: " + s.act +
-      " Everything else stays still, and the colors, clay texture and character design stay exactly as in the first frame. Handmade claymation stop-motion motion, animated on twos at 12 fps. " +
+      " Everything else stays still, and the colors, clay texture, sizes and character design stay exactly as in the first frame. Handmade claymation stop-motion motion, animated on twos at 12 fps. " +
       puppet(s) + AUDIO;
   }
   function pKey(ep, s) {
-    return "16:9 still frame. " + CAM[s.cam].k + ". " + hdr(ep, s.tags) + s.scene + " " + STYLE_I + " The frame holds only these clay figures on the plain white set.";
+    return "16:9 still frame. " + CAM[s.cam].k + ". " + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + STYLE_I + " The frame holds only these clay figures on the plain white set.";
   }
   function pStill(ep, s) {
-    return "16:9 still image. " + hdr(ep, s.tags) + s.scene + " " + STYLE_I + " The image holds only these clay figures on the plain white set.";
+    return "16:9 still image. " + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + STYLE_I + " The image holds only these clay figures on the plain white set.";
+  }
+  function pScale(ep) {
+    var N = WHO[ep.star].es, ks = Object.keys(ep.objs);
+    return "16:9 still image, a size comparison line-up. Using the provided reference images of " + joinEn([WHO[ep.star].en].concat(ks.map(function (k) { return ep.objs[k].en; }))) + ": " +
+      N + " stands on the left, facing the camera, about 30 cm tall. To his right, standing in one straight row on the same floor and evenly spaced, are " +
+      joinEn(ks.map(function (k) { var z = SIZES[ep.objs[k].z]; return shortEn(ep.objs[k]) + " (" + z[2] + ", " + z[3].replace(/\{N\}/g, N) + ")"; })) +
+      ". Every object keeps exactly this real size next to " + N + ". " + STYLE_I + " The image holds only these clay figures on the plain white set.";
   }
   function pObj(o) { return o.p + " 16:9 frame at eye level, the object centered. " + STYLE_I; }
 
@@ -149,11 +178,12 @@
       ["Lee el guion en voz alta con cronómetro", "Cada frase corresponde a un clip de 8 s. Si una frase pasa de 7 s al leerla, recórtala antes de generar la voz."]]},
     {t: "2 · Voz en ElevenLabs", i: [
       ["Usa siempre la misma voz del canal", "Una voz cálida y curiosa en español neutro. Guárdala en tus voces y no la cambies entre episodios."],
-      ["Genera el guion bloque por bloque", "Pestaña Guion. Modelo Eleven v3 con estabilidad Natural. Haz dos o tres tomas por bloque y quédate con la mejor."],
-      ["Exporta y nombra cada bloque", "__E___VO_B1 a __E___VO_B7. Comprueba que cada bloque dura menos que su tramo de video."]]},
+      ["Genera el guion bloque por bloque, con velocidad 0,9", "Pestaña Guion. Modelo Eleven v3, estabilidad Natural y velocidad 0,9 en los ajustes de la voz. Haz dos o tres tomas por bloque y quédate con la mejor."],
+      ["Exporta y nombra cada bloque", "__E___VO_B1 a __E___VO_B7. La voz de todo el episodio dura unos 4 minutos: es lo correcto. Los 5:00 los dan los clips, y cada frase se coloca sobre el suyo en el montaje."]]},
     {t: "3 · Elenco y láminas en Nano Banana Pro", i: [
       ["Ten listo el banco del canal", "Pestaña Elenco. Los 20 clips de reacción y las 2 láminas del canal se generan una sola vez y sirven para todos los episodios."],
       ["Genera los objetos del episodio", "Pestaña Elenco. Un objeto por imagen, sobre fondo blanco. Guárdalos como ingredientes en Flow."],
+      ["Comprueba los tamaños con la hoja de escala", "Pestaña Elenco. Una imagen del protagonista junto a todos los objetos en su tamaño real. Es la regla con la que revisas cada fotograma clave."],
       ["Genera las 3 láminas del episodio", "Pestaña Tomas, tarjetas amarillas. Sin texto: los rótulos se añaden en DaVinci."]]},
     {t: "4 · Clips en Google Flow", i: [
       ["Configura el proyecto", "Veo 3.1 Lite, 16:9, 8 segundos, un resultado por prompt. En este episodio el único personaje que se adjunta es __STAR__. __CO__ sale siempre del banco."],
@@ -161,8 +191,9 @@
       ["Revisa cada clip antes de seguir", "Personaje correcto, boca cerrada, sin texto, fondo blanco y una sola acción. Descárgalo y nómbralo con su ID."],
       ["Controla los créditos", "__PTS__"]]},
     {t: "5 · Montaje en DaVinci Resolve", i: [
-      ["Línea de tiempo 1920×1080 a 24 fps", "Coloca primero la voz. Deja 2 s de silencio después de «Piénsalo…»."],
-      ["Un clip por frase", "Cada clip entra con su frase (pestaña Tomas). Ajusta con recorte o con velocidad entre 85 % y 115 %, nunca más."],
+      ["Línea de tiempo 1920×1080 a 24 fps", "Coloca primero los clips y las láminas, en orden y sin huecos: son ellos los que dan los 5:00. No montes al ritmo de la voz, o el episodio se queda en unos 3:30."],
+      ["Importa los subtítulos de tiempos", "Pestaña Guion, archivo .srt. En DaVinci: File → Import → Subtitle, y arrástralo a la línea de tiempo. Cada subtítulo marca dónde empieza una frase."],
+      ["Una frase sobre cada clip", "Corta la voz de cada bloque en sus pausas y coloca cada frase al comienzo de su subtítulo. Si una frase pasa de su clip, recórtala o acelérala hasta un 110 %, nunca más. Deja 2 s de silencio después de «Piénsalo…»."],
       ["Clips del banco", "Colócalos donde indica la pestaña Tomas. Para que no se vean idénticos de un episodio a otro, voltéalos en espejo o cambia el encuadre."],
       ["Láminas con rótulos", "Zoom lento de 100 % a 106 % y los rótulos que indica cada lámina, en letra grande."],
       ["Sonido", "Silencia el audio de Flow o déjalo a −18 dB si solo tiene roces de arcilla. Añade los efectos de la pestaña Guion y música suave a −20 dB bajo la voz. Mezcla final a −14 LUFS."],
@@ -212,11 +243,30 @@
   }
 
   /* ---------- Vista: Guion ---------- */
+  /* Segundos que tarda la voz en decir una frase, con la velocidad recomendada */
+  function vsec(t) { return words(t) / (VOICE.rate * VOICE.speed); }
+  function srtTime(x) {
+    var ms = Math.round(x * 1000), h = Math.floor(ms / 3600000), m = Math.floor(ms / 60000) % 60, sc = Math.floor(ms / 1000) % 60;
+    return ("0" + h).slice(-2) + ":" + ("0" + m).slice(-2) + ":" + ("0" + sc).slice(-2) + "," + ("00" + (ms % 1000)).slice(-3);
+  }
+  function srt(ep) {
+    var n = 0;
+    return build(ep).filter(function (s) { return s.vo && words(s.vo); }).map(function (s) {
+      var a = s.t0 + VOICE.lead, b = Math.min(s.t1 - 0.2, a + Math.max(1.5, vsec(s.vo)));
+      return (++n) + "\n" + srtTime(a) + " --> " + srtTime(b) + "\n" + s.vo.replace(/\[[^\]]*\]\s*/g, "").trim() + "\n";
+    }).join("\n");
+  }
   function vGuion(ep) {
     var S = build(ep), c = count(ep), all = [], marks = [];
+    var vt = S.reduce(function (n, s) { return n + (s.vo ? vsec(s.vo) : 0); }, 0);
     var h = "<section class='panel'><h2>Guion para ElevenLabs · Ep. " + ep.n + "</h2>" +
       "<p class='mut'>" + c.words + " palabras para " + tc(c.dur) + " de video. Cada línea es la voz de una toma: explica, pregunta y responde a las ideas de Pipo y Plop. La acción la muestra la imagen.</p>" +
+      "<p class='note'><b>La voz dura unos " + tc(vt) + ", no 5:00, y está bien así.</b> Cada frase ocupa unos 6 de los 8 segundos de su clip; el resto es respiro para la imagen, la música y los efectos. " +
+      "Los 5:00 los dan los clips. Si generas la voz de corrido y montas a su ritmo, el episodio se queda en unos 3:30. " +
+      "En el montaje, cada frase se coloca al comienzo de su clip: el archivo de subtítulos de abajo marca dónde.</p>" +
       ul(["<b>Modelo:</b> Eleven v3, que entiende las etiquetas entre corchetes. Admite unos 5.000 caracteres por generación; cada bloque cabe de sobra.",
+          "<b>Velocidad:</b> 0,9 en los ajustes de la voz. Un ritmo algo más pausado, mejor para niños, que llena más cada clip sin pasarse de los 8 segundos. Medido: a velocidad 1,0, el guion del Ep. 2 duró 3:30.",
+          "<b>Pausas:</b> Eleven v3 no admite etiquetas de pausa con tiempo (<i>break</i>). No intentes estirar el audio con pausas: el tiempo se ajusta en el montaje.",
           "<b>Voz:</b> una sola para todo el canal. Cálida, curiosa, español neutro.",
           "<b>Estabilidad:</b> Natural. Si las etiquetas no se notan, baja a Creative y regenera. Si la voz cambia demasiado, sube a Robust.",
           "<b>Etiquetas:</b> ya vienen puestas, una por frase como máximo. Los efectos de sonido van aparte, no en el texto.",
@@ -227,15 +277,21 @@
       var w = L.reduce(function (n, s) { return n + words(s.vo); }, 0);
       all.push(txt);
       L.forEach(function (s) { marks.push(tc(s.t0) + "  " + (s.k === "R" ? s.id + " (" + s.bid + ")" : s.id) + "  " + s.vo); });
+      var bs = L.reduce(function (n, s) { return n + (s.vo ? vsec(s.vo) : 0); }, 0);
       h += "<section class='panel'><h3>Bloque " + (bi + 1) + " · " + esc(b[0]) + " · " + tc(sp[0]) + "–" + tc(sp[1]) + "</h3>" +
-        "<p class='mut'>Unos " + Math.round(w / 2.4) + " s de voz para " + (sp[1] - sp[0]) + " s de video · " + txt.length + " caracteres</p>" +
+        "<p class='mut'>Unos " + Math.round(bs) + " s de voz para " + (sp[1] - sp[0]) + " s de video · " + L.length + " frases, una por toma · " + txt.length + " caracteres</p>" +
         cb(txt, "Copiar bloque " + (bi + 1), {txt: 1}) + "</section>";
     });
     var full = all.join("\n\n");
     h += "<details class='fold'><summary>Guion completo en un solo texto (" + full.length + " caracteres)</summary><div>" +
       "<p class='mut'>Para leerlo de corrido o generar todo de una vez. Por bloques es más fácil de sincronizar.</p>" + cb(full, "Copiar guion completo", {txt: 1}) + "</div></details>" +
+      "<section class='panel'><h3>Subtítulos de tiempos para DaVinci (.srt)</h3>" +
+      "<p class='prose'>Cada subtítulo empieza donde debe entrar una frase (" + String(VOICE.lead).replace(".", ",") + " s después del comienzo de su clip) y dura lo que tarda la voz en decirla. " +
+      "En DaVinci Resolve: <b>File → Import → Subtitle</b>, arrástralo a la línea de tiempo y coloca cada frase de la voz sobre su subtítulo. También sirve como subtítulos para YouTube.</p>" +
+      "<p><a class='btn' data-srt='1' download='E" + pad(ep.n) + "_tiempos_voz.srt' href='data:application/x-subrip;charset=utf-8," + encodeURIComponent(srt(ep)) + "'>Descargar E" + pad(ep.n) + "_tiempos_voz.srt</a> <span class='mut' aria-live='polite'></span></p>" +
+      "<details class='fold'><summary>Ver o copiar el .srt (si la descarga no funciona, pégalo en un archivo de texto con extensión .srt)</summary><div>" + cb(srt(ep), "Copiar .srt", {txt: 1}) + "</div></details></section>" +
       "<details class='fold'><summary>Guion con tiempos e ID de cada toma, para el montaje</summary><div>" +
-      "<p class='mut'>No lo pegues en ElevenLabs. Sirve para colocar cada frase bajo su clip y como base de los subtítulos.</p>" + cb(marks.join("\n"), "Copiar guion con tiempos", {txt: 1}) + "</div></details>";
+      "<p class='mut'>No lo pegues en ElevenLabs. Sirve para colocar cada frase bajo su clip.</p>" + cb(marks.join("\n"), "Copiar guion con tiempos", {txt: 1}) + "</div></details>";
     h += "<section class='panel'><h3>Efectos de sonido de este episodio</h3>" +
       "<p class='mut'>Genera cada uno en Sound Effects de ElevenLabs y colócalo en el montaje. Así la voz queda limpia y controlas el volumen.</p>" +
       ep.sfx.map(function (x) { return cb(x[1], "Copiar", {lab: x[0], ghost: 1}); }).join("") + "</section>" +
@@ -258,7 +314,7 @@
     if (s.k === "S") {
       return "<article class='shot still'>" + rail(s, "Lámina · " + s.d + " s") + "<div class='body'>" +
         "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
-        "<p class='meta'><b>Ingredientes:</b> " + esc(attach(ep, s.tags)) + " · <b>Rótulos en DaVinci:</b> " + esc(s.lab) + "</p>" +
+        "<p class='meta'><b>Ingredientes:</b> " + esc(attach(ep, s.tags)) + " · <b>Rótulos en DaVinci:</b> " + esc(s.lab) + "</p>" + sizeLine(ep, s) +
         cb(pStill(ep, s), "Copiar prompt de la lámina") + "</div></article>";
     }
     if (s.k === "K") {
@@ -275,8 +331,16 @@
     h = "<article class='shot'>" + rail(s, "Clip · 8 s") + "<div class='body'>" +
       "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
       "<p class='meta'><b>Ingredientes:</b> " + esc(attach(ep, s.tags)) + " · <b>Cámara:</b> " + CAM[s.cam].es + "</p>" +
-      (s.key ? "<p><span class='flag k'>Mejor con fotograma clave</span></p>" : "");
-    if (s.from) {
+      sizeLine(ep, s) +
+      (s.sc ? "" : s.key ? "<p><span class='flag k'>Mejor con fotograma clave</span></p>" : "");
+    if (s.sc && !s.from) {
+      h += "<p class='note'><span class='flag k'>Escala crítica · usa fotograma clave</span> " + esc(WHO[ep.star].es) + " aparece junto a algo mucho más pequeño que él. " +
+        "Con ingredientes sueltos, Flow no sabe el tamaño de cada cosa y suele hacer los objetos tan grandes como el personaje. Compón primero la imagen, comprueba los tamaños y después anímala.</p>" +
+        cb(pKey(ep, s), "Copiar prompt del fotograma", {lab: "1 · Imagen en Nano Banana Pro, con los mismos ingredientes. Revisa que los tamaños sean los indicados antes de seguir"}) +
+        cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con esa imagen como fotograma inicial (Frames to Video)"}) +
+        "<details class='alt'><summary>Ruta rápida con ingredientes (más riesgo de tamaño equivocado)</summary><div>" +
+        cb(pClip(ep, s), "Copiar prompt del clip") + "</div></details>";
+    } else if (s.from) {
       h += "<p class='note'><b>Fotograma inicial:</b> el último fotograma de " + s.from + ". Así continúa exactamente donde quedó.</p>" +
         cb(pMotion(ep, s), "Copiar prompt del clip") +
         "<details class='alt'><summary>Si la continuación pierde calidad: fotograma clave nuevo</summary><div>" +
@@ -288,6 +352,13 @@
         cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con esa imagen como fotograma inicial"}) + "</div></details>";
     }
     return h + "</div></article>";
+  }
+  function sizeLine(ep, s) {
+    var ob = s.tags.split("").filter(function (k) { return ep.objs[k]; });
+    if (!ob.length) return "";
+    return "<p class='meta'><b>Tamaños:</b> " + ob.map(function (k) {
+      var z = SIZES[zOf(ep, s, k)]; return esc(ep.objs[k].tag) + " " + z[0].toLowerCase() + " (" + z[1].split(",")[0] + ")";
+    }).join(" · ") + "</p>";
   }
   function vTomas(ep) {
     var S = build(ep), c = count(ep);
@@ -338,9 +409,15 @@
       "<p class='note'><b>Si ya lo tienes, no lo regeneres.</b> Este es tu prompt maestro original, sin cambios.</p>" +
       cb(w.p, "Copiar prompt maestro", {txt: 1}) + "</section>";
     Object.keys(ep.objs).forEach(function (k) {
-      var o = ep.objs[k];
-      h += "<section class='panel'><h3>" + o.tag + " · " + esc(o.es) + "</h3>" + cb(pObj(o), "Copiar prompt del objeto") + "</section>";
+      var o = ep.objs[k], z = SIZES[o.z];
+      h += "<section class='panel'><h3>" + o.tag + " · " + esc(o.es) + "</h3>" +
+        "<p class='meta'><b>Tamaño en las escenas:</b> " + z[0] + ", " + esc(z[1]) + " de " + w.es + ".</p>" +
+        cb(pObj(o), "Copiar prompt del objeto") + "</section>";
     });
+    h += "<section class='panel'><h3>Hoja de escala del episodio</h3>" +
+      "<p class='prose'>Cada imagen de referencia muestra un objeto solo, a pantalla completa: no dice nada de su tamaño. Por eso Flow puede hacer una gota tan grande como " + w.es + ". " +
+      "Antes de generar los clips, haz esta imagen en Nano Banana Pro con " + w.tag + " y todos los objetos adjuntos. Si los tamaños salen bien, tenla a mano: es la regla con la que compruebas cada fotograma clave.</p>" +
+      cb(pScale(ep), "Copiar prompt de la hoja de escala") + "</section>";
     h += "<section class='panel'><h2>Banco del canal</h2>" +
       "<p class='prose'>Veinte clips de reacción y dos láminas. Se generan una sola vez, con calma, y sirven para los 52 episodios. Genera el banco de Pipo en una sesión y el de Plop en otra, cada una con un solo ingrediente adjunto. Marca cada pieza cuando la apruebes.</p>" +
       "<ul class='stats'><li id='bank-count'>" + bankDone.length + " de " + BANK_TOTAL + " piezas listas</li><li>Costo único: unos " + credits(Object.keys(BANK).length) + " créditos</li></ul></section>" +
@@ -358,6 +435,7 @@
     ["Una sola acción continua por clip", "Un verbo principal que dure los 8 s. «Slowly» y «again and again» estiran la acción y te dejan cortar en cualquier punto.", "Comunidad"],
     ["Sigue la fórmula de Google", "Cámara, sujeto, acción, contexto, estilo y ambiente. Siempre en ese orden.", "Google"],
     ["Nombra las referencias", "Empieza con «Using the provided reference images of…» y llama a cada cosa siempre igual.", "Google"],
+    ["Escribe el tamaño de cada cosa", "Una imagen de referencia no trae tamaño: el objeto ocupa todo el cuadro. Cada prompt con dos o más elementos dice cuánto mide cada uno respecto al títere (unos 30 cm). Cuando el protagonista sale con algo pequeño, compón antes el fotograma en Nano Banana Pro y comprueba los tamaños."],
     ["Describe el estado inicial tal como se ve", "Si la imagen muestra a Pipo sentado, el prompt no puede pedirle que se siente. La imagen es el punto de partida; el texto dice qué cambia.", "Google"],
     ["Repite el bloque de estilo palabra por palabra", "El mismo texto de arcilla, luz y fondo en todos los clips. Cambiar un adjetivo cambia el aspecto.", "Comunidad"],
     ["Define el audio aunque lo silencies", "Un clip sin indicación de sonido tiende a inventar voces, música y subtítulos.", "Google"],
@@ -387,6 +465,7 @@
     ["La acción termina a los 3 s y el resto queda quieto", "Añade «slowly» o «again and again». O usa solo los segundos buenos y ralentiza al 85 %."],
     ["El clip va y viene entre dos estados", "La imagen de partida ya muestra el final de la acción. Corrige el estado inicial o cambia el fotograma."],
     ["Salen objetos duplicados o de más", "Di la cantidad («one kernel») y usa fotograma clave."],
+    ["Un objeto sale tan grande como el personaje", "Pasa a la ruta del fotograma clave: genera la imagen en Nano Banana Pro, compárala con la hoja de escala del episodio (Elenco) y regenera la imagen hasta que los tamaños sean correctos. Solo entonces anímala. Corregir la imagen cuesta mucho menos que repetir el video."],
     ["El movimiento se ve demasiado fluido", "En DaVinci, convierte el clip a 12 fps. El prompt ya pide «animated on twos»."],
     ["La cámara se mueve sola", "Empieza el prompt con «Locked-off camera, tripod shot»."],
     ["Dos intentos fallidos seguidos", "Para. Cambia de ruta o simplifica la acción antes de gastar más créditos."]
@@ -684,6 +763,23 @@
     $("c-out").textContent = calcText(EP[cur]);
   });
   window.addEventListener("hashchange", function () { if (readHash()) render(); });
+
+  /* Descarga del .srt. En una página normal (GitHub Pages) basta el enlace.
+     Dentro del visor de Claude, el enlace no descarga: se usa su capacidad
+     de descargas, que no admite .srt, así que se guarda como .txt. */
+  var DL = null;
+  try { if (window.claude && window.claude.use) window.claude.use("downloads").then(function (d) { DL = d; }, function () {}); } catch (e) { /* sin visor */ }
+  $("view").addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a[data-srt]");
+    if (!a || !DL) return;
+    e.preventDefault();
+    var name = a.getAttribute("download").replace(/\.srt$/, ".txt");
+    DL.save({filename: name, data: srt(EP[cur])}).then(function () {
+      a.nextElementSibling.textContent = "Guardado como " + name + ". Cámbiale la extensión a .srt antes de importarlo en DaVinci.";
+    }, function (err) {
+      a.nextElementSibling.textContent = err && err.code === "declined" ? "Descarga cancelada." : "Aquí no se puede descargar: usa «Copiar .srt» y pégalo en un archivo con extensión .srt.";
+    });
+  });
 
   readHash();
   render(true);

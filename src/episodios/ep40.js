@@ -12,10 +12,10 @@ EP.push({
   tags: "#Bostezo #CuerpoHumano",
   reto: "Bosteza a propósito delante de tu familia y cuenta cuántos se contagian en un minuto. ¿Quién aguanta sin bostezar?",
   objs: {
-    a: {tag: "@CEREBRO", es: "Cerebro de plastilina",
+    a: {tag: "@CEREBRO", z: "m", es: "Cerebro de plastilina",
         en: "the brain model (a soft pink clay brain on a small white stand)",
         p: "A single oversized soft pink matte polymer-clay brain model with rounded folds, sitting on a small white clay stand. Deep fingerprints, friendly simple shape."},
-    b: {tag: "@MANDIBULA", es: "Mandíbula",
+    b: {tag: "@MANDIBULA", z: "l", es: "Mandíbula",
         en: "the jaw model (a friendly peach clay jaw in side view, with white teeth)",
         p: "A single oversized, friendly polymer-clay teaching model of a simple jaw seen from the side: smooth peach matte clay with rounded white clay teeth and a pink clay tongue, hinged so it can open wide. No eyes or face details, deep fingerprints, simple bold shapes."}
   },

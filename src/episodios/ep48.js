@@ -12,10 +12,10 @@ EP.push({
   tags: "#Camaleón #Animales",
   reto: "Haz tres tarjetas de colores: verde (tranquilo), naranja (emocionado) y marrón (necesito calma). Durante la cena, usa las tarjetas en lugar de palabras. ¿Te entienden?",
   objs: {
-    a: {tag: "@CAMALEON", es: "Camaleón",
+    a: {tag: "@CAMALEON", z: "m", es: "Camaleón",
         en: "the chameleon (a green clay chameleon with a curled tail and round eyes)",
         p: "A single cute stop-motion polymer-clay panther chameleon, about as long as a puppet's arm: a green matte clay body with a crest on its head, a long curled tail, grippy two-toed feet and two big round turret eyes. Deep fingerprints, simple bold shapes."},
-    b: {tag: "@CRISTALES", es: "Cristales de la piel",
+    b: {tag: "@CRISTALES", z: "l", es: "Cristales de la piel",
         en: "the skin crystals (tiny shiny white clay crystals in neat rows inside a pale skin layer)",
         p: "An oversized polymer-clay teaching model of a slice of reptile skin: a pale translucent-looking clay layer holding many tiny shiny white clay crystals arranged in neat rows. Deep fingerprints, simple bold shapes."}
   },
