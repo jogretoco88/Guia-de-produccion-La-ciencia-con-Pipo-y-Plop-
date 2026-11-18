@@ -8,15 +8,15 @@ La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador
 
 - **52 episodios completos de 5:00**, uno por semana, en cuatro temporadas de 13. Todos están desarrollados toma por toma, con el mismo nivel de detalle: guion, prompts, láminas, efectos, ficha científica, título, miniatura y reto.
 - **Navegación pensada para 52 episodios**: selector agrupado por temporada, botones de episodio anterior y siguiente, buscador en el Plan anual y enlaces directos a cualquier pestaña de cualquier episodio (por ejemplo `index.html#e31-tomas`).
-- **Nunca Pipo y Plop en la misma toma.** Para evitar que se mezclen colores y rasgos, cada toma lleva un solo personaje. El protagonista lleva el episodio (Pipo en los impares, Plop en los pares) y el otro aparece con un **banco de 20 reacciones** de prompt fijo. Solo aparecen juntos en la cortinilla y en la tarjeta final, dos láminas fijas.
-- **Todo se genera en cada episodio, con su fondo.** Cada episodio tiene un fondo (`@FONDO`): un ciclorama mate de un solo color, rojizo coral por defecto. Es la primera referencia de cada fotograma, reacción y lámina. Las reacciones del banco se generan de nuevo en cada episodio: un clip de otro episodio no encaja, porque el fondo y la luz cambian.
+- **Nunca Pipo y Plop en la misma toma.** Para evitar que se mezclen colores y rasgos, cada toma lleva un solo personaje. El protagonista lleva el episodio (Pipo en los impares, Plop en los pares) y el otro aparece con un **banco de 20 reacciones** que se genera una sola vez y sirve para todo el año. Solo aparecen juntos en la cortinilla y en la tarjeta final, dos láminas fijas.
+- **Un solo fondo para todo el canal.** La imagen [`fondo_canal.jpg`](fondo_canal.jpg), un estudio azul claro que transmite calma, es la primera referencia de cada fotograma, lámina, objeto y reacción. Los prompts no describen el fondo: solo piden usar la imagen adjunta tal cual. Como nunca cambia, los clips del banco encajan en todos los episodios.
 - **Sin texto en pantalla.** El video se publica en varios idiomas: ni rótulos, ni letras, ni números, ni signos en la imagen. Todo lo dice la voz.
 - **Contenido para niños de 5 años en adelante.** Ninguna parte del cuerpo suelta (la lengua siempre es la de Plop), lo de dentro del cuerpo se cuenta con juguetes, nada sale de la boca, sin sangre ni heridas, sin cortes de seres vivos y nada peligroso que se pueda imitar. Las reglas están en la pestaña Reglas de Flow y el validador las comprueba.
 - **Pestañas por episodio**
   - **Guía**: los pasos de producción con casillas que se guardan, el título, la descripción con capítulos y la idea de miniatura.
   - **Guion**: la voz para ElevenLabs bloque por bloque, los efectos de sonido y la ficha científica (datos, simplificaciones y nivel de certeza).
   - **Tomas**: las 39 piezas del episodio (34 clips de 8 s y 5 láminas). Cada clip trae el prompt del fotograma (con `@FONDO`, en Nano Banana Pro) y el del movimiento (en Flow), con una sola acción continua de 8 segundos, más una ruta rápida con ingredientes.
-  - **Elenco**: el fondo del episodio, el protagonista, sus objetos de arcilla, la hoja de escala y las reacciones del banco que usa el episodio, con casillas de «ya generado».
+  - **Elenco**: el fondo del canal (para ver y descargar), el protagonista, sus objetos de arcilla, la hoja de escala y el banco del canal con casillas de «ya generado».
 - **Pestañas del canal**: Reglas de Flow (qué hacer y qué evitar, fallos comunes y calculadora de créditos), Canal (formato, voz, títulos, miniaturas y publicación como contenido para niños) y Plan anual (los 52 episodios con filtros, buscador, estado de producción y evaluación científica).
 
 ## Cifras del año
@@ -24,9 +24,9 @@ La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador
 | | |
 | --- | --- |
 | Episodios | 52 (5:00 cada uno) |
-| Clips por episodio | 34, todos generados en el episodio (1.768 en el año) |
-| Tomas propias por episodio | entre 23 y 26 (1.229 en total) |
-| Reacciones del banco | entre 8 y 11 por episodio (539 en total), con 20 prompts fijos |
+| Clips por generar por episodio | entre 23 y 26 (1.229 en total) |
+| Banco del canal | 20 reacciones y 2 láminas, generadas una sola vez (cubren 539 tomas del año) |
+| Fondo | el mismo en todos los episodios: `fondo_canal.jpg` |
 | Láminas por episodio | 5 (máximo pedido: 5) |
 | Nivel de certeza | 45 de consenso · 5 de explicación más aceptada · 2 de ciencia abierta |
 | Preguntas ancla | 14 episodios con temas que se buscan todo el año |

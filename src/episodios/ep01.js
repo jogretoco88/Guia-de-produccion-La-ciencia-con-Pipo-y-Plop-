@@ -1,6 +1,6 @@
 EP.push({
   n: 1, topic: "Palomitas", title: "¿Por qué explotan las palomitas de maíz?",
-  star: "P", bg: ["light sky-blue", "azul cielo claro"], cat: "co", mot: "CG", anc: 1, cert: 1,
+  star: "P", cat: "co", mot: "CG", anc: 1, cert: 1,
   why: "Su comida favorita, una explosión y una nube que sale de una piedrita.",
   link: "", nota: "",
   secret: "Cada grano guarda un poquito de agua. Con el calor se vuelve vapor, empuja la cáscara desde adentro y la revienta.",

@@ -24,11 +24,10 @@ var CAM = {
 };
 
 /* Bloques de estilo: se repiten palabra por palabra en todos los prompts. */
-/* Fondo: cada episodio usa un ciclorama mate de un solo color con luces suaves y redondas, como la imagen de referencia
-   del canal. El color se elige en cada episodio (campo bg: [inglés, español]); si no se indica, se usa el rojizo coral. */
-var BG = {def: ["soft reddish-coral", "rojizo coral"]};
-var STYLE_V = "Handmade claymation stop-motion look, animated on twos at 12 fps with slightly choppy handmade motion. Matte polymer clay with deep visible fingerprints and solid uniform colors. Seamless matte {BG} studio cyclorama with soft round light glows on its walls, exactly like the background reference image, soft diffused top light, gentle contact shadows.";
-var STYLE_I = "Authentic handmade stop-motion claymation still. Matte polymer clay with deep visible fingerprints and solid uniform colors. Seamless matte {BG} studio cyclorama with soft round light glows on its walls, exactly like the background reference image, with soft contact shadows right under each base. Bright diffused studio light from above with a strong side rim light, 85 mm macro lens look, shallow depth of field. No visible lamps.";
+/* Fondo: todo el canal usa la misma imagen azul claro (fondo_canal.jpg), adjunta como primera referencia.
+   Los prompts no la describen: solo piden usarla tal cual. */
+var STYLE_V = "Handmade claymation stop-motion look, animated on twos at 12 fps with slightly choppy handmade motion. Matte polymer clay with deep visible fingerprints and solid uniform colors. The background is the attached background image, exactly as it is. Soft diffused top light, gentle contact shadows.";
+var STYLE_I = "Authentic handmade stop-motion claymation still. Matte polymer clay with deep visible fingerprints and solid uniform colors. The background is the attached background image, exactly as it is, with soft contact shadows right under each base. Bright diffused studio light from above with a strong side rim light, 85 mm macro lens look, shallow depth of field. No visible lamps.";
 var NOTEXT = "No text, no letters, no numbers, no subtitles.";
 var MOUTH = "The puppet keeps its mouth closed and stays silent the whole time.";
 var AUDIO = "Audio: quiet studio room tone and soft clay foley only.";
@@ -54,8 +53,8 @@ var WHO = {
 
 /* =====================================================================
    BANCO DE REACCIONES
-   Son las reacciones aprobadas del canal: siempre el mismo prompt y la misma acción. Se generan en cada
-   episodio con el fondo de ese episodio (un clip de otro episodio no encaja: el fondo y la luz cambian). Así el
+   Son las reacciones aprobadas del canal: siempre el mismo prompt y la misma acción. Se generan una vez para todo el
+   canal con el fondo del canal (fondo_canal.jpg) y sirven para los 52 episodios. Así el
    acompañante aparece con gestos que el niño reconoce, siempre solo en su toma.
    Formato: código: [nombre, en pantalla, cámara, escena inicial (EN), acción única (EN)]
    ===================================================================== */
@@ -101,7 +100,7 @@ var BANK = {
   L10: ["Adiós", "Plop se despide con la manopla.", "M", L_CENTER,
         "Plop waves one paddle arm at the camera, slowly and happily."]
 };
-/* Láminas del canal: las dos únicas imágenes donde Pipo y Plop aparecen juntos. Se generan en cada episodio con su fondo, sin texto. */
+/* Láminas del canal: las dos únicas imágenes donde Pipo y Plop aparecen juntos. Se generan una vez, con el fondo del canal y sin texto. */
 var CARDS = {
   T: ["Cortinilla del canal", "Pipo y Plop, uno a cada lado, contentos.",
       "Pipo stands on the left and Plop on the right, both facing the camera with happy eyes and smooth fingerless paddle arms.",

@@ -1,6 +1,6 @@
 EP.push({
   n: 3, topic: "Ají", title: "¿Por qué pica el ají si no está caliente?",
-  star: "P", bg: ["soft reddish-coral", "rojizo coral"], cat: "co", mot: "MF", anc: 0, cert: 1,
+  star: "P", cat: "co", mot: "MF", anc: 0, cert: 1,
   why: "Todos han probado algo picante, y ver sufrir a Pipo por un mordisco da risa.",
   link: "", nota: "",
   secret: "El picante no quema: la capsaicina enciende por error los sensores de calor de la lengua. El agua la pasea; la leche la atrapa.",

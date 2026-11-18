@@ -7,7 +7,7 @@ Después de editar: `node validate.mjs && node build.mjs`. `index.html` se gener
 
 - **Nunca Pipo y Plop en la misma toma** (`"C"` ni `"S"`). El protagonista (`star`) lleva el episodio: Pipo en los impares, Plop en los pares.
 - El otro personaje aparece con sus **reacciones del banco** (`["R", código, voz]`) y, si el tema lo pide, en una toma propia, siempre solo (la lengua de Plop en el Ep. 3).
-- Las láminas (`"S"`) llevan como mucho un personaje. La cortinilla (`["T"]`) y la tarjeta final (`["F"]`) son las únicas imágenes con los dos: láminas fijas, generadas en cada episodio con su fondo.
+- Las láminas (`"S"`) llevan como mucho un personaje. La cortinilla (`["T"]`) y la tarjeta final (`["F"]`) son las únicas imágenes con los dos: láminas fijas del banco del canal.
 
 ## Campos del episodio
 
@@ -21,7 +21,6 @@ EP.push({
   link: "Conecta con otros episodios (opcional).",
   nota: "Nota de producción (opcional).",
   secret: "La respuesta en una o dos frases.",
-  bg: ["soft reddish-coral", "rojizo coral"],   // fondo del episodio, en inglés y en español. Opcional: por defecto BG.def (comun.js)
   thumb: "¡BUAAA!", thumbIdea: "Qué se ve en la miniatura y color de fondo.",
   vocab: "palabras nuevas", syn: "términos de búsqueda", tags: "#Uno #Dos",
   reto: "Reto en casa, completo.",
@@ -76,10 +75,10 @@ Cada frase dura unos 6 de los 8 segundos de su clip (ElevenLabs, Eleven v3, velo
 
 ## Fondo
 
-Cada episodio tiene un solo fondo: un ciclorama mate de un color, con luces suaves y redondas en las paredes (`bg`). La página da el prompt de la foto del fondo vacío (`@FONDO`), y cada fotograma, reacción y lámina lo adjunta como primera referencia. Así el color y la luz no saltan de un clip a otro.
+Todo el canal usa la misma imagen: `fondo_canal.jpg`, un estudio azul claro. Se adjunta como primera referencia (`@FONDO`) en cada fotograma, lámina, objeto y reacción. **Los prompts no describen el fondo**: solo dicen «Use the first reference image as the background, exactly as it is». La imagen es la guía.
 
 - Si una escena necesita su propio fondo (cielo, espacio, mar), se describe como un panel de arcilla sobre el set: `in front of a dark-blue clay night sky backdrop panel standing on the set`.
-- No escribas el color del suelo ni del fondo en la escena («the white floor»): lo pone el estilo.
+- No escribas el color del suelo ni del fondo en la escena («the white floor»).
 
 ## Contenido para niños de 5 años en adelante
 
@@ -94,7 +93,7 @@ El validador rechaza las palabras de anatomía que no pertenezcan a un personaje
 
 ## Banco
 
-Prompt fijo para que el gesto se reconozca, pero se genera **en cada episodio, con su fondo**. No se reutilizan clips de otros episodios.
+Se genera **una sola vez**, con el fondo del canal, y sirve para los 52 episodios. Como el fondo nunca cambia, los clips encajan en cualquier episodio.
 
 Pipo: `P1` idea · `P2` incrédulo · `P3` ni idea · `P4` lo acepta · `P5` impresionado · `P6` curioso · `P7` desconcertado · `P8` lo explica · `P9` celebra · `P10` adiós.
 

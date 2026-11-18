@@ -9,7 +9,9 @@ const eps = fs.readdirSync(path.join(root, "src", "episodios")).filter(f => /^ep
 
 const head = src("head.html"), body = src("body.html");
 const js = [src("comun.js"), ...eps.map(f => src("episodios/" + f)), src("app.js")].join("\n");
-const script = "<script>\n" + js + "</script>\n";
+// Fondo del canal: la misma imagen para todos los episodios, incrustada para verla y descargarla desde la guía.
+const fondo = "var FONDO_IMG = \"data:image/jpeg;base64," + fs.readFileSync(path.join(root, "fondo_canal.jpg")).toString("base64") + "\";\n";
+const script = "<script>\n" + fondo + js + "</script>\n";
 
 const full = '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n' +
   '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n' +

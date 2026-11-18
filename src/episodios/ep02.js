@@ -1,6 +1,6 @@
 EP.push({
   n: 2, topic: "Jabón", title: "¿Por qué el jabón quita la grasa y el agua no?",
-  star: "L", bg: ["plain off-white", "blanco roto"], cat: "ca", mot: "MG", anc: 0, cert: 1,
+  star: "L", cat: "ca", mot: "MG", anc: 0, cert: 1,
   why: "Lavarse las manos es una pelea diaria en casa. Aquí gana la curiosidad.",
   link: "", nota: "",
   secret: "El jabón tiene una cabeza que ama el agua y una cola que ama la grasa. Envuelve la grasa y el agua se la lleva.",
