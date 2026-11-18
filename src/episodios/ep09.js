@@ -93,7 +93,7 @@ EP.push({
       "The two arrows push against each other, tip to tip, and stay exactly where they are.",
       "Unas tiran para acá y otras para allá. Sus fuerzas se anulan, y no pasa nada.", "k"],
     ["S", 6, "bc", "Lámina: hierro desordenado e imán ordenado.",
-      "The plain iron model on the left and the cut magnet model on the right, evenly lit. Clean empty white space above each one.",
+      "The plain iron model on the left and the cut magnet model on the right, evenly lit.",
       "Hierro normal: flechitas desordenadas. Imán: todas apuntando al mismo lado. ¡Esa es la diferencia!",
       "Hierro: mini-imanes desordenados · Imán: mini-imanes ordenados"],
     ["C", "M", "P", "Pipo jala una cuerda invisible.", P_CENTER,
@@ -158,7 +158,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: flechitas desordenadas, ordenadas y dos imanes pegados.",
-      "Three clay models in a row from left to right, evenly spaced: a grey clay block with yellow arrows pointing in random directions; a grey clay block with yellow arrows all pointing the same way; and two red-and-blue clay bar magnets snapped together. Clean empty white space above each one.",
+      "Three clay models in a row from left to right, evenly spaced: a grey clay block with yellow arrows pointing in random directions; a grey clay block with yellow arrows all pointing the same way; and two red-and-blue clay bar magnets snapped together.",
       "Repasemos: mini-imanes desordenados no hacen fuerza, ordenados sí, y los polos distintos se atraen.",
       "1 Desordenados · 2 Ordenados · 3 Polos distintos se atraen"],
     ["C", "C", "a", "El imán se parte en dos y cada mitad vuelve a ser rojo y azul.",
@@ -171,7 +171,7 @@ EP.push({
       "Y si los vuelves a partir, cuatro. Cada pedacito conserva su norte y su sur.", "<31"],
     ["R", "L9", "En tu casa hay un tesoro escondido de cosas magnéticas. Plop tiene un reto para ti."],
     ["S", 6, "ad", "El imán rodeado de un clavo, una cuchara, una moneda y madera.",
-      "The bar magnet in the center, surrounded by the giant nail, a clay spoon, a clay coin and a small brown clay wood block. Clean empty white space above them.",
+      "The bar magnet in the center, surrounded by the giant nail, a clay spoon, a clay coin and a small brown clay wood block.",
       "Con un imán de nevera, descubre qué cosas de tu casa se pegan.",
       "Reto en casa · búsqueda del tesoro magnético"],
 

@@ -91,7 +91,7 @@ EP.push({
       "The tiny figure turns its head slowly, following something across the sky.",
       "Nosotros la miramos desde aquí, desde la Tierra. Y según dónde esté, vemos una parte distinta."],
     ["S", 6, "abc", "Lámina: el Sol, la Tierra y la Luna en fila.",
-      "The clay sun on the left, the clay Earth in the center and the clay Moon on the right, in a row, evenly lit. Clean empty white space above them.",
+      "The clay sun on the left, the clay Earth in the center and the clay Moon on the right, in a row, evenly lit.",
       "El Sol ilumina, la Luna da vueltas y nosotros miramos desde la Tierra. ¡Tres piezas!",
       "Sol · Tierra · Luna"],
     ["C", "M", "P", "Pipo gira con una pelota en alto, iluminada por una lámpara.",
@@ -154,7 +154,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: Luna llena, media Luna y Luna casi nueva.",
-      "Three clay Moons in a row from left to right, evenly spaced: one fully light grey, one half light grey and half dark grey, and one dark grey with a thin light sliver. Clean empty white space above each one.",
+      "Three clay Moons in a row from left to right, evenly spaced: one fully light grey, one half light grey and half dark grey, and one dark grey with a thin light sliver.",
       "Repasemos: el Sol ilumina media Luna, la Luna gira alrededor de la Tierra, y vemos partes distintas.",
       "1 Media Luna iluminada · 2 Da vueltas · 3 Vemos partes distintas"],
     ["C", "C", "a", "La Luna da una vuelta mostrando siempre el mismo cráter.",
@@ -167,7 +167,7 @@ EP.push({
       "Solo las naves espaciales han podido fotografiarlo. Tiene muchísimos más cráteres.", "k"],
     ["R", "L9", "Tú puedes seguir a la Luna como un astrónomo. Plop tiene un reto para ti."],
     ["S", 6, "", "Un cuaderno con lunas dibujadas, un lápiz y una Luna pálida.",
-      "A small white clay notebook with seven small grey clay circles in a row on it, next to a clay pencil, with a pale grey clay Moon above. Clean empty white space on the right side.",
+      "A small white clay notebook with seven small grey clay circles in a row on it, next to a clay pencil, with a pale grey clay Moon above.",
       "Dibuja la Luna cada noche durante dos semanas. ¿Crece o se achica?",
       "Reto en casa · diario de la Luna"],
 

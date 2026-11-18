@@ -94,7 +94,7 @@ EP.push({
       "A little orange magma rises slowly a short way up the narrow channel and sinks back, again and again.",
       "Desde la bolsa sube un tubo hasta la cima: la chimenea. Es la única salida."],
     ["S", 6, "b", "Lámina del volcán por dentro.",
-      "The cut-open volcano model stands centered, evenly lit. Wide clean empty white space on both sides of the model.",
+      "The cut-open volcano model stands centered, evenly lit.",
       "Abajo, la cámara de magma con su gas. En medio, la chimenea. Arriba, el cráter.",
       "Cráter · Chimenea · Cámara de magma"],
     ["C", "M", "P", "Pipo se agacha como si le pesara algo enorme.", P_CENTER,
@@ -156,7 +156,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: magma con gas, burbujas que crecen y erupción.",
-      "Three clay models in a row from left to right, evenly spaced: a round orange clay blob with a few tiny white clay balls inside; an orange clay column full of big white clay bubbles; and a brown clay volcano with an orange-red lava fountain. Clean empty white space above each one.",
+      "Three clay models in a row from left to right, evenly spaced: a round orange clay blob with a few tiny white clay balls inside; an orange clay column full of big white clay bubbles; and a brown clay volcano with an orange-red lava fountain.",
       "Repasemos: el magma lleva gas disuelto, al subir baja la presión, y las burbujas lo lanzan afuera.",
       "1 Gas disuelto · 2 Menos presión · 3 ¡Erupción!"],
     ["C", "C", "d", "La lava se enfría y se vuelve roca gris.",
@@ -169,7 +169,7 @@ EP.push({
       "Capa sobre capa, esa roca puede formar islas enteras. Así nacieron Hawái y las Canarias.", "k"],
     ["R", "L9", "Tú puedes hacer una erupción segura en casa, con un adulto. Plop tiene un reto para ti."],
     ["S", 6, "", "Un volcán de plastilina con bicarbonato y vinagre al lado.",
-      "A small brown clay volcano standing on a tray, with a small clay spoon of white powder and a small clay bottle beside it. Clean empty white space above them.",
+      "A small brown clay volcano standing on a tray, with a small clay spoon of white powder and a small clay bottle beside it.",
       "Haz un volcán de plastilina. Adentro: bicarbonato y un chorrito de vinagre. ¡Mira el gas!",
       "Reto en casa · con un adulto"],
 

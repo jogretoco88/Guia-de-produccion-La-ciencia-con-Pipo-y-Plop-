@@ -93,7 +93,7 @@ EP.push({
       "The blue film pulls itself together into one round blue drop that falls from the posts.",
       "El agua sola no puede hacer burbujas: se encoge enseguida en gotas. Es demasiado apretada.", "k"],
     ["S", 6, "d", "Lámina de la pared de la burbuja.",
-      "The soap film model centered, evenly lit. Wide clean empty white space above and below it.",
+      "The soap film model centered, evenly lit.",
       "Jabón, agua, jabón. Un sándwich elástico tan fino que casi no se ve.",
       "Jabón · Agua · Jabón"],
     ["C", "M", "P", "Pipo estira una liga invisible.", P_CENTER,
@@ -155,7 +155,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: la pared en capas, la burbuja con esquinas y la esfera.",
-      "Three clay scenes in a row from left to right, evenly spaced: a thin blue clay layer between two rows of pink clay balls; a lumpy pale-blue clay blob with soft corners; and a perfect pale-blue clay ball. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a thin blue clay layer between two rows of pink clay balls; a lumpy pale-blue clay blob with soft corners; and a perfect pale-blue clay ball.",
       "Repasemos: la pared es agua entre jabón, tira hacia adentro como una liga, y la esfera gasta menos.",
       "1 Agua entre jabón · 2 Tira hacia adentro · 3 La esfera gasta menos"],
     ["C", "C", "a", "Por la burbuja se deslizan bandas de colores.",
@@ -168,7 +168,7 @@ EP.push({
       "La luz rebota en las dos caras de la pared. Según su grosor, aparece un color u otro.", "k"],
     ["R", "L9", "Tú puedes comprobarlo con aros de cualquier forma. Plop tiene un reto para ti."],
     ["S", 6, "b", "Aros de varias formas junto a un tazón de agua jabonosa.",
-      "Three clay wands side by side: the square wand, a triangle-shaped orange clay wand and a star-shaped orange clay wand, next to a small clay bowl of pale-blue soapy water. Clean empty white space above them.",
+      "Three clay wands side by side: the square wand, a triangle-shaped orange clay wand and a star-shaped orange clay wand, next to a small clay bowl of pale-blue soapy water.",
       "Haz aros con limpiapipas: triángulo, cuadrado, estrella. ¿Sale alguna burbuja que no sea redonda?",
       "Reto en casa · la apuesta de las burbujas"],
 

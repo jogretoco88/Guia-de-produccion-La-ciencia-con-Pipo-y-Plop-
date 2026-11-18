@@ -24,8 +24,12 @@ var CAM = {
 };
 
 /* Bloques de estilo: se repiten palabra por palabra en todos los prompts. */
-var STYLE_V = "Handmade claymation stop-motion look, animated on twos at 12 fps with slightly choppy handmade motion. Matte polymer clay with deep visible fingerprints and solid uniform colors. Seamless matte off-white studio cyclorama, soft diffused top light, gentle contact shadows, plain pure-white background.";
-var STYLE_I = "Authentic handmade stop-motion claymation still. Matte polymer clay with deep visible fingerprints and solid uniform colors. Seamless matte off-white studio cyclorama with soft contact shadows right under each base and a plain pure-white background. Bright diffused studio light from above with a strong side rim light, 85 mm macro lens look, shallow depth of field.";
+/* Fondo: cada episodio usa un ciclorama mate de un solo color con luces suaves y redondas, como la imagen de referencia
+   del canal. El color se elige en cada episodio (campo bg: [inglés, español]); si no se indica, se usa el rojizo coral. */
+var BG = {def: ["soft reddish-coral", "rojizo coral"]};
+var STYLE_V = "Handmade claymation stop-motion look, animated on twos at 12 fps with slightly choppy handmade motion. Matte polymer clay with deep visible fingerprints and solid uniform colors. Seamless matte {BG} studio cyclorama with soft round light glows on its walls, exactly like the background reference image, soft diffused top light, gentle contact shadows.";
+var STYLE_I = "Authentic handmade stop-motion claymation still. Matte polymer clay with deep visible fingerprints and solid uniform colors. Seamless matte {BG} studio cyclorama with soft round light glows on its walls, exactly like the background reference image, with soft contact shadows right under each base. Bright diffused studio light from above with a strong side rim light, 85 mm macro lens look, shallow depth of field. No visible lamps.";
+var NOTEXT = "No text, no letters, no numbers, no subtitles.";
 var MOUTH = "The puppet keeps its mouth closed and stays silent the whole time.";
 var AUDIO = "Audio: quiet studio room tone and soft clay foley only.";
 
@@ -50,8 +54,9 @@ var WHO = {
 
 /* =====================================================================
    BANCO DE REACCIONES
-   Se genera una sola vez y se usa en los 52 episodios. Gracias a él, en cada episodio solo se
-   genera un personaje en Flow: el otro aparece siempre con estos clips ya aprobados.
+   Son las reacciones aprobadas del canal: siempre el mismo prompt y la misma acción. Se generan en cada
+   episodio con el fondo de ese episodio (un clip de otro episodio no encaja: el fondo y la luz cambian). Así el
+   acompañante aparece con gestos que el niño reconoce, siempre solo en su toma.
    Formato: código: [nombre, en pantalla, cámara, escena inicial (EN), acción única (EN)]
    ===================================================================== */
 var BANK = {
@@ -96,14 +101,14 @@ var BANK = {
   L10: ["Adiós", "Plop se despide con la manopla.", "M", L_CENTER,
         "Plop waves one paddle arm at the camera, slowly and happily."]
 };
-/* Láminas del canal: las dos únicas imágenes donde Pipo y Plop aparecen juntos. Se generan una vez. */
+/* Láminas del canal: las dos únicas imágenes donde Pipo y Plop aparecen juntos. Se generan en cada episodio con su fondo, sin texto. */
 var CARDS = {
-  T: ["Cortinilla del canal", "Pipo y Plop a los lados, con espacio para el título.",
-      "Pipo stands on the left and Plop on the right, both facing the camera. Wide clean empty white space between them and across the upper third of the image.",
-      "[excited] ¡La ciencia con Pipo y Plop!", "Título del episodio y logo del canal. En el centro puedes superponer el objeto del episodio."],
+  T: ["Cortinilla del canal", "Pipo y Plop, uno a cada lado, contentos.",
+      "Pipo stands on the left and Plop on the right, both facing the camera with happy eyes and smooth fingerless paddle arms.",
+      "[excited] ¡La ciencia con Pipo y Plop!", "La voz dice el nombre del canal. Sin título ni logo en pantalla: el video se publica en varios idiomas."],
   F: ["Tarjeta final", "Pipo y Plop saludan.",
-      "Pipo on the left and Plop on the right, both facing the camera, each with one paddle arm raised in a wave. Wide clean empty white space between them.",
-      "La ciencia está en todas partes. ¡Hasta el próximo misterio!", "«Próximo misterio» y el título del siguiente episodio, en el centro."]
+      "Pipo on the left and Plop on the right, both facing the camera, each with one smooth fingerless paddle arm raised in a wave.",
+      "La ciencia está en todas partes. ¡Hasta el próximo misterio!", "La voz anuncia el próximo misterio. Sin texto en pantalla."]
 };
 
 /* Kit sonoro del canal: se genera una vez y se usa en todos los episodios. */
@@ -146,7 +151,7 @@ var CATS = {
 };
 var MOTORS = {
   M: ["Me pasa a mí", "Lo viven en su propio cuerpo o en su casa. La pregunta ya es suya antes de ver el video."],
-  A: ["Asco divertido", "Entre los 6 y los 9 años lo asqueroso da risa y se comparte. Es lo que más se repite en el recreo."],
+  A: ["Asco divertido", "Entre los 5 y los 9 años lo asqueroso da risa y se comparte. Se cuenta con humor y con juguetes de arcilla: nunca se muestra nada desagradable."],
   S: ["Superpoder animal", "Un animal hace algo imposible para nosotros. Alimenta el gusto por coleccionar datos."],
   C: ["Antojo", "Comida que desean. El episodio vuelve a la memoria cada vez que la comen."],
   F: ["Miedo seguro", "Algo que asusta, visto a salvo y explicado. Entender da sensación de control."],
@@ -164,5 +169,20 @@ var CERT = {
   2: ["Explicación más aceptada", "El mecanismo principal está respaldado, pero quedan detalles en discusión. El guion lo dice con «los científicos creen»."],
   3: ["Ciencia abierta", "Todavía no hay una respuesta definitiva. El guion presenta la idea mejor apoyada y dice claramente que se sigue investigando."]
 };
+
+/* =====================================================================
+   CONTENIDO PARA NIÑOS DE 5 AÑOS EN ADELANTE
+   El validador comprueba las palabras en inglés de los prompts; estas reglas explican el porqué.
+   ===================================================================== */
+var SAFE = [
+  ["Ninguna parte del cuerpo suelta", "Una lengua, un ojo, una mano o un cerebro sin su dueño pueden catalogarse como contenido sensible. Si hace falta, se muestran unidos a Pipo o a Plop: la lengua de Plop, su manopla, su rodilla."],
+  ["Lo de dentro del cuerpo, con juguetes", "Pulmones, intestino, nervios o huesos se cuentan con piezas que no parecen anatomía: globos, un tubo de juegos, un cordón, una varita. La voz dice el nombre científico."],
+  ["El cerebro es la cabeza del personaje", "Cuando una señal llega al cerebro, se ve una chispa que sube a la cabeza de Plop y sus antenitas se encienden como luces de alarma. Nada de cerebros sueltos ni cables pegados al cuerpo."],
+  ["Nada sale de la boca", "Gotas, bolitas o líquidos que salen de la boca parecen vómito. Lo que llega a la lengua cae desde arriba, como lluvia. Un estornudo es una ráfaga de aire, no gotas."],
+  ["Sin sangre ni heridas", "Un raspón es una mancha rosada que se oscurece. Lo que corre por dentro son discos o bolitas en un tubo, nunca sangre."],
+  ["Sin cortes de seres vivos", "Ni personas, ni animales, ni personajes cortados por la mitad. Se corta un ají, una manzana o una semilla, no una oruga."],
+  ["Nada que un niño pueda imitar y le haga daño", "Los personajes no tocan cables, enchufes, fuego ni cuchillos. Si algo se corta, es con un cuchillo de juguete y sin manos. El reto en casa siempre es con un adulto."],
+  ["Sin texto en la imagen", "Ni rótulos, ni letras, ni números, ni signos de interrogación. El video se publica en varios idiomas: todo lo dice la voz."]
+];
 
 var EP = [];

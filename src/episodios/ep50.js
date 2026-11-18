@@ -94,7 +94,7 @@ EP.push({
       "The bees fan their wings fast and small pale clay wisps rise from the golden cells.",
       "Y ahora, ¡a abanicar! Las abejas mueven las alas sin parar para secar el agua del néctar.", "k"],
     ["S", 6, "abc", "Lámina: flor, abeja y panal.",
-      "The flower on the left, the bee in the middle and the honeycomb with golden cells on the right. Clean empty white space above them.",
+      "The flower on the left, the bee in the middle and the honeycomb with golden cells on the right.",
       "Néctar, bolsita de la abeja, celdita de cera y alas que secan: ¡miel!",
       "Néctar → bolsita → celdita → alas que secan → miel"],
     ["C", "C", "b", "Tapitas de cera cierran las celdas llenas.",
@@ -154,7 +154,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: flor con néctar, abeja con bolsita y panal sellado.",
-      "Three clay scenes in a row from left to right, evenly spaced: a pink clay flower with a clear nectar drop; a yellow-and-black clay bee with a small golden pouch inside; and a pale-yellow wax honeycomb with golden capped cells. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a pink clay flower with a clear nectar drop; a yellow-and-black clay bee with a small golden pouch inside; and a pale-yellow wax honeycomb with golden capped cells.",
       "Repasemos: néctar aguado, la abeja lo cambia en su bolsita, y en la colmena lo secan hasta ser miel.",
       "1 Néctar · 2 La bolsita de la abeja · 3 Se seca en la colmena"],
     ["C", "C", "b", "La abeja reina rodeada de obreras.",
@@ -167,7 +167,7 @@ EP.push({
       "Ojo: los bebés de menos de un año no pueden tomar miel. Su barriga aún no está lista."],
     ["R", "L9", "Ahora, una cata de miel. Plop tiene un reto para ti."],
     ["S", 6, "", "Tres tarritos de miel con tres cucharitas.",
-      "Three small clay honey jars in a row, pale gold, amber and dark brown, with three small clay spoons in front of them. Clean empty white space above them.",
+      "Three small clay honey jars in a row, pale gold, amber and dark brown, with three small clay spoons in front of them.",
       "Con tu familia, prueba mieles distintas. ¿Cuál es más clara? ¿Cuál más dulce?",
       "Reto en casa · cata de mieles"],
 

@@ -92,7 +92,7 @@ EP.push({
       "Small white clay bubbles pop out of the yeast cells one by one and float upward.",
       "Y después de comer, cada levadura suelta un poquito de gas. El mismo gas del refresco.", "k"],
     ["S", 6, "bc", "Lámina: azúcar, levaduras y burbujas de gas.",
-      "Three yeast cells in a row, with a small white clay sugar cube on their left and three gas bubbles on their right, evenly lit. Clean empty white space above them.",
+      "Three yeast cells in a row, with a small white clay sugar cube on their left and three gas bubbles on their right, evenly lit.",
       "Levadura viva, azúcar para comer y gas que sale. ¡Tres piezas para inflar un pan!",
       "Azúcar · Levadura (hongo vivo) · Gas"],
     ["R", "P2", "Pipo no lo puede creer: ¿el pan tiene bichitos vivos? ¿Y me los como?"],
@@ -152,7 +152,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: levaduras con azúcar, masa con burbujas y pan con huecos.",
-      "Three clay scenes in a row from left to right, evenly spaced: small beige clay balls around a white clay sugar cube; a cream-colored clay dough ball full of white bubbles; and a slice of clay bread with many small holes. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: small beige clay balls around a white clay sugar cube; a cream-colored clay dough ball full of white bubbles; and a slice of clay bread with many small holes.",
       "Repasemos: la levadura come azúcar y suelta gas, la masa lo atrapa, y el horno fija los huequitos.",
       "1 La levadura suelta gas · 2 La masa lo atrapa · 3 El horno fija los huecos"],
     ["C", "C", "", "Un pan redondo frente a una pirámide.",
@@ -165,7 +165,7 @@ EP.push({
       "Pero nadie sabía que estaba viva. Se descubrió hace menos de doscientos años, con un microscopio."],
     ["R", "L9", "Tú puedes ver a la levadura inflar un globo, con un adulto. Plop tiene un reto para ti."],
     ["S", 6, "", "Una botella con un globo en la boca, junto a levadura y azúcar.",
-      "A pale-grey clay bottle with a small red clay balloon stretched over its neck, half inflated, next to a tiny beige clay cube and a white clay sugar cube. Clean empty white space above them.",
+      "A pale-grey clay bottle with a small red clay balloon stretched over its neck, half inflated, next to a tiny beige clay cube and a white clay sugar cube.",
       "En una botella: levadura, agua tibia y azúcar. Tápala con un globo… ¡y espera!",
       "Reto en casa · con un adulto"],
 

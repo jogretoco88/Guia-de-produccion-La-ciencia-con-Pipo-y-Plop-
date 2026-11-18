@@ -96,7 +96,7 @@ EP.push({
       "The red ball travels to the right in long hops, passing between the air molecules without touching them.",
       "Los pasos largos del rojo saltan sobre las moléculas casi sin tocarlas. El rojo sigue de largo.", "k"],
     ["S", 6, "bc", "Lámina: la luz blanca y sus colores.",
-      "The white light beam on the left and the color balls in a row on the right, evenly lit. Clean empty white space above them.",
+      "The white light beam on the left and the color balls in a row on the right, evenly lit.",
       "Luz blanca: todos los colores juntos. Y cada color camina a su propio paso.",
       "Luz blanca = todos los colores · Rojo: paso largo · Azul: paso corto"],
     ["C", "M", "P", "Pipo marcha con pasos gigantes.", P_CENTER,
@@ -158,7 +158,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: la luz de colores, el azul que rebota y el atardecer.",
-      "Three clay scenes in a row from left to right, evenly spaced: a thick white clay rod next to small clay balls in rainbow colors; one blue clay ball among a few pale-grey clay balls; and a low orange-red clay sun. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a thick white clay rod next to small clay balls in rainbow colors; one blue clay ball among a few pale-grey clay balls; and a low orange-red clay sun.",
       "Repasemos: la luz blanca lleva todos los colores, el aire desvía el azul, y al atardecer llega el rojo.",
       "1 Luz de todos los colores · 2 El azul rebota · 3 Atardecer rojo"],
     ["C", "W", "a", "El Sol brilla sobre un suelo lunar con el cielo negro.",
@@ -171,7 +171,7 @@ EP.push({
       "¡Negro! Incluso de día, con el Sol brillando. Sin aire, no hay azul.", "k"],
     ["R", "L9", "Tú puedes fabricar un cielo en un vaso. Plop tiene un reto para ti, con un adulto."],
     ["S", 6, "", "Un vaso con agua lechosa y una linterna.",
-      "A chunky clay glass filled with pale milky-white clay water, with a small grey clay flashlight pointing at it from the left. Clean empty white space on the right side.",
+      "A chunky clay glass filled with pale milky-white clay water, with a small grey clay flashlight pointing at it from the left.",
       "Agua, gotas de leche y una linterna. De lado se ve azulado; de frente, anaranjado.",
       "Reto en casa · un cielo en un vaso"],
 

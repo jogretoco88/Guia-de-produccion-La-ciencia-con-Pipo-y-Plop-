@@ -1,6 +1,6 @@
 EP.push({
   n: 2, topic: "Jabón", title: "¿Por qué el jabón quita la grasa y el agua no?",
-  star: "L", cat: "ca", mot: "MG", anc: 0, cert: 1,
+  star: "L", bg: ["plain off-white", "blanco roto"], cat: "ca", mot: "MG", anc: 0, cert: 1,
   why: "Lavarse las manos es una pelea diaria en casa. Aquí gana la curiosidad.",
   link: "", nota: "",
   secret: "El jabón tiene una cabeza que ama el agua y una cola que ama la grasa. Envuelve la grasa y el agua se la lleva.",
@@ -92,7 +92,7 @@ EP.push({
       "The soap piece backs up slowly and pushes its yellow tail deep into the grease blob.",
       "La cola es al revés: huye del agua y adora la grasa. ¡Corre a esconderse en ella!"],
     ["S", 6, "b", "Lámina del jabón: cabeza y cola.",
-      "One large pink soap piece lies centered, its round pink head on the left and its yellow tail on the right, evenly lit. Wide clean empty white space above and below it.",
+      "One large pink soap piece lies centered, its round pink head on the left and its yellow tail on the right, evenly lit.",
       "Cabeza amiga del agua, cola amiga de la grasa. ¡Ese es su secreto!",
       "Cabeza: ama el agua · Cola: ama la grasa"],
     ["R", "P8", "Pipo lo resume a su manera: ¡el jabón es amigo de los dos equipos!"],
@@ -158,7 +158,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: la cola en la grasa, la micela y el agua que se la lleva.",
-      "Three clay models in a row from left to right, evenly spaced: a pink clay ball with a yellow peg stuck into a small brown clay blob; a brown clay blob fully ringed by pink clay balls; and the same ringed blob with blue clay drops stuck around it. Clean empty white space above each one.",
+      "Three clay models in a row from left to right, evenly spaced: a pink clay ball with a yellow peg stuck into a small brown clay blob; a brown clay blob fully ringed by pink clay balls; and the same ringed blob with blue clay drops stuck around it.",
       "Repasemos: cola en la grasa, cabeza en el agua, y la micela se va rodando.",
       "1 La cola se clava · 2 La micela envuelve · 3 El agua se la lleva"],
     ["C", "C", "b", "Piezas de jabón clavan sus colas en el abrigo de un microbio.",
@@ -171,7 +171,7 @@ EP.push({
       "¡Les desarma el abrigo! Por eso lavarte las manos con jabón te protege de enfermarte.", "<31"],
     ["R", "L9", "Pero el jabón necesita tiempo para rodear toda la grasa. Plop tiene un reto para ti."],
     ["S", 6, "", "Un reloj y burbujas de jabón.",
-      "A simple round white clay clock face with a single red hand, next to a small pile of pink clay soap bubbles. Clean empty white space on the right side.",
+      "A simple round blank white clay clock face with a single red hand, next to a small pile of pink clay soap bubbles.",
       "Frota tus manos con jabón veinte segundos. ¿Qué canción te alcanza para cantar?",
       "Reto en casa · 20 segundos de jabón"],
 

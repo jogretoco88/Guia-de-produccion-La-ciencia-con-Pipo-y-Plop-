@@ -18,11 +18,11 @@ EP.push({
         en: "the water tub (a low round white clay rim filled with flat dark-blue clay water)",
         p: "A single oversized stop-motion polymer-clay water tub: a low, wide, round rim of solid white matte clay, filled to the top with flat solid dark-blue clay as the water surface. Deep fingerprints, simple bold shapes."},
     c: {tag: "@MOLECULA", z: "s", es: "Molécula de agua",
-        en: "the water molecule (a red clay ball with two small white clay ears, like a bear's head)",
+        en: "the water molecule (a red clay ball with two small white clay bumps, like a bear's head)",
         p: "A single oversized stop-motion polymer-clay water molecule: one large ball of solid red matte clay with two small white clay balls attached on top like the ears of a teddy bear's head. Deep fingerprints, simple bold shapes."},
     d: {tag: "@ANILLO", z: "m", es: "Anillo de hielo (seis moléculas)",
         en: "the ice ring model (six water molecules joined in a wide hexagonal ring with an empty center)",
-        p: "A single stop-motion polymer-clay ice crystal model seen from above: six water molecules, each a red clay ball with two small white clay ears, joined ear to ball in a wide, regular hexagonal ring with a large empty center. Solid uniform matte colors, deep fingerprints."}
+        p: "A single stop-motion polymer-clay ice crystal model seen from above: six water molecules, each a red clay ball with two small white clay bumps, joined bump to ball in a wide, regular hexagonal ring with a large empty center. Solid uniform matte colors, deep fingerprints."}
   },
   facts: [
     "Una molécula de agua tiene un átomo de oxígeno y dos de hidrógeno: H₂O.",
@@ -81,8 +81,8 @@ EP.push({
       "The water molecule turns slowly in place like on a turntable.",
       "[excited] ¡Hagamos zoom! El agua está hecha de piezas diminutas llamadas moléculas. Así se ve una."],
     ["C", "C", "c", "La molécula mueve sus dos orejitas.",
-      "One water molecule stands in the center of the frame, its two white ears on top.",
-      "The water molecule wiggles its two white ears, again and again.",
+      "One water molecule stands in the center of the frame, its two white bumps on top.",
+      "The water molecule wiggles its two white bumps, again and again.",
       "Parece la cabeza de un osito: una bola grande de oxígeno y dos orejitas de hidrógeno."],
     ["C", "M", "c", "Muchas moléculas ruedan y se empujan: es agua líquida.",
       "A loose pile of many water molecules covers the center of the set.",
@@ -93,7 +93,7 @@ EP.push({
       "The tightly packed water molecules slide slowly past each other, staying close together.",
       "Como no paran de moverse, pueden estar muy juntitas, casi sin dejar huecos."],
     ["S", 6, "c", "Lámina de la molécula de agua.",
-      "One large water molecule stands centered, its two white ears on top, evenly lit. Wide clean empty white space on both sides.",
+      "One large water molecule stands centered, its two white bumps on top, evenly lit.",
       "Molécula de agua: un oxígeno y dos hidrógenos. Por eso se llama hache dos o.",
       "O (oxígeno) · H · H (hidrógeno) · H₂O"],
     ["C", "M", "P", "Pipo tirita de frío.",
@@ -162,7 +162,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "cd", "Repaso: moléculas juntas, anillo con hueco y hielo flotando.",
-      "Three clay models in a row from left to right, evenly spaced: a tight pile of water molecules; the ice ring model; and a pale icy-cyan clay cube floating on a small flat dark-blue clay water surface. Clean empty white space above each one.",
+      "Three clay models in a row from left to right, evenly spaced: a tight pile of water molecules; the ice ring model; and a pale icy-cyan clay cube floating on a small flat dark-blue clay water surface.",
       "Repasemos: el frío forma anillos, los anillos dejan huecos y, con huecos, el hielo flota.",
       "1 Anillos · 2 Huecos · 3 ¡Flota!"],
     ["C", "W", "", "Corte de un lago: el hielo se forma solo arriba.",
@@ -175,7 +175,7 @@ EP.push({
       "Debajo, el agua sigue líquida y los peces pasan el invierno nadando tranquilos.", "k"],
     ["R", "L9", "Si el hielo se hundiera, los lagos se congelarían enteros. Y ahora… Plop tiene un reto."],
     ["S", 6, "", "Un vaso con agua y dos cubos de hielo.",
-      "A chunky clay drinking glass filled with dark-blue clay water, with two pale icy-cyan clay cubes floating at the top, mostly below the water line. Clean empty white space on the right side.",
+      "A chunky clay drinking glass filled with dark-blue clay water, with two pale icy-cyan clay cubes floating at the top, mostly below the water line.",
       "Con un adulto, pon hielo en un vaso con agua. ¿Cuánto queda escondido debajo?",
       "Reto en casa · ¿cuánto hielo se esconde?"],
 

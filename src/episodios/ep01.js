@@ -1,6 +1,6 @@
 EP.push({
   n: 1, topic: "Palomitas", title: "¿Por qué explotan las palomitas de maíz?",
-  star: "P", cat: "co", mot: "CG", anc: 1, cert: 1,
+  star: "P", bg: ["light sky-blue", "azul cielo claro"], cat: "co", mot: "CG", anc: 1, cert: 1,
   why: "Su comida favorita, una explosión y una nube que sale de una piedrita.",
   link: "", nota: "",
   secret: "Cada grano guarda un poquito de agua. Con el calor se vuelve vapor, empuja la cáscara desde adentro y la revienta.",
@@ -89,7 +89,7 @@ EP.push({
       "The cyan droplet pulses gently, swelling and shrinking a little, again and again.",
       "[whispers] Y tercera, bien escondida entre el almidón… ¡agua! Solo un poquito, pero es la clave.", "k"],
     ["S", 6, "b", "Lámina del corte con sus tres partes.",
-      "The cut-open kernel model stands centered, its flat cut face toward the camera, evenly lit. Wide clean empty white space on both sides of the model.",
+      "The cut-open kernel model stands centered, its flat cut face toward the camera, evenly lit.",
       "Casco duro, relleno de almidón y un poquito de agua. ¡Recuerda estas tres!",
       "Pericarpio (el casco) · Almidón · Agua"],
     ["R", "P2", "[surprised] Pipo no lo puede creer: ¿agua? ¡Si el grano está sequísimo por fuera!"],
@@ -151,7 +151,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso en tres pasos: gota, nube de vapor y palomita.",
-      "Three clay objects in a row from left to right, evenly spaced: a small cyan clay droplet, a puffy pale-blue clay cloud, and a fluffy white clay popcorn. Clean empty white space above each one.",
+      "Three clay objects in a row from left to right, evenly spaced: a small cyan clay droplet, a puffy pale-blue clay cloud, and a fluffy white clay popcorn.",
       "Repasemos: agua escondida, calor que la vuelve vapor y un casco que aguanta… hasta que ¡pum!",
       "1 Agua escondida · 2 Vapor que empuja · 3 ¡Pum!"],
     ["C", "C", "a", "Un grano agrietado deja escapar un hilito de vapor.",
@@ -164,7 +164,7 @@ EP.push({
       "Por eso siempre quedan algunos en el fondo del tazón. No son flojos: ¡tienen una fuga!"],
     ["R", "L9", "Plop tiene un reto para ti. Necesitas a un adulto, palomitas… y ojos de detective."],
     ["S", 6, "", "Tazón de palomitas, tres granos sin reventar y una lupa.",
-      "A white clay bowl full of white clay popcorn, three unpopped golden-yellow clay kernels lying in front of it, and a chunky clay magnifying glass beside them. Clean empty white space on the right side.",
+      "A white clay bowl full of white clay popcorn, three unpopped golden-yellow clay kernels lying in front of it, and a chunky clay magnifying glass beside them.",
       "Cuenten los granos que no reventaron y busquen su grieta. ¿Cuántos encontraron?",
       "Reto en casa · con un adulto"],
 

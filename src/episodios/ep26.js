@@ -97,7 +97,7 @@ EP.push({
       "The round dent pulses gently, glowing orange at its edges.",
       "Cayó en lo que hoy es México. Dejó un cráter enorme, que todavía existe, enterrado.", "k"],
     ["S", 6, "bc", "Lámina: el asteroide apuntando a la Tierra.",
-      "The clay Earth in the center with the asteroid at the upper left pointing toward it, evenly lit. Clean empty white space on the right side.",
+      "The clay Earth in the center with the asteroid at the upper left pointing toward it, evenly lit.",
       "Un asteroide de diez kilómetros, hace sesenta y seis millones de años. ¡Todo cambió!",
       "Asteroide · 10 km · Hace 66 millones de años"],
     ["R", "P3", "Pipo pregunta: pero cayó en un solo lugar. ¿Y los dinosaurios del otro lado del mundo?"],
@@ -157,7 +157,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: el asteroide, la Tierra cubierta de polvo y el helecho seco.",
-      "Three clay scenes in a row from left to right, evenly spaced: a dark-grey clay rock with an orange flame tail above a blue-and-green clay globe; the same globe wrapped in grey clay dust; and a brown, drooping clay fern. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a dark-grey clay rock with an orange flame tail above a blue-and-green clay globe; the same globe wrapped in grey clay dust; and a brown, drooping clay fern.",
       "Repasemos: cayó un asteroide, el polvo tapó el Sol, las plantas murieron y la comida se acabó.",
       "1 El asteroide · 2 Sin luz del Sol · 3 Sin comida"],
     ["C", "C", "", "Bajo un cielo despejado, el animalito crece.",
@@ -170,7 +170,7 @@ EP.push({
       "De ellos vienen los elefantes, las ballenas, los perros… y también nosotros."],
     ["R", "L9", "Hoy puedes salir a buscar dinosaurios vivos. Plop tiene un reto para ti."],
     ["S", 6, "d", "El pajarito junto a una lupa y un cuaderno.",
-      "The tiny bird standing next to a chunky clay magnifying glass and a small white clay notebook. Clean empty white space above them.",
+      "The tiny bird standing next to a chunky clay magnifying glass and a small white clay notebook.",
       "Observa un pájaro. ¿En qué se parecen sus patas a las de un dinosaurio? ¡Dibújalas!",
       "Reto en casa · busca dinosaurios vivos"],
 

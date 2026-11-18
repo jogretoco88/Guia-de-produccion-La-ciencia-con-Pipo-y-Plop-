@@ -5,9 +5,9 @@ Después de editar: `node validate.mjs && node build.mjs`. `index.html` se gener
 
 ## Regla del elenco
 
-- Cada episodio tiene **un solo personaje generado en Flow**: el protagonista (`star`). Pipo en los impares, Plop en los pares.
-- El otro personaje aparece **solo con clips del banco** (`["R", código, voz]`). Nunca en un clip propio (`"C"`).
-- Las láminas del episodio (`"S"`) no llevan personajes. La cortinilla (`["T"]`) y la tarjeta final (`["F"]`) son del canal.
+- **Nunca Pipo y Plop en la misma toma** (`"C"` ni `"S"`). El protagonista (`star`) lleva el episodio: Pipo en los impares, Plop en los pares.
+- El otro personaje aparece con sus **reacciones del banco** (`["R", código, voz]`) y, si el tema lo pide, en una toma propia, siempre solo (la lengua de Plop en el Ep. 3).
+- Las láminas (`"S"`) llevan como mucho un personaje. La cortinilla (`["T"]`) y la tarjeta final (`["F"]`) son las únicas imágenes con los dos: láminas fijas, generadas en cada episodio con su fondo.
 
 ## Campos del episodio
 
@@ -21,6 +21,7 @@ EP.push({
   link: "Conecta con otros episodios (opcional).",
   nota: "Nota de producción (opcional).",
   secret: "La respuesta en una o dos frases.",
+  bg: ["soft reddish-coral", "rojizo coral"],   // fondo del episodio, en inglés y en español. Opcional: por defecto BG.def (comun.js)
   thumb: "¡BUAAA!", thumbIdea: "Qué se ve en la miniatura y color de fondo.",
   vocab: "palabras nuevas", syn: "términos de búsqueda", tags: "#Uno #Dos",
   reto: "Reto en casa, completo.",
@@ -42,13 +43,13 @@ EP.push({
 ["R", "L1", "Voz"]                                        // clip del banco
 ["W"]  o  ["W", "Voz"]                                    // despedida del protagonista (banco); la voz anuncia sola el siguiente episodio
 ["T"]                                                     // cortinilla del canal, 4 s
-["S", segundos, ingredientes, "En pantalla", "Imagen (EN)", "Voz", "Rótulos"]
+["S", segundos, ingredientes, "En pantalla", "Imagen (EN)", "Voz", "Lo que nombra la voz"]   // nota para el montaje: nunca va escrito en pantalla
 ["F"]                                                     // tarjeta final, 4 s
 ```
 
 - **Cámara**: `W` general · `M` medio · `C` primer plano · `X` macro · `T` cenital · `I` acercamiento lento.
 - **Ingredientes**: la letra del protagonista (`P` o `L`) y las letras de los objetos. Tres como máximo.
-- **Marcas**: `k` mejor con fotograma clave · `<18` parte del último fotograma del clip 18 · `o` la boca puede abrirse (bostezo) · `a=t` cambia el tamaño del objeto `a` solo en esta toma.
+- **Marcas**: `k` mejor con fotograma clave · `<18` parte del último fotograma del clip 18 · `o` la boca se abre (bostezo, lengua afuera; obligatoria en esas tomas) · `a=t` cambia el tamaño del objeto `a` solo en esta toma.
 
 ## Tamaños (escala)
 
@@ -73,7 +74,27 @@ Cada frase dura unos 6 de los 8 segundos de su clip (ElevenLabs, Eleven v3, velo
 | 6 Repaso, dato y reto | `S` de 8 s («Repasemos: …»), clips 31–32 (dato extra), clip 33 `["R","L9",…]`, `S` de 6 s (reto) |
 | 7 Despedida | clip 34 `["W"]`, `F` |
 
+## Fondo
+
+Cada episodio tiene un solo fondo: un ciclorama mate de un color, con luces suaves y redondas en las paredes (`bg`). La página da el prompt de la foto del fondo vacío (`@FONDO`), y cada fotograma, reacción y lámina lo adjunta como primera referencia. Así el color y la luz no saltan de un clip a otro.
+
+- Si una escena necesita su propio fondo (cielo, espacio, mar), se describe como un panel de arcilla sobre el set: `in front of a dark-blue clay night sky backdrop panel standing on the set`.
+- No escribas el color del suelo ni del fondo en la escena («the white floor»): lo pone el estilo.
+
+## Contenido para niños de 5 años en adelante
+
+- Ninguna parte del cuerpo suelta: lengua, ojo, mano o cerebro siempre unidos a Pipo, a Plop o a un animal entero.
+- Lo de dentro del cuerpo se cuenta con juguetes (globos, tubos, cordones). El cerebro es la cabeza del personaje: una chispa sube y sus antenitas se encienden.
+- Nada sale de la boca: lo que llega a la lengua cae desde arriba.
+- Sin sangre ni heridas, sin cortes de seres vivos, sin cables, enchufes, fuego ni cuchillos de verdad.
+- Sin texto: ni letras, ni números, ni signos. Relojes en blanco (`blank clock face`), libros de dibujos (`picture book`), reglas con rayas de colores.
+- Manos de Pipo y Plop: manoplas lisas, sin dedos.
+
+El validador rechaza las palabras de anatomía que no pertenezcan a un personaje, lo que salga de la boca y los prompts que pidan letras, números o signos.
+
 ## Banco
+
+Prompt fijo para que el gesto se reconozca, pero se genera **en cada episodio, con su fondo**. No se reutilizan clips de otros episodios.
 
 Pipo: `P1` idea · `P2` incrédulo · `P3` ni idea · `P4` lo acepta · `P5` impresionado · `P6` curioso · `P7` desconcertado · `P8` lo explica · `P9` celebra · `P10` adiós.
 
@@ -88,6 +109,6 @@ Plop: `L1` pensativo · `L2` sospecha · `L3` ¡eso es! · `L4` asombro · `L5` 
 
 ## Prompts
 
-- Escena inicial: lo que se ve en el primer fotograma. Acción: un solo movimiento continuo que dura los 8 s (`slowly`, `again and again`). Sin «then», sin tiempos, sin comillas, sin texto en pantalla.
+- Escena inicial: lo que se ve en el primer fotograma. Acción: un solo movimiento continuo que dura los 8 s (`slowly`, `again and again`). Sin «then», sin tiempos, sin comillas, sin texto en pantalla. Una sola toma, un solo personaje.
 - Todo es arcilla sólida: gotas, vapor, luz y sonido son piezas de plastilina.
 - Llama a cada objeto siempre igual que en su campo `en`.

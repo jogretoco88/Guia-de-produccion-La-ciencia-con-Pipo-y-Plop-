@@ -93,7 +93,7 @@ EP.push({
       "The electrons hop from the brown strand onto the red piece, one after another.",
       "Pero los electrones tienen una costumbre: con el roce, pueden saltar de un material a otro.", "k"],
     ["S", 6, "", "Lámina del átomo: el centro y sus electrones.",
-      "A simple clay atom model in the center: a round red clay center with three tiny yellow clay balls around it, evenly lit. Wide clean empty white space on both sides.",
+      "A simple clay atom model in the center: a round red clay center with three tiny yellow clay balls around it, evenly lit.",
       "Un átomo: su centro y sus electrones. Y los electrones… a veces se mudan.",
       "Centro del átomo · Electrones"],
     ["C", "M", "P", "Pipo se balancea de un pie a otro, como en un sube y baja.", P_CENTER,
@@ -155,7 +155,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: frotar, electrones de más y papelitos pegados.",
-      "Three clay scenes in a row from left to right, evenly spaced: a red clay balloon rubbing against a mustard-yellow clay cloth; the same balloon covered with tiny yellow clay balls; and the balloon with small white clay squares stuck under it. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a red clay balloon rubbing against a mustard-yellow clay cloth; the same balloon covered with tiny yellow clay balls; and the balloon with small white clay squares stuck under it.",
       "Repasemos: al frotar, los electrones saltan al globo, el globo queda cargado, y atrae lo que tiene cerca.",
       "1 Frotar · 2 Electrones de más · 3 Atrae"],
     ["C", "W", "", "De una nube oscura cae un rayo.",
@@ -168,7 +168,7 @@ EP.push({
       "En la nube, el hielo y el agua se rozan y juntan electrones… hasta que saltan.", "k"],
     ["R", "L9", "Tú puedes hacer magia con electrones hoy mismo. Plop tiene un reto para ti."],
     ["S", 6, "ad", "El globo sobre los papelitos, junto a un hilo de agua del grifo.",
-      "The red balloon floating above the paper bits, next to a thin stream of pale-blue clay water falling from a small grey clay tap. Clean empty white space above them.",
+      "The red balloon floating above the paper bits, next to a thin stream of pale-blue clay water falling from a small grey clay tap.",
       "Frota un globo en tu pelo y acércalo a papelitos. ¿Qué pasa?",
       "Reto en casa · magia con electrones"],
 

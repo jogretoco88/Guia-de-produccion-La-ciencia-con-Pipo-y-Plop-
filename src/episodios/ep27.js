@@ -93,7 +93,7 @@ EP.push({
       "The small white arrows push upward together, again and again.",
       "Y el agua apartada empuja de vuelta, hacia arriba. Cuanta más agua apartas, más fuerte te empuja.", "k"],
     ["S", 6, "ab", "Lámina: el barco hueco y la bolita maciza.",
-      "The clay ship on the left and the solid ball on the right, evenly lit. Clean empty white space above each one.",
+      "The clay ship on the left and the solid ball on the right, evenly lit.",
       "Barco hueco, lleno de aire. Bolita maciza. Y un agua que empuja hacia arriba.",
       "Hueco (con aire) · Macizo · El agua empuja hacia arriba"],
     ["C", "M", "Pc", "Pipo hunde una pelota de playa y esta vuelve a subir.",
@@ -156,7 +156,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: la bolita hundida, el barco con flechas y el barquito hueco.",
-      "Three clay scenes in a row from left to right, evenly spaced: a small grey clay ball at the bottom of a blue clay water block; a red clay boat floating on a blue clay water block with white arrows under it; and a small hollow grey clay bowl floating. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a small grey clay ball at the bottom of a blue clay water block; a red clay boat floating on a blue clay water block with white arrows under it; and a small hollow grey clay bowl floating.",
       "Repasemos: el agua empuja lo que la aparta, el barco hueco aparta mucha, y por eso flota.",
       "1 El agua empuja · 2 El casco hueco aparta mucha · 3 ¡Flota!"],
     ["C", "C", "", "Una figurita entra en una bañera y el agua se desborda.",
@@ -169,7 +169,7 @@ EP.push({
       "Y es la misma regla del hielo: flota porque pesa menos que el agua que aparta."],
     ["R", "L9", "Este reto se hace con plastilina, como todo en este canal. Plop tiene un reto para ti."],
     ["S", 6, "", "Una bola de plastilina, un barquito de plastilina y tres monedas.",
-      "A small ball of grey clay on the left, a small hollow grey clay boat on the right, and three clay coins between them. Clean empty white space above them.",
+      "A small ball of grey clay on the left, a small hollow grey clay boat on the right, and three clay coins between them.",
       "Haz una bola de plastilina: se hunde. Ahora hazle forma de barco. ¿Cuántas monedas aguanta?",
       "Reto en casa · el barco de plastilina"],
 

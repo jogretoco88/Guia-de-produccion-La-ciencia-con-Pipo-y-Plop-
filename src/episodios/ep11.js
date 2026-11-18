@@ -92,7 +92,7 @@ EP.push({
       "The gas balls in the small space bounce against the cap and the liquid, again and again.",
       "Ese apretón se llama presión. Mientras haya presión, el gas se queda quieto dentro del líquido.", "k"],
     ["S", 6, "b", "Lámina de la botella por dentro.",
-      "The cut-open bottle model stands centered, cap on, evenly lit. Wide clean empty white space on both sides of the model.",
+      "The cut-open bottle model stands centered, cap on, evenly lit.",
       "Líquido, gas disuelto y una tapa que aprieta. ¡Recuerda la tapa!",
       "Tapa (presión) · Gas disuelto · Líquido"],
     ["C", "M", "P", "Pipo se abraza a sí mismo, apretado.", P_CENTER,
@@ -151,7 +151,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: botella cerrada, botella abierta y vaso con burbujas.",
-      "Three clay models in a row from left to right, evenly spaced: a closed orange clay bottle with a red cap; the same bottle open with white clay bubbles rising from its neck; and a clay glass of amber soda with a line of white bubbles rising inside. Clean empty white space above each one.",
+      "Three clay models in a row from left to right, evenly spaced: a closed orange clay bottle with a red cap; the same bottle open with white clay bubbles rising from its neck; and a clay glass of amber soda with a line of white bubbles rising inside.",
       "Repasemos: la tapa aprieta el gas en el líquido, al abrir baja la presión y salen las burbujas.",
       "1 Gas a presión · 2 Se abre la tapa · 3 Burbujas"],
     ["C", "C", "d", "Una pasa sube por el vaso, cubierta de burbujitas.",
@@ -164,7 +164,7 @@ EP.push({
       "Arriba, las burbujas revientan y la pasa se hunde. Y vuelve a empezar: ¡es una pasa buzo!", "<31"],
     ["R", "L9", "Ese experimento lo puedes hacer hoy mismo. Plop tiene un reto para ti."],
     ["S", 6, "d", "Un vaso con burbujas y tres pasas al lado.",
-      "The clay glass full of amber soda with white bubbles, and three small dark purple clay raisins lying beside it. Clean empty white space above them.",
+      "The clay glass full of amber soda with white bubbles, and three small dark purple clay raisins lying beside it.",
       "Echa unas pasas en un vaso de agua con gas. ¿Cuántas veces suben y bajan?",
       "Reto en casa · las pasas buzo"],
 

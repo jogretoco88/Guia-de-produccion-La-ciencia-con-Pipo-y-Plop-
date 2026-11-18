@@ -91,7 +91,7 @@ EP.push({
       "The bean's skin splits and a small white root pokes out and curves down into the soil.",
       "Lo primero que sale siempre es la raíz. Así la planta se agarra y empieza a beber.", "k"],
     ["S", 6, "a", "Lámina: el frijol abierto con su plantita.",
-      "The bean in the center, split open with the tiny pale-green baby plant inside between its two thick halves. Clean empty white space above it.",
+      "The bean in the center, split open with the tiny pale-green baby plant inside between its two thick halves.",
       "Plantita bebé, merienda guardada y una piel que la protege. Solo falta agua.",
       "Plantita bebé · Merienda guardada · Piel protectora + agua"],
     ["C", "C", "a", "Sube el tallo y abre dos hojitas.",
@@ -154,7 +154,7 @@ EP.push({
 
     ["#"],
     ["S", 8, "", "Repaso: frijol en agua, raíz que baja y tallo que sube.",
-      "Three clay scenes in a row from left to right, evenly spaced: a brown clay bean in a small drop of pale-blue water; a brown clay bean with a white root growing down; and a brown clay bean with a root down and a green shoot with two leaves up. Clean empty white space above each one.",
+      "Three clay scenes in a row from left to right, evenly spaced: a brown clay bean in a small drop of pale-blue water; a brown clay bean with a white root growing down; and a brown clay bean with a root down and a green shoot with two leaves up.",
       "Repasemos: el agua despierta a la plantita, primero sale la raíz hacia abajo, y luego el tallo hacia la luz.",
       "1 El agua la despierta · 2 Raíz abajo · 3 Tallo hacia la luz"],
     ["C", "C", "", "La entrada de un almacén de semillas en una montaña nevada.",
@@ -167,7 +167,7 @@ EP.push({
       "Y algunas semillas viajan solas: las del diente de león vuelan con el viento como paracaídas."],
     ["R", "L9", "Ahora, un huerto en un frasco. Plop tiene un reto para ti."],
     ["S", 6, "b", "El frasco con algodón y tres frijoles.",
-      "The sprout jar in the center, with three brown beans pressed against the glass, one with a small white root. Clean empty white space above it.",
+      "The sprout jar in the center, with three brown beans pressed against the glass, one with a small white root.",
       "Algodón mojado, tres legumbres contra el cristal. ¿Cuántos días tarda en salir la raíz?",
       "Reto en casa · tu huerto en un frasco"],
 
