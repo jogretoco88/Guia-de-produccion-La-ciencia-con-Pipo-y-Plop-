@@ -1,0 +1,669 @@
+{
+ "lines": [
+  {
+   "id": "E04_C01",
+   "t0": 0,
+   "t1": 8,
+   "win": [
+    0.1,
+    7.6
+   ],
+   "still": false,
+   "es": "[surprised] ¡Hip! [curious] ¿Qué fue eso? Todo estaba en calma… y tu cuerpo saltó sin pedirte permiso.",
+   "en": "[surprised] Hic! [curious] What was that? Everything was calm… and your body jumped all by itself.",
+   "fr": "[surprised] Hic ! [curious] C'était quoi, ça ? Tout était calme… et ton corps a sauté tout seul.",
+   "pt": "[surprised] Hic! [curious] O que foi isso? Estava tudo calmo… e o seu corpo pulou sem pedir licença.",
+   "hi": "[surprised] हिच! [curious] यह क्या था? सब कुछ शांत था… और तुम्हारा शरीर अपने आप उछल पड़ा।",
+   "anchors": [
+    [
+     "START",
+     1.05
+    ]
+   ]
+  },
+  {
+   "id": "E04_C02",
+   "t0": 8,
+   "t1": 16,
+   "win": [
+    0.1,
+    7.6
+   ],
+   "still": false,
+   "es": "[playful] Y otra vez: ¡hip! [curious] No lo decides tú. Entonces… ¿quién está dando la orden?",
+   "en": "[playful] And again: hic! [curious] You didn't decide that. So… who's giving the order?",
+   "fr": "[playful] Et encore : hic ! [curious] Ce n'est pas toi qui décides. Alors… qui donne l'ordre ?",
+   "pt": "[playful] E de novo: hic! [curious] Não é você que decide. Então… quem está dando a ordem?",
+   "hi": "[playful] और फिर से: हिच! [curious] यह तुम तय नहीं करते। तो फिर… आदेश कौन दे रहा है?",
+   "anchors": [
+    [
+     "HIC1",
+     1.18
+    ]
+   ]
+  },
+  {
+   "id": "E04_C03",
+   "t0": 16,
+   "t1": 24,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Pipo también quiere saberlo. [mischievously] Hoy vamos a buscar al culpable… debajo de tus costillas.",
+   "en": "[curious] Pipo wants to know too. [mischievously] Today we're hunting for the culprit… right under your ribs.",
+   "fr": "[curious] Pipo aussi veut savoir. [mischievously] Aujourd'hui, on cherche le coupable… sous tes côtes.",
+   "pt": "[curious] O Pipo também quer saber. [mischievously] Hoje vamos procurar o culpado… debaixo das suas costelas.",
+   "hi": "[curious] पीपो भी जानना चाहता है। [mischievously] आज हम कसूरवार ढूँढेंगे… तुम्हारी पसलियों के नीचे।",
+   "anchors": []
+  },
+  {
+   "id": "CANAL_INICIO",
+   "t0": 24,
+   "t1": 28,
+   "win": [
+    0.2,
+    3.6
+   ],
+   "still": true,
+   "es": "[excited] ¡La ciencia con Pipo y Plop!",
+   "en": "[excited] Science with Pipo and Plop!",
+   "fr": "[excited] La science avec Pipo et Plop !",
+   "pt": "[excited] A ciência com Pipo e Plop!",
+   "hi": "[excited] पीपो और प्लॉप के साथ विज्ञान!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C04",
+   "t0": 28,
+   "t1": 36,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[mischievously] La idea loca de Pipo: ¡Plop se tragó una ranita, y la ranita salta en su panza!",
+   "en": "[mischievously] Pipo's wild idea: Plop swallowed a little frog, and it's hopping in his tummy!",
+   "fr": "[mischievously] L'idée folle de Pipo : Plop a avalé une grenouille qui saute dans son ventre !",
+   "pt": "[mischievously] A ideia maluca do Pipo: o Plop engoliu um sapinho, e ele pula na barriga dele!",
+   "hi": "[mischievously] पीपो का मज़ेदार ख़याल: प्लॉप ने मेंढक निगल लिया, जो पेट में उछल रहा है!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C05",
+   "t0": 36,
+   "t1": 44,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[amused] Si fuera una rana, la oiríamos croar. Y además… Plop no ha comido ranas. [playful] Creo.",
+   "en": "[amused] If it were a frog, we'd hear it croak. And besides… Plop hasn't eaten any frogs. [playful] I think.",
+   "fr": "[amused] Une grenouille, on l'entendrait coasser. Et puis… Plop n'a pas mangé de grenouille. [playful] Je crois.",
+   "pt": "[amused] Se fosse um sapo, ia coaxar. E o Plop não comeu sapo nenhum… [playful] eu acho.",
+   "hi": "[amused] मेंढक होता, तो टर्र-टर्र सुनाई देती। और प्लॉप ने मेंढक खाया ही नहीं… [playful] शायद।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C06",
+   "t0": 44,
+   "t1": 52,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[thoughtful] Segunda idea: aguantar la respiración hasta que se vaya. A veces sirve… ¿pero por qué?",
+   "en": "[thoughtful] Idea number two: hold your breath until it goes away. Sometimes it works… but why?",
+   "fr": "[thoughtful] Deuxième idée : retenir son souffle jusqu'à ce que ça passe. Ça marche parfois… mais pourquoi ?",
+   "pt": "[thoughtful] Segunda ideia: prender a respiração até passar. Às vezes funciona… mas por quê?",
+   "hi": "[thoughtful] दूसरा ख़याल: हिचकी जाने तक साँस रोककर रखना। कभी-कभी यह काम करता है… पर क्यों?",
+   "anchors": []
+  },
+  {
+   "id": "E04_C07",
+   "t0": 52,
+   "t1": 60,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[thoughtful] Plop se pregunta: si yo no quiero saltar, ¿qué parte de mí está saltando sola?",
+   "en": "[thoughtful] Plop wonders: if I don't want to jump, what part of me is jumping on its own?",
+   "fr": "[thoughtful] Plop se demande : si je ne veux pas sauter, quelle partie de moi saute toute seule ?",
+   "pt": "[thoughtful] O Plop se pergunta: se eu não quero pular, que parte de mim está pulando sozinha?",
+   "hi": "[thoughtful] प्लॉप सोचता है: मैं उछलना नहीं चाहता, तो मेरा कौन सा हिस्सा उछल रहा है?",
+   "anchors": []
+  },
+  {
+   "id": "E04_C08",
+   "t0": 60,
+   "t1": 68,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Esa es la pregunta correcta! El salto viene de un músculo que casi nadie conoce.",
+   "en": "[excited] That's the right question! The jump comes from inside, from a muscle almost nobody knows.",
+   "fr": "[excited] C'est la bonne question ! Le saut vient de l'intérieur, d'un muscle presque inconnu.",
+   "pt": "[excited] Essa é a pergunta certa! O pulo vem de dentro, de um músculo que quase ninguém conhece.",
+   "hi": "[excited] यही सही सवाल है! उछाल अंदर की एक मांसपेशी से आता है, जिसे कम लोग जानते हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C09",
+   "t0": 68,
+   "t1": 76,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] ¿Sabes cuál es? ¿Tú qué crees? Piénsalo… [excited] ¡Vamos a mirar dentro del pecho!",
+   "en": "[curious] Do you know which one? What do you think? Think about it… [excited] Let's look inside the chest!",
+   "fr": "[curious] Tu sais lequel ? Qu'en penses-tu ? Réfléchis… [excited] Allons voir dans la poitrine !",
+   "pt": "[curious] Sabe qual é? O que você acha? Pense um pouco… [excited] Vamos olhar dentro do peito!",
+   "hi": "[curious] वह कौन सी है? तुम्हें क्या लगता है? सोचो… [excited] चलो सीने के अंदर देखें!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C10",
+   "t0": 76,
+   "t1": 84,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Hagamos zoom! Estos son tus pulmones: dos bolsas esponjosas que se llenan de aire.",
+   "en": "[excited] Let's zoom in! These are your lungs: two spongy bags that fill up with air.",
+   "fr": "[excited] Zoomons ! Voici tes poumons : deux sacs spongieux qui se remplissent d'air.",
+   "pt": "[excited] Vamos dar um zoom! Estes são os seus pulmões: duas bolsas fofinhas que se enchem de ar.",
+   "hi": "[excited] ज़ूम करो! ये हैं तुम्हारे फेफड़े: हवा से भरने वाली दो स्पंजी थैलियाँ।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C11",
+   "t0": 84,
+   "t1": 92,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Pero los pulmones no se mueven solos. Debajo tienen un músculo en forma de cúpula.",
+   "en": "[warmly] But lungs can't move by themselves. Underneath, there's a dome-shaped muscle.",
+   "fr": "[warmly] Mais les poumons ne bougent pas tout seuls. En dessous, il y a un muscle en forme de dôme.",
+   "pt": "[warmly] Mas os pulmões não se mexem sozinhos. Embaixo deles tem um músculo em forma de cúpula.",
+   "hi": "[warmly] लेकिन फेफड़े अपने आप नहीं हिलते। उनके नीचे गुंबद जैसी एक मांसपेशी है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C12",
+   "t0": 92,
+   "t1": 100,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Se llama diafragma. Cuando baja, hace espacio y el aire entra a los pulmones.",
+   "en": "[warmly] It's called the diaphragm. When it moves down, it makes room and air flows into the lungs.",
+   "fr": "[warmly] C'est le diaphragme. Quand il descend, il fait de la place et l'air entre dans les poumons.",
+   "pt": "[warmly] Ele se chama diafragma. Quando desce, abre espaço e o ar entra nos pulmões.",
+   "hi": "[warmly] इसका नाम है डायाफ्राम। यह नीचे जाता है, तो जगह बनती है और हवा अंदर आती है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C13",
+   "t0": 100,
+   "t1": 108,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[calmly] Cuando sube, empuja el aire hacia afuera. Baja y sube, baja y sube, todo el día.",
+   "en": "[calmly] When it moves up, it pushes the air out. Down and up, down and up, all day long.",
+   "fr": "[calmly] Quand il remonte, il pousse l'air dehors. Il descend, il monte, toute la journée.",
+   "pt": "[calmly] Quando sobe, empurra o ar para fora. Desce e sobe, desce e sobe, o dia todo.",
+   "hi": "[calmly] ऊपर जाकर यह हवा बाहर धकेलता है। नीचे-ऊपर, नीचे-ऊपर, पूरे दिन।",
+   "anchors": []
+  },
+  {
+   "id": "E04_L1",
+   "t0": 108,
+   "t1": 114,
+   "win": [
+    0.3,
+    5.6
+   ],
+   "still": true,
+   "es": "[warmly] Pulmones arriba, diafragma abajo: el jefe de tu respiración.",
+   "en": "[warmly] Lungs on top, diaphragm below: the boss of your breathing.",
+   "fr": "[warmly] Les poumons en haut, le diaphragme en bas : le chef de ta respiration.",
+   "pt": "[warmly] Pulmões em cima, diafragma embaixo: o chefe da sua respiração.",
+   "hi": "[warmly] ऊपर फेफड़े, नीचे डायाफ्राम: तुम्हारी साँसों का असली बॉस।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C14",
+   "t0": 114,
+   "t1": 122,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Pipo pregunta: ¿y quién le dice al diafragma cuándo moverse? [playful] ¡Yo no le digo nada!",
+   "en": "[curious] Pipo asks: who tells the diaphragm when to move? [playful] I don't tell it anything!",
+   "fr": "[curious] Pipo demande : qui dit au diaphragme quand bouger ? [playful] Moi, je ne lui dis rien !",
+   "pt": "[curious] O Pipo pergunta: e quem avisa o diafragma quando se mexer? [playful] Eu não falo nada!",
+   "hi": "[curious] पीपो पूछता है: डायाफ्राम को हिलने का कौन कहता है? [playful] मैं तो नहीं कहता!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C15",
+   "t0": 122,
+   "t1": 130,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Se lo dice tu cerebro, por unos cables llamados nervios. Manda la orden sin que lo notes.",
+   "en": "[warmly] Your brain does, through little cables called nerves. It sends the order without you noticing.",
+   "fr": "[warmly] C'est ton cerveau, par de petits câbles appelés nerfs. Il envoie l'ordre sans que tu le saches.",
+   "pt": "[warmly] É o seu cérebro, por cabinhos chamados nervos. Ele manda a ordem sem você perceber.",
+   "hi": "[warmly] यह तुम्हारा दिमाग़ करता है, नसों नाम की तारों से। वह चुपचाप आदेश भेजता है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C16",
+   "t0": 130,
+   "t1": 138,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Plop ya sospecha algo: ¿y si a veces esa orden llega… con un error?",
+   "en": "[curious] Plop suspects something: what if sometimes that order arrives… with a mistake?",
+   "fr": "[curious] Plop se doute de quelque chose : et si parfois cet ordre arrivait… avec une erreur ?",
+   "pt": "[curious] O Plop já desconfia: e se às vezes essa ordem chega… com um erro?",
+   "hi": "[curious] प्लॉप को कुछ शक है: अगर कभी वह आदेश… किसी गलती के साथ पहुँचे तो?",
+   "anchors": []
+  },
+  {
+   "id": "E04_C17",
+   "t0": 138,
+   "t1": 146,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[playful] Así es. Si comes muy rápido, tragas aire o te da un ataque de risa…",
+   "en": "[playful] That's right. If you eat too fast, swallow air, or get a giggle attack…",
+   "fr": "[playful] Exactement. Si tu manges trop vite, si tu avales de l'air ou si tu as un fou rire…",
+   "pt": "[playful] Isso mesmo. Se você come muito rápido, engole ar ou tem uma crise de riso…",
+   "hi": "[playful] बिल्कुल। अगर तुम जल्दी-जल्दी खाओ, हवा निगलो, या बहुत ज़्यादा हँसो…",
+   "anchors": []
+  },
+  {
+   "id": "E04_C18",
+   "t0": 146,
+   "t1": 154,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] tu estómago se infla y le hace cosquillas al nervio que pasa justo al lado.",
+   "en": "[curious] your stomach puffs up and tickles the nerve that runs right next to it.",
+   "fr": "[warmly] Alors, ton estomac gonfle… et il chatouille le nerf qui passe juste à côté.",
+   "pt": "[curious] O seu estômago incha e faz cócegas no nervo que passa bem do lado.",
+   "hi": "[curious] तो तुम्हारा पेट फूल जाता है और पास से गुज़रने वाली नस को गुदगुदी करता है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C19",
+   "t0": 154,
+   "t1": 162,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[dramatically] El nervio se confunde y manda una orden equivocada: [excited] ¡aprieta ya, con todas tus fuerzas!",
+   "en": "[dramatically] The nerve gets confused and sends the wrong order: [excited] squeeze now, as hard as you can!",
+   "fr": "[dramatically] Le nerf s'embrouille et envoie un mauvais ordre : [excited] serre, de toutes tes forces !",
+   "pt": "[dramatically] O nervo se confunde e manda uma ordem errada: [excited] aperta já, com toda a força!",
+   "hi": "[dramatically] नस उलझ जाती है और गलत आदेश भेज देती है: [excited] अभी कसो, पूरी ताक़त से!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C20",
+   "t0": 162,
+   "t1": 170,
+   "win": [
+    0.1,
+    7.6
+   ],
+   "still": false,
+   "es": "[surprised] ¡Zas! [dramatically] El diafragma obedece y da un tirón hacia abajo… y el aire entra de golpe.",
+   "en": "[surprised] Whoosh! [dramatically] The diaphragm obeys and gives a sudden tug down… and air rushes in.",
+   "fr": "[surprised] Hop ! [dramatically] Le diaphragme obéit et tire brusquement vers le bas… et l'air entre d'un coup.",
+   "pt": "[surprised] Zás! [dramatically] O diafragma obedece e dá um puxão para baixo… e o ar entra de uma vez.",
+   "hi": "[surprised] झटका! [dramatically] डायाफ्राम आदेश मानकर नीचे खिंचता है… और हवा एकदम अंदर आती है।",
+   "anchors": [
+    [
+     "START",
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "E04_C21",
+   "t0": 170,
+   "t1": 178,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Ese chorro de aire sorprende a tu garganta, donde están las cuerdas vocales.",
+   "en": "[warmly] That rush of air surprises your throat, where your vocal cords are.",
+   "fr": "[warmly] Ce jet d'air surprend ta gorge, là où se trouvent les cordes vocales.",
+   "pt": "[warmly] Esse jato de ar surpreende a sua garganta, onde ficam as cordas vocais.",
+   "hi": "[warmly] हवा का यह झोंका तुम्हारे गले को चौंका देता है, जहाँ स्वर-तंतु होते हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C22",
+   "t0": 178,
+   "t1": 186,
+   "win": [
+    0.1,
+    7.6
+   ],
+   "still": false,
+   "es": "[surprised] ¡Clac! [dramatically] Las cuerdas vocales se cierran de golpe, como una puerta con el viento.",
+   "en": "[surprised] Clack! [dramatically] The vocal cords slam shut, like a door in the wind.",
+   "fr": "[surprised] Clac ! [dramatically] Le passage des cordes vocales se ferme d'un coup, comme une porte qui claque au vent.",
+   "pt": "[surprised] Clac! [dramatically] As cordas vocais se fecham de repente, como uma porta batendo com o vento.",
+   "hi": "[surprised] खट! [dramatically] स्वर-तंतु झट से बंद हो जाते हैं, जैसे हवा से दरवाज़ा।",
+   "anchors": [
+    [
+     "START",
+     0.8
+    ]
+   ]
+  },
+  {
+   "id": "E04_C23",
+   "t0": 186,
+   "t1": 194,
+   "win": [
+    0.1,
+    7.6
+   ],
+   "still": false,
+   "es": "[playful] Ese portazo es el sonido del hipo. ¡Hip! No es tu voz: es una puerta cerrándose.",
+   "en": "[playful] That slam is the sound of a hiccup. Hic! It's not your voice: it's a door closing.",
+   "fr": "[playful] Ce claquement, c'est le bruit du hoquet. Hic ! Ce n'est pas ta voix : c'est une porte qui se ferme.",
+   "pt": "[playful] Essa batida é o som do soluço. Hic! Não é a sua voz: é uma porta se fechando.",
+   "hi": "[playful] यही धड़ाम हिचकी की आवाज़ है। हिच! यह आवाज़ नहीं, बंद होता दरवाज़ा है।",
+   "anchors": [
+    [
+     "HIC1",
+     2.95
+    ]
+   ]
+  },
+  {
+   "id": "E04_C24",
+   "t0": 194,
+   "t1": 202,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Pipo quiere saber por qué se repite. [warmly] Porque el nervio sigue confundido y repite la orden.",
+   "en": "[curious] Pipo wants to know why it repeats. [warmly] The nerve is still confused, so it repeats the order.",
+   "fr": "[curious] Pipo veut savoir pourquoi ça recommence. [warmly] Le nerf, encore embrouillé, répète l'ordre.",
+   "pt": "[curious] O Pipo quer saber por que ele se repete. [warmly] Porque o nervo continua confuso e repete a ordem.",
+   "hi": "[curious] पीपो पूछता है, यह बार-बार क्यों? [warmly] क्योंकि उलझी हुई नस वही आदेश दोहराती है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C25",
+   "t0": 202,
+   "t1": 210,
+   "win": [
+    0.1,
+    7.6
+   ],
+   "still": false,
+   "es": "[playful] Tirón, portazo, ¡hip! [pause] Tirón, portazo, ¡hip! [curious] ¿Cómo se apaga esta máquina, Plop?",
+   "en": "[playful] Tug, slam, hic! [pause] Tug, slam, hic! [curious] How do we switch off this machine, Plop?",
+   "fr": "[playful] Ça tire, ça claque, hic ! [pause] Ça tire, ça claque, hic ! [curious] Comment on arrête cette machine, Plop ?",
+   "pt": "[playful] Puxão, batida, hic! [pause] Puxão, batida, hic! [curious] Como se desliga essa máquina, Plop?",
+   "hi": "[playful] झटका, धड़ाम, हिच! [pause] झटका, धड़ाम, हिच! [curious] प्लॉप, यह मशीन बंद कैसे होगी?",
+   "anchors": [
+    [
+     "HIC1",
+     2.05
+    ],
+    [
+     "HIC2",
+     4.1
+    ]
+   ]
+  },
+  {
+   "id": "E04_C26",
+   "t0": 210,
+   "t1": 218,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[calmly] Probemos lo de antes: respirar muy lento… y aguantar el aire un momento.",
+   "en": "[calmly] Let's try that idea again: breathe in very slowly… and hold the air for a moment.",
+   "fr": "[calmly] Essayons l'idée de tout à l'heure : respirer très lentement… et retenir l'air un moment.",
+   "pt": "[calmly] Vamos tentar aquela ideia: respirar bem devagar… e segurar o ar por um momento.",
+   "hi": "[calmly] चलो पहले वाला तरीका आज़माएँ: बहुत धीरे साँस लो… और थोड़ी देर हवा रोककर रखो।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C27",
+   "t0": 218,
+   "t1": 226,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Al aguantar el aire, en tu cuerpo se junta un gas llamado dióxido de carbono.",
+   "en": "[warmly] When you hold your breath, a gas called carbon dioxide builds up in your body.",
+   "fr": "[warmly] Quand tu retiens ton souffle, un gaz appelé dioxyde de carbone s'accumule dans ton corps.",
+   "pt": "[warmly] Quando você segura o ar, junta no seu corpo um gás chamado dióxido de carbono.",
+   "hi": "[warmly] जब तुम साँस रोकते हो, तो शरीर में कार्बन डाइऑक्साइड नाम की गैस जमा होती है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C28",
+   "t0": 226,
+   "t1": 234,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[calmly] El cerebro lo nota y se concentra en respirar bien. Las órdenes vuelven a salir en calma.",
+   "en": "[calmly] Your brain notices and focuses on breathing well. The orders come out calm again.",
+   "fr": "[calmly] Le cerveau le remarque et se concentre sur la respiration. Les ordres redeviennent calmes.",
+   "pt": "[calmly] O cérebro percebe e se concentra em respirar bem. As ordens voltam a sair com calma.",
+   "hi": "[calmly] दिमाग़ इसे भाँपकर साँसों पर ध्यान देता है। आदेश फिर शांत हो जाते हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C29",
+   "t0": 234,
+   "t1": 242,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[softly] El diafragma recupera su ritmo: baja y sube suavecito. Y la puerta deja de dar portazos.",
+   "en": "[softly] The diaphragm finds its rhythm: down and up, nice and gentle. And the door stops slamming.",
+   "fr": "[softly] Le diaphragme retrouve son rythme : il descend et monte tout doucement. Et la porte ne claque plus.",
+   "pt": "[softly] O diafragma recupera o ritmo: desce e sobe bem devagarinho. E a porta para de bater.",
+   "hi": "[softly] डायाफ्राम फिर लय में आ जाता है: धीरे नीचे, धीरे ऊपर। दरवाज़े की धड़ाम बंद!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C30",
+   "t0": 242,
+   "t1": 250,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[laughs] ¡Se fue! [happy] No era una rana, Pipo: era un músculo confundido. ¡Misterio resuelto, Plop!",
+   "en": "[laughs] It's gone! [happy] It wasn't a frog, Pipo: it was a confused muscle. Mystery solved, Plop!",
+   "fr": "[laughs] Il est parti ! [happy] Pas une grenouille, Pipo : un muscle embrouillé. Mystère résolu, Plop !",
+   "pt": "[laughs] Passou! [happy] Não era sapo, Pipo: era um músculo confuso. Mistério resolvido!",
+   "hi": "[laughs] चली गई! [happy] मेंढक नहीं, पीपो: एक उलझी मांसपेशी थी। रहस्य सुलझ गया!",
+   "anchors": []
+  },
+  {
+   "id": "E04_L2",
+   "t0": 250,
+   "t1": 258,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": true,
+   "es": "[warmly] Repasemos: nervio confundido, tirón del diafragma… y las cuerdas vocales hacen ¡hip!",
+   "en": "[warmly] Let's review: a confused nerve, a diaphragm tug… and the vocal cords go hic!",
+   "fr": "[warmly] On révise : un nerf embrouillé, le diaphragme qui tire… et les cordes vocales font hic !",
+   "pt": "[warmly] Vamos revisar: nervo confuso, puxão do diafragma… e as cordas vocais fazem hic!",
+   "hi": "[warmly] नस उलझती है, डायाफ्राम झटका देता है, और स्वर-तंतु करते हैं हिच!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C31",
+   "t0": 258,
+   "t1": 266,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Dato extra: no solo las personas tienen hipo. [happy] ¡Los perritos y los gatitos también!",
+   "en": "[curious] Bonus fact: people aren't the only ones who get hiccups. [happy] Puppies and kittens do too!",
+   "fr": "[curious] Le savais-tu ? On n'est pas les seuls à avoir le hoquet. [happy] Les chiots et les chatons aussi !",
+   "pt": "[curious] Curiosidade: não são só as pessoas que têm soluço. [happy] Os cachorrinhos e os gatinhos também!",
+   "hi": "[curious] मज़ेदार बात: [happy] पिल्लों और बिल्लियों को भी हिचकी आती है!",
+   "anchors": []
+  },
+  {
+   "id": "E04_C32",
+   "t0": 266,
+   "t1": 274,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Hasta los bebés tienen hipo antes de nacer. Quizás así practican cómo respirar.",
+   "en": "[warmly] Even babies get hiccups before they're born. Maybe that's how they practice breathing.",
+   "fr": "[warmly] Même les bébés ont le hoquet avant de naître : peut-être pour s'entraîner à respirer.",
+   "pt": "[warmly] Até os bebês têm soluço antes de nascer. Talvez seja assim que eles treinam a respiração.",
+   "hi": "[warmly] शिशुओं को तो जन्म से पहले भी हिचकी आती है। शायद ऐसे वे साँस लेना सीखते हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C33",
+   "t0": 274,
+   "t1": 282,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Casi siempre el hipo se va solito en unos minutos. [playful] Mientras tanto, Plop tiene un reto.",
+   "en": "[warmly] Hiccups usually go away on their own in a few minutes. [playful] Meanwhile, Plop has a challenge.",
+   "fr": "[warmly] Le hoquet part presque toujours tout seul en quelques minutes. [playful] En attendant, Plop a un défi.",
+   "pt": "[warmly] O soluço quase sempre passa sozinho em minutos. [playful] Enquanto isso, o Plop tem um desafio.",
+   "hi": "[warmly] हिचकी अक्सर कुछ मिनट में खुद चली जाती है। [playful] तब तक प्लॉप की एक चुनौती है।",
+   "anchors": []
+  },
+  {
+   "id": "E04_L3",
+   "t0": 282,
+   "t1": 288,
+   "win": [
+    0.3,
+    5.6
+   ],
+   "still": true,
+   "es": "[warmly] Cuando tengas hipo: respira lento y cuenta los ¡hip!",
+   "en": "[warmly] When you get hiccups: breathe slowly and count the hics.",
+   "fr": "[warmly] Quand tu as le hoquet : respire lentement et compte les hic.",
+   "pt": "[warmly] Quando tiver soluço: respire devagar e conte os hics.",
+   "hi": "[warmly] हिचकी आए तो: धीरे साँस लो और हिच गिनो।",
+   "anchors": []
+  },
+  {
+   "id": "E04_C34",
+   "t0": 288,
+   "t1": 296,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] La próxima pregunta es de Pipo: ¿por qué flota el hielo si es sólido?",
+   "en": "[curious] The next question is from Pipo: why does ice float if it's solid?",
+   "fr": "[curious] La prochaine question vient de Pipo : pourquoi la glace flotte-t-elle si elle est solide ?",
+   "pt": "[curious] A próxima pergunta é do Pipo: por que o gelo flutua se ele é sólido?",
+   "hi": "[curious] अगला सवाल पीपो का है: बर्फ़ ठोस है, फिर भी पानी पर क्यों तैरती है?",
+   "anchors": []
+  },
+  {
+   "id": "CANAL_FINAL",
+   "t0": 296,
+   "t1": 299.9583333333333,
+   "win": [
+    0.2,
+    3.838
+   ],
+   "still": true,
+   "es": "[excited] ¡Hasta el próximo misterio!",
+   "en": "[excited] See you at the next mystery!",
+   "fr": "[excited] À la prochaine énigme !",
+   "pt": "[excited] Até o próximo mistério!",
+   "hi": "[excited] अगले रहस्य में मिलते हैं!",
+   "anchors": []
+  }
+ ],
+ "hic": {
+  "es": "hip",
+  "en": "hic",
+  "fr": "hic",
+  "pt": "hic",
+  "hi": "हिच"
+ }
+}

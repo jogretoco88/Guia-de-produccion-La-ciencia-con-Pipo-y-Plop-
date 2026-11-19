@@ -1,0 +1,1029 @@
+INFORME DE SINCRONIZACIÓN · Ep. 4 · ¿Qué es el hipo?
+Voz: José Gregorio Torres (clonada) · Modelo: Eleven v4 · Video: 299,958 s
+
+── Español (ES) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 299.958 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C30 ×1.038
+Anclas de hipo medidas en la transcripción: C02 [1.14], C23 [2.54], C25 [1.54, 4.02]
+Toma            inicio      fin        ventana                 tempo
+C01             0:01.020  0:07.020  [0:00.100 – 0:07.600]  1.0
+C02             0:08.050  0:14.150  [0:08.100 – 0:15.600]  1.0
+C03             0:16.300  0:22.710  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.520  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.620  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:43.300  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.480  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:58.040  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:05.950  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.590  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.970  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:29.770  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.270  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:47.400  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:52.890  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  2:00.000  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:08.250  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:15.560  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:23.890  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:30.820  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:40.180  [2:34.300 – 2:41.600]  1.0
+C20             2:42.470  2:48.740  [2:42.100 – 2:49.600]  1.0
+C21             2:50.300  2:55.130  [2:50.300 – 2:57.600]  1.0
+C22             2:58.770  3:04.290  [2:58.100 – 3:05.600]  1.0
+C23             3:06.410  3:12.570  [3:06.100 – 3:13.600]  1.0
+C24             3:14.300  3:20.110  [3:14.300 – 3:21.600]  1.0
+C25             3:22.560  3:28.720  [3:22.100 – 3:29.600]  1.0
+C26             3:30.300  3:35.880  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.180  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.640  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:01.490  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:09.600  [4:02.300 – 4:09.600]  1.038
+L2              4:10.300  4:17.060  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:24.030  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.450  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:39.820  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.570  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.040  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:58.100  [4:56.200 – 4:59.838]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+E04_C01  1.00
+  guion: ¡Hip! ¿Qué fue eso? Todo estaba en calma… y tu cuerpo saltó sin pedirte permiso.
+  oído : ¡Hip! ¿Qué fue eso? Todo estaba en calma y tu cuerpo saltó sin pedirte permiso.
+
+E04_C02  1.00
+  guion: Y otra vez: ¡hip! No lo decides tú. Entonces… ¿quién está dando la orden?
+  oído : Y otra vez: ¡hip! No lo decides tú. Entonces, ¿quién está dando la orden?
+
+E04_C03  1.00
+  guion: Pipo también quiere saberlo. Hoy vamos a buscar al culpable… debajo de tus costillas.
+  oído : Pipo también quiere saberlo. Hoy vamos a buscar al culpable debajo de tus costillas.
+
+CANAL_INICIO  1.00
+  guion: ¡La ciencia con Pipo y Plop!
+  oído : La ciencia con Pipo y Plop.
+
+E04_C04  1.00
+  guion: La idea loca de Pipo: ¡Plop se tragó una ranita, y la ranita salta en su panza!
+  oído : La idea loca de Pipo: Plop se tragó una ranita y la ranita salta en su panza.
+
+E04_C05  1.00
+  guion: Si fuera una rana, la oiríamos croar. Y además… Plop no ha comido ranas. Creo.
+  oído : Si fuera una rana, la oiríamos croar. Y además, Plop no ha comido ranas, creo.
+
+E04_C06  1.00
+  guion: Segunda idea: aguantar la respiración hasta que se vaya. A veces sirve… ¿pero por qué?
+  oído : Segunda idea: aguantar la respiración hasta que se vaya. A veces sirve, pero ¿por qué?
+
+E04_C07  1.00
+  guion: Plop se pregunta: si yo no quiero saltar, ¿qué parte de mí está saltando sola?
+  oído : Plop se pregunta: si yo no quiero saltar, ¿qué parte de mí está saltando sola?
+
+E04_C08  0.97
+  guion: ¡Esa es la pregunta correcta! El salto viene de un músculo que casi nadie conoce.
+  oído : Esa es la pregunta correcta. El salto viene de un músculo que casi nadie conoce. ¿Sabes
+
+E04_C09  0.96
+  guion: ¿Sabes cuál es? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro del pecho!
+  oído : cuál es? ¿Tú qué crees? Piénsalo. Vamos a mirar dentro del pecho.
+
+E04_C10  1.00
+  guion: ¡Hagamos zoom! Estos son tus pulmones: dos bolsas esponjosas que se llenan de aire.
+  oído : Hagamos zoom. Estos son tus pulmones, dos bolsas esponjosas que se llenan de aire.
+
+E04_C11  1.00
+  guion: Pero los pulmones no se mueven solos. Debajo tienen un músculo en forma de cúpula.
+  oído : Pero los pulmones no se mueven solos. Debajo tienen un músculo en forma de cúpula.
+
+E04_C12  1.00
+  guion: Se llama diafragma. Cuando baja, hace espacio y el aire entra a los pulmones.
+  oído : Se llama diafragma. Cuando baja, hace espacio y el aire entra a los pulmones.
+
+E04_C13  1.00
+  guion: Cuando sube, empuja el aire hacia afuera. Baja y sube, baja y sube, todo el día.
+  oído : Cuando sube, empuja el aire hacia afuera. Baja y sube, baja y sube, todo el día.
+
+E04_L1  1.00
+  guion: Pulmones arriba, diafragma abajo: el jefe de tu respiración.
+  oído : Pulmones arriba, diafragma abajo, el jefe de tu respiración.
+
+E04_C14  1.00
+  guion: Pipo pregunta: ¿y quién le dice al diafragma cuándo moverse? ¡Yo no le digo nada!
+  oído : Pipo pregunta: ¿y quién le dice al diafragma cuándo moverse? Yo no le digo nada.
+
+E04_C15  1.00
+  guion: Se lo dice tu cerebro, por unos cables llamados nervios. Manda la orden sin que lo notes.
+  oído : Se lo dice tu cerebro por unos cables llamados nervios. Manda la orden sin que lo notes.
+
+E04_C16  1.00
+  guion: Plop ya sospecha algo: ¿y si a veces esa orden llega… con un error?
+  oído : Plop ya sospecha algo. ¿Y si a veces esa orden llega con un error?
+
+E04_C17  1.00
+  guion: Así es. Si comes muy rápido, tragas aire o te da un ataque de risa…
+  oído : Así es. Si comes muy rápido, tragas aire o te da un ataque de risa,
+
+E04_C18  1.00
+  guion: tu estómago se infla y le hace cosquillas al nervio que pasa justo al lado.
+  oído : tu estómago se infla y le hace cosquillas al nervio que pasa justo al lado.
+
+E04_C19  0.97
+  guion: El nervio se confunde y manda una orden equivocada: ¡aprieta ya, con todas tus fuerzas!
+  oído : El nervio se confunde y manda una orden equivocada. Aprieta ya con todas tus fuerzas. ¡Zas!
+
+E04_C20  0.97
+  guion: ¡Zas! El diafragma obedece y da un tirón hacia abajo… y el aire entra de golpe.
+  oído : El diafragma obedece y da un tirón hacia abajo y el aire entra de golpe.
+
+E04_C21  0.96
+  guion: Ese chorro de aire sorprende a tu garganta, donde están las cuerdas vocales.
+  oído : Ese chorro de aire sorprende a tu garganta, donde están las cuerdas vocales. ¡Clac!
+
+E04_C22  0.96
+  guion: ¡Clac! Las cuerdas vocales se cierran de golpe, como una puerta con el viento.
+  oído : Las cuerdas vocales se cierran de golpe, como una puerta con el viento.
+
+E04_C23  1.00
+  guion: Ese portazo es el sonido del hipo. ¡Hip! No es tu voz: es una puerta cerrándose.
+  oído : Ese portazo es el sonido del hipo. ¡Hip! No es tu voz, es una puerta cerrándose.
+
+E04_C24  1.00
+  guion: Pipo quiere saber por qué se repite. Porque el nervio sigue confundido y repite la orden.
+  oído : Pipo quiere saber por qué se repite. Porque el nervio sigue confundido y repite la orden.
+
+E04_C25  1.00
+  guion: Tirón, portazo, ¡hip! Tirón, portazo, ¡hip! ¿Cómo se apaga esta máquina, Plop?
+  oído : Tirón, portazo, ¡hip! Tirón, portazo, ¡hip! ¿Cómo se apaga esta máquina, Plop?
+
+E04_C26  1.00
+  guion: Probemos lo de antes: respirar muy lento… y aguantar el aire un momento.
+  oído : Probemos lo de antes. Respirar muy lento y aguantar el aire un momento.
+
+E04_C27  1.00
+  guion: Al aguantar el aire, en tu cuerpo se junta un gas llamado dióxido de carbono.
+  oído : Al aguantar el aire, en tu cuerpo se junta un gas llamado dióxido de carbono.
+
+E04_C28  1.00
+  guion: El cerebro lo nota y se concentra en respirar bien. Las órdenes vuelven a salir en calma.
+  oído : El cerebro lo nota y se concentra en respirar bien. Las órdenes vuelven a salir en calma.
+
+E04_C29  1.00
+  guion: El diafragma recupera su ritmo: baja y sube suavecito. Y la puerta deja de dar portazos.
+  oído : El diafragma recupera su ritmo, baja y sube suavecito, y la puerta deja de dar portazos.
+
+E04_C30  1.00
+  guion: ¡Se fue! No era una rana, Pipo: era un músculo confundido. ¡Misterio resuelto, Plop!
+  oído : Se fue. No era una rana, Pipo. Era un músculo confundido. Misterio resuelto, Plop.
+
+E04_L2  1.00
+  guion: Repasemos: nervio confundido, tirón del diafragma… y las cuerdas vocales hacen ¡hip!
+  oído : Repasemos. Nervio confundido, tirón del diafragma y las cuerdas vocales hacen: ¡hip!
+
+E04_C31  1.00
+  guion: Dato extra: no solo las personas tienen hipo. ¡Los perritos y los gatitos también!
+  oído : Dato extra: no solo las personas tienen hipo, los perritos y los gatitos también.
+
+E04_C32  1.00
+  guion: Hasta los bebés tienen hipo antes de nacer. Quizás así practican cómo respirar.
+  oído : Hasta los bebés tienen hipo antes de nacer. Quizás así practican cómo respirar.
+
+E04_C33  1.00
+  guion: Casi siempre el hipo se va solito en unos minutos. Mientras tanto, Plop tiene un reto.
+  oído : Casi siempre el hipo se va solito en unos minutos. Mientras tanto, Plop tiene un reto.
+
+E04_L3  1.00
+  guion: Cuando tengas hipo: respira lento y cuenta los ¡hip!
+  oído : Cuando tengas hipo, respira lento y cuenta los ¡hip!
+
+E04_C34  1.00
+  guion: La próxima pregunta es de Pipo: ¿por qué flota el hielo si es sólido?
+  oído : La próxima pregunta es de Pipo: ¿por qué flota el hielo si es sólido?
+
+CANAL_FINAL  1.00
+  guion: ¡Hasta el próximo misterio!
+  oído : Hasta el próximo misterio.
+
+
+── English (EN) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 299.958 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C30 ×1.026
+Anclas de hipo medidas en la transcripción: C02 [1.18], C23 [2.38], C25 [1.48, 3.54]
+Toma            inicio      fin        ventana                 tempo
+C01             0:01.020  0:06.630  [0:00.100 – 0:07.600]  1.0
+C02             0:08.050  0:13.280  [0:08.100 – 0:15.600]  1.0
+C03             0:16.300  0:22.100  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.260  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.070  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:43.120  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.860  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.590  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.430  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.770  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.630  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:29.170  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.190  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.790  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:52.500  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:59.430  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.930  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:15.690  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:23.810  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:30.210  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:39.500  [2:34.300 – 2:41.600]  1.0
+C20             2:42.470  2:48.350  [2:42.100 – 2:49.600]  1.0
+C21             2:50.300  2:54.760  [2:50.300 – 2:57.600]  1.0
+C22             2:58.770  3:03.410  [2:58.100 – 3:05.600]  1.0
+C23             3:06.600  3:12.290  [3:06.100 – 3:13.600]  1.0
+C24             3:14.300  3:20.310  [3:14.300 – 3:21.600]  1.0
+C25             3:22.590  3:28.980  [3:22.100 – 3:29.600]  1.0
+C26             3:30.300  3:36.350  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:42.920  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:51.810  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:01.430  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:09.600  [4:02.300 – 4:09.600]  1.026
+L2              4:10.300  4:16.660  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.710  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:30.930  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.220  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.250  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:52.870  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.890  [4:56.200 – 4:59.838]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+E04_C01  1.00
+  guion: Hic! What was that? Everything was calm… and your body jumped all by itself.
+  oído : Hic! What was that? Everything was calm, and your body jumped all by itself.
+
+E04_C02  1.00
+  guion: And again: hic! You didn't decide that. So… who's giving the order?
+  oído : And again, hic! You didn't decide that, so who's giving the order?
+
+E04_C03  1.00
+  guion: Pipo wants to know too. Today we're hunting for the culprit… right under your ribs.
+  oído : Pipo wants to know too. Today we're hunting for the culprit right under your ribs.
+
+CANAL_INICIO  1.00
+  guion: Science with Pipo and Plop!
+  oído : Science with Pipo and Plop.
+
+E04_C04  1.00
+  guion: Pipo's wild idea: Plop swallowed a little frog, and it's hopping in his tummy!
+  oído : Pipo's wild idea: Plop swallowed a little frog, and it's hopping in his tummy.
+
+E04_C05  1.00
+  guion: If it were a frog, we'd hear it croak. And besides… Plop hasn't eaten any frogs. I think.
+  oído : If it were a frog, we'd hear it croak. And besides, Plop hasn't eaten any frogs, I think.
+
+E04_C06  1.00
+  guion: Idea number two: hold your breath until it goes away. Sometimes it works… but why?
+  oído : Idea number two: Hold your breath until it goes away. Sometimes it works, but why?
+
+E04_C07  1.00
+  guion: Plop wonders: if I don't want to jump, what part of me is jumping on its own?
+  oído : Plop wonders, "If I don't want to jump, what part of me is jumping on its own?"
+
+E04_C08  1.00
+  guion: That's the right question! The jump comes from inside, from a muscle almost nobody knows.
+  oído : That's the right question. The jump comes from inside, from a muscle almost nobody knows.
+
+E04_C09  1.00
+  guion: Do you know which one? What do you think? Think about it… Let's look inside the chest!
+  oído : Do you know which one? What do you think? Think about it. Let's look inside the chest.
+
+E04_C10  1.00
+  guion: Let's zoom in! These are your lungs: two spongy bags that fill up with air.
+  oído : Let's zoom in. These are your lungs, two spongy bags that fill up with air.
+
+E04_C11  1.00
+  guion: But lungs can't move by themselves. Underneath, there's a dome-shaped muscle.
+  oído : But lungs can't move by themselves. Underneath, there's a dome-shaped muscle.
+
+E04_C12  1.00
+  guion: It's called the diaphragm. When it moves down, it makes room and air flows into the lungs.
+  oído : It's called the diaphragm. When it moves down, it makes room and air flows into the lungs.
+
+E04_C13  1.00
+  guion: When it moves up, it pushes the air out. Down and up, down and up, all day long.
+  oído : When it moves up, it pushes the air out. Down and up, down and up, all day long.
+
+E04_L1  1.00
+  guion: Lungs on top, diaphragm below: the boss of your breathing.
+  oído : Lungs on top, diaphragm below, the boss of your breathing.
+
+E04_C14  1.00
+  guion: Pipo asks: who tells the diaphragm when to move? I don't tell it anything!
+  oído : Pipo asks, "Who tells the diaphragm when to move? I don't tell it anything."
+
+E04_C15  1.00
+  guion: Your brain does, through little cables called nerves. It sends the order without you noticing.
+  oído : Your brain does through little cables called nerves. It sends the order without you noticing.
+
+E04_C16  1.00
+  guion: Plop suspects something: what if sometimes that order arrives… with a mistake?
+  oído : Plop suspects something. What if sometimes that order arrives with a mistake?
+
+E04_C17  1.00
+  guion: That's right. If you eat too fast, swallow air, or get a giggle attack…
+  oído : That's right. If you eat too fast, swallow air, or get a giggle attack,
+
+E04_C18  1.00
+  guion: your stomach puffs up and tickles the nerve that runs right next to it.
+  oído : your stomach puffs up and tickles the nerve that runs right next to it.
+
+E04_C19  1.00
+  guion: The nerve gets confused and sends the wrong order: squeeze now, as hard as you can!
+  oído : The nerve gets confused and sends the wrong order. Squeeze now as hard as you can!
+
+E04_C20  1.00
+  guion: Whoosh! The diaphragm obeys and gives a sudden tug down… and air rushes in.
+  oído : Whoosh! The diaphragm obeys and gives a sudden tug down, and air rushes in.
+
+E04_C21  1.00
+  guion: That rush of air surprises your throat, where your vocal cords are.
+  oído : That rush of air surprises your throat where your vocal cords are.
+
+E04_C22  1.00
+  guion: Clack! The vocal cords slam shut, like a door in the wind.
+  oído : Clack! The vocal cords slam shut like a door in the wind.
+
+E04_C23  1.00
+  guion: That slam is the sound of a hiccup. Hic! It's not your voice: it's a door closing.
+  oído : That slam is the sound of a hiccup. Hic! It's not your voice. It's a door closing.
+
+E04_C24  1.00
+  guion: Pipo wants to know why it repeats. The nerve is still confused, so it repeats the order.
+  oído : Pipo wants to know why it repeats. The nerve is still confused, so it repeats the order.
+
+E04_C25  1.00
+  guion: Tug, slam, hic! Tug, slam, hic! How do we switch off this machine, Plop?
+  oído : Tug, slam, hic! Tug, slam, hic! How do we switch off this machine, Plop?
+
+E04_C26  1.00
+  guion: Let's try that idea again: breathe in very slowly… and hold the air for a moment.
+  oído : Let's try that idea again. Breathe in very slowly and hold the air for a moment.
+
+E04_C27  1.00
+  guion: When you hold your breath, a gas called carbon dioxide builds up in your body.
+  oído : When you hold your breath, a gas called carbon dioxide builds up in your body.
+
+E04_C28  1.00
+  guion: Your brain notices and focuses on breathing well. The orders come out calm again.
+  oído : Your brain notices and focuses on breathing well. The orders come out calm again.
+
+E04_C29  1.00
+  guion: The diaphragm finds its rhythm: down and up, nice and gentle. And the door stops slamming.
+  oído : The diaphragm finds its rhythm, down and up, nice and gentle, and the door stops slamming.
+
+E04_C30  1.00
+  guion: It's gone! It wasn't a frog, Pipo: it was a confused muscle. Mystery solved, Plop!
+  oído : It's gone. It wasn't a frog, Pipo. It was a confused muscle. Mystery solved. Plop.
+
+E04_L2  1.00
+  guion: Let's review: a confused nerve, a diaphragm tug… and the vocal cords go hic!
+  oído : Let's review. A confused nerve, a diaphragm tug, and the vocal cords go hic!
+
+E04_C31  1.00
+  guion: Bonus fact: people aren't the only ones who get hiccups. Puppies and kittens do too!
+  oído : Bonus fact: People aren't the only ones who get hiccups. Puppies and kittens do too.
+
+E04_C32  1.00
+  guion: Even babies get hiccups before they're born. Maybe that's how they practice breathing.
+  oído : Even babies get hiccups before they're born. Maybe that's how they practice breathing.
+
+E04_C33  1.00
+  guion: Hiccups usually go away on their own in a few minutes. Meanwhile, Plop has a challenge.
+  oído : Hiccups usually go away on their own in a few minutes. Meanwhile, Plop has a challenge.
+
+E04_L3  1.00
+  guion: When you get hiccups: breathe slowly and count the hics.
+  oído : When you get hiccups, breathe slowly and count the hics.
+
+E04_C34  1.00
+  guion: The next question is from Pipo: why does ice float if it's solid?
+  oído : The next question is from Pipo. Why does ice float if it's solid?
+
+CANAL_FINAL  1.00
+  guion: See you at the next mystery!
+  oído : See you at the next mystery!
+
+
+── Français (FR) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 299.958 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): ninguna
+Anclas de hipo medidas en la transcripción: C02 [1.1], C23 [2.52], C25 [1.62, 3.98]
+Toma            inicio      fin        ventana                 tempo
+C01             0:01.020  0:05.920  [0:00.100 – 0:07.600]  1.0
+C02             0:08.150  0:13.000  [0:08.100 – 0:15.600]  1.0
+C03             0:16.300  0:21.620  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.340  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:33.300  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.950  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.150  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.230  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:05.650  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:12.750  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.190  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:29.220  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:37.670  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:45.900  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:52.920  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:59.210  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.650  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:15.740  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:23.910  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:30.960  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:38.870  [2:34.300 – 2:41.600]  1.0
+C20             2:42.470  2:48.450  [2:42.100 – 2:49.600]  1.0
+C21             2:50.300  2:54.290  [2:50.300 – 2:57.600]  1.0
+C22             2:58.770  3:04.020  [2:58.100 – 3:05.600]  1.0
+C23             3:06.530  3:12.270  [3:06.100 – 3:13.600]  1.0
+C24             3:14.300  3:19.480  [3:14.300 – 3:21.600]  1.0
+C25             3:22.460  3:28.600  [3:22.100 – 3:29.600]  1.0
+C26             3:30.300  3:35.980  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.340  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.030  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.390  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:09.410  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.100  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.000  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:30.780  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:39.550  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.520  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.170  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.470  [4:56.200 – 4:59.838]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+E04_C01  1.00
+  guion: Hic ! C'était quoi, ça ? Tout était calme… et ton corps a sauté tout seul.
+  oído : Hic ! C'était quoi ça ? Tout était calme et ton corps a sauté tout seul.
+
+E04_C02  1.00
+  guion: Et encore : hic ! Ce n'est pas toi qui décides. Alors… qui donne l'ordre ?
+  oído : Et encore, hic ! Ce n'est pas toi qui décides. Alors, qui donne l'ordre ?
+
+E04_C03  1.00
+  guion: Pipo aussi veut savoir. Aujourd'hui, on cherche le coupable… sous tes côtes.
+  oído : Pipo aussi veut savoir. Aujourd'hui, on cherche le coupable sous tes côtes.
+
+CANAL_INICIO  1.00
+  guion: La science avec Pipo et Plop !
+  oído : La science avec Pipo et Plop.
+
+E04_C04  1.00
+  guion: L'idée folle de Pipo : Plop a avalé une grenouille qui saute dans son ventre !
+  oído : L'idée folle de Pipo. Plop a avalé une grenouille qui saute dans son ventre.
+
+E04_C05  1.00
+  guion: Une grenouille, on l'entendrait coasser. Et puis… Plop n'a pas mangé de grenouille. Je crois.
+  oído : Une grenouille, on l'entendrait coasser. Et puis, Plop n'a pas mangé de grenouille, je crois.
+
+E04_C06  1.00
+  guion: Deuxième idée : retenir son souffle jusqu'à ce que ça passe. Ça marche parfois… mais pourquoi ?
+  oído : Deuxième idée : retenir son souffle jusqu'à ce que ça passe. Ça marche parfois, mais pourquoi ?
+
+E04_C07  1.00
+  guion: Plop se demande : si je ne veux pas sauter, quelle partie de moi saute toute seule ?
+  oído : Plop se demande : Si je ne veux pas sauter, quelle partie de moi saute toute seule ?
+
+E04_C08  1.00
+  guion: C'est la bonne question ! Le saut vient de l'intérieur, d'un muscle presque inconnu.
+  oído : C'est la bonne question. Le saut vient de l'intérieur, d'un muscle presque inconnu.
+
+E04_C09  1.00
+  guion: Tu sais lequel ? Qu'en penses-tu ? Réfléchis… Allons voir dans la poitrine !
+  oído : Tu sais lequel ? Qu'en penses-tu ? Réfléchis. Allons voir dans la poitrine.
+
+E04_C10  1.00
+  guion: Zoomons ! Voici tes poumons : deux sacs spongieux qui se remplissent d'air.
+  oído : Zoomons. Voici tes poumons, deux sacs spongieux qui se remplissent d'air.
+
+E04_C11  1.00
+  guion: Mais les poumons ne bougent pas tout seuls. En dessous, il y a un muscle en forme de dôme.
+  oído : Mais les poumons ne bougent pas tout seuls. En dessous, il y a un muscle en forme de dôme.
+
+E04_C12  1.00
+  guion: C'est le diaphragme. Quand il descend, il fait de la place et l'air entre dans les poumons.
+  oído : C'est le diaphragme. Quand il descend, il fait de la place et l'air entre dans les poumons.
+
+E04_C13  1.00
+  guion: Quand il remonte, il pousse l'air dehors. Il descend, il monte, toute la journée.
+  oído : Quand il remonte, il pousse l'air dehors. Il descend, il monte toute la journée.
+
+E04_L1  0.85
+  guion: Les poumons en haut, le diaphragme en bas : le chef de ta respiration.
+  oído : Le poumon en haut, le diaphragme en bas, le chef de ta respiration.
+
+E04_C14  1.00
+  guion: Pipo demande : qui dit au diaphragme quand bouger ? Moi, je ne lui dis rien !
+  oído : Pipo demande : Qui dit au diaphragme quand bouger ? Moi, je ne lui dis rien.
+
+E04_C15  1.00
+  guion: C'est ton cerveau, par de petits câbles appelés nerfs. Il envoie l'ordre sans que tu le saches.
+  oído : C'est ton cerveau. Par de petits câbles appelés nerfs, il envoie l'ordre sans que tu le saches.
+
+E04_C16  1.00
+  guion: Plop se doute de quelque chose : et si parfois cet ordre arrivait… avec une erreur ?
+  oído : Plop se doute de quelque chose. Et si parfois cet ordre arrivait avec une erreur ?
+
+E04_C17  1.00
+  guion: Exactement. Si tu manges trop vite, si tu avales de l'air ou si tu as un fou rire…
+  oído : Exactement. Si tu manges trop vite, si tu avales de l'air ou si tu as un fou rire,
+
+E04_C18  0.78
+  guion: Alors, ton estomac gonfle… et il chatouille le nerf qui passe juste à côté.
+  oído : il chatouille le nerf qui passe juste à côté.
+
+E04_C19  1.00
+  guion: Le nerf s'embrouille et envoie un mauvais ordre : serre, de toutes tes forces !
+  oído : Le nerf s'embrouille et envoie un mauvais ordre. Serre de toutes tes forces.
+
+E04_C20  0.94
+  guion: Hop ! Le diaphragme obéit et tire brusquement vers le bas… et l'air entre d'un coup.
+  oído : Hop, la diaphragme obéit et tire brusquement vers le bas et l'air entre d'un coup.
+
+E04_C21  1.00
+  guion: Ce jet d'air surprend ta gorge, là où se trouvent les cordes vocales.
+  oído : Ce jet d'air surprend ta gorge, là où se trouvent les cordes vocales.
+
+E04_C22  0.71
+  guion: Clac ! Le passage des cordes vocales se ferme d'un coup, comme une porte qui claque au vent.
+  oído : Clac ! La corde vocale se fermant d'un coup comme une porte qui claque au vent.
+
+E04_C23  0.91
+  guion: Ce claquement, c'est le bruit du hoquet. Hic ! Ce n'est pas ta voix : c'est une porte qui se ferme.
+  oído : Ces claquements, c'est le bruit du hoquet. Hic, ce n'est pas ta voix, c'est une porte qui se ferme.
+
+E04_C24  1.00
+  guion: Pipo veut savoir pourquoi ça recommence. Le nerf, encore embrouillé, répète l'ordre.
+  oído : Pipo veut savoir pourquoi ça recommence. Le nerf, encore embrouillé, répète l'ordre.
+
+E04_C25  1.00
+  guion: Ça tire, ça claque, hic ! Ça tire, ça claque, hic ! Comment on arrête cette machine, Plop ?
+  oído : Ça tire, ça claque. Hic. Ça tire, ça claque. Hic. Comment on arrête cette machine, Plop ?
+
+E04_C26  1.00
+  guion: Essayons l'idée de tout à l'heure : respirer très lentement… et retenir l'air un moment.
+  oído : Essayons l'idée de tout à l'heure. Respirer très lentement et retenir l'air un moment.
+
+E04_C27  1.00
+  guion: Quand tu retiens ton souffle, un gaz appelé dioxyde de carbone s'accumule dans ton corps.
+  oído : Quand tu retiens ton souffle, un gaz appelé dioxyde de carbone s'accumule dans ton corps.
+
+E04_C28  0.71
+  guion: Le cerveau le remarque et se concentre sur la respiration. Les ordres redeviennent calmes.
+  oído : Les cerveaux le remarquent et se concentrent sur la respiration. Les ordres redeviennent calmes.
+
+E04_C29  1.00
+  guion: Le diaphragme retrouve son rythme : il descend et monte tout doucement. Et la porte ne claque plus.
+  oído : Le diaphragme retrouve son rythme. Il descend et monte tout doucement et la porte ne claque plus.
+
+E04_C30  1.00
+  guion: Il est parti ! Pas une grenouille, Pipo : un muscle embrouillé. Mystère résolu, Plop !
+  oído : Il est parti. Pas une grenouille, Pipo, un muscle embrouillé. Mystère résolu, Plop.
+
+E04_L2  1.00
+  guion: On révise : un nerf embrouillé, le diaphragme qui tire… et les cordes vocales font hic !
+  oído : On révise. Un nerf embrouillé, le diaphragme qui tire et les cordes vocales font hic.
+
+E04_C31  1.00
+  guion: Le savais-tu ? On n'est pas les seuls à avoir le hoquet. Les chiots et les chatons aussi !
+  oído : Le savais-tu ? On n'est pas les seuls à avoir le hoquet. Les chiots et les chatons aussi.
+
+E04_C32  1.00
+  guion: Même les bébés ont le hoquet avant de naître : peut-être pour s'entraîner à respirer.
+  oído : Même les bébés ont le hoquet avant de naître, peut-être pour s'entraîner à respirer.
+
+E04_C33  1.00
+  guion: Le hoquet part presque toujours tout seul en quelques minutes. En attendant, Plop a un défi.
+  oído : Le hoquet part presque toujours tout seul en quelques minutes. En attendant, Plop a un défi.
+
+E04_L3  1.00
+  guion: Quand tu as le hoquet : respire lentement et compte les hic.
+  oído : Quand tu as le hoquet, respire lentement et compte les hic.
+
+E04_C34  1.00
+  guion: La prochaine question vient de Pipo : pourquoi la glace flotte-t-elle si elle est solide ?
+  oído : La prochaine question vient de Pipo. Pourquoi la glace flotte-t-elle si elle est solide ?
+
+CANAL_FINAL  1.00
+  guion: À la prochaine énigme !
+  oído : À la prochaine énigme.
+
+== Re-verificación de tomas nuevas (transcripción independiente) ==
+E04_C18  oído: Alors ton estomac gonfle et il chatouille le nerf qui passe juste à côté.  -> OK
+E04_C22  oído: Clac ! Le passage des cordes vocales se ferme d'un coup comme une porte qui claque au vent -> OK
+
+
+── Português (BR) (PT) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 299.958 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C13 ×1.007, C30 ×1.037
+Anclas de hipo medidas en la transcripción: C02 [1.15], C23 [2.34], C25 [1.45, 3.91]
+Toma            inicio      fin        ventana                 tempo
+C01             0:01.020  0:06.950  [0:00.100 – 0:07.600]  1.0
+C02             0:08.040  0:13.800  [0:08.100 – 0:15.600]  1.0
+C03             0:16.300  0:22.710  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.270  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.270  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.500  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.040  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.870  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.480  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.640  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:22.540  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:29.990  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.260  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:47.600  [1:40.300 – 1:47.600]  1.007
+L1              1:48.300  1:52.850  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:59.740  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:08.060  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:15.600  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.140  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:30.790  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:39.840  [2:34.300 – 2:41.600]  1.0
+C20             2:42.470  2:48.520  [2:42.100 – 2:49.600]  1.0
+C21             2:50.300  2:55.240  [2:50.300 – 2:57.600]  1.0
+C22             2:58.770  3:04.540  [2:58.100 – 3:05.600]  1.0
+C23             3:06.630  3:12.680  [3:06.100 – 3:13.600]  1.0
+C24             3:14.300  3:20.440  [3:14.300 – 3:21.600]  1.0
+C25             3:22.630  3:28.690  [3:22.100 – 3:29.600]  1.0
+C26             3:30.300  3:36.280  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.540  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.870  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:01.420  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:09.600  [4:02.300 – 4:09.600]  1.037
+L2              4:10.300  4:17.110  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.930  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.630  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.380  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.590  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.190  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:58.030  [4:56.200 – 4:59.838]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+E04_C01  0.97
+  guion: Hic! O que foi isso? Estava tudo calmo… e o seu corpo pulou sem pedir licença.
+  oído : O que foi isso? Estava tudo calmo e o seu corpo pulou sem pedir licença.
+
+E04_C02  0.93
+  guion: E de novo: hic! Não é você que decide. Então… quem está dando a ordem?
+  oído : De novo. Não é você que decide. Então, quem está dando a ordem?
+
+  ** E04_C02: hipo no transcrito, ancla por tramo de sonido [np.float64(1.15)]
+E04_C03  1.00
+  guion: O Pipo também quer saber. Hoje vamos procurar o culpado… debaixo das suas costelas.
+  oído : O Pipo também quer saber. Hoje vamos procurar o culpado debaixo das suas costelas.
+
+CANAL_INICIO  1.00
+  guion: A ciência com Pipo e Plop!
+  oído : A ciência com Pipo e Plop.
+
+E04_C04  1.00
+  guion: A ideia maluca do Pipo: o Plop engoliu um sapinho, e ele pula na barriga dele!
+  oído : A ideia maluca do Pipo. O Plop engoliu um sapinho e ele pula na barriga dele.
+
+E04_C05  0.97
+  guion: Se fosse um sapo, ia coaxar. E o Plop não comeu sapo nenhum… eu acho.
+  oído : Fosse um sapo, ia coaxar. E o Plop não comeu sapo nenhum, eu acho.
+
+E04_C06  1.00
+  guion: Segunda ideia: prender a respiração até passar. Às vezes funciona… mas por quê?
+  oído : Segunda ideia: prender a respiração até passar. Às vezes funciona, mas por quê?
+
+E04_C07  1.00
+  guion: O Plop se pergunta: se eu não quero pular, que parte de mim está pulando sozinha?
+  oído : O Plop se pergunta: se eu não quero pular, que parte de mim está pulando sozinha?
+
+E04_C08  1.00
+  guion: Essa é a pergunta certa! O pulo vem de dentro, de um músculo que quase ninguém conhece.
+  oído : Essa é a pergunta certa. O pulo vem de dentro, de um músculo que quase ninguém conhece.
+
+E04_C09  1.00
+  guion: Sabe qual é? O que você acha? Pense um pouco… Vamos olhar dentro do peito!
+  oído : Sabe qual é? O que você acha? Pense um pouco. Vamos olhar dentro do peito.
+
+E04_C10  1.00
+  guion: Vamos dar um zoom! Estes são os seus pulmões: duas bolsas fofinhas que se enchem de ar.
+  oído : Vamos dar um zoom. Estes são os seus pulmões, duas bolsas fofinhas que se enchem de ar.
+
+E04_C11  1.00
+  guion: Mas os pulmões não se mexem sozinhos. Embaixo deles tem um músculo em forma de cúpula.
+  oído : Mas os pulmões não se mexem sozinhos. Embaixo deles tem um músculo em forma de cúpula.
+
+E04_C12  1.00
+  guion: Ele se chama diafragma. Quando desce, abre espaço e o ar entra nos pulmões.
+  oído : Ele se chama diafragma. Quando desce, abre espaço e o ar entra nos pulmões.
+
+E04_C13  0.94
+  guion: Quando sobe, empurra o ar para fora. Desce e sobe, desce e sobe, o dia todo.
+  oído : Quando sobe, empurra o ar pra fora. Desce e sobe, desce e sobe, o dia todo.
+
+E04_L1  1.00
+  guion: Pulmões em cima, diafragma embaixo: o chefe da sua respiração.
+  oído : Pulmões em cima, diafragma embaixo, o chefe da sua respiração.
+
+E04_C14  1.00
+  guion: O Pipo pergunta: e quem avisa o diafragma quando se mexer? Eu não falo nada!
+  oído : O Pipo pergunta: e quem avisa o diafragma quando se mexer? Eu não falo nada.
+
+E04_C15  1.00
+  guion: É o seu cérebro, por cabinhos chamados nervos. Ele manda a ordem sem você perceber.
+  oído : É o seu cérebro, por cabinhos chamados nervos. Ele manda a ordem sem você perceber.
+
+E04_C16  1.00
+  guion: O Plop já desconfia: e se às vezes essa ordem chega… com um erro?
+  oído : O Plop já desconfia. E se às vezes essa ordem chega com um erro?
+
+E04_C17  1.00
+  guion: Isso mesmo. Se você come muito rápido, engole ar ou tem uma crise de riso…
+  oído : Isso mesmo. Se você come muito rápido, engole ar ou tem uma crise de riso,
+
+E04_C18  1.00
+  guion: O seu estômago incha e faz cócegas no nervo que passa bem do lado.
+  oído : o seu estômago incha e faz cócegas no nervo que passa bem do lado.
+
+E04_C19  1.00
+  guion: O nervo se confunde e manda uma ordem errada: aperta já, com toda a força!
+  oído : O nervo se confunde e manda uma ordem errada. Aperta já, com toda a força.
+
+E04_C20  0.94
+  guion: Zás! O diafragma obedece e dá um puxão para baixo… e o ar entra de uma vez.
+  oído : Zas! O diafragma obedece e dá um puxão pra baixo, e o ar entra de uma vez.
+
+E04_C21  1.00
+  guion: Esse jato de ar surpreende a sua garganta, onde ficam as cordas vocais.
+  oído : Esse jato de ar surpreende a sua garganta, onde ficam as cordas vocais.
+
+E04_C22  1.00
+  guion: Clac! As cordas vocais se fecham de repente, como uma porta batendo com o vento.
+  oído : Clac! As cordas vocais se fecham de repente, como uma porta batendo com o vento.
+
+E04_C23  0.97
+  guion: Essa batida é o som do soluço. Hic! Não é a sua voz: é uma porta se fechando.
+  oído : Essa batida é o som do soluço. Não é a sua voz, é uma porta se fechando.
+
+  ** E04_C23: hipo no transcrito, ancla por tramo de sonido [np.float64(2.34)]
+E04_C24  1.00
+  guion: O Pipo quer saber por que ele se repete. Porque o nervo continua confuso e repete a ordem.
+  oído : O Pipo quer saber por que ele se repete. Porque o nervo continua confuso e repete a ordem.
+
+E04_C25  0.91
+  guion: Puxão, batida, hic! Puxão, batida, hic! Como se desliga essa máquina, Plop?
+  oído : Puxão, batida, . Puxão, batida, . Como se desliga essa máquina, Plop?
+
+  ** E04_C25: hipo no transcrito, ancla por tramo de sonido [np.float64(1.45), np.float64(3.91)]
+E04_C26  1.00
+  guion: Vamos tentar aquela ideia: respirar bem devagar… e segurar o ar por um momento.
+  oído : Vamos tentar aquela ideia. Respirar bem devagar e segurar o ar por um momento.
+
+E04_C27  1.00
+  guion: Quando você segura o ar, junta no seu corpo um gás chamado dióxido de carbono.
+  oído : Quando você segura o ar, junta no seu corpo um gás chamado dióxido de carbono.
+
+E04_C28  1.00
+  guion: O cérebro percebe e se concentra em respirar bem. As ordens voltam a sair com calma.
+  oído : O cérebro percebe e se concentra em respirar bem. As ordens voltam a sair com calma.
+
+E04_C29  1.00
+  guion: O diafragma recupera o ritmo: desce e sobe bem devagarinho. E a porta para de bater.
+  oído : O diafragma recupera o ritmo, desce e sobe bem devagarinho, e a porta para de bater.
+
+E04_C30  1.00
+  guion: Passou! Não era sapo, Pipo: era um músculo confuso. Mistério resolvido!
+  oído : Passou! Não era sapo, Pipo. Era um músculo confuso. Mistério resolvido.
+
+E04_L2  0.96
+  guion: Vamos revisar: nervo confuso, puxão do diafragma… e as cordas vocais fazem hic!
+  oído : Vamos revisar. Nervo confuso, puxão do diafragma e as cordas vocais fazem
+
+E04_C31  1.00
+  guion: Curiosidade: não são só as pessoas que têm soluço. Os cachorrinhos e os gatinhos também!
+  oído : . Curiosidade: não são só as pessoas que têm soluço. Os cachorrinhos e os gatinhos também.
+
+E04_C32  1.00
+  guion: Até os bebês têm soluço antes de nascer. Talvez seja assim que eles treinam a respiração.
+  oído : Até os bebês têm soluço antes de nascer. Talvez seja assim que eles treinam a respiração.
+
+E04_C33  1.00
+  guion: O soluço quase sempre passa sozinho em minutos. Enquanto isso, o Plop tem um desafio.
+  oído : O soluço quase sempre passa sozinho em minutos. Enquanto isso, o Plop tem um desafio.
+
+E04_L3  1.00
+  guion: Quando tiver soluço: respire devagar e conte os hics.
+  oído : Quando tiver soluço, respire devagar e conte os hics.
+
+E04_C34  1.00
+  guion: A próxima pergunta é do Pipo: por que o gelo flutua se ele é sólido?
+  oído : A próxima pergunta é do Pipo: por que o gelo flutua se ele é sólido?
+
+CANAL_FINAL  1.00
+  guion: Até o próximo mistério!
+  oído : Até o próximo mistério!
+
+
+── हिन्दी (Hindi) (HI) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 299.958 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C26 ×1.036, C29 ×1.067, C30 ×1.071
+Anclas de hipo medidas en la transcripción: C02 [1.16], C23 [2.62], C25 [1.68, 3.96]
+Toma            inicio      fin        ventana                 tempo
+C01             0:01.020  0:07.330  [0:00.100 – 0:07.600]  1.0
+C02             0:08.070  0:14.520  [0:08.100 – 0:15.600]  1.0
+C03             0:16.300  0:22.390  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.760  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:33.850  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:43.520  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.490  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.990  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.640  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.410  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:22.260  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:30.110  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.870  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.740  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.310  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:59.510  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:09.110  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:15.610  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.080  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:31.870  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:40.120  [2:34.300 – 2:41.600]  1.0
+C20             2:42.470  2:49.190  [2:42.100 – 2:49.600]  1.0
+C21             2:50.300  2:56.030  [2:50.300 – 2:57.600]  1.0
+C22             2:58.770  3:03.820  [2:58.100 – 3:05.600]  1.0
+C23             3:06.410  3:12.730  [3:06.100 – 3:13.600]  1.0
+C24             3:14.300  3:20.420  [3:14.300 – 3:21.600]  1.0
+C25             3:22.390  3:29.510  [3:22.100 – 3:29.600]  1.0
+C26             3:30.300  3:37.600  [3:30.300 – 3:37.600]  1.036
+C27             3:38.300  3:43.810  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.470  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:01.600  [3:54.300 – 4:01.600]  1.067
+C30             4:02.300  4:09.600  [4:02.300 – 4:09.600]  1.071
+L2              4:10.300  4:16.490  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:22.130  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:32.280  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.090  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.190  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.740  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.880  [4:56.200 – 4:59.838]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+E04_C01  1.00
+  guion: हिच! यह क्या था? सब कुछ शांत था… और तुम्हारा शरीर अपने आप उछल पड़ा।
+  oído : हिच! यह क्या था? सब कुछ शांत था और तुम्हारा शरीर अपने आप उछल पड़ा।
+
+E04_C02  1.00
+  guion: और फिर से: हिच! यह तुम तय नहीं करते। तो फिर… आदेश कौन दे रहा है?
+  oído : और फिर से हिच! यह तुम तय नहीं करते। तो फिर आदेश कौन दे रहा है?
+
+E04_C03  0.92
+  guion: पीपो भी जानना चाहता है। आज हम कसूरवार ढूँढेंगे… तुम्हारी पसलियों के नीचे।
+  oído : पीपो भी जानना चाहता है। आज हम कसूरवार ढूंढेंगे तुम्हारी पसलियों के नीचे।
+
+CANAL_INICIO  1.00
+  guion: पीपो और प्लॉप के साथ विज्ञान!
+  oído : पीपो और प्लॉप के साथ विज्ञान।
+
+E04_C04  1.00
+  guion: पीपो का मज़ेदार ख़याल: प्लॉप ने मेंढक निगल लिया, जो पेट में उछल रहा है!
+  oído : पीपो का मजेदार ख्याल: प्लॉप ने मेंढक निगल लिया, जो पेट में उछल रहा है।
+
+E04_C05  0.87
+  guion: मेंढक होता, तो टर्र-टर्र सुनाई देती। और प्लॉप ने मेंढक खाया ही नहीं… शायद।
+  oído : मेंढक होता तो टर्रर टर्रर सुनाई देती और प्लॉप ने मेंढक खाया ही नहीं, शायद।
+
+E04_C06  0.85
+  guion: दूसरा ख़याल: हिचकी जाने तक साँस रोककर रखना। कभी-कभी यह काम करता है… पर क्यों?
+  oído : दूसरा ख्याल: हिचकी जाने तक सांस रोक कर रखना। कभी-कभी यह काम करता है, पर क्यों?
+
+E04_C07  1.00
+  guion: प्लॉप सोचता है: मैं उछलना नहीं चाहता, तो मेरा कौन सा हिस्सा उछल रहा है?
+  oído : प्लॉप सोचता है, "मैं उछलना नहीं चाहता तो मेरा कौन सा हिस्सा उछल रहा है?"
+
+E04_C08  1.00
+  guion: यही सही सवाल है! उछाल अंदर की एक मांसपेशी से आता है, जिसे कम लोग जानते हैं।
+  oído : यही सही सवाल है। उछाल अंदर की एक मांसपेशी से आता है, जिसे कम लोग जानते हैं।
+
+E04_C09  1.00
+  guion: वह कौन सी है? तुम्हें क्या लगता है? सोचो… चलो सीने के अंदर देखें!
+  oído : वह कौन सी है? तुम्हें क्या लगता है? सोचो। चलो सीने के अंदर देखें।
+
+E04_C10  0.77
+  guion: ज़ूम करो! ये हैं तुम्हारे फेफड़े: हवा से भरने वाली दो स्पंजी थैलियाँ।
+  oído : ज़ूम करो। यह है तुम्हारे फेफड़े, हवा से भरने वाली दो स्पंजी थैलियां।
+
+E04_C11  1.00
+  guion: लेकिन फेफड़े अपने आप नहीं हिलते। उनके नीचे गुंबद जैसी एक मांसपेशी है।
+  oído : लेकिन फेफड़े अपने आप नहीं हिलते। उनके नीचे गुंबद जैसी एक मांसपेशी है।
+
+E04_C12  0.94
+  guion: इसका नाम है डायाफ्राम। यह नीचे जाता है, तो जगह बनती है और हवा अंदर आती है।
+  oído : इसका नाम है diaphragm। यह नीचे जाता है तो जगह बनती है और हवा अंदर आती है।
+
+E04_C13  1.00
+  guion: ऊपर जाकर यह हवा बाहर धकेलता है। नीचे-ऊपर, नीचे-ऊपर, पूरे दिन।
+  oído : ऊपर जाकर यह हवा बाहर धकेलता है। नीचे ऊपर, नीचे ऊपर, पूरे दिन।
+
+E04_L1  0.67
+  guion: ऊपर फेफड़े, नीचे डायाफ्राम: तुम्हारी साँसों का असली बॉस।
+  oído : ऊपर फेफड़े, नीचे diaphragm, तुम्हारी सांसों का असली boss।
+
+E04_C14  0.93
+  guion: पीपो पूछता है: डायाफ्राम को हिलने का कौन कहता है? मैं तो नहीं कहता!
+  oído : पीपो पूछता है, "diaphragm को हिलने का कौन कहता है? मैं तो नहीं कहता।"
+
+E04_C15  1.00
+  guion: यह तुम्हारा दिमाग़ करता है, नसों नाम की तारों से। वह चुपचाप आदेश भेजता है।
+  oído : यह तुम्हारा दिमाग करता है, नसों नाम की तारों से। वह चुपचाप आदेश भेजता है।
+
+E04_C16  0.93
+  guion: प्लॉप को कुछ शक है: अगर कभी वह आदेश… किसी गलती के साथ पहुँचे तो?
+  oído : प्लॉप को कुछ शक है। अगर कभी वह आदेश किसी गलती के साथ पहुंचे तो?
+
+E04_C17  0.92
+  guion: बिल्कुल। अगर तुम जल्दी-जल्दी खाओ, हवा निगलो, या बहुत ज़्यादा हँसो…
+  oído : बिल्कुल। अगर तुम जल्दी-जल्दी खाओ, हवा निगलो या बहुत ज्यादा हंसो
+
+E04_C18  1.00
+  guion: तो तुम्हारा पेट फूल जाता है और पास से गुज़रने वाली नस को गुदगुदी करता है।
+  oído : तो तुम्हारा पेट फूल जाता है और पास से गुजरने वाली नस को गुदगुदी करता है।
+
+E04_C19  1.00
+  guion: नस उलझ जाती है और गलत आदेश भेज देती है: अभी कसो, पूरी ताक़त से!
+  oído : नस उलझ जाती है और गलत आदेश भेज देती है। अभी कसो, पूरी ताकत से।
+
+E04_C20  0.85
+  guion: झटका! डायाफ्राम आदेश मानकर नीचे खिंचता है… और हवा एकदम अंदर आती है।
+  oído : झटका! diaphragm आदेश मानकर नीचे खींचता है और हवा एकदम अंदर आती है।
+
+E04_C21  0.76
+  guion: हवा का यह झोंका तुम्हारे गले को चौंका देता है, जहाँ स्वर-तंतु होते हैं।
+  oído : हवा का यह झोंका तुम्हारे गले को चौका देता है, जहां स्वरतंतु होते हैं।
+
+E04_C22  0.88
+  guion: खट! स्वर-तंतु झट से बंद हो जाते हैं, जैसे हवा से दरवाज़ा।
+  oído : खट! स्वरतंतु झट से बंद हो जाते हैं, जैसे हवा से दरवाजा।
+
+E04_C23  1.00
+  guion: यही धड़ाम हिचकी की आवाज़ है। हिच! यह आवाज़ नहीं, बंद होता दरवाज़ा है।
+  oído : यही धड़ाम हिचकी की आवाज़ है। हिच! यह आवाज़ नहीं, बंद होता दरवाजा है।
+
+E04_C24  1.00
+  guion: पीपो पूछता है, यह बार-बार क्यों? क्योंकि उलझी हुई नस वही आदेश दोहराती है।
+  oído : पीपो पूछता है, "यह बार-बार क्यों?" क्योंकि उलझी हुई नस वही आदेश दोहराती है।
+
+E04_C25  1.00
+  guion: झटका, धड़ाम, हिच! झटका, धड़ाम, हिच! प्लॉप, यह मशीन बंद कैसे होगी?
+  oído : झटका, धड़ाम, हिच! झटका, धड़ाम, हिच! प्लॉप, यह मशीन बंद कैसे होगी?
+
+E04_C26  0.77
+  guion: चलो पहले वाला तरीका आज़माएँ: बहुत धीरे साँस लो… और थोड़ी देर हवा रोककर रखो।
+  oído : चलो, पहले वाला तरीका आजमाएं। बहुत धीरे सांस लो और थोड़ी देर हवा रोक कर रखो।
+
+E04_C27  0.75
+  guion: जब तुम साँस रोकते हो, तो शरीर में कार्बन डाइऑक्साइड नाम की गैस जमा होती है।
+  oído : जब तुम सांस रोकते हो तो शरीर में carbon dioxide नाम की gas जमा होती है।
+
+E04_C28  0.83
+  guion: दिमाग़ इसे भाँपकर साँसों पर ध्यान देता है। आदेश फिर शांत हो जाते हैं।
+  oído : दिमाग इसे भांप कर सांसों पर ध्यान देता है। आदेश फिर शांत हो जाते हैं।
+
+E04_C29  0.93
+  guion: डायाफ्राम फिर लय में आ जाता है: धीरे नीचे, धीरे ऊपर। दरवाज़े की धड़ाम बंद!
+  oído : diaphragm फिर लय में आ जाता है। धीरे नीचे, धीरे ऊपर। दरवाजे की धड़ाम बंद।
+
+E04_C30  1.00
+  guion: चली गई! मेंढक नहीं, पीपो: एक उलझी मांसपेशी थी। रहस्य सुलझ गया!
+  oído : चली गई। मेंढक नहीं, पीपो। एक उलझी मांसपेशी थी। रहस्य सुलझ गया।
+
+E04_L2  0.80
+  guion: नस उलझती है, डायाफ्राम झटका देता है, और स्वर-तंतु करते हैं हिच!
+  oído : नस उलझती है, diaphragm झटका देता है और स्वरतंतु करते हैं हिच!
+
+E04_C31  1.00
+  guion: मज़ेदार बात: पिल्लों और बिल्लियों को भी हिचकी आती है!
+  oído : मजेदार बात: पिल्लों और बिल्लियों को भी हिचकी आती है।
+
+E04_C32  0.94
+  guion: शिशुओं को तो जन्म से पहले भी हिचकी आती है। शायद ऐसे वे साँस लेना सीखते हैं।
+  oído : शिशुओं को तो जन्म से पहले भी हिचकी आती है। शायद ऐसे वे सांस लेना सीखते हैं।
+
+E04_C33  1.00
+  guion: हिचकी अक्सर कुछ मिनट में खुद चली जाती है। तब तक प्लॉप की एक चुनौती है।
+  oído : हिचकी अक्सर कुछ मिनट में खुद चली जाती है। तब तक प्लॉप की एक चुनौती है।
+
+E04_L3  0.89
+  guion: हिचकी आए तो: धीरे साँस लो और हिच गिनो।
+  oído : हिचकी आए तो धीरे सांस लो और हिच गिनो।
+
+E04_C34  1.00
+  guion: अगला सवाल पीपो का है: बर्फ़ ठोस है, फिर भी पानी पर क्यों तैरती है?
+  oído : अगला सवाल पीपो का है: बर्फ ठोस है, फिर भी पानी पर क्यों तैरती है?
+
+CANAL_FINAL  1.00
+  guion: अगले रहस्य में मिलते हैं!
+  oído : अगले रहस्य में मिलते हैं।
+
