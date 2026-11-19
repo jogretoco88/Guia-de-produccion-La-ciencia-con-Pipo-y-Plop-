@@ -4,7 +4,10 @@
 - **Efectos:** no se generó ninguno nuevo. Se reutilizaron dos bibliotecas:
   - la de **ElevenLabs Sound Effects v3** creada para el Ep. 3;
   - los efectos que ya se habían hecho para este Ep. 2.
-- **Video:** el video mudo del Ep. 2 (300,000 s, 24 fps). El video no se tocó.
+- **Video:** `E02_jabon_mudo.mp4` (300,000 s, 24 fps), **sin ningún texto en pantalla**.
+  - Se quitaron los rótulos de las 5 láminas: título, L1, L2, L3 y cierre.
+  - Los 34 clips animados no llevaban texto y son idénticos fotograma a fotograma.
+  - La duración y los tiempos de cada toma no cambiaron, así que el audio sigue sincronizado.
 
 ## Cómo usarlo (lo más simple)
 

@@ -84,4 +84,5 @@ Archivos en `E02/`:
   - `efectos_relleno_e02.py`;
   - `informe_e02.py`;
   - `qa_fr_extra.py`.
+- **Video sin texto:** `video_sin_texto.py` rehace el video mudo sin ningún rótulo. Las 5 láminas se renderizan desde sus fondos limpios y los clips no cambian, así que la duración y los tiempos siguen iguales.
 - **Documentación:** los tiempos están en `INFORME_SINCRONIZACION.txt` y las instrucciones de uso en `LEEME.md`.
