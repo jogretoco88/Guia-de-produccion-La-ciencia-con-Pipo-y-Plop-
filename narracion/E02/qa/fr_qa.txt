@@ -1,0 +1,70 @@
+fr: 36/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E02_C01       0.97  oído: Oh, oups ! Plop a une tache de gras et l'eau toute seule ne la chatouille même pas.
+      diferencias: guion «» → oído «oh»
+      (frase en la pista de verificación desde 0.00 s)
+OK  E02_C02       1.00  oído: Mais avec du savon, le gras abandonne tout de suite. Qu'a le savon que l'eau n'a pas ?
+REVISAR E02_C03       0.85  oído: Pipou a déjà une théorie et elle est plutôt folle. Prêt à enquêter ?
+      diferencias: guion «pipo» → oído «pipou»; guion «prêts» → oído «prêt»
+      (frase en la pista de verificación desde 15.44 s)
+REVISAR CANAL_INICIO  0.83  oído: La science avec Pipou et Plop.
+      diferencias: guion «pipo» → oído «pipou»
+      (frase en la pista de verificación desde 22.00 s)
+OK  E02_C04       0.95  oído: L'idée folle de Pipou : le savon gagne parce qu'il sent bon et le gras fuit le parfum.
+      diferencias: guion «pipo» → oído «pipou»
+      (frase en la pista de verificación desde 26.48 s)
+OK  E02_C05       1.00  oído: Testons. Une fleur sent bon aussi et le gras ne bouge pas. Ce n'est pas l'odeur.
+OK  E02_C06       0.96  oído: Et de frotter plus fort ? Non plus. Le gras s'étale encore plus.
+      diferencias: guion «» → oído «de»
+      (frase en la pista de verificación desde 41.92 s)
+OK  E02_C07       1.00  oído: Plop se demande pourquoi l'eau ne reste même pas sur le gras. Elle glisse.
+OK  E02_C08       1.00  oído: Bien observé. L'eau et le gras sont comme deux équipes qui ne se serrent jamais la main.
+OK  E02_C09       1.00  oído: Comment le savon les réunit-il, à ton avis ? Réfléchis. Regardons de plus près.
+OK  E02_C10       1.00  oído: Zoomons. Voici un minuscule morceau de savon, si petit qu'aucun œil ne peut le voir.
+OK  E02_C11       1.00  oído: On dirait un têtard, une tête ronde et une queue. Et chaque partie veut autre chose.
+OK  E02_C12       1.00  oído: La tête adore l'eau. Elle veut toujours rester collée à elle.
+OK  E02_C13       1.00  oído: La queue, c'est l'inverse. Elle fuit l'eau et adore le gras. Elle court s'y cacher.
+OK  E02_L1        1.00  oído: La tête aime l'eau, la queue aime le gras. Voilà le secret.
+OK  E02_C14       0.92  oído: Pipou résume à sa façon : le savon est ami des deux équipes.
+      diferencias: guion «pipo» → oído «pipou»
+      (frase en la pista de verificación desde 107.12 s)
+OK  E02_C15       1.00  oído: Exactement. D'une main, il attrape le gras, de l'autre, l'eau. C'est un pont.
+OK  E02_C16       1.00  oído: Plop veut savoir. Un seul savon est minuscule. Comment bouge-t-il une si grosse tache ?
+OK  E02_C17       1.00  oído: Réponse : il ne vient jamais seul. Une goutte de savon en contient des millions.
+OK  E02_C18       0.93  oído: Tous les queues font pareil. Elles s'enfoncent dans le gras pour fuir l'eau.
+      diferencias: guion «toutes» → oído «tous»
+      (frase en la pista de verificación desde 136.24 s)
+OK  E02_C19       1.00  oído: Petit à petit, elles l'entourent complètement, comme une équipe qui serre un ballon.
+OK  E02_C20       1.00  oído: Regarde, le gras est piégé au centre et les têtes regardent vers l'extérieur.
+OK  E02_C21       0.93  oído: Pour Pipou, c'est une balle coiffée de petites boules. Les scientifiques l'appellent micelle.
+      diferencias: guion «pipo» → oído «pipou»
+      (frase en la pista de verificación desde 156.08 s)
+OK  E02_C22       1.00  oído: Et la micelle a un super pouvoir. Dehors, elle n'a plus l'air grasse. L'eau l'adore.
+OK  E02_C23       0.92  oído: Alors, quand l'eau arrive, elle s'accroche à toutes ses têtes
+      diferencias: guion «ces» → oído «ses»
+      (frase en la pista de verificación desde 172.56 s)
+OK  E02_C24       1.00  oído: et emporte la micelle en roulant avec le gras enfermé dedans. Adieu la tache.
+OK  E02_C25       1.00  oído: Plop regarde son ventre. Ça marchera vraiment ? Il faut vérifier.
+OK  E02_C26       1.00  oído: D'abord, le savon. Il faut bien frotter pour que les queues trouvent tout le gras.
+OK  E02_C27       1.00  oído: Maintenant, l'eau. Et regarde, elle ne glisse plus. Elle emporte le gras.
+OK  E02_C28       1.00  oído: Ventre propre. Le savon n'a pas détruit le gras. Il l'a emballé et l'eau l'a emporté.
+OK  E02_C29       0.88  oído: Ce n'était pas le parfum, Pipou. C'était des millions de têtards formant un pont.
+      diferencias: guion «pipo» → oído «pipou»; guion «étaient» → oído «était»
+      (frase en la pista de verificación desde 214.24 s)
+OK  E02_C30       1.00  oído: Et ta question a sa réponse, Plop. Seule, l'eau glisse. Avec du savon, elle accroche.
+OK  E02_L2        0.92  oído: Révise. La queue s'enfonce, la micelle enveloppe et l'eau l'emporte.
+      diferencias: guion «révisons» → oído «révise»
+      (frase en la pista de verificación desde 229.60 s)
+OK  E02_C31       1.00  oído: Info bonus : beaucoup de microbes ont un manteau de gras. Devine ce que fait le savon.
+OK  E02_C32       1.00  oído: Il défait leur manteau. C'est pour ça que se laver les mains au savon protège des maladies.
+OK  E02_C33       1.00  oído: Mais le savon a besoin de temps pour entourer tout le gras. Plop a un défi pour toi.
+REVISAR E02_L3        0.76  oído: Frottez main au savon vingt secondes. Quelle chanson tient dedans ?
+      diferencias: guion «frotte tes mains» → oído «frottez main»
+      (frase en la pista de verificación desde 258.80 s)
+OK  E02_C34       1.00  oído: Plop nous laisse la prochaine question. Pourquoi le piment pique s'il n'est pas chaud ?
+OK  CANAL_FINAL   1.00  oído: À la prochaine énigme.
+── Frases repetidas (transcripción aparte de las tomas nuevas) ──
+En la primera toma la voz decía «Pipou» en lugar de «Pipo». Se repitieron CANAL_INICIO, C04, C14, C21 y C29;
+en las 5 tomas nuevas Scribe oye «Pippo» (misma pronunciación que «Pipo»). Las 5 coinciden con el guion.
+E02_C03 conserva la primera toma («Pipou»): su repetición no se generó.
+E02_L3: «Frotte tes mains» se oye igual que «Frottez main»; es la transcripción, no un error de la voz.
+oído (tomas nuevas): La science avec Pippo et Plop. L'idée folle de Pippo : le savon gagne parce qu'il sent bon et le gras fuit le parfum. Pippo résume à sa façon : le savon est ami des deux équipes. Pour Pippo, c'est une balle coiffée de petites boules. Les scientifiques l'appellent micelle. Ce n'était pas le parfum, Pippo, c'étaient des millions de têtards formant un pont

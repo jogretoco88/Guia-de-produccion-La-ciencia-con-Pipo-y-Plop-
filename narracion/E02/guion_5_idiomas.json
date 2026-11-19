@@ -1,0 +1,629 @@
+{
+ "lines": [
+  {
+   "id": "E02_C01",
+   "t0": 0,
+   "t1": 8,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[gasps] ¡Ups! Plop tiene una mancha de grasa. Y el agua sola… no le hace ni cosquillas.",
+   "en": "[gasps] Oops! Plop has a grease stain. And water alone… doesn't even tickle it.",
+   "fr": "[gasps] Oups ! Plop a une tache de gras. Et l'eau toute seule… ne la chatouille même pas.",
+   "pt": "[gasps] Opa! O Plop tem uma mancha de gordura. E a água sozinha… nem faz cócegas nela.",
+   "hi": "[gasps] उफ़! प्लॉप पर चिकनाई का दाग है। और अकेला पानी… उसे गुदगुदी तक नहीं करता।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C02",
+   "t0": 8,
+   "t1": 16,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Pero con jabón, la grasa se rinde enseguida. ¿Qué tiene el jabón que no tenga el agua?",
+   "en": "[curious] But with soap, the grease gives up right away. What does soap have that water doesn't?",
+   "fr": "[curious] Mais avec du savon, le gras abandonne tout de suite. Qu'a le savon que l'eau n'a pas ?",
+   "pt": "[curious] Mas com sabão, a gordura desiste na hora. O que o sabão tem que a água não tem?",
+   "hi": "[curious] पर साबुन से चिकनाई फ़ौरन हार जाती है। साबुन में क्या है जो पानी में नहीं?",
+   "anchors": []
+  },
+  {
+   "id": "E02_C03",
+   "t0": 16,
+   "t1": 24,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[playful] Pipo ya tiene una teoría. Y es bastante loca. ¿Listos para investigar?",
+   "en": "[playful] Pipo already has a theory. And it's pretty wild. Ready to investigate?",
+   "fr": "[playful] Pipo a déjà une théorie. Et elle est plutôt folle. Prêts à enquêter ?",
+   "pt": "[playful] O Pipo já tem uma teoria. E é bem maluca. Prontos para investigar?",
+   "hi": "[playful] पीपो के पास पहले से एक थ्योरी है। और वह काफ़ी अजीब है। जाँच के लिए तैयार?",
+   "anchors": []
+  },
+  {
+   "id": "CANAL_INICIO",
+   "t0": 24,
+   "t1": 28,
+   "win": [
+    0.2,
+    3.6
+   ],
+   "still": true,
+   "es": "[excited] ¡La ciencia con Pipo y Plop!",
+   "en": "[excited] Science with Pipo and Plop!",
+   "fr": "[excited] La science avec Pipo et Plop !",
+   "pt": "[excited] A ciência com Pipo e Plop!",
+   "hi": "[excited] पीपो और प्लॉप के साथ विज्ञान!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C04",
+   "t0": 28,
+   "t1": 36,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[mischievously] La idea loca de Pipo: el jabón gana porque huele rico, ¡y la grasa huye del perfume!",
+   "en": "[mischievously] Pipo's wild idea: soap wins because it smells nice, and grease runs from perfume!",
+   "fr": "[mischievously] L'idée folle de Pipo : le savon gagne parce qu'il sent bon, et le gras fuit le parfum !",
+   "pt": "[mischievously] A ideia maluca do Pipo: o sabão ganha porque é cheiroso, e a gordura foge do perfume!",
+   "hi": "[mischievously] पीपो का ख़याल: साबुन की ख़ुशबू से चिकनाई डरकर भाग जाती है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C05",
+   "t0": 36,
+   "t1": 44,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[playful] Probemos: una flor también huele rico… y la grasa ni se mueve. No es el olor.",
+   "en": "[playful] Let's test it: a flower smells nice too… and the grease doesn't budge. It's not the smell.",
+   "fr": "[playful] Testons : une fleur sent bon aussi… et le gras ne bouge pas. Ce n'est pas l'odeur.",
+   "pt": "[playful] Vamos testar: uma flor também é cheirosa… e a gordura nem se mexe. Não é o cheiro.",
+   "hi": "[playful] चलो परखें: फूल भी ख़ुशबूदार है… पर चिकनाई हिलती तक नहीं। तो ख़ुशबू नहीं है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C06",
+   "t0": 44,
+   "t1": 52,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "¿Y frotar con más fuerza? [sighs] Tampoco: la grasa solo se embarra más.",
+   "en": "And scrubbing harder? [sighs] No luck: the grease just smears even more.",
+   "fr": "Et frotter plus fort ? [sighs] Non plus : le gras s'étale encore plus.",
+   "pt": "E esfregar com mais força? [sighs] Também não: a gordura só se espalha mais.",
+   "hi": "और ज़ोर से रगड़ें? [sighs] नहीं: चिकनाई बस और फैल जाती है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C07",
+   "t0": 52,
+   "t1": 60,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[thoughtful] Plop se pregunta: ¿por qué el agua ni siquiera se queda sobre la grasa? ¡Se resbala!",
+   "en": "[thoughtful] Plop wonders: why won't water even stay on the grease? It just slides off!",
+   "fr": "[thoughtful] Plop se demande : pourquoi l'eau ne reste même pas sur le gras ? Elle glisse !",
+   "pt": "[thoughtful] O Plop se pergunta: por que a água nem fica em cima da gordura? Ela escorrega!",
+   "hi": "[thoughtful] प्लॉप सोचता है: पानी चिकनाई पर टिकता क्यों नहीं? वह फिसल जाता है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C08",
+   "t0": 60,
+   "t1": 68,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] Buena observación. El agua y la grasa son como dos equipos que jamás se dan la mano.",
+   "en": "[warmly] Good observation. Water and grease are like two teams that never shake hands.",
+   "fr": "[warmly] Bien observé. L'eau et le gras sont comme deux équipes qui ne se serrent jamais la main.",
+   "pt": "[warmly] Boa observação. A água e a gordura são como dois times que nunca se dão as mãos.",
+   "hi": "[warmly] बढ़िया बात पकड़ी। पानी और चिकनाई दो ऐसी टीमें हैं जो कभी हाथ नहीं मिलातीं।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C09",
+   "t0": 68,
+   "t1": 76,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] ¿Cómo logra el jabón juntarlos? ¿Tú qué crees? Piénsalo… [excited] ¡Vamos a mirarlo de cerca!",
+   "en": "[curious] How does soap join them? What do you think? Think… [excited] Let's look up close!",
+   "fr": "[curious] Comment le savon les réunit-il ? À ton avis ? Réfléchis… [excited] Regardons de plus près !",
+   "pt": "[curious] Como o sabão junta os dois? O que você acha? Pensa… [excited] Vamos olhar de perto!",
+   "hi": "[curious] साबुन इन्हें कैसे मिलाता है? तुम्हें क्या लगता है? सोचो… [excited] चलो पास से देखें!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C10",
+   "t0": 76,
+   "t1": 84,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Hagamos zoom! Esto es un pedacito de jabón, tan pequeño que ningún ojo puede verlo.",
+   "en": "[excited] Let's zoom in! This is a tiny piece of soap, so small no eye can see it.",
+   "fr": "[excited] Zoomons ! Voici un minuscule morceau de savon, si petit qu'aucun œil ne peut le voir.",
+   "pt": "[excited] Vamos dar zoom! Este é um pedacinho de sabão, tão pequeno que nenhum olho consegue ver.",
+   "hi": "[excited] चलो ज़ूम करें! यह साबुन का इतना छोटा टुकड़ा है कि कोई आँख इसे नहीं देख सकती।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C11",
+   "t0": 84,
+   "t1": 92,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Parece un renacuajo: cabeza redonda y una cola. Y cada parte quiere algo distinto.",
+   "en": "It looks like a tadpole: a round head and a tail. And each part wants something different.",
+   "fr": "On dirait un têtard : une tête ronde et une queue. Et chaque partie veut autre chose.",
+   "pt": "Parece um girino: cabeça redonda e uma cauda. E cada parte quer uma coisa diferente.",
+   "hi": "यह मेंढक के बच्चे जैसा है: गोल सिर और एक पूँछ। और हर हिस्सा कुछ अलग चाहता है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C12",
+   "t0": 92,
+   "t1": 100,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] A la cabeza le encanta el agua. Siempre quiere estar pegada a ella.",
+   "en": "[warmly] The head loves water. It always wants to stay stuck to it.",
+   "fr": "[warmly] La tête adore l'eau. Elle veut toujours rester collée à elle.",
+   "pt": "[warmly] A cabeça adora água. Ela sempre quer ficar grudada nela.",
+   "hi": "[warmly] सिर को पानी बहुत पसंद है। वह हमेशा उससे चिपका रहना चाहता है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C13",
+   "t0": 100,
+   "t1": 108,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "La cola es al revés: huye del agua y adora la grasa. [excited] ¡Corre a esconderse en ella!",
+   "en": "The tail is the opposite: it runs from water and loves grease. [excited] It dives in to hide!",
+   "fr": "La queue, c'est l'inverse : elle fuit l'eau et adore le gras. [excited] Elle court s'y cacher !",
+   "pt": "A cauda é o contrário: foge da água e adora gordura. [excited] Corre para se esconder nela!",
+   "hi": "पूँछ उल्टी है: पानी से भागती है, चिकनाई से प्यार करती है। [excited] उसमें छिप जाती है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_L1",
+   "t0": 108,
+   "t1": 114,
+   "win": [
+    0.3,
+    5.6
+   ],
+   "still": true,
+   "es": "[warmly] La cabeza ama el agua; la cola ama la grasa. ¡Ese es el secreto!",
+   "en": "[warmly] The head loves water; the tail loves grease. That's the secret!",
+   "fr": "[warmly] La tête aime l'eau, la queue aime le gras. Voilà le secret !",
+   "pt": "[warmly] A cabeça ama a água; a cauda ama a gordura. Esse é o segredo!",
+   "hi": "[warmly] सिर को पानी पसंद, पूँछ को चिकनाई। यही है राज़!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C14",
+   "t0": 114,
+   "t1": 122,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[laughs] Pipo lo resume a su manera: ¡el jabón es amigo de los dos equipos!",
+   "en": "[laughs] Pipo sums it up his way: soap is friends with both teams!",
+   "fr": "[laughs] Pipo résume à sa façon : le savon est ami des deux équipes !",
+   "pt": "[laughs] O Pipo resume do jeito dele: o sabão é amigo dos dois times!",
+   "hi": "[laughs] पीपो अपने अंदाज़ में कहता है: साबुन दोनों टीमों का दोस्त है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C15",
+   "t0": 122,
+   "t1": 130,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Exacto! Con una mano agarra la grasa y con la otra agarra el agua. Es un puente.",
+   "en": "[excited] Exactly! With one hand it grabs the grease, and with the other, the water. It's a bridge.",
+   "fr": "[excited] Exactement ! D'une main il attrape le gras, de l'autre, l'eau. C'est un pont.",
+   "pt": "[excited] Isso! Com uma mão agarra a gordura e com a outra agarra a água. É uma ponte.",
+   "hi": "[excited] बिल्कुल! एक हाथ से चिकनाई पकड़ता है, दूसरे से पानी। यह एक पुल है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C16",
+   "t0": 130,
+   "t1": 138,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Plop quiere saber: un solo jabón es chiquito. ¿Cómo mueve una mancha tan grande?",
+   "en": "[curious] Plop wants to know: one soap is so tiny. How can it move such a big stain?",
+   "fr": "[curious] Plop veut savoir : un seul savon est minuscule. Comment bouge-t-il une si grosse tache ?",
+   "pt": "[curious] O Plop quer saber: um sabão sozinho é tão pequeno. Como move uma mancha tão grande?",
+   "hi": "[curious] प्लॉप जानना चाहता है: एक साबुन तो बहुत छोटा है। इतना बड़ा दाग कैसे हटाएगा?",
+   "anchors": []
+  },
+  {
+   "id": "E02_C17",
+   "t0": 138,
+   "t1": 146,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Respuesta: nunca viene uno solo. [excited] ¡En una gota de jabón hay millones y millones!",
+   "en": "The answer: it never comes alone. [excited] One drop of soap has millions and millions!",
+   "fr": "Réponse : il ne vient jamais seul. [excited] Une goutte de savon en contient des millions !",
+   "pt": "Resposta: ele nunca vem sozinho. [excited] Numa gota de sabão há milhões e milhões!",
+   "hi": "जवाब: वह कभी अकेला नहीं आता। [excited] साबुन की एक बूँद में लाखों-करोड़ों होते हैं!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C18",
+   "t0": 146,
+   "t1": 154,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Todas las colas hacen lo mismo: se clavan en la grasa para esconderse del agua.",
+   "en": "All the tails do the same thing: they dig into the grease to hide from the water.",
+   "fr": "Toutes les queues font pareil : elles s'enfoncent dans le gras pour fuir l'eau.",
+   "pt": "Todas as caudas fazem o mesmo: se enfiam na gordura para se esconder da água.",
+   "hi": "सारी पूँछें यही करती हैं: पानी से छिपने के लिए चिकनाई में धँस जाती हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C19",
+   "t0": 154,
+   "t1": 162,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Poco a poco la rodean por completo, como un equipo abrazando un balón.",
+   "en": "Little by little they surround it completely, like a team hugging a ball.",
+   "fr": "Petit à petit, elles l'entourent complètement, comme une équipe qui serre un ballon.",
+   "pt": "Pouco a pouco elas cercam tudo, como um time abraçando uma bola.",
+   "hi": "धीरे-धीरे वे उसे पूरा घेर लेती हैं, जैसे कोई टीम गेंद को गले लगा रही हो।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C20",
+   "t0": 162,
+   "t1": 170,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Mira cómo quedó: la grasa atrapada en el centro y las cabezas mirando hacia afuera.",
+   "en": "Look how it turned out: the grease trapped in the middle, and the heads facing out.",
+   "fr": "Regarde : le gras est piégé au centre, et les têtes regardent vers l'extérieur.",
+   "pt": "Olha só: a gordura presa no meio e as cabeças viradas para fora.",
+   "hi": "देखो: चिकनाई बीच में फँसी है, और सारे सिर बाहर की ओर हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C21",
+   "t0": 170,
+   "t1": 178,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[laughs] Para Pipo es una pelota con peinado de bolitas. Los científicos la llaman micela.",
+   "en": "[laughs] To Pipo, it's a ball with a bobbly hairdo. Scientists call it a micelle.",
+   "fr": "[laughs] Pour Pipo, c'est une balle coiffée de petites boules. Les scientifiques l'appellent micelle.",
+   "pt": "[laughs] Para o Pipo, é uma bola com penteado de bolinhas. Os cientistas chamam de micela.",
+   "hi": "[laughs] पीपो को यह गोलियों वाले बालों की गेंद लगती है। वैज्ञानिक इसे मिसेल कहते हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C22",
+   "t0": 178,
+   "t1": 186,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Y la micela tiene un superpoder: por fuera ya no parece grasa. [excited] ¡Parece amiga del agua!",
+   "en": "And the micelle has a superpower: outside, it's not greasy anymore. [excited] Water likes it!",
+   "fr": "Et la micelle a un super-pouvoir : dehors, elle n'a plus l'air grasse. [excited] L'eau l'adore !",
+   "pt": "E a micela tem um superpoder: por fora não parece mais gordura. [excited] Parece amiga da água!",
+   "hi": "मिसेल का सुपरपावर: बाहर से वह चिकनी नहीं लगती। [excited] पानी की दोस्त लगती है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C23",
+   "t0": 186,
+   "t1": 194,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Así que cuando llega el agua, se agarra de todas esas cabezas…",
+   "en": "So when the water arrives, it grabs on to all those heads…",
+   "fr": "Alors, quand l'eau arrive, elle s'accroche à toutes ces têtes…",
+   "pt": "Então, quando a água chega, ela se agarra em todas essas cabeças…",
+   "hi": "तो जब पानी आता है, वह उन सारे सिरों को पकड़ लेता है…",
+   "anchors": []
+  },
+  {
+   "id": "E02_C24",
+   "t0": 194,
+   "t1": 202,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "…y se lleva la micela rodando, con la grasa encerrada adentro. [excited] ¡Adiós, mancha!",
+   "en": "…and rolls the micelle away, with the grease locked inside. [excited] Bye-bye, stain!",
+   "fr": "…et emporte la micelle en roulant, avec le gras enfermé dedans. [excited] Adieu, la tache !",
+   "pt": "…e leva a micela rolando, com a gordura presa lá dentro. [excited] Tchau, mancha!",
+   "hi": "…और मिसेल को लुढ़काकर ले जाता है, चिकनाई अंदर बंद है। [excited] अलविदा, दाग!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C25",
+   "t0": 202,
+   "t1": 210,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[thoughtful] Plop mira su panza… ¿Funcionará de verdad? [excited] ¡Hay que comprobarlo!",
+   "en": "[thoughtful] Plop looks at his belly… Will it really work? [excited] We have to test it!",
+   "fr": "[thoughtful] Plop regarde son ventre… Ça marchera vraiment ? [excited] Il faut vérifier !",
+   "pt": "[thoughtful] O Plop olha a barriga… Será que funciona mesmo? [excited] Vamos comprovar!",
+   "hi": "[thoughtful] प्लॉप अपना पेट देखता है… क्या सच में काम करेगा? [excited] परखना होगा!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C26",
+   "t0": 210,
+   "t1": 218,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Primero, jabón. Hay que frotar bien para que las colas encuentren toda la grasa.",
+   "en": "First, soap. Scrub well so the tails can find all the grease.",
+   "fr": "D'abord, le savon. Il faut bien frotter pour que les queues trouvent tout le gras.",
+   "pt": "Primeiro, sabão. Tem que esfregar bem para as caudas acharem toda a gordura.",
+   "hi": "पहले साबुन। अच्छे से रगड़ो, ताकि पूँछें सारी चिकनाई ढूँढ लें।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C27",
+   "t0": 218,
+   "t1": 226,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Ahora, agua. Y mira: el agua ya no resbala… [excited] ¡se lleva la grasa!",
+   "en": "Now, water. And look: the water doesn't slide off… [excited] it carries the grease away!",
+   "fr": "Maintenant, l'eau. Et regarde : elle ne glisse plus… [excited] elle emporte le gras !",
+   "pt": "Agora, água. E olha: a água não escorrega mais… [excited] ela leva a gordura!",
+   "hi": "अब पानी। और देखो: पानी अब फिसलता नहीं… [excited] चिकनाई को साथ ले जाता है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_C28",
+   "t0": 226,
+   "t1": 234,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Panza limpia! El jabón no destruyó la grasa: la envolvió y el agua se la llevó.",
+   "en": "[excited] Clean belly! Soap didn't destroy the grease: it wrapped it up, and water carried it off.",
+   "fr": "[excited] Ventre propre ! Le savon n'a pas détruit le gras : il l'a emballé, et l'eau l'a emporté.",
+   "pt": "[excited] Barriga limpa! O sabão não destruiu a gordura: embrulhou, e a água levou embora.",
+   "hi": "[excited] पेट साफ़! साबुन ने चिकनाई को मिटाया नहीं: लपेट दिया, और पानी उसे ले गया।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C29",
+   "t0": 234,
+   "t1": 242,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] No era el perfume, Pipo: eran millones de renacuajos haciendo de puente.",
+   "en": "[warmly] It wasn't the perfume, Pipo: it was millions of tadpoles making a bridge.",
+   "fr": "[warmly] Ce n'était pas le parfum, Pipo : c'étaient des millions de têtards formant un pont.",
+   "pt": "[warmly] Não era o perfume, Pipo: eram milhões de girinos fazendo uma ponte.",
+   "hi": "[warmly] ख़ुशबू नहीं थी, पीपो: लाखों मेंढक के बच्चे पुल बना रहे थे।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C30",
+   "t0": 242,
+   "t1": 250,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Y tu pregunta ya tiene respuesta, Plop: sola, el agua resbala; con jabón, agarra.",
+   "en": "And your question has an answer, Plop: alone, water slides off; with soap, it grabs on.",
+   "fr": "Et ta question a sa réponse, Plop : seule, l'eau glisse ; avec du savon, elle accroche.",
+   "pt": "E sua pergunta já tem resposta, Plop: sozinha, a água escorrega; com sabão, ela agarra.",
+   "hi": "जवाब मिल गया, प्लॉप: अकेला पानी फिसलता है, साबुन के साथ पकड़ लेता है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_L2",
+   "t0": 250,
+   "t1": 258,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": true,
+   "es": "[warmly] Repasemos: la cola se clava, la micela envuelve, y el agua se la lleva.",
+   "en": "[warmly] Let's review: the tail digs in, the micelle wraps up, and the water carries it away.",
+   "fr": "[warmly] Révisons : la queue s'enfonce, la micelle enveloppe, et l'eau l'emporte.",
+   "pt": "[warmly] Vamos revisar: a cauda se crava, a micela envolve, e a água leva embora.",
+   "hi": "[warmly] दोहराते हैं: पूँछ धँसती है, मिसेल लपेटती है, और पानी ले जाता है।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C31",
+   "t0": 258,
+   "t1": 266,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Dato extra: muchos microbios tienen un abrigo de grasa. ¿Adivinas qué hace el jabón?",
+   "en": "[curious] Bonus fact: many germs wear a coat of grease. Can you guess what soap does?",
+   "fr": "[curious] Info bonus : beaucoup de microbes ont un manteau de gras. Devine ce que fait le savon ?",
+   "pt": "[curious] Curiosidade: muitos micróbios usam um casaco de gordura. Adivinha o que o sabão faz?",
+   "hi": "[curious] एक और बात: कई कीटाणुओं पर चिकनाई का कोट होता है। सोचो, साबुन क्या करता है?",
+   "anchors": []
+  },
+  {
+   "id": "E02_C32",
+   "t0": 266,
+   "t1": 274,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Les desarma el abrigo! Por eso lavarte las manos con jabón te protege de enfermarte.",
+   "en": "[excited] It breaks their coat apart! That's why washing hands with soap keeps you healthy.",
+   "fr": "[excited] Il défait leur manteau ! C'est pour ça que se laver les mains au savon protège des maladies.",
+   "pt": "[excited] Ele desmonta o casaco! Por isso lavar as mãos com sabão protege você de ficar doente.",
+   "hi": "[excited] साबुन उनका कोट तोड़ देता है! इसलिए साबुन से हाथ धोओ, बीमारी से बचो।",
+   "anchors": []
+  },
+  {
+   "id": "E02_C33",
+   "t0": 274,
+   "t1": 282,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Pero el jabón necesita tiempo para rodear toda la grasa. [excited] Plop tiene un reto para ti.",
+   "en": "But soap needs time to surround all the grease. [excited] Plop has a challenge for you.",
+   "fr": "Mais le savon a besoin de temps pour entourer tout le gras. [excited] Plop a un défi pour toi.",
+   "pt": "Mas o sabão precisa de tempo para cercar toda a gordura. [excited] O Plop tem um desafio para você.",
+   "hi": "पर साबुन को चिकनाई घेरने में समय लगता है। [excited] प्लॉप की तुम्हें एक चुनौती है!",
+   "anchors": []
+  },
+  {
+   "id": "E02_L3",
+   "t0": 282,
+   "t1": 288,
+   "win": [
+    0.3,
+    5.6
+   ],
+   "still": true,
+   "es": "[playful] Frota las manos con jabón veinte segundos. ¿Qué canción cabe?",
+   "en": "[playful] Scrub your hands with soap for twenty seconds. What song fits?",
+   "fr": "[playful] Frotte tes mains au savon vingt secondes. Quelle chanson tient dedans ?",
+   "pt": "[playful] Esfregue as mãos com sabão por vinte segundos. Que música cabe?",
+   "hi": "[playful] बीस सेकंड साबुन से हाथ रगड़ो। कौन-सा गाना पूरा होगा?",
+   "anchors": []
+  },
+  {
+   "id": "E02_C34",
+   "t0": 288,
+   "t1": 296,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Plop nos deja la próxima pregunta: ¿por qué pica el ají si no está caliente?",
+   "en": "[curious] Plop leaves us the next question: why is chili spicy if it isn't hot?",
+   "fr": "[curious] Plop nous laisse la prochaine question : pourquoi le piment pique s'il n'est pas chaud ?",
+   "pt": "[curious] O Plop deixa a próxima pergunta: por que a pimenta arde se não está quente?",
+   "hi": "[curious] प्लॉप का अगला सवाल: मिर्च तीखी क्यों लगती है, जब वह गरम नहीं?",
+   "anchors": []
+  },
+  {
+   "id": "CANAL_FINAL",
+   "t0": 296,
+   "t1": 300,
+   "win": [
+    0.2,
+    3.88
+   ],
+   "still": true,
+   "es": "[excited] ¡Hasta el próximo misterio!",
+   "en": "[excited] See you at the next mystery!",
+   "fr": "[excited] À la prochaine énigme !",
+   "pt": "[excited] Até o próximo mistério!",
+   "hi": "[excited] अगले रहस्य में मिलते हैं!",
+   "anchors": []
+  }
+ ],
+ "hic": {}
+}

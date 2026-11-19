@@ -1,0 +1,17 @@
+{
+ "rellenos": 73,
+ "silencios_con_relleno": 38,
+ "tipos": {
+  "gotitas": 5,
+  "burbujas": 6,
+  "punteo": 17,
+  "campanita": 16,
+  "tic-tac": 6,
+  "blips": 23
+ },
+ "tramos_10ms_sobre_voz": 0,
+ "tramos_10ms_sobre_efectos": 0,
+ "lufs_mezcla": -16.0,
+ "pico_mezcla": -1.5,
+ "dur_mezcla": 300.0
+}

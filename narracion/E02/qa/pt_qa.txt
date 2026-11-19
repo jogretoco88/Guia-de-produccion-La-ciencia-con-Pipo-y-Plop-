@@ -1,0 +1,42 @@
+pt: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E02_C01       1.00  oído: Opa, o Plop tem uma mancha de gordura e a água sozinha nem faz cócegas nela.
+OK  E02_C02       1.00  oído: Mas com sabão a gordura desiste na hora. O que o sabão tem que a água não tem?
+OK  E02_C03       1.00  oído: O Pipo já tem uma teoria e é bem maluca. Prontos para investigar?
+OK  CANAL_INICIO  1.00  oído: A ciência com Pipo e Plop.
+OK  E02_C04       1.00  oído: A ideia maluca do Pipo. O sabão ganha porque é cheiroso e a gordura foge do perfume.
+OK  E02_C05       1.00  oído: Vamos testar. Uma flor também é cheirosa e a gordura nem se mexe. Não é o cheiro.
+OK  E02_C06       1.00  oído: E esfregar com mais força? Também não. A gordura só se espalha mais.
+OK  E02_C07       1.00  oído: O Plop se pergunta: por que a água nem fica em cima da gordura? Ela escorrega.
+OK  E02_C08       1.00  oído: Boa observação. A água e a gordura são como dois times que nunca se dão as mãos.
+OK  E02_C09       1.00  oído: Como o sabão junta os dois? O que você acha? Pensa. Vamos olhar de perto.
+OK  E02_C10       1.00  oído: Vamos dar zoom. Este é um pedacinho de sabão tão pequeno que nenhum olho consegue ver.
+OK  E02_C11       1.00  oído: Parece um girino, cabeça redonda e uma cauda. E cada parte quer uma coisa diferente.
+OK  E02_C12       1.00  oído: A cabeça adora água. Ela sempre quer ficar grudada nela.
+OK  E02_C13       1.00  oído: A cauda é o contrário. Foge da água e adora gordura. Corre para se esconder nela.
+OK  E02_L1        1.00  oído: A cabeça ama a água, a cauda ama a gordura. Esse é o segredo.
+OK  E02_C14       1.00  oído: O Pipo resume do jeito dele. O sabão é amigo dos dois times.
+OK  E02_C15       1.00  oído: Isso! Com uma mão agarra a gordura e com a outra agarra a água. É uma ponte.
+OK  E02_C16       1.00  oído: O Plop quer saber. Um sabão sozinho é tão pequeno. Como move uma mancha tão grande?
+OK  E02_C17       1.00  oído: Resposta: ele nunca vem sozinho. Numa gota de sabão há milhões e milhões.
+OK  E02_C18       1.00  oído: Todas as caudas fazem o mesmo. Se enfiam na gordura para se esconder da água.
+OK  E02_C19       1.00  oído: Pouco a pouco elas cercam tudo, como um time abraçando uma bola.
+OK  E02_C20       1.00  oído: Olha só, a gordura presa no meio e as cabeças viradas para fora.
+OK  E02_C21       1.00  oído: Para o Pipo, é uma bola com penteado de bolinhas. Os cientistas chamam de micela.
+OK  E02_C22       1.00  oído: E a micela tem um superpoder. Por fora, não parece mais gordura, parece amiga da água.
+OK  E02_C23       1.00  oído: Então, quando a água chega, ela se agarra em todas essas cabeças
+OK  E02_C24       1.00  oído: e leva a micela rolando com a gordura presa lá dentro. Tchau, mancha.
+OK  E02_C25       1.00  oído: O Plop olha a barriga. Será que funciona mesmo? Vamos comprovar.
+OK  E02_C26       1.00  oído: Primeiro, sabão. Tem que esfregar bem para as caudas acharem toda a gordura.
+OK  E02_C27       1.00  oído: Agora, água. E olha, a água não escorrega mais. Ela leva a gordura.
+OK  E02_C28       1.00  oído: Barriga limpa. O sabão não destruiu a gordura, embrulhou e a água levou embora.
+OK  E02_C29       1.00  oído: Não era o perfume, Pipo. Eram milhões de girinos fazendo uma ponte.
+OK  E02_C30       1.00  oído: E sua pergunta já tem resposta, Plop. Sozinha, a água escorrega. Com sabão, ela agarra.
+OK  E02_L2        1.00  oído: Vamos revisar. A cauda se crava, a micela envolve e a água leva embora.
+OK  E02_C31       1.00  oído: Curiosidade: muitos micróbios usam um casaco de gordura. Adivinha o que o sabão faz?
+OK  E02_C32       1.00  oído: Ele desmonta o casaco. Por isso, lavar as mãos com sabão protege você de ficar doente.
+OK  E02_C33       0.94  oído: Mas o sabão precisa de tempo para cercar toda a gordura. O Plop tem um desafio pra você.
+      diferencias: guion «para» → oído «pra»
+      (frase en la pista de verificación desde 273.04 s)
+OK  E02_L3        1.00  oído: Esfregue as mãos com sabão por vinte segundos. Que música cabe?
+OK  E02_C34       1.00  oído: O Plop deixa a próxima pergunta: por que a pimenta arde se não está quente?
+OK  CANAL_FINAL   1.00  oído: Até o próximo mistério.

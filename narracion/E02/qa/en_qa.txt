@@ -1,0 +1,44 @@
+en: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E02_C01       1.00  oído: Oops. Plop has a grease stain, and water alone doesn't even tickle it.
+OK  E02_C02       1.00  oído: But with soap, the grease gives up right away. What does soap have that water doesn't?
+OK  E02_C03       1.00  oído: Pipo already has a theory, and it's pretty wild. Ready to investigate?
+OK  CANAL_INICIO  1.00  oído: Science with Pipo and Plop.
+OK  E02_C04       1.00  oído: Pipo's wild idea: soap wins because it smells nice, and grease runs from perfume.
+OK  E02_C05       1.00  oído: Let's test it. A flower smells nice, too, and the grease doesn't budge. It's not the smell.
+OK  E02_C06       1.00  oído: And scrubbing harder? No luck. The grease just smears even more.
+OK  E02_C07       1.00  oído: Plop wonders, "Why won't water even stay on the grease? It just slides off."
+OK  E02_C08       1.00  oído: Good observation. Water and grease are like two teams that never shake hands.
+OK  E02_C09       1.00  oído: How does soap join them? What do you think? Think. Let's look up close.
+OK  E02_C10       1.00  oído: Let's zoom in. This is a tiny piece of soap, so small no eye can see it.
+OK  E02_C11       1.00  oído: It looks like a tadpole: a round head and a tail, and each part wants something different.
+OK  E02_C12       1.00  oído: The head loves water. It always wants to stay stuck to it.
+OK  E02_C13       1.00  oído: The tail is the opposite. It runs from water and loves grease. It dives in to hide.
+OK  E02_L1        1.00  oído: The head loves water. The tail loves grease. That's the secret.
+OK  E02_C14       1.00  oído: Pipo sums it up his way. Soap is friends with both teams.
+OK  E02_C15       1.00  oído: Exactly. With one hand, it grabs the grease, and with the other, the water. It's a bridge.
+OK  E02_C16       1.00  oído: Plop wants to know, "One soap is so tiny. How can it move such a big stain?"
+OK  E02_C17       1.00  oído: The answer: it never comes alone. One drop of soap has millions and millions.
+OK  E02_C18       1.00  oído: All the tails do the same thing. They dig into the grease to hide from the water.
+OK  E02_C19       1.00  oído: Little by little, they surround it completely, like a team hugging a ball.
+OK  E02_C20       1.00  oído: Look how it turned out, the grease trapped in the middle and the heads facing out.
+OK  E02_C21       1.00  oído: To Pipo, it's a ball with a bobbly hairdo. Scientists call it a micelle.
+OK  E02_C22       1.00  oído: And the micelle has a superpower. Outside, it's not greasy anymore. Water likes it.
+OK  E02_C23       0.87  oído: So when the water arrives, it grabs onto all those heads
+      diferencias: guion «on to» → oído «onto»
+      (frase en la pista de verificación desde 179.36 s)
+OK  E02_C24       1.00  oído: and rolls the micelle away with the grease locked inside. Bye-bye, stain.
+OK  E02_C25       1.00  oído: Plop looks at his belly. Will it really work? We have to test it.
+OK  E02_C26       1.00  oído: First, soap. Scrub well so the tails can find all the grease.
+OK  E02_C27       1.00  oído: Now water, and look, the water doesn't slide off. It carries the grease away.
+OK  E02_C28       1.00  oído: Clean belly. Soap didn't destroy the grease. It wrapped it up, and water carried it off.
+OK  E02_C29       1.00  oído: It wasn't the perfume, Pipo. It was millions of tadpoles making a bridge.
+OK  E02_C30       1.00  oído: And your question has an answer, Plop. Alone, water slides off. With soap, it grabs on.
+OK  E02_L2        1.00  oído: Let's review. The tail digs in, the micelle wraps up, and the water carries it away.
+OK  E02_C31       1.00  oído: Bonus fact: many germs wear a coat of grease. Can you guess what soap does?
+OK  E02_C32       1.00  oído: It breaks their coat apart. That's why washing hands with soap keeps you healthy.
+OK  E02_C33       1.00  oído: But soap needs time to surround all the grease. Plop has a challenge for you.
+OK  E02_L3        0.91  oído: Scrub your hands with soap for 20 seconds. What song fits?
+      diferencias: guion «twenty» → oído «20»
+      (frase en la pista de verificación desde 268.80 s)
+OK  E02_C34       1.00  oído: Plop leaves us the next question: why is chili spicy if it isn't hot?
+OK  CANAL_FINAL   1.00  oído: See you at the next mystery.

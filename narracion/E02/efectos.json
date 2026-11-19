@@ -1,0 +1,1278 @@
+{
+ "lib": {
+  "plip": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/plip.mp3",
+   "prompt": "Single tiny water droplet, small plip",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "splash": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/splash.mp3",
+   "prompt": "Single water drop falling and splashing on a wet surface",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "squish": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/squish.mp3",
+   "prompt": "Soft squishy modeling clay squeeze, small and short",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "roll": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/roll.mp3",
+   "prompt": "Small rubber ball rolling slowly across a soft surface",
+   "max": 3.6,
+   "modo": "bed"
+  },
+  "roll_corto": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/roll.mp3",
+   "prompt": "Small rubber ball rolling slowly across a soft surface (versión corta)",
+   "max": 1.8,
+   "modo": "bed"
+  },
+  "rotate": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/rotate.mp3",
+   "prompt": "Object slowly turning on a wooden table, soft continuous scraping",
+   "max": 3.5,
+   "modo": "bed"
+  },
+  "land": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/land.mp3",
+   "prompt": "Small soft rubber ball dropping and landing with a gentle thud",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "cheek_rub": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/cheek_rub.mp3",
+   "prompt": "Clay hands pressing onto cheeks, soft squeaky rub",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "arm_swish": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/arm_swish.mp3",
+   "prompt": "Quick soft swish of a small arm waving",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "balls_away": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/balls_away.mp3",
+   "prompt": "Handful of small rubber balls tumbling and rolling away",
+   "max": 1.8,
+   "modo": "hit"
+  },
+  "uh_oh": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/uh_oh.mp3",
+   "prompt": "Short descending cartoon worried tones, two notes",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "squint": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/squint.mp3",
+   "prompt": "Short suspicious cartoon squeak, rising",
+   "max": 0.5,
+   "modo": "hit"
+  },
+  "think": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/think.mp3",
+   "prompt": "Cartoon pondering sound, gentle wooden tick tock",
+   "max": 1.6,
+   "modo": "bed"
+  },
+  "boing": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/boing.mp3",
+   "prompt": "Cartoon boing spring, bouncy",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "sparkle": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/sparkle.mp3",
+   "prompt": "Short magical sparkle twinkle",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "ding": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/ding.mp3",
+   "prompt": "Bright cartoon idea ding, single small bell",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "slide_up": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/slide_up.mp3",
+   "prompt": "Slide whistle going up quickly, comedic surprise",
+   "max": 0.7,
+   "modo": "hit"
+  },
+  "slide_down": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/slide_down.mp3",
+   "prompt": "Slide whistle going down, comedic fail",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "magnet": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/magnet.mp3",
+   "prompt": "Cartoon magnet pull, shimmering zoop",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "pop": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/pop.mp3",
+   "prompt": "Cartoon pop, cork-like, short",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "power_down": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/power_down.mp3",
+   "prompt": "Cartoon power down, descending electronic tones",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "fire_puff": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/fire_puff.mp3",
+   "prompt": "Comedic cartoon fire puff whoosh, short flame burst",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "whoosh": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/whoosh.mp3",
+   "prompt": "Fast airy whoosh, swish transition",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "zoom": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/zoom.mp3",
+   "prompt": "Short rising whoosh, zoom in transition",
+   "max": 1.4,
+   "modo": "hit"
+  },
+  "logo": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/logo.mp3",
+   "prompt": "Playful short xylophone and glockenspiel flourish jingle, cheerful sound logo",
+   "max": 3.6,
+   "modo": "hit"
+  },
+  "swipe": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/swipe.mp3",
+   "prompt": "Soft swipe swish with a gentle chime, page transition",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "shimmer": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/shimmer.mp3",
+   "prompt": "Soft magical shimmer swell, rising",
+   "max": 1.6,
+   "modo": "hit"
+  },
+  "rev_cymbal": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/rev_cymbal.mp3",
+   "prompt": "Short reverse cymbal swell",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "bubble": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/bubble.mp3",
+   "prompt": "Bubbly watery swoosh transition",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "outro": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/outro.mp3",
+   "prompt": "Cheerful short xylophone outro jingle, ending flourish",
+   "max": 3.6,
+   "modo": "hit"
+  },
+  "h_drops": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s01.mp3",
+   "prompt": "Water drops plinking off a clay blob, small boing",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "h_clayroll": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s02.mp3",
+   "prompt": "Clay ball rolling, squishy bump, jelly wobble",
+   "max": 2.0,
+   "modo": "bed"
+  },
+  "h_breeze": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s06.mp3",
+   "prompt": "Gentle breeze, flower rustle and a light sparkle",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_scrub": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s07.mp3",
+   "prompt": "Squishy clay rubbing and scrubbing",
+   "max": 2.8,
+   "modo": "bed"
+  },
+  "h_zip": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s09.mp3",
+   "prompt": "Quick zip forward and retreat",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_tail": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s11.mp3",
+   "prompt": "Squiggly wobbly boing, tadpole tail wiggle",
+   "max": 1.8,
+   "modo": "hit"
+  },
+  "h_poke": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s14.mp3",
+   "prompt": "Squelchy clay poke",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "h_stretch": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s17.mp3",
+   "prompt": "Rubbery stretch and snap back",
+   "max": 2.0,
+   "modo": "hit"
+  },
+  "h_marbles": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s19.mp3",
+   "prompt": "Many small marbles rolling toward the center",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_click": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s21.mp3",
+   "prompt": "Clay pieces clicking into place and a completion chime",
+   "max": 3.0,
+   "modo": "hit"
+  },
+  "h_wobble": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s24.mp3",
+   "prompt": "Jelly wobble bloops",
+   "max": 2.0,
+   "modo": "hit"
+  },
+  "h_plink": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s25.mp3",
+   "prompt": "Water drops plink plink",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_rinse": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s26.mp3",
+   "prompt": "Water rinsing and something rolling away",
+   "max": 3.0,
+   "modo": "hit"
+  },
+  "h_foam": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s28.mp3",
+   "prompt": "Soapy scrubbing with foamy bubbles",
+   "max": 3.0,
+   "modo": "bed"
+  },
+  "h_splashroll": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s29.mp3",
+   "prompt": "Splash rinse and a ball rolling away",
+   "max": 3.0,
+   "modo": "hit"
+  },
+  "h_pokes": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s33.mp3",
+   "prompt": "Tiny rubbery pokes and pops",
+   "max": 2.0,
+   "modo": "hit"
+  },
+  "h_crumble": {
+   "cat": "F",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s34.mp3",
+   "prompt": "Crumbling clay and a deflating sigh",
+   "max": 2.5,
+   "modo": "hit"
+  },
+  "h_idea": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s05.mp3",
+   "prompt": "Slide whistle up, idea",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_tick": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s10.mp3",
+   "prompt": "Ticking clock",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_chime2": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s15.mp3",
+   "prompt": "Two-note xylophone chime",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "h_tada": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s16.mp3",
+   "prompt": "Ukulele strum, ta-da",
+   "max": 2.5,
+   "modo": "hit"
+  },
+  "h_question": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s18.mp3",
+   "prompt": "Question pluck",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_claps": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s23.mp3",
+   "prompt": "Small claps",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_shrug": {
+   "cat": "M",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s30.mp3",
+   "prompt": "Shrug boop",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "h_whirl": {
+   "cat": "T",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s22.mp3",
+   "prompt": "Sparkly whirl shimmer",
+   "max": 2.5,
+   "modo": "hit"
+  },
+  "h_recap": {
+   "cat": "T",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s32.mp3",
+   "prompt": "Three-note recap chime",
+   "max": 3.0,
+   "modo": "hit"
+  },
+  "h_whoosh": {
+   "cat": "T",
+   "fuente": "Efectos propios del Ep. 2",
+   "archivo": "../sfx/s38.mp3",
+   "prompt": "Soft whoosh, zoom in",
+   "max": 1.0,
+   "modo": "hit"
+  }
+ },
+ "cues": [
+  {
+   "toma": "C01",
+   "t": 0.45,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "cae una gota sobre la panza de Plop"
+  },
+  {
+   "toma": "C01",
+   "t": 0.95,
+   "efecto": "splash",
+   "cat": "F",
+   "db": -2,
+   "accion": "la gota resbala sobre la grasa"
+  },
+  {
+   "toma": "C01",
+   "t": 1.55,
+   "efecto": "uh_oh",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡ups! la gota no limpia nada"
+  },
+  {
+   "toma": "C01",
+   "t": 2.35,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "otra gota"
+  },
+  {
+   "toma": "C01",
+   "t": 3.45,
+   "efecto": "h_drops",
+   "cat": "F",
+   "db": -3,
+   "accion": "la gota rebota y sale despedida"
+  },
+  {
+   "toma": "C01",
+   "t": 6.95,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "la última gota"
+  },
+  {
+   "toma": "C02",
+   "t": 9.25,
+   "efecto": "h_clayroll",
+   "cat": "F",
+   "db": -2,
+   "accion": "el jabón entra rodando"
+  },
+  {
+   "toma": "C02",
+   "t": 11.4,
+   "efecto": "squish",
+   "cat": "F",
+   "db": 0,
+   "accion": "choca con la grasa"
+  },
+  {
+   "toma": "C02",
+   "t": 12.1,
+   "efecto": "sparkle",
+   "cat": "M",
+   "db": -5,
+   "accion": "la grasa se rinde"
+  },
+  {
+   "toma": "C02",
+   "t": 13.7,
+   "efecto": "h_question",
+   "cat": "M",
+   "db": -4,
+   "accion": "¿qué tiene el jabón?"
+  },
+  {
+   "toma": "C03",
+   "t": 17.35,
+   "efecto": "squint",
+   "cat": "M",
+   "db": -3,
+   "accion": "Pipo ladea la cabeza"
+  },
+  {
+   "toma": "C03",
+   "t": 21.35,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -4,
+   "accion": "la ladea otra vez: «bastante loca»"
+  },
+  {
+   "toma": "CANAL_INICIO",
+   "t": 23.75,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -2,
+   "accion": "entra la cortinilla"
+  },
+  {
+   "toma": "CANAL_INICIO",
+   "t": 24.0,
+   "efecto": "logo",
+   "cat": "T",
+   "db": 0,
+   "accion": "cortinilla del canal"
+  },
+  {
+   "toma": "C04",
+   "t": 29.95,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo levanta el brazo"
+  },
+  {
+   "toma": "C04",
+   "t": 30.45,
+   "efecto": "h_idea",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡la idea loca!"
+  },
+  {
+   "toma": "C05",
+   "t": 36.4,
+   "efecto": "h_breeze",
+   "cat": "F",
+   "db": -3,
+   "accion": "la flor se mece"
+  },
+  {
+   "toma": "C05",
+   "t": 40.2,
+   "efecto": "h_breeze",
+   "cat": "F",
+   "db": -5,
+   "accion": "la flor se mece otra vez"
+  },
+  {
+   "toma": "C05",
+   "t": 42.4,
+   "efecto": "slide_down",
+   "cat": "M",
+   "db": -4,
+   "accion": "la grasa ni se mueve: no es el olor"
+  },
+  {
+   "toma": "C06",
+   "t": 44.6,
+   "efecto": "h_scrub",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop frota la grasa"
+  },
+  {
+   "toma": "C06",
+   "t": 50.1,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "la grasa se embarra más"
+  },
+  {
+   "toma": "C06",
+   "t": 50.5,
+   "efecto": "uh_oh",
+   "cat": "M",
+   "db": -5,
+   "accion": "peor que antes"
+  },
+  {
+   "toma": "C07",
+   "t": 53.0,
+   "efecto": "think",
+   "cat": "M",
+   "db": -3,
+   "accion": "Plop ladea la cabeza, pensativo"
+  },
+  {
+   "toma": "C08",
+   "t": 60.75,
+   "efecto": "h_zip",
+   "cat": "F",
+   "db": -2,
+   "accion": "la gota corre hacia la grasa"
+  },
+  {
+   "toma": "C08",
+   "t": 61.75,
+   "efecto": "h_drops",
+   "cat": "F",
+   "db": -2,
+   "accion": "choca y rebota"
+  },
+  {
+   "toma": "C08",
+   "t": 64.0,
+   "efecto": "h_zip",
+   "cat": "F",
+   "db": -3,
+   "accion": "lo intenta otra vez y retrocede"
+  },
+  {
+   "toma": "C08",
+   "t": 64.5,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -4,
+   "accion": "rebota de nuevo"
+  },
+  {
+   "toma": "C08",
+   "t": 65.25,
+   "efecto": "plip",
+   "cat": "F",
+   "db": -1,
+   "accion": "la gota resbala"
+  },
+  {
+   "toma": "C09",
+   "t": 73.0,
+   "efecto": "zoom",
+   "cat": "T",
+   "db": -2,
+   "accion": "la cámara se acerca al jabón"
+  },
+  {
+   "toma": "C09",
+   "t": 74.8,
+   "efecto": "rev_cymbal",
+   "cat": "T",
+   "db": -4,
+   "accion": "entramos al mundo diminuto"
+  },
+  {
+   "toma": "C10",
+   "t": 76.0,
+   "efecto": "bubble",
+   "cat": "T",
+   "db": -2,
+   "accion": "aparece la molécula de jabón"
+  },
+  {
+   "toma": "C10",
+   "t": 76.5,
+   "efecto": "h_tail",
+   "cat": "F",
+   "db": -3,
+   "accion": "la cola se menea"
+  },
+  {
+   "toma": "C11",
+   "t": 86.0,
+   "efecto": "rotate",
+   "cat": "F",
+   "db": -3,
+   "accion": "el jabón gira y muestra cabeza y cola"
+  },
+  {
+   "toma": "C11",
+   "t": 90.8,
+   "efecto": "h_chime2",
+   "cat": "M",
+   "db": -4,
+   "accion": "cada parte quiere algo distinto"
+  },
+  {
+   "toma": "C12",
+   "t": 92.5,
+   "efecto": "roll_corto",
+   "cat": "F",
+   "db": -3,
+   "accion": "el jabón se desliza hacia la gota"
+  },
+  {
+   "toma": "C12",
+   "t": 94.55,
+   "efecto": "plip",
+   "cat": "F",
+   "db": -1,
+   "accion": "la cabeza toca la gota"
+  },
+  {
+   "toma": "C12",
+   "t": 94.7,
+   "efecto": "magnet",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡pegada al agua!"
+  },
+  {
+   "toma": "C12",
+   "t": 96.5,
+   "efecto": "h_tail",
+   "cat": "F",
+   "db": -4,
+   "accion": "la cola se menea"
+  },
+  {
+   "toma": "C13",
+   "t": 102.5,
+   "efecto": "h_poke",
+   "cat": "F",
+   "db": -2,
+   "accion": "la cola se clava en la grasa"
+  },
+  {
+   "toma": "C13",
+   "t": 104.5,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -3,
+   "accion": "¡escondida!"
+  },
+  {
+   "toma": "C13",
+   "t": 106.5,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -3,
+   "accion": "la cabeza se apoya en la grasa"
+  },
+  {
+   "toma": "L1",
+   "t": 108.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 1: cabeza y cola"
+  },
+  {
+   "toma": "C14",
+   "t": 117.4,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo abre los brazos"
+  },
+  {
+   "toma": "C14",
+   "t": 117.65,
+   "efecto": "h_chime2",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡amigo de los dos equipos!"
+  },
+  {
+   "toma": "C15",
+   "t": 123.3,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -2,
+   "accion": "el jabón se estira y agarra la grasa"
+  },
+  {
+   "toma": "C15",
+   "t": 124.1,
+   "efecto": "h_stretch",
+   "cat": "F",
+   "db": -5,
+   "accion": "la otra punta agarra la gota: un puente"
+  },
+  {
+   "toma": "C15",
+   "t": 128.0,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -3,
+   "accion": "el puente se suelta y vuelve a su forma"
+  },
+  {
+   "toma": "C15",
+   "t": 128.5,
+   "efecto": "plip",
+   "cat": "F",
+   "db": -2,
+   "accion": "la gota tiembla"
+  },
+  {
+   "toma": "C16",
+   "t": 136.4,
+   "efecto": "h_question",
+   "cat": "M",
+   "db": -3,
+   "accion": "Plop ladea la cabeza: ¿cómo?"
+  },
+  {
+   "toma": "C17",
+   "t": 138.0,
+   "efecto": "shimmer",
+   "cat": "T",
+   "db": -4,
+   "accion": "se revela el ejército de jabones"
+  },
+  {
+   "toma": "C17",
+   "t": 138.5,
+   "efecto": "h_marbles",
+   "cat": "F",
+   "db": -2,
+   "accion": "llegan muchísimos jabones rodando"
+  },
+  {
+   "toma": "C17",
+   "t": 143.5,
+   "efecto": "balls_away",
+   "cat": "F",
+   "db": -4,
+   "accion": "se amontonan alrededor de la grasa"
+  },
+  {
+   "toma": "C18",
+   "t": 148.3,
+   "efecto": "h_poke",
+   "cat": "F",
+   "db": -3,
+   "accion": "una cola se clava en la grasa"
+  },
+  {
+   "toma": "C18",
+   "t": 149.2,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "otra cola se clava"
+  },
+  {
+   "toma": "C18",
+   "t": 151.3,
+   "efecto": "h_pokes",
+   "cat": "F",
+   "db": -3,
+   "accion": "muchas colas se clavan a la vez"
+  },
+  {
+   "toma": "C19",
+   "t": 157.5,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro jabón se une al círculo"
+  },
+  {
+   "toma": "C19",
+   "t": 158.6,
+   "efecto": "h_click",
+   "cat": "F",
+   "db": -2,
+   "accion": "las últimas piezas encajan"
+  },
+  {
+   "toma": "C20",
+   "t": 163.0,
+   "efecto": "h_wobble",
+   "cat": "F",
+   "db": -3,
+   "accion": "la micela se acomoda"
+  },
+  {
+   "toma": "C20",
+   "t": 164.7,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "una bolita encaja en su sitio"
+  },
+  {
+   "toma": "C20",
+   "t": 165.0,
+   "efecto": "ding",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡la grasa quedó atrapada!"
+  },
+  {
+   "toma": "C21",
+   "t": 173.0,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -3,
+   "accion": "Pipo se agarra la panza de la risa"
+  },
+  {
+   "toma": "C21",
+   "t": 174.5,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -5,
+   "accion": "parpadea divertido"
+  },
+  {
+   "toma": "C22",
+   "t": 178.8,
+   "efecto": "h_whirl",
+   "cat": "T",
+   "db": -5,
+   "accion": "la micela luce su superpoder"
+  },
+  {
+   "toma": "C22",
+   "t": 182.5,
+   "efecto": "sparkle",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡parece amiga del agua!"
+  },
+  {
+   "toma": "C23",
+   "t": 186.0,
+   "efecto": "bubble",
+   "cat": "T",
+   "db": -4,
+   "accion": "entra el agua"
+  },
+  {
+   "toma": "C23",
+   "t": 187.4,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "una gota se agarra de una cabeza"
+  },
+  {
+   "toma": "C23",
+   "t": 188.4,
+   "efecto": "plip",
+   "cat": "F",
+   "db": -1,
+   "accion": "otra gota"
+  },
+  {
+   "toma": "C23",
+   "t": 190.1,
+   "efecto": "h_plink",
+   "cat": "F",
+   "db": -3,
+   "accion": "llegan más gotas"
+  },
+  {
+   "toma": "C23",
+   "t": 191.25,
+   "efecto": "splash",
+   "cat": "F",
+   "db": -3,
+   "accion": "muchas gotas a la vez"
+  },
+  {
+   "toma": "C24",
+   "t": 194.3,
+   "efecto": "h_splashroll",
+   "cat": "F",
+   "db": -2,
+   "accion": "el agua arrastra la micela"
+  },
+  {
+   "toma": "C24",
+   "t": 196.5,
+   "efecto": "roll",
+   "cat": "F",
+   "db": -4,
+   "accion": "la micela rueda hacia la derecha"
+  },
+  {
+   "toma": "C24",
+   "t": 200.3,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -4,
+   "accion": "sale de cuadro: ¡adiós, mancha!"
+  },
+  {
+   "toma": "C25",
+   "t": 203.0,
+   "efecto": "squint",
+   "cat": "M",
+   "db": -3,
+   "accion": "Plop mira su panza"
+  },
+  {
+   "toma": "C25",
+   "t": 203.5,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -3,
+   "accion": "se toca la panza"
+  },
+  {
+   "toma": "C26",
+   "t": 210.5,
+   "efecto": "h_foam",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop frota la panza con jabón"
+  },
+  {
+   "toma": "C26",
+   "t": 213.5,
+   "efecto": "h_foam",
+   "cat": "F",
+   "db": -3,
+   "accion": "sigue frotando, sale espuma"
+  },
+  {
+   "toma": "C27",
+   "t": 218.5,
+   "efecto": "h_rinse",
+   "cat": "F",
+   "db": -2,
+   "accion": "cae el agua sobre Plop"
+  },
+  {
+   "toma": "C27",
+   "t": 220.5,
+   "efecto": "roll_corto",
+   "cat": "F",
+   "db": -3,
+   "accion": "la grasa se va rodando"
+  },
+  {
+   "toma": "C27",
+   "t": 222.5,
+   "efecto": "plip",
+   "cat": "F",
+   "db": -2,
+   "accion": "caen las últimas gotas"
+  },
+  {
+   "toma": "C28",
+   "t": 226.45,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Plop abre los brazos"
+  },
+  {
+   "toma": "C28",
+   "t": 226.6,
+   "efecto": "h_tada",
+   "cat": "M",
+   "db": -3,
+   "accion": "¡panza limpia!"
+  },
+  {
+   "toma": "C28",
+   "t": 227.1,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -2,
+   "accion": "se abraza la panza limpia"
+  },
+  {
+   "toma": "C29",
+   "t": 235.3,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo abre los brazos"
+  },
+  {
+   "toma": "C29",
+   "t": 235.6,
+   "efecto": "h_shrug",
+   "cat": "M",
+   "db": -3,
+   "accion": "«no era el perfume»"
+  },
+  {
+   "toma": "C30",
+   "t": 248.8,
+   "efecto": "h_claps",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡pregunta resuelta!"
+  },
+  {
+   "toma": "L2",
+   "t": 250.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 2: repaso"
+  },
+  {
+   "toma": "L2",
+   "t": 250.4,
+   "efecto": "h_recap",
+   "cat": "T",
+   "db": -4,
+   "accion": "tres pasos"
+  },
+  {
+   "toma": "C31",
+   "t": 258.0,
+   "efecto": "h_whoosh",
+   "cat": "T",
+   "db": -3,
+   "accion": "dato extra"
+  },
+  {
+   "toma": "C31",
+   "t": 260.5,
+   "efecto": "h_zip",
+   "cat": "F",
+   "db": -3,
+   "accion": "llegan volando más jabones"
+  },
+  {
+   "toma": "C31",
+   "t": 261.1,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "caen junto al microbio"
+  },
+  {
+   "toma": "C31",
+   "t": 262.0,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "se pegan al abrigo de grasa"
+  },
+  {
+   "toma": "C32",
+   "t": 267.2,
+   "efecto": "h_crumble",
+   "cat": "F",
+   "db": -2,
+   "accion": "el abrigo de grasa se desarma"
+  },
+  {
+   "toma": "C32",
+   "t": 268.5,
+   "efecto": "balls_away",
+   "cat": "F",
+   "db": -4,
+   "accion": "las bolitas ruedan lejos"
+  },
+  {
+   "toma": "C32",
+   "t": 269.2,
+   "efecto": "power_down",
+   "cat": "M",
+   "db": -4,
+   "accion": "el microbio se desinfla"
+  },
+  {
+   "toma": "C33",
+   "t": 274.4,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Plop gesticula"
+  },
+  {
+   "toma": "C33",
+   "t": 280.2,
+   "efecto": "slide_up",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡un reto!"
+  },
+  {
+   "toma": "L3",
+   "t": 282.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 3: reto en casa"
+  },
+  {
+   "toma": "L3",
+   "t": 282.4,
+   "efecto": "h_tick",
+   "cat": "M",
+   "db": -5,
+   "accion": "el reloj de los 20 segundos"
+  },
+  {
+   "toma": "C34",
+   "t": 289.5,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Plop saluda"
+  },
+  {
+   "toma": "C34",
+   "t": 294.0,
+   "efecto": "fire_puff",
+   "cat": "M",
+   "db": -6,
+   "accion": "guiño al próximo episodio: el ají"
+  },
+  {
+   "toma": "CANAL_FINAL",
+   "t": 295.75,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -2,
+   "accion": "entra la cortinilla final"
+  },
+  {
+   "toma": "CANAL_FINAL",
+   "t": 296.0,
+   "efecto": "outro",
+   "cat": "T",
+   "db": 0,
+   "accion": "cortinilla final"
+  }
+ ]
+}

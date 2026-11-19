@@ -52,3 +52,36 @@ Herramientas nuevas:
   - arma una pista de efectos y una mezcla por idioma, a -16 LUFS y -1,5 dBTP;
   - comprueba que la pista original quede idéntica fuera de los rellenos.
 - **`herramientas/verificar.py`:** compara la transcripción de Scribe con el guion, frase por frase. Para el hindi admite préstamos escritos en alfabeto latino.
+
+## Ep. 2 · ¿Por qué el jabón quita la grasa y el agua no? (voz + efectos reutilizados)
+
+Mismo flujo de voz que el Ep. 3: 39 frases × 5 idiomas, todas dentro de su ventana y sin anclas de acción.
+
+- **Aceleraciones:** la mayor es de 6 % (PT L1).
+- **Verificación con Scribe:**
+  - ES, EN, PT y HI: 39/39.
+  - FR: la voz decía «Pipou». Se regrabaron 5 frases, que ya dicen «Pipo». C03 sigue diciendo «Pipou» porque su regrabación no se hizo (ver `qa/fr_qa.txt`).
+
+**Efectos: 102 entradas sin generar ninguno nuevo** (0 créditos de ElevenLabs):
+- 66 salen de la biblioteca de ElevenLabs Sound Effects v3 del Ep. 3;
+- 36 son los efectos propios que ya existían para este Ep. 2.
+
+Todos están colocados en el segundo exacto de su acción en pantalla, medido con el análisis de movimiento y hojas de contacto a 2 fps.
+
+| Categoría | Pedido | Entregado |
+|---|---|---|
+| Foley de movimiento y textura (`F`) | 45–65 | 59 |
+| Acentos de expresión / *mickey mousing* (`M`) | 25–35 | 27 |
+| Transiciones y refuerzos visuales (`T`) | 12–20 | 16 |
+
+Archivos en `E02/`:
+- **Guion:** `guion_e02.py` → `guion_5_idiomas.json`. Incluye dos correcciones para que cuadre con la imagen, en C27 y C34.
+- **Efectos:** `efectos_e02.py` → `efectos.json`. Cada sonido indica su biblioteca de origen (`fuente`) y su archivo. La hoja legible es `E02_hoja_de_efectos.csv`.
+- **Rellenos en los silencios:** sintetizados con código, igual que en el Ep. 3, con temas propios de este episodio: agua, idea, molécula, personaje y lámina. Hay una lista por idioma en `rellenos_por_idioma/`.
+- **Scripts de este episodio:**
+  - `montar_e02.py` y `verificar_e02.py`;
+  - `efectos_montar_e02.py`, que lee cada sonido de la ruta indicada en `efectos.json` y por eso admite varias bibliotecas;
+  - `efectos_relleno_e02.py`;
+  - `informe_e02.py`;
+  - `qa_fr_extra.py`.
+- **Documentación:** los tiempos están en `INFORME_SINCRONIZACION.txt` y las instrucciones de uso en `LEEME.md`.
