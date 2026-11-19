@@ -1,0 +1,1184 @@
+{
+ "lib": {
+  "bite": {
+   "cat": "F",
+   "prompt": "Single crunchy bite into a crisp fresh pepper, close-up foley",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "squish": {
+   "cat": "F",
+   "prompt": "Soft squishy modeling clay squeeze, small and short",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "step": {
+   "cat": "F",
+   "prompt": "Single soft rubbery footstep of a small toy on a wooden table",
+   "max": 0.35,
+   "modo": "hit"
+  },
+  "shuffle": {
+   "cat": "F",
+   "prompt": "Small clay puppet shuffling and wiggling in place, soft rubbery rustles",
+   "max": 1.4,
+   "modo": "bed"
+  },
+  "chili_rub": {
+   "cat": "F",
+   "prompt": "Firm rubbery vegetable shaken in a small hand, soft squeaks and rubbing",
+   "max": 1.2,
+   "modo": "bed"
+  },
+  "gulp_water": {
+   "cat": "F",
+   "prompt": "Cartoon character gulping water quickly from a plastic cup, three gulps",
+   "max": 1.6,
+   "modo": "hit"
+  },
+  "slosh": {
+   "cat": "F",
+   "prompt": "Water sloshing inside a small plastic cup",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "plate": {
+   "cat": "F",
+   "prompt": "Rubber vegetable rocking gently on a ceramic plate, light rattle and clink",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "rotate": {
+   "cat": "F",
+   "prompt": "Object slowly turning on a wooden table, soft continuous scraping",
+   "max": 4.5,
+   "modo": "bed"
+  },
+  "slice": {
+   "cat": "F",
+   "prompt": "Knife slicing cleanly through a crisp pepper",
+   "max": 0.7,
+   "modo": "hit"
+  },
+  "seeds": {
+   "cat": "F",
+   "prompt": "Small dry seeds rattling softly",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "roll": {
+   "cat": "F",
+   "prompt": "Small rubber ball rolling slowly across a soft surface",
+   "max": 3.6,
+   "modo": "bed"
+  },
+  "land": {
+   "cat": "F",
+   "prompt": "Small soft rubber ball dropping and landing with a gentle thud",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "tongue": {
+   "cat": "F",
+   "prompt": "Wet cartoon tongue sticking out, short slurp",
+   "max": 0.7,
+   "modo": "hit"
+  },
+  "plip": {
+   "cat": "F",
+   "prompt": "Single tiny water droplet, small plip",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "splash": {
+   "cat": "F",
+   "prompt": "Single water drop falling and splashing on a wet surface",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "milk_glass": {
+   "cat": "F",
+   "prompt": "Glass of milk set down on a table, gentle glass clink and liquid swirl",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "milk_gulp": {
+   "cat": "F",
+   "prompt": "Slow satisfied gulps of milk from a glass",
+   "max": 2.2,
+   "modo": "hit"
+  },
+  "peck": {
+   "cat": "F",
+   "prompt": "Small bird beak pecking a firm vegetable, one quick light tap",
+   "max": 0.25,
+   "modo": "hit"
+  },
+  "hop": {
+   "cat": "F",
+   "prompt": "Tiny bird hopping on a table, one soft light patter",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "flutter": {
+   "cat": "F",
+   "prompt": "Small bird wings fluttering, quick takeoff",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "balls_away": {
+   "cat": "F",
+   "prompt": "Handful of small rubber balls tumbling and rolling away",
+   "max": 1.8,
+   "modo": "hit"
+  },
+  "cheek_rub": {
+   "cat": "F",
+   "prompt": "Clay hands pressing onto cheeks, soft squeaky rub",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "arm_swish": {
+   "cat": "F",
+   "prompt": "Quick soft swish of a small arm waving",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "fire_puff": {
+   "cat": "M",
+   "prompt": "Comedic cartoon fire puff whoosh, short flame burst",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "tremble": {
+   "cat": "M",
+   "prompt": "Cartoon wobble rattle, comedic trembling shake",
+   "max": 1.6,
+   "modo": "bed"
+  },
+  "frost": {
+   "cat": "M",
+   "prompt": "Light frosty ice twinkle, cold shimmer",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "ding": {
+   "cat": "M",
+   "prompt": "Bright cartoon idea ding, single small bell",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "dragon": {
+   "cat": "M",
+   "prompt": "Tiny cute cartoon dragon roar with a little fire puff",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "squint": {
+   "cat": "M",
+   "prompt": "Short suspicious cartoon squeak, rising",
+   "max": 0.5,
+   "modo": "hit"
+  },
+  "think": {
+   "cat": "M",
+   "prompt": "Cartoon pondering sound, gentle wooden tick tock",
+   "max": 1.6,
+   "modo": "bed"
+  },
+  "sparkle": {
+   "cat": "M",
+   "prompt": "Short magical sparkle twinkle",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "boing": {
+   "cat": "M",
+   "prompt": "Cartoon boing spring, bouncy",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "alarm": {
+   "cat": "M",
+   "prompt": "Small toy alarm beeping, cartoon, fast beeps",
+   "max": 1.4,
+   "modo": "hit"
+  },
+  "click_on": {
+   "cat": "M",
+   "prompt": "Toy button click followed by a bright electronic blip",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "zap": {
+   "cat": "M",
+   "prompt": "Cartoon electric spark zipping along a wire, traveling zap",
+   "max": 2.5,
+   "modo": "hit"
+  },
+  "siren": {
+   "cat": "M",
+   "prompt": "Short toy siren wail, comedic",
+   "max": 1.8,
+   "modo": "hit"
+  },
+  "key_lock": {
+   "cat": "M",
+   "prompt": "Small key sliding into a lock and clicking",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "slide_up": {
+   "cat": "M",
+   "prompt": "Slide whistle going up quickly, comedic surprise",
+   "max": 0.7,
+   "modo": "hit"
+  },
+  "slide_down": {
+   "cat": "M",
+   "prompt": "Slide whistle going down, comedic fail",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "steam": {
+   "cat": "M",
+   "prompt": "Cartoon steam puff from ears, short hiss whistle",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "magnet": {
+   "cat": "M",
+   "prompt": "Cartoon magnet pull, shimmering zoop",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "power_down": {
+   "cat": "M",
+   "prompt": "Cartoon power down, descending electronic tones",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "relief": {
+   "cat": "M",
+   "prompt": "Gentle soft chime, relaxing, short",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "chirp": {
+   "cat": "M",
+   "prompt": "Small songbird chirp, two cheerful notes",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "pop": {
+   "cat": "M",
+   "prompt": "Cartoon pop, cork-like, short",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "uh_oh": {
+   "cat": "M",
+   "prompt": "Short descending cartoon worried tones, two notes",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "whoosh": {
+   "cat": "T",
+   "prompt": "Fast airy whoosh, swish transition",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "zoom": {
+   "cat": "T",
+   "prompt": "Short rising whoosh, zoom in transition",
+   "max": 1.4,
+   "modo": "hit"
+  },
+  "logo": {
+   "cat": "T",
+   "prompt": "Playful short xylophone and glockenspiel flourish jingle, cheerful sound logo",
+   "max": 3.6,
+   "modo": "hit"
+  },
+  "swipe": {
+   "cat": "T",
+   "prompt": "Soft swipe swish with a gentle chime, page transition",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "shimmer": {
+   "cat": "T",
+   "prompt": "Soft magical shimmer swell, rising",
+   "max": 1.6,
+   "modo": "hit"
+  },
+  "rev_cymbal": {
+   "cat": "T",
+   "prompt": "Short reverse cymbal swell",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "bubble": {
+   "cat": "T",
+   "prompt": "Bubbly watery swoosh transition",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "outro": {
+   "cat": "T",
+   "prompt": "Cheerful short xylophone outro jingle, ending flourish",
+   "max": 3.6,
+   "modo": "hit"
+  }
+ },
+ "cues": [
+  {
+   "toma": "C01",
+   "t": 0.1,
+   "efecto": "chili_rub",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo sostiene el ají contra la boca"
+  },
+  {
+   "toma": "C01",
+   "t": 0.35,
+   "efecto": "bite",
+   "cat": "F",
+   "db": 0,
+   "accion": "el mordisco"
+  },
+  {
+   "toma": "C01",
+   "t": 0.9,
+   "efecto": "fire_puff",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡fuego en la boca!"
+  },
+  {
+   "toma": "C01",
+   "t": 1.5,
+   "efecto": "tremble",
+   "cat": "M",
+   "db": -3,
+   "accion": "Pipo tiembla cada vez más"
+  },
+  {
+   "toma": "C01",
+   "t": 3.3,
+   "efecto": "squish",
+   "cat": "F",
+   "db": 0,
+   "accion": "aparta el ají a un lado"
+  },
+  {
+   "toma": "C01",
+   "t": 5.8,
+   "efecto": "shuffle",
+   "cat": "F",
+   "db": -2,
+   "accion": "se sacude"
+  },
+  {
+   "toma": "C02",
+   "t": 9.2,
+   "efecto": "frost",
+   "cat": "M",
+   "db": -3,
+   "accion": "el ají está frío"
+  },
+  {
+   "toma": "C03",
+   "t": 16.75,
+   "efecto": "squint",
+   "cat": "M",
+   "db": -2,
+   "accion": "Plop entrecierra los ojos"
+  },
+  {
+   "toma": "C03",
+   "t": 17.96,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop se mueve, sospechando"
+  },
+  {
+   "toma": "CANAL_INICIO",
+   "t": 23.7,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -2,
+   "accion": "entra la cortinilla"
+  },
+  {
+   "toma": "CANAL_INICIO",
+   "t": 24.0,
+   "efecto": "logo",
+   "cat": "T",
+   "db": 0,
+   "accion": "cortinilla del canal"
+  },
+  {
+   "toma": "C04",
+   "t": 29.0,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo levanta la mano"
+  },
+  {
+   "toma": "C04",
+   "t": 29.1,
+   "efecto": "ding",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡idea!"
+  },
+  {
+   "toma": "C04",
+   "t": 31.0,
+   "efecto": "dragon",
+   "cat": "M",
+   "db": -3,
+   "accion": "el dragón chiquito"
+  },
+  {
+   "toma": "C05",
+   "t": 36.54,
+   "efecto": "plate",
+   "cat": "F",
+   "db": 0,
+   "accion": "el ají se tambalea en el plato"
+  },
+  {
+   "toma": "C06",
+   "t": 44.3,
+   "efecto": "slosh",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo toma la taza azul"
+  },
+  {
+   "toma": "C06",
+   "t": 45.12,
+   "efecto": "gulp_water",
+   "cat": "F",
+   "db": 0,
+   "accion": "bebe agua"
+  },
+  {
+   "toma": "C06",
+   "t": 47.04,
+   "efecto": "shuffle",
+   "cat": "F",
+   "db": -2,
+   "accion": "se mueve inquieto"
+  },
+  {
+   "toma": "C06",
+   "t": 47.88,
+   "efecto": "gulp_water",
+   "cat": "F",
+   "db": -1,
+   "accion": "bebe otra vez"
+  },
+  {
+   "toma": "C06",
+   "t": 49.79,
+   "efecto": "slide_down",
+   "cat": "M",
+   "db": -3,
+   "accion": "el picor se riega: no funciona"
+  },
+  {
+   "toma": "C07",
+   "t": 52.79,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Plop se lleva la mano al mentón"
+  },
+  {
+   "toma": "C07",
+   "t": 53.0,
+   "efecto": "think",
+   "cat": "M",
+   "db": -6,
+   "accion": "Plop piensa"
+  },
+  {
+   "toma": "C08",
+   "t": 60.38,
+   "efecto": "step",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo se inclina hacia el ají"
+  },
+  {
+   "toma": "C08",
+   "t": 62.46,
+   "efecto": "sparkle",
+   "cat": "M",
+   "db": -3,
+   "accion": "¡gran pista!"
+  },
+  {
+   "toma": "C09",
+   "t": 69.29,
+   "efecto": "rotate",
+   "cat": "F",
+   "db": -3,
+   "accion": "el ají gira (vista cenital)"
+  },
+  {
+   "toma": "C09",
+   "t": 74.8,
+   "efecto": "rev_cymbal",
+   "cat": "T",
+   "db": -3,
+   "accion": "sube hacia el corte"
+  },
+  {
+   "toma": "C09",
+   "t": 75.85,
+   "efecto": "slice",
+   "cat": "F",
+   "db": 0,
+   "accion": "corte: el ají se abre"
+  },
+  {
+   "toma": "C10",
+   "t": 76.0,
+   "efecto": "zoom",
+   "cat": "T",
+   "db": -2,
+   "accion": "zoom al interior"
+  },
+  {
+   "toma": "C10",
+   "t": 77.0,
+   "efecto": "seeds",
+   "cat": "F",
+   "db": -2,
+   "accion": "semillas y venitas"
+  },
+  {
+   "toma": "C10",
+   "t": 77.5,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -3,
+   "accion": "aparece el culpable"
+  },
+  {
+   "toma": "C11",
+   "t": 83.9,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -3,
+   "accion": "cambio de plano"
+  },
+  {
+   "toma": "C11",
+   "t": 85.54,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -3,
+   "accion": "las bolitas de capsaicina se menean"
+  },
+  {
+   "toma": "C11",
+   "t": 86.6,
+   "efecto": "sparkle",
+   "cat": "M",
+   "db": -4,
+   "accion": "pintada de amarillo"
+  },
+  {
+   "toma": "C12",
+   "t": 91.9,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -3,
+   "accion": "cambio de plano"
+  },
+  {
+   "toma": "C12",
+   "t": 92.67,
+   "efecto": "tongue",
+   "cat": "F",
+   "db": 0,
+   "accion": "Plop saca la lengua"
+  },
+  {
+   "toma": "C12",
+   "t": 93.33,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -3,
+   "accion": "aparecen los botones de alarma"
+  },
+  {
+   "toma": "C13",
+   "t": 102.0,
+   "efecto": "land",
+   "cat": "F",
+   "db": 0,
+   "accion": "la bolita naranja cae sobre la lengua"
+  },
+  {
+   "toma": "C13",
+   "t": 102.1,
+   "efecto": "alarm",
+   "cat": "M",
+   "db": -5,
+   "accion": "¡cuidado!"
+  },
+  {
+   "toma": "C13",
+   "t": 103.42,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "reacción"
+  },
+  {
+   "toma": "L1",
+   "t": 108.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 1"
+  },
+  {
+   "toma": "C14",
+   "t": 115.12,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo gesticula"
+  },
+  {
+   "toma": "C14",
+   "t": 118.5,
+   "efecto": "click_on",
+   "cat": "M",
+   "db": -4,
+   "accion": "nombre de robot"
+  },
+  {
+   "toma": "C15",
+   "t": 122.1,
+   "efecto": "roll",
+   "cat": "F",
+   "db": -2,
+   "accion": "la bolita amarilla rueda"
+  },
+  {
+   "toma": "C15",
+   "t": 126.1,
+   "efecto": "key_lock",
+   "cat": "M",
+   "db": -2,
+   "accion": "llega al botón: la llave encaja"
+  },
+  {
+   "toma": "C16",
+   "t": 130.17,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Plop levanta los brazos"
+  },
+  {
+   "toma": "C16",
+   "t": 130.3,
+   "efecto": "slide_up",
+   "cat": "M",
+   "db": -3,
+   "accion": "¡ya lo ve venir!"
+  },
+  {
+   "toma": "C17",
+   "t": 139.33,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop se mueve"
+  },
+  {
+   "toma": "C17",
+   "t": 141.29,
+   "efecto": "click_on",
+   "cat": "M",
+   "db": -2,
+   "accion": "el botón se enciende por error"
+  },
+  {
+   "toma": "C18",
+   "t": 147.0,
+   "efecto": "zap",
+   "cat": "M",
+   "db": -3,
+   "accion": "la chispa viaja de la lengua a la cabeza"
+  },
+  {
+   "toma": "C18",
+   "t": 149.5,
+   "efecto": "alarm",
+   "cat": "M",
+   "db": -5,
+   "accion": "se encienden las luces de alarma"
+  },
+  {
+   "toma": "C19",
+   "t": 154.5,
+   "efecto": "siren",
+   "cat": "M",
+   "db": -6,
+   "accion": "¡alarma, algo muy caliente!"
+  },
+  {
+   "toma": "C20",
+   "t": 163.54,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo se tapa la boca"
+  },
+  {
+   "toma": "C20",
+   "t": 164.21,
+   "efecto": "steam",
+   "cat": "M",
+   "db": -4,
+   "accion": "siente fuego"
+  },
+  {
+   "toma": "C20",
+   "t": 168.5,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "abre los brazos"
+  },
+  {
+   "toma": "C21",
+   "t": 171.0,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota de sudor"
+  },
+  {
+   "toma": "C21",
+   "t": 172.5,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota de sudor"
+  },
+  {
+   "toma": "C21",
+   "t": 174.25,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota de sudor"
+  },
+  {
+   "toma": "C21",
+   "t": 175.5,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota de sudor"
+  },
+  {
+   "toma": "C21",
+   "t": 176.5,
+   "efecto": "plip",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota de sudor"
+  },
+  {
+   "toma": "C22",
+   "t": 178.54,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Plop, preocupado"
+  },
+  {
+   "toma": "C22",
+   "t": 180.38,
+   "efecto": "uh_oh",
+   "cat": "M",
+   "db": -4,
+   "accion": "¿se está quemando?"
+  },
+  {
+   "toma": "C23",
+   "t": 186.5,
+   "efecto": "relief",
+   "cat": "M",
+   "db": -5,
+   "accion": "¡no, Plop! tu lengua está perfecta"
+  },
+  {
+   "toma": "C23",
+   "t": 187.38,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop se calma"
+  },
+  {
+   "toma": "C24",
+   "t": 193.85,
+   "efecto": "bubble",
+   "cat": "T",
+   "db": -3,
+   "accion": "entra el agua"
+  },
+  {
+   "toma": "C24",
+   "t": 194.9,
+   "efecto": "splash",
+   "cat": "F",
+   "db": 0,
+   "accion": "cae una gota y salpica"
+  },
+  {
+   "toma": "C24",
+   "t": 196.1,
+   "efecto": "splash",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota"
+  },
+  {
+   "toma": "C24",
+   "t": 197.4,
+   "efecto": "splash",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota"
+  },
+  {
+   "toma": "C24",
+   "t": 198.75,
+   "efecto": "splash",
+   "cat": "F",
+   "db": 0,
+   "accion": "gota"
+  },
+  {
+   "toma": "C25",
+   "t": 202.46,
+   "efecto": "step",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo camina"
+  },
+  {
+   "toma": "C25",
+   "t": 203.3,
+   "efecto": "step",
+   "cat": "F",
+   "db": 0,
+   "accion": "paso"
+  },
+  {
+   "toma": "C25",
+   "t": 204.1,
+   "efecto": "step",
+   "cat": "F",
+   "db": 0,
+   "accion": "paso"
+  },
+  {
+   "toma": "C25",
+   "t": 204.92,
+   "efecto": "fire_puff",
+   "cat": "M",
+   "db": -4,
+   "accion": "pica en más lugares"
+  },
+  {
+   "toma": "C25",
+   "t": 206.79,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -1,
+   "accion": "gira la cabeza"
+  },
+  {
+   "toma": "C26",
+   "t": 209.0,
+   "efecto": "rev_cymbal",
+   "cat": "T",
+   "db": -3,
+   "accion": "sube hacia la solución"
+  },
+  {
+   "toma": "C26",
+   "t": 210.3,
+   "efecto": "milk_glass",
+   "cat": "F",
+   "db": 0,
+   "accion": "el vaso de leche"
+  },
+  {
+   "toma": "C26",
+   "t": 210.6,
+   "efecto": "ding",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡la solución!"
+  },
+  {
+   "toma": "C27",
+   "t": 219.25,
+   "efecto": "land",
+   "cat": "F",
+   "db": 0,
+   "accion": "cae una bolita de caseína"
+  },
+  {
+   "toma": "C27",
+   "t": 220.04,
+   "efecto": "magnet",
+   "cat": "M",
+   "db": -3,
+   "accion": "atrapa la capsaicina como un imán"
+  },
+  {
+   "toma": "C27",
+   "t": 220.3,
+   "efecto": "land",
+   "cat": "F",
+   "db": 0,
+   "accion": "otra bolita"
+  },
+  {
+   "toma": "C27",
+   "t": 223.0,
+   "efecto": "land",
+   "cat": "F",
+   "db": 0,
+   "accion": "otra bolita"
+  },
+  {
+   "toma": "C28",
+   "t": 227.9,
+   "efecto": "balls_away",
+   "cat": "F",
+   "db": -1,
+   "accion": "la capsaicina se va rodando"
+  },
+  {
+   "toma": "C28",
+   "t": 230.0,
+   "efecto": "power_down",
+   "cat": "M",
+   "db": -3,
+   "accion": "los botones se apagan"
+  },
+  {
+   "toma": "C29",
+   "t": 234.29,
+   "efecto": "milk_gulp",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo bebe leche"
+  },
+  {
+   "toma": "C29",
+   "t": 236.8,
+   "efecto": "relief",
+   "cat": "M",
+   "db": -5,
+   "accion": "¡qué alivio!"
+  },
+  {
+   "toma": "C30",
+   "t": 242.29,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Plop asiente"
+  },
+  {
+   "toma": "L2",
+   "t": 250.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 2"
+  },
+  {
+   "toma": "L2",
+   "t": 256.4,
+   "efecto": "shimmer",
+   "cat": "T",
+   "db": -4,
+   "accion": "sube hacia el dato extra"
+  },
+  {
+   "toma": "C31",
+   "t": 258.83,
+   "efecto": "peck",
+   "cat": "F",
+   "db": 0,
+   "accion": "el pájaro picotea"
+  },
+  {
+   "toma": "C31",
+   "t": 259.5,
+   "efecto": "chirp",
+   "cat": "M",
+   "db": -3,
+   "accion": "pío"
+  },
+  {
+   "toma": "C31",
+   "t": 260.17,
+   "efecto": "peck",
+   "cat": "F",
+   "db": 0,
+   "accion": "picotazo"
+  },
+  {
+   "toma": "C31",
+   "t": 261.67,
+   "efecto": "peck",
+   "cat": "F",
+   "db": 0,
+   "accion": "picotazo"
+  },
+  {
+   "toma": "C31",
+   "t": 263.0,
+   "efecto": "peck",
+   "cat": "F",
+   "db": 0,
+   "accion": "picotazo"
+  },
+  {
+   "toma": "C31",
+   "t": 264.38,
+   "efecto": "peck",
+   "cat": "F",
+   "db": 0,
+   "accion": "picotazo"
+  },
+  {
+   "toma": "C32",
+   "t": 266.8,
+   "efecto": "hop",
+   "cat": "F",
+   "db": 0,
+   "accion": "el pájaro salta"
+  },
+  {
+   "toma": "C32",
+   "t": 267.8,
+   "efecto": "hop",
+   "cat": "F",
+   "db": 0,
+   "accion": "salto"
+  },
+  {
+   "toma": "C32",
+   "t": 268.8,
+   "efecto": "hop",
+   "cat": "F",
+   "db": 0,
+   "accion": "salto"
+  },
+  {
+   "toma": "C32",
+   "t": 269.2,
+   "efecto": "chirp",
+   "cat": "M",
+   "db": -4,
+   "accion": "pío"
+  },
+  {
+   "toma": "C32",
+   "t": 270.58,
+   "efecto": "flutter",
+   "cat": "F",
+   "db": -1,
+   "accion": "aletea"
+  },
+  {
+   "toma": "C32",
+   "t": 272.0,
+   "efecto": "hop",
+   "cat": "F",
+   "db": 0,
+   "accion": "salto"
+  },
+  {
+   "toma": "C33",
+   "t": 274.17,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Plop gesticula"
+  },
+  {
+   "toma": "C33",
+   "t": 280.2,
+   "efecto": "slide_up",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡un reto!"
+  },
+  {
+   "toma": "L3",
+   "t": 282.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 3"
+  },
+  {
+   "toma": "C34",
+   "t": 288.67,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo saluda"
+  },
+  {
+   "toma": "C34",
+   "t": 290.17,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -4,
+   "accion": "saluda otra vez"
+  },
+  {
+   "toma": "CANAL_FINAL",
+   "t": 295.75,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -2,
+   "accion": "entra la cortinilla final"
+  },
+  {
+   "toma": "CANAL_FINAL",
+   "t": 296.0,
+   "efecto": "outro",
+   "cat": "T",
+   "db": 0,
+   "accion": "cortinilla final"
+  }
+ ]
+}

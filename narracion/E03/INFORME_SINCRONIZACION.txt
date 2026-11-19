@@ -1,0 +1,594 @@
+INFORME DE SINCRONIZACIÓN · Ep. 3 · ¿Por qué pica el ají si no está caliente?
+Voz: José Gregorio Torres (clonada) · Modelo: Eleven v4 · Video: 300,000 s
+
+── Español (ES) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C06 ×1.023
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:07.500  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:15.260  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:22.730  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.150  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.100  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.150  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.599  [0:44.300 – 0:51.600]  1.023
+C07             0:52.300  0:57.900  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.330  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.350  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:22.600  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:31.280  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.310  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.810  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.100  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  2:01.010  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:08.470  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.650  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.580  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:32.130  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:40.870  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:48.060  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.420  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:04.460  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:13.500  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:20.880  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:28.870  [3:22.300 – 3:29.600]  1.0
+C26             3:30.300  3:35.290  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:44.710  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.230  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.730  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:08.570  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.450  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:24.910  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.870  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.080  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.510  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.420  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.980  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+es: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       1.00  oído: Un mordisquito a este ají y ¡fuego en la boca! Pero espera, el ají no está caliente.
+OK  E03_C02       1.00  oído: Tócalo. Está frío. No hay llamas ni humo. Entonces, ¿por qué sentimos que la boca arde?
+OK  E03_C03       1.00  oído: Plop sospecha que aquí hay un truco. Y tiene razón. El ají es un gran mentiroso.
+OK  CANAL_INICIO  1.00  oído: La ciencia con Pipo y Plop.
+OK  E03_C04       1.00  oído: La idea loca de Pipo: dentro del ají vive un dragón chiquito que escupe fuego.
+OK  E03_C05       1.00  oído: Si hubiera fuego de verdad, el ají echaría humo y quemaría el plato. Y está fresquito.
+OK  E03_C06       1.00  oído: Segunda idea: apagarlo con agua, como una fogata. Pero ¡el picor se riega por toda la boca!
+OK  E03_C07       1.00  oído: Plop se pregunta: si el agua apaga el fuego de verdad, ¿por qué no apaga este?
+OK  E03_C08       0.97  oído: Gran pista, Plop. Si el agua no lo apaga, quizá no es fuego, quizá es otra cosa. ¿Qué
+      diferencias: guion «» → oído «qué»
+      (frase en la pista de verificación desde 64.72 s)
+OK  E03_C09       0.97  oído: será lo que nos engaña? ¿Tú qué crees? Piénsalo. Vamos a abrir el ají.
+      diferencias: guion «qué» → oído «»
+      (frase en la pista de verificación desde 72.88 s)
+OK  E03_C10       1.00  oído: Hagamos zoom. Dentro del ají hay semillas y venitas blancas. Ahí se esconde el culpable.
+OK  E03_C11       1.00  oído: Se llama capsaicina, una sustancia aceitosa e invisible. La pintamos de amarillo para verla.
+OK  E03_C12       1.00  oído: Plop también probó y saca la lengua. Mira, está llena de botones de alarma diminutos.
+OK  E03_C13       1.00  oído: Su trabajo es avisar del calor. Si la sopa quema, se encienden y gritan: «¡Cuidado!».
+OK  E03_L1        1.00  oído: Capsaicina en el ají, botones en la lengua. ¿Y si se encuentran?
+OK  E03_C14       1.00  oído: Pipo pregunta cómo se llaman esos botones. Tienen nombre de robot: TRPV1.
+OK  E03_C15       1.00  oído: Y aquí está el truco. La capsaicina tiene justo la forma de la llave de esos botones.
+OK  E03_C16       1.00  oído: Plop ya lo ve venir. Una llave falsa. Va a encender la alarma sin que haya calor.
+OK  E03_C17       1.00  oído: Eso es justo lo que pasa. La capsaicina toca el botón de Plop y se enciende por error.
+OK  E03_C18       1.00  oído: El botón manda un aviso urgente por los nervios, como por un cable, hasta la cabeza de Plop.
+OK  E03_C19       1.00  oído: Su cerebro recibe el aviso: «Alarma, aquí hay algo muy caliente». Aunque no sea verdad.
+OK  E03_C20       1.00  oído: A Pipo le pasa lo mismo. Su cerebro se lo cree todo y siente fuego donde no hay.
+OK  E03_C21       1.00  oído: Y como su cerebro cree que se quema, intenta enfriarlo. Mira cómo suda Pipo.
+OK  E03_C22       1.00  oído: Plop pregunta lo que todos pensamos: entonces, ¿mi lengua se está quemando o no?
+OK  E03_C23       0.97  oído: No, Plop, tu lengua está perfecta. Es una falsa alarma. El ají engaña a tus sensores. ¿Y
+      diferencias: guion «» → oído «y»
+      (frase en la pista de verificación desde 196.24 s)
+OK  E03_C24       0.97  oído: el agua? La capsaicina es aceitosa y el agua resbala sobre el aceite. Solo la pasea.
+      diferencias: guion «y» → oído «»
+      (frase en la pista de verificación desde 205.44 s)
+OK  E03_C25       1.00  oído: Por eso, después del agua, ¡pica en más lugares! Pipo necesita otro plan. Y rápido.
+OK  E03_C26       1.00  oído: Plop tiene la solución: leche. ¿Qué tendrá la leche que no tiene el agua?
+OK  E03_C27       1.00  oído: Tiene caseína, una proteína que adora las grasas y atrapa a la capsaicina como un imán.
+OK  E03_C28       1.00  oído: La despega de los botones de Plop y se la lleva. Se apagan y la alarma termina.
+OK  E03_C29       1.00  oído: Qué alivio. No había dragón, Pipo. Era una llave falsa encendiendo tus sensores.
+OK  E03_C30       1.00  oído: Tu pista era buena, Plop. No era fuego, era un aceite. Y a ese lo atrapa la leche.
+OK  E03_L2        1.00  oído: Repasemos. La capsaicina engaña a tus sensores. El agua la pasea y la leche la atrapa.
+OK  E03_C31       1.00  oído: Dato extra: a los pájaros el ají no les pica nada. Sus sensores no reconocen esa llave.
+OK  E03_C32       1.00  oído: Y eso le conviene a la planta. Los pájaros se llevan sus semillas volando a otros lugares.
+OK  E03_C33       0.97  oído: El picante es el truco del ají para elegir quién se lo come. Y ahora, un reto. ¿Quién
+      diferencias: guion «» → oído «quién»
+      (frase en la pista de verificación desde 289.52 s)
+OK  E03_L3        0.96  oído: aguanta más picante en casa? Cuéntales el secreto de la leche.
+      diferencias: guion «quién» → oído «»
+      (frase en la pista de verificación desde 297.52 s)
+OK  E03_C34       1.00  oído: La próxima pregunta es de Plop. ¿Qué es el hipo y por qué no lo puedes parar?
+OK  CANAL_FINAL   1.00  oído: Hasta el próximo misterio.
+
+── English (EN) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C25 ×1.019
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:07.050  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:14.940  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:22.090  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.260  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.150  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:41.880  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.490  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.650  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.660  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.520  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:22.510  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:30.810  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.390  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.700  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.380  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  2:00.750  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.900  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.240  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.310  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:32.630  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:40.510  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:48.160  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:55.970  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:03.390  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:12.800  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:20.690  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:29.600  [3:22.300 – 3:29.600]  1.019
+C26             3:30.300  3:35.130  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:44.010  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.430  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:01.320  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:08.000  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:16.830  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:24.460  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.370  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:39.720  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.410  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.150  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.880  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+en: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       1.00  oído: One little bite of this chili and fire in your mouth. But wait, the chili isn't hot.
+OK  E03_C02       1.00  oído: Touch it. It's cold. No flames, no smoke. So why does it feel like your mouth is burning?
+OK  E03_C03       1.00  oído: Plop suspects there's a trick here, and he's right. The chili is a big fibber.
+OK  CANAL_INICIO  1.00  oído: Science with Pipo and Plop.
+OK  E03_C04       1.00  oído: Pipo's wild idea: inside the chili lives a tiny dragon that breathes fire.
+OK  E03_C05       1.00  oído: If there were real fire, the chili would smoke and burn the plate, and it's nice and cool.
+OK  E03_C06       1.00  oído: Second idea, put it out with water like a campfire, but the burn spreads all over his mouth.
+OK  E03_C07       1.00  oído: Plop wonders, "If water puts out real fire, why doesn't it put out this one?"
+OK  E03_C08       1.00  oído: Great clue, Plop. If water can't put it out, maybe it isn't fire. Maybe it's something else.
+OK  E03_C09       1.00  oído: What could be tricking us? What do you think? Think about it. Let's open the chili.
+OK  E03_C10       1.00  oído: Let's zoom in. Inside the chili are seeds and little white veins. The culprit hides there.
+OK  E03_C11       1.00  oído: It's called capsaicin, an oily, invisible substance. We painted it yellow so we can see it.
+OK  E03_C12       1.00  oído: Plop tried a little bit too and sticks out his tongue. Look, it's full of tiny alarm buttons.
+OK  E03_C13       1.00  oído: Their job is to warn about heat. If soup is too hot, they light up and shout, "Careful!"
+OK  E03_L1        1.00  oído: Capsaicin in the chili, buttons on Plop's tongue, what if they meet?
+OK  E03_C14       1.00  oído: Pipo asks what those buttons are called. They have a robot name, TRPV1.
+OK  E03_C15       1.00  oído: And here's the trick. Capsaicin has exactly the shape of the key to those buttons.
+OK  E03_C16       1.00  oído: Plop sees it coming, a fake key. It's going to set off the alarm with no heat at all.
+OK  E03_C17       1.00  oído: That's exactly what happens. Capsaicin touches Plop's button, and it switches on by mistake.
+OK  E03_C18       1.00  oído: The button sends an urgent message along the nerves, like down a wire, all the way to Plop's head.
+OK  E03_C19       1.00  oído: His brain gets the message, "Alarm, something very hot is here," even though it isn't true.
+OK  E03_C20       1.00  oído: The same thing happens to Pipo. His brain believes it all and feels fire where there is none.
+OK  E03_C21       1.00  oído: And since his brain thinks he's burning, it tries to cool him down. Look at Pipo sweat.
+OK  E03_C22       1.00  oído: Plop asks what we're all thinking. "So is my tongue burning or not?"
+OK  E03_C23       1.00  oído: No, Plop, your tongue is perfectly fine. It's a false alarm. The chili tricks your sensors.
+OK  E03_C24       1.00  oído: And the water? Capsaicin is oily, and water slides right over oil. It just moves it around.
+OK  E03_C25       1.00  oído: That's why after water, it burns in even more places. Pipo needs a new plan, and fast.
+OK  E03_C26       1.00  oído: Plop has the answer: milk. What does milk have that water doesn't?
+OK  E03_C27       1.00  oído: It has casein, a protein that loves fats and grabs capsaicin like a magnet.
+OK  E03_C28       1.00  oído: It pulls it off Plop's buttons and carries it away. They switch off, and the alarm stops.
+OK  E03_C29       1.00  oído: What a relief. There was no dragon, Pipo, just a fake key switching on your heat sensors.
+OK  E03_C30       1.00  oído: Your clue was good, Plop. It wasn't fire. It was an oil, and milk catches that.
+OK  E03_L2        1.00  oído: Let's review. Capsaicin tricks your sensors, water moves it around, and milk catches it.
+OK  E03_C31       1.00  oído: Bonus fact: chili isn't spicy at all for birds. Their sensors don't recognize that key,
+OK  E03_C32       1.00  oído: and that helps the plant. Birds carry its seeds away, flying to new places.
+OK  E03_C33       1.00  oído: Spiciness is the chili's trick for choosing who eats it. And now a challenge.
+OK  E03_L3        1.00  oído: Who at home can handle the most spice? Tell them the milk secret.
+OK  E03_C34       1.00  oído: The next question is Plop's. What are hiccups, and why can't you stop them?
+OK  CANAL_FINAL   1.00  oído: See you at the next mystery.
+
+── Français (FR) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): ninguna
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:07.090  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:14.320  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:21.880  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.400  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:33.800  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:41.780  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.860  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.250  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.050  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:12.500  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:22.310  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:31.210  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:37.950  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:47.170  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.420  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  2:00.390  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.840  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:15.860  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:23.630  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:31.670  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:40.350  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:47.770  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.100  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:03.720  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:12.230  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:20.150  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:28.630  [3:22.300 – 3:29.600]  1.0
+C26             3:30.300  3:34.580  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:44.260  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:51.920  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.780  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:08.110  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:16.180  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.870  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.210  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:39.840  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.060  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.480  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.510  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+fr: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       0.98  oído: Oh, une petite bouchée de ce piment et le feu dans la bouche. Mais attends, le piment n'est pas chaud.
+      diferencias: guion «» → oído «oh»
+      (frase en la pista de verificación desde 0.00 s)
+OK  E03_C02       0.93  oído: Touche-le, il est froid. Ni flamme ni fumée. Alors pourquoi la bouche semble brûler ?
+      diferencias: guion «flammes» → oído «flamme»
+      (frase en la pista de verificación desde 8.96 s)
+OK  E03_C03       1.00  oído: Plop soupçonne un tour de passe-passe. Et il a raison, le piment est un grand menteur.
+OK  CANAL_INICIO  1.00  oído: La science avec Pipo et Plop.
+OK  E03_C04       1.00  oído: L'idée folle de Pipo : dans le piment vit un minuscule dragon qui crache du feu.
+OK  E03_C05       1.00  oído: S'il y avait du vrai feu, le piment fumerait et brûlerait l'assiette et il est tout frais.
+OK  E03_C06       1.00  oído: Deuxième idée : l'éteindre avec de l'eau, comme un feu de camp. Mais ça pique dans toute la bouche.
+OK  E03_C07       1.00  oído: Plop se demande : si l'eau éteint le vrai feu, pourquoi n'éteint-elle pas celui-ci ?
+OK  E03_C08       0.98  oído: Super indice, hé, Plop. Si l'eau ne l'éteint pas, ce n'est peut-être pas du feu, c'est autre chose.
+      diferencias: guion «» → oído «hé»
+      (frase en la pista de verificación desde 60.96 s)
+OK  E03_C09       1.00  oído: Qu'est-ce qui nous trompe, à ton avis ? Réfléchis. Ouvrons le piment.
+OK  E03_C10       1.00  oído: Zoomons. Dans le piment, il y a des graines et de petites veines blanches. Le coupable s'y cache.
+OK  E03_C11       0.92  oído: Elle s'appelle la capsaïcine, une substance huileuse et invisible. On la peint en jaune pour la voir.
+      diferencias: guion «ici» → oído «»; guion «montre» → oído «peint»
+      (frase en la pista de verificación desde 83.52 s)
+OK  E03_C12       1.00  oído: Plop a goûté aussi et tire la langue. Regarde, elle est pleine de minuscules boutons d'alarme.
+OK  E03_C13       1.00  oído: Leur travail : prévenir de la chaleur. Si la soupe brûle, ils s'allument et crient : « Attention !
+OK  E03_L1        0.93  oído: » Capsaïcine dans le piment, bouton sur la langue de Plop. Et s'ils se rencontrent ?
+      diferencias: guion «boutons» → oído «bouton»
+      (frase en la pista de verificación desde 108.72 s)
+OK  E03_C14       1.00  oído: Pipo demande comment s'appellent ces boutons. Ils ont un nom de robot : TRPV1.
+OK  E03_C15       1.00  oído: Et voici l'astuce. La capsaïcine a exactement la forme de la clé de ces boutons.
+OK  E03_C16       1.00  oído: Plop le voit venir. Une fausse clé. Elle va déclencher l'alarme sans aucune chaleur.
+OK  E03_C17       1.00  oído: C'est exactement ça. La capsaïcine touche le bouton de Plop et il s'allume par erreur.
+OK  E03_C18       1.00  oído: Le bouton envoie un message urgent par les nerfs, comme par un fil, jusqu'à la tête de Plop.
+OK  E03_C19       1.00  oído: Son cerveau reçoit le message : « Alerte, il y a quelque chose de très chaud. » Même si c'est faux.
+OK  E03_C20       1.00  oído: Pareil pour Pipo. Son cerveau y croit complètement et sent du feu là où il n'y en a pas.
+OK  E03_C21       1.00  oído: Et comme son cerveau croit qu'il brûle, il essaie de le refroidir. Regarde Pipo transpirer.
+OK  E03_C22       1.00  oído: Plop pose la question que tout le monde se pose. Alors, ma langue brûle ou pas ?
+OK  E03_C23       1.00  oído: Non, Plop, ta langue va très bien. C'est une fausse alerte. Le piment trompe tes capteurs.
+OK  E03_C24       1.00  oído: Et l'eau ? La capsaïcine est huileuse et l'eau glisse sur l'huile. Elle la promène, c'est tout.
+OK  E03_C25       1.00  oído: Voilà pourquoi, après l'eau, ça pique à plus d'endroits. Pipo a besoin d'un autre plan, et vite.
+OK  E03_C26       1.00  oído: Plop a la solution : le lait. Qu'est-ce que le lait a de plus que l'eau ?
+OK  E03_C27       1.00  oído: Il contient de la caséine, une protéine qui adore les graisses et attrape la capsaïcine comme un aimant.
+OK  E03_C28       1.00  oído: Elle la décolle des boutons de Plop et l'emporte. Ils s'éteignent et l'alarme s'arrête.
+OK  E03_C29       1.00  oído: Quel soulagement. Pas de dragon, Pipo. Juste une fausse clé qui allumait tes capteurs.
+OK  E03_C30       1.00  oído: Ton indice était bon, Plop. Ce n'était pas du feu, c'était une huile et le lait l'attrape.
+OK  E03_L2        1.00  oído: Résumons. La capsaïcine trompe tes capteurs, l'eau la promène et le lait l'attrape.
+OK  E03_C31       1.00  oído: Petit bonus : le piment ne pique pas du tout les oiseaux. Leurs capteurs ne reconnaissent pas cette clé.
+OK  E03_C32       1.00  oído: Et ça arrange la plante. Les oiseaux emportent ses graines en volant vers d'autres endroits.
+OK  E03_C33       0.86  oído: Les piquants, c'est l'astuce du piment pour choisir qui le mange. Et maintenant, un défi.
+      diferencias: guion «le goût piquant» → oído «les piquants»
+      (frase en la pista de verificación desde 272.88 s)
+OK  E03_L3        1.00  oído: Qui supporte le mieux le piquant chez toi ? Raconte-leur le secret du lait.
+OK  E03_C34       0.95  oído: La prochaine question vient de Plop. C'est quoi le hockey et pourquoi on ne peut pas l'arrêter ?
+      diferencias: guion «hoquet» → oído «hockey»
+      (frase en la pista de verificación desde 286.40 s)
+OK  CANAL_FINAL   1.00  oído: À la prochaine énigme.
+Retomas verificadas aparte (transcripción de las dos frases nuevas, unidas en una pista corta):
+OK  E03_C11  oído: Elle s'appelle la capsaïcine, une substance huileuse et invisible. Ici, on la montre en jaune pour la voir.
+OK  E03_C33  oído: Le goût piquant, c'est l'astuce du piment pour choisir qui le mange. Et maintenant, un défi.
+(Las diferencias marcadas arriba en C11 y C33 corresponden a las tomas anteriores, que se reemplazaron.)
+
+
+── Português (BR) (PT) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C01 ×1.007, C06 ×1.047, L1 ×1.008
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:07.596  [0:00.300 – 0:07.600]  1.007
+C02             0:08.300  0:15.380  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:22.960  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.290  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.500  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.740  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.600  [0:44.300 – 0:51.600]  1.047
+C07             0:52.300  0:57.790  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:07.010  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.720  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:22.700  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:31.030  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.210  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:47.060  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.600  [1:48.300 – 1:53.600]  1.008
+C14             1:54.300  2:00.870  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:08.780  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.440  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.630  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:32.130  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:41.230  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:48.890  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.470  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:04.710  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:13.340  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:20.670  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:28.950  [3:22.300 – 3:29.600]  1.0
+C26             3:30.300  3:35.660  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:44.420  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.840  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.810  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:07.990  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.230  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:24.790  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.880  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.530  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.190  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.780  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:58.030  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+pt: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       1.00  oído: Uma mordidinha nesta pimenta e fogo na boca. Mas espera, a pimenta não está quente.
+OK  E03_C02       1.00  oído: Toque nela, está fria, sem chamas, sem fumaça. Então por que a boca parece arder?
+OK  E03_C03       1.00  oído: O Plop desconfia que tem truque aqui. E ele tem razão. A pimenta é uma grande mentirosa.
+OK  CANAL_INICIO  1.00  oído: A ciência com Pipo e Plop.
+OK  E03_C04       1.00  oído: A ideia maluca do Pipo. Dentro da pimenta mora um dragãozinho que cospe fogo.
+OK  E03_C05       1.00  oído: Se fosse fogo de verdade, a pimenta faria fumaça e queimaria o prato. E está fresquinha.
+OK  E03_C06       1.00  oído: Segunda ideia: apagar com água, como uma fogueira. Mas a ardência se espalha pela boca toda.
+OK  E03_C07       1.00  oído: O Plop se pergunta: se a água apaga o fogo de verdade, por que não apaga este?
+OK  E03_C08       1.00  oído: Ótima pista, Plop. Se a água não apaga, talvez não seja fogo, talvez seja outra coisa.
+OK  E03_C09       1.00  oído: O que será que nos engana? O que você acha? Pensa. Vamos abrir a pimenta.
+OK  E03_C10       1.00  oído: Vamos dar zoom. Dentro da pimenta tem sementes e veinhas brancas. O culpado se esconde ali.
+OK  E03_C11       1.00  oído: Ela se chama capsaicina, uma substância oleosa e invisível. Pintamos de amarelo para ver.
+OK  E03_C12       1.00  oído: O Plop também provou e mostra a língua. Olha, ela está cheia de botõezinhos de alarme.
+OK  E03_C13       1.00  oído: O trabalho deles é avisar do calor. Se a sopa queima, eles acendem e gritam: cuidado!
+OK  E03_L1        1.00  oído: Capsaicina na pimenta, botões na língua. E se eles se encontrarem?
+OK  E03_C14       1.00  oído: O Pipo pergunta como se chamam esses botões. Eles têm nome de robô, TRPV1.
+OK  E03_C15       1.00  oído: E aqui está o truque. A capsaicina tem exatamente o formato da chave desses botões.
+OK  E03_C16       1.00  oído: O Plop já sacou. Uma chave falsa vai disparar o alarme sem ter calor nenhum.
+OK  E03_C17       1.00  oído: É exatamente isso que acontece. A capsaicina toca o botão do Plop e ele acende por engano.
+OK  E03_C18       1.00  oído: O botão manda um aviso urgente pelos nervos, como por um fio, até a cabeça do Plop.
+OK  E03_C19       1.00  oído: O cérebro dele recebe o aviso. Alarme, tem algo muito quente aqui, mesmo que não seja verdade.
+OK  E03_C20       1.00  oído: Com o Pipo acontece o mesmo. O cérebro dele acredita em tudo e sente fogo onde não tem.
+OK  E03_C21       1.00  oído: E como o cérebro acha que ele está queimando, tenta esfriar. Olha como o Pipo sua.
+OK  E03_C22       1.00  oído: O Plop pergunta o que todos pensamos. Então, minha língua está queimando ou não?
+OK  E03_C23       1.00  oído: Não, Plop, sua língua está perfeita. É um alarme falso. A pimenta engana seus sensores.
+OK  E03_C24       1.00  oído: E a água? A capsaicina é oleosa e a água escorrega no óleo. Ela só espalha.
+OK  E03_C25       1.00  oído: Por isso, depois da água, arde em mais lugares. O Pipo precisa de outro plano, e rápido.
+OK  E03_C26       1.00  oído: O Plop tem a solução: leite. O que será que o leite tem que a água não tem?
+OK  E03_C27       1.00  oído: Ele tem caseína, uma proteína que adora gordura e prende a capsaicina como um ímã.
+OK  E03_C28       0.94  oído: Ela solta a capsaicina dois botões do Plop e leva embora. Eles apagam e o alarme para.
+      diferencias: guion «dos» → oído «dois»
+      (frase en la pista de verificación desde 243.36 s)
+OK  E03_C29       1.00  oído: Que alívio! Não tinha dragão, Pipo. Era uma chave falsa acendendo seus sensores.
+OK  E03_C30       1.00  oído: Sua pista era boa, Plop. Não era fogo, era um óleo. E o leite pega ele.
+OK  E03_L2        1.00  oído: Vamos revisar. A capsaicina engana seus sensores. A água espalha e o leite prende.
+OK  E03_C31       1.00  oído: Curiosidade. Pimenta não arde nada para os passarinhos. Os sensores deles ignoram essa chave.
+OK  E03_C32       1.00  oído: E isso é bom para a planta. Os passarinhos levam as sementes voando para outros lugares.
+OK  E03_C33       1.00  oído: A ardência é o truque da pimenta para escolher quem come ela. E agora, um desafio.
+OK  E03_L3        1.00  oído: Quem em casa aguenta mais pimenta? Conte o segredo do leite.
+OK  E03_C34       1.00  oído: A próxima pergunta é do Plop. O que é o soluço e por que você não consegue parar?
+OK  CANAL_FINAL   1.00  oído: Até o próximo mistério!
+
+── हिन्दी (Hindi) (HI) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C01 ×1.049, C06 ×1.003, C08 ×1.008, C13 ×1.015, C14 ×1.051, C21 ×1.019, C23 ×1.053, C24 ×1.049, C29 ×1.055
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:07.600  [0:00.300 – 0:07.600]  1.049
+C02             0:08.300  0:15.370  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:22.890  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.770  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.940  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.860  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:51.600  [0:44.300 – 0:51.600]  1.003
+C07             0:52.300  0:58.180  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:07.596  [1:00.300 – 1:07.600]  1.008
+C09             1:08.300  1:13.830  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:23.280  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:30.900  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.790  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:47.600  [1:40.300 – 1:47.600]  1.015
+L1              1:48.300  1:53.300  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  2:01.600  [1:54.300 – 2:01.600]  1.051
+C15             2:02.300  2:08.060  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.130  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.990  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:32.920  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:41.010  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:47.720  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:57.600  [2:50.300 – 2:57.600]  1.019
+C22             2:58.300  3:05.050  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:13.600  [3:06.300 – 3:13.600]  1.053
+C24             3:14.300  3:21.597  [3:14.300 – 3:21.600]  1.049
+C25             3:22.300  3:29.230  [3:22.300 – 3:29.600]  1.0
+C26             3:30.300  3:35.430  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:44.450  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.640  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:01.600  [3:54.300 – 4:01.600]  1.055
+C30             4:02.300  4:09.350  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:16.840  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:25.380  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.800  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:41.010  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:46.680  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.400  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.810  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+hi: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       1.00  oído: इस मिर्च का एक छोटा सा टुकड़ा और मुंह में आग। पर रुको, मिर्च गरम नहीं है।
+OK  E03_C02       1.00  oído: छूकर देखो, यह ठंडी है। ना आग, ना धुआं। तो फिर मुंह क्यों जलता हुआ लगता है?
+OK  E03_C03       1.00  oído: Plop को लगता है कि यहां कोई चाल है और वह सही है। मिर्च बड़ी झूठी है।
+OK  CANAL_INICIO  1.00  oído: पीपो और Plop के साथ विज्ञान।
+OK  E03_C04       0.94  oído: पीपो का मजेदार ख्याल: मिर्च के अंदर एक नन्हा dragon रहता है जो आग उगलता है।
+      diferencias: guion «खयाल» → oído «ख्याल»
+      (frase en la pista de verificación desde 32.88 s)
+OK  E03_C05       1.00  oído: अगर सच में आग होती तो मिर्च से धुआं निकलता और plate जल जाती। पर यह तो ठंडी है।
+OK  E03_C06       0.93  oído: दूसरा ख्याल: पानी से बुझाओ, अलाव की तरह। लेकिन तीखापन पूरे मुंह में फैल गया।
+      diferencias: guion «खयाल» → oído «ख्याल»
+      (frase en la pista de verificación desde 50.48 s)
+OK  E03_C07       1.00  oído: Plop सोचता है, अगर पानी असली आग बुझा देता है तो यह वाली क्यों नहीं बुझती?
+OK  E03_C08       1.00  oído: बढ़िया सुराग Plop। अगर पानी से नहीं बुझती तो शायद यह आग है ही नहीं, कुछ और है।
+OK  E03_C09       1.00  oído: हमें क्या धोखा दे रहा है? तुम्हें क्या लगता है? सोचो। चलो मिर्च खोलते हैं।
+OK  E03_C10       1.00  oído: चलो zoom करें। मिर्च के अंदर बीज और सफेद नसें हैं। असली कसूरवार वहीं छिपा है।
+OK  E03_C11       1.00  oído: इसका नाम है capsaicin, एक तैलीय अदृश्य पदार्थ। हमने इसे पीला रंग दिया है।
+OK  E03_C12       1.00  oído: Plop ने भी थोड़ा चखा और जीभ निकाली। देखो, इस पर alarm के नन्हे-नन्हे button हैं।
+OK  E03_C13       1.00  oído: उनका काम है गर्मी की चेतावनी देना। soup गरम हो तो वे जलकर चिल्लाते हैं, "सावधान!"
+OK  E03_L1        1.00  oído: मिर्च में capsaicin, जीभ पर button, अगर दोनों मिले तो?
+OK  E03_C14       1.00  oído: पीपो पूछता है कि इन बटनों का नाम क्या है। इनका नाम robot जैसा है, TRPV1।
+OK  E03_C15       1.00  oído: और यही है चाल। capsaicin का आकार ठीक उन बटनों की चाबी जैसा है।
+OK  E03_C16       1.00  oído: Plop समझ गया। एक नकली चाबी। बिना गर्मी के ही alarm बजा देगी।
+OK  E03_C17       1.00  oído: ठीक यही होता है। capsaicin Plop के button को छूता है और button गलती से जल उठता है।
+OK  E03_C18       1.00  oído: button नसों से होकर, जैसे किसी तार से Plop के सिर तक एक जरूरी संदेश भेजता है।
+OK  E03_C19       1.00  oído: उसका दिमाग संदेश पाता है, "खतरा, यहां कुछ बहुत गरम है।" भले ही यह सच ना हो।
+OK  E03_C20       1.00  oído: पीपो का दिमाग भी यही मान लेता है और बिना आग के आग महसूस करता है।
+OK  E03_C21       1.00  oído: और दिमाग को लगता है कि वह जल रहा है तो उसे ठंडा करने लगता है। देखो, पीपो को पसीना।
+OK  E03_C22       1.00  oído: Plop वही पूछता है जो हम सब सोच रहे हैं, "तो मेरी जीभ जल रही है या नहीं?"
+OK  E03_C23       1.00  oído: नहीं Plop, तुम्हारी जीभ ठीक है। यह झूठा alarm है। मिर्च sensor को धोखा देती है।
+OK  E03_C24       1.00  oído: और पानी? capsaicin तैलीय है और पानी तेल पर फिसल जाता है, बस उसे फैला देता है।
+OK  E03_C25       1.00  oído: इसीलिए पानी के बाद और ज्यादा जगह तीखा लगता है। पीपो को नई तरकीब चाहिए, और जल्दी।
+OK  E03_C26       1.00  oído: Plop के पास हल है: दूध। दूध में ऐसा क्या है जो पानी में नहीं?
+OK  E03_C27       1.00  oído: इसमें casein है, चिकनाई पसंद protein, जो capsaicin को चुंबक की तरह पकड़ता है।
+OK  E03_C28       1.00  oído: यह उसे Plop के बटनों से छुड़ाकर ले जाता है। button बुझ जाते हैं और alarm बंद।
+OK  E03_C29       1.00  oído: कितनी राहत। dragon नहीं था, पीपो। बस नकली चाबी sensor जला रही थी।
+OK  E03_C30       1.00  oído: तुम्हारा सुराग सही था Plop। वह आग नहीं, तेल था और उसे दूध पकड़ लेता है।
+OK  E03_L2        1.00  oído: capsaicin sensor को धोखा देता है। पानी उसे फैलाता है। दूध उसे पकड़ता है।
+OK  E03_C31       1.00  oído: मजेदार बात: पक्षियों को मिर्च तीखी नहीं लगती। उनके sensor वह चाबी नहीं पहचानते।
+OK  E03_C32       1.00  oído: और इससे पौधे का फायदा है। पक्षी उसके बीज उड़कर दूसरी जगहों पर ले जाते हैं।
+OK  E03_C33       1.00  oído: तीखापन मिर्च की चाल है, यह चुनने की कि उसे कौन खाए। और अब एक चुनौती।
+OK  E03_L3        1.00  oído: घर में कौन ज्यादा तीखा सह सकता है? उन्हें दूध का राज बताओ।
+OK  E03_C34       1.00  oído: अगला सवाल Plop का है। हिचकी क्या है और तुम उसे रोक क्यों नहीं पाते?
+OK  CANAL_FINAL   1.00  oído: अगले रहस्य में मिलते हैं।
+Nota L2: en la toma generada la voz no dijo la palabra inicial «दोहराएँ» («repasemos»). La frase queda completa sin ella
+y el guion se ajustó a lo que realmente se oye.
+
+
+── EFECTOS DE SONIDO (una sola pista para los 5 idiomas) ────────────────────
+Generados con ElevenLabs Sound Effects v3 · colocados en el segundo exacto de cada acción en pantalla.
+Foley de movimiento y textura: 59 entradas (24 sonidos distintos)
+Acentos de expresión (mickey mousing): 33 entradas (23 sonidos distintos)
+Transiciones y refuerzos visuales: 14 entradas (8 sonidos distintos)
+Pista de efectos: -25.0 LUFS integrados · pico -2.6 dBTP
+Mezcla: mientras hay voz, los efectos bajan como mínimo 4 dB y se mantienen 9 dB por debajo del pico de la voz;
+en las pausas suenan completos. Cada mezcla queda a -16 LUFS con pico de -1,5 dBTP.
+
+  n  tiempo     toma          cat  efecto        acción en pantalla
+  1  0:00.100   C01            F   chili_rub     Pipo sostiene el ají contra la boca
+  2  0:00.350   C01            F   bite          el mordisco
+  3  0:00.900   C01            M   fire_puff     ¡fuego en la boca!
+  4  0:01.500   C01            M   tremble       Pipo tiembla cada vez más
+  5  0:03.300   C01            F   squish        aparta el ají a un lado
+  6  0:05.800   C01            F   shuffle       se sacude
+  7  0:09.200   C02            M   frost         el ají está frío
+  8  0:16.750   C03            M   squint        Plop entrecierra los ojos
+  9  0:17.960   C03            F   squish        Plop se mueve, sospechando
+ 10  0:23.700   CANAL_INICIO   T   whoosh        entra la cortinilla
+ 11  0:24.000   CANAL_INICIO   T   logo          cortinilla del canal
+ 12  0:29.000   C04            F   arm_swish     Pipo levanta la mano
+ 13  0:29.100   C04            M   ding          ¡idea!
+ 14  0:31.000   C04            M   dragon        el dragón chiquito
+ 15  0:36.540   C05            F   plate         el ají se tambalea en el plato
+ 16  0:44.300   C06            F   slosh         Pipo toma la taza azul
+ 17  0:45.120   C06            F   gulp_water    bebe agua
+ 18  0:47.040   C06            F   shuffle       se mueve inquieto
+ 19  0:47.880   C06            F   gulp_water    bebe otra vez
+ 20  0:49.790   C06            M   slide_down    el picor se riega: no funciona
+ 21  0:52.790   C07            F   squish        Plop se lleva la mano al mentón
+ 22  0:53.000   C07            M   think         Plop piensa
+ 23  1:00.380   C08            F   step          Pipo se inclina hacia el ají
+ 24  1:02.460   C08            M   sparkle       ¡gran pista!
+ 25  1:09.290   C09            F   rotate        el ají gira (vista cenital)
+ 26  1:14.800   C09            T   rev_cymbal    sube hacia el corte
+ 27  1:15.850   C09            F   slice         corte: el ají se abre
+ 28  1:16.000   C10            T   zoom          zoom al interior
+ 29  1:17.000   C10            F   seeds         semillas y venitas
+ 30  1:17.500   C10            M   pop           aparece el culpable
+ 31  1:23.900   C11            T   whoosh        cambio de plano
+ 32  1:25.540   C11            M   boing         las bolitas de capsaicina se menean
+ 33  1:26.600   C11            M   sparkle       pintada de amarillo
+ 34  1:31.900   C12            T   whoosh        cambio de plano
+ 35  1:32.670   C12            F   tongue        Plop saca la lengua
+ 36  1:33.330   C12            M   pop           aparecen los botones de alarma
+ 37  1:42.000   C13            F   land          la bolita naranja cae sobre la lengua
+ 38  1:42.100   C13            M   alarm         ¡cuidado!
+ 39  1:43.420   C13            F   squish        reacción
+ 40  1:48.000   L1             T   swipe         lámina 1
+ 41  1:55.120   C14            F   arm_swish     Pipo gesticula
+ 42  1:58.500   C14            M   click_on      nombre de robot
+ 43  2:02.100   C15            F   roll          la bolita amarilla rueda
+ 44  2:06.100   C15            M   key_lock      llega al botón: la llave encaja
+ 45  2:10.170   C16            F   arm_swish     Plop levanta los brazos
+ 46  2:10.300   C16            M   slide_up      ¡ya lo ve venir!
+ 47  2:19.330   C17            F   squish        Plop se mueve
+ 48  2:21.290   C17            M   click_on      el botón se enciende por error
+ 49  2:27.000   C18            M   zap           la chispa viaja de la lengua a la cabeza
+ 50  2:29.500   C18            M   alarm         se encienden las luces de alarma
+ 51  2:34.500   C19            M   siren         ¡alarma, algo muy caliente!
+ 52  2:43.540   C20            F   cheek_rub     Pipo se tapa la boca
+ 53  2:44.210   C20            M   steam         siente fuego
+ 54  2:48.500   C20            F   arm_swish     abre los brazos
+ 55  2:51.000   C21            F   plip          gota de sudor
+ 56  2:52.500   C21            F   plip          gota de sudor
+ 57  2:54.250   C21            F   plip          gota de sudor
+ 58  2:55.500   C21            F   plip          gota de sudor
+ 59  2:56.500   C21            F   plip          gota de sudor
+ 60  2:58.540   C22            F   squish        Plop, preocupado
+ 61  3:00.380   C22            M   uh_oh         ¿se está quemando?
+ 62  3:06.500   C23            M   relief        ¡no, Plop! tu lengua está perfecta
+ 63  3:07.380   C23            F   squish        Plop se calma
+ 64  3:13.850   C24            T   bubble        entra el agua
+ 65  3:14.900   C24            F   splash        cae una gota y salpica
+ 66  3:16.100   C24            F   splash        gota
+ 67  3:17.400   C24            F   splash        gota
+ 68  3:18.750   C24            F   splash        gota
+ 69  3:22.460   C25            F   step          Pipo camina
+ 70  3:23.300   C25            F   step          paso
+ 71  3:24.100   C25            F   step          paso
+ 72  3:24.920   C25            M   fire_puff     pica en más lugares
+ 73  3:26.790   C25            F   squish        gira la cabeza
+ 74  3:29.000   C26            T   rev_cymbal    sube hacia la solución
+ 75  3:30.300   C26            F   milk_glass    el vaso de leche
+ 76  3:30.600   C26            M   ding          ¡la solución!
+ 77  3:39.250   C27            F   land          cae una bolita de caseína
+ 78  3:40.040   C27            M   magnet        atrapa la capsaicina como un imán
+ 79  3:40.300   C27            F   land          otra bolita
+ 80  3:43.000   C27            F   land          otra bolita
+ 81  3:47.900   C28            F   balls_away    la capsaicina se va rodando
+ 82  3:50.000   C28            M   power_down    los botones se apagan
+ 83  3:54.290   C29            F   milk_gulp     Pipo bebe leche
+ 84  3:56.800   C29            M   relief        ¡qué alivio!
+ 85  4:02.290   C30            F   squish        Plop asiente
+ 86  4:10.000   L2             T   swipe         lámina 2
+ 87  4:16.400   L2             T   shimmer       sube hacia el dato extra
+ 88  4:18.830   C31            F   peck          el pájaro picotea
+ 89  4:19.500   C31            M   chirp         pío
+ 90  4:20.170   C31            F   peck          picotazo
+ 91  4:21.670   C31            F   peck          picotazo
+ 92  4:23.000   C31            F   peck          picotazo
+ 93  4:24.380   C31            F   peck          picotazo
+ 94  4:26.800   C32            F   hop           el pájaro salta
+ 95  4:27.800   C32            F   hop           salto
+ 96  4:28.800   C32            F   hop           salto
+ 97  4:29.200   C32            M   chirp         pío
+ 98  4:30.580   C32            F   flutter       aletea
+ 99  4:32.000   C32            F   hop           salto
+100  4:34.170   C33            F   arm_swish     Plop gesticula
+101  4:40.200   C33            M   slide_up      ¡un reto!
+102  4:42.000   L3             T   swipe         lámina 3
+103  4:48.670   C34            F   arm_swish     Pipo saluda
+104  4:50.170   C34            M   boing         saluda otra vez
+105  4:55.750   CANAL_FINAL    T   whoosh        entra la cortinilla final
+106  4:56.000   CANAL_FINAL    T   outro         cortinilla final

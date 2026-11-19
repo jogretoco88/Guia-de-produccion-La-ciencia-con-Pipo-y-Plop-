@@ -1,0 +1,42 @@
+pt: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       1.00  oído: Uma mordidinha nesta pimenta e fogo na boca. Mas espera, a pimenta não está quente.
+OK  E03_C02       1.00  oído: Toque nela, está fria, sem chamas, sem fumaça. Então por que a boca parece arder?
+OK  E03_C03       1.00  oído: O Plop desconfia que tem truque aqui. E ele tem razão. A pimenta é uma grande mentirosa.
+OK  CANAL_INICIO  1.00  oído: A ciência com Pipo e Plop.
+OK  E03_C04       1.00  oído: A ideia maluca do Pipo. Dentro da pimenta mora um dragãozinho que cospe fogo.
+OK  E03_C05       1.00  oído: Se fosse fogo de verdade, a pimenta faria fumaça e queimaria o prato. E está fresquinha.
+OK  E03_C06       1.00  oído: Segunda ideia: apagar com água, como uma fogueira. Mas a ardência se espalha pela boca toda.
+OK  E03_C07       1.00  oído: O Plop se pergunta: se a água apaga o fogo de verdade, por que não apaga este?
+OK  E03_C08       1.00  oído: Ótima pista, Plop. Se a água não apaga, talvez não seja fogo, talvez seja outra coisa.
+OK  E03_C09       1.00  oído: O que será que nos engana? O que você acha? Pensa. Vamos abrir a pimenta.
+OK  E03_C10       1.00  oído: Vamos dar zoom. Dentro da pimenta tem sementes e veinhas brancas. O culpado se esconde ali.
+OK  E03_C11       1.00  oído: Ela se chama capsaicina, uma substância oleosa e invisível. Pintamos de amarelo para ver.
+OK  E03_C12       1.00  oído: O Plop também provou e mostra a língua. Olha, ela está cheia de botõezinhos de alarme.
+OK  E03_C13       1.00  oído: O trabalho deles é avisar do calor. Se a sopa queima, eles acendem e gritam: cuidado!
+OK  E03_L1        1.00  oído: Capsaicina na pimenta, botões na língua. E se eles se encontrarem?
+OK  E03_C14       1.00  oído: O Pipo pergunta como se chamam esses botões. Eles têm nome de robô, TRPV1.
+OK  E03_C15       1.00  oído: E aqui está o truque. A capsaicina tem exatamente o formato da chave desses botões.
+OK  E03_C16       1.00  oído: O Plop já sacou. Uma chave falsa vai disparar o alarme sem ter calor nenhum.
+OK  E03_C17       1.00  oído: É exatamente isso que acontece. A capsaicina toca o botão do Plop e ele acende por engano.
+OK  E03_C18       1.00  oído: O botão manda um aviso urgente pelos nervos, como por um fio, até a cabeça do Plop.
+OK  E03_C19       1.00  oído: O cérebro dele recebe o aviso. Alarme, tem algo muito quente aqui, mesmo que não seja verdade.
+OK  E03_C20       1.00  oído: Com o Pipo acontece o mesmo. O cérebro dele acredita em tudo e sente fogo onde não tem.
+OK  E03_C21       1.00  oído: E como o cérebro acha que ele está queimando, tenta esfriar. Olha como o Pipo sua.
+OK  E03_C22       1.00  oído: O Plop pergunta o que todos pensamos. Então, minha língua está queimando ou não?
+OK  E03_C23       1.00  oído: Não, Plop, sua língua está perfeita. É um alarme falso. A pimenta engana seus sensores.
+OK  E03_C24       1.00  oído: E a água? A capsaicina é oleosa e a água escorrega no óleo. Ela só espalha.
+OK  E03_C25       1.00  oído: Por isso, depois da água, arde em mais lugares. O Pipo precisa de outro plano, e rápido.
+OK  E03_C26       1.00  oído: O Plop tem a solução: leite. O que será que o leite tem que a água não tem?
+OK  E03_C27       1.00  oído: Ele tem caseína, uma proteína que adora gordura e prende a capsaicina como um ímã.
+OK  E03_C28       0.94  oído: Ela solta a capsaicina dois botões do Plop e leva embora. Eles apagam e o alarme para.
+      diferencias: guion «dos» → oído «dois»
+      (frase en la pista de verificación desde 243.36 s)
+OK  E03_C29       1.00  oído: Que alívio! Não tinha dragão, Pipo. Era uma chave falsa acendendo seus sensores.
+OK  E03_C30       1.00  oído: Sua pista era boa, Plop. Não era fogo, era um óleo. E o leite pega ele.
+OK  E03_L2        1.00  oído: Vamos revisar. A capsaicina engana seus sensores. A água espalha e o leite prende.
+OK  E03_C31       1.00  oído: Curiosidade. Pimenta não arde nada para os passarinhos. Os sensores deles ignoram essa chave.
+OK  E03_C32       1.00  oído: E isso é bom para a planta. Os passarinhos levam as sementes voando para outros lugares.
+OK  E03_C33       1.00  oído: A ardência é o truque da pimenta para escolher quem come ela. E agora, um desafio.
+OK  E03_L3        1.00  oído: Quem em casa aguenta mais pimenta? Conte o segredo do leite.
+OK  E03_C34       1.00  oído: A próxima pergunta é do Plop. O que é o soluço e por que você não consegue parar?
+OK  CANAL_FINAL   1.00  oído: Até o próximo mistério!

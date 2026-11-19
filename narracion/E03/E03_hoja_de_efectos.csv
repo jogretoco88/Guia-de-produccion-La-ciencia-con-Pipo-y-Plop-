@@ -1,0 +1,107 @@
+n,segundo,tiempo,toma,cat,categoria,efecto,duracion_s,ganancia_db,accion_en_pantalla,prompt_sfx_v3
+1,0.100,0:00.100,C01,F,Foley de movimiento y textura,chili_rub,1.20,0,Pipo sostiene el ají contra la boca,"Firm rubbery vegetable shaken in a small hand, soft squeaks and rubbing"
+2,0.350,0:00.350,C01,F,Foley de movimiento y textura,bite,0.90,0,el mordisco,"Single crunchy bite into a crisp fresh pepper, close-up foley"
+3,0.900,0:00.900,C01,M,Acento de expresión (mickey mousing),fire_puff,1.00,-2,¡fuego en la boca!,"Comedic cartoon fire puff whoosh, short flame burst"
+4,1.500,0:01.500,C01,M,Acento de expresión (mickey mousing),tremble,1.60,-3,Pipo tiembla cada vez más,"Cartoon wobble rattle, comedic trembling shake"
+5,3.300,0:03.300,C01,F,Foley de movimiento y textura,squish,0.60,0,aparta el ají a un lado,"Soft squishy modeling clay squeeze, small and short"
+6,5.800,0:05.800,C01,F,Foley de movimiento y textura,shuffle,1.40,-2,se sacude,"Small clay puppet shuffling and wiggling in place, soft rubbery rustles"
+7,9.200,0:09.200,C02,M,Acento de expresión (mickey mousing),frost,1.00,-3,el ají está frío,"Light frosty ice twinkle, cold shimmer"
+8,16.750,0:16.750,C03,M,Acento de expresión (mickey mousing),squint,0.50,-2,Plop entrecierra los ojos,"Short suspicious cartoon squeak, rising"
+9,17.960,0:17.960,C03,F,Foley de movimiento y textura,squish,0.60,-2,"Plop se mueve, sospechando","Soft squishy modeling clay squeeze, small and short"
+10,23.700,0:23.700,CANAL_INICIO,T,Transición / refuerzo visual,whoosh,0.80,-2,entra la cortinilla,"Fast airy whoosh, swish transition"
+11,24.000,0:24.000,CANAL_INICIO,T,Transición / refuerzo visual,logo,3.00,0,cortinilla del canal,"Playful short xylophone and glockenspiel flourish jingle, cheerful sound logo"
+12,29.000,0:29.000,C04,F,Foley de movimiento y textura,arm_swish,0.40,0,Pipo levanta la mano,Quick soft swish of a small arm waving
+13,29.100,0:29.100,C04,M,Acento de expresión (mickey mousing),ding,0.90,-2,¡idea!,"Bright cartoon idea ding, single small bell"
+14,31.000,0:31.000,C04,M,Acento de expresión (mickey mousing),dragon,1.20,-3,el dragón chiquito,Tiny cute cartoon dragon roar with a little fire puff
+15,36.540,0:36.540,C05,F,Foley de movimiento y textura,plate,1.00,0,el ají se tambalea en el plato,"Rubber vegetable rocking gently on a ceramic plate, light rattle and clink"
+16,44.300,0:44.300,C06,F,Foley de movimiento y textura,slosh,0.90,0,Pipo toma la taza azul,Water sloshing inside a small plastic cup
+17,45.120,0:45.120,C06,F,Foley de movimiento y textura,gulp_water,1.60,0,bebe agua,"Cartoon character gulping water quickly from a plastic cup, three gulps"
+18,47.040,0:47.040,C06,F,Foley de movimiento y textura,shuffle,1.40,-2,se mueve inquieto,"Small clay puppet shuffling and wiggling in place, soft rubbery rustles"
+19,47.880,0:47.880,C06,F,Foley de movimiento y textura,gulp_water,1.60,-1,bebe otra vez,"Cartoon character gulping water quickly from a plastic cup, three gulps"
+20,49.790,0:49.790,C06,M,Acento de expresión (mickey mousing),slide_down,0.90,-3,el picor se riega: no funciona,"Slide whistle going down, comedic fail"
+21,52.790,0:52.790,C07,F,Foley de movimiento y textura,squish,0.60,-1,Plop se lleva la mano al mentón,"Soft squishy modeling clay squeeze, small and short"
+22,53.000,0:53.000,C07,M,Acento de expresión (mickey mousing),think,1.60,-6,Plop piensa,"Cartoon pondering sound, gentle wooden tick tock"
+23,60.380,1:00.380,C08,F,Foley de movimiento y textura,step,0.35,0,Pipo se inclina hacia el ají,Single soft rubbery footstep of a small toy on a wooden table
+24,62.460,1:02.460,C08,M,Acento de expresión (mickey mousing),sparkle,0.90,-3,¡gran pista!,Short magical sparkle twinkle
+25,69.290,1:09.290,C09,F,Foley de movimiento y textura,rotate,4.50,-3,el ají gira (vista cenital),"Object slowly turning on a wooden table, soft continuous scraping"
+26,74.800,1:14.800,C09,T,Transición / refuerzo visual,rev_cymbal,1.20,-3,sube hacia el corte,Short reverse cymbal swell
+27,75.850,1:15.850,C09,F,Foley de movimiento y textura,slice,0.70,0,corte: el ají se abre,Knife slicing cleanly through a crisp pepper
+28,76.000,1:16.000,C10,T,Transición / refuerzo visual,zoom,1.40,-2,zoom al interior,"Short rising whoosh, zoom in transition"
+29,77.000,1:17.000,C10,F,Foley de movimiento y textura,seeds,0.90,-2,semillas y venitas,Small dry seeds rattling softly
+30,77.500,1:17.500,C10,M,Acento de expresión (mickey mousing),pop,0.30,-3,aparece el culpable,"Cartoon pop, cork-like, short"
+31,83.900,1:23.900,C11,T,Transición / refuerzo visual,whoosh,0.80,-3,cambio de plano,"Fast airy whoosh, swish transition"
+32,85.540,1:25.540,C11,M,Acento de expresión (mickey mousing),boing,0.60,-3,las bolitas de capsaicina se menean,"Cartoon boing spring, bouncy"
+33,86.600,1:26.600,C11,M,Acento de expresión (mickey mousing),sparkle,0.90,-4,pintada de amarillo,Short magical sparkle twinkle
+34,91.900,1:31.900,C12,T,Transición / refuerzo visual,whoosh,0.80,-3,cambio de plano,"Fast airy whoosh, swish transition"
+35,92.670,1:32.670,C12,F,Foley de movimiento y textura,tongue,0.70,0,Plop saca la lengua,"Wet cartoon tongue sticking out, short slurp"
+36,93.330,1:33.330,C12,M,Acento de expresión (mickey mousing),pop,0.30,-3,aparecen los botones de alarma,"Cartoon pop, cork-like, short"
+37,102.000,1:42.000,C13,F,Foley de movimiento y textura,land,0.40,0,la bolita naranja cae sobre la lengua,Small soft rubber ball dropping and landing with a gentle thud
+38,102.100,1:42.100,C13,M,Acento de expresión (mickey mousing),alarm,1.40,-5,¡cuidado!,"Small toy alarm beeping, cartoon, fast beeps"
+39,103.420,1:43.420,C13,F,Foley de movimiento y textura,squish,0.60,-2,reacción,"Soft squishy modeling clay squeeze, small and short"
+40,108.000,1:48.000,L1,T,Transición / refuerzo visual,swipe,1.00,-1,lámina 1,"Soft swipe swish with a gentle chime, page transition"
+41,115.120,1:55.120,C14,F,Foley de movimiento y textura,arm_swish,0.40,0,Pipo gesticula,Quick soft swish of a small arm waving
+42,118.500,1:58.500,C14,M,Acento de expresión (mickey mousing),click_on,0.40,-4,nombre de robot,Toy button click followed by a bright electronic blip
+43,122.100,2:02.100,C15,F,Foley de movimiento y textura,roll,3.60,-2,la bolita amarilla rueda,Small rubber ball rolling slowly across a soft surface
+44,126.100,2:06.100,C15,M,Acento de expresión (mickey mousing),key_lock,0.80,-2,llega al botón: la llave encaja,Small key sliding into a lock and clicking
+45,130.170,2:10.170,C16,F,Foley de movimiento y textura,arm_swish,0.40,0,Plop levanta los brazos,Quick soft swish of a small arm waving
+46,130.300,2:10.300,C16,M,Acento de expresión (mickey mousing),slide_up,0.70,-3,¡ya lo ve venir!,"Slide whistle going up quickly, comedic surprise"
+47,139.330,2:19.330,C17,F,Foley de movimiento y textura,squish,0.60,-2,Plop se mueve,"Soft squishy modeling clay squeeze, small and short"
+48,141.290,2:21.290,C17,M,Acento de expresión (mickey mousing),click_on,0.40,-2,el botón se enciende por error,Toy button click followed by a bright electronic blip
+49,147.000,2:27.000,C18,M,Acento de expresión (mickey mousing),zap,2.50,-3,la chispa viaja de la lengua a la cabeza,"Cartoon electric spark zipping along a wire, traveling zap"
+50,149.500,2:29.500,C18,M,Acento de expresión (mickey mousing),alarm,1.40,-5,se encienden las luces de alarma,"Small toy alarm beeping, cartoon, fast beeps"
+51,154.500,2:34.500,C19,M,Acento de expresión (mickey mousing),siren,1.80,-6,"¡alarma, algo muy caliente!","Short toy siren wail, comedic"
+52,163.540,2:43.540,C20,F,Foley de movimiento y textura,cheek_rub,0.60,0,Pipo se tapa la boca,"Clay hands pressing onto cheeks, soft squeaky rub"
+53,164.210,2:44.210,C20,M,Acento de expresión (mickey mousing),steam,0.90,-4,siente fuego,"Cartoon steam puff from ears, short hiss whistle"
+54,168.500,2:48.500,C20,F,Foley de movimiento y textura,arm_swish,0.40,0,abre los brazos,Quick soft swish of a small arm waving
+55,171.000,2:51.000,C21,F,Foley de movimiento y textura,plip,0.30,0,gota de sudor,"Single tiny water droplet, small plip"
+56,172.500,2:52.500,C21,F,Foley de movimiento y textura,plip,0.30,0,gota de sudor,"Single tiny water droplet, small plip"
+57,174.250,2:54.250,C21,F,Foley de movimiento y textura,plip,0.30,0,gota de sudor,"Single tiny water droplet, small plip"
+58,175.500,2:55.500,C21,F,Foley de movimiento y textura,plip,0.30,0,gota de sudor,"Single tiny water droplet, small plip"
+59,176.500,2:56.500,C21,F,Foley de movimiento y textura,plip,0.30,0,gota de sudor,"Single tiny water droplet, small plip"
+60,178.540,2:58.540,C22,F,Foley de movimiento y textura,squish,0.60,-1,"Plop, preocupado","Soft squishy modeling clay squeeze, small and short"
+61,180.380,3:00.380,C22,M,Acento de expresión (mickey mousing),uh_oh,0.80,-4,¿se está quemando?,"Short descending cartoon worried tones, two notes"
+62,186.500,3:06.500,C23,M,Acento de expresión (mickey mousing),relief,1.50,-5,"¡no, Plop! tu lengua está perfecta","Gentle soft chime, relaxing, short"
+63,187.380,3:07.380,C23,F,Foley de movimiento y textura,squish,0.60,-2,Plop se calma,"Soft squishy modeling clay squeeze, small and short"
+64,193.850,3:13.850,C24,T,Transición / refuerzo visual,bubble,1.00,-3,entra el agua,Bubbly watery swoosh transition
+65,194.900,3:14.900,C24,F,Foley de movimiento y textura,splash,0.60,0,cae una gota y salpica,Single water drop falling and splashing on a wet surface
+66,196.100,3:16.100,C24,F,Foley de movimiento y textura,splash,0.60,0,gota,Single water drop falling and splashing on a wet surface
+67,197.400,3:17.400,C24,F,Foley de movimiento y textura,splash,0.60,0,gota,Single water drop falling and splashing on a wet surface
+68,198.750,3:18.750,C24,F,Foley de movimiento y textura,splash,0.60,0,gota,Single water drop falling and splashing on a wet surface
+69,202.460,3:22.460,C25,F,Foley de movimiento y textura,step,0.35,0,Pipo camina,Single soft rubbery footstep of a small toy on a wooden table
+70,203.300,3:23.300,C25,F,Foley de movimiento y textura,step,0.35,0,paso,Single soft rubbery footstep of a small toy on a wooden table
+71,204.100,3:24.100,C25,F,Foley de movimiento y textura,step,0.35,0,paso,Single soft rubbery footstep of a small toy on a wooden table
+72,204.920,3:24.920,C25,M,Acento de expresión (mickey mousing),fire_puff,1.00,-4,pica en más lugares,"Comedic cartoon fire puff whoosh, short flame burst"
+73,206.790,3:26.790,C25,F,Foley de movimiento y textura,squish,0.60,-1,gira la cabeza,"Soft squishy modeling clay squeeze, small and short"
+74,209.000,3:29.000,C26,T,Transición / refuerzo visual,rev_cymbal,1.20,-3,sube hacia la solución,Short reverse cymbal swell
+75,210.300,3:30.300,C26,F,Foley de movimiento y textura,milk_glass,0.71,0,el vaso de leche,"Glass of milk set down on a table, gentle glass clink and liquid swirl"
+76,210.600,3:30.600,C26,M,Acento de expresión (mickey mousing),ding,0.90,-2,¡la solución!,"Bright cartoon idea ding, single small bell"
+77,219.250,3:39.250,C27,F,Foley de movimiento y textura,land,0.40,0,cae una bolita de caseína,Small soft rubber ball dropping and landing with a gentle thud
+78,220.040,3:40.040,C27,M,Acento de expresión (mickey mousing),magnet,1.00,-3,atrapa la capsaicina como un imán,"Cartoon magnet pull, shimmering zoop"
+79,220.300,3:40.300,C27,F,Foley de movimiento y textura,land,0.40,0,otra bolita,Small soft rubber ball dropping and landing with a gentle thud
+80,223.000,3:43.000,C27,F,Foley de movimiento y textura,land,0.40,0,otra bolita,Small soft rubber ball dropping and landing with a gentle thud
+81,227.900,3:47.900,C28,F,Foley de movimiento y textura,balls_away,1.80,-1,la capsaicina se va rodando,Handful of small rubber balls tumbling and rolling away
+82,230.000,3:50.000,C28,M,Acento de expresión (mickey mousing),power_down,1.20,-3,los botones se apagan,"Cartoon power down, descending electronic tones"
+83,234.290,3:54.290,C29,F,Foley de movimiento y textura,milk_gulp,2.20,0,Pipo bebe leche,Slow satisfied gulps of milk from a glass
+84,236.800,3:56.800,C29,M,Acento de expresión (mickey mousing),relief,1.50,-5,¡qué alivio!,"Gentle soft chime, relaxing, short"
+85,242.290,4:02.290,C30,F,Foley de movimiento y textura,squish,0.60,-1,Plop asiente,"Soft squishy modeling clay squeeze, small and short"
+86,250.000,4:10.000,L2,T,Transición / refuerzo visual,swipe,1.00,-1,lámina 2,"Soft swipe swish with a gentle chime, page transition"
+87,256.400,4:16.400,L2,T,Transición / refuerzo visual,shimmer,1.60,-4,sube hacia el dato extra,"Soft magical shimmer swell, rising"
+88,258.830,4:18.830,C31,F,Foley de movimiento y textura,peck,0.25,0,el pájaro picotea,"Small bird beak pecking a firm vegetable, one quick light tap"
+89,259.500,4:19.500,C31,M,Acento de expresión (mickey mousing),chirp,0.60,-3,pío,"Small songbird chirp, two cheerful notes"
+90,260.170,4:20.170,C31,F,Foley de movimiento y textura,peck,0.25,0,picotazo,"Small bird beak pecking a firm vegetable, one quick light tap"
+91,261.670,4:21.670,C31,F,Foley de movimiento y textura,peck,0.25,0,picotazo,"Small bird beak pecking a firm vegetable, one quick light tap"
+92,263.000,4:23.000,C31,F,Foley de movimiento y textura,peck,0.25,0,picotazo,"Small bird beak pecking a firm vegetable, one quick light tap"
+93,264.380,4:24.380,C31,F,Foley de movimiento y textura,peck,0.25,0,picotazo,"Small bird beak pecking a firm vegetable, one quick light tap"
+94,266.800,4:26.800,C32,F,Foley de movimiento y textura,hop,0.30,0,el pájaro salta,"Tiny bird hopping on a table, one soft light patter"
+95,267.800,4:27.800,C32,F,Foley de movimiento y textura,hop,0.30,0,salto,"Tiny bird hopping on a table, one soft light patter"
+96,268.800,4:28.800,C32,F,Foley de movimiento y textura,hop,0.30,0,salto,"Tiny bird hopping on a table, one soft light patter"
+97,269.200,4:29.200,C32,M,Acento de expresión (mickey mousing),chirp,0.60,-4,pío,"Small songbird chirp, two cheerful notes"
+98,270.580,4:30.580,C32,F,Foley de movimiento y textura,flutter,1.00,-1,aletea,"Small bird wings fluttering, quick takeoff"
+99,272.000,4:32.000,C32,F,Foley de movimiento y textura,hop,0.30,0,salto,"Tiny bird hopping on a table, one soft light patter"
+100,274.170,4:34.170,C33,F,Foley de movimiento y textura,arm_swish,0.40,0,Plop gesticula,Quick soft swish of a small arm waving
+101,280.200,4:40.200,C33,M,Acento de expresión (mickey mousing),slide_up,0.70,-4,¡un reto!,"Slide whistle going up quickly, comedic surprise"
+102,282.000,4:42.000,L3,T,Transición / refuerzo visual,swipe,1.00,-1,lámina 3,"Soft swipe swish with a gentle chime, page transition"
+103,288.670,4:48.670,C34,F,Foley de movimiento y textura,arm_swish,0.40,0,Pipo saluda,Quick soft swish of a small arm waving
+104,290.170,4:50.170,C34,M,Acento de expresión (mickey mousing),boing,0.60,-4,saluda otra vez,"Cartoon boing spring, bouncy"
+105,295.750,4:55.750,CANAL_FINAL,T,Transición / refuerzo visual,whoosh,0.80,-2,entra la cortinilla final,"Fast airy whoosh, swish transition"
+106,296.000,4:56.000,CANAL_FINAL,T,Transición / refuerzo visual,outro,3.60,0,cortinilla final,"Cheerful short xylophone outro jingle, ending flourish"

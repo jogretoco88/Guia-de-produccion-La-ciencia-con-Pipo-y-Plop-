@@ -1,0 +1,52 @@
+es: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E03_C01       1.00  oído: Un mordisquito a este ají y ¡fuego en la boca! Pero espera, el ají no está caliente.
+OK  E03_C02       1.00  oído: Tócalo. Está frío. No hay llamas ni humo. Entonces, ¿por qué sentimos que la boca arde?
+OK  E03_C03       1.00  oído: Plop sospecha que aquí hay un truco. Y tiene razón. El ají es un gran mentiroso.
+OK  CANAL_INICIO  1.00  oído: La ciencia con Pipo y Plop.
+OK  E03_C04       1.00  oído: La idea loca de Pipo: dentro del ají vive un dragón chiquito que escupe fuego.
+OK  E03_C05       1.00  oído: Si hubiera fuego de verdad, el ají echaría humo y quemaría el plato. Y está fresquito.
+OK  E03_C06       1.00  oído: Segunda idea: apagarlo con agua, como una fogata. Pero ¡el picor se riega por toda la boca!
+OK  E03_C07       1.00  oído: Plop se pregunta: si el agua apaga el fuego de verdad, ¿por qué no apaga este?
+OK  E03_C08       0.97  oído: Gran pista, Plop. Si el agua no lo apaga, quizá no es fuego, quizá es otra cosa. ¿Qué
+      diferencias: guion «» → oído «qué»
+      (frase en la pista de verificación desde 64.72 s)
+OK  E03_C09       0.97  oído: será lo que nos engaña? ¿Tú qué crees? Piénsalo. Vamos a abrir el ají.
+      diferencias: guion «qué» → oído «»
+      (frase en la pista de verificación desde 72.88 s)
+OK  E03_C10       1.00  oído: Hagamos zoom. Dentro del ají hay semillas y venitas blancas. Ahí se esconde el culpable.
+OK  E03_C11       1.00  oído: Se llama capsaicina, una sustancia aceitosa e invisible. La pintamos de amarillo para verla.
+OK  E03_C12       1.00  oído: Plop también probó y saca la lengua. Mira, está llena de botones de alarma diminutos.
+OK  E03_C13       1.00  oído: Su trabajo es avisar del calor. Si la sopa quema, se encienden y gritan: «¡Cuidado!».
+OK  E03_L1        1.00  oído: Capsaicina en el ají, botones en la lengua. ¿Y si se encuentran?
+OK  E03_C14       1.00  oído: Pipo pregunta cómo se llaman esos botones. Tienen nombre de robot: TRPV1.
+OK  E03_C15       1.00  oído: Y aquí está el truco. La capsaicina tiene justo la forma de la llave de esos botones.
+OK  E03_C16       1.00  oído: Plop ya lo ve venir. Una llave falsa. Va a encender la alarma sin que haya calor.
+OK  E03_C17       1.00  oído: Eso es justo lo que pasa. La capsaicina toca el botón de Plop y se enciende por error.
+OK  E03_C18       1.00  oído: El botón manda un aviso urgente por los nervios, como por un cable, hasta la cabeza de Plop.
+OK  E03_C19       1.00  oído: Su cerebro recibe el aviso: «Alarma, aquí hay algo muy caliente». Aunque no sea verdad.
+OK  E03_C20       1.00  oído: A Pipo le pasa lo mismo. Su cerebro se lo cree todo y siente fuego donde no hay.
+OK  E03_C21       1.00  oído: Y como su cerebro cree que se quema, intenta enfriarlo. Mira cómo suda Pipo.
+OK  E03_C22       1.00  oído: Plop pregunta lo que todos pensamos: entonces, ¿mi lengua se está quemando o no?
+OK  E03_C23       0.97  oído: No, Plop, tu lengua está perfecta. Es una falsa alarma. El ají engaña a tus sensores. ¿Y
+      diferencias: guion «» → oído «y»
+      (frase en la pista de verificación desde 196.24 s)
+OK  E03_C24       0.97  oído: el agua? La capsaicina es aceitosa y el agua resbala sobre el aceite. Solo la pasea.
+      diferencias: guion «y» → oído «»
+      (frase en la pista de verificación desde 205.44 s)
+OK  E03_C25       1.00  oído: Por eso, después del agua, ¡pica en más lugares! Pipo necesita otro plan. Y rápido.
+OK  E03_C26       1.00  oído: Plop tiene la solución: leche. ¿Qué tendrá la leche que no tiene el agua?
+OK  E03_C27       1.00  oído: Tiene caseína, una proteína que adora las grasas y atrapa a la capsaicina como un imán.
+OK  E03_C28       1.00  oído: La despega de los botones de Plop y se la lleva. Se apagan y la alarma termina.
+OK  E03_C29       1.00  oído: Qué alivio. No había dragón, Pipo. Era una llave falsa encendiendo tus sensores.
+OK  E03_C30       1.00  oído: Tu pista era buena, Plop. No era fuego, era un aceite. Y a ese lo atrapa la leche.
+OK  E03_L2        1.00  oído: Repasemos. La capsaicina engaña a tus sensores. El agua la pasea y la leche la atrapa.
+OK  E03_C31       1.00  oído: Dato extra: a los pájaros el ají no les pica nada. Sus sensores no reconocen esa llave.
+OK  E03_C32       1.00  oído: Y eso le conviene a la planta. Los pájaros se llevan sus semillas volando a otros lugares.
+OK  E03_C33       0.97  oído: El picante es el truco del ají para elegir quién se lo come. Y ahora, un reto. ¿Quién
+      diferencias: guion «» → oído «quién»
+      (frase en la pista de verificación desde 289.52 s)
+OK  E03_L3        0.96  oído: aguanta más picante en casa? Cuéntales el secreto de la leche.
+      diferencias: guion «quién» → oído «»
+      (frase en la pista de verificación desde 297.52 s)
+OK  E03_C34       1.00  oído: La próxima pregunta es de Plop. ¿Qué es el hipo y por qué no lo puedes parar?
+OK  CANAL_FINAL   1.00  oído: Hasta el próximo misterio.
