@@ -37,8 +37,8 @@ Mismo flujo de voz: 39 frases × 5 idiomas, todas dentro de su ventana, acelerac
 
 Archivos en `E03/`:
 - **Guion:** `guion_e03.py` → `guion_5_idiomas.json`.
-- **Efectos:** `efectos_e03.py` → `efectos.json`, con la biblioteca de sonidos, la descripción de cada uno y cada entrada con su toma y el segundo de su acción en pantalla.
-- **Efectos en los silencios:** los 106 efectos suenan en los silencios entre frase y frase, nunca sobre la voz, y siempre dentro de su propia toma. Como cada idioma hace sus pausas en segundos distintos, hay una hoja por idioma en `efectos_por_idioma/` (`E03_XX_hoja_de_efectos.csv` y su resumen).
+- **Efectos:** `efectos_e03.py` → `efectos.json`, con la biblioteca de sonidos, la descripción de cada uno y cada entrada con su segundo, toma y acción en pantalla. La hoja legible es `E03_hoja_de_efectos.csv`.
+- **Rellenos en los silencios:** los silencios entre frases que la pista de efectos deja vacíos llevan un sonido pequeño sintetizado con código, sin ElevenLabs ni créditos: marimba, gotitas, burbujas, campanita, blips, tic-tac o punteo, según la escena. Los 106 efectos siguen exactamente donde estaban. Hay una lista por idioma en `rellenos_por_idioma/`.
 - **Montaje e informe:** `montar_e03.py` e `informe_e03.py` son las versiones de este episodio. Los tiempos están en `INFORME_SINCRONIZACION.txt`, la verificación de cada idioma en `qa/` y las instrucciones de uso en `LEEME.md`.
 
 Herramientas nuevas:
@@ -47,8 +47,8 @@ Herramientas nuevas:
   - arma la pista de efectos, limitada a -3 dBFS;
   - mezcla cada idioma con compresión por cadena lateral: mientras hay voz, los efectos bajan al menos 4 dB y quedan como mínimo 9 dB por debajo de ella;
   - normaliza la mezcla a -16 LUFS y -1,5 dBTP.
-- **`herramientas/efectos_silencios.py`:** reubica los efectos ya generados en los silencios de cada idioma, sin generar sonidos nuevos.
-  - mide los silencios entre frases sobre la voz real;
-  - coloca cada efecto en el silencio de su toma más cercano a su acción, en orden, y lo recorta con fundido si no cabe entero;
-  - arma una pista de efectos y una mezcla por idioma, a -16 LUFS y -1,5 dBTP, y comprueba que ningún efecto suene mientras habla el narrador.
+- **`herramientas/efectos_relleno.py`:** sintetiza los rellenos con numpy, en la escala pentatónica de do y a -27 dBFS.
+  - los coloca solo donde no suenan ni la voz ni los efectos;
+  - arma una pista de efectos y una mezcla por idioma, a -16 LUFS y -1,5 dBTP;
+  - comprueba que la pista original quede idéntica fuera de los rellenos.
 - **`herramientas/verificar.py`:** compara la transcripción de Scribe con el guion, frase por frase. Para el hindi admite préstamos escritos en alfabeto latino.

@@ -7,15 +7,15 @@
 ## Cómo usarlo (lo más simple)
 
 1. Abre el video mudo en tu editor.
-2. Pon `XX/E03_XX_mezcla.wav` en el segundo **0:00**. Ya trae la voz y los 106 efectos, sincronizados.
-   Los efectos suenan **en los silencios entre frase y frase**, nunca encima de la voz.
+2. Pon `XX/E03_XX_mezcla.wav` en el segundo **0:00**. Ya trae la voz, los 106 efectos en el segundo exacto de su acción
+   y los rellenos de los silencios entre frases.
 3. Exporta. Haz una versión por idioma.
 
 Si prefieres ajustar tú el balance, usa dos pistas por separado, ambas en el segundo 0:00:
 - `XX/E03_XX_narracion.wav`, la voz sola;
-- `XX/E03_XX_efectos.wav`, los efectos solos de ese idioma.
+- `XX/E03_XX_efectos.wav`, los efectos de ese idioma: los 106 originales más los rellenos de sus silencios.
 
-Cada idioma tiene su propia pista de efectos, porque cada idioma hace sus pausas en segundos distintos.
+Si no quieres los rellenos, usa `efectos/E03_efectos.wav`: son solo los 106 efectos, iguales para los 5 idiomas.
 
 Para YouTube puedes subir `E03_XX_subtitulos.srt` como subtítulos de ese idioma. Los tiempos son los reales de la voz.
 
@@ -27,8 +27,8 @@ Para YouTube puedes subir `E03_XX_subtitulos.srt` como subtítulos de ese idioma
 |---|---|
 | `E03_XX_mezcla.wav` / `.mp3` | Voz y efectos mezclados. Dura exactamente lo mismo que el video. Está a -16 LUFS. |
 | `E03_XX_narracion.wav` / `.mp3` | Solo la voz, 48 kHz / 24 bit, mono, a -16 LUFS. |
-| `E03_XX_efectos.wav` / `.mp3` | Solo los efectos de ese idioma, colocados en sus silencios (300,000 s). |
-| `E03_XX_hoja_de_efectos.csv` | Las 106 entradas de ese idioma: segundo en que suena, segundo de la acción en pantalla, distancia entre ambos, silencio que ocupa, duración, categoría y acción. |
+| `E03_XX_efectos.wav` / `.mp3` | Los 106 efectos, en su sitio original, más los rellenos de ese idioma (300,000 s). |
+| `E03_XX_rellenos.csv` | Cada relleno de ese idioma: segundo, toma, entre qué frases suena, tipo de sonido y duración. |
 | `E03_XX_subtitulos.srt` | Subtítulos con el tiempo real de cada frase. No se queman en el video. |
 | `E03_XX_posiciones.csv` | Toma, archivo, segundo de inicio y de fin de cada frase, y aceleración aplicada. |
 | `frases/E03_XX_<toma>.wav` | Cada frase suelta, ya ajustada. Colócala en el segundo `inicio_s` del CSV. |
@@ -38,7 +38,10 @@ Para YouTube puedes subir `E03_XX_subtitulos.srt` como subtítulos de ese idioma
 
 | Archivo | Para qué sirve |
 |---|---|
-| `biblioteca/` | Los 55 sonidos sueltos, completos, ya recortados desde su ataque y nivelados. El prefijo indica la categoría: `F_`, `M_` o `T_`. |
+| `E03_efectos.wav` / `.mp3` | Los 106 efectos solos, sin rellenos (300,000 s). |
+| `E03_hoja_de_efectos.csv` | Las 106 entradas, una por fila: segundo exacto, toma, categoría, efecto, acción en pantalla y descripción usada para generarlo. |
+| `biblioteca/` | Los 55 sonidos sueltos, ya recortados y nivelados. El prefijo indica la categoría: `F_`, `M_` o `T_`. |
+| `rellenos_muestras/` | Los rellenos del español, sueltos, para escucharlos o reutilizarlos. |
 
 ## Efectos de sonido: qué se pidió y qué se entregó
 
@@ -55,23 +58,35 @@ Algunos sonidos se repiten, siempre en acciones del mismo tipo: gotas de sudor, 
 - **Acentos:** la llamarada cómica tras el mordisco (C01); el «¡ding!» de la idea de Pipo y el rugido del dragón chiquito (C04); la chispa que viaja por el nervio y las alarmas que se encienden (C18); el imán de la caseína (C27); el apagado de los botones (C28).
 - **Transiciones:** el corte al abrir el ají y el zoom al interior (C09–C10); las cortinillas del canal; los cambios de lámina (L1–L3).
 
-## Dónde suena cada efecto
+Cada efecto está en el segundo exacto de su acción. Ese segundo se midió con el análisis de movimiento fotograma a fotograma del video.
 
-Los efectos van **en los silencios entre frase y frase**, para mantener la atención mientras el narrador no habla. No se generó ningún sonido ni narración nuevos: son los mismos 106 efectos, solo cambiaron de segundo.
+## Rellenos en los silencios entre frases
 
-- **Silencios.** Se midieron sobre la voz real de cada idioma. Cada efecto empieza al menos 0,08 s después de que termina una frase y acaba 0,06 s antes de que empiece la siguiente.
-- **Siempre en su toma.** Un efecto solo puede sonar dentro de su propia toma: desde 0,15 s antes del corte que la abre hasta 0,35 s después del que la cierra. Así nunca cae sobre otra escena.
-- **Lo más cerca posible de su acción.** Si la acción ocurre mientras habla el narrador, el efecto suena nada más terminar la frase, o justo antes de la siguiente si queda más cerca. Dentro de un silencio, los efectos conservan su orden.
-- **Recortes.** Cuando un silencio es más corto que el sonido, el sonido se recorta con un fundido. Si en un silencio no caben todos, alguno pasa al otro silencio de su toma.
-- **Resultado** (detalle en `INFORME_SINCRONIZACION.txt` y en cada `E03_XX_hoja_de_efectos.csv`):
+Para mantener la atención mientras el narrador no habla, los silencios entre frases que quedaban vacíos llevan un sonido pequeño. **Los 106 efectos no se movieron**: la pista de efectos es idéntica a la original fuera de los rellenos.
 
-| Idioma | Silencios usados | Distancia media a la acción | Distancia máxima | Efectos sobre la voz |
+- **Hechos aquí, sin ElevenLabs.** Se sintetizaron con código, sin gastar créditos.
+- **Según la escena.**
+  - Gotitas y burbujas en las escenas de agua y leche.
+  - Campanita o tic-tac cuando Pipo y Plop piensan o descubren algo.
+  - Blips en el viaje por los nervios y las alarmas.
+  - Punteos en las escenas del pájaro.
+  - Campanita en las láminas y cortinillas.
+  - Marimba en el resto.
+- **Afinados entre sí.** Todos usan la escala pentatónica de do, así que no desentonan entre ellos.
+- **Más suaves que los efectos.** Van a -27 dBFS, frente a -20/-22 de los efectos.
+- **Solo en el hueco libre.**
+  - Empiezan 0,10 s después de la frase y acaban 0,08 s antes de la siguiente.
+  - Dejan 0,05 s de margen alrededor de cada efecto original.
+  - En un silencio largo puede sonar un segundo relleno, más corto y más suave.
+- **Uno por idioma.** Cada idioma hace sus pausas en segundos distintos, así que cada uno tiene sus propios rellenos.
+
+| Idioma | Rellenos | Silencios con relleno | Sobre la voz | Sobre los efectos |
 |---|---|---|---|---|
-| ES | 40 de 40 | 3,23 s | 7,42 s | ninguno |
-| EN | 40 de 40 | 3,17 s | 7,2 s | ninguno |
-| FR | 40 de 40 | 2,88 s | 7,04 s | ninguno |
-| PT | 40 de 40 | 3,27 s | 7,56 s | ninguno |
-| HI | 40 de 40 | 3,97 s | 7,62 s | ninguno |
+| ES | 55 | 36 | ninguno | ninguno |
+| EN | 60 | 37 | ninguno | ninguno |
+| FR | 67 | 37 | ninguno | ninguno |
+| PT | 55 | 37 | ninguno | ninguno |
+| HI | 46 | 35 | ninguno | ninguno |
 
 ## Cómo se sincronizó la voz
 

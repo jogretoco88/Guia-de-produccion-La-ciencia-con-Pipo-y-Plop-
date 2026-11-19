@@ -32,29 +32,34 @@ for lg, name in LG.items():
                    + ("" if r['dentro'] else "  ¡FUERA!"))
     qa = open(f'qa/{lg}_qa.txt').read()
     out += ["", "Verificación por transcripción (guion vs. lo que se oye):", qa, ""]
-# efectos de sonido: reubicados en los silencios entre frase y frase de cada idioma (efectos_silencios.py)
+# efectos de sonido
 import csv
-R0 = json.load(open('out/es/efectos_resumen.json'))
-out += ["── EFECTOS DE SONIDO EN LOS SILENCIOS " + "─" * 30,
-        "Generados con ElevenLabs Sound Effects v3 (no se generó ningún sonido nuevo al reubicarlos).",
-        f"Foley de movimiento y textura: {R0['entradas']['F']} entradas ({R0['unicos']['F']} sonidos distintos)",
-        f"Acentos de expresión (mickey mousing): {R0['entradas']['M']} entradas ({R0['unicos']['M']} sonidos distintos)",
-        f"Transiciones y refuerzos visuales: {R0['entradas']['T']} entradas ({R0['unicos']['T']} sonidos distintos)",
-        "Cada efecto suena en un silencio entre dos frases, dentro de su propia toma (desde 0,15 s antes del corte que la abre",
-        "hasta 0,35 s después del que la cierra), lo más cerca posible de su acción. Deja 0,08 s tras la voz y 0,06 s antes",
-        "de la siguiente frase. Si el silencio es más corto que el sonido, el sonido se recorta con un fundido.",
-        "Como cada idioma tiene sus propios silencios, hay una pista de efectos por idioma. Cada mezcla queda a -16 LUFS, pico -1,5 dBTP.", ""]
+R = json.load(open('out/efectos/resumen.json'))
+out += ["── EFECTOS DE SONIDO (una sola pista para los 5 idiomas) " + "─" * 20,
+        "Generados con ElevenLabs Sound Effects v3 · colocados en el segundo exacto de cada acción en pantalla.",
+        f"Foley de movimiento y textura: {R['entradas']['F']} entradas ({R['unicos']['F']} sonidos distintos)",
+        f"Acentos de expresión (mickey mousing): {R['entradas']['M']} entradas ({R['unicos']['M']} sonidos distintos)",
+        f"Transiciones y refuerzos visuales: {R['entradas']['T']} entradas ({R['unicos']['T']} sonidos distintos)",
+        f"Pista de efectos: {R['lufs']} LUFS integrados · pico {R['pico']} dBTP",
+        "Mezcla: mientras hay voz, los efectos bajan como mínimo 4 dB y se mantienen 9 dB por debajo del pico de la voz;",
+        "en las pausas suenan completos. Cada mezcla queda a -16 LUFS con pico de -1,5 dBTP.", "",
+        "  n  tiempo     toma          cat  efecto        acción en pantalla"]
+for f in csv.DictReader(open('out/efectos/E03_hoja_de_efectos.csv')):
+    out.append(f"{f['n']:>3}  {f['tiempo']:<9}  {f['toma']:<12}  {f['cat']:^3}  {f['efecto']:<12}  {f['accion_en_pantalla']}")
+# rellenos sintetizados en los silencios que los efectos dejan vacíos (efectos_relleno.py)
+out += ["", "── RELLENOS EN LOS SILENCIOS (sintetizados, sin ElevenLabs) " + "─" * 20,
+        "Los 106 efectos de arriba no se movieron. En los silencios entre frases donde no suena ningún efecto se añadió",
+        "un sonido pequeño sintetizado (marimba, gotitas, burbujas, campanita, blips, tic-tac o punteo, según la escena),",
+        "a -27 dBFS RMS, en la escala pentatónica de do. Empieza 0,10 s después de la voz y acaba 0,08 s antes de la siguiente frase,",
+        "sin tocar los efectos (0,05 s de colchón). Como cada idioma hace sus pausas en segundos distintos, hay una pista por idioma.", ""]
 for lg, name in LG.items():
-    L = lg.upper(); R = json.load(open(f'out/{lg}/efectos_resumen.json'))
-    out += [f"── Efectos · {name} ({L}) " + "─" * 30,
-            f"Silencios usados: {R['silencios_usados']} de {R['silencios']} ({R['silencio_total_s']} s de silencio entre frases)",
-            f"Distancia a la acción en pantalla: media {R['desplazamiento_medio_s']} s · máxima {R['desplazamiento_max_s']} s (siempre dentro de su toma)",
-            f"Sonidos recortados para caber en su silencio: {R['recortados']} de 106",
-            f"Energía de efectos mientras habla el narrador: {R['energia_bajo_voz_pct']} % · pista de efectos {R['lufs_efectos']} LUFS, pico {R['pico_efectos']} dBFS", "",
-            "  n  suena en    acción en   toma          silencio                 cat  efecto        dur.   acción en pantalla"]
-    for f in csv.DictReader(open(f'out/{lg}/E03_{L}_hoja_de_efectos.csv')):
-        out.append(f"{f['n']:>3}  {f['tiempo']:<9}  {float(f['segundo_accion']):>7.2f} s  {f['toma']:<12}  {f['silencio']:<24} {f['cat']:^3}  "
-                   f"{f['efecto']:<12}  {f['duracion_s']} s  {f['accion_en_pantalla']}")
+    L = lg.upper(); R = json.load(open(f'out/{lg}/relleno_resumen.json'))
+    out += [f"── Rellenos · {name} ({L}): {R['rellenos']} sonidos en {R['silencios_con_relleno']} silencios · "
+            f"sobre la voz: {R['tramos_10ms_sobre_voz']} · sobre los efectos: {R['tramos_10ms_sobre_efectos']} · "
+            f"mezcla {R['lufs_mezcla']} LUFS, pico {R['pico_mezcla']} dBTP",
+            "  n  suena en   toma          silencio entre            sonido      dur."]
+    for f in csv.DictReader(open(f'out/{lg}/E03_{L}_rellenos.csv')):
+        out.append(f"{f['n']:>3}  {f['tiempo']:<9}  {f['toma']:<12}  {f['silencio_entre']:<24}  {f['sonido']:<10}  {f['duracion_s']} s")
     out.append("")
 open('INFORME_SINCRONIZACION.txt', 'w').write('\n'.join(out))
 
