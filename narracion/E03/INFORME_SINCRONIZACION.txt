@@ -476,119 +476,582 @@ Nota L2: en la toma generada la voz no dijo la palabra inicial «दोहरा
 y el guion se ajustó a lo que realmente se oye.
 
 
-── EFECTOS DE SONIDO (una sola pista para los 5 idiomas) ────────────────────
-Generados con ElevenLabs Sound Effects v3 · colocados en el segundo exacto de cada acción en pantalla.
+── EFECTOS DE SONIDO EN LOS SILENCIOS ──────────────────────────────
+Generados con ElevenLabs Sound Effects v3 (no se generó ningún sonido nuevo al reubicarlos).
 Foley de movimiento y textura: 59 entradas (24 sonidos distintos)
 Acentos de expresión (mickey mousing): 33 entradas (23 sonidos distintos)
 Transiciones y refuerzos visuales: 14 entradas (8 sonidos distintos)
-Pista de efectos: -25.0 LUFS integrados · pico -2.6 dBTP
-Mezcla: mientras hay voz, los efectos bajan como mínimo 4 dB y se mantienen 9 dB por debajo del pico de la voz;
-en las pausas suenan completos. Cada mezcla queda a -16 LUFS con pico de -1,5 dBTP.
+Cada efecto suena en un silencio entre dos frases, dentro de su propia toma (desde 0,15 s antes del corte que la abre
+hasta 0,35 s después del que la cierra), lo más cerca posible de su acción. Deja 0,08 s tras la voz y 0,06 s antes
+de la siguiente frase. Si el silencio es más corto que el sonido, el sonido se recorta con un fundido.
+Como cada idioma tiene sus propios silencios, hay una pista de efectos por idioma. Cada mezcla queda a -16 LUFS, pico -1,5 dBTP.
 
-  n  tiempo     toma          cat  efecto        acción en pantalla
-  1  0:00.100   C01            F   chili_rub     Pipo sostiene el ají contra la boca
-  2  0:00.350   C01            F   bite          el mordisco
-  3  0:00.900   C01            M   fire_puff     ¡fuego en la boca!
-  4  0:01.500   C01            M   tremble       Pipo tiembla cada vez más
-  5  0:03.300   C01            F   squish        aparta el ají a un lado
-  6  0:05.800   C01            F   shuffle       se sacude
-  7  0:09.200   C02            M   frost         el ají está frío
-  8  0:16.750   C03            M   squint        Plop entrecierra los ojos
-  9  0:17.960   C03            F   squish        Plop se mueve, sospechando
- 10  0:23.700   CANAL_INICIO   T   whoosh        entra la cortinilla
- 11  0:24.000   CANAL_INICIO   T   logo          cortinilla del canal
- 12  0:29.000   C04            F   arm_swish     Pipo levanta la mano
- 13  0:29.100   C04            M   ding          ¡idea!
- 14  0:31.000   C04            M   dragon        el dragón chiquito
- 15  0:36.540   C05            F   plate         el ají se tambalea en el plato
- 16  0:44.300   C06            F   slosh         Pipo toma la taza azul
- 17  0:45.120   C06            F   gulp_water    bebe agua
- 18  0:47.040   C06            F   shuffle       se mueve inquieto
- 19  0:47.880   C06            F   gulp_water    bebe otra vez
- 20  0:49.790   C06            M   slide_down    el picor se riega: no funciona
- 21  0:52.790   C07            F   squish        Plop se lleva la mano al mentón
- 22  0:53.000   C07            M   think         Plop piensa
- 23  1:00.380   C08            F   step          Pipo se inclina hacia el ají
- 24  1:02.460   C08            M   sparkle       ¡gran pista!
- 25  1:09.290   C09            F   rotate        el ají gira (vista cenital)
- 26  1:14.800   C09            T   rev_cymbal    sube hacia el corte
- 27  1:15.850   C09            F   slice         corte: el ají se abre
- 28  1:16.000   C10            T   zoom          zoom al interior
- 29  1:17.000   C10            F   seeds         semillas y venitas
- 30  1:17.500   C10            M   pop           aparece el culpable
- 31  1:23.900   C11            T   whoosh        cambio de plano
- 32  1:25.540   C11            M   boing         las bolitas de capsaicina se menean
- 33  1:26.600   C11            M   sparkle       pintada de amarillo
- 34  1:31.900   C12            T   whoosh        cambio de plano
- 35  1:32.670   C12            F   tongue        Plop saca la lengua
- 36  1:33.330   C12            M   pop           aparecen los botones de alarma
- 37  1:42.000   C13            F   land          la bolita naranja cae sobre la lengua
- 38  1:42.100   C13            M   alarm         ¡cuidado!
- 39  1:43.420   C13            F   squish        reacción
- 40  1:48.000   L1             T   swipe         lámina 1
- 41  1:55.120   C14            F   arm_swish     Pipo gesticula
- 42  1:58.500   C14            M   click_on      nombre de robot
- 43  2:02.100   C15            F   roll          la bolita amarilla rueda
- 44  2:06.100   C15            M   key_lock      llega al botón: la llave encaja
- 45  2:10.170   C16            F   arm_swish     Plop levanta los brazos
- 46  2:10.300   C16            M   slide_up      ¡ya lo ve venir!
- 47  2:19.330   C17            F   squish        Plop se mueve
- 48  2:21.290   C17            M   click_on      el botón se enciende por error
- 49  2:27.000   C18            M   zap           la chispa viaja de la lengua a la cabeza
- 50  2:29.500   C18            M   alarm         se encienden las luces de alarma
- 51  2:34.500   C19            M   siren         ¡alarma, algo muy caliente!
- 52  2:43.540   C20            F   cheek_rub     Pipo se tapa la boca
- 53  2:44.210   C20            M   steam         siente fuego
- 54  2:48.500   C20            F   arm_swish     abre los brazos
- 55  2:51.000   C21            F   plip          gota de sudor
- 56  2:52.500   C21            F   plip          gota de sudor
- 57  2:54.250   C21            F   plip          gota de sudor
- 58  2:55.500   C21            F   plip          gota de sudor
- 59  2:56.500   C21            F   plip          gota de sudor
- 60  2:58.540   C22            F   squish        Plop, preocupado
- 61  3:00.380   C22            M   uh_oh         ¿se está quemando?
- 62  3:06.500   C23            M   relief        ¡no, Plop! tu lengua está perfecta
- 63  3:07.380   C23            F   squish        Plop se calma
- 64  3:13.850   C24            T   bubble        entra el agua
- 65  3:14.900   C24            F   splash        cae una gota y salpica
- 66  3:16.100   C24            F   splash        gota
- 67  3:17.400   C24            F   splash        gota
- 68  3:18.750   C24            F   splash        gota
- 69  3:22.460   C25            F   step          Pipo camina
- 70  3:23.300   C25            F   step          paso
- 71  3:24.100   C25            F   step          paso
- 72  3:24.920   C25            M   fire_puff     pica en más lugares
- 73  3:26.790   C25            F   squish        gira la cabeza
- 74  3:29.000   C26            T   rev_cymbal    sube hacia la solución
- 75  3:30.300   C26            F   milk_glass    el vaso de leche
- 76  3:30.600   C26            M   ding          ¡la solución!
- 77  3:39.250   C27            F   land          cae una bolita de caseína
- 78  3:40.040   C27            M   magnet        atrapa la capsaicina como un imán
- 79  3:40.300   C27            F   land          otra bolita
- 80  3:43.000   C27            F   land          otra bolita
- 81  3:47.900   C28            F   balls_away    la capsaicina se va rodando
- 82  3:50.000   C28            M   power_down    los botones se apagan
- 83  3:54.290   C29            F   milk_gulp     Pipo bebe leche
- 84  3:56.800   C29            M   relief        ¡qué alivio!
- 85  4:02.290   C30            F   squish        Plop asiente
- 86  4:10.000   L2             T   swipe         lámina 2
- 87  4:16.400   L2             T   shimmer       sube hacia el dato extra
- 88  4:18.830   C31            F   peck          el pájaro picotea
- 89  4:19.500   C31            M   chirp         pío
- 90  4:20.170   C31            F   peck          picotazo
- 91  4:21.670   C31            F   peck          picotazo
- 92  4:23.000   C31            F   peck          picotazo
- 93  4:24.380   C31            F   peck          picotazo
- 94  4:26.800   C32            F   hop           el pájaro salta
- 95  4:27.800   C32            F   hop           salto
- 96  4:28.800   C32            F   hop           salto
- 97  4:29.200   C32            M   chirp         pío
- 98  4:30.580   C32            F   flutter       aletea
- 99  4:32.000   C32            F   hop           salto
-100  4:34.170   C33            F   arm_swish     Plop gesticula
-101  4:40.200   C33            M   slide_up      ¡un reto!
-102  4:42.000   L3             T   swipe         lámina 3
-103  4:48.670   C34            F   arm_swish     Pipo saluda
-104  4:50.170   C34            M   boing         saluda otra vez
-105  4:55.750   CANAL_FINAL    T   whoosh        entra la cortinilla final
-106  4:56.000   CANAL_FINAL    T   outro         cortinilla final
+── Efectos · Español (ES) ──────────────────────────────
+Silencios usados: 40 de 40 (65.7 s de silencio entre frases)
+Distancia a la acción en pantalla: media 3.23 s · máxima 7.42 s (siempre dentro de su toma)
+Sonidos recortados para caber en su silencio: 55 de 106
+Energía de efectos mientras habla el narrador: 0.0 % · pista de efectos -24.3 LUFS, pico -2.4 dBFS
+
+  n  suena en    acción en   toma          silencio                 cat  efecto        dur.   acción en pantalla
+  1  0:00.000      5.80 s  C01           inicio                    F   shuffle       0.25 s  se sacude
+  2  0:07.520      0.10 s  C01           C01→C02                   F   chili_rub     0.72 s  Pipo sostiene el ají contra la boca
+  3  0:07.680      0.35 s  C01           C01→C02                   F   bite          0.56 s  el mordisco
+  4  0:07.760      0.90 s  C01           C01→C02                   M   fire_puff     0.48 s  ¡fuego en la boca!
+  5  0:07.840      1.50 s  C01           C01→C02                   M   tremble       0.40 s  Pipo tiembla cada vez más
+  6  0:08.060      3.30 s  C01           C01→C02                   F   squish        0.18 s  aparta el ají a un lado
+  7  0:15.300      9.20 s  C02           C02→C03                   M   frost         0.97 s  el ají está frío
+  8  0:15.895     16.75 s  C03           C02→C03                   M   squint        0.38 s  Plop entrecierra los ojos
+  9  0:22.760     17.96 s  C03           C03→CANAL_INICIO          F   squish        0.60 s  Plop se mueve, sospechando
+ 10  0:23.850     23.70 s  CANAL_INICIO  C03→CANAL_INICIO          T   whoosh        0.32 s  entra la cortinilla
+ 11  0:26.220     24.00 s  CANAL_INICIO  CANAL_INICIO→C04          T   logo          2.03 s  cortinilla del canal
+ 12  0:27.950     29.00 s  C04           CANAL_INICIO→C04          F   arm_swish     0.30 s  Pipo levanta la mano
+ 13  0:34.130     29.10 s  C04           C04→C05                   M   ding          0.90 s  ¡idea!
+ 14  0:34.580     31.00 s  C04           C04→C05                   M   dragon        1.20 s  el dragón chiquito
+ 15  0:35.850     36.54 s  C05           C04→C05                   F   plate         0.41 s  el ají se tambalea en el plato
+ 16  0:43.870     47.88 s  C06           C05→C06                   F   gulp_water    0.40 s  bebe otra vez
+ 17  0:44.045     49.79 s  C06           C05→C06                   M   slide_down    0.23 s  el picor se riega: no funciona
+ 18  0:51.650     44.30 s  C06           C06→C07                   F   slosh         0.62 s  Pipo toma la taza azul
+ 19  0:51.840     45.12 s  C06           C06→C07                   F   gulp_water    0.43 s  bebe agua
+ 20  0:51.920     47.04 s  C06           C06→C07                   F   shuffle       0.35 s  se mueve inquieto
+ 21  0:57.960     52.79 s  C07           C07→C08                   F   squish        0.60 s  Plop se lleva la mano al mentón
+ 22  0:58.410     53.00 s  C07           C07→C08                   M   think         1.60 s  Plop piensa
+ 23  1:00.008     60.38 s  C08           C07→C08                   F   step          0.26 s  Pipo se inclina hacia el ají
+ 24  1:06.380     62.46 s  C08           C08→C09                   M   sparkle       0.90 s  ¡gran pista!
+ 25  1:07.850     69.29 s  C09           C08→C09                   F   rotate        0.41 s  el ají gira (vista cenital)
+ 26  1:14.800     74.80 s  C09           C09→C10                   T   rev_cymbal    1.20 s  sube hacia el corte
+ 27  1:15.700     75.85 s  C09           C09→C10                   F   slice         0.57 s  corte: el ají se abre
+ 28  1:15.850     76.00 s  C10           C09→C10                   T   zoom          0.42 s  zoom al interior
+ 29  1:22.660     77.00 s  C10           C10→C11                   F   seeds         0.90 s  semillas y venitas
+ 30  1:23.110     77.50 s  C10           C10→C11                   M   pop           0.30 s  aparece el culpable
+ 31  1:23.850     83.90 s  C11           C10→C11                   T   whoosh        0.41 s  cambio de plano
+ 32  1:31.340     85.54 s  C11           C11→C12                   M   boing         0.60 s  las bolitas de capsaicina se menean
+ 33  1:31.585     86.60 s  C11           C11→C12                   M   sparkle       0.67 s  pintada de amarillo
+ 34  1:31.850     91.90 s  C12           C11→C12                   T   whoosh        0.41 s  cambio de plano
+ 35  1:38.360     92.67 s  C12           C12→C13                   F   tongue        0.70 s  Plop saca la lengua
+ 36  1:38.810     93.33 s  C12           C12→C13                   M   pop           0.30 s  aparecen los botones de alarma
+ 37  1:39.970    102.00 s  C13           C12→C13                   F   land          0.30 s  la bolita naranja cae sobre la lengua
+ 38  1:46.840    102.10 s  C13           C13→L1                    M   alarm         1.40 s  ¡cuidado!
+ 39  1:47.290    103.42 s  C13           C13→L1                    F   squish        0.60 s  reacción
+ 40  1:47.850    108.00 s  L1            C13→L1                    T   swipe         0.41 s  lámina 1
+ 41  1:53.980    118.50 s  C14           L1→C14                    M   click_on      0.30 s  nombre de robot
+ 42  2:01.030    115.12 s  C14           C14→C15                   F   arm_swish     0.40 s  Pipo gesticula
+ 43  2:01.850    126.10 s  C15           C14→C15                   M   key_lock      0.42 s  llega al botón: la llave encaja
+ 44  2:08.510    122.10 s  C15           C15→C16                   F   roll          1.76 s  la bolita amarilla rueda
+ 45  2:09.970    130.17 s  C16           C15→C16                   F   arm_swish     0.30 s  Plop levanta los brazos
+ 46  2:16.670    130.30 s  C16           C16→C17                   M   slide_up      0.70 s  ¡ya lo ve venir!
+ 47  2:17.850    139.33 s  C17           C16→C17                   F   squish        0.42 s  Plop se mueve
+ 48  2:24.630    141.29 s  C17           C17→C18                   M   click_on      0.40 s  el botón se enciende por error
+ 49  2:25.850    147.00 s  C18           C17→C18                   M   zap           0.42 s  la chispa viaja de la lengua a la cabeza
+ 50  2:32.140    149.50 s  C18           C18→C19                   M   alarm         1.40 s  se encienden las luces de alarma
+ 51  2:33.850    154.50 s  C19           C18→C19                   M   siren         0.42 s  ¡alarma, algo muy caliente!
+ 52  2:41.850    163.54 s  C20           C19→C20                   F   cheek_rub     0.39 s  Pipo se tapa la boca
+ 53  2:48.140    164.21 s  C20           C20→C21                   M   steam         0.90 s  siente fuego
+ 54  2:48.590    168.50 s  C20           C20→C21                   F   arm_swish     0.40 s  abre los brazos
+ 55  2:49.870    171.00 s  C21           C20→C21                   F   plip          0.30 s  gota de sudor
+ 56  2:50.020    172.50 s  C21           C20→C21                   F   plip          0.25 s  gota de sudor
+ 57  2:56.440    174.25 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 58  2:56.740    175.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 59  2:57.040    176.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 60  2:57.850    178.54 s  C22           C21→C22                   F   squish        0.42 s  Plop, preocupado
+ 61  3:04.530    180.38 s  C22           C22→C23                   M   uh_oh         0.80 s  ¿se está quemando?
+ 62  3:05.850    186.50 s  C23           C22→C23                   M   relief        0.42 s  ¡no, Plop! tu lengua está perfecta
+ 63  3:13.580    187.38 s  C23           C23→C24                   F   squish        0.60 s  Plop se calma
+ 64  3:13.850    198.75 s  C24           C23→C24                   F   splash        0.41 s  gota
+ 65  3:20.920    193.85 s  C24           C24→C25                   T   bubble        1.00 s  entra el agua
+ 66  3:21.370    194.90 s  C24           C24→C25                   F   splash        0.60 s  cae una gota y salpica
+ 67  3:21.550    196.10 s  C24           C24→C25                   F   splash        0.60 s  gota
+ 68  3:21.700    197.40 s  C24           C24→C25                   F   splash        0.57 s  gota
+ 69  3:21.850    206.79 s  C25           C24→C25                   F   squish        0.42 s  gira la cabeza
+ 70  3:28.900    202.46 s  C25           C25→C26                   F   step          0.35 s  Pipo camina
+ 71  3:29.210    203.30 s  C25           C25→C26                   F   step          0.35 s  paso
+ 72  3:29.360    204.10 s  C25           C25→C26                   F   step          0.35 s  paso
+ 73  3:29.510    204.92 s  C25           C25→C26                   M   fire_puff     0.75 s  pica en más lugares
+ 74  3:29.850    209.00 s  C26           C25→C26                   T   rev_cymbal    0.41 s  sube hacia la solución
+ 75  3:35.310    210.30 s  C26           C26→C27                   F   milk_glass    0.71 s  el vaso de leche
+ 76  3:35.760    210.60 s  C26           C26→C27                   M   ding          0.90 s  ¡la solución!
+ 77  3:37.970    219.25 s  C27           C26→C27                   F   land          0.30 s  cae una bolita de caseína
+ 78  3:44.740    220.04 s  C27           C27→C28                   M   magnet        1.00 s  atrapa la capsaicina como un imán
+ 79  3:45.190    220.30 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 80  3:45.590    223.00 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 81  3:45.850    227.90 s  C28           C27→C28                   F   balls_away    0.40 s  la capsaicina se va rodando
+ 82  3:52.300    230.00 s  C28           C28→C29                   M   power_down    1.20 s  los botones se apagan
+ 83  3:53.850    234.29 s  C29           C28→C29                   F   milk_gulp     0.41 s  Pipo bebe leche
+ 84  4:00.760    236.80 s  C29           C29→C30                   M   relief        1.49 s  ¡qué alivio!
+ 85  4:01.850    242.29 s  C30           C29→C30                   F   squish        0.40 s  Plop asiente
+ 86  4:09.850    250.00 s  L2            C30→L2                    T   swipe         0.42 s  lámina 2
+ 87  4:17.500    256.40 s  L2            L2→C31                    T   shimmer       0.77 s  sube hacia el dato extra
+ 88  4:18.020    258.83 s  C31           L2→C31                    F   peck          0.25 s  el pájaro picotea
+ 89  4:24.960    259.50 s  C31           C31→C32                   M   chirp         0.60 s  pío
+ 90  4:25.250    260.17 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 91  4:25.400    261.67 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 92  4:25.550    263.00 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 93  4:25.700    264.38 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 94  4:25.850    266.80 s  C32           C31→C32                   F   hop           0.30 s  el pájaro salta
+ 95  4:26.000    267.80 s  C32           C31→C32                   F   hop           0.25 s  salto
+ 96  4:31.890    268.80 s  C32           C32→C33                   F   hop           0.30 s  salto
+ 97  4:32.190    269.20 s  C32           C32→C33                   M   chirp         0.60 s  pío
+ 98  4:32.640    270.58 s  C32           C32→C33                   F   flutter       1.00 s  aletea
+ 99  4:33.090    272.00 s  C32           C32→C33                   F   hop           0.30 s  salto
+100  4:33.960    274.17 s  C33           C32→C33                   F   arm_swish     0.30 s  Plop gesticula
+101  4:40.200    280.20 s  C33           C33→L3                    M   slide_up      0.70 s  ¡un reto!
+102  4:41.850    282.00 s  L3            C33→L3                    T   swipe         0.41 s  lámina 3
+103  4:47.970    288.67 s  C34           L3→C34                    F   arm_swish     0.30 s  Pipo saluda
+104  4:53.480    290.17 s  C34           C34→CANAL_FINAL           M   boing         0.60 s  saluda otra vez
+105  4:55.850    295.75 s  CANAL_FINAL   C34→CANAL_FINAL           T   whoosh        0.32 s  entra la cortinilla final
+106  4:58.030    296.00 s  CANAL_FINAL   final                     T   outro         1.97 s  cortinilla final
+
+── Efectos · English (EN) ──────────────────────────────
+Silencios usados: 40 de 40 (73.3 s de silencio entre frases)
+Distancia a la acción en pantalla: media 3.17 s · máxima 7.2 s (siempre dentro de su toma)
+Sonidos recortados para caber en su silencio: 53 de 106
+Energía de efectos mientras habla el narrador: 0.0 % · pista de efectos -24.2 LUFS, pico -2.8 dBFS
+
+  n  suena en    acción en   toma          silencio                 cat  efecto        dur.   acción en pantalla
+  1  0:00.000      5.80 s  C01           inicio                    F   shuffle       0.25 s  se sacude
+  2  0:07.100      0.10 s  C01           C01→C02                   F   chili_rub     1.16 s  Pipo sostiene el ají contra la boca
+  3  0:07.380      0.35 s  C01           C01→C02                   F   bite          0.88 s  el mordisco
+  4  0:07.500      0.90 s  C01           C01→C02                   M   fire_puff     0.76 s  ¡fuego en la boca!
+  5  0:07.620      1.50 s  C01           C01→C02                   M   tremble       0.64 s  Pipo tiembla cada vez más
+  6  0:08.020      3.30 s  C01           C01→C02                   F   squish        0.24 s  aparta el ají a un lado
+  7  0:15.000      9.20 s  C02           C02→C03                   M   frost         1.00 s  el ají está frío
+  8  0:15.885     16.75 s  C03           C02→C03                   M   squint        0.38 s  Plop entrecierra los ojos
+  9  0:22.120     17.96 s  C03           C03→CANAL_INICIO          F   squish        0.60 s  Plop se mueve, sospechando
+ 10  0:23.850     23.70 s  CANAL_INICIO  C03→CANAL_INICIO          T   whoosh        0.31 s  entra la cortinilla
+ 11  0:26.280     24.00 s  CANAL_INICIO  CANAL_INICIO→C04          T   logo          1.99 s  cortinilla del canal
+ 12  0:27.970     29.00 s  C04           CANAL_INICIO→C04          F   arm_swish     0.30 s  Pipo levanta la mano
+ 13  0:34.190     29.10 s  C04           C04→C05                   M   ding          0.90 s  ¡idea!
+ 14  0:34.640     31.00 s  C04           C04→C05                   M   dragon        1.20 s  el dragón chiquito
+ 15  0:35.850     36.54 s  C05           C04→C05                   F   plate         0.42 s  el ají se tambalea en el plato
+ 16  0:43.860     47.88 s  C06           C05→C06                   F   gulp_water    0.40 s  bebe otra vez
+ 17  0:44.035     49.79 s  C06           C05→C06                   M   slide_down    0.23 s  el picor se riega: no funciona
+ 18  0:51.500     44.30 s  C06           C06→C07                   F   slosh         0.77 s  Pipo toma la taza azul
+ 19  0:51.840     45.12 s  C06           C06→C07                   F   gulp_water    0.43 s  bebe agua
+ 20  0:51.920     47.04 s  C06           C06→C07                   F   shuffle       0.35 s  se mueve inquieto
+ 21  0:57.720     52.79 s  C07           C07→C08                   F   squish        0.60 s  Plop se lleva la mano al mentón
+ 22  0:58.170     53.00 s  C07           C07→C08                   M   think         1.60 s  Plop piensa
+ 23  1:00.008     60.38 s  C08           C07→C08                   F   step          0.26 s  Pipo se inclina hacia el ají
+ 24  1:06.680     62.46 s  C08           C08→C09                   M   sparkle       0.90 s  ¡gran pista!
+ 25  1:07.850     69.29 s  C09           C08→C09                   F   rotate        0.42 s  el ají gira (vista cenital)
+ 26  1:14.800     74.80 s  C09           C09→C10                   T   rev_cymbal    1.20 s  sube hacia el corte
+ 27  1:15.700     75.85 s  C09           C09→C10                   F   slice         0.57 s  corte: el ají se abre
+ 28  1:15.850     76.00 s  C10           C09→C10                   T   zoom          0.42 s  zoom al interior
+ 29  1:22.570     77.00 s  C10           C10→C11                   F   seeds         0.90 s  semillas y venitas
+ 30  1:23.020     77.50 s  C10           C10→C11                   M   pop           0.30 s  aparece el culpable
+ 31  1:23.850     83.90 s  C11           C10→C11                   T   whoosh        0.42 s  cambio de plano
+ 32  1:30.830     85.54 s  C11           C11→C12                   M   boing         0.60 s  las bolitas de capsaicina se menean
+ 33  1:31.280     86.60 s  C11           C11→C12                   M   sparkle       0.90 s  pintada de amarillo
+ 34  1:31.850     91.90 s  C12           C11→C12                   T   whoosh        0.42 s  cambio de plano
+ 35  1:38.420     92.67 s  C12           C12→C13                   F   tongue        0.70 s  Plop saca la lengua
+ 36  1:38.870     93.33 s  C12           C12→C13                   M   pop           0.30 s  aparecen los botones de alarma
+ 37  1:39.970    102.00 s  C13           C12→C13                   F   land          0.30 s  la bolita naranja cae sobre la lengua
+ 38  1:46.760    102.10 s  C13           C13→L1                    M   alarm         1.40 s  ¡cuidado!
+ 39  1:47.210    103.42 s  C13           C13→L1                    F   squish        0.60 s  reacción
+ 40  1:47.850    108.00 s  L1            C13→L1                    T   swipe         0.41 s  lámina 1
+ 41  1:53.970    118.50 s  C14           L1→C14                    M   click_on      0.30 s  nombre de robot
+ 42  2:00.780    115.12 s  C14           C14→C15                   F   arm_swish     0.40 s  Pipo gesticula
+ 43  2:01.850    126.10 s  C15           C14→C15                   M   key_lock      0.41 s  llega al botón: la llave encaja
+ 44  2:07.940    122.10 s  C15           C15→C16                   F   roll          2.30 s  la bolita amarilla rueda
+ 45  2:09.940    130.17 s  C16           C15→C16                   F   arm_swish     0.30 s  Plop levanta los brazos
+ 46  2:16.270    130.30 s  C16           C16→C17                   M   slide_up      0.70 s  ¡ya lo ve venir!
+ 47  2:17.850    139.33 s  C17           C16→C17                   F   squish        0.42 s  Plop se mueve
+ 48  2:24.370    141.29 s  C17           C17→C18                   M   click_on      0.40 s  el botón se enciende por error
+ 49  2:25.850    147.00 s  C18           C17→C18                   M   zap           0.42 s  la chispa viaja de la lengua a la cabeza
+ 50  2:32.690    149.50 s  C18           C18→C19                   M   alarm         1.40 s  se encienden las luces de alarma
+ 51  2:33.850    154.50 s  C19           C18→C19                   M   siren         0.41 s  ¡alarma, algo muy caliente!
+ 52  2:41.850    163.54 s  C20           C19→C20                   F   cheek_rub     0.42 s  Pipo se tapa la boca
+ 53  2:48.190    164.21 s  C20           C20→C21                   M   steam         0.90 s  siente fuego
+ 54  2:48.640    168.50 s  C20           C20→C21                   F   arm_swish     0.40 s  abre los brazos
+ 55  2:49.860    171.00 s  C21           C20→C21                   F   plip          0.30 s  gota de sudor
+ 56  2:50.010    172.50 s  C21           C20→C21                   F   plip          0.25 s  gota de sudor
+ 57  2:55.980    174.25 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 58  2:56.280    175.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 59  2:56.580    176.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 60  2:57.850    178.54 s  C22           C21→C22                   F   squish        0.41 s  Plop, preocupado
+ 61  3:03.450    180.38 s  C22           C22→C23                   M   uh_oh         0.80 s  ¿se está quemando?
+ 62  3:05.850    186.50 s  C23           C22→C23                   M   relief        0.40 s  ¡no, Plop! tu lengua está perfecta
+ 63  3:12.820    187.38 s  C23           C23→C24                   F   squish        0.60 s  Plop se calma
+ 64  3:13.900    197.40 s  C24           C23→C24                   F   splash        0.36 s  gota
+ 65  3:14.020    198.75 s  C24           C23→C24                   F   splash        0.24 s  gota
+ 66  3:20.760    193.85 s  C24           C24→C25                   T   bubble        1.00 s  entra el agua
+ 67  3:21.210    194.90 s  C24           C24→C25                   F   splash        0.60 s  cae una gota y salpica
+ 68  3:21.660    196.10 s  C24           C24→C25                   F   splash        0.60 s  gota
+ 69  3:21.850    206.79 s  C25           C24→C25                   F   squish        0.41 s  gira la cabeza
+ 70  3:29.650    202.46 s  C25           C25→C26                   F   step          0.35 s  Pipo camina
+ 71  3:29.840    203.30 s  C25           C25→C26                   F   step          0.35 s  paso
+ 72  3:29.920    204.10 s  C25           C25→C26                   F   step          0.33 s  paso
+ 73  3:30.000    204.92 s  C25           C25→C26                   M   fire_puff     0.25 s  pica en más lugares
+ 74  3:35.170    209.00 s  C26           C26→C27                   T   rev_cymbal    1.20 s  sube hacia la solución
+ 75  3:35.620    210.30 s  C26           C26→C27                   F   milk_glass    0.71 s  el vaso de leche
+ 76  3:36.070    210.60 s  C26           C26→C27                   M   ding          0.90 s  ¡la solución!
+ 77  3:37.960    219.25 s  C27           C26→C27                   F   land          0.30 s  cae una bolita de caseína
+ 78  3:44.060    220.04 s  C27           C27→C28                   M   magnet        1.00 s  atrapa la capsaicina como un imán
+ 79  3:44.510    220.30 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 80  3:44.910    223.00 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 81  3:45.850    227.90 s  C28           C27→C28                   F   balls_away    0.42 s  la capsaicina se va rodando
+ 82  3:52.490    230.00 s  C28           C28→C29                   M   power_down    1.20 s  los botones se apagan
+ 83  3:53.850    234.29 s  C29           C28→C29                   F   milk_gulp     0.40 s  Pipo bebe leche
+ 84  4:01.360    236.80 s  C29           C29→C30                   M   relief        0.89 s  ¡qué alivio!
+ 85  4:01.850    242.29 s  C30           C29→C30                   F   squish        0.40 s  Plop asiente
+ 86  4:09.850    250.00 s  L2            C30→L2                    T   swipe         0.39 s  lámina 2
+ 87  4:16.850    256.40 s  L2            L2→C31                    T   shimmer       1.42 s  sube hacia el dato extra
+ 88  4:18.020    258.83 s  C31           L2→C31                    F   peck          0.25 s  el pájaro picotea
+ 89  4:24.480    259.50 s  C31           C31→C32                   M   chirp         0.60 s  pío
+ 90  4:24.930    260.17 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 91  4:25.180    261.67 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 92  4:25.430    263.00 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 93  4:25.680    264.38 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 94  4:25.870    266.80 s  C32           C31→C32                   F   hop           0.30 s  el pájaro salta
+ 95  4:26.020    267.80 s  C32           C31→C32                   F   hop           0.25 s  salto
+ 96  4:31.400    268.80 s  C32           C32→C33                   F   hop           0.30 s  salto
+ 97  4:31.700    269.20 s  C32           C32→C33                   M   chirp         0.60 s  pío
+ 98  4:32.150    270.58 s  C32           C32→C33                   F   flutter       1.00 s  aletea
+ 99  4:32.600    272.00 s  C32           C32→C33                   F   hop           0.30 s  salto
+100  4:33.960    274.17 s  C33           C32→C33                   F   arm_swish     0.30 s  Plop gesticula
+101  4:40.200    280.20 s  C33           C33→L3                    M   slide_up      0.70 s  ¡un reto!
+102  4:41.850    282.00 s  L3            C33→L3                    T   swipe         0.40 s  lámina 3
+103  4:47.970    288.67 s  C34           L3→C34                    F   arm_swish     0.30 s  Pipo saluda
+104  4:53.180    290.17 s  C34           C34→CANAL_FINAL           M   boing         0.60 s  saluda otra vez
+105  4:55.850    295.75 s  CANAL_FINAL   C34→CANAL_FINAL           T   whoosh        0.31 s  entra la cortinilla final
+106  4:57.920    296.00 s  CANAL_FINAL   final                     T   outro         2.08 s  cortinilla final
+
+── Efectos · Français (FR) ──────────────────────────────
+Silencios usados: 40 de 40 (84.1 s de silencio entre frases)
+Distancia a la acción en pantalla: media 2.88 s · máxima 7.04 s (siempre dentro de su toma)
+Sonidos recortados para caber en su silencio: 54 de 106
+Energía de efectos mientras habla el narrador: 0.0 % · pista de efectos -24.3 LUFS, pico -3.0 dBFS
+
+  n  suena en    acción en   toma          silencio                 cat  efecto        dur.   acción en pantalla
+  1  0:00.000      5.80 s  C01           inicio                    F   shuffle       0.25 s  se sacude
+  2  0:07.140      0.10 s  C01           C01→C02                   F   chili_rub     1.12 s  Pipo sostiene el ají contra la boca
+  3  0:07.380      0.35 s  C01           C01→C02                   F   bite          0.88 s  el mordisco
+  4  0:07.500      0.90 s  C01           C01→C02                   M   fire_puff     0.76 s  ¡fuego en la boca!
+  5  0:07.620      1.50 s  C01           C01→C02                   M   tremble       0.64 s  Pipo tiembla cada vez más
+  6  0:08.020      3.30 s  C01           C01→C02                   F   squish        0.24 s  aparta el ají a un lado
+  7  0:14.360      9.20 s  C02           C02→C03                   M   frost         1.00 s  el ají está frío
+  8  0:15.895     16.75 s  C03           C02→C03                   M   squint        0.38 s  Plop entrecierra los ojos
+  9  0:21.930     17.96 s  C03           C03→CANAL_INICIO          F   squish        0.60 s  Plop se mueve, sospechando
+ 10  0:23.850     23.70 s  CANAL_INICIO  C03→CANAL_INICIO          T   whoosh        0.32 s  entra la cortinilla
+ 11  0:26.420     24.00 s  CANAL_INICIO  CANAL_INICIO→C04          T   logo          1.82 s  cortinilla del canal
+ 12  0:27.940     29.00 s  C04           CANAL_INICIO→C04          F   arm_swish     0.30 s  Pipo levanta la mano
+ 13  0:33.860     29.10 s  C04           C04→C05                   M   ding          0.90 s  ¡idea!
+ 14  0:34.310     31.00 s  C04           C04→C05                   M   dragon        1.20 s  el dragón chiquito
+ 15  0:35.850     36.54 s  C05           C04→C05                   F   plate         0.40 s  el ají se tambalea en el plato
+ 16  0:43.850     47.88 s  C06           C05→C06                   F   gulp_water    0.42 s  bebe otra vez
+ 17  0:50.900     44.30 s  C06           C06→C07                   F   slosh         0.90 s  Pipo toma la taza azul
+ 18  0:51.120     45.12 s  C06           C06→C07                   F   gulp_water    1.15 s  bebe agua
+ 19  0:51.270     47.04 s  C06           C06→C07                   F   shuffle       1.00 s  se mueve inquieto
+ 20  0:51.595     49.79 s  C06           C06→C07                   M   slide_down    0.67 s  el picor se riega: no funciona
+ 21  0:51.850     52.79 s  C07           C06→C07                   F   squish        0.42 s  Plop se lleva la mano al mentón
+ 22  0:57.320     53.00 s  C07           C07→C08                   M   think         1.60 s  Plop piensa
+ 23  0:59.997     60.38 s  C08           C07→C08                   F   step          0.26 s  Pipo se inclina hacia el ají
+ 24  1:06.110     62.46 s  C08           C08→C09                   M   sparkle       0.90 s  ¡gran pista!
+ 25  1:07.850     69.29 s  C09           C08→C09                   F   rotate        0.42 s  el ají gira (vista cenital)
+ 26  1:14.800     74.80 s  C09           C09→C10                   T   rev_cymbal    1.20 s  sube hacia el corte
+ 27  1:15.700     75.85 s  C09           C09→C10                   F   slice         0.57 s  corte: el ají se abre
+ 28  1:15.850     76.00 s  C10           C09→C10                   T   zoom          0.42 s  zoom al interior
+ 29  1:22.370     77.00 s  C10           C10→C11                   F   seeds         0.90 s  semillas y venitas
+ 30  1:22.820     77.50 s  C10           C10→C11                   M   pop           0.30 s  aparece el culpable
+ 31  1:23.850     83.90 s  C11           C10→C11                   T   whoosh        0.42 s  cambio de plano
+ 32  1:31.280     85.54 s  C11           C11→C12                   M   boing         0.60 s  las bolitas de capsaicina se menean
+ 33  1:31.585     86.60 s  C11           C11→C12                   M   sparkle       0.67 s  pintada de amarillo
+ 34  1:31.850     91.90 s  C12           C11→C12                   T   whoosh        0.41 s  cambio de plano
+ 35  1:37.980     92.67 s  C12           C12→C13                   F   tongue        0.70 s  Plop saca la lengua
+ 36  1:38.430     93.33 s  C12           C12→C13                   M   pop           0.30 s  aparecen los botones de alarma
+ 37  1:39.950    102.00 s  C13           C12→C13                   F   land          0.30 s  la bolita naranja cae sobre la lengua
+ 38  1:47.130    102.10 s  C13           C13→L1                    M   alarm         1.13 s  ¡cuidado!
+ 39  1:47.580    103.42 s  C13           C13→L1                    F   squish        0.60 s  reacción
+ 40  1:47.850    108.00 s  L1            C13→L1                    T   swipe         0.41 s  lámina 1
+ 41  1:53.970    118.50 s  C14           L1→C14                    M   click_on      0.30 s  nombre de robot
+ 42  2:00.420    115.12 s  C14           C14→C15                   F   arm_swish     0.40 s  Pipo gesticula
+ 43  2:01.850    126.10 s  C15           C14→C15                   M   key_lock      0.41 s  llega al botón: la llave encaja
+ 44  2:07.910    122.10 s  C15           C15→C16                   F   roll          2.36 s  la bolita amarilla rueda
+ 45  2:09.970    130.17 s  C16           C15→C16                   F   arm_swish     0.30 s  Plop levanta los brazos
+ 46  2:15.920    130.30 s  C16           C16→C17                   M   slide_up      0.70 s  ¡ya lo ve venir!
+ 47  2:17.850    139.33 s  C17           C16→C17                   F   squish        0.42 s  Plop se mueve
+ 48  2:23.680    141.29 s  C17           C17→C18                   M   click_on      0.40 s  el botón se enciende por error
+ 49  2:25.850    147.00 s  C18           C17→C18                   M   zap           0.41 s  la chispa viaja de la lengua a la cabeza
+ 50  2:31.690    149.50 s  C18           C18→C19                   M   alarm         1.40 s  se encienden las luces de alarma
+ 51  2:33.850    154.50 s  C19           C18→C19                   M   siren         0.41 s  ¡alarma, algo muy caliente!
+ 52  2:41.850    163.54 s  C20           C19→C20                   F   cheek_rub     0.42 s  Pipo se tapa la boca
+ 53  2:47.830    164.21 s  C20           C20→C21                   M   steam         0.90 s  siente fuego
+ 54  2:48.500    168.50 s  C20           C20→C21                   F   arm_swish     0.40 s  abre los brazos
+ 55  2:49.870    171.00 s  C21           C20→C21                   F   plip          0.30 s  gota de sudor
+ 56  2:50.020    172.50 s  C21           C20→C21                   F   plip          0.25 s  gota de sudor
+ 57  2:56.140    174.25 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 58  2:56.440    175.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 59  2:56.740    176.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 60  2:57.850    178.54 s  C22           C21→C22                   F   squish        0.42 s  Plop, preocupado
+ 61  3:03.790    180.38 s  C22           C22→C23                   M   uh_oh         0.80 s  ¿se está quemando?
+ 62  3:05.850    186.50 s  C23           C22→C23                   M   relief        0.42 s  ¡no, Plop! tu lengua está perfecta
+ 63  3:12.300    187.38 s  C23           C23→C24                   F   squish        0.60 s  Plop se calma
+ 64  3:13.910    197.40 s  C24           C23→C24                   F   splash        0.36 s  gota
+ 65  3:14.030    198.75 s  C24           C23→C24                   F   splash        0.24 s  gota
+ 66  3:20.060    193.85 s  C24           C24→C25                   T   bubble        1.00 s  entra el agua
+ 67  3:20.510    194.90 s  C24           C24→C25                   F   splash        0.60 s  cae una gota y salpica
+ 68  3:20.960    196.10 s  C24           C24→C25                   F   splash        0.60 s  gota
+ 69  3:21.850    206.79 s  C25           C24→C25                   F   squish        0.42 s  gira la cabeza
+ 70  3:28.680    202.46 s  C25           C25→C26                   F   step          0.35 s  Pipo camina
+ 71  3:29.030    203.30 s  C25           C25→C26                   F   step          0.35 s  paso
+ 72  3:29.380    204.10 s  C25           C25→C26                   F   step          0.35 s  paso
+ 73  3:29.530    204.92 s  C25           C25→C26                   M   fire_puff     0.75 s  pica en más lugares
+ 74  3:29.850    209.00 s  C26           C25→C26                   T   rev_cymbal    0.43 s  sube hacia la solución
+ 75  3:34.600    210.30 s  C26           C26→C27                   F   milk_glass    0.71 s  el vaso de leche
+ 76  3:35.050    210.60 s  C26           C26→C27                   M   ding          0.90 s  ¡la solución!
+ 77  3:37.970    219.25 s  C27           C26→C27                   F   land          0.30 s  cae una bolita de caseína
+ 78  3:44.310    220.04 s  C27           C27→C28                   M   magnet        1.00 s  atrapa la capsaicina como un imán
+ 79  3:44.760    220.30 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 80  3:45.160    223.00 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 81  3:45.850    227.90 s  C28           C27→C28                   F   balls_away    0.41 s  la capsaicina se va rodando
+ 82  3:52.000    230.00 s  C28           C28→C29                   M   power_down    1.20 s  los botones se apagan
+ 83  3:53.850    234.29 s  C29           C28→C29                   F   milk_gulp     0.40 s  Pipo bebe leche
+ 84  4:00.840    236.80 s  C29           C29→C30                   M   relief        1.42 s  ¡qué alivio!
+ 85  4:01.850    242.29 s  C30           C29→C30                   F   squish        0.41 s  Plop asiente
+ 86  4:09.850    250.00 s  L2            C30→L2                    T   swipe         0.42 s  lámina 2
+ 87  4:16.400    256.40 s  L2            L2→C31                    T   shimmer       1.60 s  sube hacia el dato extra
+ 88  4:18.000    258.83 s  C31           L2→C31                    F   peck          0.25 s  el pájaro picotea
+ 89  4:23.930    259.50 s  C31           C31→C32                   M   chirp         0.60 s  pío
+ 90  4:24.380    260.17 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 91  4:24.630    261.67 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 92  4:24.880    263.00 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 93  4:25.130    264.38 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 94  4:25.860    266.80 s  C32           C31→C32                   F   hop           0.30 s  el pájaro salta
+ 95  4:26.010    267.80 s  C32           C31→C32                   F   hop           0.25 s  salto
+ 96  4:31.290    268.80 s  C32           C32→C33                   F   hop           0.30 s  salto
+ 97  4:31.590    269.20 s  C32           C32→C33                   M   chirp         0.60 s  pío
+ 98  4:32.040    270.58 s  C32           C32→C33                   F   flutter       1.00 s  aletea
+ 99  4:32.490    272.00 s  C32           C32→C33                   F   hop           0.30 s  salto
+100  4:33.950    274.17 s  C33           C32→C33                   F   arm_swish     0.30 s  Plop gesticula
+101  4:40.200    280.20 s  C33           C33→L3                    M   slide_up      0.70 s  ¡un reto!
+102  4:41.850    282.00 s  L3            C33→L3                    T   swipe         0.43 s  lámina 3
+103  4:47.970    288.67 s  C34           L3→C34                    F   arm_swish     0.30 s  Pipo saluda
+104  4:53.530    290.17 s  C34           C34→CANAL_FINAL           M   boing         0.60 s  saluda otra vez
+105  4:55.850    295.75 s  CANAL_FINAL   C34→CANAL_FINAL           T   whoosh        0.33 s  entra la cortinilla final
+106  4:57.570    296.00 s  CANAL_FINAL   final                     T   outro         2.43 s  cortinilla final
+
+── Efectos · Português (BR) (PT) ──────────────────────────────
+Silencios usados: 40 de 40 (61.4 s de silencio entre frases)
+Distancia a la acción en pantalla: media 3.27 s · máxima 7.56 s (siempre dentro de su toma)
+Sonidos recortados para caber en su silencio: 56 de 106
+Energía de efectos mientras habla el narrador: 0.0 % · pista de efectos -24.3 LUFS, pico -2.5 dBFS
+
+  n  suena en    acción en   toma          silencio                 cat  efecto        dur.   acción en pantalla
+  1  0:00.000      5.80 s  C01           inicio                    F   shuffle       0.25 s  se sacude
+  2  0:07.620      0.10 s  C01           C01→C02                   F   chili_rub     0.63 s  Pipo sostiene el ají contra la boca
+  3  0:07.910      0.35 s  C01           C01→C02                   F   bite          0.34 s  el mordisco
+  4  0:07.960      0.90 s  C01           C01→C02                   M   fire_puff     0.29 s  ¡fuego en la boca!
+  5  0:08.010      1.50 s  C01           C01→C02                   M   tremble       0.24 s  Pipo tiembla cada vez más
+  6  0:08.100      3.30 s  C01           C01→C02                   F   squish        0.15 s  aparta el ají a un lado
+  7  0:15.430      9.20 s  C02           C02→C03                   M   frost         0.82 s  el ají está frío
+  8  0:15.875     16.75 s  C03           C02→C03                   M   squint        0.38 s  Plop entrecierra los ojos
+  9  0:23.010     17.96 s  C03           C03→CANAL_INICIO          F   squish        0.60 s  Plop se mueve, sospechando
+ 10  0:23.850     23.70 s  CANAL_INICIO  C03→CANAL_INICIO          T   whoosh        0.32 s  entra la cortinilla
+ 11  0:26.300     24.00 s  CANAL_INICIO  CANAL_INICIO→C04          T   logo          1.96 s  cortinilla del canal
+ 12  0:27.960     29.00 s  C04           CANAL_INICIO→C04          F   arm_swish     0.30 s  Pipo levanta la mano
+ 13  0:34.530     29.10 s  C04           C04→C05                   M   ding          0.90 s  ¡idea!
+ 14  0:34.980     31.00 s  C04           C04→C05                   M   dragon        1.20 s  el dragón chiquito
+ 15  0:35.850     36.54 s  C05           C04→C05                   F   plate         0.40 s  el ají se tambalea en el plato
+ 16  0:43.850     47.88 s  C06           C05→C06                   F   gulp_water    0.40 s  bebe otra vez
+ 17  0:44.025     49.79 s  C06           C05→C06                   M   slide_down    0.23 s  el picor se riega: no funciona
+ 18  0:51.650     44.30 s  C06           C06→C07                   F   slosh         0.61 s  Pipo toma la taza azul
+ 19  0:51.830     45.12 s  C06           C06→C07                   F   gulp_water    0.43 s  bebe agua
+ 20  0:51.910     47.04 s  C06           C06→C07                   F   shuffle       0.35 s  se mueve inquieto
+ 21  0:57.830     52.79 s  C07           C07→C08                   F   squish        0.60 s  Plop se lleva la mano al mentón
+ 22  0:58.280     53.00 s  C07           C07→C08                   M   think         1.60 s  Plop piensa
+ 23  1:00.008     60.38 s  C08           C07→C08                   F   step          0.26 s  Pipo se inclina hacia el ají
+ 24  1:07.030     62.46 s  C08           C08→C09                   M   sparkle       0.90 s  ¡gran pista!
+ 25  1:07.850     69.29 s  C09           C08→C09                   F   rotate        0.42 s  el ají gira (vista cenital)
+ 26  1:14.800     74.80 s  C09           C09→C10                   T   rev_cymbal    1.20 s  sube hacia el corte
+ 27  1:15.700     75.85 s  C09           C09→C10                   F   slice         0.54 s  corte: el ají se abre
+ 28  1:15.850     76.00 s  C10           C09→C10                   T   zoom          0.39 s  zoom al interior
+ 29  1:22.740     77.00 s  C10           C10→C11                   F   seeds         0.90 s  semillas y venitas
+ 30  1:23.190     77.50 s  C10           C10→C11                   M   pop           0.30 s  aparece el culpable
+ 31  1:23.850     83.90 s  C11           C10→C11                   T   whoosh        0.41 s  cambio de plano
+ 32  1:31.090     85.54 s  C11           C11→C12                   M   boing         0.60 s  las bolitas de capsaicina se menean
+ 33  1:31.540     86.60 s  C11           C11→C12                   M   sparkle       0.73 s  pintada de amarillo
+ 34  1:31.850     91.90 s  C12           C11→C12                   T   whoosh        0.42 s  cambio de plano
+ 35  1:38.230     92.67 s  C12           C12→C13                   F   tongue        0.70 s  Plop saca la lengua
+ 36  1:38.680     93.33 s  C12           C12→C13                   M   pop           0.30 s  aparecen los botones de alarma
+ 37  1:39.970    102.00 s  C13           C12→C13                   F   land          0.30 s  la bolita naranja cae sobre la lengua
+ 38  1:47.090    102.10 s  C13           C13→L1                    M   alarm         1.16 s  ¡cuidado!
+ 39  1:47.540    103.42 s  C13           C13→L1                    F   squish        0.60 s  reacción
+ 40  1:47.850    108.00 s  L1            C13→L1                    T   swipe         0.40 s  lámina 1
+ 41  1:53.970    118.50 s  C14           L1→C14                    M   click_on      0.30 s  nombre de robot
+ 42  2:00.880    115.12 s  C14           C14→C15                   F   arm_swish     0.40 s  Pipo gesticula
+ 43  2:01.850    126.10 s  C15           C14→C15                   M   key_lock      0.41 s  llega al botón: la llave encaja
+ 44  2:08.820    122.10 s  C15           C15→C16                   F   roll          1.45 s  la bolita amarilla rueda
+ 45  2:09.970    130.17 s  C16           C15→C16                   F   arm_swish     0.30 s  Plop levanta los brazos
+ 46  2:16.460    130.30 s  C16           C16→C17                   M   slide_up      0.70 s  ¡ya lo ve venir!
+ 47  2:17.850    139.33 s  C17           C16→C17                   F   squish        0.42 s  Plop se mueve
+ 48  2:24.650    141.29 s  C17           C17→C18                   M   click_on      0.40 s  el botón se enciende por error
+ 49  2:25.850    147.00 s  C18           C17→C18                   M   zap           0.42 s  la chispa viaja de la lengua a la cabeza
+ 50  2:32.170    149.50 s  C18           C18→C19                   M   alarm         1.40 s  se encienden las luces de alarma
+ 51  2:33.850    154.50 s  C19           C18→C19                   M   siren         0.42 s  ¡alarma, algo muy caliente!
+ 52  2:41.850    163.54 s  C20           C19→C20                   F   cheek_rub     0.42 s  Pipo se tapa la boca
+ 53  2:48.910    164.21 s  C20           C20→C21                   M   steam         0.90 s  siente fuego
+ 54  2:49.360    168.50 s  C20           C20→C21                   F   arm_swish     0.40 s  abre los brazos
+ 55  2:49.870    171.00 s  C21           C20→C21                   F   plip          0.30 s  gota de sudor
+ 56  2:50.020    172.50 s  C21           C20→C21                   F   plip          0.25 s  gota de sudor
+ 57  2:56.510    174.25 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 58  2:56.810    175.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 59  2:57.110    176.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 60  2:57.850    178.54 s  C22           C21→C22                   F   squish        0.39 s  Plop, preocupado
+ 61  3:04.730    180.38 s  C22           C22→C23                   M   uh_oh         0.80 s  ¿se está quemando?
+ 62  3:05.850    186.50 s  C23           C22→C23                   M   relief        0.42 s  ¡no, Plop! tu lengua está perfecta
+ 63  3:13.370    187.38 s  C23           C23→C24                   F   squish        0.60 s  Plop se calma
+ 64  3:13.900    197.40 s  C24           C23→C24                   F   splash        0.36 s  gota
+ 65  3:14.020    198.75 s  C24           C23→C24                   F   splash        0.24 s  gota
+ 66  3:20.710    193.85 s  C24           C24→C25                   T   bubble        1.00 s  entra el agua
+ 67  3:21.160    194.90 s  C24           C24→C25                   F   splash        0.60 s  cae una gota y salpica
+ 68  3:21.610    196.10 s  C24           C24→C25                   F   splash        0.60 s  gota
+ 69  3:21.850    206.79 s  C25           C24→C25                   F   squish        0.42 s  gira la cabeza
+ 70  3:28.960    202.46 s  C25           C25→C26                   F   step          0.35 s  Pipo camina
+ 71  3:29.220    203.30 s  C25           C25→C26                   F   step          0.35 s  paso
+ 72  3:29.370    204.10 s  C25           C25→C26                   F   step          0.35 s  paso
+ 73  3:29.520    204.92 s  C25           C25→C26                   M   fire_puff     0.75 s  pica en más lugares
+ 74  3:29.850    209.00 s  C26           C25→C26                   T   rev_cymbal    0.42 s  sube hacia la solución
+ 75  3:35.680    210.30 s  C26           C26→C27                   F   milk_glass    0.71 s  el vaso de leche
+ 76  3:36.130    210.60 s  C26           C26→C27                   M   ding          0.90 s  ¡la solución!
+ 77  3:37.960    219.25 s  C27           C26→C27                   F   land          0.30 s  cae una bolita de caseína
+ 78  3:44.430    220.04 s  C27           C27→C28                   M   magnet        1.00 s  atrapa la capsaicina como un imán
+ 79  3:44.880    220.30 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 80  3:45.280    223.00 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 81  3:45.850    227.90 s  C28           C27→C28                   F   balls_away    0.41 s  la capsaicina se va rodando
+ 82  3:52.900    230.00 s  C28           C28→C29                   M   power_down    1.20 s  los botones se apagan
+ 83  3:53.850    234.29 s  C29           C28→C29                   F   milk_gulp     0.41 s  Pipo bebe leche
+ 84  4:00.850    236.80 s  C29           C29→C30                   M   relief        1.41 s  ¡qué alivio!
+ 85  4:01.850    242.29 s  C30           C29→C30                   F   squish        0.41 s  Plop asiente
+ 86  4:09.850    250.00 s  L2            C30→L2                    T   swipe         0.42 s  lámina 2
+ 87  4:17.250    256.40 s  L2            L2→C31                    T   shimmer       1.02 s  sube hacia el dato extra
+ 88  4:18.020    258.83 s  C31           L2→C31                    F   peck          0.25 s  el pájaro picotea
+ 89  4:24.850    259.50 s  C31           C31→C32                   M   chirp         0.60 s  pío
+ 90  4:25.260    260.17 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 91  4:25.410    261.67 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 92  4:25.560    263.00 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 93  4:25.710    264.38 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 94  4:25.860    266.80 s  C32           C31→C32                   F   hop           0.30 s  el pájaro salta
+ 95  4:26.010    267.80 s  C32           C31→C32                   F   hop           0.25 s  salto
+ 96  4:31.930    268.80 s  C32           C32→C33                   F   hop           0.30 s  salto
+ 97  4:32.230    269.20 s  C32           C32→C33                   M   chirp         0.60 s  pío
+ 98  4:32.680    270.58 s  C32           C32→C33                   F   flutter       1.00 s  aletea
+ 99  4:33.130    272.00 s  C32           C32→C33                   F   hop           0.30 s  salto
+100  4:33.960    274.17 s  C33           C32→C33                   F   arm_swish     0.30 s  Plop gesticula
+101  4:40.550    280.20 s  C33           C33→L3                    M   slide_up      0.70 s  ¡un reto!
+102  4:41.850    282.00 s  L3            C33→L3                    T   swipe         0.42 s  lámina 3
+103  4:47.950    288.67 s  C34           L3→C34                    F   arm_swish     0.30 s  Pipo saluda
+104  4:53.820    290.17 s  C34           C34→CANAL_FINAL           M   boing         0.60 s  saluda otra vez
+105  4:55.850    295.75 s  CANAL_FINAL   C34→CANAL_FINAL           T   whoosh        0.31 s  entra la cortinilla final
+106  4:58.050    296.00 s  CANAL_FINAL   final                     T   outro         1.95 s  cortinilla final
+
+── Efectos · हिन्दी (Hindi) (HI) ──────────────────────────────
+Silencios usados: 40 de 40 (53.3 s de silencio entre frases)
+Distancia a la acción en pantalla: media 3.97 s · máxima 7.62 s (siempre dentro de su toma)
+Sonidos recortados para caber en su silencio: 62 de 106
+Energía de efectos mientras habla el narrador: 0.0 % · pista de efectos -24.0 LUFS, pico -2.5 dBFS
+
+  n  suena en    acción en   toma          silencio                 cat  efecto        dur.   acción en pantalla
+  1  0:00.000      5.80 s  C01           inicio                    F   shuffle       0.25 s  se sacude
+  2  0:07.660      0.10 s  C01           C01→C02                   F   chili_rub     0.60 s  Pipo sostiene el ají contra la boca
+  3  0:07.920      0.35 s  C01           C01→C02                   F   bite          0.34 s  el mordisco
+  4  0:07.970      0.90 s  C01           C01→C02                   M   fire_puff     0.29 s  ¡fuego en la boca!
+  5  0:08.020      1.50 s  C01           C01→C02                   M   tremble       0.24 s  Pipo tiembla cada vez más
+  6  0:08.110      3.30 s  C01           C01→C02                   F   squish        0.15 s  aparta el ají a un lado
+  7  0:15.410      9.20 s  C02           C02→C03                   M   frost         0.86 s  el ají está frío
+  8  0:15.895     16.75 s  C03           C02→C03                   M   squint        0.38 s  Plop entrecierra los ojos
+  9  0:22.930     17.96 s  C03           C03→CANAL_INICIO          F   squish        0.60 s  Plop se mueve, sospechando
+ 10  0:23.850     23.70 s  CANAL_INICIO  C03→CANAL_INICIO          T   whoosh        0.32 s  entra la cortinilla
+ 11  0:26.790     24.00 s  CANAL_INICIO  CANAL_INICIO→C04          T   logo          1.47 s  cortinilla del canal
+ 12  0:27.960     29.00 s  C04           CANAL_INICIO→C04          F   arm_swish     0.30 s  Pipo levanta la mano
+ 13  0:34.990     29.10 s  C04           C04→C05                   M   ding          0.90 s  ¡idea!
+ 14  0:35.370     31.00 s  C04           C04→C05                   M   dragon        0.90 s  el dragón chiquito
+ 15  0:35.850     36.54 s  C05           C04→C05                   F   plate         0.42 s  el ají se tambalea en el plato
+ 16  0:43.850     47.88 s  C06           C05→C06                   F   gulp_water    0.40 s  bebe otra vez
+ 17  0:44.025     49.79 s  C06           C05→C06                   M   slide_down    0.23 s  el picor se riega: no funciona
+ 18  0:51.640     44.30 s  C06           C06→C07                   F   slosh         0.63 s  Pipo toma la taza azul
+ 19  0:51.840     45.12 s  C06           C06→C07                   F   gulp_water    0.43 s  bebe agua
+ 20  0:51.920     47.04 s  C06           C06→C07                   F   shuffle       0.35 s  se mueve inquieto
+ 21  0:58.200     52.79 s  C07           C07→C08                   F   squish        0.60 s  Plop se lleva la mano al mentón
+ 22  0:58.650     53.00 s  C07           C07→C08                   M   think         1.60 s  Plop piensa
+ 23  0:59.997     60.38 s  C08           C07→C08                   F   step          0.26 s  Pipo se inclina hacia el ají
+ 24  1:07.470     62.46 s  C08           C08→C09                   M   sparkle       0.78 s  ¡gran pista!
+ 25  1:07.850     69.29 s  C09           C08→C09                   F   rotate        0.40 s  el ají gira (vista cenital)
+ 26  1:14.800     74.80 s  C09           C09→C10                   T   rev_cymbal    1.20 s  sube hacia el corte
+ 27  1:15.700     75.85 s  C09           C09→C10                   F   slice         0.56 s  corte: el ají se abre
+ 28  1:15.850     76.00 s  C10           C09→C10                   T   zoom          0.41 s  zoom al interior
+ 29  1:23.320     77.00 s  C10           C10→C11                   F   seeds         0.90 s  semillas y venitas
+ 30  1:23.700     77.50 s  C10           C10→C11                   M   pop           0.30 s  aparece el culpable
+ 31  1:23.850     83.90 s  C11           C10→C11                   T   whoosh        0.42 s  cambio de plano
+ 32  1:30.920     85.54 s  C11           C11→C12                   M   boing         0.60 s  las bolitas de capsaicina se menean
+ 33  1:31.370     86.60 s  C11           C11→C12                   M   sparkle       0.90 s  pintada de amarillo
+ 34  1:31.850     91.90 s  C12           C11→C12                   T   whoosh        0.42 s  cambio de plano
+ 35  1:38.850     92.67 s  C12           C12→C13                   F   tongue        0.70 s  Plop saca la lengua
+ 36  1:39.300     93.33 s  C12           C12→C13                   M   pop           0.30 s  aparecen los botones de alarma
+ 37  1:39.970    102.00 s  C13           C12→C13                   F   land          0.30 s  la bolita naranja cae sobre la lengua
+ 38  1:47.620    102.10 s  C13           C13→L1                    M   alarm         0.63 s  ¡cuidado!
+ 39  1:47.800    103.42 s  C13           C13→L1                    F   squish        0.45 s  reacción
+ 40  1:53.350    108.00 s  L1            L1→C14                    T   swipe         0.93 s  lámina 1
+ 41  1:53.980    118.50 s  C14           L1→C14                    M   click_on      0.30 s  nombre de robot
+ 42  2:01.650    115.12 s  C14           C14→C15                   F   arm_swish     0.40 s  Pipo gesticula
+ 43  2:01.850    126.10 s  C15           C14→C15                   M   key_lock      0.41 s  llega al botón: la llave encaja
+ 44  2:08.130    122.10 s  C15           C15→C16                   F   roll          2.15 s  la bolita amarilla rueda
+ 45  2:09.980    130.17 s  C16           C15→C16                   F   arm_swish     0.30 s  Plop levanta los brazos
+ 46  2:16.160    130.30 s  C16           C16→C17                   M   slide_up      0.70 s  ¡ya lo ve venir!
+ 47  2:17.850    139.33 s  C17           C16→C17                   F   squish        0.41 s  Plop se mueve
+ 48  2:25.060    141.29 s  C17           C17→C18                   M   click_on      0.40 s  el botón se enciende por error
+ 49  2:25.850    147.00 s  C18           C17→C18                   M   zap           0.42 s  la chispa viaja de la lengua a la cabeza
+ 50  2:32.990    149.50 s  C18           C18→C19                   M   alarm         1.25 s  se encienden las luces de alarma
+ 51  2:33.850    154.50 s  C19           C18→C19                   M   siren         0.39 s  ¡alarma, algo muy caliente!
+ 52  2:41.970    168.50 s  C20           C19→C20                   F   arm_swish     0.30 s  abre los brazos
+ 53  2:47.790    163.54 s  C20           C20→C21                   F   cheek_rub     0.60 s  Pipo se tapa la boca
+ 54  2:48.240    164.21 s  C20           C20→C21                   M   steam         0.90 s  siente fuego
+ 55  2:49.930    174.25 s  C21           C20→C21                   F   plip          0.30 s  gota de sudor
+ 56  2:50.010    175.50 s  C21           C20→C21                   F   plip          0.26 s  gota de sudor
+ 57  2:50.090    176.50 s  C21           C20→C21                   F   plip          0.18 s  gota de sudor
+ 58  2:57.660    171.00 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 59  2:57.960    172.50 s  C21           C21→C22                   F   plip          0.30 s  gota de sudor
+ 60  3:05.090    178.54 s  C22           C22→C23                   F   squish        0.60 s  Plop, preocupado
+ 61  3:05.540    180.38 s  C22           C22→C23                   M   uh_oh         0.73 s  ¿se está quemando?
+ 62  3:05.850    186.50 s  C23           C22→C23                   M   relief        0.42 s  ¡no, Plop! tu lengua está perfecta
+ 63  3:13.670    187.38 s  C23           C23→C24                   F   squish        0.60 s  Plop se calma
+ 64  3:13.850    198.75 s  C24           C23→C24                   F   splash        0.42 s  gota
+ 65  3:21.470    193.85 s  C24           C24→C25                   T   bubble        0.79 s  entra el agua
+ 66  3:21.660    194.90 s  C24           C24→C25                   F   splash        0.60 s  cae una gota y salpica
+ 67  3:21.780    196.10 s  C24           C24→C25                   F   splash        0.48 s  gota
+ 68  3:21.900    197.40 s  C24           C24→C25                   F   splash        0.36 s  gota
+ 69  3:22.020    206.79 s  C25           C24→C25                   F   squish        0.24 s  gira la cabeza
+ 70  3:29.280    202.46 s  C25           C25→C26                   F   step          0.35 s  Pipo camina
+ 71  3:29.630    203.30 s  C25           C25→C26                   F   step          0.35 s  paso
+ 72  3:29.760    204.10 s  C25           C25→C26                   F   step          0.35 s  paso
+ 73  3:29.880    204.92 s  C25           C25→C26                   M   fire_puff     0.40 s  pica en más lugares
+ 74  3:35.440    209.00 s  C26           C26→C27                   T   rev_cymbal    1.20 s  sube hacia la solución
+ 75  3:35.890    210.30 s  C26           C26→C27                   F   milk_glass    0.71 s  el vaso de leche
+ 76  3:36.340    210.60 s  C26           C26→C27                   M   ding          0.90 s  ¡la solución!
+ 77  3:37.970    219.25 s  C27           C26→C27                   F   land          0.30 s  cae una bolita de caseína
+ 78  3:44.520    220.04 s  C27           C27→C28                   M   magnet        1.00 s  atrapa la capsaicina como un imán
+ 79  3:44.970    220.30 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 80  3:45.370    223.00 s  C27           C27→C28                   F   land          0.40 s  otra bolita
+ 81  3:45.850    230.00 s  C28           C27→C28                   M   power_down    0.40 s  los botones se apagan
+ 82  3:52.710    227.90 s  C28           C28→C29                   F   balls_away    1.54 s  la capsaicina se va rodando
+ 83  3:53.850    234.29 s  C29           C28→C29                   F   milk_gulp     0.40 s  Pipo bebe leche
+ 84  4:01.520    236.80 s  C29           C29→C30                   M   relief        0.73 s  ¡qué alivio!
+ 85  4:01.850    242.29 s  C30           C29→C30                   F   squish        0.40 s  Plop asiente
+ 86  4:09.850    250.00 s  L2            C30→L2                    T   swipe         0.41 s  lámina 2
+ 87  4:16.910    256.40 s  L2            L2→C31                    T   shimmer       1.34 s  sube hacia el dato extra
+ 88  4:17.850    258.83 s  C31           L2→C31                    F   peck          0.25 s  el pájaro picotea
+ 89  4:18.000    263.00 s  C31           L2→C31                    F   peck          0.25 s  picotazo
+ 90  4:25.450    259.50 s  C31           C31→C32                   M   chirp         0.60 s  pío
+ 91  4:25.700    260.17 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 92  4:25.850    261.67 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 93  4:26.000    264.38 s  C31           C31→C32                   F   peck          0.25 s  picotazo
+ 94  4:31.870    266.80 s  C32           C32→C33                   F   hop           0.30 s  el pájaro salta
+ 95  4:32.170    267.80 s  C32           C32→C33                   F   hop           0.30 s  salto
+ 96  4:32.470    268.80 s  C32           C32→C33                   F   hop           0.30 s  salto
+ 97  4:32.770    269.20 s  C32           C32→C33                   M   chirp         0.60 s  pío
+ 98  4:33.220    270.58 s  C32           C32→C33                   F   flutter       1.00 s  aletea
+ 99  4:33.670    272.00 s  C32           C32→C33                   F   hop           0.30 s  salto
+100  4:33.970    274.17 s  C33           C32→C33                   F   arm_swish     0.30 s  Plop gesticula
+101  4:41.070    280.20 s  C33           C33→L3                    M   slide_up      0.70 s  ¡un reto!
+102  4:41.850    282.00 s  L3            C33→L3                    T   swipe         0.39 s  lámina 3
+103  4:47.970    288.67 s  C34           L3→C34                    F   arm_swish     0.30 s  Pipo saluda
+104  4:53.440    290.17 s  C34           C34→CANAL_FINAL           M   boing         0.60 s  saluda otra vez
+105  4:55.850    295.75 s  CANAL_FINAL   C34→CANAL_FINAL           T   whoosh        0.32 s  entra la cortinilla final
+106  4:57.830    296.00 s  CANAL_FINAL   final                     T   outro         2.17 s  cortinilla final
