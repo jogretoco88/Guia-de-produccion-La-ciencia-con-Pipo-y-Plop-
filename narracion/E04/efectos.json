@@ -1,0 +1,1286 @@
+{
+ "lib": {
+  "plip": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/plip.mp3",
+   "prompt": "Single tiny water droplet, small plip",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "squish": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/squish.mp3",
+   "prompt": "Soft squishy modeling clay squeeze, small and short",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "land": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/land.mp3",
+   "prompt": "Small soft rubber ball dropping and landing with a gentle thud",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "cheek_rub": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/cheek_rub.mp3",
+   "prompt": "Clay hands pressing onto cheeks, soft squeaky rub",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "arm_swish": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/arm_swish.mp3",
+   "prompt": "Quick soft swish of a small arm waving",
+   "max": 0.4,
+   "modo": "hit"
+  },
+  "uh_oh": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/uh_oh.mp3",
+   "prompt": "Short descending cartoon worried tones, two notes",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "squint": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/squint.mp3",
+   "prompt": "Short suspicious cartoon squeak, rising",
+   "max": 0.5,
+   "modo": "hit"
+  },
+  "think": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/think.mp3",
+   "prompt": "Cartoon pondering sound, gentle wooden tick tock",
+   "max": 1.6,
+   "modo": "bed"
+  },
+  "boing": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/boing.mp3",
+   "prompt": "Cartoon boing spring, bouncy",
+   "max": 0.6,
+   "modo": "hit"
+  },
+  "sparkle": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/sparkle.mp3",
+   "prompt": "Short magical sparkle twinkle",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "ding": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/ding.mp3",
+   "prompt": "Bright cartoon idea ding, single small bell",
+   "max": 0.9,
+   "modo": "hit"
+  },
+  "slide_up": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/slide_up.mp3",
+   "prompt": "Slide whistle going up quickly, comedic surprise",
+   "max": 0.7,
+   "modo": "hit"
+  },
+  "pop": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/pop.mp3",
+   "prompt": "Cartoon pop, cork-like, short",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "whoosh": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/whoosh.mp3",
+   "prompt": "Fast airy whoosh, swish transition",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "zoom": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/zoom.mp3",
+   "prompt": "Short rising whoosh, zoom in transition",
+   "max": 1.4,
+   "modo": "hit"
+  },
+  "logo": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/logo.mp3",
+   "prompt": "Playful short xylophone and glockenspiel flourish jingle, cheerful sound logo",
+   "max": 3.6,
+   "modo": "hit"
+  },
+  "swipe": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/swipe.mp3",
+   "prompt": "Soft swipe swish with a gentle chime, page transition",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "shimmer": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/shimmer.mp3",
+   "prompt": "Soft magical shimmer swell, rising",
+   "max": 1.6,
+   "modo": "hit"
+  },
+  "rev_cymbal": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/rev_cymbal.mp3",
+   "prompt": "Short reverse cymbal swell",
+   "max": 1.2,
+   "modo": "hit"
+  },
+  "outro": {
+   "cat": "T",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/outro.mp3",
+   "prompt": "Cheerful short xylophone outro jingle, ending flourish",
+   "max": 3.6,
+   "modo": "hit"
+  },
+  "shuffle": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/shuffle.mp3",
+   "prompt": "Small clay puppet shuffling and wiggling in place, soft rubbery rustles",
+   "max": 1.4,
+   "modo": "bed"
+  },
+  "plate": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/plate.mp3",
+   "prompt": "Rubber vegetable rocking gently on a ceramic plate, light rattle and clink",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "tremble": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/tremble.mp3",
+   "prompt": "Cartoon wobble rattle, comedic trembling shake",
+   "max": 1.6,
+   "modo": "bed"
+  },
+  "key_lock": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/key_lock.mp3",
+   "prompt": "Small key sliding into a lock and clicking",
+   "max": 0.8,
+   "modo": "hit"
+  },
+  "relief": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/relief.mp3",
+   "prompt": "Gentle soft chime, relaxing, short",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "zap": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/zap.mp3",
+   "prompt": "Cartoon electric spark zipping along a wire, traveling zap",
+   "max": 2.5,
+   "modo": "hit"
+  },
+  "alarm": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/alarm.mp3",
+   "prompt": "Small toy alarm beeping, cartoon, fast beeps",
+   "max": 1.4,
+   "modo": "hit"
+  },
+  "frost": {
+   "cat": "M",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/frost.mp3",
+   "prompt": "Light frosty ice twinkle, cold shimmer",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "hop": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/hop.mp3",
+   "prompt": "Tiny bird hopping on a table, one soft light patter",
+   "max": 0.3,
+   "modo": "hit"
+  },
+  "flutter": {
+   "cat": "F",
+   "fuente": "ElevenLabs SFX v3 (biblioteca Ep. 3)",
+   "archivo": "../../ep03/voz/sfx_raw/flutter.mp3",
+   "prompt": "Small bird wings fluttering, quick takeoff",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "h_clayroll": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s02.mp3",
+   "prompt": "Clay ball rolling, squishy bump, jelly wobble",
+   "max": 2.0,
+   "modo": "bed"
+  },
+  "h_breeze": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s06.mp3",
+   "prompt": "Gentle breeze, flower rustle and a light sparkle",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_zip": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s09.mp3",
+   "prompt": "Quick zip forward and retreat",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_stretch": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s17.mp3",
+   "prompt": "Rubbery stretch and snap back",
+   "max": 2.0,
+   "modo": "hit"
+  },
+  "h_marbles": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s19.mp3",
+   "prompt": "Many small marbles rolling toward the center",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_pops": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s20.mp3",
+   "prompt": "Series of small squishy clay pops",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_click": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s21.mp3",
+   "prompt": "Clay pieces clicking into place and a completion chime",
+   "max": 3.0,
+   "modo": "hit"
+  },
+  "h_wobble": {
+   "cat": "F",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s24.mp3",
+   "prompt": "Jelly wobble bloops",
+   "max": 2.0,
+   "modo": "hit"
+  },
+  "h_tick": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s10.mp3",
+   "prompt": "Ticking clock",
+   "max": 2.5,
+   "modo": "bed"
+  },
+  "h_chime2": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s15.mp3",
+   "prompt": "Two-note xylophone chime",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "h_tada": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s16.mp3",
+   "prompt": "Ukulele strum, ta-da",
+   "max": 2.5,
+   "modo": "hit"
+  },
+  "h_question": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s18.mp3",
+   "prompt": "Question pluck",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_claps": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s23.mp3",
+   "prompt": "Small claps",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_shrug": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s30.mp3",
+   "prompt": "Shrug boop",
+   "max": 1.0,
+   "modo": "hit"
+  },
+  "h_recap": {
+   "cat": "T",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s32.mp3",
+   "prompt": "Three-note recap chime",
+   "max": 3.0,
+   "modo": "hit"
+  },
+  "h_curious": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s03.mp3",
+   "prompt": "Curious pizzicato pluck",
+   "max": 1.5,
+   "modo": "hit"
+  },
+  "h_ponder": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s08.mp3",
+   "prompt": "Thoughtful pizzicato",
+   "max": 1.8,
+   "modo": "hit"
+  },
+  "h_twinkle": {
+   "cat": "M",
+   "fuente": "Efectos del Ep. 2 (biblioteca Ep. 2)",
+   "archivo": "../../ep02/sfx/s37.mp3",
+   "prompt": "Warm twinkle goodbye",
+   "max": 2.0,
+   "modo": "hit"
+  }
+ },
+ "cues": [
+  {
+   "toma": "C01",
+   "t": 0.88,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -1,
+   "accion": "¡hip! Plop da un salto"
+  },
+  {
+   "toma": "C01",
+   "t": 1.21,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "cae sobre sus pies"
+  },
+  {
+   "toma": "C01",
+   "t": 1.5,
+   "efecto": "plate",
+   "cat": "F",
+   "db": -3,
+   "accion": "empuja la torre de bloques"
+  },
+  {
+   "toma": "C01",
+   "t": 2.04,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "los bloques caen al suelo"
+  },
+  {
+   "toma": "C01",
+   "t": 3.4,
+   "efecto": "uh_oh",
+   "cat": "M",
+   "db": -5,
+   "accion": "¿qué fue eso?"
+  },
+  {
+   "toma": "C02",
+   "t": 9.04,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -1,
+   "accion": "¡hip!"
+  },
+  {
+   "toma": "C02",
+   "t": 9.33,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C02",
+   "t": 11.04,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C02",
+   "t": 11.29,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C02",
+   "t": 12.96,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C02",
+   "t": 13.29,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C02",
+   "t": 15.04,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C02",
+   "t": 15.29,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C03",
+   "t": 16.88,
+   "efecto": "shuffle",
+   "cat": "F",
+   "db": -4,
+   "accion": "Pipo se inclina hacia la cámara"
+  },
+  {
+   "toma": "C03",
+   "t": 18.21,
+   "efecto": "h_curious",
+   "cat": "M",
+   "db": -5,
+   "accion": "también quiere saberlo"
+  },
+  {
+   "toma": "CANAL_INICIO",
+   "t": 23.75,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -2,
+   "accion": "entra la cortinilla"
+  },
+  {
+   "toma": "CANAL_INICIO",
+   "t": 24.0,
+   "efecto": "logo",
+   "cat": "T",
+   "db": 0,
+   "accion": "cortinilla del canal"
+  },
+  {
+   "toma": "C04",
+   "t": 28.83,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Pipo levanta la mano"
+  },
+  {
+   "toma": "C04",
+   "t": 30.67,
+   "efecto": "ding",
+   "cat": "M",
+   "db": -4,
+   "accion": "¡la idea loca!"
+  },
+  {
+   "toma": "C04",
+   "t": 32.8,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -5,
+   "accion": "la ranita salta en la panza"
+  },
+  {
+   "toma": "C05",
+   "t": 36.83,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -3,
+   "accion": "Plop se tapa la boca"
+  },
+  {
+   "toma": "C05",
+   "t": 40.92,
+   "efecto": "h_shrug",
+   "cat": "M",
+   "db": -5,
+   "accion": "Plop no ha comido ranas… creo"
+  },
+  {
+   "toma": "C06",
+   "t": 45.5,
+   "efecto": "h_stretch",
+   "cat": "F",
+   "db": -3,
+   "accion": "Plop infla los cachetes"
+  },
+  {
+   "toma": "C06",
+   "t": 47.17,
+   "efecto": "tremble",
+   "cat": "M",
+   "db": -5,
+   "accion": "aguanta y aguanta"
+  },
+  {
+   "toma": "C06",
+   "t": 49.0,
+   "efecto": "plip",
+   "cat": "F",
+   "db": -3,
+   "accion": "le cae una gota de sudor"
+  },
+  {
+   "toma": "C07",
+   "t": 53.96,
+   "efecto": "think",
+   "cat": "M",
+   "db": -3,
+   "accion": "Plop ladea la cabeza"
+  },
+  {
+   "toma": "C07",
+   "t": 56.33,
+   "efecto": "shuffle",
+   "cat": "F",
+   "db": -5,
+   "accion": "se toca la cara"
+  },
+  {
+   "toma": "C08",
+   "t": 60.71,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -4,
+   "accion": "Plop se agarra la panza"
+  },
+  {
+   "toma": "C08",
+   "t": 61.46,
+   "efecto": "h_chime2",
+   "cat": "M",
+   "db": -5,
+   "accion": "¡esa es la pregunta correcta!"
+  },
+  {
+   "toma": "C09",
+   "t": 69.0,
+   "efecto": "h_tick",
+   "cat": "M",
+   "db": -7,
+   "accion": "¿tú qué crees? Piénsalo…"
+  },
+  {
+   "toma": "C09",
+   "t": 74.4,
+   "efecto": "zoom",
+   "cat": "T",
+   "db": -3,
+   "accion": "vamos a mirar dentro del pecho"
+  },
+  {
+   "toma": "C09",
+   "t": 74.9,
+   "efecto": "rev_cymbal",
+   "cat": "T",
+   "db": -5,
+   "accion": "entramos al pecho"
+  },
+  {
+   "toma": "C10",
+   "t": 76.0,
+   "efecto": "shimmer",
+   "cat": "T",
+   "db": -4,
+   "accion": "aparecen los pulmones"
+  },
+  {
+   "toma": "C10",
+   "t": 77.0,
+   "efecto": "h_breeze",
+   "cat": "F",
+   "db": -6,
+   "accion": "los pulmones se llenan de aire"
+  },
+  {
+   "toma": "C11",
+   "t": 85.04,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -4,
+   "accion": "el diafragma se mueve"
+  },
+  {
+   "toma": "C11",
+   "t": 86.54,
+   "efecto": "h_wobble",
+   "cat": "F",
+   "db": -5,
+   "accion": "los pulmones se balancean"
+  },
+  {
+   "toma": "C12",
+   "t": 94.38,
+   "efecto": "h_stretch",
+   "cat": "F",
+   "db": -4,
+   "accion": "el diafragma baja"
+  },
+  {
+   "toma": "C12",
+   "t": 95.46,
+   "efecto": "h_breeze",
+   "cat": "F",
+   "db": -5,
+   "accion": "entra el aire, los pulmones crecen"
+  },
+  {
+   "toma": "C13",
+   "t": 100.96,
+   "efecto": "h_wobble",
+   "cat": "F",
+   "db": -4,
+   "accion": "el diafragma sube"
+  },
+  {
+   "toma": "C13",
+   "t": 102.46,
+   "efecto": "h_stretch",
+   "cat": "F",
+   "db": -5,
+   "accion": "baja"
+  },
+  {
+   "toma": "C13",
+   "t": 104.25,
+   "efecto": "h_wobble",
+   "cat": "F",
+   "db": -5,
+   "accion": "sube"
+  },
+  {
+   "toma": "L1",
+   "t": 108.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 1: pulmones y diafragma"
+  },
+  {
+   "toma": "L1",
+   "t": 108.4,
+   "efecto": "h_recap",
+   "cat": "T",
+   "db": -4,
+   "accion": "el jefe de tu respiración"
+  },
+  {
+   "toma": "C14",
+   "t": 114.67,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Pipo abre los brazos"
+  },
+  {
+   "toma": "C14",
+   "t": 115.71,
+   "efecto": "h_question",
+   "cat": "M",
+   "db": -4,
+   "accion": "¿quién le da la orden?"
+  },
+  {
+   "toma": "C15",
+   "t": 123.0,
+   "efecto": "zap",
+   "cat": "M",
+   "db": -5,
+   "accion": "la orden viaja por el nervio"
+  },
+  {
+   "toma": "C16",
+   "t": 132.25,
+   "efecto": "squint",
+   "cat": "M",
+   "db": -3,
+   "accion": "Plop entrecierra los ojos"
+  },
+  {
+   "toma": "C16",
+   "t": 135.71,
+   "efecto": "uh_oh",
+   "cat": "M",
+   "db": -5,
+   "accion": "¿y si la orden llega con un error?"
+  },
+  {
+   "toma": "C17",
+   "t": 139.04,
+   "efecto": "shuffle",
+   "cat": "F",
+   "db": -3,
+   "accion": "Plop se ríe a carcajadas"
+  },
+  {
+   "toma": "C17",
+   "t": 140.62,
+   "efecto": "h_pops",
+   "cat": "F",
+   "db": -5,
+   "accion": "traga aire"
+  },
+  {
+   "toma": "C18",
+   "t": 148.0,
+   "efecto": "h_stretch",
+   "cat": "F",
+   "db": -4,
+   "accion": "el estómago se infla"
+  },
+  {
+   "toma": "C18",
+   "t": 150.88,
+   "efecto": "h_clayroll",
+   "cat": "F",
+   "db": -5,
+   "accion": "empuja el nervio hacia arriba"
+  },
+  {
+   "toma": "C18",
+   "t": 151.96,
+   "efecto": "squish",
+   "cat": "F",
+   "db": -3,
+   "accion": "le hace cosquillas al nervio"
+  },
+  {
+   "toma": "C19",
+   "t": 154.62,
+   "efecto": "h_zip",
+   "cat": "F",
+   "db": -3,
+   "accion": "la señal corre por el nervio"
+  },
+  {
+   "toma": "C19",
+   "t": 158.5,
+   "efecto": "alarm",
+   "cat": "M",
+   "db": -7,
+   "accion": "¡aprieta ya!"
+  },
+  {
+   "toma": "C20",
+   "t": 162.54,
+   "efecto": "boing",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡zas! el diafragma da un tirón"
+  },
+  {
+   "toma": "C20",
+   "t": 162.62,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "golpea abajo"
+  },
+  {
+   "toma": "C20",
+   "t": 163.0,
+   "efecto": "slide_up",
+   "cat": "M",
+   "db": -5,
+   "accion": "el aire entra de golpe"
+  },
+  {
+   "toma": "C20",
+   "t": 163.25,
+   "efecto": "h_breeze",
+   "cat": "F",
+   "db": -3,
+   "accion": "los pulmones se llenan"
+  },
+  {
+   "toma": "C21",
+   "t": 170.3,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -5,
+   "accion": "el chorro de aire sube"
+  },
+  {
+   "toma": "C21",
+   "t": 171.04,
+   "efecto": "h_breeze",
+   "cat": "F",
+   "db": -4,
+   "accion": "el aire sale por la garganta"
+  },
+  {
+   "toma": "C21",
+   "t": 173.5,
+   "efecto": "flutter",
+   "cat": "F",
+   "db": -5,
+   "accion": "las cuerdas vocales aletean"
+  },
+  {
+   "toma": "C22",
+   "t": 178.0,
+   "efecto": "zoom",
+   "cat": "T",
+   "db": -5,
+   "accion": "primer plano de las cuerdas vocales"
+  },
+  {
+   "toma": "C22",
+   "t": 178.83,
+   "efecto": "key_lock",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡clac! se cierran de golpe"
+  },
+  {
+   "toma": "C22",
+   "t": 178.83,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "el portazo"
+  },
+  {
+   "toma": "C22",
+   "t": 179.62,
+   "efecto": "flutter",
+   "cat": "F",
+   "db": -6,
+   "accion": "las cuerdas tiemblan"
+  },
+  {
+   "toma": "C23",
+   "t": 187.04,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop da un salto de hipo"
+  },
+  {
+   "toma": "C23",
+   "t": 187.38,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C23",
+   "t": 189.0,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -1,
+   "accion": "¡hip! (el mismo instante en que la voz dice «¡hip!»)"
+  },
+  {
+   "toma": "C23",
+   "t": 189.38,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C23",
+   "t": 191.0,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C23",
+   "t": 191.38,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C23",
+   "t": 193.04,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C23",
+   "t": 193.38,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C24",
+   "t": 195.29,
+   "efecto": "h_ponder",
+   "cat": "M",
+   "db": -5,
+   "accion": "Pipo parpadea, pensativo"
+  },
+  {
+   "toma": "C25",
+   "t": 204.08,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -1,
+   "accion": "¡hip!"
+  },
+  {
+   "toma": "C25",
+   "t": 204.33,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C25",
+   "t": 206.17,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡hip!"
+  },
+  {
+   "toma": "C25",
+   "t": 206.46,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C25",
+   "t": 208.08,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C25",
+   "t": 208.5,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "Plop se sienta, agotado"
+  },
+  {
+   "toma": "C26",
+   "t": 210.5,
+   "efecto": "relief",
+   "cat": "M",
+   "db": -6,
+   "accion": "Plop respira muy lento"
+  },
+  {
+   "toma": "C27",
+   "t": 218.0,
+   "efecto": "zoom",
+   "cat": "T",
+   "db": -5,
+   "accion": "primer plano entre los pulmones"
+  },
+  {
+   "toma": "C27",
+   "t": 218.25,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "cae la primera bolita de gas"
+  },
+  {
+   "toma": "C27",
+   "t": 218.92,
+   "efecto": "h_marbles",
+   "cat": "F",
+   "db": -4,
+   "accion": "caen más bolitas"
+  },
+  {
+   "toma": "C27",
+   "t": 221.0,
+   "efecto": "h_pops",
+   "cat": "F",
+   "db": -5,
+   "accion": "se van amontonando"
+  },
+  {
+   "toma": "C27",
+   "t": 223.5,
+   "efecto": "h_click",
+   "cat": "F",
+   "db": -4,
+   "accion": "la última bolita encaja"
+  },
+  {
+   "toma": "C28",
+   "t": 226.5,
+   "efecto": "relief",
+   "cat": "M",
+   "db": -5,
+   "accion": "el cerebro se calma"
+  },
+  {
+   "toma": "C28",
+   "t": 229.0,
+   "efecto": "h_zip",
+   "cat": "F",
+   "db": -6,
+   "accion": "la señal viaja tranquila"
+  },
+  {
+   "toma": "C29",
+   "t": 234.92,
+   "efecto": "h_wobble",
+   "cat": "F",
+   "db": -6,
+   "accion": "sube suavecito"
+  },
+  {
+   "toma": "C29",
+   "t": 236.42,
+   "efecto": "h_stretch",
+   "cat": "F",
+   "db": -6,
+   "accion": "baja suavecito"
+  },
+  {
+   "toma": "C29",
+   "t": 240.0,
+   "efecto": "sparkle",
+   "cat": "M",
+   "db": -5,
+   "accion": "la puerta deja de dar portazos"
+  },
+  {
+   "toma": "C30",
+   "t": 243.0,
+   "efecto": "h_tada",
+   "cat": "M",
+   "db": -3,
+   "accion": "¡se fue!"
+  },
+  {
+   "toma": "C30",
+   "t": 244.25,
+   "efecto": "cheek_rub",
+   "cat": "F",
+   "db": -3,
+   "accion": "Plop se toca la panza, contento"
+  },
+  {
+   "toma": "C30",
+   "t": 247.21,
+   "efecto": "h_claps",
+   "cat": "M",
+   "db": -5,
+   "accion": "¡misterio resuelto!"
+  },
+  {
+   "toma": "L2",
+   "t": 250.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 2: repaso"
+  },
+  {
+   "toma": "L2",
+   "t": 250.4,
+   "efecto": "h_recap",
+   "cat": "T",
+   "db": -4,
+   "accion": "nervio, diafragma y cuerdas vocales"
+  },
+  {
+   "toma": "C31",
+   "t": 258.88,
+   "efecto": "pop",
+   "cat": "M",
+   "db": -2,
+   "accion": "¡hip! el perrito salta"
+  },
+  {
+   "toma": "C31",
+   "t": 259.21,
+   "efecto": "land",
+   "cat": "F",
+   "db": -2,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C31",
+   "t": 260.96,
+   "efecto": "hop",
+   "cat": "F",
+   "db": -2,
+   "accion": "otro hipo"
+  },
+  {
+   "toma": "C31",
+   "t": 261.3,
+   "efecto": "land",
+   "cat": "F",
+   "db": -3,
+   "accion": "aterriza"
+  },
+  {
+   "toma": "C31",
+   "t": 262.75,
+   "efecto": "flutter",
+   "cat": "F",
+   "db": -5,
+   "accion": "le aletean las orejas"
+  },
+  {
+   "toma": "C31",
+   "t": 264.71,
+   "efecto": "flutter",
+   "cat": "F",
+   "db": -6,
+   "accion": "otra vez las orejas"
+  },
+  {
+   "toma": "C32",
+   "t": 266.5,
+   "efecto": "h_twinkle",
+   "cat": "M",
+   "db": -6,
+   "accion": "un bebé antes de nacer"
+  },
+  {
+   "toma": "C33",
+   "t": 274.83,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": -1,
+   "accion": "Plop levanta el brazo"
+  },
+  {
+   "toma": "C33",
+   "t": 276.33,
+   "efecto": "slide_up",
+   "cat": "M",
+   "db": -5,
+   "accion": "¡un reto!"
+  },
+  {
+   "toma": "L3",
+   "t": 282.0,
+   "efecto": "swipe",
+   "cat": "T",
+   "db": -1,
+   "accion": "lámina 3: reto en casa"
+  },
+  {
+   "toma": "L3",
+   "t": 282.4,
+   "efecto": "h_tick",
+   "cat": "M",
+   "db": -6,
+   "accion": "el reloj: cuenta los hip"
+  },
+  {
+   "toma": "C34",
+   "t": 288.92,
+   "efecto": "arm_swish",
+   "cat": "F",
+   "db": 0,
+   "accion": "Plop saluda"
+  },
+  {
+   "toma": "C34",
+   "t": 294.2,
+   "efecto": "frost",
+   "cat": "M",
+   "db": -5,
+   "accion": "guiño al próximo episodio: el hielo"
+  },
+  {
+   "toma": "CANAL_FINAL",
+   "t": 295.75,
+   "efecto": "whoosh",
+   "cat": "T",
+   "db": -2,
+   "accion": "entra la cortinilla final"
+  },
+  {
+   "toma": "CANAL_FINAL",
+   "t": 296.0,
+   "efecto": "outro",
+   "cat": "T",
+   "db": 0,
+   "accion": "cortinilla final"
+  }
+ ]
+}

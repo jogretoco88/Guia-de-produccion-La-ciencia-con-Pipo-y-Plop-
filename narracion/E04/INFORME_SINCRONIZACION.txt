@@ -1027,3 +1027,464 @@ CANAL_FINAL  1.00
   guion: अगले रहस्य में मिलते हैं!
   oído : अगले रहस्य में मिलते हैं।
 
+
+── EFECTOS DE SONIDO (una sola pista para los 5 idiomas) ────────────────────
+No se generó ningún efecto nuevo: se reutilizaron la biblioteca de ElevenLabs Sound Effects v3 del Ep. 3 y la biblioteca de efectos del Ep. 2.
+Cada uno está colocado en el segundo exacto de su acción en pantalla.
+Foley de movimiento y textura: 64 entradas (17 sonidos distintos)
+Acentos de expresión (mickey mousing): 33 entradas (23 sonidos distintos)
+Transiciones y refuerzos visuales: 15 entradas (8 sonidos distintos)
+Pista de efectos: -26.8 LUFS integrados · pico -3.7 dBTP
+Mezcla: mientras hay voz, los efectos bajan como mínimo 4 dB y se mantienen 9 dB por debajo del pico de la voz;
+en las pausas suenan completos. Cada mezcla queda a -16 LUFS con pico de -1,5 dBTP.
+
+  n  tiempo     toma          cat  efecto        orig acción en pantalla   (EL = ElevenLabs Ep. 3 · E2 = biblioteca del Ep. 2)
+  1  0:00.880   C01            M   pop           EL  ¡hip! Plop da un salto
+  2  0:01.210   C01            F   land          EL  cae sobre sus pies
+  3  0:01.500   C01            F   plate         EL  empuja la torre de bloques
+  4  0:02.040   C01            F   land          EL  los bloques caen al suelo
+  5  0:03.400   C01            M   uh_oh         EL  ¿qué fue eso?
+  6  0:09.040   C02            M   pop           EL  ¡hip!
+  7  0:09.330   C02            F   land          EL  aterriza
+  8  0:11.040   C02            F   hop           EL  otro hipo
+  9  0:11.290   C02            F   land          EL  aterriza
+ 10  0:12.960   C02            F   hop           EL  otro hipo
+ 11  0:13.290   C02            F   land          EL  aterriza
+ 12  0:15.040   C02            F   hop           EL  otro hipo
+ 13  0:15.290   C02            F   land          EL  aterriza
+ 14  0:16.880   C03            F   shuffle       EL  Pipo se inclina hacia la cámara
+ 15  0:18.210   C03            M   h_curious     E2  también quiere saberlo
+ 16  0:23.750   CANAL_INICIO   T   whoosh        EL  entra la cortinilla
+ 17  0:24.000   CANAL_INICIO   T   logo          EL  cortinilla del canal
+ 18  0:28.830   C04            F   arm_swish     EL  Pipo levanta la mano
+ 19  0:30.670   C04            M   ding          EL  ¡la idea loca!
+ 20  0:32.800   C04            M   boing         EL  la ranita salta en la panza
+ 21  0:36.830   C05            F   cheek_rub     EL  Plop se tapa la boca
+ 22  0:40.920   C05            M   h_shrug       E2  Plop no ha comido ranas… creo
+ 23  0:45.500   C06            F   h_stretch     E2  Plop infla los cachetes
+ 24  0:47.170   C06            M   tremble       EL  aguanta y aguanta
+ 25  0:49.000   C06            F   plip          EL  le cae una gota de sudor
+ 26  0:53.960   C07            M   think         EL  Plop ladea la cabeza
+ 27  0:56.330   C07            F   shuffle       EL  se toca la cara
+ 28  1:00.710   C08            F   cheek_rub     EL  Plop se agarra la panza
+ 29  1:01.460   C08            M   h_chime2      E2  ¡esa es la pregunta correcta!
+ 30  1:09.000   C09            M   h_tick        E2  ¿tú qué crees? Piénsalo…
+ 31  1:14.400   C09            T   zoom          EL  vamos a mirar dentro del pecho
+ 32  1:14.900   C09            T   rev_cymbal    EL  entramos al pecho
+ 33  1:16.000   C10            T   shimmer       EL  aparecen los pulmones
+ 34  1:17.000   C10            F   h_breeze      E2  los pulmones se llenan de aire
+ 35  1:25.040   C11            F   squish        EL  el diafragma se mueve
+ 36  1:26.540   C11            F   h_wobble      E2  los pulmones se balancean
+ 37  1:34.380   C12            F   h_stretch     E2  el diafragma baja
+ 38  1:35.460   C12            F   h_breeze      E2  entra el aire, los pulmones crecen
+ 39  1:40.960   C13            F   h_wobble      E2  el diafragma sube
+ 40  1:42.460   C13            F   h_stretch     E2  baja
+ 41  1:44.250   C13            F   h_wobble      E2  sube
+ 42  1:48.000   L1             T   swipe         EL  lámina 1: pulmones y diafragma
+ 43  1:48.400   L1             T   h_recap       E2  el jefe de tu respiración
+ 44  1:54.670   C14            F   arm_swish     EL  Pipo abre los brazos
+ 45  1:55.710   C14            M   h_question    E2  ¿quién le da la orden?
+ 46  2:03.000   C15            M   zap           EL  la orden viaja por el nervio
+ 47  2:12.250   C16            M   squint        EL  Plop entrecierra los ojos
+ 48  2:15.710   C16            M   uh_oh         EL  ¿y si la orden llega con un error?
+ 49  2:19.040   C17            F   shuffle       EL  Plop se ríe a carcajadas
+ 50  2:20.620   C17            F   h_pops        E2  traga aire
+ 51  2:28.000   C18            F   h_stretch     E2  el estómago se infla
+ 52  2:30.880   C18            F   h_clayroll    E2  empuja el nervio hacia arriba
+ 53  2:31.960   C18            F   squish        EL  le hace cosquillas al nervio
+ 54  2:34.620   C19            F   h_zip         E2  la señal corre por el nervio
+ 55  2:38.500   C19            M   alarm         EL  ¡aprieta ya!
+ 56  2:42.540   C20            M   boing         EL  ¡zas! el diafragma da un tirón
+ 57  2:42.620   C20            F   land          EL  golpea abajo
+ 58  2:43.000   C20            M   slide_up      EL  el aire entra de golpe
+ 59  2:43.250   C20            F   h_breeze      E2  los pulmones se llenan
+ 60  2:50.300   C21            T   whoosh        EL  el chorro de aire sube
+ 61  2:51.040   C21            F   h_breeze      E2  el aire sale por la garganta
+ 62  2:53.500   C21            F   flutter       EL  las cuerdas vocales aletean
+ 63  2:58.000   C22            T   zoom          EL  primer plano de las cuerdas vocales
+ 64  2:58.830   C22            M   key_lock      EL  ¡clac! se cierran de golpe
+ 65  2:58.830   C22            F   land          EL  el portazo
+ 66  2:59.620   C22            F   flutter       EL  las cuerdas tiemblan
+ 67  3:07.040   C23            F   hop           EL  Plop da un salto de hipo
+ 68  3:07.380   C23            F   land          EL  aterriza
+ 69  3:09.000   C23            M   pop           EL  ¡hip! (el mismo instante en que la voz dice «¡hip!»)
+ 70  3:09.380   C23            F   land          EL  aterriza
+ 71  3:11.000   C23            F   hop           EL  otro hipo
+ 72  3:11.380   C23            F   land          EL  aterriza
+ 73  3:13.040   C23            F   hop           EL  otro hipo
+ 74  3:13.380   C23            F   land          EL  aterriza
+ 75  3:15.290   C24            M   h_ponder      E2  Pipo parpadea, pensativo
+ 76  3:24.080   C25            M   pop           EL  ¡hip!
+ 77  3:24.330   C25            F   land          EL  aterriza
+ 78  3:26.170   C25            M   pop           EL  ¡hip!
+ 79  3:26.460   C25            F   land          EL  aterriza
+ 80  3:28.080   C25            F   hop           EL  otro hipo
+ 81  3:28.500   C25            F   land          EL  Plop se sienta, agotado
+ 82  3:30.500   C26            M   relief        EL  Plop respira muy lento
+ 83  3:38.000   C27            T   zoom          EL  primer plano entre los pulmones
+ 84  3:38.250   C27            F   land          EL  cae la primera bolita de gas
+ 85  3:38.920   C27            F   h_marbles     E2  caen más bolitas
+ 86  3:41.000   C27            F   h_pops        E2  se van amontonando
+ 87  3:43.500   C27            F   h_click       E2  la última bolita encaja
+ 88  3:46.500   C28            M   relief        EL  el cerebro se calma
+ 89  3:49.000   C28            F   h_zip         E2  la señal viaja tranquila
+ 90  3:54.920   C29            F   h_wobble      E2  sube suavecito
+ 91  3:56.420   C29            F   h_stretch     E2  baja suavecito
+ 92  4:00.000   C29            M   sparkle       EL  la puerta deja de dar portazos
+ 93  4:03.000   C30            M   h_tada        E2  ¡se fue!
+ 94  4:04.250   C30            F   cheek_rub     EL  Plop se toca la panza, contento
+ 95  4:07.210   C30            M   h_claps       E2  ¡misterio resuelto!
+ 96  4:10.000   L2             T   swipe         EL  lámina 2: repaso
+ 97  4:10.400   L2             T   h_recap       E2  nervio, diafragma y cuerdas vocales
+ 98  4:18.880   C31            M   pop           EL  ¡hip! el perrito salta
+ 99  4:19.210   C31            F   land          EL  aterriza
+100  4:20.960   C31            F   hop           EL  otro hipo
+101  4:21.300   C31            F   land          EL  aterriza
+102  4:22.750   C31            F   flutter       EL  le aletean las orejas
+103  4:24.710   C31            F   flutter       EL  otra vez las orejas
+104  4:26.500   C32            M   h_twinkle     E2  un bebé antes de nacer
+105  4:34.830   C33            F   arm_swish     EL  Plop levanta el brazo
+106  4:36.330   C33            M   slide_up      EL  ¡un reto!
+107  4:42.000   L3             T   swipe         EL  lámina 3: reto en casa
+108  4:42.400   L3             M   h_tick        E2  el reloj: cuenta los hip
+109  4:48.920   C34            F   arm_swish     EL  Plop saluda
+110  4:54.200   C34            M   frost         EL  guiño al próximo episodio: el hielo
+111  4:55.750   CANAL_FINAL    T   whoosh        EL  entra la cortinilla final
+112  4:56.000   CANAL_FINAL    T   outro         EL  cortinilla final
+
+── RELLENOS EN LOS SILENCIOS (sintetizados, sin ElevenLabs) ────────────────────
+Los 112 efectos de arriba no se movieron. En los silencios entre frases donde no suena ningún efecto se añadió
+un sonido pequeño sintetizado (marimba, gotitas, burbujas, campanita, blips, tic-tac o punteo, según la escena),
+a -27 dBFS RMS, en la escala pentatónica de do. Empieza 0,10 s después de la voz y acaba 0,08 s antes de la siguiente frase,
+sin tocar los efectos (0,05 s de colchón). Como cada idioma hace sus pausas en segundos distintos, hay una pista por idioma.
+
+── Rellenos · Español (ES): 61 sonidos en 38 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:07.110   C01           C01→C02                   punteo      0.65 s
+  2  0:14.200   C02           C02→C03                   punteo      0.65 s
+  3  0:15.460   C02           C02→C03                   punteo      0.35 s
+  4  0:22.770   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  5  0:26.410   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  6  0:27.560   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  7  0:34.680   C04           C04→C05                   campanita   0.70 s
+  8  0:43.400   C05           C05→C06                   punteo      0.65 s
+  9  0:51.570   C06           C06→C07                   punteo      0.35 s
+ 10  0:58.150   C07           C07→C08                   tic-tac     0.31 s
+ 11  0:58.810   C07           C07→C08                   campanita   0.50 s
+ 12  1:06.020   C08           C08→C09                   punteo      0.65 s
+ 13  1:07.020   C08           C08→C09                   punteo      0.35 s
+ 14  1:13.690   C09           C09→C10                   tic-tac     0.31 s
+ 15  1:22.080   C10           C10→C11                   gotitas     0.34 s
+ 16  1:22.770   C10           C10→C11                   burbujas    0.50 s
+ 17  1:29.860   C11           C11→C12                   gotitas     0.34 s
+ 18  1:30.550   C11           C11→C12                   burbujas    0.50 s
+ 19  1:38.330   C12           C12→C13                   gotitas     0.34 s
+ 20  1:39.020   C12           C12→C13                   burbujas    0.50 s
+ 21  1:47.490   C13           C13→L1                    gotitas     0.18 s
+ 22  1:52.970   L1            L1→C14                    campanita   0.80 s
+ 23  2:00.060   C14           C14→C15                   punteo      0.65 s
+ 24  2:01.060   C14           C14→C15                   punteo      0.35 s
+ 25  2:08.320   C15           C15→C16                   blips       0.27 s
+ 26  2:08.940   C15           C15→C16                   blips       0.14 s
+ 27  2:16.510   C16           C16→C17                   campanita   0.70 s
+ 28  2:17.560   C16           C16→C17                   tic-tac     0.31 s
+ 29  2:23.940   C17           C17→C18                   punteo      0.65 s
+ 30  2:24.940   C17           C17→C18                   punteo      0.35 s
+ 31  2:32.690   C18           C18→C19                   blips       0.27 s
+ 32  2:33.310   C18           C18→C19                   blips       0.14 s
+ 33  2:40.240   C19           C19→C20                   blips       0.27 s
+ 34  2:40.860   C19           C19→C20                   blips       0.14 s
+ 35  2:48.820   C20           C20→C21                   gotitas     0.34 s
+ 36  2:49.510   C20           C20→C21                   burbujas    0.50 s
+ 37  2:55.210   C21           C21→C22                   gotitas     0.34 s
+ 38  2:55.900   C21           C21→C22                   burbujas    0.50 s
+ 39  3:04.390   C22           C22→C23                   gotitas     0.34 s
+ 40  3:05.080   C22           C22→C23                   burbujas    0.50 s
+ 41  3:13.550   C23           C23→C24                   punteo      0.35 s
+ 42  3:20.180   C24           C24→C25                   tic-tac     0.31 s
+ 43  3:20.840   C24           C24→C25                   campanita   0.50 s
+ 44  3:28.780   C25           C25→C26                   punteo      0.65 s
+ 45  3:36.000   C26           C26→C27                   punteo      0.65 s
+ 46  3:37.000   C26           C26→C27                   punteo      0.35 s
+ 47  3:43.810   C27           C27→C28                   gotitas     0.34 s
+ 48  3:52.730   C28           C28→C29                   blips       0.27 s
+ 49  3:53.350   C28           C28→C29                   blips       0.14 s
+ 50  4:01.550   C29           C29→C30                   burbujas    0.55 s
+ 51  4:17.170   L2            L2→C31                    campanita   0.80 s
+ 52  4:24.090   C31           C31→C32                   punteo      0.35 s
+ 53  4:25.560   C31           C31→C32                   punteo      0.35 s
+ 54  4:31.560   C32           C32→C33                   punteo      0.65 s
+ 55  4:32.560   C32           C32→C33                   punteo      0.35 s
+ 56  4:39.880   C33           C33→L3                    tic-tac     0.31 s
+ 57  4:40.540   C33           C33→L3                    campanita   0.50 s
+ 58  4:46.650   L3            L3→C34                    campanita   0.80 s
+ 59  4:53.100   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 60  4:55.140   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 61  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · English (EN): 66 sonidos en 38 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.700   C01           C01→C02                   punteo      0.65 s
+  2  0:13.460   C02           C02→C03                   punteo      0.65 s
+  3  0:14.460   C02           C02→C03                   punteo      0.35 s
+  4  0:15.460   C02           C02→C03                   punteo      0.65 s
+  5  0:22.190   C03           C03→CANAL_INICIO          campanita   0.70 s
+  6  0:26.330   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  7  0:27.480   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  8  0:34.150   C04           C04→C05                   tic-tac     0.31 s
+  9  0:34.810   C04           C04→C05                   campanita   0.50 s
+ 10  0:43.180   C05           C05→C06                   punteo      0.65 s
+ 11  0:50.950   C06           C06→C07                   punteo      0.65 s
+ 12  0:57.700   C07           C07→C08                   tic-tac     0.31 s
+ 13  0:58.360   C07           C07→C08                   campanita   0.50 s
+ 14  1:06.490   C08           C08→C09                   punteo      0.65 s
+ 15  1:07.490   C08           C08→C09                   punteo      0.35 s
+ 16  1:13.640   C09           C09→C10                   tic-tac     0.31 s
+ 17  1:21.720   C10           C10→C11                   gotitas     0.34 s
+ 18  1:22.410   C10           C10→C11                   burbujas    0.50 s
+ 19  1:29.240   C11           C11→C12                   gotitas     0.34 s
+ 20  1:29.930   C11           C11→C12                   burbujas    0.50 s
+ 21  1:38.270   C12           C12→C13                   gotitas     0.34 s
+ 22  1:38.960   C12           C12→C13                   burbujas    0.50 s
+ 23  1:46.850   C13           C13→L1                    gotitas     0.34 s
+ 24  1:52.570   L1            L1→C14                    campanita   0.80 s
+ 25  1:59.490   C14           C14→C15                   punteo      0.65 s
+ 26  2:00.490   C14           C14→C15                   punteo      0.35 s
+ 27  2:08.000   C15           C15→C16                   blips       0.27 s
+ 28  2:08.620   C15           C15→C16                   blips       0.14 s
+ 29  2:16.510   C16           C16→C17                   campanita   0.70 s
+ 30  2:17.560   C16           C16→C17                   tic-tac     0.31 s
+ 31  2:23.680   C17           C17→C18                   punteo      0.65 s
+ 32  2:24.680   C17           C17→C18                   punteo      0.35 s
+ 33  2:30.280   C18           C18→C19                   blips       0.14 s
+ 34  2:32.690   C18           C18→C19                   blips       0.27 s
+ 35  2:33.310   C18           C18→C19                   blips       0.14 s
+ 36  2:39.810   C19           C19→C20                   blips       0.27 s
+ 37  2:40.430   C19           C19→C20                   blips       0.14 s
+ 38  2:48.430   C20           C20→C21                   burbujas    0.55 s
+ 39  2:49.330   C20           C20→C21                   gotitas     0.18 s
+ 40  2:54.860   C21           C21→C22                   burbujas    0.55 s
+ 41  2:55.760   C21           C21→C22                   gotitas     0.18 s
+ 42  3:03.480   C22           C22→C23                   burbujas    0.55 s
+ 43  3:04.380   C22           C22→C23                   gotitas     0.18 s
+ 44  3:12.350   C23           C23→C24                   punteo      0.35 s
+ 45  3:13.550   C23           C23→C24                   punteo      0.35 s
+ 46  3:20.310   C24           C24→C25                   tic-tac     0.31 s
+ 47  3:20.970   C24           C24→C25                   campanita   0.50 s
+ 48  3:29.040   C25           C25→C26                   punteo      0.65 s
+ 49  3:36.460   C26           C26→C27                   punteo      0.65 s
+ 50  3:37.460   C26           C26→C27                   punteo      0.35 s
+ 51  3:43.810   C27           C27→C28                   gotitas     0.34 s
+ 52  3:51.930   C28           C28→C29                   blips       0.27 s
+ 53  3:52.550   C28           C28→C29                   blips       0.14 s
+ 54  4:01.540   C29           C29→C30                   burbujas    0.55 s
+ 55  4:16.750   L2            L2→C31                    campanita   0.80 s
+ 56  4:23.770   C31           C31→C32                   punteo      0.65 s
+ 57  4:25.560   C31           C31→C32                   punteo      0.35 s
+ 58  4:30.990   C32           C32→C33                   punteo      0.65 s
+ 59  4:31.990   C32           C32→C33                   punteo      0.35 s
+ 60  4:40.270   C33           C33→L3                    tic-tac     0.31 s
+ 61  4:40.930   C33           C33→L3                    campanita   0.50 s
+ 62  4:46.320   L3            L3→C34                    campanita   0.80 s
+ 63  4:47.470   L3            L3→C34                    campanita   0.50 s
+ 64  4:52.980   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 65  4:55.140   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 66  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · Français (FR): 70 sonidos en 39 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.010   C01           C01→C02                   punteo      0.65 s
+  2  0:07.010   C01           C01→C02                   punteo      0.35 s
+  3  0:13.460   C02           C02→C03                   punteo      0.65 s
+  4  0:14.460   C02           C02→C03                   punteo      0.35 s
+  5  0:15.460   C02           C02→C03                   punteo      0.65 s
+  6  0:21.720   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  7  0:22.380   C03           C03→CANAL_INICIO          campanita   0.50 s
+  8  0:26.430   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  9  0:27.580   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+ 10  0:33.380   C04           C04→C05                   tic-tac     0.31 s
+ 11  0:34.040   C04           C04→C05                   campanita   0.50 s
+ 12  0:43.030   C05           C05→C06                   punteo      0.65 s
+ 13  0:51.260   C06           C06→C07                   punteo      0.65 s
+ 14  0:57.490   C07           C07→C08                   tic-tac     0.31 s
+ 15  0:58.150   C07           C07→C08                   campanita   0.50 s
+ 16  1:05.750   C08           C08→C09                   punteo      0.65 s
+ 17  1:06.750   C08           C08→C09                   punteo      0.35 s
+ 18  1:12.820   C09           C09→C10                   tic-tac     0.31 s
+ 19  1:13.480   C09           C09→C10                   campanita   0.50 s
+ 20  1:21.270   C10           C10→C11                   burbujas    0.55 s
+ 21  1:22.170   C10           C10→C11                   gotitas     0.18 s
+ 22  1:29.300   C11           C11→C12                   burbujas    0.55 s
+ 23  1:30.200   C11           C11→C12                   gotitas     0.18 s
+ 24  1:37.740   C12           C12→C13                   burbujas    0.55 s
+ 25  1:38.640   C12           C12→C13                   gotitas     0.18 s
+ 26  1:46.080   C13           C13→L1                    burbujas    0.55 s
+ 27  1:46.980   C13           C13→L1                    gotitas     0.18 s
+ 28  1:52.750   L1            L1→C14                    campanita   0.80 s
+ 29  1:59.280   C14           C14→C15                   punteo      0.65 s
+ 30  2:00.280   C14           C14→C15                   punteo      0.35 s
+ 31  2:07.730   C15           C15→C16                   blips       0.27 s
+ 32  2:08.350   C15           C15→C16                   blips       0.14 s
+ 33  2:16.520   C16           C16→C17                   campanita   0.70 s
+ 34  2:17.570   C16           C16→C17                   tic-tac     0.31 s
+ 35  2:23.980   C17           C17→C18                   punteo      0.65 s
+ 36  2:24.980   C17           C17→C18                   punteo      0.35 s
+ 37  2:32.680   C18           C18→C19                   blips       0.27 s
+ 38  2:33.300   C18           C18→C19                   blips       0.14 s
+ 39  2:39.810   C19           C19→C20                   blips       0.27 s
+ 40  2:40.430   C19           C19→C20                   blips       0.14 s
+ 41  2:48.320   C20           C20→C21                   gotitas     0.34 s
+ 42  2:49.010   C20           C20→C21                   burbujas    0.50 s
+ 43  2:54.400   C21           C21→C22                   gotitas     0.34 s
+ 44  2:55.090   C21           C21→C22                   burbujas    0.50 s
+ 45  3:04.110   C22           C22→C23                   gotitas     0.34 s
+ 46  3:04.800   C22           C22→C23                   burbujas    0.50 s
+ 47  3:12.350   C23           C23→C24                   punteo      0.35 s
+ 48  3:13.550   C23           C23→C24                   punteo      0.35 s
+ 49  3:19.560   C24           C24→C25                   campanita   0.70 s
+ 50  3:20.610   C24           C24→C25                   tic-tac     0.31 s
+ 51  3:28.690   C25           C25→C26                   punteo      0.65 s
+ 52  3:29.690   C25           C25→C26                   punteo      0.35 s
+ 53  3:36.080   C26           C26→C27                   punteo      0.65 s
+ 54  3:37.080   C26           C26→C27                   punteo      0.35 s
+ 55  3:43.810   C27           C27→C28                   gotitas     0.34 s
+ 56  3:52.130   C28           C28→C29                   blips       0.27 s
+ 57  3:52.750   C28           C28→C29                   blips       0.14 s
+ 58  4:00.790   C29           C29→C30                   burbujas    0.55 s
+ 59  4:09.480   C30           C30→L2                    punteo      0.35 s
+ 60  4:17.180   L2            L2→C31                    campanita   0.80 s
+ 61  4:23.610   C31           C31→C32                   punteo      0.65 s
+ 62  4:25.560   C31           C31→C32                   punteo      0.35 s
+ 63  4:30.880   C32           C32→C33                   punteo      0.65 s
+ 64  4:31.880   C32           C32→C33                   punteo      0.35 s
+ 65  4:39.640   C33           C33→L3                    campanita   0.70 s
+ 66  4:40.690   C33           C33→L3                    tic-tac     0.31 s
+ 67  4:46.630   L3            L3→C34                    campanita   0.80 s
+ 68  4:53.240   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 69  4:55.140   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 70  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · Português (BR) (PT): 61 sonidos en 37 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:07.010   C01           C01→C02                   punteo      0.65 s
+  2  0:13.850   C02           C02→C03                   punteo      0.65 s
+  3  0:15.460   C02           C02→C03                   punteo      0.35 s
+  4  0:22.780   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  5  0:26.320   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  6  0:27.470   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  7  0:34.330   C04           C04→C05                   campanita   0.70 s
+  8  0:35.380   C04           C04→C05                   tic-tac     0.31 s
+  9  0:42.550   C05           C05→C06                   punteo      0.65 s
+ 10  0:43.550   C05           C05→C06                   punteo      0.35 s
+ 11  0:51.120   C06           C06→C07                   punteo      0.65 s
+ 12  0:57.950   C07           C07→C08                   tic-tac     0.31 s
+ 13  0:58.610   C07           C07→C08                   campanita   0.50 s
+ 14  1:06.550   C08           C08→C09                   punteo      0.65 s
+ 15  1:07.550   C08           C08→C09                   punteo      0.35 s
+ 16  1:13.650   C09           C09→C10                   tic-tac     0.31 s
+ 17  1:22.640   C10           C10→C11                   gotitas     0.34 s
+ 18  1:23.330   C10           C10→C11                   burbujas    0.50 s
+ 19  1:30.080   C11           C11→C12                   gotitas     0.34 s
+ 20  1:30.770   C11           C11→C12                   burbujas    0.50 s
+ 21  1:38.340   C12           C12→C13                   gotitas     0.34 s
+ 22  1:39.030   C12           C12→C13                   burbujas    0.50 s
+ 23  1:52.900   L1            L1→C14                    campanita   0.80 s
+ 24  1:59.800   C14           C14→C15                   punteo      0.65 s
+ 25  2:00.800   C14           C14→C15                   punteo      0.35 s
+ 26  2:08.150   C15           C15→C16                   blips       0.27 s
+ 27  2:08.770   C15           C15→C16                   blips       0.14 s
+ 28  2:16.520   C16           C16→C17                   tic-tac     0.31 s
+ 29  2:17.180   C16           C16→C17                   campanita   0.50 s
+ 30  2:24.200   C17           C17→C18                   punteo      0.65 s
+ 31  2:25.200   C17           C17→C18                   punteo      0.35 s
+ 32  2:32.680   C18           C18→C19                   blips       0.27 s
+ 33  2:33.300   C18           C18→C19                   blips       0.14 s
+ 34  2:39.900   C19           C19→C20                   blips       0.27 s
+ 35  2:40.520   C19           C19→C20                   blips       0.14 s
+ 36  2:48.580   C20           C20→C21                   burbujas    0.55 s
+ 37  2:49.480   C20           C20→C21                   gotitas     0.18 s
+ 38  2:55.300   C21           C21→C22                   burbujas    0.55 s
+ 39  2:56.200   C21           C21→C22                   gotitas     0.18 s
+ 40  3:04.610   C22           C22→C23                   burbujas    0.55 s
+ 41  3:05.510   C22           C22→C23                   gotitas     0.18 s
+ 42  3:13.550   C23           C23→C24                   punteo      0.35 s
+ 43  3:20.500   C24           C24→C25                   campanita   0.70 s
+ 44  3:21.550   C24           C24→C25                   tic-tac     0.31 s
+ 45  3:28.750   C25           C25→C26                   punteo      0.65 s
+ 46  3:36.390   C26           C26→C27                   punteo      0.65 s
+ 47  3:37.390   C26           C26→C27                   punteo      0.35 s
+ 48  3:43.810   C27           C27→C28                   burbujas    0.55 s
+ 49  3:52.950   C28           C28→C29                   blips       0.27 s
+ 50  3:53.570   C28           C28→C29                   blips       0.14 s
+ 51  4:01.540   C29           C29→C30                   gotitas     0.18 s
+ 52  4:17.200   L2            L2→C31                    campanita   0.80 s
+ 53  4:23.990   C31           C31→C32                   punteo      0.35 s
+ 54  4:25.560   C31           C31→C32                   punteo      0.35 s
+ 55  4:31.680   C32           C32→C33                   punteo      0.65 s
+ 56  4:32.680   C32           C32→C33                   punteo      0.35 s
+ 57  4:40.430   C33           C33→L3                    campanita   0.70 s
+ 58  4:46.650   L3            L3→C34                    campanita   0.80 s
+ 59  4:53.250   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 60  4:55.140   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 61  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · हिन्दी (Hindi) (HI): 58 sonidos en 37 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:07.400   C01           C01→C02                   punteo      0.35 s
+  2  0:14.600   C02           C02→C03                   punteo      0.35 s
+  3  0:15.460   C02           C02→C03                   punteo      0.35 s
+  4  0:22.470   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  5  0:23.130   C03           C03→CANAL_INICIO          campanita   0.50 s
+  6  0:26.820   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  7  0:33.920   C04           C04→C05                   campanita   0.70 s
+  8  0:34.970   C04           C04→C05                   tic-tac     0.31 s
+  9  0:43.630   C05           C05→C06                   punteo      0.35 s
+ 10  0:51.550   C06           C06→C07                   punteo      0.35 s
+ 11  0:58.060   C07           C07→C08                   campanita   0.70 s
+ 12  0:59.110   C07           C07→C08                   tic-tac     0.31 s
+ 13  1:06.750   C08           C08→C09                   punteo      0.65 s
+ 14  1:13.470   C09           C09→C10                   tic-tac     0.31 s
+ 15  1:22.360   C10           C10→C11                   gotitas     0.34 s
+ 16  1:23.050   C10           C10→C11                   burbujas    0.50 s
+ 17  1:30.220   C11           C11→C12                   gotitas     0.34 s
+ 18  1:30.910   C11           C11→C12                   burbujas    0.50 s
+ 19  1:38.940   C12           C12→C13                   gotitas     0.34 s
+ 20  1:39.630   C12           C12→C13                   burbujas    0.50 s
+ 21  1:46.810   C13           C13→L1                    gotitas     0.34 s
+ 22  1:53.370   L1            L1→C14                    campanita   0.80 s
+ 23  1:59.590   C14           C14→C15                   punteo      0.65 s
+ 24  2:00.590   C14           C14→C15                   punteo      0.35 s
+ 25  2:09.210   C15           C15→C16                   blips       0.27 s
+ 26  2:16.510   C16           C16→C17                   tic-tac     0.31 s
+ 27  2:17.170   C16           C16→C17                   campanita   0.50 s
+ 28  2:24.150   C17           C17→C18                   punteo      0.65 s
+ 29  2:25.150   C17           C17→C18                   punteo      0.35 s
+ 30  2:32.690   C18           C18→C19                   blips       0.27 s
+ 31  2:33.310   C18           C18→C19                   blips       0.14 s
+ 32  2:40.190   C19           C19→C20                   blips       0.27 s
+ 33  2:40.810   C19           C19→C20                   blips       0.14 s
+ 34  2:49.270   C20           C20→C21                   burbujas    0.55 s
+ 35  2:56.120   C21           C21→C22                   gotitas     0.34 s
+ 36  2:56.810   C21           C21→C22                   burbujas    0.50 s
+ 37  3:03.890   C22           C22→C23                   gotitas     0.34 s
+ 38  3:04.580   C22           C22→C23                   burbujas    0.50 s
+ 39  3:13.550   C23           C23→C24                   punteo      0.35 s
+ 40  3:20.480   C24           C24→C25                   tic-tac     0.31 s
+ 41  3:21.140   C24           C24→C25                   campanita   0.50 s
+ 42  3:29.620   C25           C25→C26                   punteo      0.35 s
+ 43  3:43.930   C27           C27→C28                   gotitas     0.34 s
+ 44  3:52.580   C28           C28→C29                   blips       0.27 s
+ 45  3:53.200   C28           C28→C29                   blips       0.14 s
+ 46  4:01.710   C29           C29→C30                   burbujas    0.48 s
+ 47  4:16.570   L2            L2→C31                    campanita   0.80 s
+ 48  4:22.190   C31           C31→C32                   punteo      0.35 s
+ 49  4:23.610   C31           C31→C32                   punteo      0.65 s
+ 50  4:32.360   C32           C32→C33                   punteo      0.65 s
+ 51  4:33.360   C32           C32→C33                   punteo      0.35 s
+ 52  4:40.160   C33           C33→L3                    tic-tac     0.31 s
+ 53  4:40.820   C33           C33→L3                    campanita   0.50 s
+ 54  4:46.270   L3            L3→C34                    campanita   0.80 s
+ 55  4:47.420   L3            L3→C34                    campanita   0.50 s
+ 56  4:53.810   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 57  4:55.140   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 58  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s

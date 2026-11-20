@@ -1,0 +1,158 @@
+E04_C01  0.97
+  guion: Hic! O que foi isso? Estava tudo calmo… e o seu corpo pulou sem pedir licença.
+  oído : O que foi isso? Estava tudo calmo e o seu corpo pulou sem pedir licença.
+
+E04_C02  0.93
+  guion: E de novo: hic! Não é você que decide. Então… quem está dando a ordem?
+  oído : De novo. Não é você que decide. Então, quem está dando a ordem?
+
+  ** E04_C02: hipo no transcrito, ancla por tramo de sonido [np.float64(1.15)]
+E04_C03  1.00
+  guion: O Pipo também quer saber. Hoje vamos procurar o culpado… debaixo das suas costelas.
+  oído : O Pipo também quer saber. Hoje vamos procurar o culpado debaixo das suas costelas.
+
+CANAL_INICIO  1.00
+  guion: A ciência com Pipo e Plop!
+  oído : A ciência com Pipo e Plop.
+
+E04_C04  1.00
+  guion: A ideia maluca do Pipo: o Plop engoliu um sapinho, e ele pula na barriga dele!
+  oído : A ideia maluca do Pipo. O Plop engoliu um sapinho e ele pula na barriga dele.
+
+E04_C05  0.97
+  guion: Se fosse um sapo, ia coaxar. E o Plop não comeu sapo nenhum… eu acho.
+  oído : Fosse um sapo, ia coaxar. E o Plop não comeu sapo nenhum, eu acho.
+
+E04_C06  1.00
+  guion: Segunda ideia: prender a respiração até passar. Às vezes funciona… mas por quê?
+  oído : Segunda ideia: prender a respiração até passar. Às vezes funciona, mas por quê?
+
+E04_C07  1.00
+  guion: O Plop se pergunta: se eu não quero pular, que parte de mim está pulando sozinha?
+  oído : O Plop se pergunta: se eu não quero pular, que parte de mim está pulando sozinha?
+
+E04_C08  1.00
+  guion: Essa é a pergunta certa! O pulo vem de dentro, de um músculo que quase ninguém conhece.
+  oído : Essa é a pergunta certa. O pulo vem de dentro, de um músculo que quase ninguém conhece.
+
+E04_C09  1.00
+  guion: Sabe qual é? O que você acha? Pense um pouco… Vamos olhar dentro do peito!
+  oído : Sabe qual é? O que você acha? Pense um pouco. Vamos olhar dentro do peito.
+
+E04_C10  1.00
+  guion: Vamos dar um zoom! Estes são os seus pulmões: duas bolsas fofinhas que se enchem de ar.
+  oído : Vamos dar um zoom. Estes são os seus pulmões, duas bolsas fofinhas que se enchem de ar.
+
+E04_C11  1.00
+  guion: Mas os pulmões não se mexem sozinhos. Embaixo deles tem um músculo em forma de cúpula.
+  oído : Mas os pulmões não se mexem sozinhos. Embaixo deles tem um músculo em forma de cúpula.
+
+E04_C12  1.00
+  guion: Ele se chama diafragma. Quando desce, abre espaço e o ar entra nos pulmões.
+  oído : Ele se chama diafragma. Quando desce, abre espaço e o ar entra nos pulmões.
+
+E04_C13  0.94
+  guion: Quando sobe, empurra o ar para fora. Desce e sobe, desce e sobe, o dia todo.
+  oído : Quando sobe, empurra o ar pra fora. Desce e sobe, desce e sobe, o dia todo.
+
+E04_L1  1.00
+  guion: Pulmões em cima, diafragma embaixo: o chefe da sua respiração.
+  oído : Pulmões em cima, diafragma embaixo, o chefe da sua respiração.
+
+E04_C14  1.00
+  guion: O Pipo pergunta: e quem avisa o diafragma quando se mexer? Eu não falo nada!
+  oído : O Pipo pergunta: e quem avisa o diafragma quando se mexer? Eu não falo nada.
+
+E04_C15  1.00
+  guion: É o seu cérebro, por cabinhos chamados nervos. Ele manda a ordem sem você perceber.
+  oído : É o seu cérebro, por cabinhos chamados nervos. Ele manda a ordem sem você perceber.
+
+E04_C16  1.00
+  guion: O Plop já desconfia: e se às vezes essa ordem chega… com um erro?
+  oído : O Plop já desconfia. E se às vezes essa ordem chega com um erro?
+
+E04_C17  1.00
+  guion: Isso mesmo. Se você come muito rápido, engole ar ou tem uma crise de riso…
+  oído : Isso mesmo. Se você come muito rápido, engole ar ou tem uma crise de riso,
+
+E04_C18  1.00
+  guion: O seu estômago incha e faz cócegas no nervo que passa bem do lado.
+  oído : o seu estômago incha e faz cócegas no nervo que passa bem do lado.
+
+E04_C19  1.00
+  guion: O nervo se confunde e manda uma ordem errada: aperta já, com toda a força!
+  oído : O nervo se confunde e manda uma ordem errada. Aperta já, com toda a força.
+
+E04_C20  0.94
+  guion: Zás! O diafragma obedece e dá um puxão para baixo… e o ar entra de uma vez.
+  oído : Zas! O diafragma obedece e dá um puxão pra baixo, e o ar entra de uma vez.
+
+E04_C21  1.00
+  guion: Esse jato de ar surpreende a sua garganta, onde ficam as cordas vocais.
+  oído : Esse jato de ar surpreende a sua garganta, onde ficam as cordas vocais.
+
+E04_C22  1.00
+  guion: Clac! As cordas vocais se fecham de repente, como uma porta batendo com o vento.
+  oído : Clac! As cordas vocais se fecham de repente, como uma porta batendo com o vento.
+
+E04_C23  0.97
+  guion: Essa batida é o som do soluço. Hic! Não é a sua voz: é uma porta se fechando.
+  oído : Essa batida é o som do soluço. Não é a sua voz, é uma porta se fechando.
+
+  ** E04_C23: hipo no transcrito, ancla por tramo de sonido [np.float64(2.34)]
+E04_C24  1.00
+  guion: O Pipo quer saber por que ele se repete. Porque o nervo continua confuso e repete a ordem.
+  oído : O Pipo quer saber por que ele se repete. Porque o nervo continua confuso e repete a ordem.
+
+E04_C25  0.91
+  guion: Puxão, batida, hic! Puxão, batida, hic! Como se desliga essa máquina, Plop?
+  oído : Puxão, batida, . Puxão, batida, . Como se desliga essa máquina, Plop?
+
+  ** E04_C25: hipo no transcrito, ancla por tramo de sonido [np.float64(1.45), np.float64(3.91)]
+E04_C26  1.00
+  guion: Vamos tentar aquela ideia: respirar bem devagar… e segurar o ar por um momento.
+  oído : Vamos tentar aquela ideia. Respirar bem devagar e segurar o ar por um momento.
+
+E04_C27  1.00
+  guion: Quando você segura o ar, junta no seu corpo um gás chamado dióxido de carbono.
+  oído : Quando você segura o ar, junta no seu corpo um gás chamado dióxido de carbono.
+
+E04_C28  1.00
+  guion: O cérebro percebe e se concentra em respirar bem. As ordens voltam a sair com calma.
+  oído : O cérebro percebe e se concentra em respirar bem. As ordens voltam a sair com calma.
+
+E04_C29  1.00
+  guion: O diafragma recupera o ritmo: desce e sobe bem devagarinho. E a porta para de bater.
+  oído : O diafragma recupera o ritmo, desce e sobe bem devagarinho, e a porta para de bater.
+
+E04_C30  1.00
+  guion: Passou! Não era sapo, Pipo: era um músculo confuso. Mistério resolvido!
+  oído : Passou! Não era sapo, Pipo. Era um músculo confuso. Mistério resolvido.
+
+E04_L2  0.96
+  guion: Vamos revisar: nervo confuso, puxão do diafragma… e as cordas vocais fazem hic!
+  oído : Vamos revisar. Nervo confuso, puxão do diafragma e as cordas vocais fazem
+
+E04_C31  1.00
+  guion: Curiosidade: não são só as pessoas que têm soluço. Os cachorrinhos e os gatinhos também!
+  oído : . Curiosidade: não são só as pessoas que têm soluço. Os cachorrinhos e os gatinhos também.
+
+E04_C32  1.00
+  guion: Até os bebês têm soluço antes de nascer. Talvez seja assim que eles treinam a respiração.
+  oído : Até os bebês têm soluço antes de nascer. Talvez seja assim que eles treinam a respiração.
+
+E04_C33  1.00
+  guion: O soluço quase sempre passa sozinho em minutos. Enquanto isso, o Plop tem um desafio.
+  oído : O soluço quase sempre passa sozinho em minutos. Enquanto isso, o Plop tem um desafio.
+
+E04_L3  1.00
+  guion: Quando tiver soluço: respire devagar e conte os hics.
+  oído : Quando tiver soluço, respire devagar e conte os hics.
+
+E04_C34  1.00
+  guion: A próxima pergunta é do Pipo: por que o gelo flutua se ele é sólido?
+  oído : A próxima pergunta é do Pipo: por que o gelo flutua se ele é sólido?
+
+CANAL_FINAL  1.00
+  guion: Até o próximo mistério!
+  oído : Até o próximo mistério!

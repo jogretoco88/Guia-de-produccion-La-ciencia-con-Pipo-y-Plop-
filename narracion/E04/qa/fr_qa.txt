@@ -1,0 +1,159 @@
+E04_C01  1.00
+  guion: Hic ! C'était quoi, ça ? Tout était calme… et ton corps a sauté tout seul.
+  oído : Hic ! C'était quoi ça ? Tout était calme et ton corps a sauté tout seul.
+
+E04_C02  1.00
+  guion: Et encore : hic ! Ce n'est pas toi qui décides. Alors… qui donne l'ordre ?
+  oído : Et encore, hic ! Ce n'est pas toi qui décides. Alors, qui donne l'ordre ?
+
+E04_C03  1.00
+  guion: Pipo aussi veut savoir. Aujourd'hui, on cherche le coupable… sous tes côtes.
+  oído : Pipo aussi veut savoir. Aujourd'hui, on cherche le coupable sous tes côtes.
+
+CANAL_INICIO  1.00
+  guion: La science avec Pipo et Plop !
+  oído : La science avec Pipo et Plop.
+
+E04_C04  1.00
+  guion: L'idée folle de Pipo : Plop a avalé une grenouille qui saute dans son ventre !
+  oído : L'idée folle de Pipo. Plop a avalé une grenouille qui saute dans son ventre.
+
+E04_C05  1.00
+  guion: Une grenouille, on l'entendrait coasser. Et puis… Plop n'a pas mangé de grenouille. Je crois.
+  oído : Une grenouille, on l'entendrait coasser. Et puis, Plop n'a pas mangé de grenouille, je crois.
+
+E04_C06  1.00
+  guion: Deuxième idée : retenir son souffle jusqu'à ce que ça passe. Ça marche parfois… mais pourquoi ?
+  oído : Deuxième idée : retenir son souffle jusqu'à ce que ça passe. Ça marche parfois, mais pourquoi ?
+
+E04_C07  1.00
+  guion: Plop se demande : si je ne veux pas sauter, quelle partie de moi saute toute seule ?
+  oído : Plop se demande : Si je ne veux pas sauter, quelle partie de moi saute toute seule ?
+
+E04_C08  1.00
+  guion: C'est la bonne question ! Le saut vient de l'intérieur, d'un muscle presque inconnu.
+  oído : C'est la bonne question. Le saut vient de l'intérieur, d'un muscle presque inconnu.
+
+E04_C09  1.00
+  guion: Tu sais lequel ? Qu'en penses-tu ? Réfléchis… Allons voir dans la poitrine !
+  oído : Tu sais lequel ? Qu'en penses-tu ? Réfléchis. Allons voir dans la poitrine.
+
+E04_C10  1.00
+  guion: Zoomons ! Voici tes poumons : deux sacs spongieux qui se remplissent d'air.
+  oído : Zoomons. Voici tes poumons, deux sacs spongieux qui se remplissent d'air.
+
+E04_C11  1.00
+  guion: Mais les poumons ne bougent pas tout seuls. En dessous, il y a un muscle en forme de dôme.
+  oído : Mais les poumons ne bougent pas tout seuls. En dessous, il y a un muscle en forme de dôme.
+
+E04_C12  1.00
+  guion: C'est le diaphragme. Quand il descend, il fait de la place et l'air entre dans les poumons.
+  oído : C'est le diaphragme. Quand il descend, il fait de la place et l'air entre dans les poumons.
+
+E04_C13  1.00
+  guion: Quand il remonte, il pousse l'air dehors. Il descend, il monte, toute la journée.
+  oído : Quand il remonte, il pousse l'air dehors. Il descend, il monte toute la journée.
+
+E04_L1  0.85
+  guion: Les poumons en haut, le diaphragme en bas : le chef de ta respiration.
+  oído : Le poumon en haut, le diaphragme en bas, le chef de ta respiration.
+
+E04_C14  1.00
+  guion: Pipo demande : qui dit au diaphragme quand bouger ? Moi, je ne lui dis rien !
+  oído : Pipo demande : Qui dit au diaphragme quand bouger ? Moi, je ne lui dis rien.
+
+E04_C15  1.00
+  guion: C'est ton cerveau, par de petits câbles appelés nerfs. Il envoie l'ordre sans que tu le saches.
+  oído : C'est ton cerveau. Par de petits câbles appelés nerfs, il envoie l'ordre sans que tu le saches.
+
+E04_C16  1.00
+  guion: Plop se doute de quelque chose : et si parfois cet ordre arrivait… avec une erreur ?
+  oído : Plop se doute de quelque chose. Et si parfois cet ordre arrivait avec une erreur ?
+
+E04_C17  1.00
+  guion: Exactement. Si tu manges trop vite, si tu avales de l'air ou si tu as un fou rire…
+  oído : Exactement. Si tu manges trop vite, si tu avales de l'air ou si tu as un fou rire,
+
+E04_C18  0.78
+  guion: Alors, ton estomac gonfle… et il chatouille le nerf qui passe juste à côté.
+  oído : il chatouille le nerf qui passe juste à côté.
+
+E04_C19  1.00
+  guion: Le nerf s'embrouille et envoie un mauvais ordre : serre, de toutes tes forces !
+  oído : Le nerf s'embrouille et envoie un mauvais ordre. Serre de toutes tes forces.
+
+E04_C20  0.94
+  guion: Hop ! Le diaphragme obéit et tire brusquement vers le bas… et l'air entre d'un coup.
+  oído : Hop, la diaphragme obéit et tire brusquement vers le bas et l'air entre d'un coup.
+
+E04_C21  1.00
+  guion: Ce jet d'air surprend ta gorge, là où se trouvent les cordes vocales.
+  oído : Ce jet d'air surprend ta gorge, là où se trouvent les cordes vocales.
+
+E04_C22  0.71
+  guion: Clac ! Le passage des cordes vocales se ferme d'un coup, comme une porte qui claque au vent.
+  oído : Clac ! La corde vocale se fermant d'un coup comme une porte qui claque au vent.
+
+E04_C23  0.91
+  guion: Ce claquement, c'est le bruit du hoquet. Hic ! Ce n'est pas ta voix : c'est une porte qui se ferme.
+  oído : Ces claquements, c'est le bruit du hoquet. Hic, ce n'est pas ta voix, c'est une porte qui se ferme.
+
+E04_C24  1.00
+  guion: Pipo veut savoir pourquoi ça recommence. Le nerf, encore embrouillé, répète l'ordre.
+  oído : Pipo veut savoir pourquoi ça recommence. Le nerf, encore embrouillé, répète l'ordre.
+
+E04_C25  1.00
+  guion: Ça tire, ça claque, hic ! Ça tire, ça claque, hic ! Comment on arrête cette machine, Plop ?
+  oído : Ça tire, ça claque. Hic. Ça tire, ça claque. Hic. Comment on arrête cette machine, Plop ?
+
+E04_C26  1.00
+  guion: Essayons l'idée de tout à l'heure : respirer très lentement… et retenir l'air un moment.
+  oído : Essayons l'idée de tout à l'heure. Respirer très lentement et retenir l'air un moment.
+
+E04_C27  1.00
+  guion: Quand tu retiens ton souffle, un gaz appelé dioxyde de carbone s'accumule dans ton corps.
+  oído : Quand tu retiens ton souffle, un gaz appelé dioxyde de carbone s'accumule dans ton corps.
+
+E04_C28  0.71
+  guion: Le cerveau le remarque et se concentre sur la respiration. Les ordres redeviennent calmes.
+  oído : Les cerveaux le remarquent et se concentrent sur la respiration. Les ordres redeviennent calmes.
+
+E04_C29  1.00
+  guion: Le diaphragme retrouve son rythme : il descend et monte tout doucement. Et la porte ne claque plus.
+  oído : Le diaphragme retrouve son rythme. Il descend et monte tout doucement et la porte ne claque plus.
+
+E04_C30  1.00
+  guion: Il est parti ! Pas une grenouille, Pipo : un muscle embrouillé. Mystère résolu, Plop !
+  oído : Il est parti. Pas une grenouille, Pipo, un muscle embrouillé. Mystère résolu, Plop.
+
+E04_L2  1.00
+  guion: On révise : un nerf embrouillé, le diaphragme qui tire… et les cordes vocales font hic !
+  oído : On révise. Un nerf embrouillé, le diaphragme qui tire et les cordes vocales font hic.
+
+E04_C31  1.00
+  guion: Le savais-tu ? On n'est pas les seuls à avoir le hoquet. Les chiots et les chatons aussi !
+  oído : Le savais-tu ? On n'est pas les seuls à avoir le hoquet. Les chiots et les chatons aussi.
+
+E04_C32  1.00
+  guion: Même les bébés ont le hoquet avant de naître : peut-être pour s'entraîner à respirer.
+  oído : Même les bébés ont le hoquet avant de naître, peut-être pour s'entraîner à respirer.
+
+E04_C33  1.00
+  guion: Le hoquet part presque toujours tout seul en quelques minutes. En attendant, Plop a un défi.
+  oído : Le hoquet part presque toujours tout seul en quelques minutes. En attendant, Plop a un défi.
+
+E04_L3  1.00
+  guion: Quand tu as le hoquet : respire lentement et compte les hic.
+  oído : Quand tu as le hoquet, respire lentement et compte les hic.
+
+E04_C34  1.00
+  guion: La prochaine question vient de Pipo : pourquoi la glace flotte-t-elle si elle est solide ?
+  oído : La prochaine question vient de Pipo. Pourquoi la glace flotte-t-elle si elle est solide ?
+
+CANAL_FINAL  1.00
+  guion: À la prochaine énigme !
+  oído : À la prochaine énigme.
+
+== Re-verificación de tomas nuevas (transcripción independiente) ==
+E04_C18  oído: Alors ton estomac gonfle et il chatouille le nerf qui passe juste à côté.  -> OK
+E04_C22  oído: Clac ! Le passage des cordes vocales se ferme d'un coup comme une porte qui claque au vent -> OK

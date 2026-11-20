@@ -1,0 +1,155 @@
+E04_C01  1.00
+  guion: ¡Hip! ¿Qué fue eso? Todo estaba en calma… y tu cuerpo saltó sin pedirte permiso.
+  oído : ¡Hip! ¿Qué fue eso? Todo estaba en calma y tu cuerpo saltó sin pedirte permiso.
+
+E04_C02  1.00
+  guion: Y otra vez: ¡hip! No lo decides tú. Entonces… ¿quién está dando la orden?
+  oído : Y otra vez: ¡hip! No lo decides tú. Entonces, ¿quién está dando la orden?
+
+E04_C03  1.00
+  guion: Pipo también quiere saberlo. Hoy vamos a buscar al culpable… debajo de tus costillas.
+  oído : Pipo también quiere saberlo. Hoy vamos a buscar al culpable debajo de tus costillas.
+
+CANAL_INICIO  1.00
+  guion: ¡La ciencia con Pipo y Plop!
+  oído : La ciencia con Pipo y Plop.
+
+E04_C04  1.00
+  guion: La idea loca de Pipo: ¡Plop se tragó una ranita, y la ranita salta en su panza!
+  oído : La idea loca de Pipo: Plop se tragó una ranita y la ranita salta en su panza.
+
+E04_C05  1.00
+  guion: Si fuera una rana, la oiríamos croar. Y además… Plop no ha comido ranas. Creo.
+  oído : Si fuera una rana, la oiríamos croar. Y además, Plop no ha comido ranas, creo.
+
+E04_C06  1.00
+  guion: Segunda idea: aguantar la respiración hasta que se vaya. A veces sirve… ¿pero por qué?
+  oído : Segunda idea: aguantar la respiración hasta que se vaya. A veces sirve, pero ¿por qué?
+
+E04_C07  1.00
+  guion: Plop se pregunta: si yo no quiero saltar, ¿qué parte de mí está saltando sola?
+  oído : Plop se pregunta: si yo no quiero saltar, ¿qué parte de mí está saltando sola?
+
+E04_C08  0.97
+  guion: ¡Esa es la pregunta correcta! El salto viene de un músculo que casi nadie conoce.
+  oído : Esa es la pregunta correcta. El salto viene de un músculo que casi nadie conoce. ¿Sabes
+
+E04_C09  0.96
+  guion: ¿Sabes cuál es? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro del pecho!
+  oído : cuál es? ¿Tú qué crees? Piénsalo. Vamos a mirar dentro del pecho.
+
+E04_C10  1.00
+  guion: ¡Hagamos zoom! Estos son tus pulmones: dos bolsas esponjosas que se llenan de aire.
+  oído : Hagamos zoom. Estos son tus pulmones, dos bolsas esponjosas que se llenan de aire.
+
+E04_C11  1.00
+  guion: Pero los pulmones no se mueven solos. Debajo tienen un músculo en forma de cúpula.
+  oído : Pero los pulmones no se mueven solos. Debajo tienen un músculo en forma de cúpula.
+
+E04_C12  1.00
+  guion: Se llama diafragma. Cuando baja, hace espacio y el aire entra a los pulmones.
+  oído : Se llama diafragma. Cuando baja, hace espacio y el aire entra a los pulmones.
+
+E04_C13  1.00
+  guion: Cuando sube, empuja el aire hacia afuera. Baja y sube, baja y sube, todo el día.
+  oído : Cuando sube, empuja el aire hacia afuera. Baja y sube, baja y sube, todo el día.
+
+E04_L1  1.00
+  guion: Pulmones arriba, diafragma abajo: el jefe de tu respiración.
+  oído : Pulmones arriba, diafragma abajo, el jefe de tu respiración.
+
+E04_C14  1.00
+  guion: Pipo pregunta: ¿y quién le dice al diafragma cuándo moverse? ¡Yo no le digo nada!
+  oído : Pipo pregunta: ¿y quién le dice al diafragma cuándo moverse? Yo no le digo nada.
+
+E04_C15  1.00
+  guion: Se lo dice tu cerebro, por unos cables llamados nervios. Manda la orden sin que lo notes.
+  oído : Se lo dice tu cerebro por unos cables llamados nervios. Manda la orden sin que lo notes.
+
+E04_C16  1.00
+  guion: Plop ya sospecha algo: ¿y si a veces esa orden llega… con un error?
+  oído : Plop ya sospecha algo. ¿Y si a veces esa orden llega con un error?
+
+E04_C17  1.00
+  guion: Así es. Si comes muy rápido, tragas aire o te da un ataque de risa…
+  oído : Así es. Si comes muy rápido, tragas aire o te da un ataque de risa,
+
+E04_C18  1.00
+  guion: tu estómago se infla y le hace cosquillas al nervio que pasa justo al lado.
+  oído : tu estómago se infla y le hace cosquillas al nervio que pasa justo al lado.
+
+E04_C19  0.97
+  guion: El nervio se confunde y manda una orden equivocada: ¡aprieta ya, con todas tus fuerzas!
+  oído : El nervio se confunde y manda una orden equivocada. Aprieta ya con todas tus fuerzas. ¡Zas!
+
+E04_C20  0.97
+  guion: ¡Zas! El diafragma obedece y da un tirón hacia abajo… y el aire entra de golpe.
+  oído : El diafragma obedece y da un tirón hacia abajo y el aire entra de golpe.
+
+E04_C21  0.96
+  guion: Ese chorro de aire sorprende a tu garganta, donde están las cuerdas vocales.
+  oído : Ese chorro de aire sorprende a tu garganta, donde están las cuerdas vocales. ¡Clac!
+
+E04_C22  0.96
+  guion: ¡Clac! Las cuerdas vocales se cierran de golpe, como una puerta con el viento.
+  oído : Las cuerdas vocales se cierran de golpe, como una puerta con el viento.
+
+E04_C23  1.00
+  guion: Ese portazo es el sonido del hipo. ¡Hip! No es tu voz: es una puerta cerrándose.
+  oído : Ese portazo es el sonido del hipo. ¡Hip! No es tu voz, es una puerta cerrándose.
+
+E04_C24  1.00
+  guion: Pipo quiere saber por qué se repite. Porque el nervio sigue confundido y repite la orden.
+  oído : Pipo quiere saber por qué se repite. Porque el nervio sigue confundido y repite la orden.
+
+E04_C25  1.00
+  guion: Tirón, portazo, ¡hip! Tirón, portazo, ¡hip! ¿Cómo se apaga esta máquina, Plop?
+  oído : Tirón, portazo, ¡hip! Tirón, portazo, ¡hip! ¿Cómo se apaga esta máquina, Plop?
+
+E04_C26  1.00
+  guion: Probemos lo de antes: respirar muy lento… y aguantar el aire un momento.
+  oído : Probemos lo de antes. Respirar muy lento y aguantar el aire un momento.
+
+E04_C27  1.00
+  guion: Al aguantar el aire, en tu cuerpo se junta un gas llamado dióxido de carbono.
+  oído : Al aguantar el aire, en tu cuerpo se junta un gas llamado dióxido de carbono.
+
+E04_C28  1.00
+  guion: El cerebro lo nota y se concentra en respirar bien. Las órdenes vuelven a salir en calma.
+  oído : El cerebro lo nota y se concentra en respirar bien. Las órdenes vuelven a salir en calma.
+
+E04_C29  1.00
+  guion: El diafragma recupera su ritmo: baja y sube suavecito. Y la puerta deja de dar portazos.
+  oído : El diafragma recupera su ritmo, baja y sube suavecito, y la puerta deja de dar portazos.
+
+E04_C30  1.00
+  guion: ¡Se fue! No era una rana, Pipo: era un músculo confundido. ¡Misterio resuelto, Plop!
+  oído : Se fue. No era una rana, Pipo. Era un músculo confundido. Misterio resuelto, Plop.
+
+E04_L2  1.00
+  guion: Repasemos: nervio confundido, tirón del diafragma… y las cuerdas vocales hacen ¡hip!
+  oído : Repasemos. Nervio confundido, tirón del diafragma y las cuerdas vocales hacen: ¡hip!
+
+E04_C31  1.00
+  guion: Dato extra: no solo las personas tienen hipo. ¡Los perritos y los gatitos también!
+  oído : Dato extra: no solo las personas tienen hipo, los perritos y los gatitos también.
+
+E04_C32  1.00
+  guion: Hasta los bebés tienen hipo antes de nacer. Quizás así practican cómo respirar.
+  oído : Hasta los bebés tienen hipo antes de nacer. Quizás así practican cómo respirar.
+
+E04_C33  1.00
+  guion: Casi siempre el hipo se va solito en unos minutos. Mientras tanto, Plop tiene un reto.
+  oído : Casi siempre el hipo se va solito en unos minutos. Mientras tanto, Plop tiene un reto.
+
+E04_L3  1.00
+  guion: Cuando tengas hipo: respira lento y cuenta los ¡hip!
+  oído : Cuando tengas hipo, respira lento y cuenta los ¡hip!
+
+E04_C34  1.00
+  guion: La próxima pregunta es de Pipo: ¿por qué flota el hielo si es sólido?
+  oído : La próxima pregunta es de Pipo: ¿por qué flota el hielo si es sólido?
+
+CANAL_FINAL  1.00
+  guion: ¡Hasta el próximo misterio!
+  oído : Hasta el próximo misterio.

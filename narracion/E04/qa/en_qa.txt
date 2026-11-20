@@ -1,0 +1,155 @@
+E04_C01  1.00
+  guion: Hic! What was that? Everything was calm… and your body jumped all by itself.
+  oído : Hic! What was that? Everything was calm, and your body jumped all by itself.
+
+E04_C02  1.00
+  guion: And again: hic! You didn't decide that. So… who's giving the order?
+  oído : And again, hic! You didn't decide that, so who's giving the order?
+
+E04_C03  1.00
+  guion: Pipo wants to know too. Today we're hunting for the culprit… right under your ribs.
+  oído : Pipo wants to know too. Today we're hunting for the culprit right under your ribs.
+
+CANAL_INICIO  1.00
+  guion: Science with Pipo and Plop!
+  oído : Science with Pipo and Plop.
+
+E04_C04  1.00
+  guion: Pipo's wild idea: Plop swallowed a little frog, and it's hopping in his tummy!
+  oído : Pipo's wild idea: Plop swallowed a little frog, and it's hopping in his tummy.
+
+E04_C05  1.00
+  guion: If it were a frog, we'd hear it croak. And besides… Plop hasn't eaten any frogs. I think.
+  oído : If it were a frog, we'd hear it croak. And besides, Plop hasn't eaten any frogs, I think.
+
+E04_C06  1.00
+  guion: Idea number two: hold your breath until it goes away. Sometimes it works… but why?
+  oído : Idea number two: Hold your breath until it goes away. Sometimes it works, but why?
+
+E04_C07  1.00
+  guion: Plop wonders: if I don't want to jump, what part of me is jumping on its own?
+  oído : Plop wonders, "If I don't want to jump, what part of me is jumping on its own?"
+
+E04_C08  1.00
+  guion: That's the right question! The jump comes from inside, from a muscle almost nobody knows.
+  oído : That's the right question. The jump comes from inside, from a muscle almost nobody knows.
+
+E04_C09  1.00
+  guion: Do you know which one? What do you think? Think about it… Let's look inside the chest!
+  oído : Do you know which one? What do you think? Think about it. Let's look inside the chest.
+
+E04_C10  1.00
+  guion: Let's zoom in! These are your lungs: two spongy bags that fill up with air.
+  oído : Let's zoom in. These are your lungs, two spongy bags that fill up with air.
+
+E04_C11  1.00
+  guion: But lungs can't move by themselves. Underneath, there's a dome-shaped muscle.
+  oído : But lungs can't move by themselves. Underneath, there's a dome-shaped muscle.
+
+E04_C12  1.00
+  guion: It's called the diaphragm. When it moves down, it makes room and air flows into the lungs.
+  oído : It's called the diaphragm. When it moves down, it makes room and air flows into the lungs.
+
+E04_C13  1.00
+  guion: When it moves up, it pushes the air out. Down and up, down and up, all day long.
+  oído : When it moves up, it pushes the air out. Down and up, down and up, all day long.
+
+E04_L1  1.00
+  guion: Lungs on top, diaphragm below: the boss of your breathing.
+  oído : Lungs on top, diaphragm below, the boss of your breathing.
+
+E04_C14  1.00
+  guion: Pipo asks: who tells the diaphragm when to move? I don't tell it anything!
+  oído : Pipo asks, "Who tells the diaphragm when to move? I don't tell it anything."
+
+E04_C15  1.00
+  guion: Your brain does, through little cables called nerves. It sends the order without you noticing.
+  oído : Your brain does through little cables called nerves. It sends the order without you noticing.
+
+E04_C16  1.00
+  guion: Plop suspects something: what if sometimes that order arrives… with a mistake?
+  oído : Plop suspects something. What if sometimes that order arrives with a mistake?
+
+E04_C17  1.00
+  guion: That's right. If you eat too fast, swallow air, or get a giggle attack…
+  oído : That's right. If you eat too fast, swallow air, or get a giggle attack,
+
+E04_C18  1.00
+  guion: your stomach puffs up and tickles the nerve that runs right next to it.
+  oído : your stomach puffs up and tickles the nerve that runs right next to it.
+
+E04_C19  1.00
+  guion: The nerve gets confused and sends the wrong order: squeeze now, as hard as you can!
+  oído : The nerve gets confused and sends the wrong order. Squeeze now as hard as you can!
+
+E04_C20  1.00
+  guion: Whoosh! The diaphragm obeys and gives a sudden tug down… and air rushes in.
+  oído : Whoosh! The diaphragm obeys and gives a sudden tug down, and air rushes in.
+
+E04_C21  1.00
+  guion: That rush of air surprises your throat, where your vocal cords are.
+  oído : That rush of air surprises your throat where your vocal cords are.
+
+E04_C22  1.00
+  guion: Clack! The vocal cords slam shut, like a door in the wind.
+  oído : Clack! The vocal cords slam shut like a door in the wind.
+
+E04_C23  1.00
+  guion: That slam is the sound of a hiccup. Hic! It's not your voice: it's a door closing.
+  oído : That slam is the sound of a hiccup. Hic! It's not your voice. It's a door closing.
+
+E04_C24  1.00
+  guion: Pipo wants to know why it repeats. The nerve is still confused, so it repeats the order.
+  oído : Pipo wants to know why it repeats. The nerve is still confused, so it repeats the order.
+
+E04_C25  1.00
+  guion: Tug, slam, hic! Tug, slam, hic! How do we switch off this machine, Plop?
+  oído : Tug, slam, hic! Tug, slam, hic! How do we switch off this machine, Plop?
+
+E04_C26  1.00
+  guion: Let's try that idea again: breathe in very slowly… and hold the air for a moment.
+  oído : Let's try that idea again. Breathe in very slowly and hold the air for a moment.
+
+E04_C27  1.00
+  guion: When you hold your breath, a gas called carbon dioxide builds up in your body.
+  oído : When you hold your breath, a gas called carbon dioxide builds up in your body.
+
+E04_C28  1.00
+  guion: Your brain notices and focuses on breathing well. The orders come out calm again.
+  oído : Your brain notices and focuses on breathing well. The orders come out calm again.
+
+E04_C29  1.00
+  guion: The diaphragm finds its rhythm: down and up, nice and gentle. And the door stops slamming.
+  oído : The diaphragm finds its rhythm, down and up, nice and gentle, and the door stops slamming.
+
+E04_C30  1.00
+  guion: It's gone! It wasn't a frog, Pipo: it was a confused muscle. Mystery solved, Plop!
+  oído : It's gone. It wasn't a frog, Pipo. It was a confused muscle. Mystery solved. Plop.
+
+E04_L2  1.00
+  guion: Let's review: a confused nerve, a diaphragm tug… and the vocal cords go hic!
+  oído : Let's review. A confused nerve, a diaphragm tug, and the vocal cords go hic!
+
+E04_C31  1.00
+  guion: Bonus fact: people aren't the only ones who get hiccups. Puppies and kittens do too!
+  oído : Bonus fact: People aren't the only ones who get hiccups. Puppies and kittens do too.
+
+E04_C32  1.00
+  guion: Even babies get hiccups before they're born. Maybe that's how they practice breathing.
+  oído : Even babies get hiccups before they're born. Maybe that's how they practice breathing.
+
+E04_C33  1.00
+  guion: Hiccups usually go away on their own in a few minutes. Meanwhile, Plop has a challenge.
+  oído : Hiccups usually go away on their own in a few minutes. Meanwhile, Plop has a challenge.
+
+E04_L3  1.00
+  guion: When you get hiccups: breathe slowly and count the hics.
+  oído : When you get hiccups, breathe slowly and count the hics.
+
+E04_C34  1.00
+  guion: The next question is from Pipo: why does ice float if it's solid?
+  oído : The next question is from Pipo. Why does ice float if it's solid?
+
+CANAL_FINAL  1.00
+  guion: See you at the next mystery!
+  oído : See you at the next mystery!

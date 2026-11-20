@@ -116,3 +116,26 @@ Archivos en `E01/`:
 - **Rellenos en los silencios:** sintetizados con código, con temas de este episodio: agua (gota, vapor y gelatina), idea, calor y presión, personaje y lámina. Hay una lista por idioma en `rellenos_por_idioma/`.
 - **Scripts de este episodio:** `montar_e01.py`, `verificar_e01.py`, `efectos_montar_e01.py`, `efectos_relleno_e01.py` e `informe_e01.py`.
 - **Documentación:** los tiempos están en `INFORME_SINCRONIZACION.txt` y las instrucciones de uso en `LEEME.md`.
+
+## Ep. 4 · Efectos de sonido (añadidos después de la narración)
+
+La narración del Ep. 4 no cambia. Se le añadieron **112 efectos sin generar ninguno nuevo** (0 créditos de ElevenLabs):
+- 80 salen de la biblioteca de ElevenLabs Sound Effects v3 del Ep. 3;
+- 32 salen de la biblioteca del Ep. 2.
+
+Todos están colocados en el segundo exacto de su acción en pantalla:
+- cada salto de hipo (C01, C02, C23, C25 y el perrito en C31), con su despegue y su aterrizaje medidos fotograma a fotograma. En C23 y C25, el «pop» del hipo coincide con el «¡hip!» de la voz;
+- el tirón del diafragma de C20 («¡zas!», 0,54 s) y el cierre de las cuerdas vocales de C22 («¡clac!», 0,83 s);
+- el resto, con el análisis de movimiento y hojas de contacto a 2 fps.
+
+| Categoría | Pedido | Entregado |
+|---|---|---|
+| Foley de movimiento y textura (`F`) | 45–65 | 64 |
+| Acentos de expresión / *mickey mousing* (`M`) | 25–35 | 33 |
+| Transiciones y refuerzos visuales (`T`) | 12–20 | 15 |
+
+Archivos nuevos en `E04/`:
+- **Efectos:** `efectos_e04.py` → `efectos.json`. La hoja legible es `E04_hoja_de_efectos.csv`.
+- **Rellenos en los silencios:** sintetizados con código, con temas de este episodio: aire y pulmones, idea, nervio y señales, personaje y lámina. Hay una lista por idioma en `rellenos_por_idioma/`.
+- **Scripts:** `efectos_montar_e04.py`, `efectos_relleno_e04.py` e `informe_e04.py`. Usan la duración exacta del video, 299,958 s.
+- **Documentación:** `INFORME_SINCRONIZACION.txt` ahora incluye los efectos y los rellenos. Las instrucciones de uso están en `LEEME.md` y la verificación de cada idioma en `qa/`.
