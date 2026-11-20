@@ -1,0 +1,112 @@
+n,segundo,tiempo,toma,cat,categoria,efecto,duracion_s,ganancia_db,accion_en_pantalla,fuente,descripcion
+1,2.620,0:02.620,C01,F,Foley de movimiento y textura,bite,0.90,-6,otra grieta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+2,3.210,0:03.210,C01,F,Foley de movimiento y textura,bite,0.90,-5,la grieta crece,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+3,3.790,0:03.790,C01,F,Foley de movimiento y textura,plate,1.00,-4,el grano se sacude sobre el plato,ElevenLabs SFX v3 (biblioteca Ep. 3),"Rubber vegetable rocking gently on a ceramic plate, light rattle and clink"
+4,4.400,0:04.400,C01,T,Transición / refuerzo visual,whoosh,0.80,-4,las cáscaras salen volando,ElevenLabs SFX v3 (biblioteca Ep. 3),"Fast airy whoosh, swish transition"
+5,4.420,0:04.420,C01,F,Foley de movimiento y textura,bite,0.90,-1,el casco revienta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+6,4.420,0:04.420,C01,M,Acento de expresión (mickey mousing),pop,0.30,0,¡pum!,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon pop, cork-like, short"
+7,5.000,0:05.000,C01,F,Foley de movimiento y textura,balls_away,1.80,-4,los pedazos de cáscara caen y ruedan,ElevenLabs SFX v3 (biblioteca Ep. 3),Handful of small rubber balls tumbling and rolling away
+8,10.000,0:10.000,C02,F,Foley de movimiento y textura,shuffle,1.40,-4,se inclina hacia la palomita,ElevenLabs SFX v3 (biblioteca Ep. 3),"Small clay puppet shuffling and wiggling in place, soft rubbery rustles"
+9,11.290,0:11.290,C02,M,Acento de expresión (mickey mousing),h_question,1.50,-4,¿cómo cabe tanto ahí dentro?,Efectos del Ep. 2 (biblioteca Ep. 2),Question pluck
+10,16.830,0:16.830,C03,M,Acento de expresión (mickey mousing),boing,0.60,-5,Plop abre bien los ojos,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon boing spring, bouncy"
+11,20.540,0:20.540,C03,M,Acento de expresión (mickey mousing),h_curious,1.50,-5,Plop sonríe: también quiere saber,Efectos del Ep. 2 (biblioteca Ep. 2),Curious pizzicato pluck
+12,23.750,0:23.750,CANAL_INICIO,T,Transición / refuerzo visual,whoosh,0.80,-2,entra la cortinilla,ElevenLabs SFX v3 (biblioteca Ep. 3),"Fast airy whoosh, swish transition"
+13,24.000,0:24.000,CANAL_INICIO,T,Transición / refuerzo visual,logo,3.00,0,cortinilla del canal,ElevenLabs SFX v3 (biblioteca Ep. 3),"Playful short xylophone and glockenspiel flourish jingle, cheerful sound logo"
+14,29.450,0:29.450,C04,F,Foley de movimiento y textura,arm_swish,0.40,0,Pipo levanta la mano,ElevenLabs SFX v3 (biblioteca Ep. 3),Quick soft swish of a small arm waving
+15,30.420,0:30.420,C04,M,Acento de expresión (mickey mousing),ding,0.90,-4,¡una idea loca!,ElevenLabs SFX v3 (biblioteca Ep. 3),"Bright cartoon idea ding, single small bell"
+16,36.750,0:36.750,C05,F,Foley de movimiento y textura,cheek_rub,0.60,-3,Pipo pega la oreja al grano,ElevenLabs SFX v3 (biblioteca Ep. 3),"Clay hands pressing onto cheeks, soft squeaky rub"
+17,38.330,0:38.330,C05,M,Acento de expresión (mickey mousing),h_tiptoe,2.50,-7,escucha con atención,Efectos del Ep. 2 (biblioteca Ep. 2),Suspenseful tiptoe pizzicato build-up
+18,42.460,0:42.460,C05,M,Acento de expresión (mickey mousing),slide_down,0.90,-5,no se oye nada,ElevenLabs SFX v3 (biblioteca Ep. 3),"Slide whistle going down, comedic fail"
+19,44.500,0:44.500,C06,M,Acento de expresión (mickey mousing),boing,0.60,-4,Pipo salta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon boing spring, bouncy"
+20,45.080,0:45.080,C06,F,Foley de movimiento y textura,land,0.40,-1,aterriza sobre el grano,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+21,45.920,0:45.920,C06,F,Foley de movimiento y textura,land,0.40,-2,aterriza otra vez,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+22,46.750,0:46.750,C06,F,Foley de movimiento y textura,land,0.40,-2,otro salto,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+23,47.750,0:47.750,C06,F,Foley de movimiento y textura,land,0.40,-3,otro salto,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+24,48.580,0:48.580,C06,F,Foley de movimiento y textura,land,0.40,-3,otro salto,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+25,49.540,0:49.540,C06,F,Foley de movimiento y textura,land,0.40,-3,otro salto,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+26,50.580,0:50.580,C06,F,Foley de movimiento y textura,land,0.40,-4,otro salto,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+27,51.420,0:51.420,C06,F,Foley de movimiento y textura,land,0.40,-4,último salto: el grano ni se abre,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+28,52.830,0:52.830,C07,M,Acento de expresión (mickey mousing),think,1.60,-3,Plop se rasca la barbilla,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon pondering sound, gentle wooden tick tock"
+29,54.330,0:54.330,C07,F,Foley de movimiento y textura,cheek_rub,0.60,-4,se apoya la mano en la cara,ElevenLabs SFX v3 (biblioteca Ep. 3),"Clay hands pressing onto cheeks, soft squeaky rub"
+30,64.170,1:04.170,C08,F,Foley de movimiento y textura,shuffle,1.40,-4,se da la vuelta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Small clay puppet shuffling and wiggling in place, soft rubbery rustles"
+31,73.400,1:13.400,C09,T,Transición / refuerzo visual,zoom,1.40,-3,la cámara se acerca al grano,ElevenLabs SFX v3 (biblioteca Ep. 3),"Short rising whoosh, zoom in transition"
+32,74.800,1:14.800,C09,T,Transición / refuerzo visual,rev_cymbal,1.20,-4,¡vamos a abrirlo!,ElevenLabs SFX v3 (biblioteca Ep. 3),Short reverse cymbal swell
+33,76.000,1:16.000,C10,F,Foley de movimiento y textura,slice,0.70,-2,el grano aparece partido por la mitad,ElevenLabs SFX v3 (biblioteca Ep. 3),Knife slicing cleanly through a crisp pepper
+34,77.800,1:17.800,C10,T,Transición / refuerzo visual,zoom,1.40,-4,la cámara entra al grano,ElevenLabs SFX v3 (biblioteca Ep. 3),"Short rising whoosh, zoom in transition"
+35,81.460,1:21.460,C10,F,Foley de movimiento y textura,plip,0.30,-2,la gotita escondida,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single tiny water droplet, small plip"
+36,84.400,1:24.400,C11,F,Foley de movimiento y textura,roll_corto,1.80,-4,la bolita rueda sobre el casco,ElevenLabs SFX v3 (biblioteca Ep. 3),Small rubber ball rolling slowly across a soft surface (versión corta)
+37,87.000,1:27.000,C11,F,Foley de movimiento y textura,land,0.40,-2,la bolita cae y rebota,ElevenLabs SFX v3 (biblioteca Ep. 3),Small soft rubber ball dropping and landing with a gentle thud
+38,88.710,1:28.710,C11,M,Acento de expresión (mickey mousing),h_chime2,1.00,-5,primera parte: el casco,Efectos del Ep. 2 (biblioteca Ep. 2),Two-note xylophone chime
+39,92.960,1:32.960,C12,F,Foley de movimiento y textura,h_wobble,2.00,-4,la gota se mueve,Efectos del Ep. 2 (biblioteca Ep. 2),Jelly wobble bloops
+40,93.960,1:33.960,C12,F,Foley de movimiento y textura,squish,0.60,-3,el relleno blanco y apretado,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft squishy modeling clay squeeze, small and short"
+41,98.900,1:38.900,C12,M,Acento de expresión (mickey mousing),h_chime2,1.00,-6,segunda parte: el almidón,Efectos del Ep. 2 (biblioteca Ep. 2),Two-note xylophone chime
+42,100.670,1:40.670,C13,F,Foley de movimiento y textura,h_wobble,2.00,-3,la gota tiembla,Efectos del Ep. 2 (biblioteca Ep. 2),Jelly wobble bloops
+43,102.460,1:42.460,C13,F,Foley de movimiento y textura,plip,0.30,-2,la gota brilla,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single tiny water droplet, small plip"
+44,103.620,1:43.620,C13,M,Acento de expresión (mickey mousing),sparkle,0.90,-4,agua: ¡la clave!,ElevenLabs SFX v3 (biblioteca Ep. 3),Short magical sparkle twinkle
+45,108.000,1:48.000,L1,T,Transición / refuerzo visual,swipe,1.00,-1,lámina 1: las tres partes,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft swipe swish with a gentle chime, page transition"
+46,108.400,1:48.400,L1,T,Transición / refuerzo visual,h_recap,3.00,-4,"casco, almidón y agua",Efectos del Ep. 2 (biblioteca Ep. 2),Three-note recap chime
+47,114.960,1:54.960,C14,M,Acento de expresión (mickey mousing),slide_up,0.70,-4,¿agua?,ElevenLabs SFX v3 (biblioteca Ep. 3),"Slide whistle going up quickly, comedic surprise"
+48,116.960,1:56.960,C14,M,Acento de expresión (mickey mousing),h_shrug,0.99,-5,si está sequito por fuera,Efectos del Ep. 2 (biblioteca Ep. 2),Shrug boop
+49,122.500,2:02.500,C15,F,Foley de movimiento y textura,h_zip,1.49,-3,la gota corre por dentro,Efectos del Ep. 2 (biblioteca Ep. 2),Quick zip forward and retreat
+50,125.120,2:05.120,C15,F,Foley de movimiento y textura,plip,0.30,-2,choca contra el casco,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single tiny water droplet, small plip"
+51,126.710,2:06.710,C15,F,Foley de movimiento y textura,plip,0.30,-3,choca otra vez,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single tiny water droplet, small plip"
+52,127.620,2:07.620,C15,F,Foley de movimiento y textura,h_drops,1.00,-3,rebota de pared en pared,Efectos del Ep. 2 (biblioteca Ep. 2),"Water drops plinking off a clay blob, small boing"
+53,128.460,2:08.460,C15,M,Acento de expresión (mickey mousing),key_lock,0.80,-5,el casco está cerrado: no puede escapar,ElevenLabs SFX v3 (biblioteca Ep. 3),Small key sliding into a lock and clicking
+54,131.120,2:11.120,C16,M,Acento de expresión (mickey mousing),squint,0.50,-3,Plop entrecierra los ojos,ElevenLabs SFX v3 (biblioteca Ep. 3),"Short suspicious cartoon squeak, rising"
+55,136.120,2:16.120,C16,M,Acento de expresión (mickey mousing),uh_oh,0.80,-5,algo va a pasar,ElevenLabs SFX v3 (biblioteca Ep. 3),"Short descending cartoon worried tones, two notes"
+56,138.500,2:18.500,C17,M,Acento de expresión (mickey mousing),fire_puff,1.00,-3,se enciende el calor,ElevenLabs SFX v3 (biblioteca Ep. 3),"Comedic cartoon fire puff whoosh, short flame burst"
+57,139.670,2:19.670,C17,F,Foley de movimiento y textura,h_stretch,1.79,-4,los zarcillos de calor crecen,Efectos del Ep. 2 (biblioteca Ep. 2),Rubbery stretch and snap back
+58,143.500,2:23.500,C17,F,Foley de movimiento y textura,h_tail,1.80,-5,los zarcillos se menean,Efectos del Ep. 2 (biblioteca Ep. 2),"Squiggly wobbly boing, tadpole tail wiggle"
+59,147.900,2:27.900,C18,T,Transición / refuerzo visual,bubble,1.00,-4,la gota empieza a cambiar,ElevenLabs SFX v3 (biblioteca Ep. 3),Bubbly watery swoosh transition
+60,148.300,2:28.300,C18,M,Acento de expresión (mickey mousing),steam,0.90,-3,¡se vuelve vapor!,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon steam puff from ears, short hiss whistle"
+61,150.000,2:30.000,C18,F,Foley de movimiento y textura,h_bloops,1.80,-4,la nube burbujea,Efectos del Ep. 2 (biblioteca Ep. 2),Squishy pop and bubbly bloops
+62,155.120,2:35.120,C19,F,Foley de movimiento y textura,h_foam,3.00,-5,la nube crece,Efectos del Ep. 2 (biblioteca Ep. 2),Soapy scrubbing with foamy bubbles
+63,158.330,2:38.330,C19,F,Foley de movimiento y textura,squish,0.60,-3,la nube choca con el casco,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft squishy modeling clay squeeze, small and short"
+64,162.460,2:42.460,C20,F,Foley de movimiento y textura,cheek_rub,0.60,-3,Pipo toma aire,ElevenLabs SFX v3 (biblioteca Ep. 3),"Clay hands pressing onto cheeks, soft squeaky rub"
+65,163.080,2:43.080,C20,F,Foley de movimiento y textura,h_stretch,1.79,-3,infla los cachetes como un globo,Efectos del Ep. 2 (biblioteca Ep. 2),Rubbery stretch and snap back
+66,171.600,2:51.600,C21,F,Foley de movimiento y textura,h_pokes,1.99,-4,el vapor empuja desde dentro,Efectos del Ep. 2 (biblioteca Ep. 2),Tiny rubbery pokes and pops
+67,173.670,2:53.670,C21,F,Foley de movimiento y textura,squish,0.60,-3,otro empujón,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft squishy modeling clay squeeze, small and short"
+68,179.830,2:59.830,C22,F,Foley de movimiento y textura,h_wobble,2.00,-3,el almidón se vuelve gelatina,Efectos del Ep. 2 (biblioteca Ep. 2),Jelly wobble bloops
+69,181.080,3:01.080,C22,F,Foley de movimiento y textura,squish,0.60,-3,la gelatina se estira,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft squishy modeling clay squeeze, small and short"
+70,182.250,3:02.250,C22,F,Foley de movimiento y textura,h_wobble,2.00,-4,tiembla otra vez,Efectos del Ep. 2 (biblioteca Ep. 2),Jelly wobble bloops
+71,190.000,3:10.000,C23,F,Foley de movimiento y textura,plate,1.00,-4,se sacude sobre el plato,ElevenLabs SFX v3 (biblioteca Ep. 3),"Rubber vegetable rocking gently on a ceramic plate, light rattle and clink"
+72,191.790,3:11.790,C23,F,Foley de movimiento y textura,plate,1.00,-3,se sacude más fuerte,ElevenLabs SFX v3 (biblioteca Ep. 3),"Rubber vegetable rocking gently on a ceramic plate, light rattle and clink"
+73,192.290,3:12.290,C23,M,Acento de expresión (mickey mousing),steam,0.90,-4,una mini olla a presión,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon steam puff from ears, short hiss whistle"
+74,194.420,3:14.420,C24,M,Acento de expresión (mickey mousing),uh_oh,0.80,-4,Plop no quiere mirar,ElevenLabs SFX v3 (biblioteca Ep. 3),"Short descending cartoon worried tones, two notes"
+75,195.000,3:15.000,C24,F,Foley de movimiento y textura,cheek_rub,0.60,-3,se tapa los ojos,ElevenLabs SFX v3 (biblioteca Ep. 3),"Clay hands pressing onto cheeks, soft squeaky rub"
+76,200.580,3:20.580,C24,F,Foley de movimiento y textura,arm_swish,0.40,-3,abre los brazos,ElevenLabs SFX v3 (biblioteca Ep. 3),Quick soft swish of a small arm waving
+77,203.120,3:23.120,C25,F,Foley de movimiento y textura,bite,0.90,-6,aparece una grieta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+78,204.290,3:24.290,C25,F,Foley de movimiento y textura,bite,0.90,-5,la grieta crece,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+79,206.290,3:26.290,C25,F,Foley de movimiento y textura,seeds,0.90,-5,crujidos por dentro,ElevenLabs SFX v3 (biblioteca Ep. 3),Small dry seeds rattling softly
+80,211.500,3:31.500,C26,F,Foley de movimiento y textura,bite,0.90,-4,el casco se abre,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+81,211.600,3:31.600,C26,T,Transición / refuerzo visual,rev_cymbal,1.20,-3,la presión llega al máximo,ElevenLabs SFX v3 (biblioteca Ep. 3),Short reverse cymbal swell
+82,212.750,3:32.750,C26,F,Foley de movimiento y textura,bite,0.90,-1,el casco revienta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+83,212.750,3:32.750,C26,M,Acento de expresión (mickey mousing),pop,0.30,0,¡pum!,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon pop, cork-like, short"
+84,212.790,3:32.790,C26,M,Acento de expresión (mickey mousing),fire_puff,1.00,-3,el vapor escapa de golpe,ElevenLabs SFX v3 (biblioteca Ep. 3),"Comedic cartoon fire puff whoosh, short flame burst"
+85,213.300,3:33.300,C26,F,Foley de movimiento y textura,balls_away,1.80,-4,las cáscaras caen y ruedan,ElevenLabs SFX v3 (biblioteca Ep. 3),Handful of small rubber balls tumbling and rolling away
+86,214.200,3:34.200,C26,M,Acento de expresión (mickey mousing),sparkle,0.90,-6,nace la palomita,ElevenLabs SFX v3 (biblioteca Ep. 3),Short magical sparkle twinkle
+87,218.000,3:38.000,C27,T,Transición / refuerzo visual,shimmer,1.60,-4,la palomita en primer plano,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft magical shimmer swell, rising"
+88,223.580,3:43.580,C27,F,Foley de movimiento y textura,bite,0.90,-4,crujiente,ElevenLabs SFX v3 (biblioteca Ep. 3),"Single crunchy bite into a crisp fresh pepper, close-up foley"
+89,227.120,3:47.120,C28,F,Foley de movimiento y textura,shuffle,1.40,-4,Pipo abraza la palomita,ElevenLabs SFX v3 (biblioteca Ep. 3),"Small clay puppet shuffling and wiggling in place, soft rubbery rustles"
+90,231.830,3:51.830,C28,F,Foley de movimiento y textura,cheek_rub,0.60,-3,apoya la cara en la palomita,ElevenLabs SFX v3 (biblioteca Ep. 3),"Clay hands pressing onto cheeks, soft squeaky rub"
+91,234.960,3:54.960,C29,F,Foley de movimiento y textura,arm_swish,0.40,-1,Pipo abre los brazos,ElevenLabs SFX v3 (biblioteca Ep. 3),Quick soft swish of a small arm waving
+92,235.100,3:55.100,C29,M,Acento de expresión (mickey mousing),h_tada,2.50,-4,¡esa es tu respuesta!,Efectos del Ep. 2 (biblioteca Ep. 2),"Ukulele strum, ta-da"
+93,242.600,4:02.600,C30,F,Foley de movimiento y textura,shuffle,1.40,-4,Plop se mueve contento,ElevenLabs SFX v3 (biblioteca Ep. 3),"Small clay puppet shuffling and wiggling in place, soft rubbery rustles"
+94,242.750,4:02.750,C30,M,Acento de expresión (mickey mousing),h_boing2,1.50,-5,da saltitos,Efectos del Ep. 2 (biblioteca Ep. 2),Bouncy boing boing
+95,245.000,4:05.000,C30,F,Foley de movimiento y textura,step,0.35,-4,otro saltito,ElevenLabs SFX v3 (biblioteca Ep. 3),Single soft rubbery footstep of a small toy on a wooden table
+96,250.000,4:10.000,L2,T,Transición / refuerzo visual,swipe,1.00,-1,lámina 2: repaso,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft swipe swish with a gentle chime, page transition"
+97,250.400,4:10.400,L2,T,Transición / refuerzo visual,h_recap,3.00,-4,"agua, vapor y ¡pum!",Efectos del Ep. 2 (biblioteca Ep. 2),Three-note recap chime
+98,258.500,4:18.500,C31,M,Acento de expresión (mickey mousing),steam,0.90,-4,el vapor se escapa por la grieta,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon steam puff from ears, short hiss whistle"
+99,260.000,4:20.000,C31,F,Foley de movimiento y textura,h_breeze,2.50,-6,sale despacito,Efectos del Ep. 2 (biblioteca Ep. 2),"Gentle breeze, flower rustle and a light sparkle"
+100,264.290,4:24.290,C31,M,Acento de expresión (mickey mousing),power_down,1.20,-6,se desinfla sin estallar,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cartoon power down, descending electronic tones"
+101,266.460,4:26.460,C32,F,Foley de movimiento y textura,arm_swish,0.40,-2,Pipo señala el grano,ElevenLabs SFX v3 (biblioteca Ep. 3),Quick soft swish of a small arm waving
+102,270.000,4:30.000,C32,M,Acento de expresión (mickey mousing),h_ponder,1.80,-5,no son perezosos: tienen una fuga,Efectos del Ep. 2 (biblioteca Ep. 2),Thoughtful pizzicato
+103,275.120,4:35.120,C33,F,Foley de movimiento y textura,step,0.35,-3,Plop da un pasito,ElevenLabs SFX v3 (biblioteca Ep. 3),Single soft rubbery footstep of a small toy on a wooden table
+104,277.300,4:37.300,C33,F,Foley de movimiento y textura,arm_swish,0.40,-1,Plop señala,ElevenLabs SFX v3 (biblioteca Ep. 3),Quick soft swish of a small arm waving
+105,277.500,4:37.500,C33,M,Acento de expresión (mickey mousing),slide_up,0.70,-5,¡un reto!,ElevenLabs SFX v3 (biblioteca Ep. 3),"Slide whistle going up quickly, comedic surprise"
+106,282.000,4:42.000,L3,T,Transición / refuerzo visual,swipe,1.00,-1,lámina 3: reto en casa,ElevenLabs SFX v3 (biblioteca Ep. 3),"Soft swipe swish with a gentle chime, page transition"
+107,282.400,4:42.400,L3,M,Acento de expresión (mickey mousing),h_tiptoe,2.50,-6,ojos de detective,Efectos del Ep. 2 (biblioteca Ep. 2),Suspenseful tiptoe pizzicato build-up
+108,288.620,4:48.620,C34,F,Foley de movimiento y textura,arm_swish,0.40,0,Pipo saluda,ElevenLabs SFX v3 (biblioteca Ep. 3),Quick soft swish of a small arm waving
+109,293.500,4:53.500,C34,T,Transición / refuerzo visual,bubble,1.00,-5,guiño al próximo episodio: el jabón,ElevenLabs SFX v3 (biblioteca Ep. 3),Bubbly watery swoosh transition
+110,295.750,4:55.750,CANAL_FINAL,T,Transición / refuerzo visual,whoosh,0.80,-2,entra la cortinilla final,ElevenLabs SFX v3 (biblioteca Ep. 3),"Fast airy whoosh, swish transition"
+111,296.000,4:56.000,CANAL_FINAL,T,Transición / refuerzo visual,outro,3.60,0,cortinilla final,ElevenLabs SFX v3 (biblioteca Ep. 3),"Cheerful short xylophone outro jingle, ending flourish"

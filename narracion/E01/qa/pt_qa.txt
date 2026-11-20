@@ -1,0 +1,48 @@
+pt: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: Um grão de milho é duro como pedra, mas com calor ele vira uma nuvem.
+OK  E01_C02       1.00  oído: Como algo tão grande e fofinho cabe dentro de algo tão pequeno e tão duro?
+OK  E01_C03       1.00  oído: O Plop também quer saber. Hoje vamos descobrir o segredo que cada pipoca esconde.
+OK  CANAL_INICIO  1.00  oído: A ciência com Pipo e Plop!
+OK  E01_C04       1.00  oído: O Pipo tem uma ideia maluca. E se lá dentro morar um duende que enche balões?
+OK  E01_C05       1.00  oído: Se fosse assim, encostando a orelha, a gente ouviria ele soprar, mas não se ouve nada.
+OK  E01_C06       1.00  oído: Outra ideia: apertar com força, mas nem com todo o peso do Pipo ele abre.
+OK  E01_C07       1.00  oído: O Plop se pergunta algo importante: se a força não abre, por que o calor abre?
+OK  E01_C08       1.00  oído: Boa pergunta. Quer dizer que o segredo não está do lado de fora, está escondido dentro.
+OK  E01_C09       1.00  oído: E você, o que acha que tem dentro? Pense. Pronto? Vamos abrir.
+OK  E01_C10       1.00  oído: Vamos dar zoom. Partindo o grão ao meio, aparecem três partes secretas.
+OK  E01_C11       0.93  oído: Primeira: uma casca amarela duríssima. Ela se chama pericampo e funciona como um capacete.
+      diferencias: guion «pericarpo» → oído «pericampo»
+      (frase en la pista de verificación desde 81.68 s)
+OK  E01_C12       1.00  oído: Segunda: um recheio branco e apertado chamado amido. É a comida que a semente guarda.
+OK  E01_C13       1.00  oído: E terceira, bem escondida no amido: água. Só um pouquinho, mas é a chave.
+OK  E01_L1        1.00  oído: Casca dura, amido e um pouquinho de água. Lembre dessas três.
+OK  E01_C14       1.00  oído: O Pipo não acredita. Água? Mas o grão está sequinho por fora.
+OK  E01_C15       1.00  oído: É justamente por isso. A casca é tão fechada que a água não consegue escapar.
+OK  E01_C16       1.00  oído: E o Plop já desconfia. Água presa, mais calor. Alguma coisa vai acontecer.
+OK  E01_C17       1.00  oído: Agora ligamos o calor. O grão esquenta cada vez mais por dentro.
+OK  E01_C18       1.00  oído: Com o calor, a água faz seu truque. Deixa de ser líquida e vira vapor.
+OK  E01_C19       1.00  oído: E o vapor é um grandalhão. Precisa de muito mais espaço que a água.
+OK  E01_C20       1.00  oído: O Pipo entende assim: é como encher um balão dentro de uma caixa fechada.
+OK  E01_C21       1.00  oído: O vapor empurra a casca por dentro, procurando uma saída, mas a casca aguenta.
+OK  E01_C22       1.00  oído: Enquanto isso, o calor amolece o amido até virar uma gelatina quente e elástica.
+OK  E01_C23       0.90  oído: Mais calor, mais vapor, mais pressão. O grão agora é uma minipanela de pressão.
+      diferencias: guion «mini panela» → oído «minipanela»
+      (frase en la pista de verificación desde 182.00 s)
+OK  E01_C24       1.00  oído: Quanto mais a casca vai aguentar? O Plop quase não quer olhar. E você?
+OK  E01_C25       1.00  oído: Quando chega a uns cento e oitenta graus, a casca não aguenta mais e...
+OK  E01_C26       0.91  oído: bum! A casca estoura e o vapor escapa de uma vez.
+      diferencias: guion «pum» → oído «bum»
+      (frase en la pista de verificación desde 205.28 s)
+OK  E01_C27       1.00  oído: A gelatina de amido incha como espuma, esfria no ar e fica durinha.
+OK  E01_C28       1.00  oído: Essa espuma branca e crocante é a pipoca. O grão virou do avesso.
+OK  E01_C29       1.00  oído: Não tinha duende, Pipo. Quem enche a pipoca é o vapor de água.
+OK  E01_C30       1.00  oído: E essa é a sua resposta, Plop. O calor abre porque transforma a água em vapor.
+OK  E01_L2        1.00  oído: Vamos revisar. Água escondida, calor que vira vapor e uma casca que aguenta até que pum.
+OK  E01_C31       1.00  oído: E os grãos que nunca estouram? Eles têm uma rachadura. O vapor escapa aos pouquinhos.
+OK  E01_C32       1.00  oído: Por isso sempre sobram alguns no fundo da tigela. Não são preguiçosos, têm um vazamento.
+OK  E01_C33       0.94  oído: O Plop tem um desafio pra você. Precisa de um adulto, pipoca e olhos de detetive.
+      diferencias: guion «para» → oído «pra»
+      (frase en la pista de verificación desde 266.72 s)
+OK  E01_L3        1.00  oído: Contem os grãos que não estouraram. Acham a rachadura?
+OK  E01_C34       1.00  oído: O Pipo deixa a próxima pergunta: por que o sabão tira a gordura e a água não?
+OK  CANAL_FINAL   1.00  oído: Até o próximo mistério.

@@ -1,0 +1,40 @@
+en: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: A corn kernel is as hard as a rock, but with heat, it turns into a cloud.
+OK  E01_C02       1.00  oído: How can something so big and fluffy fit inside something so small and hard?
+OK  E01_C03       1.00  oído: Plop wants to know too. Today, we'll discover the secret hiding in every piece of popcorn.
+OK  CANAL_INICIO  1.00  oído: Science with Pipo and Plop.
+OK  E01_C04       1.00  oído: Pipo has a wild idea. What if a little elf lives inside, blowing up balloons?
+OK  E01_C05       1.00  oído: If so, with an ear up close, we'd hear him blowing, but there's not a sound.
+OK  E01_C06       1.00  oído: Another idea, squeeze it hard, but even with all of Pipo's weight, it won't open.
+OK  E01_C07       1.00  oído: Plop wonders something important. If force can't open it, why can heat?
+OK  E01_C08       1.00  oído: Great question. It means the secret isn't on the outside. It's hidden inside.
+OK  E01_C09       1.00  oído: What do you think is inside? Think about it. Ready? Let's open it.
+OK  E01_C10       1.00  oído: Let's zoom in. Cut the kernel in half, and three secret parts appear.
+OK  E01_C11       1.00  oído: First, a super hard yellow shell. It's called the pericarp, and it works like a helmet.
+OK  E01_C12       1.00  oído: Second, a packed white filling called starch. It's the food the seed keeps in store.
+OK  E01_C13       1.00  oído: And third, hidden deep in the starch, water. Just a tiny bit, but it's the key.
+OK  E01_L1        1.00  oído: Hard shell, starch, and a little water. Remember these three.
+OK  E01_C14       1.00  oído: Pipo can't believe it. Water? But the kernel is bone dry on the outside.
+OK  E01_C15       1.00  oído: That's exactly why. The shell is sealed so tight that the water can't escape.
+OK  E01_C16       1.00  oído: And Plop already suspects it. Trapped water plus heat, something's about to happen.
+OK  E01_C17       1.00  oído: Now we turn up the heat. The kernel gets hotter and hotter inside.
+OK  E01_C18       1.00  oído: With the heat, water does its trick. It stops being liquid and turns into steam.
+OK  E01_C19       1.00  oído: And steam is a real giant. It needs much, much more space than water.
+OK  E01_C20       1.00  oído: Pipo sees it like this. It's like blowing up a balloon inside a closed box.
+OK  E01_C21       1.00  oído: The steam pushes the shell from inside, looking for a way out, but the shell holds.
+OK  E01_C22       1.00  oído: Meanwhile, the heat softens the starch into a hot, stretchy jelly.
+OK  E01_C23       1.00  oído: More heat, more steam, more pressure. The kernel is now a mini pressure cooker.
+OK  E01_C24       1.00  oído: How much longer can the shell hold? Plop can barely look. Can you?
+OK  E01_C25       1.00  oído: When it reaches about one hundred eighty degrees, the shell can't take any more, and
+OK  E01_C26       1.00  oído: pop! The shell bursts, and the steam rushes out all at once.
+OK  E01_C27       1.00  oído: The starch jelly puffs up like foam, cools in the air, and goes stiff.
+OK  E01_C28       1.00  oído: That crunchy white foam is the popcorn. The kernel turned itself inside out.
+OK  E01_C29       1.00  oído: There was no elf, Pipo. What puffs up the popcorn is steam.
+OK  E01_C30       1.00  oído: And that's your answer, Plop. Heat opens it because it turns the water into steam.
+OK  E01_L2        1.00  oído: Let's review. Hidden water, heat that turns it to steam, and a shell that holds until pop.
+OK  E01_C31       1.00  oído: And the kernels that never pop, they have a crack. The steam leaks out bit by bit.
+OK  E01_C32       1.00  oído: That's why a few always stay at the bottom of the bowl. They're not lazy. They leak.
+OK  E01_C33       1.00  oído: Plop has a challenge for you. You'll need a grown-up, popcorn, and detective eyes.
+OK  E01_L3        1.00  oído: Count the unpopped kernels. Can you find their crack?
+OK  E01_C34       1.00  oído: Pipo leaves us the next question. Why does soap remove grease, but water doesn't?
+OK  CANAL_FINAL   1.00  oído: See you at the next mystery.

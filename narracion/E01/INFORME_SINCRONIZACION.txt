@@ -1,0 +1,967 @@
+INFORME DE SINCRONIZACIÓN · Ep. 1 · ¿Por qué explotan las palomitas de maíz?
+Voz: José Gregorio Torres (clonada) · Modelo: Eleven v4 · Video: 300,000 s
+
+── Español (ES) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): ninguna
+Anclas de acción: C26 empieza en 212.65 s (estallido en pantalla: 212,75 s)
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:06.350  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:13.860  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:22.000  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.280  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:33.380  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.240  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.110  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.960  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:07.070  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.080  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.630  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:31.140  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.870  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.750  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.160  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:59.310  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.250  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.160  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:23.580  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:32.140  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:39.400  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:46.980  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.060  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:04.000  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:12.370  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:19.240  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:27.480  [3:22.300 – 3:29.600]  1.0
+C26             3:32.650  3:36.540  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.770  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:51.840  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.230  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:07.610  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.390  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.970  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:32.340  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:41.220  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:45.960  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.590  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:58.020  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+es: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       0.97  oído: Un grano de maíz es duro como una piedra, pero con calor se convierte en una nube. ¿Cómo
+      diferencias: guion «» → oído «cómo»
+      (frase en la pista de verificación desde 0.00 s)
+OK  E01_C02       0.97  oído: cabe algo tan grande y esponjoso dentro de algo tan pequeño y tan duro?
+      diferencias: guion «cómo» → oído «»
+      (frase en la pista de verificación desde 8.16 s)
+OK  E01_C03       1.00  oído: Plop también quiere saberlo. Hoy vamos a descubrir el secreto que esconde cada palomita.
+OK  CANAL_INICIO  1.00  oído: La ciencia con Pipo y Plop.
+OK  E01_C04       1.00  oído: Pipo tiene una idea loca. ¿Y si adentro vive un duende que infla globos?
+OK  E01_C05       1.00  oído: Si fuera así, al acercar la oreja lo oiríamos soplar. Pero no se oye nada.
+OK  E01_C06       1.00  oído: Otra idea: apretarlo con fuerza. Pero ni con todo el peso de Pipo se abre.
+OK  E01_C07       1.00  oído: Plop se pregunta algo importante. Si la fuerza no lo abre, ¿por qué el calor sí?
+OK  E01_C08       0.96  oído: Buena pregunta. Eso significa que el secreto no está afuera, está escondido adentro. ¿Y
+      diferencias: guion «» → oído «y»
+      (frase en la pista de verificación desde 59.12 s)
+OK  E01_C09       0.96  oído: tú qué crees que hay dentro? Piénsalo. ¿Ya? Vamos a abrirlo.
+      diferencias: guion «y» → oído «»
+      (frase en la pista de verificación desde 68.00 s)
+OK  E01_C10       1.00  oído: Hagamos zoom. Al partir el grano por la mitad, aparecen tres partes secretas.
+OK  E01_C11       1.00  oído: Primera: una cáscara amarilla durísima. Se llama pericarpio y funciona como un casco.
+OK  E01_C12       1.00  oído: Segunda: un relleno blanco y apretado, el almidón. Es la comida que guarda la semilla.
+OK  E01_C13       1.00  oído: Y tercera, bien escondida entre el almidón, agua. Solo un poquito, pero es la clave.
+OK  E01_L1        1.00  oído: Casco duro, almidón y un poquito de agua. Recuerda estas tres.
+OK  E01_C14       1.00  oído: Pipo no lo puede creer. ¿Agua? Si el grano está sequísimo por fuera.
+OK  E01_C15       1.00  oído: Justo por eso, el casco es tan cerrado que el agua no puede escapar.
+OK  E01_C16       1.00  oído: Y Plop ya lo sospecha. Agua encerrada, más calor. Aquí va a pasar algo.
+OK  E01_C17       1.00  oído: Ahora encendemos el calor. El grano se calienta más y más por dentro.
+OK  E01_C18       1.00  oído: Con el calor, el agua hace su truco. Deja de ser líquida y se convierte en vapor.
+OK  E01_C19       1.00  oído: Y el vapor es un grandulón. Necesita muchísimo más espacio que el agua.
+OK  E01_C20       1.00  oído: Pipo lo entiende así: es como inflar un globo dentro de una caja cerrada.
+OK  E01_C21       1.00  oído: El vapor empuja el casco desde adentro, buscando una salida, pero el casco aguanta.
+OK  E01_C22       1.00  oído: Mientras, el calor ablanda el almidón y lo vuelve una gelatina caliente y elástica.
+OK  E01_C23       0.97  oído: Más calor, más vapor, más presión. El grano es ahora una mini olla a presión. ¿Cuánto
+      diferencias: guion «» → oído «cuánto»
+      (frase en la pista de verificación desde 182.80 s)
+OK  E01_C24       0.96  oído: más aguantará el casco? Plop casi no quiere mirar. ¿Y tú?
+      diferencias: guion «cuánto» → oído «»
+      (frase en la pista de verificación desde 190.96 s)
+OK  E01_C25       0.97  oído: Cuando llega a unos ciento ochenta grados, el casco ya no puede más y... ¡Pum!
+      diferencias: guion «» → oído «pum»
+      (frase en la pista de verificación desde 198.08 s)
+OK  E01_C26       0.95  oído: El casco revienta y el vapor escapa de golpe.
+      diferencias: guion «pum» → oído «»
+      (frase en la pista de verificación desde 205.36 s)
+OK  E01_C27       1.00  oído: La gelatina de almidón se infla como espuma, se enfría en el aire y queda tiesa.
+OK  E01_C28       1.00  oído: Esa espuma blanca y crujiente es la palomita. El grano se volteó al revés.
+OK  E01_C29       1.00  oído: No había duende, Pipo. El que infla la palomita es el vapor de agua.
+OK  E01_C30       1.00  oído: Y esa es tu respuesta, Plop. El calor lo abre porque convierte el agua en vapor.
+OK  E01_L2        0.97  oído: Repasemos. Agua escondida, calor que la vuelve vapor, un casco que aguanta y ¡pum! ¿Y
+      diferencias: guion «» → oído «y»
+      (frase en la pista de verificación desde 242.08 s)
+OK  E01_C31       0.97  oído: los granos que no revientan? Tienen una grieta. El vapor se escapa poquito a poco.
+      diferencias: guion «y» → oído «»
+      (frase en la pista de verificación desde 251.28 s)
+OK  E01_C32       1.00  oído: Por eso siempre quedan algunos en el fondo del tazón. No son flojos, tienen una fuga.
+OK  E01_C33       1.00  oído: Plop tiene un reto para ti. Necesitas a un adulto, palomitas y ojos de detective.
+OK  E01_L3        1.00  oído: Cuenten los granos sin reventar. ¿Encuentran su grieta?
+OK  E01_C34       0.97  oído: Pipo nos deja la próxima pregunta: ¿por qué el jabón quita la grasa y el agua no? ¡Hasta
+      diferencias: guion «» → oído «hasta»
+      (frase en la pista de verificación desde 282.24 s)
+OK  CANAL_FINAL   0.86  oído: el próximo misterio!
+      diferencias: guion «hasta» → oído «»
+      (frase en la pista de verificación desde 289.68 s)
+
+── English (EN) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): ninguna
+Anclas de acción: C26 empieza en 212.65 s (estallido en pantalla: 212,75 s)
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:05.740  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:13.400  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:21.950  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.440  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.010  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:41.470  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.670  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.470  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.090  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:12.970  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:20.780  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:30.370  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.420  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.210  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:52.580  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:59.180  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.320  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.450  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:22.940  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:31.810  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:39.700  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:47.350  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.060  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:02.860  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:11.820  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:19.380  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:27.460  [3:22.300 – 3:29.600]  1.0
+C26             3:32.650  3:37.070  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.280  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:51.340  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  3:59.980  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:07.200  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.320  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.450  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.750  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.210  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:45.710  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.840  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.980  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+en: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: A corn kernel is as hard as a rock, but with heat, it turns into a cloud.
+OK  E01_C02       1.00  oído: How can something so big and fluffy fit inside something so small and hard?
+OK  E01_C03       1.00  oído: Plop wants to know too. Today, we'll discover the secret hiding in every piece of popcorn.
+OK  CANAL_INICIO  1.00  oído: Science with Pipo and Plop.
+OK  E01_C04       1.00  oído: Pipo has a wild idea. What if a little elf lives inside, blowing up balloons?
+OK  E01_C05       1.00  oído: If so, with an ear up close, we'd hear him blowing, but there's not a sound.
+OK  E01_C06       1.00  oído: Another idea, squeeze it hard, but even with all of Pipo's weight, it won't open.
+OK  E01_C07       1.00  oído: Plop wonders something important. If force can't open it, why can heat?
+OK  E01_C08       1.00  oído: Great question. It means the secret isn't on the outside. It's hidden inside.
+OK  E01_C09       1.00  oído: What do you think is inside? Think about it. Ready? Let's open it.
+OK  E01_C10       1.00  oído: Let's zoom in. Cut the kernel in half, and three secret parts appear.
+OK  E01_C11       1.00  oído: First, a super hard yellow shell. It's called the pericarp, and it works like a helmet.
+OK  E01_C12       1.00  oído: Second, a packed white filling called starch. It's the food the seed keeps in store.
+OK  E01_C13       1.00  oído: And third, hidden deep in the starch, water. Just a tiny bit, but it's the key.
+OK  E01_L1        1.00  oído: Hard shell, starch, and a little water. Remember these three.
+OK  E01_C14       1.00  oído: Pipo can't believe it. Water? But the kernel is bone dry on the outside.
+OK  E01_C15       1.00  oído: That's exactly why. The shell is sealed so tight that the water can't escape.
+OK  E01_C16       1.00  oído: And Plop already suspects it. Trapped water plus heat, something's about to happen.
+OK  E01_C17       1.00  oído: Now we turn up the heat. The kernel gets hotter and hotter inside.
+OK  E01_C18       1.00  oído: With the heat, water does its trick. It stops being liquid and turns into steam.
+OK  E01_C19       1.00  oído: And steam is a real giant. It needs much, much more space than water.
+OK  E01_C20       1.00  oído: Pipo sees it like this. It's like blowing up a balloon inside a closed box.
+OK  E01_C21       1.00  oído: The steam pushes the shell from inside, looking for a way out, but the shell holds.
+OK  E01_C22       1.00  oído: Meanwhile, the heat softens the starch into a hot, stretchy jelly.
+OK  E01_C23       1.00  oído: More heat, more steam, more pressure. The kernel is now a mini pressure cooker.
+OK  E01_C24       1.00  oído: How much longer can the shell hold? Plop can barely look. Can you?
+OK  E01_C25       1.00  oído: When it reaches about one hundred eighty degrees, the shell can't take any more, and
+OK  E01_C26       1.00  oído: pop! The shell bursts, and the steam rushes out all at once.
+OK  E01_C27       1.00  oído: The starch jelly puffs up like foam, cools in the air, and goes stiff.
+OK  E01_C28       1.00  oído: That crunchy white foam is the popcorn. The kernel turned itself inside out.
+OK  E01_C29       1.00  oído: There was no elf, Pipo. What puffs up the popcorn is steam.
+OK  E01_C30       1.00  oído: And that's your answer, Plop. Heat opens it because it turns the water into steam.
+OK  E01_L2        1.00  oído: Let's review. Hidden water, heat that turns it to steam, and a shell that holds until pop.
+OK  E01_C31       1.00  oído: And the kernels that never pop, they have a crack. The steam leaks out bit by bit.
+OK  E01_C32       1.00  oído: That's why a few always stay at the bottom of the bowl. They're not lazy. They leak.
+OK  E01_C33       1.00  oído: Plop has a challenge for you. You'll need a grown-up, popcorn, and detective eyes.
+OK  E01_L3        1.00  oído: Count the unpopped kernels. Can you find their crack?
+OK  E01_C34       1.00  oído: Pipo leaves us the next question. Why does soap remove grease, but water doesn't?
+OK  CANAL_FINAL   1.00  oído: See you at the next mystery.
+
+── Français (FR) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): ninguna
+Anclas de acción: C26 empieza en 212.65 s (estallido en pantalla: 212,75 s)
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:06.120  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:13.730  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:21.770  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.260  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:32.970  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:41.480  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.620  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.500  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:05.500  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.200  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.040  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:29.850  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:37.990  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:45.990  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:52.520  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:58.160  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:06.470  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.280  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:22.930  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:31.300  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:38.540  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:46.450  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:55.780  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:03.970  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:12.240  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:19.350  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:25.670  [3:22.300 – 3:29.600]  1.0
+C26             3:32.650  3:36.070  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.660  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:52.060  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.120  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:07.390  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.090  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:23.330  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:31.890  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:39.990  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:45.470  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.150  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.780  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+fr: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: Un grain de maïs est dur comme une pierre, mais avec la chaleur, il devient un nuage.
+OK  E01_C02       1.00  oído: Comment une chose si grande et si moelleuse tient-elle dans une chose si petite et si dure ?
+OK  E01_C03       0.90  oído: Plop veut le savoir aussi. Aujourd'hui, on découvre le secret caché dans chaque popcorn.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 15.68 s)
+OK  CANAL_INICIO  1.00  oído: La science avec Pipo et Plop.
+OK  E01_C04       1.00  oído: Pipo a une idée folle. Et si un lutin vivait dedans pour gonfler des ballons ?
+OK  E01_C05       1.00  oído: Si c'était vrai, en approchant l'oreille, on l'entendrait souffler, mais on n'entend rien.
+OK  E01_C06       1.00  oído: Autre idée : l'écraser très fort. Mais même avec tout le poids de Pipo, il ne s'ouvre pas.
+OK  E01_C07       1.00  oído: Plop se pose une grande question : si la force ne l'ouvre pas, pourquoi la chaleur, oui ?
+OK  E01_C08       1.00  oído: Bonne question. Ça veut dire que le secret n'est pas dehors. Il est caché dedans.
+OK  E01_C09       1.00  oído: Et toi, qu'y a-t-il dedans, à ton avis ? Réfléchis. Prêt ? On l'ouvre.
+OK  E01_C10       1.00  oído: Zoomons ! En coupant le grain en deux, trois parties secrètes apparaissent.
+OK  E01_C11       0.94  oído: Une, une coque jaune très dure. On l'appelle le péricarpe et elle sert de casque.
+      diferencias: guion «un» → oído «une»
+      (frase en la pista de verificación desde 79.28 s)
+OK  E01_C12       1.00  oído: Deux, un remplissage blanc et serré, l'amidon. C'est la nourriture que garde la graine.
+OK  E01_C13       1.00  oído: Et trois, bien cachée dans l'amidon, de l'eau. Juste un peu, mais c'est la clé.
+OK  E01_L1        0.96  oído: Coque est dure, amidon et un peu d'eau. Retiens bien ces trois-là.
+      diferencias: guion «» → oído «est»
+      (frase en la pista de verificación desde 102.64 s)
+OK  E01_C14       1.00  oído: Pipo n'y croit pas. De l'eau ? Mais le grain est tout sec dehors.
+OK  E01_C15       1.00  oído: Justement, la coque est si fermée que l'eau ne peut pas s'échapper.
+OK  E01_C16       1.00  oído: Et Plop s'en doute déjà. De l'eau enfermée, plus la chaleur, il va se passer quelque chose.
+OK  E01_C17       1.00  oído: Maintenant, on allume le feu. Le grain chauffe de plus en plus à l'intérieur.
+OK  E01_C18       1.00  oído: Avec la chaleur, l'eau fait son tour. Elle n'est plus liquide, elle devient vapeur.
+OK  E01_C19       1.00  oído: Et la vapeur est une géante. Il lui faut beaucoup plus de place que l'eau.
+OK  E01_C20       1.00  oído: Pipo le voit comme ça. C'est comme gonfler un ballon dans une boîte fermée.
+OK  E01_C21       1.00  oído: La vapeur pousse la coque de l'intérieur, elle cherche une sortie, mais la coque tient bon.
+OK  E01_C22       1.00  oído: Pendant ce temps, la chaleur ramollit l'amidon. Il devient une gelée chaude et élastique.
+OK  E01_C23       1.00  oído: Plus de chaleur, plus de vapeur, plus de pression. Le grain est une mini cocotte-minute.
+OK  E01_C24       1.00  oído: Combien de temps la coque va tenir ? Plop n'ose presque plus regarder. Et toi ?
+OK  E01_C25       0.92  oído: Vers cent quatre-vingt degrés, la coque n'en peut plus et...
+      diferencias: guion «vingts» → oído «vingt»
+      (frase en la pista de verificación desde 187.12 s)
+OK  E01_C26       1.00  oído: Pop ! La coque éclate et la vapeur s'échappe d'un coup.
+OK  E01_C27       1.00  oído: La gelée d'amidon gonfle comme une mousse, refroidit dans l'air et devient toute raide.
+OK  E01_C28       0.91  oído: Cette mousse blanche et croustillante, c'est le popcorn. Le grain s'est retourné comme un gant.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 205.92 s)
+OK  E01_C29       0.92  oído: Il n'y avait pas de lutin, Pipo. Ce qui gonfle le popcorn, c'est la vapeur d'eau.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 213.76 s)
+OK  E01_C30       1.00  oído: Et voilà ta réponse, Plop. La chaleur l'ouvre parce qu'elle change l'eau en vapeur.
+OK  E01_L2        1.00  oído: Révisons. L'eau cachée, la chaleur qui la change en vapeur, la coque qui tient jusqu'au pop.
+OK  E01_C31       1.00  oído: Et les grains qui n'éclatent jamais, ils ont une fissure. La vapeur s'échappe peu à peu.
+OK  E01_C32       1.00  oído: Voilà pourquoi il en reste toujours au fond du bol. Ils ne sont pas paresseux, ils ont une fuite.
+OK  E01_C33       0.92  oído: Plop a un défi pour toi. Il te faut un adulte, du popcorn et des yeux de détective.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 253.04 s)
+OK  E01_L3        1.00  oído: Comptez les grains pas éclatés. Trouvez-vous leur fissure ?
+OK  E01_C34       1.00  oído: Pipo nous laisse la prochaine question : pourquoi le savon enlève le gras et pas l'eau ?
+OK  CANAL_FINAL   1.00  oído: À la prochaine énigme.
+
+── Português (BR) (PT) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): L2 ×1.071
+Anclas de acción: C26 empieza en 212.65 s (estallido en pantalla: 212,75 s)
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:05.640  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:13.610  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:21.740  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.330  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:34.020  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.290  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.060  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.650  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:06.710  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.670  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.770  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:31.140  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:39.000  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.290  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.210  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:58.910  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.590  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:17.140  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:23.210  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:31.840  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:39.200  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:46.970  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.100  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:04.190  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:13.010  [3:06.300 – 3:13.600]  1.0
+C24             3:14.300  3:19.540  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:27.050  [3:22.300 – 3:29.600]  1.0
+C26             3:32.650  3:36.490  [3:30.300 – 3:37.600]  1.0
+C27             3:38.300  3:43.350  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:51.070  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  3:59.870  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:07.760  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.600  [4:10.300 – 4:17.600]  1.071
+C31             4:18.300  4:24.110  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:32.600  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:40.470  [4:34.300 – 4:41.600]  1.0
+L3              4:42.300  4:45.850  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:53.530  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:58.020  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+pt: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: Um grão de milho é duro como pedra, mas com calor ele vira uma nuvem.
+OK  E01_C02       1.00  oído: Como algo tão grande e fofinho cabe dentro de algo tão pequeno e tão duro?
+OK  E01_C03       1.00  oído: O Plop também quer saber. Hoje vamos descobrir o segredo que cada pipoca esconde.
+OK  CANAL_INICIO  1.00  oído: A ciência com Pipo e Plop!
+OK  E01_C04       1.00  oído: O Pipo tem uma ideia maluca. E se lá dentro morar um duende que enche balões?
+OK  E01_C05       1.00  oído: Se fosse assim, encostando a orelha, a gente ouviria ele soprar, mas não se ouve nada.
+OK  E01_C06       1.00  oído: Outra ideia: apertar com força, mas nem com todo o peso do Pipo ele abre.
+OK  E01_C07       1.00  oído: O Plop se pergunta algo importante: se a força não abre, por que o calor abre?
+OK  E01_C08       1.00  oído: Boa pergunta. Quer dizer que o segredo não está do lado de fora, está escondido dentro.
+OK  E01_C09       1.00  oído: E você, o que acha que tem dentro? Pense. Pronto? Vamos abrir.
+OK  E01_C10       1.00  oído: Vamos dar zoom. Partindo o grão ao meio, aparecem três partes secretas.
+OK  E01_C11       0.93  oído: Primeira: uma casca amarela duríssima. Ela se chama pericampo e funciona como um capacete.
+      diferencias: guion «pericarpo» → oído «pericampo»
+      (frase en la pista de verificación desde 81.68 s)
+OK  E01_C12       1.00  oído: Segunda: um recheio branco e apertado chamado amido. É a comida que a semente guarda.
+OK  E01_C13       1.00  oído: E terceira, bem escondida no amido: água. Só um pouquinho, mas é a chave.
+OK  E01_L1        1.00  oído: Casca dura, amido e um pouquinho de água. Lembre dessas três.
+OK  E01_C14       1.00  oído: O Pipo não acredita. Água? Mas o grão está sequinho por fora.
+OK  E01_C15       1.00  oído: É justamente por isso. A casca é tão fechada que a água não consegue escapar.
+OK  E01_C16       1.00  oído: E o Plop já desconfia. Água presa, mais calor. Alguma coisa vai acontecer.
+OK  E01_C17       1.00  oído: Agora ligamos o calor. O grão esquenta cada vez mais por dentro.
+OK  E01_C18       1.00  oído: Com o calor, a água faz seu truque. Deixa de ser líquida e vira vapor.
+OK  E01_C19       1.00  oído: E o vapor é um grandalhão. Precisa de muito mais espaço que a água.
+OK  E01_C20       1.00  oído: O Pipo entende assim: é como encher um balão dentro de uma caixa fechada.
+OK  E01_C21       1.00  oído: O vapor empurra a casca por dentro, procurando uma saída, mas a casca aguenta.
+OK  E01_C22       1.00  oído: Enquanto isso, o calor amolece o amido até virar uma gelatina quente e elástica.
+OK  E01_C23       0.90  oído: Mais calor, mais vapor, mais pressão. O grão agora é uma minipanela de pressão.
+      diferencias: guion «mini panela» → oído «minipanela»
+      (frase en la pista de verificación desde 182.00 s)
+OK  E01_C24       1.00  oído: Quanto mais a casca vai aguentar? O Plop quase não quer olhar. E você?
+OK  E01_C25       1.00  oído: Quando chega a uns cento e oitenta graus, a casca não aguenta mais e...
+OK  E01_C26       0.91  oído: bum! A casca estoura e o vapor escapa de uma vez.
+      diferencias: guion «pum» → oído «bum»
+      (frase en la pista de verificación desde 205.28 s)
+OK  E01_C27       1.00  oído: A gelatina de amido incha como espuma, esfria no ar e fica durinha.
+OK  E01_C28       1.00  oído: Essa espuma branca e crocante é a pipoca. O grão virou do avesso.
+OK  E01_C29       1.00  oído: Não tinha duende, Pipo. Quem enche a pipoca é o vapor de água.
+OK  E01_C30       1.00  oído: E essa é a sua resposta, Plop. O calor abre porque transforma a água em vapor.
+OK  E01_L2        1.00  oído: Vamos revisar. Água escondida, calor que vira vapor e uma casca que aguenta até que pum.
+OK  E01_C31       1.00  oído: E os grãos que nunca estouram? Eles têm uma rachadura. O vapor escapa aos pouquinhos.
+OK  E01_C32       1.00  oído: Por isso sempre sobram alguns no fundo da tigela. Não são preguiçosos, têm um vazamento.
+OK  E01_C33       0.94  oído: O Plop tem um desafio pra você. Precisa de um adulto, pipoca e olhos de detetive.
+      diferencias: guion «para» → oído «pra»
+      (frase en la pista de verificación desde 266.72 s)
+OK  E01_L3        1.00  oído: Contem os grãos que não estouraram. Acham a rachadura?
+OK  E01_C34       1.00  oído: O Pipo deixa a próxima pergunta: por que o sabão tira a gordura e a água não?
+OK  CANAL_FINAL   1.00  oído: Até o próximo mistério.
+
+── हिन्दी (Hindi) (HI) ────────────────────────────────────────
+Frases: 39 · fuera de ventana: 0 · solapes: 0 · duración pista: 300.000 s
+Nivel: -16.0 LUFS integrados · pico verdadero -1.5 dBTP
+Aceleradas (máx. 8 %): C23 ×1.016, C26 ×1.024, C33 ×1.029
+Anclas de acción: C26 empieza en 212.65 s (estallido en pantalla: 212,75 s)
+Toma            inicio      fin        ventana                 tempo
+C01             0:00.300  0:06.190  [0:00.300 – 0:07.600]  1.0
+C02             0:08.300  0:14.040  [0:08.300 – 0:15.600]  1.0
+C03             0:16.300  0:21.510  [0:16.300 – 0:23.600]  1.0
+CANAL_INICIO    0:24.200  0:26.770  [0:24.200 – 0:27.600]  1.0
+C04             0:28.300  0:32.910  [0:28.300 – 0:35.600]  1.0
+C05             0:36.300  0:42.650  [0:36.300 – 0:43.600]  1.0
+C06             0:44.300  0:50.340  [0:44.300 – 0:51.600]  1.0
+C07             0:52.300  0:57.350  [0:52.300 – 0:59.600]  1.0
+C08             1:00.300  1:05.710  [1:00.300 – 1:07.600]  1.0
+C09             1:08.300  1:13.570  [1:08.300 – 1:15.600]  1.0
+C10             1:16.300  1:21.440  [1:16.300 – 1:23.600]  1.0
+C11             1:24.300  1:31.310  [1:24.300 – 1:31.600]  1.0
+C12             1:32.300  1:38.640  [1:32.300 – 1:39.600]  1.0
+C13             1:40.300  1:46.920  [1:40.300 – 1:47.600]  1.0
+L1              1:48.300  1:53.280  [1:48.300 – 1:53.600]  1.0
+C14             1:54.300  1:58.890  [1:54.300 – 2:01.600]  1.0
+C15             2:02.300  2:07.290  [2:02.300 – 2:09.600]  1.0
+C16             2:10.300  2:16.090  [2:10.300 – 2:17.600]  1.0
+C17             2:18.300  2:24.010  [2:18.300 – 2:25.600]  1.0
+C18             2:26.300  2:32.280  [2:26.300 – 2:33.600]  1.0
+C19             2:34.300  2:39.250  [2:34.300 – 2:41.600]  1.0
+C20             2:42.300  2:46.820  [2:42.300 – 2:49.600]  1.0
+C21             2:50.300  2:56.830  [2:50.300 – 2:57.600]  1.0
+C22             2:58.300  3:04.100  [2:58.300 – 3:05.600]  1.0
+C23             3:06.300  3:13.600  [3:06.300 – 3:13.600]  1.016
+C24             3:14.300  3:18.660  [3:14.300 – 3:21.600]  1.0
+C25             3:22.300  3:27.360  [3:22.300 – 3:29.600]  1.0
+C26             3:32.650  3:37.600  [3:30.300 – 3:37.600]  1.024
+C27             3:38.300  3:44.460  [3:38.300 – 3:45.600]  1.0
+C28             3:46.300  3:51.930  [3:46.300 – 3:53.600]  1.0
+C29             3:54.300  4:00.860  [3:54.300 – 4:01.600]  1.0
+C30             4:02.300  4:09.090  [4:02.300 – 4:09.600]  1.0
+L2              4:10.300  4:17.170  [4:10.300 – 4:17.600]  1.0
+C31             4:18.300  4:24.710  [4:18.300 – 4:25.600]  1.0
+C32             4:26.300  4:33.020  [4:26.300 – 4:33.600]  1.0
+C33             4:34.300  4:41.600  [4:34.300 – 4:41.600]  1.029
+L3              4:42.300  4:46.120  [4:42.300 – 4:47.600]  1.0
+C34             4:48.300  4:52.950  [4:48.300 – 4:55.600]  1.0
+CANAL_FINAL     4:56.200  4:57.870  [4:56.200 – 4:59.880]  1.0
+
+Verificación por transcripción (guion vs. lo que se oye):
+hi: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: मक्के का दाना पत्थर जैसा सख्त है, पर गर्मी से वह बादल बन जाता है।
+OK  E01_C02       1.00  oído: इतनी बड़ी और फूली चीज इतने छोटे और सख्त दाने में कैसे समाती है?
+OK  E01_C03       1.00  oído: Plop भी जानना चाहता है। आज हम हर popcorn का छिपा राज खोजेंगे।
+OK  CANAL_INICIO  1.00  oído: पीपो और Plop के साथ विज्ञान।
+OK  E01_C04       1.00  oído: पीपो का अजीब ख्याल: क्या अंदर कोई बौना गुब्बारे फुलाता है?
+OK  E01_C05       1.00  oído: अगर ऐसा होता तो कान लगाने पर फूंकने की आवाज़ आती, पर कुछ सुनाई नहीं देता।
+OK  E01_C06       1.00  oído: दूसरा ख्याल: जोर से दबाओ। पर पीपो के पूरे वजन से भी दाना नहीं खुलता।
+OK  E01_C07       1.00  oído: Plop सोचता है, अगर जोर से नहीं खुलता तो गर्मी से क्यों खुलता है?
+OK  E01_C08       1.00  oído: बढ़िया सवाल। मतलब राज बाहर नहीं है, वह अंदर छिपा है।
+OK  E01_C09       1.00  oído: तुम्हें क्या लगता है अंदर क्या है? सोचो। हो गया? चलो इसे खोलें।
+OK  E01_C10       1.00  oído: ज़ूम करते हैं। दाने को बीच से काटो तो तीन छिपे हिस्से दिखते हैं।
+OK  E01_C11       1.00  oído: पहला, पीला, बहुत सख्त छिलका। इसे pericarp कहते हैं। यह helmet जैसा है।
+OK  E01_C12       1.00  oído: दूसरा, सफेद, ठसाठस भरा starch। यह बीज का जमा किया खाना है।
+OK  E01_C13       1.00  oído: और तीसरा, starch में छिपा पानी। बस थोड़ा सा पर यही असली राज है।
+OK  E01_L1        1.00  oído: सख्त छिलका, starch और थोड़ा पानी। यह तीनों याद रखो।
+OK  E01_C14       1.00  oído: पीपो को यकीन नहीं। पानी, दाना तो बाहर से बिल्कुल सूखा है।
+OK  E01_C15       1.00  oído: इसीलिए तो। छिलका इतना बंद है कि पानी बाहर नहीं निकल पाता।
+OK  E01_C16       1.00  oído: Plop को शक है। बंद पानी, ऊपर से गर्मी, कुछ तो होने वाला है।
+OK  E01_C17       1.00  oído: अब गर्मी चालू। दाना अंदर से और गर्म, और गर्म होता जाता है।
+OK  E01_C18       1.00  oído: गर्मी से पानी अपना जादू दिखाता है। वह तरल नहीं रहता, भाप बन जाता है।
+OK  E01_C19       1.00  oído: और भाप तो बहुत फैलती है। उसे पानी से कहीं ज्यादा जगह चाहिए।
+OK  E01_C20       1.00  oído: पीपो ऐसे समझता है जैसे बंद डिब्बे में गुब्बारा फुलाना।
+OK  E01_C21       1.00  oído: भाप अंदर से छिलके को धकेलती है, बाहर निकलना चाहती है पर छिलका टिका रहता है।
+OK  E01_C22       1.00  oído: इस बीच गर्मी starch को नरम करके गर्म लचीली jelly बना देती है।
+OK  E01_C23       1.00  oído: ज्यादा गर्मी, ज्यादा भाप, ज्यादा दबाव। दाना अब छोटा सा pressure cooker है।
+OK  E01_C24       0.92  oído: छिलका और कितना सहएगा? Plop तो देख भी नहीं पा रहा और तुम?
+      diferencias: guion «सहेगा» → oído «सहएगा»
+      (frase en la pista de verificación desde 194.24 s)
+OK  E01_C25       1.00  oído: लगभग 180 degree पर छिलका और नहीं सह पाता और
+OK  E01_C26       1.00  oído: धड़ाम! छिलका फट जाता है और भाप एकदम बाहर निकलती है।
+OK  E01_C27       1.00  oído: starch की jelly झाग की तरह फूलती है। हवा में ठंडी होकर सख्त हो जाती है।
+OK  E01_C28       1.00  oído: यही सफेद कुरकुरा झाग popcorn है। दाना अंदर से बाहर पलट गया।
+OK  E01_C29       1.00  oído: कोई बौना नहीं था पीपो। popcorn को फुलाती है पानी की भाप।
+OK  E01_C30       1.00  oído: यही तुम्हारा जवाब है Plop। गर्मी पानी को भाप बनाती है इसलिए दाना खुलता है।
+OK  E01_L2        1.00  oído: दोहराते हैं छिपा पानी, गर्मी से भाप और टिका हुआ छिलका फिर धड़ाम।
+OK  E01_C31       1.00  oído: और जो दाने नहीं फूटते उनमें दरार होती है। भाप धीरे-धीरे निकल जाती है।
+OK  E01_C32       1.00  oído: इसीलिए कटोरे की तली में कुछ दाने बच जाते हैं। वे आलसी नहीं, उनमें रिसाव है।
+OK  E01_C33       0.93  oído: Plop कि तुम्हें एक चुनौती है। चाहिए एक बड़ा popcorn और जासूस वाली नजर।
+      diferencias: guion «की» → oído «कि»
+      (frase en la pista de verificación desde 275.92 s)
+OK  E01_L3        1.00  oído: बिना फूटे दाने गिनो। क्या उनकी दरार दिखी?
+OK  E01_C34       1.00  oído: पीपो का अगला सवाल: साबुन चिकनाई हटाता है, पानी क्यों नहीं?
+OK  CANAL_FINAL   1.00  oído: अगले रहस्य में मिलते हैं।
+
+── EFECTOS DE SONIDO (una sola pista para los 5 idiomas) ────────────────────
+No se generó ningún efecto nuevo: se reutilizaron la biblioteca de ElevenLabs Sound Effects v3 del Ep. 3 y la biblioteca de efectos del Ep. 2.
+Cada uno está colocado en el segundo exacto de su acción en pantalla.
+Foley de movimiento y textura: 63 entradas (22 sonidos distintos)
+Acentos de expresión (mickey mousing): 31 entradas (21 sonidos distintos)
+Transiciones y refuerzos visuales: 17 entradas (9 sonidos distintos)
+Pista de efectos: -26.1 LUFS integrados · pico -2.4 dBTP
+Mezcla: mientras hay voz, los efectos bajan como mínimo 4 dB y se mantienen 9 dB por debajo del pico de la voz;
+en las pausas suenan completos. Cada mezcla queda a -16 LUFS con pico de -1,5 dBTP.
+
+  n  tiempo     toma          cat  efecto        orig acción en pantalla   (EL = ElevenLabs Ep. 3 · E2 = biblioteca del Ep. 2)
+  1  0:02.620   C01            F   bite          EL  otra grieta
+  2  0:03.210   C01            F   bite          EL  la grieta crece
+  3  0:03.790   C01            F   plate         EL  el grano se sacude sobre el plato
+  4  0:04.400   C01            T   whoosh        EL  las cáscaras salen volando
+  5  0:04.420   C01            F   bite          EL  el casco revienta
+  6  0:04.420   C01            M   pop           EL  ¡pum!
+  7  0:05.000   C01            F   balls_away    EL  los pedazos de cáscara caen y ruedan
+  8  0:10.000   C02            F   shuffle       EL  se inclina hacia la palomita
+  9  0:11.290   C02            M   h_question    E2  ¿cómo cabe tanto ahí dentro?
+ 10  0:16.830   C03            M   boing         EL  Plop abre bien los ojos
+ 11  0:20.540   C03            M   h_curious     E2  Plop sonríe: también quiere saber
+ 12  0:23.750   CANAL_INICIO   T   whoosh        EL  entra la cortinilla
+ 13  0:24.000   CANAL_INICIO   T   logo          EL  cortinilla del canal
+ 14  0:29.450   C04            F   arm_swish     EL  Pipo levanta la mano
+ 15  0:30.420   C04            M   ding          EL  ¡una idea loca!
+ 16  0:36.750   C05            F   cheek_rub     EL  Pipo pega la oreja al grano
+ 17  0:38.330   C05            M   h_tiptoe      E2  escucha con atención
+ 18  0:42.460   C05            M   slide_down    EL  no se oye nada
+ 19  0:44.500   C06            M   boing         EL  Pipo salta
+ 20  0:45.080   C06            F   land          EL  aterriza sobre el grano
+ 21  0:45.920   C06            F   land          EL  aterriza otra vez
+ 22  0:46.750   C06            F   land          EL  otro salto
+ 23  0:47.750   C06            F   land          EL  otro salto
+ 24  0:48.580   C06            F   land          EL  otro salto
+ 25  0:49.540   C06            F   land          EL  otro salto
+ 26  0:50.580   C06            F   land          EL  otro salto
+ 27  0:51.420   C06            F   land          EL  último salto: el grano ni se abre
+ 28  0:52.830   C07            M   think         EL  Plop se rasca la barbilla
+ 29  0:54.330   C07            F   cheek_rub     EL  se apoya la mano en la cara
+ 30  1:04.170   C08            F   shuffle       EL  se da la vuelta
+ 31  1:13.400   C09            T   zoom          EL  la cámara se acerca al grano
+ 32  1:14.800   C09            T   rev_cymbal    EL  ¡vamos a abrirlo!
+ 33  1:16.000   C10            F   slice         EL  el grano aparece partido por la mitad
+ 34  1:17.800   C10            T   zoom          EL  la cámara entra al grano
+ 35  1:21.460   C10            F   plip          EL  la gotita escondida
+ 36  1:24.400   C11            F   roll_corto    EL  la bolita rueda sobre el casco
+ 37  1:27.000   C11            F   land          EL  la bolita cae y rebota
+ 38  1:28.710   C11            M   h_chime2      E2  primera parte: el casco
+ 39  1:32.960   C12            F   h_wobble      E2  la gota se mueve
+ 40  1:33.960   C12            F   squish        EL  el relleno blanco y apretado
+ 41  1:38.900   C12            M   h_chime2      E2  segunda parte: el almidón
+ 42  1:40.670   C13            F   h_wobble      E2  la gota tiembla
+ 43  1:42.460   C13            F   plip          EL  la gota brilla
+ 44  1:43.620   C13            M   sparkle       EL  agua: ¡la clave!
+ 45  1:48.000   L1             T   swipe         EL  lámina 1: las tres partes
+ 46  1:48.400   L1             T   h_recap       E2  casco, almidón y agua
+ 47  1:54.960   C14            M   slide_up      EL  ¿agua?
+ 48  1:56.960   C14            M   h_shrug       E2  si está sequito por fuera
+ 49  2:02.500   C15            F   h_zip         E2  la gota corre por dentro
+ 50  2:05.120   C15            F   plip          EL  choca contra el casco
+ 51  2:06.710   C15            F   plip          EL  choca otra vez
+ 52  2:07.620   C15            F   h_drops       E2  rebota de pared en pared
+ 53  2:08.460   C15            M   key_lock      EL  el casco está cerrado: no puede escapar
+ 54  2:11.120   C16            M   squint        EL  Plop entrecierra los ojos
+ 55  2:16.120   C16            M   uh_oh         EL  algo va a pasar
+ 56  2:18.500   C17            M   fire_puff     EL  se enciende el calor
+ 57  2:19.670   C17            F   h_stretch     E2  los zarcillos de calor crecen
+ 58  2:23.500   C17            F   h_tail        E2  los zarcillos se menean
+ 59  2:27.900   C18            T   bubble        EL  la gota empieza a cambiar
+ 60  2:28.300   C18            M   steam         EL  ¡se vuelve vapor!
+ 61  2:30.000   C18            F   h_bloops      E2  la nube burbujea
+ 62  2:35.120   C19            F   h_foam        E2  la nube crece
+ 63  2:38.330   C19            F   squish        EL  la nube choca con el casco
+ 64  2:42.460   C20            F   cheek_rub     EL  Pipo toma aire
+ 65  2:43.080   C20            F   h_stretch     E2  infla los cachetes como un globo
+ 66  2:51.600   C21            F   h_pokes       E2  el vapor empuja desde dentro
+ 67  2:53.670   C21            F   squish        EL  otro empujón
+ 68  2:59.830   C22            F   h_wobble      E2  el almidón se vuelve gelatina
+ 69  3:01.080   C22            F   squish        EL  la gelatina se estira
+ 70  3:02.250   C22            F   h_wobble      E2  tiembla otra vez
+ 71  3:10.000   C23            F   plate         EL  se sacude sobre el plato
+ 72  3:11.790   C23            F   plate         EL  se sacude más fuerte
+ 73  3:12.290   C23            M   steam         EL  una mini olla a presión
+ 74  3:14.420   C24            M   uh_oh         EL  Plop no quiere mirar
+ 75  3:15.000   C24            F   cheek_rub     EL  se tapa los ojos
+ 76  3:20.580   C24            F   arm_swish     EL  abre los brazos
+ 77  3:23.120   C25            F   bite          EL  aparece una grieta
+ 78  3:24.290   C25            F   bite          EL  la grieta crece
+ 79  3:26.290   C25            F   seeds         EL  crujidos por dentro
+ 80  3:31.500   C26            F   bite          EL  el casco se abre
+ 81  3:31.600   C26            T   rev_cymbal    EL  la presión llega al máximo
+ 82  3:32.750   C26            F   bite          EL  el casco revienta
+ 83  3:32.750   C26            M   pop           EL  ¡pum!
+ 84  3:32.790   C26            M   fire_puff     EL  el vapor escapa de golpe
+ 85  3:33.300   C26            F   balls_away    EL  las cáscaras caen y ruedan
+ 86  3:34.200   C26            M   sparkle       EL  nace la palomita
+ 87  3:38.000   C27            T   shimmer       EL  la palomita en primer plano
+ 88  3:43.580   C27            F   bite          EL  crujiente
+ 89  3:47.120   C28            F   shuffle       EL  Pipo abraza la palomita
+ 90  3:51.830   C28            F   cheek_rub     EL  apoya la cara en la palomita
+ 91  3:54.960   C29            F   arm_swish     EL  Pipo abre los brazos
+ 92  3:55.100   C29            M   h_tada        E2  ¡esa es tu respuesta!
+ 93  4:02.600   C30            F   shuffle       EL  Plop se mueve contento
+ 94  4:02.750   C30            M   h_boing2      E2  da saltitos
+ 95  4:05.000   C30            F   step          EL  otro saltito
+ 96  4:10.000   L2             T   swipe         EL  lámina 2: repaso
+ 97  4:10.400   L2             T   h_recap       E2  agua, vapor y ¡pum!
+ 98  4:18.500   C31            M   steam         EL  el vapor se escapa por la grieta
+ 99  4:20.000   C31            F   h_breeze      E2  sale despacito
+100  4:24.290   C31            M   power_down    EL  se desinfla sin estallar
+101  4:26.460   C32            F   arm_swish     EL  Pipo señala el grano
+102  4:30.000   C32            M   h_ponder      E2  no son perezosos: tienen una fuga
+103  4:35.120   C33            F   step          EL  Plop da un pasito
+104  4:37.300   C33            F   arm_swish     EL  Plop señala
+105  4:37.500   C33            M   slide_up      EL  ¡un reto!
+106  4:42.000   L3             T   swipe         EL  lámina 3: reto en casa
+107  4:42.400   L3             M   h_tiptoe      E2  ojos de detective
+108  4:48.620   C34            F   arm_swish     EL  Pipo saluda
+109  4:53.500   C34            T   bubble        EL  guiño al próximo episodio: el jabón
+110  4:55.750   CANAL_FINAL    T   whoosh        EL  entra la cortinilla final
+111  4:56.000   CANAL_FINAL    T   outro         EL  cortinilla final
+
+── RELLENOS EN LOS SILENCIOS (sintetizados, sin ElevenLabs) ────────────────────
+Los 111 efectos de arriba no se movieron. En los silencios entre frases donde no suena ningún efecto se añadió
+un sonido pequeño sintetizado (marimba, gotitas, burbujas, campanita, blips, tic-tac o punteo, según la escena),
+a -27 dBFS RMS, en la escala pentatónica de do. Empieza 0,10 s después de la voz y acaba 0,08 s antes de la siguiente frase,
+sin tocar los efectos (0,05 s de colchón). Como cada idioma hace sus pausas en segundos distintos, hay una pista por idioma.
+
+── Rellenos · Español (ES): 64 sonidos en 38 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.600   C01           C01→C02                   marimba     0.62 s
+  2  0:07.570   C01           C01→C02                   marimba     0.35 s
+  3  0:13.950   C02           C02→C03                   punteo      0.65 s
+  4  0:14.950   C02           C02→C03                   punteo      0.35 s
+  5  0:22.060   C03           C03→CANAL_INICIO          campanita   0.70 s
+  6  0:23.110   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  7  0:26.390   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  8  0:27.540   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  9  0:33.450   C04           C04→C05                   campanita   0.70 s
+ 10  0:34.500   C04           C04→C05                   tic-tac     0.31 s
+ 11  0:43.310   C05           C05→C06                   punteo      0.65 s
+ 12  0:50.740   C06           C06→C07                   punteo      0.35 s
+ 13  0:51.580   C06           C06→C07                   punteo      0.35 s
+ 14  0:58.040   C07           C07→C08                   tic-tac     0.31 s
+ 15  0:58.700   C07           C07→C08                   campanita   0.50 s
+ 16  1:07.170   C08           C08→C09                   punteo      0.65 s
+ 17  1:21.710   C10           C10→C11                   gotitas     0.34 s
+ 18  1:22.400   C10           C10→C11                   burbujas    0.50 s
+ 19  1:31.220   C11           C11→C12                   blips       0.27 s
+ 20  1:39.180   C12           C12→C13                   burbujas    0.55 s
+ 21  1:46.840   C13           C13→L1                    gotitas     0.34 s
+ 22  1:53.230   L1            L1→C14                    campanita   0.80 s
+ 23  1:59.380   C14           C14→C15                   punteo      0.65 s
+ 24  2:00.380   C14           C14→C15                   punteo      0.35 s
+ 25  2:08.960   C15           C15→C16                   gotitas     0.34 s
+ 26  2:09.650   C15           C15→C16                   burbujas    0.50 s
+ 27  2:16.920   C16           C16→C17                   campanita   0.70 s
+ 28  2:25.240   C17           C17→C18                   blips       0.27 s
+ 29  2:32.210   C18           C18→C19                   gotitas     0.34 s
+ 30  2:32.900   C18           C18→C19                   burbujas    0.50 s
+ 31  2:39.470   C19           C19→C20                   gotitas     0.34 s
+ 32  2:40.160   C19           C19→C20                   burbujas    0.50 s
+ 33  2:47.060   C20           C20→C21                   punteo      0.65 s
+ 34  2:48.060   C20           C20→C21                   punteo      0.35 s
+ 35  2:56.160   C21           C21→C22                   gotitas     0.34 s
+ 36  2:56.850   C21           C21→C22                   burbujas    0.50 s
+ 37  3:04.070   C22           C22→C23                   gotitas     0.34 s
+ 38  3:04.760   C22           C22→C23                   burbujas    0.50 s
+ 39  3:12.760   C23           C23→C24                   blips       0.27 s
+ 40  3:13.380   C23           C23→C24                   blips       0.14 s
+ 41  3:19.350   C24           C24→C25                   campanita   0.70 s
+ 42  3:21.000   C24           C24→C25                   tic-tac     0.31 s
+ 43  3:21.660   C24           C24→C25                   campanita   0.50 s
+ 44  3:27.580   C25           C25→C26                   blips       0.27 s
+ 45  3:28.200   C25           C25→C26                   blips       0.14 s
+ 46  3:36.620   C26           C26→C27                   marimba     0.62 s
+ 47  3:37.590   C26           C26→C27                   marimba     0.35 s
+ 48  3:44.300   C27           C27→C28                   marimba     0.62 s
+ 49  3:45.270   C27           C27→C28                   marimba     0.35 s
+ 50  3:52.420   C28           C28→C29                   punteo      0.65 s
+ 51  3:53.420   C28           C28→C29                   punteo      0.35 s
+ 52  4:00.310   C29           C29→C30                   punteo      0.65 s
+ 53  4:01.310   C29           C29→C30                   punteo      0.35 s
+ 54  4:07.700   C30           C30→L2                    punteo      0.65 s
+ 55  4:08.700   C30           C30→L2                    punteo      0.35 s
+ 56  4:17.460   L2            L2→C31                    campanita   0.75 s
+ 57  4:25.470   C31           C31→C32                   blips       0.14 s
+ 58  4:32.410   C32           C32→C33                   punteo      0.65 s
+ 59  4:33.410   C32           C32→C33                   punteo      0.35 s
+ 60  4:41.300   C33           C33→L3                    tic-tac     0.31 s
+ 61  4:46.050   L3            L3→C34                    campanita   0.80 s
+ 62  4:47.200   L3            L3→C34                    campanita   0.50 s
+ 63  4:54.500   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 64  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · English (EN): 69 sonidos en 38 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.600   C01           C01→C02                   marimba     0.62 s
+  2  0:07.570   C01           C01→C02                   marimba     0.35 s
+  3  0:13.500   C02           C02→C03                   punteo      0.65 s
+  4  0:14.500   C02           C02→C03                   punteo      0.35 s
+  5  0:22.060   C03           C03→CANAL_INICIO          campanita   0.70 s
+  6  0:23.110   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  7  0:26.320   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  8  0:27.470   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  9  0:34.080   C04           C04→C05                   campanita   0.70 s
+ 10  0:35.130   C04           C04→C05                   tic-tac     0.31 s
+ 11  0:41.580   C05           C05→C06                   punteo      0.65 s
+ 12  0:43.310   C05           C05→C06                   punteo      0.65 s
+ 13  0:50.740   C06           C06→C07                   punteo      0.35 s
+ 14  0:51.580   C06           C06→C07                   punteo      0.35 s
+ 15  0:57.540   C07           C07→C08                   campanita   0.70 s
+ 16  0:58.590   C07           C07→C08                   tic-tac     0.31 s
+ 17  1:06.200   C08           C08→C09                   punteo      0.65 s
+ 18  1:07.200   C08           C08→C09                   punteo      0.35 s
+ 19  1:20.870   C10           C10→C11                   gotitas     0.18 s
+ 20  1:21.620   C10           C10→C11                   burbujas    0.55 s
+ 21  1:22.520   C10           C10→C11                   gotitas     0.18 s
+ 22  1:30.460   C11           C11→C12                   blips       0.27 s
+ 23  1:31.080   C11           C11→C12                   blips       0.14 s
+ 24  1:39.180   C12           C12→C13                   burbujas    0.55 s
+ 25  1:46.320   C13           C13→L1                    gotitas     0.34 s
+ 26  1:47.010   C13           C13→L1                    burbujas    0.50 s
+ 27  1:52.640   L1            L1→C14                    campanita   0.80 s
+ 28  1:59.300   C14           C14→C15                   punteo      0.65 s
+ 29  2:00.300   C14           C14→C15                   punteo      0.35 s
+ 30  2:08.970   C15           C15→C16                   burbujas    0.55 s
+ 31  2:16.930   C16           C16→C17                   campanita   0.70 s
+ 32  2:22.910   C17           C17→C18                   blips       0.14 s
+ 33  2:25.250   C17           C17→C18                   blips       0.27 s
+ 34  2:31.870   C18           C18→C19                   burbujas    0.55 s
+ 35  2:32.770   C18           C18→C19                   gotitas     0.18 s
+ 36  2:39.710   C19           C19→C20                   burbujas    0.55 s
+ 37  2:40.610   C19           C19→C20                   gotitas     0.18 s
+ 38  2:47.420   C20           C20→C21                   punteo      0.65 s
+ 39  2:48.420   C20           C20→C21                   punteo      0.35 s
+ 40  2:56.130   C21           C21→C22                   burbujas    0.55 s
+ 41  2:57.030   C21           C21→C22                   gotitas     0.18 s
+ 42  3:04.080   C22           C22→C23                   burbujas    0.55 s
+ 43  3:04.980   C22           C22→C23                   gotitas     0.18 s
+ 44  3:12.760   C23           C23→C24                   blips       0.27 s
+ 45  3:13.380   C23           C23→C24                   blips       0.14 s
+ 46  3:19.490   C24           C24→C25                   tic-tac     0.31 s
+ 47  3:21.000   C24           C24→C25                   campanita   0.70 s
+ 48  3:27.570   C25           C25→C26                   blips       0.27 s
+ 49  3:28.190   C25           C25→C26                   blips       0.14 s
+ 50  3:37.130   C26           C26→C27                   marimba     0.62 s
+ 51  3:44.300   C27           C27→C28                   marimba     0.62 s
+ 52  3:45.270   C27           C27→C28                   marimba     0.35 s
+ 53  3:52.420   C28           C28→C29                   punteo      0.65 s
+ 54  3:53.420   C28           C28→C29                   punteo      0.35 s
+ 55  4:00.040   C29           C29→C30                   punteo      0.65 s
+ 56  4:01.040   C29           C29→C30                   punteo      0.35 s
+ 57  4:07.300   C30           C30→L2                    punteo      0.65 s
+ 58  4:08.300   C30           C30→L2                    punteo      0.35 s
+ 59  4:17.380   L2            L2→C31                    campanita   0.80 s
+ 60  4:23.560   C31           C31→C32                   blips       0.14 s
+ 61  4:25.470   C31           C31→C32                   blips       0.14 s
+ 62  4:31.820   C32           C32→C33                   punteo      0.65 s
+ 63  4:32.820   C32           C32→C33                   punteo      0.35 s
+ 64  4:40.290   C33           C33→L3                    tic-tac     0.31 s
+ 65  4:40.950   C33           C33→L3                    campanita   0.50 s
+ 66  4:45.740   L3            L3→C34                    campanita   0.80 s
+ 67  4:46.890   L3            L3→C34                    campanita   0.50 s
+ 68  4:54.500   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 69  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · Français (FR): 73 sonidos en 38 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.600   C01           C01→C02                   marimba     0.62 s
+  2  0:07.570   C01           C01→C02                   marimba     0.35 s
+  3  0:13.810   C02           C02→C03                   punteo      0.65 s
+  4  0:14.810   C02           C02→C03                   punteo      0.35 s
+  5  0:22.000   C03           C03→CANAL_INICIO          campanita   0.70 s
+  6  0:23.050   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  7  0:26.340   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  8  0:27.490   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  9  0:33.050   C04           C04→C05                   campanita   0.70 s
+ 10  0:34.100   C04           C04→C05                   tic-tac     0.31 s
+ 11  0:41.570   C05           C05→C06                   punteo      0.65 s
+ 12  0:43.310   C05           C05→C06                   punteo      0.65 s
+ 13  0:50.720   C06           C06→C07                   punteo      0.35 s
+ 14  0:51.580   C06           C06→C07                   punteo      0.35 s
+ 15  0:57.600   C07           C07→C08                   campanita   0.70 s
+ 16  0:58.650   C07           C07→C08                   tic-tac     0.31 s
+ 17  1:05.590   C08           C08→C09                   punteo      0.65 s
+ 18  1:06.590   C08           C08→C09                   punteo      0.35 s
+ 19  1:21.610   C10           C10→C11                   gotitas     0.34 s
+ 20  1:22.300   C10           C10→C11                   burbujas    0.50 s
+ 21  1:29.960   C11           C11→C12                   blips       0.27 s
+ 22  1:30.580   C11           C11→C12                   blips       0.14 s
+ 23  1:38.090   C12           C12→C13                   gotitas     0.18 s
+ 24  1:39.170   C12           C12→C13                   burbujas    0.55 s
+ 25  1:46.100   C13           C13→L1                    gotitas     0.34 s
+ 26  1:46.790   C13           C13→L1                    burbujas    0.50 s
+ 27  1:52.610   L1            L1→C14                    campanita   0.80 s
+ 28  1:58.240   C14           C14→C15                   punteo      0.65 s
+ 29  1:59.240   C14           C14→C15                   punteo      0.35 s
+ 30  2:06.860   C15           C15→C16                   burbujas    0.55 s
+ 31  2:08.960   C15           C15→C16                   gotitas     0.34 s
+ 32  2:09.650   C15           C15→C16                   burbujas    0.50 s
+ 33  2:16.920   C16           C16→C17                   campanita   0.70 s
+ 34  2:23.030   C17           C17→C18                   blips       0.14 s
+ 35  2:25.250   C17           C17→C18                   blips       0.27 s
+ 36  2:31.400   C18           C18→C19                   burbujas    0.55 s
+ 37  2:32.300   C18           C18→C19                   gotitas     0.18 s
+ 38  2:38.830   C19           C19→C20                   burbujas    0.55 s
+ 39  2:39.730   C19           C19→C20                   gotitas     0.18 s
+ 40  2:46.550   C20           C20→C21                   punteo      0.65 s
+ 41  2:47.550   C20           C20→C21                   punteo      0.35 s
+ 42  2:55.870   C21           C21→C22                   burbujas    0.55 s
+ 43  2:56.770   C21           C21→C22                   gotitas     0.18 s
+ 44  3:04.080   C22           C22→C23                   burbujas    0.55 s
+ 45  3:04.980   C22           C22→C23                   gotitas     0.18 s
+ 46  3:12.760   C23           C23→C24                   blips       0.27 s
+ 47  3:13.380   C23           C23→C24                   blips       0.14 s
+ 48  3:19.450   C24           C24→C25                   tic-tac     0.31 s
+ 49  3:21.000   C24           C24→C25                   campanita   0.70 s
+ 50  3:25.780   C25           C25→C26                   blips       0.14 s
+ 51  3:27.100   C25           C25→C26                   blips       0.27 s
+ 52  3:27.720   C25           C25→C26                   blips       0.14 s
+ 53  3:36.160   C26           C26→C27                   marimba     0.62 s
+ 54  3:37.130   C26           C26→C27                   marimba     0.35 s
+ 55  3:44.300   C27           C27→C28                   marimba     0.62 s
+ 56  3:45.270   C27           C27→C28                   marimba     0.35 s
+ 57  3:52.420   C28           C28→C29                   punteo      0.65 s
+ 58  3:53.420   C28           C28→C29                   punteo      0.35 s
+ 59  4:00.210   C29           C29→C30                   punteo      0.65 s
+ 60  4:01.210   C29           C29→C30                   punteo      0.35 s
+ 61  4:07.500   C30           C30→L2                    punteo      0.65 s
+ 62  4:08.500   C30           C30→L2                    punteo      0.35 s
+ 63  4:17.180   L2            L2→C31                    campanita   0.80 s
+ 64  4:23.430   C31           C31→C32                   blips       0.27 s
+ 65  4:25.470   C31           C31→C32                   blips       0.14 s
+ 66  4:31.970   C32           C32→C33                   punteo      0.65 s
+ 67  4:32.970   C32           C32→C33                   punteo      0.35 s
+ 68  4:40.070   C33           C33→L3                    tic-tac     0.31 s
+ 69  4:40.730   C33           C33→L3                    campanita   0.50 s
+ 70  4:45.560   L3            L3→C34                    campanita   0.80 s
+ 71  4:46.710   L3            L3→C34                    campanita   0.50 s
+ 72  4:54.500   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 73  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · Português (BR) (PT): 65 sonidos en 38 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.590   C01           C01→C02                   marimba     0.62 s
+  2  0:07.560   C01           C01→C02                   marimba     0.35 s
+  3  0:13.680   C02           C02→C03                   punteo      0.65 s
+  4  0:14.680   C02           C02→C03                   punteo      0.35 s
+  5  0:22.000   C03           C03→CANAL_INICIO          campanita   0.70 s
+  6  0:23.050   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  7  0:26.380   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  8  0:27.530   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.50 s
+  9  0:34.090   C04           C04→C05                   campanita   0.70 s
+ 10  0:35.140   C04           C04→C05                   tic-tac     0.31 s
+ 11  0:43.310   C05           C05→C06                   punteo      0.65 s
+ 12  0:50.120   C06           C06→C07                   punteo      0.35 s
+ 13  0:50.740   C06           C06→C07                   punteo      0.35 s
+ 14  0:57.720   C07           C07→C08                   tic-tac     0.31 s
+ 15  0:58.380   C07           C07→C08                   campanita   0.50 s
+ 16  1:06.770   C08           C08→C09                   punteo      0.65 s
+ 17  1:21.840   C10           C10→C11                   gotitas     0.34 s
+ 18  1:22.530   C10           C10→C11                   burbujas    0.50 s
+ 19  1:31.220   C11           C11→C12                   blips       0.27 s
+ 20  1:39.170   C12           C12→C13                   burbujas    0.55 s
+ 21  1:46.400   C13           C13→L1                    gotitas     0.34 s
+ 22  1:47.090   C13           C13→L1                    burbujas    0.50 s
+ 23  1:53.240   L1            L1→C14                    campanita   0.80 s
+ 24  1:58.970   C14           C14→C15                   punteo      0.65 s
+ 25  1:59.970   C14           C14→C15                   punteo      0.35 s
+ 26  2:08.960   C15           C15→C16                   burbujas    0.55 s
+ 27  2:17.230   C16           C16→C17                   campanita   0.70 s
+ 28  2:25.250   C17           C17→C18                   blips       0.27 s
+ 29  2:31.950   C18           C18→C19                   gotitas     0.34 s
+ 30  2:32.640   C18           C18→C19                   burbujas    0.50 s
+ 31  2:39.220   C19           C19→C20                   gotitas     0.34 s
+ 32  2:39.910   C19           C19→C20                   burbujas    0.50 s
+ 33  2:47.040   C20           C20→C21                   punteo      0.65 s
+ 34  2:48.040   C20           C20→C21                   punteo      0.35 s
+ 35  2:56.200   C21           C21→C22                   gotitas     0.34 s
+ 36  2:56.890   C21           C21→C22                   burbujas    0.50 s
+ 37  3:04.260   C22           C22→C23                   gotitas     0.34 s
+ 38  3:04.950   C22           C22→C23                   burbujas    0.50 s
+ 39  3:13.060   C23           C23→C24                   blips       0.27 s
+ 40  3:13.680   C23           C23→C24                   blips       0.14 s
+ 41  3:19.640   C24           C24→C25                   campanita   0.70 s
+ 42  3:21.000   C24           C24→C25                   tic-tac     0.31 s
+ 43  3:21.660   C24           C24→C25                   campanita   0.50 s
+ 44  3:27.160   C25           C25→C26                   blips       0.27 s
+ 45  3:27.780   C25           C25→C26                   blips       0.14 s
+ 46  3:36.550   C26           C26→C27                   marimba     0.62 s
+ 47  3:37.520   C26           C26→C27                   marimba     0.35 s
+ 48  3:44.310   C27           C27→C28                   marimba     0.62 s
+ 49  3:45.280   C27           C27→C28                   marimba     0.35 s
+ 50  3:51.150   C28           C28→C29                   punteo      0.35 s
+ 51  3:52.420   C28           C28→C29                   punteo      0.65 s
+ 52  3:53.420   C28           C28→C29                   punteo      0.35 s
+ 53  3:59.940   C29           C29→C30                   punteo      0.65 s
+ 54  4:00.940   C29           C29→C30                   punteo      0.35 s
+ 55  4:07.850   C30           C30→L2                    punteo      0.65 s
+ 56  4:08.850   C30           C30→L2                    punteo      0.35 s
+ 57  4:17.690   L2            L2→C31                    campanita   0.52 s
+ 58  4:25.470   C31           C31→C32                   blips       0.14 s
+ 59  4:32.650   C32           C32→C33                   punteo      0.65 s
+ 60  4:33.650   C32           C32→C33                   punteo      0.35 s
+ 61  4:40.570   C33           C33→L3                    campanita   0.70 s
+ 62  4:45.920   L3            L3→C34                    campanita   0.80 s
+ 63  4:47.070   L3            L3→C34                    campanita   0.50 s
+ 64  4:54.500   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 65  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s
+
+── Rellenos · हिन्दी (Hindi) (HI): 60 sonidos en 37 silencios · sobre la voz: 0 · sobre los efectos: 0 · mezcla -16.0 LUFS, pico -1.5 dBTP
+  n  suena en   toma          silencio entre            sonido      dur.
+  1  0:06.590   C01           C01→C02                   marimba     0.62 s
+  2  0:07.560   C01           C01→C02                   marimba     0.35 s
+  3  0:14.130   C02           C02→C03                   punteo      0.65 s
+  4  0:15.130   C02           C02→C03                   punteo      0.35 s
+  5  0:22.000   C03           C03→CANAL_INICIO          campanita   0.70 s
+  6  0:23.050   C03           C03→CANAL_INICIO          tic-tac     0.31 s
+  7  0:26.830   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
+  8  0:33.020   C04           C04→C05                   tic-tac     0.31 s
+  9  0:33.680   C04           C04→C05                   campanita   0.50 s
+ 10  0:43.310   C05           C05→C06                   punteo      0.65 s
+ 11  0:50.740   C06           C06→C07                   punteo      0.35 s
+ 12  0:51.580   C06           C06→C07                   punteo      0.35 s
+ 13  0:57.460   C07           C07→C08                   campanita   0.70 s
+ 14  0:58.510   C07           C07→C08                   tic-tac     0.31 s
+ 15  1:05.820   C08           C08→C09                   punteo      0.65 s
+ 16  1:06.820   C08           C08→C09                   punteo      0.35 s
+ 17  1:21.610   C10           C10→C11                   gotitas     0.34 s
+ 18  1:22.300   C10           C10→C11                   burbujas    0.50 s
+ 19  1:31.400   C11           C11→C12                   blips       0.27 s
+ 20  1:39.180   C12           C12→C13                   burbujas    0.55 s
+ 21  1:47.020   C13           C13→L1                    gotitas     0.34 s
+ 22  1:53.340   L1            L1→C14                    campanita   0.80 s
+ 23  1:58.940   C14           C14→C15                   punteo      0.65 s
+ 24  1:59.940   C14           C14→C15                   punteo      0.35 s
+ 25  2:08.960   C15           C15→C16                   gotitas     0.34 s
+ 26  2:09.650   C15           C15→C16                   burbujas    0.50 s
+ 27  2:16.920   C16           C16→C17                   campanita   0.70 s
+ 28  2:25.240   C17           C17→C18                   blips       0.27 s
+ 29  2:32.380   C18           C18→C19                   gotitas     0.34 s
+ 30  2:33.070   C18           C18→C19                   burbujas    0.50 s
+ 31  2:39.320   C19           C19→C20                   gotitas     0.34 s
+ 32  2:40.010   C19           C19→C20                   burbujas    0.50 s
+ 33  2:46.890   C20           C20→C21                   punteo      0.65 s
+ 34  2:47.890   C20           C20→C21                   punteo      0.35 s
+ 35  2:56.940   C21           C21→C22                   gotitas     0.34 s
+ 36  2:57.630   C21           C21→C22                   burbujas    0.50 s
+ 37  3:04.190   C22           C22→C23                   gotitas     0.34 s
+ 38  3:04.880   C22           C22→C23                   burbujas    0.50 s
+ 39  3:13.670   C23           C23→C24                   blips       0.14 s
+ 40  3:18.780   C24           C24→C25                   tic-tac     0.31 s
+ 41  3:19.440   C24           C24→C25                   campanita   0.50 s
+ 42  3:21.000   C24           C24→C25                   tic-tac     0.31 s
+ 43  3:21.660   C24           C24→C25                   campanita   0.50 s
+ 44  3:27.450   C25           C25→C26                   blips       0.27 s
+ 45  3:28.070   C25           C25→C26                   blips       0.14 s
+ 46  3:37.670   C26           C26→C27                   marimba     0.35 s
+ 47  3:44.580   C27           C27→C28                   marimba     0.62 s
+ 48  3:45.550   C27           C27→C28                   marimba     0.35 s
+ 49  3:52.420   C28           C28→C29                   punteo      0.65 s
+ 50  3:53.420   C28           C28→C29                   punteo      0.35 s
+ 51  4:00.930   C29           C29→C30                   punteo      0.65 s
+ 52  4:09.200   C30           C30→L2                    punteo      0.35 s
+ 53  4:17.250   L2            L2→C31                    campanita   0.80 s
+ 54  4:25.470   C31           C31→C32                   blips       0.14 s
+ 55  4:33.130   C32           C32→C33                   punteo      0.65 s
+ 56  4:46.180   L3            L3→C34                    campanita   0.80 s
+ 57  4:47.330   L3            L3→C34                    campanita   0.50 s
+ 58  4:53.010   C34           C34→CANAL_FINAL           punteo      0.35 s
+ 59  4:54.500   C34           C34→CANAL_FINAL           punteo      0.65 s
+ 60  4:58.520   CANAL_FINAL   CANAL_FINAL→fin           campanita   0.80 s

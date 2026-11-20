@@ -1,0 +1,634 @@
+{
+ "lines": [
+  {
+   "id": "E01_C01",
+   "t0": 0,
+   "t1": 8,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Un grano de maíz es duro como una piedra. Pero con calor… [surprised] ¡se convierte en una nube!",
+   "en": "[curious] A corn kernel is as hard as a rock. But with heat… [surprised] it turns into a cloud!",
+   "fr": "[curious] Un grain de maïs est dur comme une pierre. Mais avec la chaleur… [surprised] il devient un nuage !",
+   "pt": "[curious] Um grão de milho é duro como pedra. Mas com calor… [surprised] ele vira uma nuvem!",
+   "hi": "[curious] मक्के का दाना पत्थर जैसा सख़्त है। पर गरमी से… [surprised] वह बादल बन जाता है!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C02",
+   "t0": 8,
+   "t1": 16,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "¿Cómo cabe algo tan grande y esponjoso dentro de algo tan pequeño y tan duro?",
+   "en": "How can something so big and fluffy fit inside something so small and hard?",
+   "fr": "Comment une chose si grande et si moelleuse tient-elle dans une chose si petite et si dure ?",
+   "pt": "Como algo tão grande e fofinho cabe dentro de algo tão pequeno e tão duro?",
+   "hi": "इतनी बड़ी और फूली चीज़ इतने छोटे और सख़्त दाने में कैसे समाती है?",
+   "anchors": []
+  },
+  {
+   "id": "E01_C03",
+   "t0": 16,
+   "t1": 24,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Plop también quiere saberlo. Hoy vamos a descubrir el secreto que esconde cada palomita.",
+   "en": "Plop wants to know too. Today we'll discover the secret hiding in every piece of popcorn.",
+   "fr": "Plop veut le savoir aussi. Aujourd'hui, on découvre le secret caché dans chaque pop-corn.",
+   "pt": "O Plop também quer saber. Hoje vamos descobrir o segredo que cada pipoca esconde.",
+   "hi": "प्लॉप भी जानना चाहता है। आज हम हर पॉपकॉर्न का छिपा राज़ खोजेंगे।",
+   "anchors": []
+  },
+  {
+   "id": "CANAL_INICIO",
+   "t0": 24,
+   "t1": 28,
+   "win": [
+    0.2,
+    3.6
+   ],
+   "still": true,
+   "es": "[excited] ¡La ciencia con Pipo y Plop!",
+   "en": "[excited] Science with Pipo and Plop!",
+   "fr": "[excited] La science avec Pipo et Plop !",
+   "pt": "[excited] A ciência com Pipo e Plop!",
+   "hi": "[excited] पीपो और प्लॉप के साथ विज्ञान!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C04",
+   "t0": 28,
+   "t1": 36,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[mischievously] Pipo tiene una idea loca: ¿y si adentro vive un duende que infla globos?",
+   "en": "[mischievously] Pipo has a wild idea: what if a little elf lives inside, blowing up balloons?",
+   "fr": "[mischievously] Pipo a une idée folle : et si un lutin vivait dedans pour gonfler des ballons ?",
+   "pt": "[mischievously] O Pipo tem uma ideia maluca: e se lá dentro morar um duende que enche balões?",
+   "hi": "[mischievously] पीपो का अजीब ख़याल: क्या अंदर कोई बौना गुब्बारे फुलाता है?",
+   "anchors": []
+  },
+  {
+   "id": "E01_C05",
+   "t0": 36,
+   "t1": 44,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Si fuera así, al acercar la oreja lo oiríamos soplar. Pero no se oye nada.",
+   "en": "If so, with an ear up close, we'd hear him blowing. But there's not a sound.",
+   "fr": "Si c'était vrai, en approchant l'oreille, on l'entendrait souffler. Mais on n'entend rien.",
+   "pt": "Se fosse assim, encostando a orelha, a gente ouviria ele soprar. Mas não se ouve nada.",
+   "hi": "अगर ऐसा होता, तो कान लगाने पर फूँकने की आवाज़ आती। पर कुछ सुनाई नहीं देता।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C06",
+   "t0": 44,
+   "t1": 52,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Otra idea: apretarlo con fuerza. Pero ni con todo el peso de Pipo se abre.",
+   "en": "Another idea: squeeze it hard. But even with all of Pipo's weight, it won't open.",
+   "fr": "Autre idée : l'écraser très fort. Mais même avec tout le poids de Pipo, il ne s'ouvre pas.",
+   "pt": "Outra ideia: apertar com força. Mas nem com todo o peso do Pipo ele abre.",
+   "hi": "दूसरा ख़याल: ज़ोर से दबाओ। पर पीपो के पूरे वज़न से भी दाना नहीं खुलता।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C07",
+   "t0": 52,
+   "t1": 60,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[thoughtful] Plop se pregunta algo importante: si la fuerza no lo abre, ¿por qué el calor sí?",
+   "en": "[thoughtful] Plop wonders something important: if force can't open it, why can heat?",
+   "fr": "[thoughtful] Plop se pose une grande question : si la force ne l'ouvre pas, pourquoi la chaleur, oui ?",
+   "pt": "[thoughtful] O Plop se pergunta algo importante: se a força não abre, por que o calor abre?",
+   "hi": "[thoughtful] प्लॉप सोचता है: अगर ज़ोर से नहीं खुलता, तो गरमी से क्यों खुलता है?",
+   "anchors": []
+  },
+  {
+   "id": "E01_C08",
+   "t0": 60,
+   "t1": 68,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[warmly] ¡Buena pregunta! Eso significa que el secreto no está afuera. Está escondido adentro.",
+   "en": "[warmly] Great question! It means the secret isn't on the outside. It's hidden inside.",
+   "fr": "[warmly] Bonne question ! Ça veut dire que le secret n'est pas dehors. Il est caché dedans.",
+   "pt": "[warmly] Boa pergunta! Quer dizer que o segredo não está do lado de fora. Está escondido dentro.",
+   "hi": "[warmly] बढ़िया सवाल! मतलब राज़ बाहर नहीं है। वह अंदर छिपा है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C09",
+   "t0": 68,
+   "t1": 76,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] ¿Y tú qué crees que hay dentro? Piénsalo… ¿Ya? [excited] ¡Vamos a abrirlo!",
+   "en": "[curious] What do you think is inside? Think about it… Ready? [excited] Let's open it!",
+   "fr": "[curious] Et toi, qu'y a-t-il dedans, à ton avis ? Réfléchis… Prêt ? [excited] On l'ouvre !",
+   "pt": "[curious] E você, o que acha que tem dentro? Pense… Pronto? [excited] Vamos abrir!",
+   "hi": "[curious] तुम्हें क्या लगता है, अंदर क्या है? सोचो… हो गया? [excited] चलो इसे खोलें!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C10",
+   "t0": 76,
+   "t1": 84,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Hagamos zoom! Al partir el grano por la mitad, aparecen tres partes secretas.",
+   "en": "[excited] Let's zoom in! Cut the kernel in half, and three secret parts appear.",
+   "fr": "[excited] Zoomons ! En coupant le grain en deux, trois parties secrètes apparaissent.",
+   "pt": "[excited] Vamos dar zoom! Partindo o grão ao meio, aparecem três partes secretas.",
+   "hi": "[excited] ज़ूम करते हैं! दाने को बीच से काटो, तो तीन छिपे हिस्से दिखते हैं।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C11",
+   "t0": 84,
+   "t1": 92,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Primera: una cáscara amarilla durísima. Se llama pericarpio y funciona como un casco.",
+   "en": "First: a super-hard yellow shell. It's called the pericarp, and it works like a helmet.",
+   "fr": "Un : une coque jaune très dure. On l'appelle le péricarpe, et elle sert de casque.",
+   "pt": "Primeira: uma casca amarela duríssima. Ela se chama pericarpo e funciona como um capacete.",
+   "hi": "पहला: पीला, बहुत सख़्त छिलका। इसे पेरीकार्प कहते हैं, यह हेलमेट जैसा है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C12",
+   "t0": 92,
+   "t1": 100,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Segunda: un relleno blanco y apretado, el almidón. Es la comida que guarda la semilla.",
+   "en": "Second: a packed white filling called starch. It's the food the seed keeps in store.",
+   "fr": "Deux : un remplissage blanc et serré, l'amidon. C'est la nourriture que garde la graine.",
+   "pt": "Segunda: um recheio branco e apertado chamado amido. É a comida que a semente guarda.",
+   "hi": "दूसरा: सफ़ेद, ठसाठस भरा स्टार्च। यह बीज का जमा किया खाना है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C13",
+   "t0": 100,
+   "t1": 108,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[whispers] Y tercera, bien escondida entre el almidón… ¡agua! Solo un poquito, pero es la clave.",
+   "en": "[whispers] And third, hidden deep in the starch… water! Just a tiny bit, but it's the key.",
+   "fr": "[whispers] Et trois, bien cachée dans l'amidon… de l'eau ! Juste un peu, mais c'est la clé.",
+   "pt": "[whispers] E terceira, bem escondida no amido… água! Só um pouquinho, mas é a chave.",
+   "hi": "[whispers] और तीसरा, स्टार्च में छिपा… पानी! बस थोड़ा-सा, पर यही असली राज़ है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_L1",
+   "t0": 108,
+   "t1": 114,
+   "win": [
+    0.3,
+    5.6
+   ],
+   "still": true,
+   "es": "Casco duro, almidón y un poquito de agua. ¡Recuerda estas tres!",
+   "en": "Hard shell, starch, and a little water. Remember these three!",
+   "fr": "Coque dure, amidon et un peu d'eau. Retiens bien ces trois-là !",
+   "pt": "Casca dura, amido e um pouquinho de água. Lembre dessas três!",
+   "hi": "सख़्त छिलका, स्टार्च और थोड़ा पानी। ये तीनों याद रखो!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C14",
+   "t0": 114,
+   "t1": 122,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[surprised] Pipo no lo puede creer: ¿agua? ¡Si el grano está sequísimo por fuera!",
+   "en": "[surprised] Pipo can't believe it: water? But the kernel is bone-dry on the outside!",
+   "fr": "[surprised] Pipo n'y croit pas : de l'eau ? Mais le grain est tout sec dehors !",
+   "pt": "[surprised] O Pipo não acredita: água? Mas o grão está sequinho por fora!",
+   "hi": "[surprised] पीपो को यक़ीन नहीं: पानी? दाना तो बाहर से बिल्कुल सूखा है!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C15",
+   "t0": 122,
+   "t1": 130,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Justo por eso. El casco es tan cerrado que el agua no puede escapar.",
+   "en": "That's exactly why. The shell is sealed so tight that the water can't escape.",
+   "fr": "Justement. La coque est si fermée que l'eau ne peut pas s'échapper.",
+   "pt": "É justamente por isso. A casca é tão fechada que a água não consegue escapar.",
+   "hi": "इसीलिए तो। छिलका इतना बंद है कि पानी बाहर नहीं निकल पाता।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C16",
+   "t0": 130,
+   "t1": 138,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Y Plop ya lo sospecha: agua encerrada, más calor… ¡aquí va a pasar algo!",
+   "en": "And Plop already suspects it: trapped water, plus heat… something's about to happen!",
+   "fr": "Et Plop s'en doute déjà : de l'eau enfermée, plus la chaleur… il va se passer quelque chose !",
+   "pt": "E o Plop já desconfia: água presa, mais calor… alguma coisa vai acontecer!",
+   "hi": "प्लॉप को शक है: बंद पानी, ऊपर से गरमी… कुछ तो होने वाला है!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C17",
+   "t0": 138,
+   "t1": 146,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Ahora encendemos el calor. El grano se calienta más y más por dentro.",
+   "en": "Now we turn up the heat. The kernel gets hotter and hotter inside.",
+   "fr": "Maintenant, on allume le feu. Le grain chauffe de plus en plus à l'intérieur.",
+   "pt": "Agora ligamos o calor. O grão esquenta cada vez mais por dentro.",
+   "hi": "अब गरमी चालू। दाना अंदर से और गरम, और गरम होता जाता है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C18",
+   "t0": 146,
+   "t1": 154,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Con el calor, el agua hace su truco: deja de ser líquida y se convierte en vapor.",
+   "en": "With the heat, water does its trick: it stops being liquid and turns into steam.",
+   "fr": "Avec la chaleur, l'eau fait son tour : elle n'est plus liquide, elle devient vapeur.",
+   "pt": "Com o calor, a água faz seu truque: deixa de ser líquida e vira vapor.",
+   "hi": "गरमी से पानी अपना जादू दिखाता है: वह तरल नहीं रहता, भाप बन जाता है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C19",
+   "t0": 154,
+   "t1": 162,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Y el vapor es un grandulón: necesita muchísimo más espacio que el agua.",
+   "en": "And steam is a real giant: it needs much, much more space than water.",
+   "fr": "Et la vapeur est une géante : il lui faut beaucoup plus de place que l'eau.",
+   "pt": "E o vapor é um grandalhão: precisa de muito mais espaço que a água.",
+   "hi": "और भाप तो बहुत फैलती है: उसे पानी से कहीं ज़्यादा जगह चाहिए।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C20",
+   "t0": 162,
+   "t1": 170,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Pipo lo entiende así: es como inflar un globo dentro de una caja cerrada.",
+   "en": "Pipo sees it like this: it's like blowing up a balloon inside a closed box.",
+   "fr": "Pipo le voit comme ça : c'est comme gonfler un ballon dans une boîte fermée.",
+   "pt": "O Pipo entende assim: é como encher um balão dentro de uma caixa fechada.",
+   "hi": "पीपो ऐसे समझता है: जैसे बंद डिब्बे में गुब्बारा फुलाना।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C21",
+   "t0": 170,
+   "t1": 178,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "El vapor empuja el casco desde adentro, buscando una salida. Pero el casco aguanta.",
+   "en": "The steam pushes the shell from inside, looking for a way out. But the shell holds.",
+   "fr": "La vapeur pousse la coque de l'intérieur, elle cherche une sortie. Mais la coque tient bon.",
+   "pt": "O vapor empurra a casca por dentro, procurando uma saída. Mas a casca aguenta.",
+   "hi": "भाप अंदर से छिलके को धकेलती है, बाहर निकलना चाहती है। पर छिलका टिका रहता है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C22",
+   "t0": 178,
+   "t1": 186,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Mientras, el calor ablanda el almidón y lo vuelve una gelatina caliente y elástica.",
+   "en": "Meanwhile, the heat softens the starch into a hot, stretchy jelly.",
+   "fr": "Pendant ce temps, la chaleur ramollit l'amidon : il devient une gelée chaude et élastique.",
+   "pt": "Enquanto isso, o calor amolece o amido até virar uma gelatina quente e elástica.",
+   "hi": "इस बीच गरमी स्टार्च को नरम करके गरम, लचीली जेली बना देती है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C23",
+   "t0": 186,
+   "t1": 194,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Más calor, más vapor, más presión. ¡El grano es ahora una mini olla a presión!",
+   "en": "More heat, more steam, more pressure. The kernel is now a mini pressure cooker!",
+   "fr": "Plus de chaleur, plus de vapeur, plus de pression. Le grain est une mini cocotte-minute !",
+   "pt": "Mais calor, mais vapor, mais pressão. O grão agora é uma mini panela de pressão!",
+   "hi": "ज़्यादा गरमी, ज़्यादा भाप, ज़्यादा दबाव। दाना अब छोटा-सा प्रेशर कुकर है!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C24",
+   "t0": 194,
+   "t1": 202,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[whispers] ¿Cuánto más aguantará el casco? Plop casi no quiere mirar… ¿y tú?",
+   "en": "[whispers] How much longer can the shell hold? Plop can barely look… can you?",
+   "fr": "[whispers] Combien de temps la coque va tenir ? Plop n'ose presque plus regarder… et toi ?",
+   "pt": "[whispers] Quanto mais a casca vai aguentar? O Plop quase não quer olhar… e você?",
+   "hi": "[whispers] छिलका और कितना सहेगा? प्लॉप तो देख भी नहीं पा रहा… और तुम?",
+   "anchors": []
+  },
+  {
+   "id": "E01_C25",
+   "t0": 202,
+   "t1": 210,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Cuando llega a unos ciento ochenta grados, el casco ya no puede más y…",
+   "en": "When it reaches about one hundred eighty degrees, the shell can't take any more and…",
+   "fr": "Vers cent quatre-vingts degrés, la coque n'en peut plus et…",
+   "pt": "Quando chega a uns cento e oitenta graus, a casca não aguenta mais e…",
+   "hi": "लगभग एक सौ अस्सी डिग्री पर, छिलका और नहीं सह पाता और…",
+   "anchors": []
+  },
+  {
+   "id": "E01_C26",
+   "t0": 210,
+   "t1": 218,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[excited] ¡Pum! El casco revienta y el vapor escapa de golpe.",
+   "en": "[excited] Pop! The shell bursts and the steam rushes out all at once.",
+   "fr": "[excited] Pop ! La coque éclate et la vapeur s'échappe d'un coup.",
+   "pt": "[excited] Pum! A casca estoura e o vapor escapa de uma vez.",
+   "hi": "[excited] धड़ाम! छिलका फट जाता है और भाप एकदम बाहर निकलती है।",
+   "anchors": [
+    [
+     "START",
+     2.68
+    ]
+   ]
+  },
+  {
+   "id": "E01_C27",
+   "t0": 218,
+   "t1": 226,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "La gelatina de almidón se infla como espuma, se enfría en el aire y queda tiesa.",
+   "en": "The starch jelly puffs up like foam, cools in the air, and goes stiff.",
+   "fr": "La gelée d'amidon gonfle comme une mousse, refroidit dans l'air et devient toute raide.",
+   "pt": "A gelatina de amido incha como espuma, esfria no ar e fica durinha.",
+   "hi": "स्टार्च की जेली झाग की तरह फूलती है, हवा में ठंडी होकर सख़्त हो जाती है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C28",
+   "t0": 226,
+   "t1": 234,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "¡Esa espuma blanca y crujiente es la palomita! El grano se volteó al revés.",
+   "en": "That crunchy white foam is the popcorn! The kernel turned itself inside out.",
+   "fr": "Cette mousse blanche et croustillante, c'est le pop-corn ! Le grain s'est retourné comme un gant.",
+   "pt": "Essa espuma branca e crocante é a pipoca! O grão virou do avesso.",
+   "hi": "यही सफ़ेद, कुरकुरा झाग पॉपकॉर्न है! दाना अंदर से बाहर पलट गया।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C29",
+   "t0": 234,
+   "t1": 242,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[laughs] No había duende, Pipo. El que infla la palomita… ¡es el vapor de agua!",
+   "en": "[laughs] There was no elf, Pipo. What puffs up the popcorn… is steam!",
+   "fr": "[laughs] Il n'y avait pas de lutin, Pipo. Ce qui gonfle le pop-corn… c'est la vapeur d'eau !",
+   "pt": "[laughs] Não tinha duende, Pipo. Quem enche a pipoca… é o vapor de água!",
+   "hi": "[laughs] कोई बौना नहीं था, पीपो। पॉपकॉर्न को फुलाती है… पानी की भाप!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C30",
+   "t0": 242,
+   "t1": 250,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Y esa es tu respuesta, Plop: el calor lo abre porque convierte el agua en vapor.",
+   "en": "And that's your answer, Plop: heat opens it because it turns the water into steam.",
+   "fr": "Et voilà ta réponse, Plop : la chaleur l'ouvre parce qu'elle change l'eau en vapeur.",
+   "pt": "E essa é a sua resposta, Plop: o calor abre porque transforma a água em vapor.",
+   "hi": "यही तुम्हारा जवाब है, प्लॉप: गरमी पानी को भाप बनाती है, इसलिए दाना खुलता है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_L2",
+   "t0": 250,
+   "t1": 258,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": true,
+   "es": "[warmly] Repasemos: agua escondida, calor que la vuelve vapor, un casco que aguanta… ¡y pum!",
+   "en": "[warmly] Let's review: hidden water, heat that turns it to steam, and a shell that holds… until pop!",
+   "fr": "[warmly] Révisons : l'eau cachée, la chaleur qui la change en vapeur, la coque qui tient… jusqu'au pop !",
+   "pt": "[warmly] Vamos revisar: água escondida, calor que vira vapor e uma casca que aguenta… até que pum!",
+   "hi": "[warmly] दोहराते हैं: छिपा पानी, गरमी से भाप, और टिका हुआ छिलका… फिर धड़ाम!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C31",
+   "t0": 258,
+   "t1": 266,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] ¿Y los granos que no revientan? Tienen una grieta: el vapor se escapa poquito a poco.",
+   "en": "[curious] And the kernels that never pop? They have a crack: the steam leaks out bit by bit.",
+   "fr": "[curious] Et les grains qui n'éclatent jamais ? Ils ont une fissure : la vapeur s'échappe peu à peu.",
+   "pt": "[curious] E os grãos que nunca estouram? Eles têm uma rachadura: o vapor escapa aos pouquinhos.",
+   "hi": "[curious] और जो दाने नहीं फूटते? उनमें दरार होती है: भाप धीरे-धीरे निकल जाती है।",
+   "anchors": []
+  },
+  {
+   "id": "E01_C32",
+   "t0": 266,
+   "t1": 274,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Por eso siempre quedan algunos en el fondo del tazón. No son flojos: ¡tienen una fuga!",
+   "en": "That's why a few always stay at the bottom of the bowl. They're not lazy: they leak!",
+   "fr": "Voilà pourquoi il en reste toujours au fond du bol. Ils ne sont pas paresseux : ils ont une fuite !",
+   "pt": "Por isso sempre sobram alguns no fundo da tigela. Não são preguiçosos: têm um vazamento!",
+   "hi": "इसीलिए कटोरे की तली में कुछ दाने बच जाते हैं। वे आलसी नहीं: उनमें रिसाव है!",
+   "anchors": []
+  },
+  {
+   "id": "E01_C33",
+   "t0": 274,
+   "t1": 282,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "Plop tiene un reto para ti. Necesitas a un adulto, palomitas… y ojos de detective.",
+   "en": "Plop has a challenge for you. You'll need a grown-up, popcorn… and detective eyes.",
+   "fr": "Plop a un défi pour toi. Il te faut un adulte, du pop-corn… et des yeux de détective.",
+   "pt": "O Plop tem um desafio para você. Precisa de um adulto, pipoca… e olhos de detetive.",
+   "hi": "प्लॉप की तुम्हें एक चुनौती है। चाहिए एक बड़ा, पॉपकॉर्न… और जासूस वाली नज़र।",
+   "anchors": []
+  },
+  {
+   "id": "E01_L3",
+   "t0": 282,
+   "t1": 288,
+   "win": [
+    0.3,
+    5.6
+   ],
+   "still": true,
+   "es": "[playful] Cuenten los granos sin reventar. ¿Encuentran su grieta?",
+   "en": "[playful] Count the unpopped kernels. Can you find their crack?",
+   "fr": "[playful] Comptez les grains pas éclatés. Trouvez-vous leur fissure ?",
+   "pt": "[playful] Contem os grãos que não estouraram. Acham a rachadura?",
+   "hi": "[playful] बिना फूटे दाने गिनो। क्या उनकी दरार दिखी?",
+   "anchors": []
+  },
+  {
+   "id": "E01_C34",
+   "t0": 288,
+   "t1": 296,
+   "win": [
+    0.3,
+    7.6
+   ],
+   "still": false,
+   "es": "[curious] Pipo nos deja la próxima pregunta: ¿por qué el jabón quita la grasa y el agua no?",
+   "en": "[curious] Pipo leaves us the next question: why does soap remove grease, but water doesn't?",
+   "fr": "[curious] Pipo nous laisse la prochaine question : pourquoi le savon enlève le gras, et pas l'eau ?",
+   "pt": "[curious] O Pipo deixa a próxima pergunta: por que o sabão tira a gordura e a água não?",
+   "hi": "[curious] पीपो का अगला सवाल: साबुन चिकनाई हटाता है, पानी क्यों नहीं?",
+   "anchors": []
+  },
+  {
+   "id": "CANAL_FINAL",
+   "t0": 296,
+   "t1": 300,
+   "win": [
+    0.2,
+    3.88
+   ],
+   "still": true,
+   "es": "[excited] ¡Hasta el próximo misterio!",
+   "en": "[excited] See you at the next mystery!",
+   "fr": "[excited] À la prochaine énigme !",
+   "pt": "[excited] Até o próximo mistério!",
+   "hi": "[excited] अगले रहस्य में मिलते हैं!",
+   "anchors": []
+  }
+ ],
+ "hic": {}
+}

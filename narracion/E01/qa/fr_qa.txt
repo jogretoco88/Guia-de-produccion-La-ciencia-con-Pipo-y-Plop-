@@ -1,0 +1,54 @@
+fr: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       1.00  oído: Un grain de maïs est dur comme une pierre, mais avec la chaleur, il devient un nuage.
+OK  E01_C02       1.00  oído: Comment une chose si grande et si moelleuse tient-elle dans une chose si petite et si dure ?
+OK  E01_C03       0.90  oído: Plop veut le savoir aussi. Aujourd'hui, on découvre le secret caché dans chaque popcorn.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 15.68 s)
+OK  CANAL_INICIO  1.00  oído: La science avec Pipo et Plop.
+OK  E01_C04       1.00  oído: Pipo a une idée folle. Et si un lutin vivait dedans pour gonfler des ballons ?
+OK  E01_C05       1.00  oído: Si c'était vrai, en approchant l'oreille, on l'entendrait souffler, mais on n'entend rien.
+OK  E01_C06       1.00  oído: Autre idée : l'écraser très fort. Mais même avec tout le poids de Pipo, il ne s'ouvre pas.
+OK  E01_C07       1.00  oído: Plop se pose une grande question : si la force ne l'ouvre pas, pourquoi la chaleur, oui ?
+OK  E01_C08       1.00  oído: Bonne question. Ça veut dire que le secret n'est pas dehors. Il est caché dedans.
+OK  E01_C09       1.00  oído: Et toi, qu'y a-t-il dedans, à ton avis ? Réfléchis. Prêt ? On l'ouvre.
+OK  E01_C10       1.00  oído: Zoomons ! En coupant le grain en deux, trois parties secrètes apparaissent.
+OK  E01_C11       0.94  oído: Une, une coque jaune très dure. On l'appelle le péricarpe et elle sert de casque.
+      diferencias: guion «un» → oído «une»
+      (frase en la pista de verificación desde 79.28 s)
+OK  E01_C12       1.00  oído: Deux, un remplissage blanc et serré, l'amidon. C'est la nourriture que garde la graine.
+OK  E01_C13       1.00  oído: Et trois, bien cachée dans l'amidon, de l'eau. Juste un peu, mais c'est la clé.
+OK  E01_L1        0.96  oído: Coque est dure, amidon et un peu d'eau. Retiens bien ces trois-là.
+      diferencias: guion «» → oído «est»
+      (frase en la pista de verificación desde 102.64 s)
+OK  E01_C14       1.00  oído: Pipo n'y croit pas. De l'eau ? Mais le grain est tout sec dehors.
+OK  E01_C15       1.00  oído: Justement, la coque est si fermée que l'eau ne peut pas s'échapper.
+OK  E01_C16       1.00  oído: Et Plop s'en doute déjà. De l'eau enfermée, plus la chaleur, il va se passer quelque chose.
+OK  E01_C17       1.00  oído: Maintenant, on allume le feu. Le grain chauffe de plus en plus à l'intérieur.
+OK  E01_C18       1.00  oído: Avec la chaleur, l'eau fait son tour. Elle n'est plus liquide, elle devient vapeur.
+OK  E01_C19       1.00  oído: Et la vapeur est une géante. Il lui faut beaucoup plus de place que l'eau.
+OK  E01_C20       1.00  oído: Pipo le voit comme ça. C'est comme gonfler un ballon dans une boîte fermée.
+OK  E01_C21       1.00  oído: La vapeur pousse la coque de l'intérieur, elle cherche une sortie, mais la coque tient bon.
+OK  E01_C22       1.00  oído: Pendant ce temps, la chaleur ramollit l'amidon. Il devient une gelée chaude et élastique.
+OK  E01_C23       1.00  oído: Plus de chaleur, plus de vapeur, plus de pression. Le grain est une mini cocotte-minute.
+OK  E01_C24       1.00  oído: Combien de temps la coque va tenir ? Plop n'ose presque plus regarder. Et toi ?
+OK  E01_C25       0.92  oído: Vers cent quatre-vingt degrés, la coque n'en peut plus et...
+      diferencias: guion «vingts» → oído «vingt»
+      (frase en la pista de verificación desde 187.12 s)
+OK  E01_C26       1.00  oído: Pop ! La coque éclate et la vapeur s'échappe d'un coup.
+OK  E01_C27       1.00  oído: La gelée d'amidon gonfle comme une mousse, refroidit dans l'air et devient toute raide.
+OK  E01_C28       0.91  oído: Cette mousse blanche et croustillante, c'est le popcorn. Le grain s'est retourné comme un gant.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 205.92 s)
+OK  E01_C29       0.92  oído: Il n'y avait pas de lutin, Pipo. Ce qui gonfle le popcorn, c'est la vapeur d'eau.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 213.76 s)
+OK  E01_C30       1.00  oído: Et voilà ta réponse, Plop. La chaleur l'ouvre parce qu'elle change l'eau en vapeur.
+OK  E01_L2        1.00  oído: Révisons. L'eau cachée, la chaleur qui la change en vapeur, la coque qui tient jusqu'au pop.
+OK  E01_C31       1.00  oído: Et les grains qui n'éclatent jamais, ils ont une fissure. La vapeur s'échappe peu à peu.
+OK  E01_C32       1.00  oído: Voilà pourquoi il en reste toujours au fond du bol. Ils ne sont pas paresseux, ils ont une fuite.
+OK  E01_C33       0.92  oído: Plop a un défi pour toi. Il te faut un adulte, du popcorn et des yeux de détective.
+      diferencias: guion «pop corn» → oído «popcorn»
+      (frase en la pista de verificación desde 253.04 s)
+OK  E01_L3        1.00  oído: Comptez les grains pas éclatés. Trouvez-vous leur fissure ?
+OK  E01_C34       1.00  oído: Pipo nous laisse la prochaine question : pourquoi le savon enlève le gras et pas l'eau ?
+OK  CANAL_FINAL   1.00  oído: À la prochaine énigme.

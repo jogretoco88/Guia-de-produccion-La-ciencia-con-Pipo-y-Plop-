@@ -1,0 +1,64 @@
+es: 39/39 frases coinciden con el guion (similitud ≥ 0,85)
+OK  E01_C01       0.97  oído: Un grano de maíz es duro como una piedra, pero con calor se convierte en una nube. ¿Cómo
+      diferencias: guion «» → oído «cómo»
+      (frase en la pista de verificación desde 0.00 s)
+OK  E01_C02       0.97  oído: cabe algo tan grande y esponjoso dentro de algo tan pequeño y tan duro?
+      diferencias: guion «cómo» → oído «»
+      (frase en la pista de verificación desde 8.16 s)
+OK  E01_C03       1.00  oído: Plop también quiere saberlo. Hoy vamos a descubrir el secreto que esconde cada palomita.
+OK  CANAL_INICIO  1.00  oído: La ciencia con Pipo y Plop.
+OK  E01_C04       1.00  oído: Pipo tiene una idea loca. ¿Y si adentro vive un duende que infla globos?
+OK  E01_C05       1.00  oído: Si fuera así, al acercar la oreja lo oiríamos soplar. Pero no se oye nada.
+OK  E01_C06       1.00  oído: Otra idea: apretarlo con fuerza. Pero ni con todo el peso de Pipo se abre.
+OK  E01_C07       1.00  oído: Plop se pregunta algo importante. Si la fuerza no lo abre, ¿por qué el calor sí?
+OK  E01_C08       0.96  oído: Buena pregunta. Eso significa que el secreto no está afuera, está escondido adentro. ¿Y
+      diferencias: guion «» → oído «y»
+      (frase en la pista de verificación desde 59.12 s)
+OK  E01_C09       0.96  oído: tú qué crees que hay dentro? Piénsalo. ¿Ya? Vamos a abrirlo.
+      diferencias: guion «y» → oído «»
+      (frase en la pista de verificación desde 68.00 s)
+OK  E01_C10       1.00  oído: Hagamos zoom. Al partir el grano por la mitad, aparecen tres partes secretas.
+OK  E01_C11       1.00  oído: Primera: una cáscara amarilla durísima. Se llama pericarpio y funciona como un casco.
+OK  E01_C12       1.00  oído: Segunda: un relleno blanco y apretado, el almidón. Es la comida que guarda la semilla.
+OK  E01_C13       1.00  oído: Y tercera, bien escondida entre el almidón, agua. Solo un poquito, pero es la clave.
+OK  E01_L1        1.00  oído: Casco duro, almidón y un poquito de agua. Recuerda estas tres.
+OK  E01_C14       1.00  oído: Pipo no lo puede creer. ¿Agua? Si el grano está sequísimo por fuera.
+OK  E01_C15       1.00  oído: Justo por eso, el casco es tan cerrado que el agua no puede escapar.
+OK  E01_C16       1.00  oído: Y Plop ya lo sospecha. Agua encerrada, más calor. Aquí va a pasar algo.
+OK  E01_C17       1.00  oído: Ahora encendemos el calor. El grano se calienta más y más por dentro.
+OK  E01_C18       1.00  oído: Con el calor, el agua hace su truco. Deja de ser líquida y se convierte en vapor.
+OK  E01_C19       1.00  oído: Y el vapor es un grandulón. Necesita muchísimo más espacio que el agua.
+OK  E01_C20       1.00  oído: Pipo lo entiende así: es como inflar un globo dentro de una caja cerrada.
+OK  E01_C21       1.00  oído: El vapor empuja el casco desde adentro, buscando una salida, pero el casco aguanta.
+OK  E01_C22       1.00  oído: Mientras, el calor ablanda el almidón y lo vuelve una gelatina caliente y elástica.
+OK  E01_C23       0.97  oído: Más calor, más vapor, más presión. El grano es ahora una mini olla a presión. ¿Cuánto
+      diferencias: guion «» → oído «cuánto»
+      (frase en la pista de verificación desde 182.80 s)
+OK  E01_C24       0.96  oído: más aguantará el casco? Plop casi no quiere mirar. ¿Y tú?
+      diferencias: guion «cuánto» → oído «»
+      (frase en la pista de verificación desde 190.96 s)
+OK  E01_C25       0.97  oído: Cuando llega a unos ciento ochenta grados, el casco ya no puede más y... ¡Pum!
+      diferencias: guion «» → oído «pum»
+      (frase en la pista de verificación desde 198.08 s)
+OK  E01_C26       0.95  oído: El casco revienta y el vapor escapa de golpe.
+      diferencias: guion «pum» → oído «»
+      (frase en la pista de verificación desde 205.36 s)
+OK  E01_C27       1.00  oído: La gelatina de almidón se infla como espuma, se enfría en el aire y queda tiesa.
+OK  E01_C28       1.00  oído: Esa espuma blanca y crujiente es la palomita. El grano se volteó al revés.
+OK  E01_C29       1.00  oído: No había duende, Pipo. El que infla la palomita es el vapor de agua.
+OK  E01_C30       1.00  oído: Y esa es tu respuesta, Plop. El calor lo abre porque convierte el agua en vapor.
+OK  E01_L2        0.97  oído: Repasemos. Agua escondida, calor que la vuelve vapor, un casco que aguanta y ¡pum! ¿Y
+      diferencias: guion «» → oído «y»
+      (frase en la pista de verificación desde 242.08 s)
+OK  E01_C31       0.97  oído: los granos que no revientan? Tienen una grieta. El vapor se escapa poquito a poco.
+      diferencias: guion «y» → oído «»
+      (frase en la pista de verificación desde 251.28 s)
+OK  E01_C32       1.00  oído: Por eso siempre quedan algunos en el fondo del tazón. No son flojos, tienen una fuga.
+OK  E01_C33       1.00  oído: Plop tiene un reto para ti. Necesitas a un adulto, palomitas y ojos de detective.
+OK  E01_L3        1.00  oído: Cuenten los granos sin reventar. ¿Encuentran su grieta?
+OK  E01_C34       0.97  oído: Pipo nos deja la próxima pregunta: ¿por qué el jabón quita la grasa y el agua no? ¡Hasta
+      diferencias: guion «» → oído «hasta»
+      (frase en la pista de verificación desde 282.24 s)
+OK  CANAL_FINAL   0.86  oído: el próximo misterio!
+      diferencias: guion «hasta» → oído «»
+      (frase en la pista de verificación desde 289.68 s)

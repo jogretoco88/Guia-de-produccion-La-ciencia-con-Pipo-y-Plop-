@@ -86,3 +86,33 @@ Archivos en `E02/`:
   - `qa_fr_extra.py`.
 - **Video sin texto:** `video_sin_texto.py` rehace el video mudo sin ningún rótulo. Las 5 láminas se renderizan desde sus fondos limpios y los clips no cambian, así que la duración y los tiempos siguen iguales.
 - **Documentación:** los tiempos están en `INFORME_SINCRONIZACION.txt` y las instrucciones de uso en `LEEME.md`.
+
+## Ep. 1 · ¿Por qué explotan las palomitas de maíz? (voz + efectos reutilizados)
+
+Mismo flujo de voz: 39 frases × 5 idiomas, todas dentro de su ventana.
+
+- **Ancla de acción:** C26 arranca con «¡Pum!» en 212,65 s, justo antes del estallido en pantalla (212,75 s), en los 5 idiomas (`('START', 2.68)` en `guion_e01.py`).
+- **Aceleraciones:** la mayor es de 7,1 % (PT L2). ES, EN y FR no tienen ninguna.
+- **Verificación con Scribe:** 39/39 en los 5 idiomas, sin ningún «Pipou» en francés. `verificar_e01.py` añade equivalencias de escritura para el hindi: préstamos en alfabeto latino, «गर्मी/गरमी» y «180» en cifras.
+
+**Efectos: 111 entradas sin generar ninguno nuevo** (0 créditos de ElevenLabs):
+- 86 salen de la biblioteca de ElevenLabs Sound Effects v3 del Ep. 3;
+- 25 salen de la biblioteca del Ep. 2.
+
+Todos están colocados en el segundo exacto de su acción en pantalla:
+- los dos estallidos del grano (C01 a 4,42 s y C26 a 212,75 s);
+- los 8 aterrizajes de Pipo sobre el grano (C06), medidos fotograma a fotograma siguiendo su altura;
+- el resto, con el análisis de movimiento y hojas de contacto a 2 fps.
+
+| Categoría | Pedido | Entregado |
+|---|---|---|
+| Foley de movimiento y textura (`F`) | 45–65 | 63 |
+| Acentos de expresión / *mickey mousing* (`M`) | 25–35 | 31 |
+| Transiciones y refuerzos visuales (`T`) | 12–20 | 17 |
+
+Archivos en `E01/`:
+- **Guion:** `guion_e01.py` → `guion_5_idiomas.json`.
+- **Efectos:** `efectos_e01.py` → `efectos.json`. La hoja legible es `E01_hoja_de_efectos.csv`.
+- **Rellenos en los silencios:** sintetizados con código, con temas de este episodio: agua (gota, vapor y gelatina), idea, calor y presión, personaje y lámina. Hay una lista por idioma en `rellenos_por_idioma/`.
+- **Scripts de este episodio:** `montar_e01.py`, `verificar_e01.py`, `efectos_montar_e01.py`, `efectos_relleno_e01.py` e `informe_e01.py`.
+- **Documentación:** los tiempos están en `INFORME_SINCRONIZACION.txt` y las instrucciones de uso en `LEEME.md`.
