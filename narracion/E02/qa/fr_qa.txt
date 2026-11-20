@@ -1,4 +1,6 @@
-fr: 36/39 frases coinciden con el guion (similitud ≥ 0,85)
+fr: 36/39 frases coinciden con el guion (similitud ≥ 0,85) en la pista con las primeras tomas.
+Resultado final: las 6 frases con «Pipou» (CANAL_INICIO, C03, C04, C14, C21, C29) se repitieron y ya dicen «Pipo»;
+L3 es cosa de la transcripción. Ver el final de este archivo.
 OK  E02_C01       0.97  oído: Oh, oups ! Plop a une tache de gras et l'eau toute seule ne la chatouille même pas.
       diferencias: guion «» → oído «oh»
       (frase en la pista de verificación desde 0.00 s)
@@ -65,6 +67,7 @@ OK  CANAL_FINAL   1.00  oído: À la prochaine énigme.
 ── Frases repetidas (transcripción aparte de las tomas nuevas) ──
 En la primera toma la voz decía «Pipou» en lugar de «Pipo». Se repitieron CANAL_INICIO, C04, C14, C21 y C29;
 en las 5 tomas nuevas Scribe oye «Pippo» (misma pronunciación que «Pipo»). Las 5 coinciden con el guion.
-E02_C03 conserva la primera toma («Pipou»): su repetición no se generó.
+E02_C03: la primera toma decía «Pipou». Se repitió después (generación Sty4Rx17gQpxJ1nlmRqW) y Scribe oye:
+  «Pipo a déjà une théorie. Et elle est plutôt folle. Prêts à enquêter ?» → coincide con el guion palabra por palabra.
 E02_L3: «Frotte tes mains» se oye igual que «Frottez main»; es la transcripción, no un error de la voz.
 oído (tomas nuevas): La science avec Pippo et Plop. L'idée folle de Pippo : le savon gagne parce qu'il sent bon et le gras fuit le parfum. Pippo résume à sa façon : le savon est ami des deux équipes. Pour Pippo, c'est une balle coiffée de petites boules. Les scientifiques l'appellent micelle. Ce n'était pas le parfum, Pippo, c'étaient des millions de têtards formant un pont

@@ -60,7 +60,7 @@ Mismo flujo de voz que el Ep. 3: 39 frases × 5 idiomas, todas dentro de su vent
 - **Aceleraciones:** la mayor es de 6 % (PT L1).
 - **Verificación con Scribe:**
   - ES, EN, PT y HI: 39/39.
-  - FR: la voz decía «Pipou». Se regrabaron 5 frases, que ya dicen «Pipo». C03 sigue diciendo «Pipou» porque su regrabación no se hizo (ver `qa/fr_qa.txt`).
+  - FR: la voz decía «Pipou». Se regrabaron 6 frases (CANAL_INICIO, C03, C04, C14, C21 y C29), que ya dicen «Pipo» (ver `qa/fr_qa.txt`).
 
 **Efectos: 102 entradas sin generar ninguno nuevo** (0 créditos de ElevenLabs):
 - 66 salen de la biblioteca de ElevenLabs Sound Effects v3 del Ep. 3;

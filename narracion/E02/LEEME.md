@@ -133,9 +133,8 @@ Es el mismo método de los episodios 3 y 4:
   - C34: en pantalla se despide Plop, así que la próxima pregunta la deja Plop.
   - C27: «el agua ya no resbala… ¡se lleva la grasa!».
 - **Verificación.** Transcribí los 5 idiomas completos con ElevenLabs Scribe y los comparé frase por frase con el guion.
-  - ES, EN, PT y HI: **39/39**.
-  - FR: en la primera toma, la voz decía «Pipou» en lugar de «Pipo». Regrabé CANAL_INICIO, C04, C14, C21 y C29, y en las 5 tomas nuevas se oye «Pipo».
-  - **C03 en francés todavía dice «Pipou»**: su regrabación no se hizo.
+  - ES, EN, PT y HI: **39/39**. FR también, tras regrabar las frases con «Pipou».
+  - FR: en la primera toma, la voz decía «Pipou» en lugar de «Pipo». Regrabé CANAL_INICIO, C03, C04, C14, C21 y C29, y en las 6 tomas nuevas se oye «Pipo». **Ya no queda ningún «Pipou».**
   - En L3 (FR), «Frotte tes mains» suena igual que «Frottez main»: es cosa de la transcripción, no de la voz.
 - **Nivel.** Todas las pistas de voz y todas las mezclas quedan a -16 LUFS, con picos de -1,5 dBTP, el estándar para video en línea.
 

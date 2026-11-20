@@ -210,7 +210,7 @@ Aceleradas (máx. 8 %): ninguna
 Toma            inicio      fin        ventana                 tempo
 C01             0:00.300  0:06.250  [0:00.300 – 0:07.600]  1.0
 C02             0:08.300  0:13.230  [0:08.300 – 0:15.600]  1.0
-C03             0:16.300  0:20.500  [0:16.300 – 0:23.600]  1.0
+C03             0:16.300  0:20.530  [0:16.300 – 0:23.600]  1.0
 CANAL_INICIO    0:24.200  0:26.400  [0:24.200 – 0:27.600]  1.0
 C04             0:28.300  0:34.060  [0:28.300 – 0:35.600]  1.0
 C05             0:36.300  0:41.520  [0:36.300 – 0:43.600]  1.0
@@ -249,7 +249,9 @@ C34             4:48.300  4:52.670  [4:48.300 – 4:55.600]  1.0
 CANAL_FINAL     4:56.200  4:57.530  [4:56.200 – 4:59.880]  1.0
 
 Verificación por transcripción (guion vs. lo que se oye):
-fr: 36/39 frases coinciden con el guion (similitud ≥ 0,85)
+fr: 36/39 frases coinciden con el guion (similitud ≥ 0,85) en la pista con las primeras tomas.
+Resultado final: las 6 frases con «Pipou» (CANAL_INICIO, C03, C04, C14, C21, C29) se repitieron y ya dicen «Pipo»;
+L3 es cosa de la transcripción. Ver el final de este archivo.
 OK  E02_C01       0.97  oído: Oh, oups ! Plop a une tache de gras et l'eau toute seule ne la chatouille même pas.
       diferencias: guion «» → oído «oh»
       (frase en la pista de verificación desde 0.00 s)
@@ -316,7 +318,8 @@ OK  CANAL_FINAL   1.00  oído: À la prochaine énigme.
 ── Frases repetidas (transcripción aparte de las tomas nuevas) ──
 En la primera toma la voz decía «Pipou» en lugar de «Pipo». Se repitieron CANAL_INICIO, C04, C14, C21 y C29;
 en las 5 tomas nuevas Scribe oye «Pippo» (misma pronunciación que «Pipo»). Las 5 coinciden con el guion.
-E02_C03 conserva la primera toma («Pipou»): su repetición no se generó.
+E02_C03: la primera toma decía «Pipou». Se repitió después (generación Sty4Rx17gQpxJ1nlmRqW) y Scribe oye:
+  «Pipo a déjà une théorie. Et elle est plutôt folle. Prêts à enquêter ?» → coincide con el guion palabra por palabra.
 E02_L3: «Frotte tes mains» se oye igual que «Frottez main»; es la transcripción, no un error de la voz.
 oído (tomas nuevas): La science avec Pippo et Plop. L'idée folle de Pippo : le savon gagne parce qu'il sent bon et le gras fuit le parfum. Pippo résume à sa façon : le savon est ami des deux équipes. Pour Pippo, c'est une balle coiffée de petites boules. Les scientifiques l'appellent micelle. Ce n'était pas le parfum, Pippo, c'étaient des millions de têtards formant un pont
 
@@ -774,7 +777,7 @@ sin tocar los efectos (0,05 s de colchón). Como cada idioma hace sus pausas en 
   2  0:07.110   C01           C01→C02                   burbujas    0.55 s
   3  0:14.320   C02           C02→C03                   punteo      0.65 s
   4  0:15.320   C02           C02→C03                   punteo      0.35 s
-  5  0:20.570   C03           C03→CANAL_INICIO          campanita   0.70 s
+  5  0:20.590   C03           C03→CANAL_INICIO          campanita   0.69 s
   6  0:21.910   C03           C03→CANAL_INICIO          tic-tac     0.31 s
   7  0:22.570   C03           C03→CANAL_INICIO          campanita   0.50 s
   8  0:26.470   CANAL_INICIO  CANAL_INICIO→C04          campanita   0.80 s
