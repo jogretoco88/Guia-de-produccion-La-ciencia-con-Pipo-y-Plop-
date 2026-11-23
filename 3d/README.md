@@ -141,7 +141,7 @@ Por ahora cada clip dura 8 s, como en la guía. En 3D un plano puede durar lo qu
 
 1. **En la computadora nueva:** instalar Blender, comprobar que usa la RTX 5060 Ti y probar el material de plastilina con un render 1080p.
 2. **Pipo y Plop:** esculpido, esqueleto, formas de boca y material.
-3. **Voces:** grabar con las voces ya guardadas las 20 frases de las reacciones.
+3. ~~**Voces:** grabar las 20 frases de las reacciones~~. Hecho: dos tomas de cada una con `eleven_v4`, preparadas con `3d/audio/masterizar.py` (WAV 48 kHz / 24 bit, sin silencios, nivel igualado, pico de -1,5 dBFS). Falta elegir una toma por frase.
 4. **El laboratorio:** primero la cámara de zoom y la cocinita, que son las que necesita el piloto.
 5. **Piloto, Ep. 1 (Palomitas):** escena completa a partir de `escenas/ep01.json`. Mide el tiempo de animación y de render.
 6. **Scripts de Blender** que leen `escenas/epNN.json`: montan la zona, colocan objetos y cámara, aplican los movimientos y renderizan.
