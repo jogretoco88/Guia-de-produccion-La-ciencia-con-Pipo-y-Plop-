@@ -13,7 +13,7 @@
   "efectos_de_la_guia_cubiertos": 208,
   "ya_hechos_en_el_piloto": 11,
   "por_generar": 197,
-  "costo_por_generar": 5932,
+  "costo_por_generar": 5954,
   "no_cumplen_realismo": [
    "TRANS_Whoosh_Corto",
    "FIRMA_Hagamos_Zoom"
@@ -586,15 +586,15 @@
    "id": "VOZ_Hipo",
    "categoria": "VOZ",
    "es": "¡Hip!",
-   "indicacion": "Single real hiccup from a young child, short and soft, close-mic",
-   "duracion": 0.6,
+   "indicacion": "Single clearly audible hiccup from a young child, sharp short gulp of air with a little throat click, close-mic, dry studio",
+   "duracion": 0.8,
    "bucle": false,
    "efectos_guia": [
     "4.0"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 8,
+   "costo": 11,
    "cumple_realismo": true
   },
   {
@@ -1027,14 +1027,14 @@
    "categoria": "COMIDA",
    "es": "Burbuja que revienta",
    "indicacion": "Single tiny soda bubble popping at the surface, close-mic",
-   "duracion": 0.4,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "11.3"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 5,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -1290,14 +1290,14 @@
    "categoria": "FOLEY",
    "es": "Picadura",
    "indicacion": "Tiny sharp prick of a pin into soft cork, short click",
-   "duracion": 0.4,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "16.1"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 5,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -1365,14 +1365,14 @@
    "categoria": "ELECTRICO",
    "es": "Chispazo",
    "indicacion": "Small static electric spark discharge, sharp snap",
-   "duracion": 0.4,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "17.2"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 5,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -1684,14 +1684,14 @@
    "categoria": "AGUA",
    "es": "¡Plop!",
    "indicacion": "Tiny soap bubble popping, close-mic",
-   "duracion": 0.3,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "23.2"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 4,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -2156,7 +2156,7 @@
    "categoria": "MECANICO",
    "es": "Clic de linterna",
    "indicacion": "Small flashlight push button click",
-   "duracion": 0.3,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "32.2",
@@ -2164,7 +2164,7 @@
    ],
    "uso": null,
    "piloto": null,
-   "costo": 4,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -2202,14 +2202,14 @@
    "categoria": "FOLEY",
    "es": "Golpe en la frente",
    "indicacion": "Hand lightly patting a forehead, soft skin pat",
-   "duracion": 0.4,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "33.1"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 5,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -2502,14 +2502,14 @@
    "categoria": "FOLEY",
    "es": "Pelota",
    "indicacion": "Small rubber ball landing back in a hand, soft slap",
-   "duracion": 0.4,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "39.2"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 5,
+   "costo": 7,
    "cumple_realismo": true
   },
   {
@@ -2742,14 +2742,14 @@
    "categoria": "FOLEY",
    "es": "Salto",
    "indicacion": "Tiny light tap of something small landing on paper",
-   "duracion": 0.3,
+   "duracion": 0.5,
    "bucle": false,
    "efectos_guia": [
     "44.3"
    ],
    "uso": null,
    "piloto": null,
-   "costo": 4,
+   "costo": 7,
    "cumple_realismo": true
   },
   {

@@ -54,7 +54,7 @@ for f in sorted(os.listdir(src)):
     save(y, os.path.join(out, name))
     rows.append([name, m["tipo"], round(len(y)/SR,2), "mono" if y.shape[1]==1 else "estéreo", round(db(raw_peak),1), clip,
                  round(g,1), round(db(np.abs(y).max()),1), round(db(np.sqrt(np.mean(y**2))),1), "" if seam is None else round(seam,1),
-                 "DESCARTADA: casi silencio" if db(raw_peak) < -40 else ("subida fuerte: posible ruido de fondo" if g > 20 else "")])
+                 "" if m["tipo"] == "amb" else ("DESCARTADA: casi silencio" if db(raw_peak) < -40 else "")])
 with open(os.path.join(out,"..","medidas.csv"),"w",newline="") as fh:
     wr=csv.writer(fh); wr.writerow(["archivo","tipo","dur_s","canales","pico_origen_dbfs","muestras_saturadas","ganancia_db","pico_final_dbfs","rms_final_dbfs","salto_empalme_db","revisar"]); wr.writerows(rows)
 for r in rows: print(*r, sep="\t")

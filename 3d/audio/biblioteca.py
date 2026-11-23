@@ -68,7 +68,7 @@ E("COMIDA_Ají_Chisporrotea", "COMIDA", "Temblor picante", "Chili pepper slices 
 E("MECAN_Temporizador_Pitidos", "MECANICO", "Alarma pequeña", "Small digital kitchen timer beeping quickly three times", 1.2, efectos=["3.1", "6.3"])
 E("ELEC_Chispa_Cable", "ELECTRICO", "Señal por el nervio", "Quick electric spark traveling along a thin metal wire, short crackling zip", 1.0, efectos=["3.2", "18.2"])
 E("VOZ_Suspiro_Alivio", "VOZ", "Alivio", "Long relieved human exhale through the mouth, close-mic, quiet room", 1.8, efectos=["3.3", "8.3"])
-E("VOZ_Hipo", "VOZ", "¡Hip!", "Single real hiccup from a young child, short and soft, close-mic", 0.6, efectos=["4.0"])
+E("VOZ_Hipo", "VOZ", "¡Hip!", "Single clearly audible hiccup from a young child, sharp short gulp of air with a little throat click, close-mic, dry studio", 0.8, efectos=["4.0"])
 E("FOLEY_Liga_Chasquido", "FOLEY", "Tirón del diafragma", "Thick rubber band snapping against a wooden surface, quick, close-mic", 0.6, efectos=["4.1"])
 E("FOLEY_Puertita_Cierra", "FOLEY", "Portazo de las cuerdas vocales", "Small wooden cabinet door slamming shut, short knock with faint rattle", 0.8, efectos=["4.2"])
 E("VOZ_Respiracion_Tranquila", "VOZ", "Respiración tranquila", "Slow calm breathing in and out through the nose, close-mic, quiet room", 4.0, efectos=["4.3", "34.0", "52.0"])
@@ -245,6 +245,7 @@ faltan = [f"{n}.{i}" for n in range(1, 53) for i in range(4) if f"{n}.{i}" not i
 assert not faltan, f"efectos de la guía sin sonido: {faltan}"
 prohibidas = ("cartoon", "comic", "magical", "sparkl", "boing", "whimsical", "slide whistle")
 for b in B:
+    b["duracion"] = max(b["duracion"], 0.5)          # mínimo que acepta el modelo
     b["costo"] = round(b["duracion"] * CREDITOS_POR_SEGUNDO * VARIACIONES)
     b["cumple_realismo"] = not any(p in b["indicacion"].lower() for p in prohibidas) and "playful" not in b["indicacion"].lower()
 nuevos = [b for b in B if not b["piloto"] or "nueva" in (b["piloto"] or "")]

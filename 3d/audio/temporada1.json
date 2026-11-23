@@ -1,0 +1,640 @@
+{
+ "temporada": 1,
+ "episodios": "1 a 13",
+ "fecha": "2026-11-23",
+ "modelo": "eleven_text_to_sound_v3",
+ "flujo_elevenlabs": "Pipo y Plop · Efectos Temporada 1",
+ "creditos": 1652,
+ "sonidos": 69,
+ "tomas_utiles": 209,
+ "descartadas": [
+  "VOZ_Hipo_v2",
+  "VOZ_Hipo_v3",
+  "VOZ_Hipo_v4 (casi silencio)"
+ ],
+ "lista": [
+  {
+   "archivo": "FOLEY_Plastilina_Rebota",
+   "sonido": "Bolita que rebota",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Despega",
+   "sonido": "Plastilina que se despega (flota)",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3",
+    "v4"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Gira",
+   "sonido": "Plastilina que gira",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Aprieta",
+   "sonido": "Plastilina que se aprieta (encoge)",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Tiembla",
+   "sonido": "Plastilina que tiembla",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3",
+    "v4"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Ondula",
+   "sonido": "Lámina de plastilina que ondula",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Balancea",
+   "sonido": "Plastilina que se balancea",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Plastilina_Late",
+   "sonido": "Plastilina que late",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "TRANS_Vara_Swish",
+   "sonido": "Soplo corto (aparece), versión realista",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AMB_Cocina_TonoSala",
+   "sonido": "Cocinita",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AMB_Terrario",
+   "sonido": "Terrario",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3",
+    "v4"
+   ]
+  },
+  {
+   "archivo": "AMB_Acuario",
+   "sonido": "Tina y acuario",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AMB_CamaraZoom",
+   "sonido": "Cámara de zoom",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AMB_Casa_TonoSala",
+   "sonido": "Rincón de casa",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "INSTR_Cortinilla_Marimba",
+   "sonido": "Cortinilla del canal (3 s)",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Bombilla_Enciende",
+   "sonido": "La idea loca de Pipo",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FIRMA_Microscopio_Enfoca",
+   "sonido": "¡Hagamos zoom! (versión realista)",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "MECAN_Reloj_TicTac",
+   "sonido": "Tic-tac (pausa para pensar)",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "INSTR_Xilofono_Repaso",
+   "sonido": "Repaso",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "INSTR_Trompeta_Reto",
+   "sonido": "Reto en casa",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Palomita_Revienta",
+   "sonido": "Reventón de palomita",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "VAPOR_Valvula_Presion",
+   "sonido": "Vapor a presión",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Granos_Sarten",
+   "sonido": "Temblor del grano",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Gelatina",
+   "sonido": "Gelatina de almidón",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AGUA_Gota_Hoja",
+   "sonido": "Gota que rebota",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Espuma_Frotar",
+   "sonido": "Frotar con espuma",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Canicas_Ruedan",
+   "sonido": "Piezas que ruedan",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AGUA_Grifo_Enjuague",
+   "sonido": "El agua enjuaga",
+   "tomas": [
+    "v1",
+    "v2"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Aji_Chisporrotea",
+   "sonido": "Temblor picante",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "MECAN_Temporizador_Pitidos",
+   "sonido": "Alarma pequeña",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "ELEC_Chispa_Cable",
+   "sonido": "Señal por el nervio",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "VOZ_Suspiro_Alivio",
+   "sonido": "Alivio",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "VOZ_Hipo",
+   "sonido": "¡Hip!",
+   "tomas": [
+    "v1",
+    "v5",
+    "v6"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Liga_Chasquido",
+   "sonido": "Tirón del diafragma",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Puertita_Cierra",
+   "sonido": "Portazo de las cuerdas vocales",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "VOZ_Respiracion_Tranquila",
+   "sonido": "Respiración tranquila",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AGUA_Objeto_Cae",
+   "sonido": "Algo cae al agua",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AGUA_Hielo_Vaso",
+   "sonido": "El hielo flota",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "HIELO_Cruje_Congela",
+   "sonido": "El agua se congela",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Botella_Cruje",
+   "sonido": "La botella se agrieta",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Cebolla_Corte",
+   "sonido": "Corte de cebolla",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AIRE_Gas_Escapa",
+   "sonido": "Gas que sube",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AGUA_Gota_Charco",
+   "sonido": "Lágrima que cae",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Canica_Azulejo",
+   "sonido": "La luz rebota",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "INSTR_Copa_Frotada",
+   "sonido": "La luz viaja",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Pasos_Pesados",
+   "sonido": "Pasos gigantes",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "INSTR_Cuenco_Tibetano",
+   "sonido": "Atardecer",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "VOZ_Pedo_Suave",
+   "sonido": "¡Prrrt!",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Burbujas_Almibar",
+   "sonido": "Burbujas de gas",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Globo_Infla",
+   "sonido": "La panza se infla",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "METAL_Imanes_Clac",
+   "sonido": "¡Clac!",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "METAL_Imanes_Empujan",
+   "sonido": "Empuje invisible",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Domino_Caen",
+   "sonido": "Flechitas que se ordenan",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "METAL_Brujula",
+   "sonido": "Brújula",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "AIRE_Tela_Giro",
+   "sonido": "Giro en el aire",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "ANIMAL_Gato_Aterriza",
+   "sonido": "Aterrizaje suave",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "ANIMAL_Gato_Ronronea",
+   "sonido": "Ronroneo",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "METAL_Resorte",
+   "sonido": "Patas de resorte",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Refresco_Abre",
+   "sonido": "¡Psss!",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Refresco_Burbujea",
+   "sonido": "Burbujeo",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Refresco_Espuma",
+   "sonido": "Fuente de espuma",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "COMIDA_Burbuja_Revienta",
+   "sonido": "Burbuja que revienta",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Clavija_Floja",
+   "sonido": "Diente flojo",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Objeto_Cae_Piso",
+   "sonido": "Se cae el diente",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "FOLEY_Cepillo_Dientes",
+   "sonido": "Cepillado",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "INSTR_Campanita",
+   "sonido": "Campanita (destellos y momentos especiales)",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "TIERRA_Temblor",
+   "sonido": "Temblor de tierra",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "TIERRA_Erupcion",
+   "sonido": "Erupción",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  },
+  {
+   "archivo": "TIERRA_Lodo_Burbujea",
+   "sonido": "Lava y magma",
+   "tomas": [
+    "v1",
+    "v2",
+    "v3"
+   ]
+  }
+ ]
+}
