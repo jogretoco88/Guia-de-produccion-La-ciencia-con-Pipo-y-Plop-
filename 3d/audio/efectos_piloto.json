@@ -1,0 +1,24 @@
+{
+ "modelo": "eleven_text_to_sound_v3",
+ "variaciones": 4,
+ "reglas": [
+  "Una sola fuente sonora por indicación; las capas se mezclan después.",
+  "Todo en el mismo mundo: plastilina y madera, micrófono cercano, estudio seco (la sala la pone la mezcla).",
+  "Duración fijada por sonido; los ambientes se generan como bucle continuo.",
+  "Fidelidad a la indicación (prompt_influence) 0,5 en golpes y 0,4 en ambientes."
+ ],
+ "sonidos": {
+  "01": {"nombre": "FOLEY_Plastilina_Cae",      "movimiento": "cae",           "duracion": 1.0, "influencia": 0.5, "bucle": false, "indicacion": "Soft lump of modeling clay dropped onto a wooden table, dull squishy thud, close-mic, dry studio"},
+  "02": {"nombre": "FOLEY_Plastilina_Revienta", "movimiento": "revienta",      "duracion": 0.8, "influencia": 0.5, "bucle": false, "indicacion": "Thick plasticine bubble bursting, juicy wet pop with a soft squelch tail, close-mic, dry studio"},
+  "03": {"nombre": "FOLEY_Plastilina_Rebota",   "movimiento": "rebota",        "duracion": 0.8, "influencia": 0.5, "bucle": false, "indicacion": "Small rubbery clay ball bouncing once on a wooden table, soft springy boing, close-mic, dry studio"},
+  "04": {"nombre": "FOLEY_Plastilina_Rueda",    "movimiento": "rueda_desliza", "duracion": 2.5, "influencia": 0.5, "bucle": false, "indicacion": "Soft ball of modeling clay rolling slowly across a wooden tabletop, gentle continuous rumble with tiny sticky clicks, close-mic"},
+  "05": {"nombre": "FOLEY_Plastilina_Estira",   "movimiento": "crece",         "duracion": 1.5, "influencia": 0.5, "bucle": false, "indicacion": "Soft modeling clay being slowly stretched, rubbery elastic squeak rising in pitch, close-mic, dry studio"},
+  "06": {"nombre": "FOLEY_Arcilla_Rasguno",     "movimiento": "empuja",        "duracion": 1.2, "influencia": 0.5, "bucle": false, "indicacion": "Fingernail scratching slowly across firm modeling clay, gritty dragging scrape, close-mic, dry studio"},
+  "07": {"nombre": "FOLEY_Arcilla_Rompe",       "movimiento": "revienta",      "duracion": 1.5, "influencia": 0.5, "bucle": false, "indicacion": "Dry hardened clay piece snapping in half, crisp brittle crack followed by small crumbs falling on wood, close-mic"},
+  "08": {"nombre": "AMB_Lluvia_Suave",          "zona": "planetario",          "duracion": 10,  "influencia": 0.4, "bucle": true,  "indicacion": "Gentle steady rain pattering on a small wooden model set, soft and intimate, close perspective"},
+  "09": {"nombre": "AMB_Brisa_Suave",           "zona": "planetario",          "duracion": 10,  "influencia": 0.4, "bucle": true,  "indicacion": "Soft airy breeze with a faint gentle whistle, calm and steady"},
+  "10": {"nombre": "AMB_Laboratorio_TonoSala",  "zona": "todas",               "duracion": 10,  "influencia": 0.4, "bucle": true,  "indicacion": "Quiet cozy science lab room tone, faint soft electrical hum, very calm"},
+  "11": {"nombre": "TRANS_Whoosh_Corto",        "movimiento": "aparece",       "duracion": 0.8, "influencia": 0.5, "bucle": false, "indicacion": "Short soft airy whoosh, quick and playful, smooth swell and fade"},
+  "12": {"nombre": "FIRMA_Hagamos_Zoom",        "momento": "clip 10 de cada episodio", "duracion": 2.0, "influencia": 0.5, "bucle": false, "indicacion": "Magical shrinking zoom effect, rising sparkly shimmer with a soft whoosh, bright and playful"}
+ }
+}

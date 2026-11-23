@@ -1,0 +1,12 @@
+{"01":{"nombre":"FOLEY_Plastilina_Cae","tipo":"oneshot","rms":-18},
+ "02":{"nombre":"FOLEY_Plastilina_Revienta","tipo":"oneshot","rms":-18},
+ "03":{"nombre":"FOLEY_Plastilina_Rebota","tipo":"oneshot","rms":-18},
+ "04":{"nombre":"FOLEY_Plastilina_Rueda","tipo":"oneshot","rms":-22},
+ "05":{"nombre":"FOLEY_Plastilina_Estira","tipo":"oneshot","rms":-20},
+ "06":{"nombre":"FOLEY_Arcilla_Rasguno","tipo":"oneshot","rms":-21},
+ "07":{"nombre":"FOLEY_Arcilla_Rompe","tipo":"oneshot","rms":-18},
+ "08":{"nombre":"AMB_Lluvia_Suave","tipo":"amb","rms":-30},
+ "09":{"nombre":"AMB_Brisa_Suave","tipo":"amb","rms":-32},
+ "10":{"nombre":"AMB_Laboratorio_TonoSala","tipo":"amb","rms":-40},
+ "11":{"nombre":"TRANS_Whoosh_Corto","tipo":"oneshot","rms":-20},
+ "12":{"nombre":"FIRMA_Hagamos_Zoom","tipo":"oneshot","rms":-19}}
