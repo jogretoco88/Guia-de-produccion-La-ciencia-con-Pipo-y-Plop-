@@ -43,7 +43,9 @@ Cada personaje necesita: modelo esculpido, esqueleto (Rigify), formas de boca pa
 - **Pipo y Plop hablan entre ellos en pipoplés**, un idioma inventado sin palabras de ningún idioma real. El sentido lo dan la entonación, la cara y el cuerpo. Como no hay palabras, **la misma animación y el mismo render sirven para todos los idiomas**. Solo cambia la pista del narrador.
 - Pipo usa sílabas con p, b y t, rápidas y con energía. Plop usa pl, l, m y n, suaves y pausadas.
 - Cada reacción del banco tiene su frase fija, por ejemplo: la idea de Pipo es «¡Pipi-ba!»; Plop invitando al reto, «¡Tu-lu, tu-lu!». Los niños la aprenden y la repiten. Las 20 frases están en `config.json` → `idioma.reacciones`.
-- Las voces de Pipo y Plop se diseñan una vez en ElevenLabs y se guardan.
+- Las voces de Pipo y Plop están diseñadas y guardadas en ElevenLabs (noviembre de 2026). Sus identificadores están en `config.json` → `idioma.voces`:
+  - **Pipo:** `PykNIA7IVxUBZpRkQ3cS`. Aguda, brillante y rápida, con risa fácil (tono medio de unos 400 Hz).
+  - **Plop:** `M46kPfoaSFdeaL0sLmqQ`. Suave, redonda y pausada, con murmullos pensativos (unos 133 Hz).
 - La sincronía de labios se hace con Rhubarb Lip Sync, que analiza el audio y da las formas de boca fotograma a fotograma.
 
 ## El laboratorio
@@ -139,7 +141,7 @@ Por ahora cada clip dura 8 s, como en la guía. En 3D un plano puede durar lo qu
 
 1. **En la computadora nueva:** instalar Blender, comprobar que usa la RTX 5060 Ti y probar el material de plastilina con un render 1080p.
 2. **Pipo y Plop:** esculpido, esqueleto, formas de boca y material.
-3. **Voces:** diseñar en ElevenLabs las voces de Pipo y Plop, y grabar las 20 frases de las reacciones.
+3. **Voces:** grabar con las voces ya guardadas las 20 frases de las reacciones.
 4. **El laboratorio:** primero la cámara de zoom y la cocinita, que son las que necesita el piloto.
 5. **Piloto, Ep. 1 (Palomitas):** escena completa a partir de `escenas/ep01.json`. Mide el tiempo de animación y de render.
 6. **Scripts de Blender** que leen `escenas/epNN.json`: montan la zona, colocan objetos y cámara, aplican los movimientos y renderizan.

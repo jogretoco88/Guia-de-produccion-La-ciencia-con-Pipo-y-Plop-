@@ -214,6 +214,22 @@
    "Cada reacción tiene su frase fija: los niños la aprenden y la repiten.",
    "El narrador es quien explica la ciencia, en cada idioma."
   ],
+  "voces": {
+   "P": {
+    "nombre": "Pipo · La ciencia con Pipo y Plop",
+    "elevenlabs_voice_id": "PykNIA7IVxUBZpRkQ3cS",
+    "diseño": "eleven_ttv_v3",
+    "tono_medio_hz": 400,
+    "descripcion": "Aguda, brillante y rápida, con risa fácil"
+   },
+   "L": {
+    "nombre": "Plop · La ciencia con Pipo y Plop",
+    "elevenlabs_voice_id": "M46kPfoaSFdeaL0sLmqQ",
+    "diseño": "eleven_ttv_v3",
+    "tono_medio_hz": 133,
+    "descripcion": "Suave, redonda y pausada, con murmullos pensativos"
+   }
+  },
   "reacciones": {
    "P1": {
     "dice": "¡Pipi-ba!",
