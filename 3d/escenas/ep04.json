@@ -1,0 +1,1232 @@
+{
+ "episodio": 4,
+ "id": "ep04",
+ "titulo": "¿Qué es el hipo y por qué no lo puedes parar?",
+ "tema": "Hipo",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "maqueta_de_pulmones_y_diafragma",
+  "maqueta_de_la_garganta_puerta_de_las_cuerdas_vocales",
+  "maqueta_de_cerebro_nervio_y_pulmones"
+ ],
+ "efectos": [
+  {
+   "es": "¡Hip!",
+   "en": "Single cute cartoon hiccup"
+  },
+  {
+   "es": "Tirón del diafragma",
+   "en": "Quick rubber band snap"
+  },
+  {
+   "es": "Portazo de las cuerdas vocales",
+   "en": "Small wooden door slamming shut"
+  },
+  {
+   "es": "Respiración tranquila",
+   "en": "Slow calm breath in and out"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop da un salto de hipo y tumba su torre de bloques.",
+   "escena": "Plop stands beside a small tower of three clay blocks, blue and yellow.",
+   "accion": "Plop suddenly jolts upward with a small hiccup hop and the block tower tumbles down.",
+   "narrador": "Todo tranquilo, todo en calma y de pronto… [surprised] ¡hip! Tu cuerpo salta sin pedirte permiso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop salta con hipo cada dos segundos, sorprendido.",
+   "escena": "Plop faces the camera, centered in frame.",
+   "accion": "Plop jolts upward with a small hiccup hop every two seconds, looking surprised each time.",
+   "narrador": "Y otra vez: ¡hip! No lo decides tú. Entonces… ¿quién está dando la orden?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo también quiere saberlo. Hoy vamos a buscar al culpable… debajo de tus costillas."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡Plop se tragó una ranita, y la ranita salta en su panza!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop niega con la cabeza y se toca la panza.",
+   "escena": "Plop stands facing the camera with one paddle arm on his belly.",
+   "accion": "Plop shakes his head slowly from side to side while patting his belly.",
+   "narrador": "Si fuera una rana, la oiríamos croar. Y además… Plop no ha comido ranas. Creo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop infla los cachetes aguantando el aire.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop slowly puffs up his cheeks bigger and bigger, holding his breath with wide eyes.",
+   "narrador": "Segunda idea: aguantar la respiración hasta que se vaya. A veces sirve… ¿pero por qué?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si yo no quiero saltar, ¿qué parte de mí está saltando sola?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se señala debajo de las costillas.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop slowly places one paddle arm on the middle of his torso and looks up at the camera.",
+   "narrador": "¡Esa es la pregunta correcta! El salto viene de adentro, de un músculo que casi nadie conoce.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "La cámara se acerca al pecho de Plop.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop stays still, breathing gently, while the camera glides slowly closer to his chest.",
+   "narrador": "¿Sabes cuál es? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro del pecho!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento a la maqueta de los pulmones.",
+   "escena": "The lungs model stands in the center of the set.",
+   "accion": "The lungs model stays still while the camera glides slowly closer to it.",
+   "narrador": "[excited] ¡Hagamos zoom! Estos son tus pulmones: dos bolsas esponjosas que se llenan de aire.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La banda roja bajo los pulmones se flexiona.",
+   "escena": "The curved crimson band at the bottom of the lungs model fills the frame, with the lower part of the two pink lungs above it.",
+   "accion": "The crimson band flexes gently up and down a little, again and again.",
+   "narrador": "Pero los pulmones no se mueven solos. Debajo tienen un músculo en forma de cúpula.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diafragma baja y los pulmones se llenan.",
+   "escena": "The lungs model stands in the center of the frame, its crimson band curved upward like a dome.",
+   "accion": "The crimson band slowly flattens downward while the two pink lungs slowly swell.",
+   "narrador": "Se llama diafragma. Cuando baja, hace espacio y el aire entra a los pulmones.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "crece",
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diafragma baja y sube con ritmo tranquilo.",
+   "escena": "The lungs model stands in the center of the frame.",
+   "accion": "The crimson band moves slowly down and up in a calm, steady rhythm, while the two pink lungs swell and shrink with it.",
+   "narrador": "Cuando sube, empuja el aire hacia afuera. Baja y sube, baja y sube, todo el día.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de los pulmones y el diafragma.",
+   "imagen": "The lungs model stands centered, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Pulmones arriba, diafragma abajo. Él es el verdadero jefe de tu respiración.",
+   "rotulos": "Pulmones · Diafragma"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: ¿y quién le dice al diafragma cuándo moverse? ¡Yo no le digo nada!"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_cerebro_nervio_y_pulmones"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las órdenes viajan del cerebro al diafragma por el nervio.",
+   "escena": "The brain-and-nerve model stretches across the set: the small pink brain on the left, the long yellow cord, and the lungs on the right.",
+   "accion": "Small red clay beads travel slowly, one after another, along the yellow cord from the brain to the lungs.",
+   "narrador": "Se lo dice tu cerebro, por unos cables llamados nervios. Manda la orden sin que lo notes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya sospecha algo: ¿y si a veces esa orden llega… con un error?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se sacude de risa.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop shakes with silent giggles, his belly bouncing and his eyes squeezed shut.",
+   "narrador": "Así es. Si comes muy rápido, tragas aire o te da un ataque de risa…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El estómago se infla y roza el nervio.",
+   "escena": "A round peach-orange clay ball, the stomach, sits just below a yellow clay cord that runs straight across the frame.",
+   "accion": "The peach-orange ball slowly inflates until it rubs against the yellow cord, which starts to tremble.",
+   "narrador": "…tu estómago se infla y le hace cosquillas al nervio que pasa justo al lado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una señal roja cruza el nervio a toda velocidad.",
+   "escena": "A yellow clay cord runs straight across the frame from left to right, with one small red clay bead at its left end.",
+   "accion": "The red bead zips along the yellow cord from left to right while the cord trembles.",
+   "narrador": "El nervio se confunde y manda una orden equivocada: ¡aprieta ya, con todas tus fuerzas!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diafragma da un tirón brusco hacia abajo.",
+   "escena": "The lungs model stands in the center of the frame, its crimson band curved upward like a dome.",
+   "accion": "The crimson band snaps down flat in one sudden jerk and the two pink lungs puff up at once.",
+   "narrador": "El diafragma obedece y da un tirón brusco hacia abajo. El aire entra de golpe.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_garganta_puerta_de_las_cuerdas_vocales"
+   ],
+   "movimientos": [
+    "revienta",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un chorro de aire baja por la garganta.",
+   "escena": "The throat-door model stands in the center of the frame with its two cream flaps open.",
+   "accion": "Pale-blue clay wisps rush down between the open flaps into the pink tube, one after another.",
+   "narrador": "Ese chorro de aire sorprende a tu garganta, donde están las cuerdas vocales.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_garganta_puerta_de_las_cuerdas_vocales"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las cuerdas vocales se cierran de golpe.",
+   "escena": "The two cream flaps on top of the throat-door model fill the frame, standing open.",
+   "accion": "The two cream flaps snap shut together in one sudden move and stay shut, quivering.",
+   "narrador": "Y las cuerdas vocales se cierran de golpe, como una puerta con el viento. ¡Clac!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "rebota",
+    "late"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop salta con hipo.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop jolts upward with a small hiccup hop every two seconds, blinking in surprise each time.",
+   "narrador": "Ese portazo es el sonido del hipo. ¡Hip! No es tu voz: es una puerta cerrándose.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P7",
+    "nombre": "Desconcertado",
+    "direccion": "Pipo looks slowly from one side to the other and back, completely baffled."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Ba? ¿Bo? ¿Bi?",
+    "intencion": "Desconcertado",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo mira a un lado y al otro, sin entender.",
+   "narrador": "Pipo quiere saber por qué se repite. Porque el nervio sigue confundido y repite la orden."
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop, cansado, sigue saltando con hipo.",
+   "escena": "Plop faces the camera, centered in frame, with tired half-closed eyes.",
+   "accion": "Plop jolts upward with a small hiccup hop every two seconds, slumping a little more after each one.",
+   "narrador": "Tirón, portazo, ¡hip! Tirón, portazo, ¡hip! ¿Cómo se apaga esta máquina, Plop?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop respira hondo y aguanta el aire.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop slowly swells his chest in one long deep breath and holds it with his eyes closed.",
+   "narrador": "Probemos lo de antes: respirar muy lento y aguantar el aire un momento.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bolitas grises se juntan entre los pulmones.",
+   "escena": "The two pink lungs of the lungs model fill the frame.",
+   "accion": "Small grey clay balls gather slowly, one by one, in the space between the two pink lungs.",
+   "narrador": "Al aguantar el aire, en tu cuerpo se junta un gas llamado dióxido de carbono.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_cerebro_nervio_y_pulmones"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las órdenes vuelven a viajar con calma.",
+   "escena": "The brain-and-nerve model stretches across the set: the small pink brain on the left, the long yellow cord, and the lungs on the right.",
+   "accion": "Small red clay beads travel very slowly and evenly, one after another, along the yellow cord from the brain to the lungs.",
+   "narrador": "El cerebro lo nota y se concentra en respirar bien. Las órdenes vuelven a salir en calma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "crece",
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diafragma recupera su ritmo (puedes repetir el clip 13).",
+   "escena": "The lungs model stands in the center of the frame.",
+   "accion": "The crimson band moves slowly down and up in a calm, steady rhythm, while the two pink lungs swell and shrink with it.",
+   "narrador": "El diafragma recupera su ritmo: baja y sube suavecito. Y la puerta deja de dar portazos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop respira tranquilo y asiente feliz.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop breathes gently, standing calm, and gives one slow happy nod.",
+   "narrador": "[laughs] ¡Se fue! No era una rana, Pipo: era un músculo confundido. Misterio resuelto, Plop.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma",
+    "maqueta_de_la_garganta_puerta_de_las_cuerdas_vocales"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: el nervio, el tirón del diafragma y el portazo.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a yellow clay cord with one red clay bead on it; the lungs model with its crimson band pulled flat; and the throat-door model with its two cream flaps shut. Clean empty white space above each one.",
+   "narrador": "Repasemos: el nervio se confunde, el diafragma da un tirón y las cuerdas vocales hacen ¡hip!",
+   "rotulos": "1 Nervio confundido · 2 Tirón del diafragma · 3 ¡Hip!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un perrito de arcilla tiene hipo.",
+   "escena": "A small brown clay puppy with floppy ears sits in the center of the frame, facing the camera.",
+   "accion": "The puppy jolts with a tiny hiccup hop every two seconds, its ears flopping each time.",
+   "narrador": "[curious] Dato extra: no solo las personas tienen hipo. ¡Los perritos y los gatitos también!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un bebé envuelto en su mantita da saltitos de hipo.",
+   "escena": "A tiny swaddled clay baby, a cream oval bundle with a small round sleeping face, lies in the center of the frame.",
+   "accion": "The swaddled baby jolts very gently with a tiny hiccup every two seconds, still asleep.",
+   "narrador": "Los bebés lo tienen incluso antes de nacer. Los científicos creen que así entrenan su respiración.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Casi siempre el hipo se va solito en unos minutos. Mientras tanto, Plop tiene un reto."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_de_pulmones_y_diafragma"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Los pulmones junto a un reloj.",
+   "imagen": "The lungs model on the left and a simple round white clay clock face with a single red hand on the right. Clean empty white space above them.",
+   "narrador": "Cuando tengas hipo, respira lento y cuenta los ¡hip! hasta que se vaya.",
+   "rotulos": "Reto en casa · respira lento y cuenta"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

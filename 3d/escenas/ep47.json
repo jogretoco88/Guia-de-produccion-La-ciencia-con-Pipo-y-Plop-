@@ -1,0 +1,1221 @@
+{
+ "episodio": 47,
+ "id": "ep47",
+ "titulo": "¿Por qué los pájaros no se electrocutan en los cables?",
+ "tema": "Pájaros en los cables",
+ "categoria": "ca",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "casa",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "gorrion",
+  "cable_electrico",
+  "bolitas_de_electricidad"
+ ],
+ "efectos": [
+  {
+   "es": "Gorrión",
+   "en": "Sparrow chirping"
+  },
+  {
+   "es": "Zumbido eléctrico",
+   "en": "Low electrical hum of power lines"
+  },
+  {
+   "es": "Brisa",
+   "en": "Light breeze"
+  },
+  {
+   "es": "Aleteo",
+   "en": "Small bird wings flapping"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "gorrion",
+    "cable_electrico"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Un gorrión en un cable eléctrico.",
+   "escena": "The power line stretches across the set between two grey clay poles, with the sparrow perched on it in the center, against a pale-blue clay sky backdrop.",
+   "accion": "The sparrow hops sideways a little along the power line and fluffs its feathers.",
+   "narrador": "[curious] Por estos cables viaja muchísima electricidad, la suficiente para dar luz a todo un barrio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "gorrion",
+    "cable_electrico"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El gorrión mira tranquilo a los lados.",
+   "escena": "The sparrow sits on the power line in the center of the frame, against a pale-blue clay sky backdrop.",
+   "accion": "The sparrow turns its head from side to side, calm and relaxed.",
+   "narrador": "[surprised] ¡Y el pajarito tan tranquilo, posado encima! ¿Por qué no le da un calambrazo?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop no le quita el ojo. Hoy descubrimos el secreto de los pájaros en los cables."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los pájaros llevan zapatillas de goma en las patas!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "gorrion",
+    "cable_electrico"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Las patitas del gorrión agarran el cable.",
+   "escena": "The sparrow's thin pink clay feet fill the frame, gripping the black power line.",
+   "accion": "The sparrow's toes curl and uncurl gently around the line.",
+   "narrador": "Míralas bien: son patas normales, con piel y uñas. Nada de goma. Aun así, no les pasa nada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "cable_electrico"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "El extremo del cable: metal sin funda.",
+   "escena": "The cut end of the power line fills the frame, showing shiny grey clay metal strands with no covering.",
+   "accion": "The metal strands glint softly in the light.",
+   "narrador": "Y muchos cables de las torres altas ni siquiera tienen funda: son de metal pelado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: entonces, ¿por qué la electricidad no se mete en el pájaro?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "gorrion",
+    "cable_electrico"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira las dos patas del gorrión en el cable.",
+   "escena": "Pipo stands beside the sparrow, which perches on a short piece of the power line held up by two small grey clay posts at his height.",
+   "accion": "Pipo leans in slowly and looks at the sparrow's two feet on the line.",
+   "narrador": "Pipo se fija en algo: el pajarito tiene sus dos patas en el mismo cable. ¿Importará eso?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "cable_electrico"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al cable.",
+   "escena": "The power line stretches alone across the set between two grey clay poles.",
+   "accion": "The power line stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué pasa dentro del cable? ¿Tú qué crees? Piénsalo… ¡Vamos a ver cómo viaja la electricidad!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "cable_electrico",
+    "bolitas_de_electricidad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: bolitas de luz corren por dentro del cable.",
+   "escena": "The inside of the power line fills the frame, shown as a long metal tube with the glowing beads flowing through it.",
+   "accion": "The glowing yellow beads flow steadily from left to right along the tube.",
+   "narrador": "[excited] ¡Hagamos zoom! La electricidad es como un río de partículas diminutas que corren por el metal.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El agua baja de un depósito alto a uno bajo.",
+   "escena": "Two clear clay tanks of pale-blue water stand side by side in the center of the frame, one high on the left and one low on the right, joined by a clear clay tube.",
+   "accion": "Pale-blue water flows slowly through the tube from the high tank down into the low tank.",
+   "narrador": "Y como el agua, solo corre si hay una cuesta: de un sitio alto a uno bajo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Dos depósitos a la misma altura: el agua no se mueve.",
+   "escena": "Two clear clay tanks of pale-blue water stand side by side at the same height in the center of the frame, joined by a clear clay tube.",
+   "accion": "The water in both tanks stays perfectly still and level.",
+   "narrador": "Si los dos están a la misma altura… el agua no se mueve. ¡No hay cuesta!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gorrion",
+    "cable_electrico",
+    "bolitas_de_electricidad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "late"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La electricidad pasa bajo las patas sin entrar en el pájaro.",
+   "escena": "The sparrow perches on the power line in the center of the frame, with the glowing beads flowing inside the line beneath its feet.",
+   "accion": "The glowing beads flow steadily along the line, passing under the sparrow without entering its feet.",
+   "narrador": "Las dos patas del pájaro tocan el mismo cable: están a la misma altura eléctrica. ¡No hay cuesta!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "gorrion",
+    "cable_electrico",
+    "bolitas_de_electricidad"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: un solo cable, sin cuesta, sin calambre.",
+   "imagen": "The sparrow on the power line in the center, with the glowing beads flowing inside the line under its feet. Clean empty white space above it.",
+   "narrador": "Dos patas en un mismo cable: no hay cuesta, y la electricidad sigue de largo.",
+   "rotulos": "Un solo cable = sin cuesta = sin calambre"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "cable_electrico",
+    "bolitas_de_electricidad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas siguen recto por el metal.",
+   "escena": "The inside of the power line fills the frame, a long metal tube with the glowing beads flowing through it and a small brown clay bird foot resting on top.",
+   "accion": "The glowing beads flow straight along the tube without turning toward the foot.",
+   "narrador": "Además, el metal es un camino facilísimo: la electricidad sigue por él, sin desviarse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, quieto en un puente, sobre un arroyo.",
+   "escena": "Pipo stands on a small wooden clay bridge over a flowing pale-blue clay stream.",
+   "accion": "The pale-blue stream flows steadily under the bridge while Pipo stands still.",
+   "narrador": "Es como estar sobre un puente: el río pasa por debajo, pero a ti no te arrastra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: entonces el peligro sería tocar dos sitios distintos a la vez…"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un águila se aparta de dos cables.",
+   "escena": "A big brown clay eagle with wide wings flies near two parallel black clay power lines in the center of the frame, against a pale-blue clay sky.",
+   "accion": "The eagle slowly folds its wings in and flies away from the lines.",
+   "narrador": "Si un ave grande toca dos cables a la vez, sí hay cuesta… y la electricidad la atraviesa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pajarito se posa en una percha segura sobre el poste.",
+   "escena": "A grey clay power pole stands in the center of the frame, with a small orange clay cover on its top and a little clay perch above the wires.",
+   "accion": "A small brown clay bird lands on the little perch above the wires.",
+   "narrador": "Por eso en muchos postes ponen fundas y perchas especiales, para que las aves se posen seguras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡un pie en cada cable es mala idea, aunque seas un pájaro!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un poste con un triángulo rojo de peligro.",
+   "escena": "A tall grey clay power pole with black clay lines stands in the center of the frame on green clay ground, with a big red clay warning triangle at its base.",
+   "accion": "The red warning triangle glows softly brighter and dimmer.",
+   "narrador": "Y nosotros estamos pisando el suelo. Entre un cable y el suelo hay una cuesta enorme. ¡Peligrosísimo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y si veo un cable caído en la calle?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un niño se queda lejos de un cable caído y llama a alguien.",
+   "escena": "A black clay power line lies fallen on grey clay pavement in the center of the frame, with a small clay child standing far back from it.",
+   "accion": "The small child stays far away and slowly raises one hand to call someone.",
+   "narrador": "No lo toques ni te acerques. Aléjate y avisa enseguida a un adulto. Es la regla número uno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una cometa roja en un parque, lejos de los cables.",
+   "escena": "A small clay child flies a bright red clay kite in a wide green clay park in the center of the frame, with power lines far away in the background.",
+   "accion": "The red kite flutters gently high in the sky.",
+   "narrador": "Y las cometas, siempre en parques abiertos, lejos de los cables. ¡Que el cielo es muy grande!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una fila de gorriones en un mismo cable hace sitio a otro.",
+   "escena": "A long row of small brown clay sparrows perches along one black clay power line against a pale-blue clay sky.",
+   "accion": "The sparrows shuffle sideways along the line, making room for one more bird that lands.",
+   "narrador": "Así que una bandada entera puede sentarse en fila, siempre que cada uno toque un solo cable.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo levanta unos prismáticos: tiene una idea.",
+   "escena": "Pipo stands facing the camera, holding a small pair of green clay binoculars in one paddle arm.",
+   "accion": "Pipo slowly raises the binoculars to his eyes and looks up.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿y si contamos pájaros en los cables, desde lejos?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "gorrion",
+    "cable_electrico"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo sigue con prismáticos a un gorrión en el cable.",
+   "escena": "Pipo stands on green clay grass looking up at the power line high above him, where the sparrow perches.",
+   "accion": "Pipo looks up through his binoculars and slowly follows the sparrow as it hops along the line.",
+   "narrador": "[excited] Mira bien cada pájaro: ¿tiene las dos patas en el mismo cable? ¡Seguro que sí!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un enchufe con su cable de plástico blanco.",
+   "escena": "A white clay electric plug with a white clay cable lies on a light-brown clay floor in the center of the frame.",
+   "accion": "The camera glides slowly along the white plastic cable.",
+   "narrador": "Los cables de casa llevan funda de plástico, que no deja pasar la electricidad. ¡Nunca la rompas!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente, serio y tranquilo.",
+   "escena": "Pipo stands facing the camera in the center of the set.",
+   "accion": "Pipo nods slowly with a calm, serious look.",
+   "narrador": "Los pájaros no tienen superpoderes: solo tocan un cable cada vez. Y nosotros, ninguno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No llevan zapatillas de goma, Pipo. Con las dos patas en el mismo cable, no hay cuesta."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: la electricidad sigue por el cable y no entra en el pájaro."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: depósitos a distinta altura, a la misma altura y pájaro en el cable.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: two clear clay water tanks at different heights with water flowing between them; two clear clay tanks at the same height with still water; and a small brown clay sparrow sitting on one black clay cable. Clean empty white space above each one.",
+   "narrador": "Repasemos: la electricidad corre si hay cuesta, un solo cable no tiene cuesta, y el pájaro está a salvo.",
+   "rotulos": "1 Corre si hay cuesta · 2 Un cable: sin cuesta · 3 Pájaro a salvo"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un caracol sobre un tubo de bolitas que se empujan.",
+   "escena": "A long row of small yellow clay beads fills a clear clay tube across the frame, with a tiny green clay snail crawling on top of the tube.",
+   "accion": "All the yellow beads nudge forward together a tiny bit at the same moment.",
+   "narrador": "[curious] Dato extra: las partículas del cable avanzan más despacio que un caracol… ¡pero el empujón llega al instante!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una anguila eléctrica rodeada de chispas.",
+   "escena": "A long dark-green clay electric eel swims in the center of the frame against a dark-blue clay river backdrop, with small yellow clay sparks around its body.",
+   "accion": "The eel swims slowly forward while the small yellow sparks flicker around it.",
+   "narrador": "Y hay animales que fabrican electricidad: la anguila eléctrica puede dar descargas de más de ochocientos voltios.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, una misión de observación. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Unos prismáticos y tres gorriones en un cable.",
+   "imagen": "A small pair of green clay binoculars on the left and three small brown clay sparrows sitting on one black clay cable on the right. Clean empty white space above them.",
+   "narrador": "Desde lejos, cuenta pájaros en los cables. ¿Alguno toca dos cables a la vez?",
+   "rotulos": "Reto en casa · espía de pájaros (¡los cables no se tocan!)"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

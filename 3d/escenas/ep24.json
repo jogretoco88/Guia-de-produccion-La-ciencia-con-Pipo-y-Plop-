@@ -1,0 +1,1240 @@
+{
+ "episodio": 24,
+ "id": "ep24",
+ "titulo": "¿Por qué sale costra cuando te raspas?",
+ "tema": "Costra",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "maqueta_de_rodilla",
+  "vaso_sanguineo_roto_corte",
+  "plaquetas",
+  "globulos_rojos",
+  "red_de_hilos"
+ ],
+ "efectos": [
+  {
+   "es": "Tropezón",
+   "en": "Comic cartoon trip and a soft thud"
+  },
+  {
+   "es": "Plaquetas corriendo",
+   "en": "Quick patter of many tiny feet"
+  },
+  {
+   "es": "La red se teje",
+   "en": "Light stretchy threads being pulled tight"
+  },
+  {
+   "es": "La costra se cae",
+   "en": "Tiny dry flake dropping"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop tropieza con una piedrita y cae.",
+   "escena": "Plop stands on the left of the frame, mid-step, with a small grey clay stone on the floor in front of him.",
+   "accion": "Plop trips over the small stone and tumbles forward onto the floor.",
+   "narrador": "[gasps] ¡Ay! Un tropezón, una caída… y en la rodilla aparece un raspón rojo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "movimientos": [
+    "cae",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el raspón de la rodilla se forma una gotita roja.",
+   "escena": "The knee model stands in the center of the frame, showing the small red scrape.",
+   "accion": "A small red clay drop slowly forms on the scrape.",
+   "narrador": "Sale un poquito de sangre. Arde. Pero espera unos minutos y mira bien lo que pasa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los raspones. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡el cuerpo guarda parches en un bolsillo y los pega cuando hace falta!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se busca el bolsillo y no lo encuentra.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop pats his sides with both paddle arms, searching, and shrugs.",
+   "narrador": "Busquemos el bolsillo… No hay ninguno. Y nadie ha visto jamás un parche guardado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "movimientos": [
+    "cae",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La gotita de sangre se oscurece y se endurece.",
+   "escena": "The knee model stands in the center of the frame, with a small red clay drop on its scrape.",
+   "accion": "The red drop slowly darkens and hardens into a small brown crust.",
+   "narrador": "Y sin embargo, la herida se tapa sola. La sangre deja de salir y aparece una costra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: nadie puso una curita por dentro. ¿Quién tapó la herida?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La rodilla con su costra gira despacio.",
+   "escena": "The knee model stands in the center of the frame, with a small brown crust on it.",
+   "accion": "The knee model turns slowly in place like on a turntable.",
+   "narrador": "¡Buena pregunta! La costra no viene de afuera. La fabrica tu propia sangre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al raspón.",
+   "escena": "The knee model stands in the center of the set.",
+   "accion": "The knee model stays still while the camera glides slowly closer to its scrape.",
+   "narrador": "¿Cómo lo hace? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar la sangre por dentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "vaso_sanguineo_roto_corte"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al vaso sanguíneo roto.",
+   "escena": "The blood vessel model stands in the center of the set.",
+   "accion": "The blood vessel model stays still while the camera glides slowly closer to the small gap at its top.",
+   "narrador": "[excited] ¡Hagamos zoom! Bajo tu piel hay tubitos por donde viaja la sangre. Este se rompió.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "vaso_sanguineo_roto_corte",
+    "globulos_rojos"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los glóbulos rojos corren por el tubo y algunos escapan por la rotura.",
+   "escena": "The blood vessel model fills the frame, with the red blood cells flowing along inside the red tube.",
+   "accion": "The red blood cells flow along the tube and a few of them slip out through the small gap at the top.",
+   "narrador": "Estos discos son glóbulos rojos. Llevan oxígeno a todo tu cuerpo, y ahora se están escapando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "plaquetas"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las plaquetas flotan dando vueltas.",
+   "escena": "A few of the platelets float in the center of the frame.",
+   "accion": "The platelets drift slowly, tumbling over and over.",
+   "narrador": "Pero en la sangre viajan otras piezas, más pequeñas: las plaquetas. Son las primeras en reaccionar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "vaso_sanguineo_roto_corte",
+    "plaquetas"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Las plaquetas corren hacia la rotura y se amontonan en ella.",
+   "escena": "The blood vessel model fills the frame, with the platelets floating along inside the red tube.",
+   "accion": "The platelets rush toward the small gap at the top of the tube and pile up on it.",
+   "narrador": "En cuanto sienten la rotura, corren hacia ella y se pegan al borde. Y unas a otras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "plaquetas",
+    "globulos_rojos"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: glóbulos rojos y plaquetas.",
+   "imagen": "Three of the red blood cells on the left and five of the platelets on the right, evenly lit. Clean empty white space above them.",
+   "narrador": "Glóbulos rojos, que llevan oxígeno, y plaquetas, que tapan agujeros. ¡Recuerda a las plaquetas!",
+   "rotulos": "Glóbulos rojos · Plaquetas"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: ¿y unas piecitas tan chiquitas pueden tapar un agujero ellas solas?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "plaquetas"
+   ],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "A las plaquetas les salen bracitos y se enganchan.",
+   "escena": "A few of the platelets sit together in the center of the frame.",
+   "accion": "The platelets grow small spiky arms and hook onto each other, forming a clump.",
+   "narrador": "Solas no. Pero cambian de forma: les salen bracitos pegajosos y se enganchan como abrojos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: un montoncito así es blando. Hará falta algo que lo amarre."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "plaquetas"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del montón de plaquetas salen hilos blancos que se cruzan.",
+   "escena": "A clump of the platelets sits in the center of the frame, over a small gap in a red clay tube.",
+   "accion": "Thin white clay threads grow out from the clump and cross over each other, one after another.",
+   "narrador": "Exacto. Las plaquetas dan la señal, y en la sangre empiezan a formarse hilos largos y pegajosos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "red_de_hilos"
+   ],
+   "movimientos": [
+    "empuja",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los hilos se tensan y forman una red.",
+   "escena": "The thread net stretches across the center of the frame.",
+   "accion": "The thread net tightens slowly, its threads pulling closer together.",
+   "narrador": "Los hilos se cruzan y tejen una red, justo encima del agujero.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡es como una red de pescar, pero diminuta y dentro de mí!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "globulos_rojos",
+    "red_de_hilos"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La red atrapa a los glóbulos rojos.",
+   "escena": "The thread net stretches across the center of the frame, with the red blood cells drifting toward it from the left.",
+   "accion": "The red blood cells drift into the thread net one by one and get caught in it.",
+   "narrador": "La red atrapa a los glóbulos rojos que intentan salir. Se amontonan y forman un tapón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "vaso_sanguineo_roto_corte",
+    "globulos_rojos"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Con la rotura tapada, la sangre vuelve a circular por dentro.",
+   "escena": "The blood vessel model fills the frame, with a dark-red clay plug covering the small gap at the top.",
+   "accion": "The red blood cells inside the tube flow smoothly past the plug, staying inside the tube.",
+   "narrador": "Ese tapón se llama coágulo. Cierra la fuga, y la sangre vuelve a circular por dentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y el tapón se queda blando y rojo para siempre?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El tapón de la rodilla se seca y se vuelve marrón.",
+   "escena": "The knee model stands in the center of the frame, with a small dark-red clay plug on its scrape.",
+   "accion": "The dark-red plug slowly dries, turning brown and hard.",
+   "narrador": "No. Por fuera, el aire lo seca y lo endurece. Así nace la costra: un coágulo seco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bajo la costra, la piel nueva crece desde los bordes.",
+   "escena": "A cross-section of peach clay skin fills the frame, with a brown clay crust on top covering a small gap in the skin.",
+   "accion": "New pale-pink clay skin grows slowly across the gap under the brown crust, from both sides toward the middle.",
+   "narrador": "Y debajo de ese techo, a salvo de los microbios, tu piel empieza a fabricarse de nuevo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop duda si rascarse.",
+   "escena": "Plop stands facing the camera, with one paddle arm hovering near his side.",
+   "accion": "Plop's paddle arm moves slowly toward his side and stops, trembling, again and again.",
+   "narrador": "Y entonces pica. Pica mucho. Dan ganas de arrancarla… ¿Qué pasaría si lo haces?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sin costra, la herida vuelve a sangrar.",
+   "escena": "A cross-section of peach clay skin fills the frame, with a small gap in it and a thin layer of pale-pink new skin half covering the gap.",
+   "accion": "A small red clay drop slowly wells up in the uncovered part of the gap.",
+   "narrador": "Se rompe la piel nueva, vuelve a sangrar y todo empieza otra vez. Y puede quedar una marca.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "La costra se despega sola y deja piel rosada.",
+   "escena": "The knee model stands in the center of the frame, with a small brown crust on it.",
+   "accion": "The brown crust loosens at the edges and falls off, leaving smooth pink skin underneath.",
+   "narrador": "Si la dejas tranquila, un día se cae sola. Y debajo aparece piel rosadita, recién estrenada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente, orgulloso.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop looks down at his side and gives a slow, proud nod.",
+   "narrador": "Lavar la herida con agua y jabón ayuda mucho. Lo demás, lo hace tu cuerpo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No había parches en un bolsillo, Pipo. La sangre fabrica su propio tapón, con plaquetas e hilos."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: la herida la taparon tus plaquetas."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: las plaquetas, la red con glóbulos y la costra.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: tiny yellow clay discs piled on a gap in a red clay tube; a net of thin white clay threads holding small red clay discs; and a brown clay crust on peach clay skin. Clean empty white space above each one.",
+   "narrador": "Repasemos: las plaquetas tapan el agujero, una red de hilos atrapa la sangre, y el tapón se seca en costra.",
+   "rotulos": "1 Plaquetas · 2 Red de hilos · 3 Costra"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un moretón cambia de morado a verde y a amarillo.",
+   "escena": "A rounded peach clay knee stands in the center of the frame, with a purple clay patch under its surface.",
+   "accion": "The purple patch slowly changes color, from purple to green to yellow.",
+   "narrador": "[curious] Dato extra: un moretón es sangre que se escapó, pero por dentro. No tiene por dónde salir.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Unas células blancas se comen la mancha del moretón.",
+   "escena": "A yellow-green clay patch lies under the surface of a peach clay skin block, with small white clay cells with dot eyes around it.",
+   "accion": "The small white cells nibble the yellow-green patch, making it slowly smaller.",
+   "narrador": "Tu cuerpo la limpia poco a poco. Por eso cambia de morado a verde, y luego a amarillo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "La próxima vez que te raspes, conviértete en científico. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_de_rodilla"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "La rodilla con su costra, junto a un lápiz y un cuaderno.",
+   "imagen": "The knee model with a small brown crust on it, next to a clay pencil and a small white clay notebook. Clean empty white space above them.",
+   "narrador": "Dibuja tu costra cada dos días. ¿Cuánto tarda en caerse sola?",
+   "rotulos": "Reto en casa · diario de una costra"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

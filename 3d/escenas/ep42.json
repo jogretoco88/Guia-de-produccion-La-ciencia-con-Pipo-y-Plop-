@@ -1,0 +1,1227 @@
+{
+ "episodio": 42,
+ "id": "ep42",
+ "titulo": "¿Cómo ven los murciélagos en la oscuridad?",
+ "tema": "Murciélagos",
+ "categoria": "an",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "terrario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "murcielago",
+  "ondas_de_sonido",
+  "polilla"
+ ],
+ "efectos": [
+  {
+   "es": "Aleteo",
+   "en": "Soft leathery wings flapping"
+  },
+  {
+   "es": "Chirridos",
+   "en": "High-pitched bat squeaks"
+  },
+  {
+   "es": "Eco",
+   "en": "Single clap echoing in a big empty room"
+  },
+  {
+   "es": "Noche",
+   "en": "Quiet night ambience with crickets"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Un murciélago vuela de noche.",
+   "escena": "A dark-blue clay night sky backdrop with a small yellow clay moon fills the set, with the bat flying in the center.",
+   "accion": "The bat flaps its wings and flies in a slow loop across the night sky.",
+   "narrador": "[whispers] Es de noche, está oscurísimo… y algo vuela a toda velocidad sin chocar con nada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "murcielago",
+    "polilla"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El murciélago persigue una polilla.",
+   "escena": "The bat flies on the left of the frame and the moth flutters on the right, against a dark-blue clay night sky backdrop.",
+   "accion": "The bat swoops quickly toward the moth and the moth flutters away just in time.",
+   "narrador": "[excited] ¡Un murciélago! Caza insectos diminutos en plena oscuridad. ¿Cómo los encuentra?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los murciélagos. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los murciélagos son ratones que aprendieron a volar!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "Una mamá murciélago abraza a su cría.",
+   "escena": "The bat hangs upside down from a brown clay branch in the center of the frame, with a tiny baby bat holding onto its chest.",
+   "accion": "The bat wraps its wings gently around the tiny baby bat.",
+   "narrador": "No son ratones, pero sí mamíferos, como tú: las mamás murciélago dan leche a sus crías.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una fila de bloques de colores y un ratón.",
+   "escena": "A row of blank colorful clay blocks stretches across the center of the frame, with a small grey clay mouse sitting at one end.",
+   "accion": "The blocks hop up one after another, from left to right.",
+   "narrador": "Su nombre viene de ratón ciego. ¡Y se equivoca dos veces: no son ratones, y ven bastante bien!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si ven bien… ¿cómo ven a un mosquito en una noche sin luna?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira las orejas del murciélago.",
+   "escena": "Plop stands beside the bat, which hangs upside down from a brown clay branch at his height.",
+   "accion": "Plop leans in slowly and looks closely at the bat's big ears.",
+   "narrador": "Plop se fija en algo: ¡qué orejas tan grandes! Para cazar de noche, quizá no usa los ojos…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La cámara se acerca a las orejas.",
+   "escena": "The bat hangs alone upside down from a brown clay branch in the center of the set.",
+   "accion": "The bat stays still while the camera glides slowly closer to its big ears.",
+   "narrador": "¿Para qué querrá esas orejas? ¿Tú qué crees? Piénsalo… ¡Vamos a escuchar como un murciélago!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago",
+    "ondas_de_sonido"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Zoom: el murciélago lanza ondas de sonido.",
+   "escena": "The bat flies in the center of the frame against a dark-blue clay night sky backdrop.",
+   "accion": "The sound arcs spread slowly outward from the bat's snout, one after another.",
+   "narrador": "[excited] ¡Hagamos zoom! Mientras vuela, el murciélago lanza grititos muy agudos, uno tras otro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "ondas_de_sonido",
+    "polilla"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Las ondas chocan con la polilla y rebotan.",
+   "escena": "The moth flutters on the right side of the frame, with the sound arcs traveling toward it from the left, against a dark-blue clay night sky backdrop.",
+   "accion": "The sound arcs reach the moth and bounce back toward the left.",
+   "narrador": "El sonido choca con lo que hay delante y rebota: un eco, como al gritar en una montaña.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago",
+    "ondas_de_sonido"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El eco vuelve a las orejas del murciélago.",
+   "escena": "The bat flies on the left side of the frame, with the sound arcs coming back toward its big ears, against a dark-blue clay night sky backdrop.",
+   "accion": "The returning sound arcs reach the bat's big ears and the ears twitch.",
+   "narrador": "Sus orejas enormes escuchan el eco. Por cómo vuelve, sabe dónde está el insecto y cómo se mueve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita escucha la noche con la mano en la oreja.",
+   "escena": "A small clay figure stands in the center of the frame with one hand cupped behind its ear, under a dark-blue clay night sky.",
+   "accion": "The figure tilts its head slowly from side to side, listening.",
+   "narrador": "Nosotros no oímos esos grititos: son demasiado agudos para nuestras orejas. ¡La noche está llena de gritos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "murcielago",
+    "ondas_de_sonido",
+    "polilla"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: grito, eco y orejas.",
+   "imagen": "The bat on the left, the moth on the right and the sound arcs between them. Clean empty white space above them.",
+   "narrador": "Grito agudo, eco que rebota, orejas que escuchan: así ve con los oídos.",
+   "rotulos": "Grito → eco → orejas · Ver con los oídos"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop da una palmada en una sala vacía y escucha.",
+   "escena": "Plop stands alone in a big empty pale-grey clay room.",
+   "accion": "Plop claps his paddle arms together once and tilts his head, listening.",
+   "narrador": "Se llama ecolocalización: ¡ver con los oídos! Tan precisa que esquiva hasta un hilo fino.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El murciélago esquiva hilos colgados.",
+   "escena": "Several thin white clay threads hang down from the top of the frame against a dark-blue clay night sky backdrop, with the bat flying toward them.",
+   "accion": "The bat weaves smoothly between the hanging threads without touching any.",
+   "narrador": "Los científicos colgaron hilos en una habitación oscura… y los murciélagos los esquivaban todos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿ver con los oídos? ¡Eso es un superpoder!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: y para volar así, sus alas deben ser muy especiales…"
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El ala abierta: dedos largos bajo la piel.",
+   "escena": "The bat hangs with one wing stretched wide open in the center of the frame, showing long thin finger bones under the skin.",
+   "accion": "The long finger bones in the wing slowly open and close like a hand.",
+   "narrador": "¡Lo son! Su ala es una mano: dedos larguísimos unidos por una piel finita.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡vuelan aleteando con las manos!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Una ardilla planea y el murciélago aletea.",
+   "escena": "A small clay flying squirrel with skin flaps glides on the left of the frame and the bat flies on the right, against a pale-blue clay sky backdrop.",
+   "accion": "The squirrel glides slowly downward while the bat flaps its wings and flies upward.",
+   "narrador": "Son los únicos mamíferos que vuelan de verdad. Otros, como la ardilla voladora, solo planean.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y no se marean durmiendo boca abajo todo el día?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El murciélago duerme colgado.",
+   "escena": "The bat hangs upside down from a brown clay branch in the center of the frame, its wings folded.",
+   "accion": "The bat's small feet grip the branch while it sways gently, asleep.",
+   "narrador": "¡Qué va! Sus patas se quedan enganchadas solas, sin esfuerzo. Así pueden dormir colgados tranquilamente.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "murcielago"
+   ],
+   "movimientos": [
+    "cae",
+    "revienta"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El murciélago se suelta y echa a volar.",
+   "escena": "The bat hangs upside down from a brown clay branch in the center of the frame.",
+   "accion": "The bat lets go of the branch, drops a little and opens its wings to fly away.",
+   "narrador": "Y para despegar, solo tienen que soltarse y abrir las alas. ¡Como un paracaidista!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Insectos revolotean alrededor de una farola.",
+   "escena": "Many small grey clay moths and mosquitoes flutter around a glowing yellow clay street lamp in the center of the frame, against a dark-blue clay night sky.",
+   "accion": "The small insects flutter slowly around the lamp.",
+   "narrador": "Y nos ayudan muchísimo: un solo murciélago puede comerse cientos de insectos en una noche.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop, con los ojos tapados, tantea con los brazos.",
+   "escena": "Plop stands facing the camera with a soft red clay blindfold over his eyes.",
+   "accion": "Plop slowly holds out his paddle arms in front of him, as if feeling his way.",
+   "narrador": "Plop tiene una idea: ¿y si jugamos a ser murciélagos, con los ojos tapados?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un niño con los ojos tapados sigue las palmadas de otro.",
+   "escena": "Two small clay children stand in a green clay garden in the center of the frame: one wears a red clay blindfold and the other claps.",
+   "accion": "The blindfolded child turns slowly toward the clapping child.",
+   "narrador": "[excited] Con los ojos tapados, eres el murciélago. Los demás dan palmadas y tú las sigues con el oído.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un delfín lanza ondas de sonido bajo el agua.",
+   "escena": "A grey clay dolphin swims in the center of the frame against a dark-blue clay underwater backdrop, with pale-yellow clay sound arcs spreading from its head.",
+   "accion": "The dolphin swims slowly forward while the sound arcs spread out ahead of it.",
+   "narrador": "Los delfines usan el mismo truco bajo el agua. ¡Y algunas personas ciegas aprenden a hacerlo con chasquidos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente y sonríe.",
+   "escena": "Plop stands facing the camera against a dark-blue clay night sky backdrop.",
+   "accion": "Plop nods slowly and smiles.",
+   "narrador": "Los murciélagos no dan miedo cuando los conoces: son pilotos nocturnos con superoídos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No son ratones, Pipo. Son mamíferos voladores, con alas que en realidad son manos."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: lanzan grititos y escuchan el eco. ¡Ven con los oídos!"
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: grito, eco que rebota en la polilla y orejas que escuchan.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a brown clay bat with pale-yellow clay sound arcs coming from its snout; pale-yellow clay sound arcs bouncing off a small grey clay moth; and a brown clay bat with big ears and arcs coming back to it. Clean empty white space above each one.",
+   "narrador": "Repasemos: el murciélago lanza un grito agudo, el eco rebota, y sus orejas encuentran al insecto.",
+   "rotulos": "1 Grito agudo · 2 Eco que rebota · 3 ¡Insecto encontrado!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un murciélago bebe néctar de una flor.",
+   "escena": "A small brown clay bat hovers in front of a big pale-cream clay flower in the center of the frame, against a dark-blue clay night sky backdrop.",
+   "accion": "The bat dips its snout gently into the flower and yellow clay pollen dusts its face.",
+   "narrador": "[curious] Dato extra: algunos murciélagos beben néctar y polinizan flores, como las del agave.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Cinco mamíferos en fila; el último es un murciélago.",
+   "escena": "Five small clay mammals stand in a row in the center of the frame: a mouse, a rabbit, a fox, a deer and a brown bat hanging from a small clay perch.",
+   "accion": "The small bat at the end of the row flaps its wings while the others stay still.",
+   "narrador": "Y hay más de mil cuatrocientas especies: ¡uno de cada cinco tipos de mamífero es un murciélago!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un juego para la noche. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una venda roja y unas manos que dan palmadas.",
+   "imagen": "A soft red clay blindfold on the left and two small clay hands clapping on the right. Clean empty white space above them.",
+   "narrador": "Juega al murciélago: ojos tapados y sigue las palmadas. ¿Encuentras a todos?",
+   "rotulos": "Reto en casa · juega al murciélago"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

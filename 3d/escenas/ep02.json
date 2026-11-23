@@ -1,0 +1,1271 @@
+{
+ "episodio": 2,
+ "id": "ep02",
+ "titulo": "¿Por qué el jabón quita la grasa y el agua no?",
+ "tema": "Jabón",
+ "categoria": "ca",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "casa",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "mancha_de_grasa",
+  "pieza_de_jabon_cabeza_y_cola",
+  "gota_de_agua",
+  "micela_grasa_envuelta_en_jabon"
+ ],
+ "efectos": [
+  {
+   "es": "Gota que rebota",
+   "en": "Small water drop bouncing off a surface, cartoon boing"
+  },
+  {
+   "es": "Frotar con espuma",
+   "en": "Soapy scrubbing with foamy bubbles"
+  },
+  {
+   "es": "Piezas de jabón rodando",
+   "en": "Many small marbles rolling on a wooden table"
+  },
+  {
+   "es": "El agua se lleva la micela",
+   "en": "Short gentle stream of water rinsing"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mancha_de_grasa",
+    "gota_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Gotas de agua rebotan en la mancha de grasa de Plop.",
+   "escena": "Plop stands facing the camera with the grease blob stuck on his belly.",
+   "accion": "Blue clay water drops fall one by one onto the grease blob and bounce off it, while the blob stays stuck.",
+   "narrador": "[gasps] ¡Ups! Plop tiene una mancha de grasa. Y el agua sola… no le hace ni cosquillas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa",
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "tiembla",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una pieza de jabón toca la grasa y la hace temblar.",
+   "escena": "The grease blob sits in the center of the frame.",
+   "accion": "One pink soap piece rolls in slowly from the right and bumps into the grease blob, which wobbles.",
+   "narrador": "Pero con jabón, la grasa se rinde enseguida. ¿Qué tiene el jabón que no tenga el agua?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: el jabón gana porque huele rico, ¡y la grasa huye del perfume!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una flor se mece junto a la grasa, que no se inmuta.",
+   "escena": "The grease blob sits next to a small clay flower with red petals and a yellow center.",
+   "accion": "The clay flower sways gently from side to side, while the grease blob stays completely still.",
+   "narrador": "Probemos: una flor también huele rico… y la grasa ni se mueve. No es el olor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mancha_de_grasa"
+   ],
+   "movimientos": [
+    "gira",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop frota la mancha con las dos manoplas; sigue ahí.",
+   "escena": "Plop stands facing the camera with the grease blob stuck on his belly and both paddle arms resting on it.",
+   "accion": "Plop rubs the grease blob in circles with both paddle arms, again and again, while the blob stays stuck.",
+   "narrador": "¿Y frotar con más fuerza? Tampoco: la grasa solo se embarra más.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿por qué el agua ni siquiera se queda sobre la grasa? ¡Se resbala!"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa",
+    "gota_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "La gota se acerca a la grasa, se frena y retrocede.",
+   "escena": "The grease blob sits on the left and one water drop stands on the right, with a clear gap between them.",
+   "accion": "The water drop slides toward the grease blob, stops just before touching it and backs away, again and again.",
+   "narrador": "Buena observación. El agua y la grasa son como dos equipos que jamás se dan la mano.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a una pieza de jabón.",
+   "escena": "One pink soap piece stands alone in the center of the set.",
+   "accion": "The soap piece stays still while the camera glides slowly closer to it.",
+   "narrador": "Entonces, ¿cómo logra el jabón juntarlos? ¿Tú qué crees? Piénsalo… ¡Vamos a mirarlo de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El jabón mueve la cola como un renacuajo.",
+   "escena": "One pink soap piece fills the frame, its round head on the left and its yellow tail on the right.",
+   "accion": "The soap piece wiggles its yellow tail gently from side to side, like a tadpole.",
+   "narrador": "[excited] ¡Hagamos zoom! Esto es un pedacito de jabón, tan pequeño que ningún ojo puede verlo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El jabón gira despacio: cabeza y cola.",
+   "escena": "One pink soap piece stands in the center of the frame.",
+   "accion": "The soap piece turns slowly in place like on a turntable, showing its round head and its tail.",
+   "narrador": "Parece un renacuajo: tiene una cabeza redonda y una cola. Y cada parte quiere algo distinto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola",
+    "gota_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cabeza rosa se pega a la gota de agua.",
+   "escena": "One pink soap piece stands on the left and one water drop on the right.",
+   "accion": "The soap piece slides toward the water drop and presses its pink head against it, snuggling.",
+   "narrador": "A la cabeza le encanta el agua. Siempre quiere estar pegada a ella.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa",
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cola amarilla se clava en la grasa.",
+   "escena": "One pink soap piece stands on the left with its yellow tail pointing toward the grease blob on the right.",
+   "accion": "The soap piece backs up slowly and pushes its yellow tail deep into the grease blob.",
+   "narrador": "La cola es al revés: huye del agua y adora la grasa. ¡Corre a esconderse en ella!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina del jabón: cabeza y cola.",
+   "imagen": "One large pink soap piece lies centered, its round pink head on the left and its yellow tail on the right, evenly lit. Wide clean empty white space above and below it.",
+   "narrador": "Cabeza amiga del agua, cola amiga de la grasa. ¡Ese es su secreto!",
+   "rotulos": "Cabeza: ama el agua · Cola: ama la grasa"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo resume a su manera: ¡el jabón es amigo de los dos equipos!"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa",
+    "pieza_de_jabon_cabeza_y_cola",
+    "gota_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "crece",
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Grasa, jabón y agua forman una cadena que se estira sin romperse.",
+   "escena": "The grease blob sits on the left, one pink soap piece in the middle with its yellow tail stuck in the blob, and one water drop on the right touching the pink head.",
+   "accion": "The water drop pulls gently to the right and the whole chain stretches and wobbles, staying in one piece.",
+   "narrador": "¡Exacto! Con una mano agarra la grasa y con la otra agarra el agua. Es un puente.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mancha_de_grasa"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira su mancha y luego a cámara, dudando.",
+   "escena": "Plop faces the camera with the grease blob stuck on his belly.",
+   "accion": "Plop looks down at the grease blob and slowly back up at the camera, tilting his head.",
+   "narrador": "Plop quiere saber más: un solo jabón es muy chiquito. ¿Cómo mueve una mancha tan grande?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa",
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Muchas piezas de jabón ruedan hacia la grasa.",
+   "escena": "The grease blob sits alone in the center of the set.",
+   "accion": "Many small pink soap pieces roll in slowly from both sides toward the grease blob.",
+   "narrador": "Respuesta: nunca viene uno solo. En una gota de jabón hay millones y millones.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mancha_de_grasa",
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las colas se clavan en la grasa, una tras otra.",
+   "escena": "The grease blob fills the center of the frame with several pink soap pieces gathered around it, their tails pointing at the blob.",
+   "accion": "The soap pieces push their yellow tails into the grease blob, one after another.",
+   "narrador": "Todas las colas hacen lo mismo: se clavan en la grasa para esconderse del agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "T",
+    "es": "Cenital fijo",
+    "focal": 35,
+    "altura": "encima, mirando hacia abajo",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "micela_grasa_envuelta_en_jabon"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Desde arriba: el anillo de jabón se cierra alrededor de la grasa.",
+   "escena": "Seen from above, the grease blob sits in the center with pink soap pieces around most of it, their tails stuck in the blob, and one open gap in the ring.",
+   "accion": "The last pink soap pieces slide into the gap until the ring around the grease blob is complete.",
+   "narrador": "Poco a poco la rodean por completo, como un equipo abrazando un balón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "micela_grasa_envuelta_en_jabon"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La micela gira despacio.",
+   "escena": "The micelle ball stands in the center of the frame.",
+   "accion": "The micelle ball turns slowly in place like on a turntable.",
+   "narrador": "Mira cómo quedó: la grasa atrapada en el centro y las cabezas mirando hacia afuera.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P5",
+    "nombre": "Impresionado",
+    "direccion": "Pipo nods slowly, impressed, and gently claps his paddle arms together."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Oooh… ¡tiba!",
+    "intencion": "Impresionado",
+    "etiqueta": "[gasps]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo asiente despacio y aplaude con las manoplas.",
+   "narrador": "[laughs] Pipo dice que parece una pelota con peinado de bolitas. Los científicos la llaman micela."
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "micela_grasa_envuelta_en_jabon"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las cabezas rosas de la micela se menean alegres.",
+   "escena": "The micelle ball fills the frame.",
+   "accion": "The pink heads on the outside of the micelle ball wiggle cheerfully, again and again.",
+   "narrador": "Y la micela tiene un superpoder: por fuera ya no parece grasa. ¡Parece amiga del agua!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_agua",
+    "micela_grasa_envuelta_en_jabon"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las gotas de agua llegan y se pegan a las cabezas.",
+   "escena": "The micelle ball sits in the center of the frame.",
+   "accion": "Blue water drops slide in from both sides, one by one, and stick to the pink heads of the micelle ball.",
+   "narrador": "Así que cuando llega el agua, se agarra de todas esas cabezas…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_agua",
+    "micela_grasa_envuelta_en_jabon"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El agua se lleva la micela rodando fuera de cuadro.",
+   "escena": "The micelle ball sits in the center of the set with blue water drops stuck all around it.",
+   "accion": "The water drops roll away to the right, carrying the micelle ball with them until it leaves the frame.",
+   "narrador": "…y se lleva la micela rodando, con la grasa encerrada adentro. ¡Adiós, mancha!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mancha_de_grasa"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira su panza con esperanza.",
+   "escena": "Plop faces the camera with the grease blob stuck on his belly.",
+   "accion": "Plop looks down at the grease blob and wiggles with hope.",
+   "narrador": "Plop mira su panza… ¿Funcionará de verdad? ¡Hay que comprobarlo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mancha_de_grasa",
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "gira",
+    "empuja",
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se frota con jabón: las piezas rodean la mancha.",
+   "escena": "Plop stands facing the camera with the grease blob stuck on his belly and a few pink soap pieces on it.",
+   "accion": "Plop rubs his belly in circles with one paddle arm, while the pink soap pieces gather around the grease blob.",
+   "narrador": "Primero, jabón. Hay que frotar bien para que las colas encuentren toda la grasa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "gota_de_agua",
+    "micela_grasa_envuelta_en_jabon"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Cae el agua y la mancha, envuelta en jabón, se desliza y se va.",
+   "escena": "Plop stands facing the camera with the micelle ball stuck on his belly.",
+   "accion": "Blue water drops fall onto Plop's belly and the micelle ball slides off and rolls away out of frame.",
+   "narrador": "Ahora, agua. Y mira: la grasa ya no se resbala… ¡se va con ella!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop, limpio, se da palmaditas en la panza.",
+   "escena": "Plop stands facing the camera, perfectly clean.",
+   "accion": "Plop pats his clean belly with both paddle arms and bounces happily.",
+   "narrador": "[excited] ¡Panza limpia! El jabón no destruyó la grasa: la envolvió para que el agua se la llevara.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era el perfume, Pipo. Era un puente de millones de renacuajos entre la grasa y el agua."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y tu pregunta, Plop, ya tiene respuesta: el agua sola resbala; con jabón, por fin puede agarrar."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la cola en la grasa, la micela y el agua que se la lleva.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a pink clay ball with a yellow peg stuck into a small brown clay blob; a brown clay blob fully ringed by pink clay balls; and the same ringed blob with blue clay drops stuck around it. Clean empty white space above each one.",
+   "narrador": "Repasemos: cola en la grasa, cabeza en el agua, y la micela se va rodando.",
+   "rotulos": "1 La cola se clava · 2 La micela envuelve · 3 El agua se la lleva"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Piezas de jabón clavan sus colas en el abrigo de un microbio.",
+   "escena": "A round purple clay germ wrapped in a thin yellow clay coat sits in the center of the frame.",
+   "accion": "Pink soap pieces roll in slowly from both sides and poke their yellow tails into the germ's yellow coat.",
+   "narrador": "[curious] Dato extra: muchos microbios llevan un abrigo de grasa. ¿Adivinas qué les hace el jabón?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon_cabeza_y_cola"
+   ],
+   "movimientos": [
+    "cae",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "El abrigo se rompe en pedazos y el microbio se desinfla.",
+   "escena": "A round purple clay germ in a thin yellow clay coat sits in the center of the frame, with pink soap pieces stuck all over the coat.",
+   "accion": "The yellow coat breaks into small pieces that fall away, and the purple germ slowly slumps flat.",
+   "narrador": "¡Les desarma el abrigo! Por eso lavarte las manos con jabón te protege de enfermarte.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Pero el jabón necesita tiempo para rodear toda la grasa. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un reloj y burbujas de jabón.",
+   "imagen": "A simple round white clay clock face with a single red hand, next to a small pile of pink clay soap bubbles. Clean empty white space on the right side.",
+   "narrador": "Frota tus manos con jabón veinte segundos. ¿Qué canción te alcanza para cantar?",
+   "rotulos": "Reto en casa · 20 segundos de jabón"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

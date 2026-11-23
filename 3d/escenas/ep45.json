@@ -1,0 +1,1223 @@
+{
+ "episodio": 45,
+ "id": "ep45",
+ "titulo": "¿Cuánto pesa una nube y por qué no se cae?",
+ "tema": "Nubes",
+ "categoria": "ci",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "nube",
+  "gotitas_de_nube",
+  "frasco_de_la_nube"
+ ],
+ "efectos": [
+  {
+   "es": "Viento suave",
+   "en": "Gentle breeze"
+  },
+  {
+   "es": "Lluvia",
+   "en": "Soft rain starting"
+  },
+  {
+   "es": "Trueno lejano",
+   "en": "Distant soft thunder"
+  },
+  {
+   "es": "Vapor",
+   "en": "Soft hiss of steam"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "nube"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube pasa sobre las colinas.",
+   "escena": "The cloud floats in a pale-blue clay sky above green clay hills in the center of the set.",
+   "accion": "The cloud drifts slowly from left to right across the sky.",
+   "narrador": "[curious] Mira esa nube: blanda, esponjosa, ligera como una pluma… ¿o no?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube en una balanza equilibra una fila de elefantes.",
+   "escena": "A giant white clay balance scale stands in the center of the frame, with a small fluffy white clay cloud on one plate and a row of small grey clay elephants on the other.",
+   "accion": "The scale slowly settles perfectly level.",
+   "narrador": "[surprised] ¡Una nube normalita pesa como cien elefantes! ¿Y cómo no se cae del cielo?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop mira hacia arriba. Hoy descubrimos cómo flota algo tan pesado."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las nubes son de algodón, y el algodón flota!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita de algodón cae despacio al césped.",
+   "escena": "A small white clay cotton ball floats in the air in the center of the frame, against a pale-blue clay sky.",
+   "accion": "The cotton ball drifts slowly downward and lands on green clay grass.",
+   "narrador": "El algodón también se cae al suelo, solo que despacito. Y las nubes no son de algodón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo agita la manopla entre la niebla.",
+   "escena": "Pipo stands in the center of the set, surrounded by soft white clay fog wisps.",
+   "accion": "Pipo waves one paddle arm slowly through the white fog wisps.",
+   "narrador": "Si has caminado entre niebla, ya has tocado una: la niebla es una nube a ras del suelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: y si la niebla moja… ¿las nubes están hechas de agua?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira su manopla mojada.",
+   "escena": "Pipo stands among soft white clay fog wisps, looking at one of his paddle arms covered in tiny clay water droplets.",
+   "accion": "Pipo slowly lifts his wet paddle arm and shakes off a few tiny droplets.",
+   "narrador": "Pipo tiene la manopla mojadita. ¡Buena pista! Pero el agua pesa… y aun así, la nube flota.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "nube"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la nube.",
+   "escena": "The cloud floats alone in a pale-blue clay sky in the center of the set.",
+   "accion": "The cloud stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué hay dentro de una nube? ¿Tú qué crees? Piénsalo… ¡Vamos a meternos dentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gotitas_de_nube"
+   ],
+   "movimientos": [
+    "flota",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: gotitas diminutas flotando.",
+   "escena": "The cloud droplets fill the frame, floating far apart against a pale-white backdrop.",
+   "accion": "The tiny droplets drift gently in place, barely moving.",
+   "narrador": "[excited] ¡Hagamos zoom! Una nube son millones de gotitas diminutas, más pequeñas que un grano de arena.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gotitas_de_nube"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una gotita crece alrededor de una mota de polvo.",
+   "escena": "One of the cloud droplets fills the center of the frame, with its tiny brown dust speck inside.",
+   "accion": "The droplet slowly grows a little bigger around the dust speck.",
+   "narrador": "Cada una nació alrededor de una motita de polvo, sal del mar o humo. ¡Un corazón de polvo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "gira",
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El aire caliente sube y arriba se vuelve nubecitas.",
+   "escena": "Soft pale-orange clay wisps rise from green clay ground toward a pale-blue clay sky in the center of the frame.",
+   "accion": "The pale-orange wisps rise slowly and turn into small white clay puffs as they get higher.",
+   "narrador": "El aire caliente sube con vapor invisible. Arriba hace más frío, y el vapor se convierte en gotitas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un vaso con hielo se llena de gotitas por fuera.",
+   "escena": "A tall clear clay glass with ice cubes and pale-blue water stands on a white clay table in the center of the frame.",
+   "accion": "Tiny clay water droplets slowly appear on the outside of the glass.",
+   "narrador": "Pasa lo mismo en un vaso con hielo: el frío convierte el vapor del aire en gotitas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "gotitas_de_nube"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el aire sube, se enfría y forma gotitas.",
+   "imagen": "The cloud droplets in the center, each with a tiny dust speck inside, with a few pale-orange clay wisps rising from below. Clean empty white space above them.",
+   "narrador": "Aire caliente que sube, se enfría, y el vapor forma gotitas alrededor del polvo.",
+   "rotulos": "Sube → se enfría → gotitas alrededor del polvo"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gotitas_de_nube"
+   ],
+   "movimientos": [
+    "flota",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El aire que sube empuja las gotitas hacia arriba.",
+   "escena": "The cloud droplets fill the frame, with soft pale-orange clay wisps rising from the bottom of the frame.",
+   "accion": "The tiny droplets drift slightly downward and the rising wisps push them gently back up.",
+   "narrador": "Son tan chiquitas que caen lentísimo. Y el aire que sube desde abajo las vuelve a empujar arriba.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube enorme sobre un elefante diminuto.",
+   "escena": "A huge fluffy white clay cloud floats in the center of the frame, with a tiny grey clay elephant standing on a green clay hill far below it.",
+   "accion": "The huge cloud drifts slowly while the tiny elephant flaps its ears.",
+   "narrador": "Los cien elefantes de agua están repartidos en un espacio gigantesco, más grande que muchos estadios.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: y el aire de debajo de la nube… ¡pesa todavía mucho más!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la balanza, el bloque de aire pesa más que la nube.",
+   "escena": "A giant white clay balance scale stands in the center of the frame, with a fluffy white clay cloud on one plate and a much bigger pale-blue clay block of air on the other.",
+   "accion": "The scale slowly tips down on the side of the big air block.",
+   "narrador": "¡Exacto! El aire que ocupa ese mismo espacio pesa muchísimo más que todas sus gotitas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las gotitas chocan y forman una gota grande.",
+   "escena": "Many tiny clear clay droplets drift together in the center of the frame against a grey clay backdrop.",
+   "accion": "The tiny droplets bump into each other and slowly merge into one big round drop.",
+   "narrador": "¿Cuándo llueve? Cuando las gotitas chocan y se juntan: un millón hacen una gota de lluvia.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡las gotitas juegan a juntarse hasta que pesan demasiado!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube gris oscura deja caer lluvia.",
+   "escena": "A big dark-grey clay rain cloud floats in the center of the frame against a pale-grey clay sky, with a few blue clay raindrops falling from it.",
+   "accion": "The blue raindrops fall slowly from the dark cloud.",
+   "narrador": "Las nubes de lluvia son grises: tienen tantas gotas que la luz del sol casi no las atraviesa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y si una nube de cien elefantes se cae de golpe?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube llueve suave sobre un pueblito.",
+   "escena": "A white clay cloud floats above a small clay town in the center of the frame, with soft blue clay rain falling gently from it.",
+   "accion": "The soft rain falls gently from the cloud onto the town.",
+   "narrador": "Tranquilo: nunca cae entera. Se va vaciando gota a gota, en forma de lluvia o de nieve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Nubes altas y finas como plumas.",
+   "escena": "Thin wispy white clay clouds stretch high across a deep-blue clay sky in the center of the frame.",
+   "accion": "The thin wispy clouds drift slowly across the sky.",
+   "narrador": "Las nubes más altas, finas como plumas, no son de gotitas: son de cristalitos de hielo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita echa vaho en la nieve.",
+   "escena": "A small clay figure in a red winter hat stands on white clay snow in the center of the frame.",
+   "accion": "A small puff of white clay mist appears in front of the figure's face and fades away.",
+   "narrador": "Y tú puedes fabricar una mininube: en un día frío, sopla. ¡Ese vaho es una nube diminuta!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "frasco_de_la_nube"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira el frasco: tiene una idea.",
+   "escena": "Pipo stands facing the camera beside the cloud jar, which sits on a white clay table at his height.",
+   "accion": "Pipo looks at the cloud jar and slowly raises one paddle arm.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿y si fabricamos una nube dentro de un frasco?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frasco_de_la_nube"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Vapor que sube dentro del frasco.",
+   "escena": "The cloud jar sits on a white clay table in the center of the frame.",
+   "accion": "Soft pale-blue clay wisps of steam rise slowly inside the jar toward the plate.",
+   "narrador": "[excited] Con ayuda de un adulto: agua caliente en un frasco, y encima un plato con hielo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frasco_de_la_nube"
+   ],
+   "movimientos": [
+    "gira",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Se forma una nubecita bajo el plato.",
+   "escena": "The cloud jar sits on a white clay table in the center of the frame.",
+   "accion": "A small swirling white clay cloud slowly forms inside the jar, just under the plate.",
+   "narrador": "El vapor sube, choca con el frío del hielo… ¡y se forma una nube dentro del frasco!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente con asombro.",
+   "escena": "Pipo stands facing the camera against a pale-blue clay sky backdrop.",
+   "accion": "Pipo nods slowly with wide, amazed eyes.",
+   "narrador": "Las nubes no son algodón: son agua en gotitas tan pequeñas que el aire las sostiene.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No son de algodón, Pipo. Son millones de gotitas de agua, tan chiquitas que flotan."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: el peso está repartido en gotitas, y el aire las sostiene."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: aire que sube, gotitas y nube flotando.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: pale-orange clay wisps rising from green clay ground; tiny clear clay droplets with brown dust specks inside; and a fluffy white clay cloud floating in a pale-blue sky. Clean empty white space above each one.",
+   "narrador": "Repasemos: el aire sube y se enfría, el vapor forma gotitas, y son tan chiquitas que flotan.",
+   "rotulos": "1 El aire sube y se enfría · 2 Gotitas · 3 ¡Flotan!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube de tormenta más alta que una montaña.",
+   "escena": "A towering white clay storm cloud rises in the center of the frame, much taller than a small grey clay snowy mountain beside it.",
+   "accion": "The top of the towering cloud slowly puffs up higher.",
+   "narrador": "[curious] Dato extra: las nubes de tormenta más altas pueden medir el doble que el monte Everest.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Júpiter con sus franjas de nubes.",
+   "escena": "A big striped orange-and-cream clay planet Jupiter floats in the center of the frame, against a black clay space backdrop.",
+   "accion": "The stripes on the planet swirl slowly.",
+   "narrador": "Y en otros planetas también hay nubes. Las de Júpiter son de amoníaco… ¡olerían fatal!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, a fabricar una nube. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "frasco_de_la_nube"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El frasco con una nubecita dentro.",
+   "imagen": "The cloud jar in the center, with a small white clay cloud forming under the plate of ice. Clean empty white space above it.",
+   "narrador": "Con un adulto: frasco con agua caliente y plato con hielo encima. ¿Ves tu nube?",
+   "rotulos": "Reto en casa · una nube en un frasco"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

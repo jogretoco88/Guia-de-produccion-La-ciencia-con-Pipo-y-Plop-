@@ -1,0 +1,1235 @@
+{
+ "episodio": 38,
+ "id": "ep38",
+ "titulo": "¿Por qué se arrugan los dedos en el agua?",
+ "tema": "Dedos arrugados",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "maqueta_de_mano",
+  "yema_por_dentro",
+  "canicas"
+ ],
+ "efectos": [
+  {
+   "es": "Baño",
+   "en": "Bath water bubbles and gentle splashes"
+  },
+  {
+   "es": "Patito",
+   "en": "Squeaky rubber duck"
+  },
+  {
+   "es": "Canica",
+   "en": "Glass marble clinking into a bowl"
+  },
+  {
+   "es": "Goteo",
+   "en": "Water dripping slowly"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bañera con espuma y un patito.",
+   "escena": "A small white clay bathtub full of pale-blue clay water with white clay foam stands in the center of the frame, with a yellow clay rubber duck floating on the water.",
+   "accion": "The yellow rubber duck bobs gently on the foamy water.",
+   "narrador": "[happily] Un baño largo, con espuma y patito. Y al salir, miras tus dedos y…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las yemas de la mano se arrugan.",
+   "escena": "The hand model stands upright in the center of the frame, palm facing the camera, with smooth fingertips.",
+   "accion": "The skin on the fingertips slowly wrinkles into many small folds.",
+   "narrador": "[surprised] ¡Están arrugados como pasas! ¿Por qué el agua le hace esto a tus dedos?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los dedos arrugados. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡en el agua te conviertes en abuelito, empezando por los dedos!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las arrugas se alisan al secarse.",
+   "escena": "The hand model stands upright in the center of the frame, palm facing the camera, with wrinkled fingertips.",
+   "accion": "The wrinkles on the fingertips slowly smooth out until the skin is flat again.",
+   "narrador": "Pero al rato de secarte, las arrugas desaparecen. Las de los abuelos no se van.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una esponja se hincha en el agua.",
+   "escena": "A yellow clay kitchen sponge sits in a shallow dish of pale-blue clay water in the center of the frame.",
+   "accion": "The yellow sponge slowly swells bigger as it soaks up the water.",
+   "narrador": "Mucha gente cree que la piel bebe agua y se hincha como una esponja. Parece lógico… ¿verdad?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si es por el agua, ¿por qué no se arruga también la barriga?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira de cerca las yemas arrugadas.",
+   "escena": "Plop stands beside the hand model, which stands upright at his height with wrinkled fingertips.",
+   "accion": "Plop leans in slowly and looks closely at the wrinkled fingertips.",
+   "narrador": "Gran pista de Plop: solo se arrugan las yemas de los dedos de manos y pies.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a una yema.",
+   "escena": "The hand model stands alone in the center of the set, palm facing the camera, with wrinkled fingertips.",
+   "accion": "The hand model stays still while the camera glides slowly closer to one fingertip.",
+   "narrador": "¿Qué tendrán de especial? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro de una yema!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "yema_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: una yema por dentro, con tubitos de sangre.",
+   "escena": "The fingertip slice fills the frame, with red clay beads inside its thin red blood tubes.",
+   "accion": "Small red beads flow slowly through the thin red tubes.",
+   "narrador": "[excited] ¡Hagamos zoom! Una yema por dentro. Bajo la piel corren muchos tubitos de sangre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "yema_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "encoge",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un aviso viaja por el nervio y los tubitos se encogen.",
+   "escena": "The fingertip slice fills the frame, with a thin yellow clay nerve running alongside the red blood tubes.",
+   "accion": "A small glowing yellow bead travels along the nerve and the red tubes slowly squeeze narrower.",
+   "narrador": "Cuando el dedo pasa un rato en agua, un nervio da una orden: ¡tubitos, a encogerse!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "yema_por_dentro"
+   ],
+   "movimientos": [
+    "encoge",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El interior se encoge y la piel se arruga por fuera.",
+   "escena": "The fingertip slice fills the frame, with narrow red blood tubes in its soft pale-pink inside.",
+   "accion": "The pale-pink inside slowly shrinks and the outer peach skin folds into small wrinkles on top.",
+   "narrador": "Por dentro el dedo se encoge un poquito… y la piel de fuera, que sobra, se arruga.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "encoge",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un colchón se encoge y la sábana hace pliegues.",
+   "escena": "A white clay sheet lies smoothly over a small light-blue clay mattress in the center of the frame.",
+   "accion": "The mattress slowly shrinks smaller and the white sheet folds into soft wrinkles on top.",
+   "narrador": "Como una sábana sobre una cama que se encoge: la tela que sobra hace pliegues.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "yema_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: agua, orden del nervio, tubitos encogidos, arrugas.",
+   "imagen": "The fingertip slice in the center, with narrow red blood tubes inside and small wrinkles on its outer skin. Clean empty white space above it.",
+   "narrador": "Agua, orden del nervio, tubitos que se encogen y piel que se arruga.",
+   "rotulos": "Agua → nervio → tubitos encogidos → arrugas"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos manos en el agua: la del vendaje no se arruga.",
+   "escena": "Two of the hand models stand side by side in the center of the frame, palms facing the camera, the left one with a white clay bandage around its wrist.",
+   "accion": "The fingertips of the right hand slowly wrinkle while the fingertips of the left hand stay smooth.",
+   "narrador": "La prueba: si un nervio de la mano está dañado, esos dedos no se arrugan en el agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una doctora mira un bol de agua.",
+   "escena": "A small clay doctor figure in a white coat holds a clear clay bowl of pale-blue water in the center of the frame.",
+   "accion": "The doctor figure slowly tilts the bowl of water and looks into it.",
+   "narrador": "Por eso algunos médicos usan un baño de agua para comprobar si los nervios de los dedos funcionan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: vale, el cuerpo lo hace a propósito… pero ¿para qué querría dedos arrugados?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: esas arrugas parecen el dibujo de una rueda… ¡o de una bota!"
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una rueda con surcos echa el agua en la carretera mojada.",
+   "escena": "A black clay tire with deep grooves stands on a wet pale-blue clay road in the center of the frame.",
+   "accion": "The tire rolls slowly forward and small pale-blue water drops squirt out from its grooves.",
+   "narrador": "¡Eso piensan algunos científicos! Las ruedas tienen surcos para que el agua escape y no resbalen.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "cae",
+    "encoge",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El agua sale por los caminitos de las arrugas.",
+   "escena": "The hand model fills the frame, with its wrinkled fingertips pressed against a wet pale-blue clay surface.",
+   "accion": "Tiny water drops squeeze out slowly through the channels between the wrinkles.",
+   "narrador": "Quizá las arrugas hacen lo mismo: abren caminitos para que el agua salga y los dedos agarren mejor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡dedos con neumáticos de lluvia!"
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano",
+    "canicas"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La mano pasa canicas mojadas de un bol a otro.",
+   "escena": "A clear clay bowl of pale-blue water full of the marbles sits on the left of the frame and an empty clay bowl on the right, with the hand model reaching between them.",
+   "accion": "The hand model's wrinkled fingers lift the marbles one by one from the water bowl into the empty bowl.",
+   "narrador": "Lo probaron: con dedos arrugados, la gente pasaba canicas mojadas de un recipiente a otro más rápido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿entonces ya está resuelto? ¿Seguro que es para agarrar?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "canicas"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos boles de canicas, iguales.",
+   "escena": "Two clear clay bowls holding the marbles sit side by side in the center of the frame.",
+   "accion": "The marbles in both bowls roll gently around at the same time.",
+   "narrador": "No del todo. Otros científicos repitieron pruebas parecidas… y no encontraron ninguna diferencia.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos científicos discuten con una canica cada uno.",
+   "escena": "Two small clay figures in white lab coats stand facing each other in the center of the frame, one holding a green clay marble and the other a red clay marble.",
+   "accion": "The two figures take turns nodding and shrugging at each other.",
+   "narrador": "Así que la ciencia sigue discutiendo. Sabemos cómo se arrugan los dedos, pero no seguro para qué.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "canicas"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira un bol de canicas: tiene una idea.",
+   "escena": "Plop stands facing the camera beside a clear clay bowl of pale-blue water full of the marbles.",
+   "accion": "Plop looks at the bowl of marbles and slowly raises one paddle arm.",
+   "narrador": "Plop tiene una idea: ¿y si lo pruebas tú, en casa, con un cronómetro?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_mano"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La mano reposa en agua tibia.",
+   "escena": "The hand model stands in a clear clay bowl of warm pale-blue water in the center of the frame, with its fingertips under the water.",
+   "accion": "Soft wisps of white clay steam rise slowly from the warm water.",
+   "narrador": "[excited] Basta con unos minutos en agua tibia. Fíjate cuánto tardan en salir las primeras arrugas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Unos pies con los dedos arrugados se mueven.",
+   "escena": "Two peach clay feet with wrinkled toe tips rest on the edge of a small white clay bathtub in the center of the frame.",
+   "accion": "The toes wiggle slowly, again and again.",
+   "narrador": "Y mira los pies: sus dedos se arrugan igual. ¿Agarre para manos y pies?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente y sonríe.",
+   "escena": "Plop stands facing the camera in the center of the set.",
+   "accion": "Plop nods slowly and smiles.",
+   "narrador": "Las arrugas no son un fallo: es tu cuerpo, que reacciona solo, sin que se lo pidas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No te conviertes en abuelito, Pipo. Es un nervio que encoge los tubitos de sangre del dedo."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: esa orden especial solo llega a las yemas de manos y pies."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: mano en el agua, nervio y tubitos, yema arrugada.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a peach clay hand in a bowl of pale-blue clay water; a cut-open fingertip with a yellow clay nerve and narrow red clay tubes; and a peach clay fingertip covered in small wrinkles. Clean empty white space above each one.",
+   "narrador": "Repasemos: el agua avisa, el nervio encoge los tubitos, y la piel que sobra se arruga.",
+   "rotulos": "1 Agua · 2 El nervio encoge los tubitos · 3 ¡Arrugas!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos yemas con el mismo dibujo de arrugas.",
+   "escena": "Two peach clay fingertips stand side by side in the center of the frame, both smooth.",
+   "accion": "The same pattern of small wrinkles slowly appears on both fingertips at the same time.",
+   "narrador": "[curious] Dato extra: tus arrugas forman casi siempre el mismo dibujo. ¡Como una huella que aparece y desaparece!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un mono en unas aguas termales.",
+   "escena": "A small brown clay monkey with a pink face sits on a grey clay rock beside a pale-blue clay hot spring, with its hands in the water.",
+   "accion": "Soft wisps of white clay steam rise slowly around the monkey.",
+   "narrador": "Y no solo a nosotros: a algunos monos también se les arrugan los dedos en el agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un reto en el baño. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "canicas"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Canicas en agua, un bol vacío y un cronómetro.",
+   "imagen": "A clear clay bowl of pale-blue water with the marbles inside on the left, an empty clay bowl on the right and a small white clay stopwatch between them. Clean empty white space above them.",
+   "narrador": "Canicas mojadas de un bol a otro, antes y después del baño. ¿Cuándo tardas menos?",
+   "rotulos": "Reto en casa · la carrera de canicas"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

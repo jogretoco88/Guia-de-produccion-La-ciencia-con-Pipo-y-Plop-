@@ -1,0 +1,2243 @@
+{
+ "total": 183,
+ "familias": {
+  "cielo_espacio": {
+   "cantidad": 16,
+   "tecnica": "Esferas y discos esculpidos; las nubes y rayos son piezas de arcilla, no humo ni luz real"
+  },
+  "particulas": {
+   "cantidad": 34,
+   "tecnica": "Formas simples (esfera, gota, anillo) con variaciones de tamaño y color; se reparten con instancias"
+  },
+  "objeto": {
+   "cantidad": 48
+  },
+  "maqueta_corte": {
+   "cantidad": 36,
+   "tecnica": "Un solo método: el objeto entero se corta con un plano y la cara del corte recibe su propio material de colores. Se hace una vez y vale para todas las maquetas"
+  },
+  "comida": {
+   "cantidad": 17,
+   "tecnica": "Esculpido sólido; los cortes usan la técnica de maquetas"
+  },
+  "cuerpo": {
+   "cantidad": 11,
+   "tecnica": "Siempre como juguete o maqueta, nunca realista: piezas redondas y de colores planos"
+  },
+  "animales": {
+   "cantidad": 21,
+   "tecnica": "Títeres con esqueleto simple: el mismo estilo de Pipo y Plop (cuerpos redondos, sin dedos)"
+  }
+ },
+ "objetos": [
+  {
+   "id": "tierra_de_arcilla",
+   "es": "Tierra de arcilla",
+   "familia": "cielo_espacio",
+   "en": "the clay Earth (a big blue-and-green clay globe)",
+   "ref": "A single oversized stop-motion polymer-clay Earth globe, about as tall as a puppet: a round ball of solid blue matte clay with simple green clay continents and small white clay clouds. Deep fingerprints.",
+   "episodios": [
+    19,
+    26,
+    29
+   ],
+   "tomas": 21,
+   "prioridad": "alta"
+  },
+  {
+   "id": "sol_de_arcilla",
+   "es": "Sol de arcilla",
+   "familia": "cielo_espacio",
+   "en": "the clay sun (a round bright-yellow clay ball with short chunky orange rays)",
+   "ref": "A single oversized stop-motion polymer-clay sun: a round bright-yellow matte clay ball with eight short, chunky orange clay rays around it. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    7,
+    15,
+    29
+   ],
+   "tomas": 16,
+   "prioridad": "alta"
+  },
+  {
+   "id": "burbujas_de_gas",
+   "es": "Burbujas de gas",
+   "familia": "particulas",
+   "en": "the gas bubbles (small pale-yellow clay balls)",
+   "ref": "Six small stop-motion polymer-clay balls of solid pale-yellow matte clay, spread loosely, each with deep fingerprints. They represent gas bubbles.",
+   "episodios": [
+    8,
+    13,
+    20
+   ],
+   "tomas": 14,
+   "prioridad": "alta"
+  },
+  {
+   "id": "tina_de_agua",
+   "es": "Tina de agua",
+   "familia": "objeto",
+   "en": "the water tub (a low round white clay rim filled with flat dark-blue clay water)",
+   "ref": "A single oversized stop-motion polymer-clay water tub: a low, wide, round rim of solid white matte clay, filled to the top with flat solid dark-blue clay as the water surface. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    5,
+    27
+   ],
+   "tomas": 17,
+   "prioridad": "alta"
+  },
+  {
+   "id": "piel_por_dentro",
+   "es": "Piel por dentro",
+   "familia": "maqueta_corte",
+   "en": "the skin model (a block of peach clay skin in cross-section with a red clay blood vessel running through it)",
+   "ref": "A single oversized stop-motion polymer-clay skin model shown in cross-section, facing the camera: a rectangular block of solid peach clay with one thick red clay tube running horizontally through its middle. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    16,
+    46
+   ],
+   "tomas": 11,
+   "prioridad": "alta"
+  },
+  {
+   "id": "maqueta_de_brazo",
+   "es": "Maqueta de brazo",
+   "familia": "maqueta_corte",
+   "en": "the arm model (a peach clay forearm block with a rounded end, lying flat)",
+   "ref": "A single oversized, simplified stop-motion polymer-clay forearm lying flat: a long rounded block of solid peach matte clay with a softly rounded end. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    16,
+    46
+   ],
+   "tomas": 10,
+   "prioridad": "alta"
+  },
+  {
+   "id": "cama",
+   "es": "Cama",
+   "familia": "objeto",
+   "en": "the bed (a small light-brown clay bed with a blue blanket and a white pillow)",
+   "ref": "A single stop-motion polymer-clay bed sized for a puppet: a simple light-brown matte clay frame, a fluffy white clay pillow and a thick blue clay blanket. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    34,
+    52
+   ],
+   "tomas": 6,
+   "prioridad": "alta"
+  },
+  {
+   "id": "galleta",
+   "es": "Galleta",
+   "familia": "comida",
+   "en": "the cookie (a round golden-brown clay cookie with dark chips)",
+   "ref": "A single oversized stop-motion polymer-clay cookie lying flat: a round golden-brown matte clay disc with a few dark-brown clay chips on top. Deep fingerprints.",
+   "episodios": [
+    22,
+    25
+   ],
+   "tomas": 5,
+   "prioridad": "alta"
+  },
+  {
+   "id": "cerebro_de_plastilina",
+   "es": "Cerebro de plastilina",
+   "familia": "cuerpo",
+   "en": "the brain model (a soft pink clay brain on a small white stand)",
+   "ref": "A single oversized soft pink matte polymer-clay brain model with rounded folds, sitting on a small white clay stand. Deep fingerprints, friendly simple shape.",
+   "episodios": [
+    34,
+    40
+   ],
+   "tomas": 5,
+   "prioridad": "alta"
+  },
+  {
+   "id": "rayo_de_luz_blanca",
+   "es": "Rayo de luz blanca",
+   "familia": "cielo_espacio",
+   "en": "the white light beam (a long thick white clay rod)",
+   "ref": "A single long, thick, straight rod of solid white matte polymer clay lying horizontally, with deep fingerprints. It represents a beam of white light.",
+   "episodios": [
+    7,
+    15
+   ],
+   "tomas": 4,
+   "prioridad": "alta"
+  },
+  {
+   "id": "luna_de_arcilla",
+   "es": "Luna de arcilla",
+   "familia": "cielo_espacio",
+   "en": "the clay Moon (a grey clay ball with small craters, one half light grey and the other half dark grey)",
+   "ref": "A single stop-motion polymer-clay Moon: a round ball with small shallow craters, exactly one half solid light-grey matte clay and the other half solid dark-grey matte clay. Deep fingerprints.",
+   "episodios": [
+    29
+   ],
+   "tomas": 18,
+   "prioridad": "media"
+  },
+  {
+   "id": "iman_de_barra",
+   "es": "Imán de barra",
+   "familia": "objeto",
+   "en": "the bar magnet (a chunky clay bar, half red and half blue)",
+   "ref": "A single oversized stop-motion polymer-clay bar magnet: a chunky rectangular bar, one half solid red and the other half solid blue matte clay, with deep fingerprints.",
+   "episodios": [
+    9
+   ],
+   "tomas": 16,
+   "prioridad": "media"
+  },
+  {
+   "id": "perrito_de_arcilla",
+   "es": "Perrito de arcilla",
+   "familia": "animales",
+   "en": "the clay puppy (a small brown clay dog with floppy ears and a big black nose)",
+   "ref": "A single cute stop-motion polymer-clay puppy, about knee-high to a puppet: solid brown matte clay body, two floppy ears, a short tail, four short legs, small black bead eyes and a big round black nose. Deep fingerprints, simple shapes.",
+   "episodios": [
+    22
+   ],
+   "tomas": 15,
+   "prioridad": "media"
+  },
+  {
+   "id": "gato_de_arcilla",
+   "es": "Gato de arcilla",
+   "familia": "animales",
+   "en": "the clay cat (a small orange clay cat with a long tail and pointy ears)",
+   "ref": "A single cute stop-motion polymer-clay cat, about knee-high to a puppet: solid orange matte clay body, pointy ears, a long tail, four short legs, small black bead eyes and a tiny pink nose. Deep fingerprints, simple shapes.",
+   "episodios": [
+    10
+   ],
+   "tomas": 14,
+   "prioridad": "media"
+  },
+  {
+   "id": "mancha_de_grasa",
+   "es": "Mancha de grasa",
+   "familia": "objeto",
+   "en": "the grease blob (an irregular solid chocolate-brown clay blob)",
+   "ref": "A single oversized stop-motion polymer-clay grease blob: an irregular, lumpy, solid chocolate-brown matte clay mass with deep fingerprints. One single solid piece.",
+   "episodios": [
+    2
+   ],
+   "tomas": 12,
+   "prioridad": "media"
+  },
+  {
+   "id": "pieza_de_jabon_cabeza_y_cola",
+   "es": "Pieza de jabón (cabeza y cola)",
+   "familia": "cuerpo",
+   "en": "the soap piece (a bubblegum-pink clay ball head with one short yellow clay tail peg)",
+   "ref": "A single oversized stop-motion polymer-clay soap molecule shaped like a tadpole: one smooth bubblegum-pink clay ball as the head, with one short chunky yellow clay peg sticking out as the tail. Solid uniform matte colors, deep fingerprints.",
+   "episodios": [
+    2
+   ],
+   "tomas": 12,
+   "prioridad": "media"
+  },
+  {
+   "id": "globo_rojo",
+   "es": "Globo rojo",
+   "familia": "cuerpo",
+   "en": "the red balloon (a round red clay balloon with a small knot)",
+   "ref": "A single oversized stop-motion polymer-clay balloon: a round ball of solid red matte clay with a small knot at the bottom, about the size of a puppet's head. Deep fingerprints.",
+   "episodios": [
+    17
+   ],
+   "tomas": 12,
+   "prioridad": "media"
+  },
+  {
+   "id": "murcielago",
+   "es": "Murciélago",
+   "familia": "animales",
+   "en": "the bat (a small fuzzy brown clay bat with big ears and thin dark wings)",
+   "ref": "A single cute stop-motion polymer-clay bat, about the size of a puppet's head: a fuzzy round brown matte clay body, big pointed ears, small black bead eyes, a tiny snout and two thin dark-brown clay wings with long finger bones visible under the skin. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    42
+   ],
+   "tomas": 12,
+   "prioridad": "media"
+  },
+  {
+   "id": "camaleon",
+   "es": "Camaleón",
+   "familia": "animales",
+   "en": "the chameleon (a green clay chameleon with a curled tail and round eyes)",
+   "ref": "A single cute stop-motion polymer-clay panther chameleon, about as long as a puppet's arm: a green matte clay body with a crest on its head, a long curled tail, grippy two-toed feet and two big round turret eyes. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    48
+   ],
+   "tomas": 12,
+   "prioridad": "media"
+  },
+  {
+   "id": "grano_de_maiz_gigante",
+   "es": "Grano de maíz gigante",
+   "familia": "comida",
+   "en": "the giant corn kernel (knee-high, solid golden-yellow clay with a cream-white base)",
+   "ref": "A single full-body product shot of an oversized, sturdy stop-motion polymer-clay corn kernel, about knee-high to a puppet. Solid uniform golden-yellow matte clay with a rounded cream-white base, deep fingerprints and tool marks. One single solid piece.",
+   "episodios": [
+    1
+   ],
+   "tomas": 11,
+   "prioridad": "media"
+  },
+  {
+   "id": "chicle",
+   "es": "Chicle",
+   "familia": "comida",
+   "en": "the gum piece (a soft pink clay gum wad)",
+   "ref": "A single oversized stop-motion polymer-clay wad of chewed gum: a soft, lumpy blob of solid pink matte clay with rounded folds, with deep fingerprints.",
+   "episodios": [
+    25
+   ],
+   "tomas": 11,
+   "prioridad": "media"
+  },
+  {
+   "id": "hormiga",
+   "es": "Hormiga",
+   "familia": "animales",
+   "en": "the ant (a small red-brown clay ant)",
+   "ref": "A single cute stop-motion polymer-clay ant, about the size of a puppet's hand: three round red-brown matte clay body parts, a thin neck, six thin legs, two bent antennae and small black bead eyes. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    36
+   ],
+   "tomas": 11,
+   "prioridad": "media"
+  },
+  {
+   "id": "manzana",
+   "es": "Manzana",
+   "familia": "maqueta_corte",
+   "en": "the apple (a shiny red clay apple, cut in half when the scene says so, with creamy white flesh)",
+   "ref": "A single oversized stop-motion polymer-clay apple: shiny red matte clay skin with a short brown stem and one green leaf. When cut in half it shows creamy white clay flesh and a small star of dark seeds. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    37
+   ],
+   "tomas": 11,
+   "prioridad": "media"
+  },
+  {
+   "id": "telarana",
+   "es": "Telaraña",
+   "familia": "animales",
+   "en": "the web (a round clay spider web with straight spokes and a spiral)",
+   "ref": "A single round spider web made of thin white polymer-clay threads: straight spokes running out from the center and a spiral thread wound around them, dotted with tiny shiny clear glue droplets. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    44
+   ],
+   "tomas": 11,
+   "prioridad": "media"
+  },
+  {
+   "id": "abeja",
+   "es": "Abeja",
+   "familia": "animales",
+   "en": "the bee (a cute fuzzy yellow-and-black clay honeybee)",
+   "ref": "A single cute stop-motion polymer-clay honeybee, about the size of a puppet's hand: a fuzzy round body with yellow and black matte clay stripes, small clear wings, black bead eyes and thin legs. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    50
+   ],
+   "tomas": 11,
+   "prioridad": "media"
+  },
+  {
+   "id": "maqueta_de_encia_corte",
+   "es": "Maqueta de encía (corte)",
+   "familia": "maqueta_corte",
+   "en": "the gum model (a pink clay gum in cross-section, with a small white baby tooth on top and a bigger white tooth hidden below it)",
+   "ref": "A single oversized stop-motion polymer-clay gum model shown in cross-section, facing the camera: a block of solid pink clay gum with a small white baby tooth sitting on top, its root going down into the gum, and a bigger white tooth hidden inside the gum directly below it. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    12
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "volcan_de_arcilla",
+   "es": "Volcán de arcilla",
+   "familia": "objeto",
+   "en": "the clay volcano (a brown clay cone-shaped mountain with a crater on top)",
+   "ref": "A single oversized stop-motion polymer-clay volcano, about as tall as a puppet: a cone-shaped mountain of solid brown matte clay with a round crater at the top. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    13
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "burbuja_de_jabon",
+   "es": "Burbuja de jabón",
+   "familia": "particulas",
+   "en": "the soap bubble (a big round pale-blue clay ball)",
+   "ref": "A single oversized stop-motion polymer-clay soap bubble: a big, perfectly round ball of solid pale-blue matte clay with a faint pink swirl on its surface, about the size of a puppet's head. Deep fingerprints.",
+   "episodios": [
+    23
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "maqueta_del_tubo_digestivo",
+   "es": "Maqueta del tubo digestivo",
+   "familia": "maqueta_corte",
+   "en": "the digestive tube model (a pink clay stomach pouch joined to a long coiled pink clay tube, shown in cross-section, open at its far end)",
+   "ref": "A single oversized, friendly stop-motion polymer-clay digestive model shown in cross-section: a rounded pink clay stomach pouch on the left, joined to a long, softly coiled pink clay tube that ends in an open end on the right. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    25
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "barco_de_arcilla",
+   "es": "Barco de arcilla",
+   "familia": "objeto",
+   "en": "the clay ship (a big hollow red clay boat hull with a small white cabin)",
+   "ref": "A single oversized stop-motion polymer-clay ship, about as long as a puppet is tall: a wide, hollow hull of solid red matte clay, open at the top, with a small white clay cabin at the back. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    27
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "zapato",
+   "es": "Zapato",
+   "familia": "objeto",
+   "en": "the clay shoe (a chunky red clay sneaker)",
+   "ref": "A single oversized stop-motion polymer-clay sneaker, about knee-high to a puppet: a chunky shoe of solid red matte clay with a white clay sole and a wide open top. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    30
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "avion_de_arcilla",
+   "es": "Avión de arcilla",
+   "familia": "objeto",
+   "en": "the clay airplane (a big white clay passenger airplane with a blue stripe)",
+   "ref": "A single oversized stop-motion polymer-clay passenger airplane, about as long as a puppet is tall: a round white matte clay body with one blue clay stripe along its side, two long straight white wings, a tall tail and two round grey clay engines under the wings. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    31
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "cable_electrico",
+   "es": "Cable eléctrico",
+   "familia": "objeto",
+   "en": "the power line (a thick black clay cable stretched between grey poles)",
+   "ref": "A single long, thick black matte polymer-clay cable with shiny grey metal strands visible at its cut end, stretched tight between two simple grey clay poles. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    47
+   ],
+   "tomas": 10,
+   "prioridad": "media"
+  },
+  {
+   "id": "grano_partido_por_la_mitad",
+   "es": "Grano partido por la mitad",
+   "familia": "maqueta_corte",
+   "en": "the cut-open kernel model (thick yellow shell, white starch filling, one small cyan droplet in the center)",
+   "ref": "A single oversized stop-motion polymer-clay model of a corn kernel cut cleanly in half, its flat cross-section facing the camera: a thick solid golden-yellow outer shell, a solid white starch filling, and one small glossy cyan clay droplet in the very center. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    1
+   ],
+   "tomas": 9,
+   "prioridad": "media"
+  },
+  {
+   "id": "maqueta_de_la_lengua_con_sensores",
+   "es": "Maqueta de la lengua con sensores",
+   "familia": "maqueta_corte",
+   "en": "the tongue model (a thick pink clay tongue slab with a few round red clay buttons on top)",
+   "ref": "A single oversized stop-motion polymer-clay tongue model: a thick, rounded slab of solid bubblegum-pink matte clay lying flat, with five round red clay buttons sitting on its top surface. Simple and friendly, deep fingerprints.",
+   "episodios": [
+    3
+   ],
+   "tomas": 9,
+   "prioridad": "media"
+  },
+  {
+   "id": "volcan_por_dentro",
+   "es": "Volcán por dentro",
+   "familia": "maqueta_corte",
+   "en": "the cut-open volcano model (a brown clay mountain in cross-section, with a narrow channel running from a round orange magma chamber at the bottom up to the crater)",
+   "ref": "A single oversized stop-motion polymer-clay volcano shown in cross-section, facing the camera: a brown clay mountain cut in half, with a round chamber of solid orange clay at the bottom and a narrow orange channel running straight up from it to the crater at the top. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    13
+   ],
+   "tomas": 9,
+   "prioridad": "media"
+  },
+  {
+   "id": "mosquito_de_arcilla",
+   "es": "Mosquito de arcilla",
+   "familia": "animales",
+   "en": "the clay mosquito (a small grey clay mosquito with six short legs, two wings and a long needle-like snout)",
+   "ref": "A single oversized, cute stop-motion polymer-clay mosquito: a slim grey matte clay body, six short chunky legs, two small pale wings, two black dot eyes and one long, thin, needle-like snout. Deep fingerprints, simple shapes.",
+   "episodios": [
+    16
+   ],
+   "tomas": 9,
+   "prioridad": "media"
+  },
+  {
+   "id": "luciernaga",
+   "es": "Luciérnaga",
+   "familia": "animales",
+   "en": "the firefly (a small dark-brown clay beetle with a pale yellow-green tail end)",
+   "ref": "A single cute stop-motion polymer-clay firefly, about the size of a puppet's hand: a small dark-brown matte clay beetle body with a red-orange clay head shield, two hard dark-brown wing covers, small black bead eyes, thin legs and a rounded pale yellow-green clay tail end. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    32
+   ],
+   "tomas": 9,
+   "prioridad": "media"
+  },
+  {
+   "id": "frijol",
+   "es": "Frijol",
+   "familia": "comida",
+   "en": "the bean (a big smooth brown clay bean that can split into two halves)",
+   "ref": "A single oversized stop-motion polymer-clay bean with a smooth brown matte skin and a small pale scar on one side. When split open it shows two thick pale-cream halves with a tiny pale-green baby plant tucked between them. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    51
+   ],
+   "tomas": 9,
+   "prioridad": "media"
+  },
+  {
+   "id": "moleculas_de_aire",
+   "es": "Moléculas de aire",
+   "familia": "particulas",
+   "en": "the air molecules (small pale-grey clay balls floating apart from each other)",
+   "ref": "Five small stop-motion polymer-clay balls of solid pale-grey matte clay, spread apart from each other with clear space between them, each with deep fingerprints.",
+   "episodios": [
+    7
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "botella_de_refresco",
+   "es": "Botella de refresco",
+   "familia": "comida",
+   "en": "the soda bottle (a chunky orange clay bottle with a red clay cap)",
+   "ref": "A single oversized stop-motion polymer-clay soda bottle, about waist-high to a puppet: a chunky bottle of solid orange matte clay with a round red clay cap. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    11
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "botella_por_dentro",
+   "es": "Botella por dentro",
+   "familia": "maqueta_corte",
+   "en": "the cut-open bottle model (an orange clay bottle in cross-section, filled with flat amber clay liquid, with a red cap)",
+   "ref": "A single oversized stop-motion polymer-clay bottle shown in cross-section, facing the camera: an orange clay outline, filled almost to the top with flat solid amber clay liquid, a small empty space under a red clay cap. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    11
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "arcoiris",
+   "es": "Arcoíris",
+   "familia": "cielo_espacio",
+   "en": "the rainbow (a wide arch made of seven clay stripes: red, orange, yellow, green, blue, indigo and violet)",
+   "ref": "A single wide, upright stop-motion polymer-clay rainbow arch made of seven thick curved stripes of solid matte clay, from the outside in: red, orange, yellow, green, blue, indigo and violet. Deep fingerprints.",
+   "episodios": [
+    15
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "pluma",
+   "es": "Pluma",
+   "familia": "objeto",
+   "en": "the feather (a big soft white clay feather with a yellow quill)",
+   "ref": "A single oversized stop-motion polymer-clay feather, about as long as a puppet's arm: a soft, curved white matte clay vane with fine grooves and a short yellow clay quill. Deep fingerprints.",
+   "episodios": [
+    18
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "pelota_roja",
+   "es": "Pelota roja",
+   "familia": "objeto",
+   "en": "the red ball (a small solid red clay ball)",
+   "ref": "A single small ball of solid red matte polymer clay, about the size of a puppet's paddle hand, with deep fingerprints.",
+   "episodios": [
+    19
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "bola_de_masa",
+   "es": "Bola de masa",
+   "familia": "comida",
+   "en": "the dough ball (a big round cream-colored clay dough ball)",
+   "ref": "A single oversized stop-motion polymer-clay ball of bread dough: a big, soft-looking round ball of solid cream-colored matte clay, about knee-high to a puppet, with deep fingerprints.",
+   "episodios": [
+    20
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "maqueta_de_mano",
+   "es": "Maqueta de mano",
+   "familia": "maqueta_corte",
+   "en": "the hand model (a big peach clay hand standing upright, palm facing out)",
+   "ref": "A single oversized, friendly stop-motion polymer-clay hand model standing upright on a small white clay base, palm facing forward: smooth peach matte clay with five rounded fingers and soft fingertips. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    38
+   ],
+   "tomas": 8,
+   "prioridad": "media"
+  },
+  {
+   "id": "gota_de_agua",
+   "es": "Gota de agua",
+   "familia": "particulas",
+   "en": "the water drop (a solid sky-blue clay teardrop)",
+   "ref": "A single oversized stop-motion polymer-clay water drop: a plump teardrop of solid uniform sky-blue matte clay, standing upright, with deep fingerprints.",
+   "episodios": [
+    2
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bolitas_de_capsaicina",
+   "es": "Bolitas de capsaicina",
+   "familia": "particulas",
+   "en": "the capsaicin balls (small bright-yellow clay balls)",
+   "ref": "Three small stop-motion polymer-clay balls of solid uniform bright-yellow matte clay, side by side, with deep fingerprints.",
+   "episodios": [
+    3
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_pulmones_y_diafragma",
+   "es": "Maqueta de pulmones y diafragma",
+   "familia": "maqueta_corte",
+   "en": "the lungs model (two plump coral-pink clay ovals standing above a curved crimson clay band, the diaphragm)",
+   "ref": "A single adorable, simplified stop-motion polymer-clay anatomy model standing on its own: two plump solid coral-pink clay ovals (the lungs) side by side, sitting above one thick curved crimson-red clay band shaped like a dome (the diaphragm muscle). Solid uniform matte colors, deep fingerprints, simple bold shapes.",
+   "episodios": [
+    4
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cubo_de_hielo_gigante",
+   "es": "Cubo de hielo gigante",
+   "familia": "comida",
+   "en": "the giant ice cube (a slightly rounded pale icy-cyan clay cube)",
+   "ref": "A single oversized, slightly rounded stop-motion polymer-clay cube of solid uniform pale icy-cyan matte clay, about knee-high to a puppet, with deep fingerprints.",
+   "episodios": [
+    5
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bolitas_de_colores_la_luz",
+   "es": "Bolitas de colores (la luz)",
+   "familia": "particulas",
+   "en": "the color balls (small clay balls in rainbow colors: red, orange, yellow, green, blue and violet)",
+   "ref": "A neat row of six small stop-motion polymer-clay balls in solid rainbow colors, from left to right: red, orange, yellow, green, blue and violet. Deep fingerprints, evenly spaced.",
+   "episodios": [
+    7
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_la_nariz_corte",
+   "es": "Maqueta de la nariz (corte)",
+   "familia": "maqueta_corte",
+   "en": "the nose model (a big peach clay nose shown in cross-section, with a pink tunnel inside)",
+   "ref": "A single oversized, friendly stop-motion polymer-clay nose model shown in cross-section from the side: a peach clay nose shape with a wide pink clay tunnel running through it from the nostril on the left to the back on the right. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    14
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "capa_de_moco",
+   "es": "Capa de moco",
+   "familia": "objeto",
+   "en": "the mucus layer (a thick pale-green clay blanket)",
+   "ref": "A single thick, flat, wavy blanket of solid pale-green matte polymer clay with soft rounded edges, lying horizontally, with deep fingerprints. It represents a layer of mucus.",
+   "episodios": [
+    14
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "gota_de_lluvia_gigante",
+   "es": "Gota de lluvia gigante",
+   "familia": "particulas",
+   "en": "the giant raindrop (a big round pale-blue clay ball)",
+   "ref": "A single oversized stop-motion polymer-clay raindrop: a big, almost perfectly round ball of solid pale-blue matte clay, about waist-high to a puppet, with deep fingerprints.",
+   "episodios": [
+    15
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_del_cerebro",
+   "es": "Maqueta del cerebro",
+   "familia": "maqueta_corte",
+   "en": "the brain model (a pink clay brain seen from the side, with a small darker-pink bump at the back, the cerebellum)",
+   "ref": "A single oversized, friendly stop-motion polymer-clay brain seen from the side: a rounded pink clay shape with soft folds, and a smaller, darker-pink clay bump tucked under its back end. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    18
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "estacion_espacial",
+   "es": "Estación espacial",
+   "familia": "cielo_espacio",
+   "en": "the space station (a small grey clay capsule with two flat blue clay solar panels)",
+   "ref": "A single small stop-motion polymer-clay space station: a short grey matte clay capsule with one flat rectangular blue clay solar panel on each side. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    19
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "levaduras",
+   "es": "Levaduras",
+   "familia": "particulas",
+   "en": "the yeast cells (small round beige clay balls with tiny dot eyes)",
+   "ref": "Six small, cute stop-motion polymer-clay yeast cells: round balls of solid beige matte clay, each with two tiny black dot eyes. Deep fingerprints, simple shapes.",
+   "episodios": [
+    20
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "nube_de_tormenta",
+   "es": "Nube de tormenta",
+   "familia": "cielo_espacio",
+   "en": "the storm cloud (a big puffy dark-grey clay cloud)",
+   "ref": "A single big, puffy stop-motion polymer-clay storm cloud of solid dark-grey matte clay made of many rounded lobes, wider than a puppet is tall. Deep fingerprints.",
+   "episodios": [
+    21
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "rayo",
+   "es": "Rayo",
+   "familia": "cielo_espacio",
+   "en": "the lightning bolt (a jagged bright-yellow clay zigzag)",
+   "ref": "A single stop-motion polymer-clay lightning bolt: a tall, jagged zigzag of solid bright-yellow matte clay with sharp corners, standing upright. Deep fingerprints.",
+   "episodios": [
+    21
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bolita_maciza",
+   "es": "Bolita maciza",
+   "familia": "particulas",
+   "en": "the solid ball (a small solid grey clay ball)",
+   "ref": "A single small ball of solid grey matte polymer clay, about the size of a puppet's paddle hand, with deep fingerprints. It represents a solid metal ball.",
+   "episodios": [
+    27
+   ],
+   "tomas": 7,
+   "prioridad": "normal"
+  },
+  {
+   "id": "micela_grasa_envuelta_en_jabon",
+   "es": "Micela (grasa envuelta en jabón)",
+   "familia": "particulas",
+   "en": "the micelle ball (the brown grease blob completely wrapped by pink soap heads, their yellow tails pointing inward)",
+   "ref": "A single oversized stop-motion polymer-clay micelle model: a chocolate-brown clay blob in the center, completely surrounded by a ring of bubblegum-pink clay balls, each joined to the blob by a short yellow clay peg pointing inward. Solid uniform matte colors, deep fingerprints.",
+   "episodios": [
+    2
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "aji_rojo_gigante",
+   "es": "Ají rojo gigante",
+   "familia": "comida",
+   "en": "the giant chili (a curved crimson-red clay chili with a thick green stem)",
+   "ref": "A single oversized, curved stop-motion polymer-clay chili pepper in solid uniform crimson-red matte clay, with a thick solid green clay stem. Deep fingerprints and sculpted facets.",
+   "episodios": [
+    3
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "molecula_de_agua",
+   "es": "Molécula de agua",
+   "familia": "particulas",
+   "en": "the water molecule (a red clay ball with two small white clay ears, like a bear's head)",
+   "ref": "A single oversized stop-motion polymer-clay water molecule: one large ball of solid red matte clay with two small white clay balls attached on top like the ears of a teddy bear's head. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    5
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cebolla_gigante",
+   "es": "Cebolla gigante",
+   "familia": "comida",
+   "en": "the giant onion (a round golden-brown clay onion with a small green sprout on top)",
+   "ref": "A single oversized stop-motion polymer-clay onion, about knee-high to a puppet: a round, solid golden-brown matte clay bulb with a small green clay sprout on top. Deep fingerprints, one single solid piece.",
+   "episodios": [
+    6
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cebolla_partida",
+   "es": "Cebolla partida",
+   "familia": "maqueta_corte",
+   "en": "the cut onion model (half an onion showing white concentric clay layers)",
+   "ref": "A single oversized stop-motion polymer-clay half onion lying with its flat cut face toward the camera: a golden-brown outer skin and thick white concentric clay rings inside. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    6
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_del_intestino",
+   "es": "Maqueta del intestino",
+   "familia": "maqueta_corte",
+   "en": "the gut model (a long coiled pink clay tube shown in cross-section, open at its right end)",
+   "ref": "A single oversized, friendly stop-motion polymer-clay intestine model: a long, thick, softly coiled tube of solid pink matte clay, cut open along its front so the inside is visible, with one open end on the right. Simple bold shapes, deep fingerprints.",
+   "episodios": [
+    8
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "vaso_de_refresco",
+   "es": "Vaso de refresco",
+   "familia": "comida",
+   "en": "the clay glass (a chunky pale-grey clay glass filled with amber clay soda)",
+   "ref": "A single oversized stop-motion polymer-clay drinking glass: a chunky pale-grey clay cup filled to the top with solid amber clay soda. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    11
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pedacitos_de_olor",
+   "es": "Pedacitos de olor",
+   "familia": "particulas",
+   "en": "the smell bits (tiny orange clay balls)",
+   "ref": "Eight tiny stop-motion polymer-clay balls of solid orange matte clay, floating loosely, each with deep fingerprints. They represent smell molecules.",
+   "episodios": [
+    22
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_rodilla",
+   "es": "Maqueta de rodilla",
+   "familia": "maqueta_corte",
+   "en": "the knee model (a rounded peach clay knee with a small red scrape on it)",
+   "ref": "A single oversized, simplified stop-motion polymer-clay knee: a rounded dome of solid peach matte clay with a small flat red clay scrape on its front. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    24
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "crisalida",
+   "es": "Crisálida",
+   "familia": "animales",
+   "en": "the chrysalis (a smooth green clay pod hanging from a brown clay twig)",
+   "ref": "A single stop-motion polymer-clay chrysalis: a smooth, pointed pod of solid green matte clay hanging from a short brown clay twig. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    28
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "mariposa",
+   "es": "Mariposa",
+   "familia": "animales",
+   "en": "the butterfly (an orange-and-black clay butterfly with wide wings)",
+   "ref": "A single stop-motion polymer-clay butterfly with its wings open: wide wings of solid orange matte clay with black clay edges and veins, a thin black body, two antennae and six thin legs. Deep fingerprints, simple shapes.",
+   "episodios": [
+    28
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "arana",
+   "es": "Araña",
+   "familia": "animales",
+   "en": "the spider (a cute round brown clay spider with eight legs)",
+   "ref": "A single cute stop-motion polymer-clay garden spider, about the size of a puppet's hand: a round brown matte clay body with pale-yellow clay spots, a small head with shiny black bead eyes and eight thin jointed brown clay legs. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    44
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "gorrion",
+   "es": "Gorrión",
+   "familia": "animales",
+   "en": "the sparrow (a small round brown clay sparrow)",
+   "ref": "A single cute stop-motion polymer-clay sparrow: a small round brown and cream matte clay body, short wings, a tiny dark beak, black bead eyes and thin pink clay feet. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    47
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "panal",
+   "es": "Panal",
+   "familia": "objeto",
+   "en": "the honeycomb (a slab of pale-yellow wax clay with six-sided cells)",
+   "ref": "A single slab of pale-yellow matte polymer-clay honeycomb made of neat six-sided cells, some empty, some filled with glossy golden honey and some sealed with thin white wax lids. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    50
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "frasco_de_germinacion",
+   "es": "Frasco de germinación",
+   "familia": "objeto",
+   "en": "the sprout jar (a clear clay jar packed with wet white cotton and brown beans pressed against the glass)",
+   "ref": "A single clear glassy-looking polymer-clay jar packed with soft white clay cotton, with brown clay beans pressed against the inside of the glass. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    51
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "medidor_de_altura",
+   "es": "Medidor de altura",
+   "familia": "objeto",
+   "en": "the height chart (a tall cream clay measuring strip with colored lines on a wall)",
+   "ref": "A single tall stop-motion polymer-clay height chart fixed to a wall: a cream matte clay strip with evenly spaced short colored lines and a small giraffe shape at the top, with no numbers or letters. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    52
+   ],
+   "tomas": 6,
+   "prioridad": "normal"
+  },
+  {
+   "id": "palomita_gigante",
+   "es": "Palomita gigante",
+   "familia": "comida",
+   "en": "the giant popcorn (fluffy irregular white clay with small yellow shell bits)",
+   "ref": "A single oversized stop-motion polymer-clay popped popcorn, about waist-high to a puppet: fluffy irregular rounded lobes of solid matte white clay, with two small golden-yellow shell fragments tucked at its base.",
+   "episodios": [
+    1
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_un_ojo",
+   "es": "Maqueta de un ojo",
+   "familia": "maqueta_corte",
+   "en": "the eye model (a big friendly white clay eyeball with a brown iris under a peach clay eyelid)",
+   "ref": "A single oversized, friendly stop-motion polymer-clay eye model: a round white clay eyeball with a brown clay iris and a black pupil, resting under a soft peach clay upper eyelid. Solid uniform matte colors, deep fingerprints, cute and simple.",
+   "episodios": [
+    6
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bacterias_del_intestino",
+   "es": "Bacterias del intestino",
+   "familia": "particulas",
+   "en": "the gut bacteria (small clay capsules in purple, orange and teal with tiny dot eyes)",
+   "ref": "Five small, cute stop-motion polymer-clay bacteria: short rounded capsules in solid purple, orange and teal matte clay, each with two tiny black dot eyes. Deep fingerprints, simple shapes.",
+   "episodios": [
+    8
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bolitas_de_gas",
+   "es": "Bolitas de gas",
+   "familia": "particulas",
+   "en": "the gas balls (small white clay balls)",
+   "ref": "Six small stop-motion polymer-clay balls of solid white matte clay, spread loosely, each with deep fingerprints. They represent gas.",
+   "episodios": [
+    11
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "diente_de_leche",
+   "es": "Diente de leche",
+   "familia": "comida",
+   "en": "the baby tooth (a small white clay tooth with a root)",
+   "ref": "A single oversized, cute stop-motion polymer-clay baby tooth standing upright: a small rounded white matte clay crown on top of a cream-white clay root. Deep fingerprints, simple shape.",
+   "episodios": [
+    12
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "trozo_de_piel_con_sensores",
+   "es": "Trozo de piel con sensores",
+   "familia": "cuerpo",
+   "en": "the skin patch (a peach clay patch with small round blue clay sensors on it)",
+   "ref": "A single flat, rounded patch of solid peach matte polymer clay lying on the floor, with six small round blue clay buttons set into its top surface. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    18
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "astronauta_de_arcilla",
+   "es": "Astronauta de arcilla",
+   "familia": "objeto",
+   "en": "the clay astronaut (a small white clay astronaut figure with a round helmet and a dark visor)",
+   "ref": "A single small, simple stop-motion polymer-clay astronaut figure: a chubby white matte clay suit with short arms and legs, a round white helmet with a dark grey visor, and a small grey backpack. Deep fingerprints, simple shapes.",
+   "episodios": [
+    19
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pared_de_la_burbuja_corte",
+   "es": "Pared de la burbuja (corte)",
+   "familia": "maqueta_corte",
+   "en": "the soap film model (a thin blue clay layer sandwiched between two rows of pink soap pieces)",
+   "ref": "A single stop-motion polymer-clay model of a soap film in cross-section: a thin horizontal layer of solid blue clay, with a row of small pink clay balls on top of it and another row below it, each ball with a short yellow clay peg pointing away from the blue layer. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    23
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "crisalida_por_dentro",
+   "es": "Crisálida por dentro",
+   "familia": "maqueta_corte",
+   "en": "the cut-open chrysalis model (a green clay pod in cross-section, filled with pale-yellow clay soup and a few small orange clay discs)",
+   "ref": "A single oversized stop-motion polymer-clay chrysalis shown in cross-section, hanging from a short brown clay twig: a green clay outline filled with smooth pale-yellow clay, with five small flat orange clay discs floating in it. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    28
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bacterias_de_la_piel",
+   "es": "Bacterias de la piel",
+   "familia": "particulas",
+   "en": "the skin bacteria (small round clay bacteria in purple and teal with tiny dot eyes)",
+   "ref": "Six small, cute stop-motion polymer-clay bacteria: round and oval shapes in solid purple and teal matte clay, each with two tiny black dot eyes. Deep fingerprints, simple shapes.",
+   "episodios": [
+    30
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "gotas_de_sudor",
+   "es": "Gotas de sudor",
+   "familia": "particulas",
+   "en": "the sweat drops (small pale-blue clay drops)",
+   "ref": "Six small stop-motion polymer-clay drops of solid pale-blue matte clay, teardrop-shaped, spread loosely, each with deep fingerprints.",
+   "episodios": [
+    30
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "ala_vista_de_lado",
+   "es": "Ala vista de lado",
+   "familia": "maqueta_corte",
+   "en": "the wing slice (a white clay wing cross-section, rounded at the front and thin at the back)",
+   "ref": "A single white matte polymer-clay wing cross-section shaped like a long teardrop: thick and rounded at the front, curved on top, almost flat underneath and thin at the back. About as long as a puppet is tall, with deep fingerprints.",
+   "episodios": [
+    31
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_cabeza_por_dentro",
+   "es": "Maqueta de cabeza por dentro",
+   "familia": "maqueta_corte",
+   "en": "the head model (a friendly peach clay head shape cut in half and seen from the side, with a pink tongue)",
+   "ref": "A single oversized, friendly, toy-like polymer-clay teaching model of a simple head cut in half and seen from the side: smooth peach matte clay outside, a pink clay tongue, the pink roof of the mouth, a pale bony layer above it and a soft pink brain area at the top. No face details, deep fingerprints, simple bold shapes.",
+   "episodios": [
+    33
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "libreta_de_suenos",
+   "es": "Libreta de sueños",
+   "familia": "objeto",
+   "en": "the dream notebook (a small yellow clay notebook)",
+   "ref": "A single small stop-motion polymer-clay notebook with a yellow matte clay cover and thick white clay pages, about the size of a puppet's head. Deep fingerprints.",
+   "episodios": [
+    34
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "tierra_por_dentro",
+   "es": "Tierra por dentro",
+   "familia": "maqueta_corte",
+   "en": "the Earth slice (a clay Earth ball with a wedge cut out showing its layers)",
+   "ref": "A single oversized stop-motion polymer-clay Earth ball with blue clay oceans and green clay land, with a wedge cut out to show its layers: a thin brown clay crust, a thick orange clay layer and a yellow clay core. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    35
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "celditas_de_la_manzana",
+   "es": "Celditas de la manzana",
+   "familia": "particulas",
+   "en": "the apple cells (rounded pale-cream clay cells with green beads in one pocket and yellow beads in another)",
+   "ref": "A group of oversized rounded pale-cream matte polymer-clay cells packed together like soap bubbles. Each cell holds small green clay beads in one pocket and small yellow clay beads in a separate pocket. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    37
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "agujero_negro",
+   "es": "Agujero negro",
+   "familia": "cielo_espacio",
+   "en": "the black hole (a perfectly black clay sphere with a glowing orange clay ring around it)",
+   "ref": "A single stop-motion polymer-clay black hole: a perfectly matte black clay sphere surrounded by a flat, glowing ring of swirled orange and yellow clay. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    39
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "oido_interno",
+   "es": "Oído interno",
+   "familia": "cuerpo",
+   "en": "the inner ear model (three clear clay loops and a small coiled shell, filled with pale-blue liquid)",
+   "ref": "A single oversized polymer-clay teaching model of the inner ear on a small white clay stand: three clear, glassy-looking clay loops at right angles to each other, joined to a small coiled snail-shell shape, all filled with pale-blue clay liquid. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    49
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "hueso_que_crece",
+   "es": "Hueso que crece",
+   "familia": "cuerpo",
+   "en": "the bone model (a long white clay bone with thin pale-blue bands near each end)",
+   "ref": "A single oversized polymer-clay teaching model of a long leg bone standing upright on a small white clay stand: smooth white matte clay with rounded knobby ends and a thin pale-blue clay band just inside each end. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    52
+   ],
+   "tomas": 5,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_una_celda_de_cebolla",
+   "es": "Maqueta de una celda de cebolla",
+   "familia": "maqueta_corte",
+   "en": "the onion cell model (a white clay box in cross-section with two compartments: green clay balls in one, orange clay balls in the other)",
+   "ref": "A single oversized stop-motion polymer-clay model of a plant cell shown in cross-section: a white clay box with rounded corners, divided by one inner clay wall into two compartments, the left one holding five small green clay balls and the right one five small orange clay balls. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    6
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "lava",
+   "es": "Lava",
+   "familia": "objeto",
+   "en": "the lava (thick orange-red clay)",
+   "ref": "A single thick, flowing blob of solid orange-red matte polymer clay with rounded edges, like a slow stream of lava, with deep fingerprints.",
+   "episodios": [
+    13
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "mechon_de_pelo",
+   "es": "Mechón de pelo",
+   "familia": "objeto",
+   "en": "the hair tuft (a small tuft of brown clay strands standing on a round peach clay base)",
+   "ref": "A single stop-motion polymer-clay hair tuft: about ten thick brown clay strands lying flat on top of a round peach clay base, like hair on the top of a head. Deep fingerprints, simple shapes.",
+   "episodios": [
+    17
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "vaso_sanguineo_roto_corte",
+   "es": "Vaso sanguíneo roto (corte)",
+   "familia": "maqueta_corte",
+   "en": "the blood vessel model (a red clay tube in cross-section inside peach clay skin, with a small gap at the top)",
+   "ref": "A single oversized stop-motion polymer-clay model in cross-section, facing the camera: a block of peach clay skin with one thick red clay tube running horizontally through it, and a small gap where the top of the tube and the skin above it are broken open. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    24
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "plaquetas",
+   "es": "Plaquetas",
+   "familia": "particulas",
+   "en": "the platelets (tiny yellow clay discs)",
+   "ref": "Eight tiny stop-motion polymer-clay discs of solid yellow matte clay, slightly irregular, spread loosely, each with deep fingerprints. They represent platelets.",
+   "episodios": [
+    24
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "dinosaurio_de_arcilla",
+   "es": "Dinosaurio de arcilla",
+   "familia": "animales",
+   "en": "the clay dinosaur (a chubby green clay long-necked dinosaur)",
+   "ref": "A single cute stop-motion polymer-clay long-necked dinosaur, about as tall as a puppet: a chubby solid green matte clay body, a long neck, a small head with black bead eyes, four thick legs and a long tail. Deep fingerprints, simple shapes.",
+   "episodios": [
+    26
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "asteroide",
+   "es": "Asteroide",
+   "familia": "cielo_espacio",
+   "en": "the asteroid (a rough dark-grey clay rock with a short orange clay flame tail)",
+   "ref": "A single stop-motion polymer-clay asteroid: a rough, lumpy rock of solid dark-grey matte clay with small craters, and a short tail of orange and yellow clay flames behind it. Deep fingerprints.",
+   "episodios": [
+    26
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pajarito",
+   "es": "Pajarito",
+   "familia": "animales",
+   "en": "the tiny bird (a tiny solid sky-blue clay bird with an orange beak and scaly orange feet)",
+   "ref": "A single tiny, cute stop-motion polymer-clay bird: a round solid sky-blue matte clay body, small wings, an orange beak, black bead eyes and scaly orange feet with three toes in front. Deep fingerprints.",
+   "episodios": [
+    26
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "oruga",
+   "es": "Oruga",
+   "familia": "animales",
+   "en": "the caterpillar (a chubby green clay caterpillar with yellow stripes)",
+   "ref": "A single cute stop-motion polymer-clay caterpillar, about as long as a puppet's arm: a chubby body of round solid green matte clay segments with thin yellow clay stripes, small black bead eyes and tiny stubby legs. Deep fingerprints.",
+   "episodios": [
+    28
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cintas_de_aire",
+   "es": "Cintas de aire",
+   "familia": "particulas",
+   "en": "the air ribbons (long thin pale-blue clay ribbons)",
+   "ref": "A set of long, thin, flat ribbons of pale-blue matte polymer clay with deep fingerprints. They represent moving air.",
+   "episodios": [
+    31
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "avion_de_papel",
+   "es": "Avión de papel",
+   "familia": "objeto",
+   "en": "the paper plane (a folded white clay paper airplane)",
+   "ref": "A single white matte polymer-clay paper airplane with sharp folded creases, about the size of a puppet's head, with deep fingerprints.",
+   "episodios": [
+    31
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "farol_por_dentro",
+   "es": "Farol por dentro",
+   "familia": "maqueta_corte",
+   "en": "the light lantern (a cut-open pale-yellow clay segment with small yellow clay beads inside)",
+   "ref": "A single oversized polymer-clay segment of a firefly tail, cut in half: a rounded shell of pale-yellow matte clay, open to show many small round yellow clay beads packed inside. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    32
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "helado_de_cucurucho",
+   "es": "Helado de cucurucho",
+   "familia": "comida",
+   "en": "the ice cream cone (a light-brown clay cone with one round pink clay scoop)",
+   "ref": "A single oversized stop-motion polymer-clay ice cream cone: a light-brown matte clay cone with a crisscross pattern, topped with one round scoop of pink matte clay. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    33
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cristales_de_la_piel",
+   "es": "Cristales de la piel",
+   "familia": "particulas",
+   "en": "the skin crystals (tiny shiny white clay crystals in neat rows inside a pale skin layer)",
+   "ref": "An oversized polymer-clay teaching model of a slice of reptile skin: a pale translucent-looking clay layer holding many tiny shiny white clay crystals arranged in neat rows. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    48
+   ],
+   "tomas": 4,
+   "prioridad": "normal"
+  },
+  {
+   "id": "anillo_de_hielo_seis_moleculas",
+   "es": "Anillo de hielo (seis moléculas)",
+   "familia": "particulas",
+   "en": "the ice ring model (six water molecules joined in a wide hexagonal ring with an empty center)",
+   "ref": "A single stop-motion polymer-clay ice crystal model seen from above: six water molecules, each a red clay ball with two small white clay ears, joined ear to ball in a wide, regular hexagonal ring with a large empty center. Solid uniform matte colors, deep fingerprints.",
+   "episodios": [
+    5
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "iman_por_dentro_flechitas_ordenadas",
+   "es": "Imán por dentro (flechitas ordenadas)",
+   "familia": "maqueta_corte",
+   "en": "the cut magnet model (a grey clay block in cross-section filled with small yellow clay arrows all pointing the same way)",
+   "ref": "A single oversized stop-motion polymer-clay block of solid grey matte clay shown in cross-section, its flat face covered with neat rows of small yellow clay arrows, all pointing to the right. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    9
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "clavo_gigante",
+   "es": "Clavo gigante",
+   "familia": "objeto",
+   "en": "the giant nail (a thick grey clay nail)",
+   "ref": "A single oversized stop-motion polymer-clay nail lying on its side: a thick grey matte clay shaft with a flat round head and a blunt tip, with deep fingerprints.",
+   "episodios": [
+    9
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_del_oido_interno",
+   "es": "Maqueta del oído interno",
+   "familia": "maqueta_corte",
+   "en": "the inner ear model (a small pink clay snail-shaped shell with three curved clay loops on top)",
+   "ref": "A single oversized, simplified stop-motion polymer-clay inner ear model: a pink clay snail-shaped shell with three curved pink clay loops rising from it like small arches. Solid uniform matte colors, deep fingerprints.",
+   "episodios": [
+    10
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "diente_definitivo",
+   "es": "Diente definitivo",
+   "familia": "cuerpo",
+   "en": "the new tooth (a bigger, bright white clay tooth with a long root)",
+   "ref": "A single oversized stop-motion polymer-clay adult tooth standing upright: a big bright-white matte clay crown on top of a long cream-white clay root. Deep fingerprints, simple shape.",
+   "episodios": [
+    12
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "gotita_de_saliva",
+   "es": "Gotita de saliva",
+   "familia": "particulas",
+   "en": "the saliva drop (a tiny pale-green clay droplet)",
+   "ref": "A single small stop-motion polymer-clay droplet of solid pale-green matte clay, teardrop-shaped, with deep fingerprints.",
+   "episodios": [
+    16
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "electrones",
+   "es": "Electrones",
+   "familia": "particulas",
+   "en": "the electrons (tiny yellow clay balls)",
+   "ref": "Eight tiny stop-motion polymer-clay balls of solid bright-yellow matte clay, spread loosely, each with deep fingerprints. They represent electrons.",
+   "episodios": [
+    17
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "rebanada_de_pan",
+   "es": "Rebanada de pan",
+   "familia": "comida",
+   "en": "the bread slice (a slice of clay bread with a golden-brown crust and many small holes)",
+   "ref": "A single oversized stop-motion polymer-clay slice of bread standing upright: a pale cream clay crumb full of small round holes, with a golden-brown clay crust around its edge. Deep fingerprints.",
+   "episodios": [
+    20
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "anillos_de_sonido",
+   "es": "Anillos de sonido",
+   "familia": "particulas",
+   "en": "the sound rings (three curved pale-purple clay arcs, like ripples)",
+   "ref": "Three curved arcs of solid pale-purple matte polymer clay, one inside the other like ripples spreading outward, each a little bigger than the last. Deep fingerprints.",
+   "episodios": [
+    21
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "hocico_por_dentro",
+   "es": "Hocico por dentro",
+   "familia": "maqueta_corte",
+   "en": "the snout model (a brown clay dog snout in cross-section, with a pink folded maze inside)",
+   "ref": "A single oversized stop-motion polymer-clay dog snout shown in cross-section from the side: a brown clay outline with a black nose at the tip, and inside it a pink clay maze of soft curled folds. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    22
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "aro_cuadrado",
+   "es": "Aro cuadrado",
+   "familia": "objeto",
+   "en": "the square wand (a square orange clay frame on a short handle)",
+   "ref": "A single stop-motion polymer-clay bubble wand: a square frame of solid orange matte clay on a short straight handle. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    23
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "globulos_rojos",
+   "es": "Glóbulos rojos",
+   "familia": "particulas",
+   "en": "the red blood cells (small red clay discs with a dent in the middle)",
+   "ref": "Six small stop-motion polymer-clay discs of solid red matte clay, each with a soft dent in the middle like a tiny doughnut without a hole, spread loosely. Deep fingerprints.",
+   "episodios": [
+    24
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "jugos_del_estomago",
+   "es": "Jugos del estómago",
+   "familia": "particulas",
+   "en": "the stomach juices (small green clay drops)",
+   "ref": "Six small stop-motion polymer-clay drops of solid green matte clay, teardrop-shaped, spread loosely, each with deep fingerprints.",
+   "episodios": [
+    25
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bloque_de_agua",
+   "es": "Bloque de agua",
+   "familia": "objeto",
+   "en": "the water block (a dark-blue clay cube)",
+   "ref": "A single cube of solid dark-blue matte polymer clay with slightly rounded edges, with deep fingerprints. It represents a block of water.",
+   "episodios": [
+    27
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "nubecita_de_olor",
+   "es": "Nubecita de olor",
+   "familia": "cielo_espacio",
+   "en": "the smell cloud (a small yellow-green clay puff)",
+   "ref": "A single small, puffy cloud of solid yellow-green matte polymer clay made of rounded lobes, with deep fingerprints. It represents a bad smell.",
+   "episodios": [
+    30
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "burbujas_de_oxigeno",
+   "es": "Burbujas de oxígeno",
+   "familia": "particulas",
+   "en": "the oxygen bubbles (small round pale-blue clay bubbles)",
+   "ref": "A set of small round bubbles of pale-blue matte polymer clay, each about the size of a pea, with deep fingerprints. They represent oxygen.",
+   "episodios": [
+    32
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "tubito_de_sangre",
+   "es": "Tubito de sangre",
+   "familia": "objeto",
+   "en": "the blood tube (a soft pale-pink clay tube with red clay beads inside)",
+   "ref": "A single long, soft tube of pale-pink matte polymer clay, open along its top to show small round red clay beads inside. Deep fingerprints. It represents a blood vessel.",
+   "episodios": [
+    33
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "yema_por_dentro",
+   "es": "Yema por dentro",
+   "familia": "maqueta_corte",
+   "en": "the fingertip slice (a cut-open fingertip with a peach outer skin and a pale-pink inside with thin red tubes)",
+   "ref": "A single oversized polymer-clay teaching model of a fingertip cut in half lengthwise: a thick peach matte clay outer skin layer over a soft pale-pink clay inside with thin red clay blood tubes running through it. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    38
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "canicas",
+   "es": "Canicas",
+   "familia": "objeto",
+   "en": "the marbles (colorful round clay marbles)",
+   "ref": "A handful of small round polymer-clay marbles in bright red, blue, green and yellow, with a glossy look and deep fingerprints.",
+   "episodios": [
+    38
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cama_elastica_del_espacio",
+   "es": "Cama elástica del espacio",
+   "familia": "objeto",
+   "en": "the stretchy sheet (a smooth grey clay sheet stretched tight on a round frame)",
+   "ref": "A single wide, smooth sheet of grey matte polymer clay with a faint white grid pattern, stretched tight across a round dark-blue clay frame. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    39
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "roca_con_minerales",
+   "es": "Roca con minerales",
+   "familia": "objeto",
+   "en": "the rock (a big grey clay rock with sparkly white bits)",
+   "ref": "A single big rounded grey matte polymer-clay rock with small sparkly white and pink clay mineral bits pressed into its surface. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    41
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "plato_con_agua_salada",
+   "es": "Plato con agua salada",
+   "familia": "objeto",
+   "en": "the salty plate (a shallow dark-blue clay plate holding clear water)",
+   "ref": "A single shallow, round stop-motion polymer-clay plate of dark-blue matte clay, holding a thin layer of clear glossy clay water. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    41
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "ondas_de_sonido",
+   "es": "Ondas de sonido",
+   "familia": "particulas",
+   "en": "the sound arcs (curved pale-yellow clay arcs)",
+   "ref": "A set of thin curved arcs of pale-yellow matte polymer clay, each slightly bigger than the last, with deep fingerprints. They represent sound waves.",
+   "episodios": [
+    42
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "linternas_de_colores",
+   "es": "Linternas de colores",
+   "familia": "objeto",
+   "en": "the color flashlights (three small clay flashlights shining red, green and blue light)",
+   "ref": "Three small stop-motion polymer-clay flashlights side by side: grey matte clay tubes with round lenses, one glowing red, one green and one blue. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    43
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "gotitas_de_nube",
+   "es": "Gotitas de nube",
+   "familia": "particulas",
+   "en": "the cloud droplets (many tiny round clear clay droplets, each with a tiny brown speck inside)",
+   "ref": "Many tiny round droplets of clear glossy polymer clay floating far apart, each holding a tiny brown clay dust speck in its center. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    45
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "frasco_de_la_nube",
+   "es": "Frasco de la nube",
+   "familia": "cielo_espacio",
+   "en": "the cloud jar (a clear clay jar with warm water and a small plate of ice cubes on top)",
+   "ref": "A single clear glassy-looking polymer-clay jar half filled with pale-blue clay water, with a small white clay plate holding three pale-cyan clay ice cubes resting on its open top. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    45
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bolitas_de_electricidad",
+   "es": "Bolitas de electricidad",
+   "familia": "particulas",
+   "en": "the glowing beads (tiny glowing yellow clay beads that stand for electricity)",
+   "ref": "Many tiny round beads of bright yellow polymer clay with a soft glow, lined up in a stream. Deep fingerprints. They represent the flow of electricity.",
+   "episodios": [
+    47
+   ],
+   "tomas": 3,
+   "prioridad": "normal"
+  },
+  {
+   "id": "aji_partido_por_la_mitad",
+   "es": "Ají partido por la mitad",
+   "familia": "maqueta_corte",
+   "en": "the cut-open chili model (red walls, white inner veins, a few small cream seeds)",
+   "ref": "A single oversized stop-motion polymer-clay chili pepper cut lengthwise, its open inside facing the camera: thick crimson-red walls, two thick white clay inner veins running along it, and a few small cream clay seeds attached to the veins. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    3
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "vaso_de_leche",
+   "es": "Vaso de leche",
+   "familia": "comida",
+   "en": "the glass of milk (a chunky white clay glass filled with white clay milk)",
+   "ref": "A single oversized stop-motion polymer-clay drinking glass: a chunky, opaque pale-grey clay cup filled to the top with solid white clay milk. Deep fingerprints, solid uniform matte colors.",
+   "episodios": [
+    3
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_la_garganta_puerta_de_las_cuerdas_vocales",
+   "es": "Maqueta de la garganta (puerta de las cuerdas vocales)",
+   "familia": "maqueta_corte",
+   "en": "the throat-door model (a short upright pink clay tube topped by two small cream clay flaps that open and close like a double door)",
+   "ref": "A single simplified stop-motion polymer-clay throat model: a short, wide, upright tube of solid light-pink matte clay, topped by two small cream clay flaps standing open like a tiny double door. Simple bold shapes, deep fingerprints.",
+   "episodios": [
+    4
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_cerebro_nervio_y_pulmones",
+   "es": "Maqueta de cerebro, nervio y pulmones",
+   "familia": "maqueta_corte",
+   "en": "the brain-and-nerve model (a small pink clay brain on the left joined by a long yellow clay cord to the lungs on the right)",
+   "ref": "A single wide stop-motion polymer-clay model laid out from left to right: a small rounded pink clay brain on the left, a long thick yellow clay cord lying on the floor, and on the right two coral-pink clay ovals above a curved crimson clay band. The yellow cord joins the brain to the crimson band. Solid uniform matte colors, deep fingerprints.",
+   "episodios": [
+    4
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "panel_del_cielo",
+   "es": "Panel del cielo",
+   "familia": "cielo_espacio",
+   "en": "the sky panel (a wide flat sky-blue clay arch standing upright like a backdrop)",
+   "ref": "A single wide, flat, upright arch of solid sky-blue matte polymer clay standing like a small stage backdrop, about twice as tall as a puppet, with deep fingerprints.",
+   "episodios": [
+    7
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "frijol_gigante",
+   "es": "Frijol gigante",
+   "familia": "comida",
+   "en": "the giant bean (a dark red clay kidney bean)",
+   "ref": "A single oversized stop-motion polymer-clay kidney bean in solid dark red matte clay, with deep fingerprints. One single solid piece.",
+   "episodios": [
+    8
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "hierro_por_dentro_flechitas_desordenadas",
+   "es": "Hierro por dentro (flechitas desordenadas)",
+   "familia": "maqueta_corte",
+   "en": "the plain iron model (a grey clay block in cross-section filled with small yellow clay arrows pointing in random directions)",
+   "ref": "A single oversized stop-motion polymer-clay block of solid grey matte clay shown in cross-section, its flat face covered with small yellow clay arrows pointing in many different random directions. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    9
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cojin_alto",
+   "es": "Cojín alto",
+   "familia": "objeto",
+   "en": "the tall cushion (a big square purple clay cushion)",
+   "ref": "A single big, tall, square stop-motion polymer-clay cushion of solid purple matte clay with softly rounded corners, about as tall as a puppet. Deep fingerprints.",
+   "episodios": [
+    10
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "maqueta_de_columna_flexible",
+   "es": "Maqueta de columna flexible",
+   "familia": "maqueta_corte",
+   "en": "the flexible spine model (a row of small white clay blocks joined like a chain)",
+   "ref": "A single stop-motion polymer-clay spine model lying horizontally: a row of about twelve small white clay blocks joined one to the next like a chain, gently curved. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    10
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pelitos_cilios",
+   "es": "Pelitos (cilios)",
+   "familia": "particulas",
+   "en": "the tiny hairs (a row of short pink clay bristles)",
+   "ref": "A single row of about ten short, thick, upright bristles of solid pink matte polymer clay standing on a thin pink clay base, like a soft brush. Deep fingerprints.",
+   "episodios": [
+    14
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "polvo_y_microbios",
+   "es": "Polvo y microbios",
+   "familia": "particulas",
+   "en": "the dust and germs (small grey clay specks and tiny purple clay germs with dot eyes)",
+   "ref": "A loose group of small stop-motion polymer-clay pieces: four irregular grey clay specks and three tiny round purple clay germs with two black dot eyes each. Deep fingerprints.",
+   "episodios": [
+    14
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "nube_de_lluvia",
+   "es": "Nube de lluvia",
+   "familia": "cielo_espacio",
+   "en": "the rain cloud (a puffy grey clay cloud with blue clay drops under it)",
+   "ref": "A single puffy stop-motion polymer-clay rain cloud of solid light-grey matte clay made of rounded lobes, with five small blue clay raindrops hanging just under it. Deep fingerprints.",
+   "episodios": [
+    15
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cable_de_nervio",
+   "es": "Cable de nervio",
+   "familia": "objeto",
+   "en": "the nerve cable (a long yellow clay cord)",
+   "ref": "A single long, thick cord of solid yellow matte polymer clay lying in a gentle curve, with deep fingerprints. It represents a nerve.",
+   "episodios": [
+    18
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "trocitos_de_hielo",
+   "es": "Trocitos de hielo",
+   "familia": "particulas",
+   "en": "the ice bits (small white clay balls and tiny pale-blue clay crystals)",
+   "ref": "A loose group of small stop-motion polymer-clay pieces: four small white clay balls and four tiny pale-blue clay crystals with flat faces. Deep fingerprints.",
+   "episodios": [
+    21
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "red_de_hilos",
+   "es": "Red de hilos",
+   "familia": "objeto",
+   "en": "the thread net (a small net of thin white clay threads)",
+   "ref": "A single small net made of thin white matte polymer-clay threads crossing each other in a loose mesh, stretched flat. Deep fingerprints.",
+   "episodios": [
+    24
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "helecho",
+   "es": "Helecho",
+   "familia": "objeto",
+   "en": "the fern (a small bright-green clay fern)",
+   "ref": "A single small stop-motion polymer-clay fern: several curved fronds of solid bright-green matte clay rising from a small brown clay mound. Deep fingerprints.",
+   "episodios": [
+    26
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "piel_del_pie_por_dentro",
+   "es": "Piel del pie por dentro",
+   "familia": "maqueta_corte",
+   "en": "the foot skin model (a block of peach clay skin in cross-section with small coiled blue clay sweat glands inside)",
+   "ref": "A single oversized stop-motion polymer-clay skin model shown in cross-section, facing the camera: a rectangular block of solid peach clay with three small coiled blue clay tubes inside it, each with a thin blue tube rising to the top surface. Simple, bold, diagram-like shapes.",
+   "episodios": [
+    30
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "bombilla_antigua",
+   "es": "Bombilla antigua",
+   "familia": "objeto",
+   "en": "the light bulb (an old-style clay light bulb with a pale-yellow top)",
+   "ref": "A single oversized stop-motion polymer-clay old-style light bulb: a round pale-yellow matte clay top on a ridged grey clay base. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    32
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "linterna_pequena",
+   "es": "Linterna pequeña",
+   "familia": "objeto",
+   "en": "the small flashlight (a short red clay flashlight)",
+   "ref": "A single small stop-motion polymer-clay flashlight: a short red matte clay tube with a round pale-yellow clay lens at one end. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    32
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "escalera_del_sueno",
+   "es": "Escalera del sueño",
+   "familia": "objeto",
+   "en": "the sleep stairs (four wide clay steps from light blue to dark blue, with a soft purple top step)",
+   "ref": "A single wide polymer-clay staircase of four broad steps going down from left to right, colored from pale light blue at the top to deep dark blue at the bottom, plus a separate soft purple clay step at the top right. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    34
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "dos_placas",
+   "es": "Dos placas",
+   "familia": "objeto",
+   "en": "the two plates (two thick brown clay slabs with jagged edges)",
+   "ref": "Two thick slabs of brown matte polymer clay with green clay grass on top and rough, jagged facing edges, each about as long as a puppet's arm. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    35
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "sismografo",
+   "es": "Sismógrafo",
+   "familia": "objeto",
+   "en": "the seismograph (a grey clay machine with a pen over a white paper strip)",
+   "ref": "A single stop-motion polymer-clay seismograph: a grey matte clay box with a thin arm holding a black clay pen over a long strip of white clay paper. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    35
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "mesa_fuerte",
+   "es": "Mesa fuerte",
+   "familia": "objeto",
+   "en": "the sturdy table (a thick light-brown clay table with four strong legs)",
+   "ref": "A single sturdy stop-motion polymer-clay table sized so a puppet can crouch beneath it: a thick light-brown matte clay top on four thick legs. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    35
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "cubos_de_bloques",
+   "es": "Cubos de bloques",
+   "familia": "objeto",
+   "en": "the block cubes (one small orange clay block and a bigger cube built from eight of the same blocks)",
+   "ref": "Two orange matte polymer-clay shapes: a single small cube block, and a bigger cube built from eight of the same small blocks stacked two by two by two. Deep fingerprints, visible seams between the blocks.",
+   "episodios": [
+    36
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "medio_limon",
+   "es": "Medio limón",
+   "familia": "maqueta_corte",
+   "en": "the lemon half (a bright yellow clay lemon cut in half)",
+   "ref": "A single stop-motion polymer-clay lemon cut in half: bright yellow matte clay skin and a pale-yellow clay inside with simple segment lines. Deep fingerprints.",
+   "episodios": [
+    37
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pelota",
+   "es": "Pelota",
+   "familia": "objeto",
+   "en": "the small ball (a small red clay ball)",
+   "ref": "A single small ball of bright red matte polymer clay, about the size of a puppet's paddle hand, with deep fingerprints.",
+   "episodios": [
+    39
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "mandibula",
+   "es": "Mandíbula",
+   "familia": "cuerpo",
+   "en": "the jaw model (a friendly peach clay jaw in side view, with white teeth)",
+   "ref": "A single oversized, friendly polymer-clay teaching model of a simple jaw seen from the side: smooth peach matte clay with rounded white clay teeth and a pink clay tongue, hinged so it can open wide. No eyes or face details, deep fingerprints, simple bold shapes.",
+   "episodios": [
+    40
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "trozo_de_mar",
+   "es": "Trozo de mar",
+   "familia": "objeto",
+   "en": "the sea pool (a wide round dark-blue clay sea with small white wave crests)",
+   "ref": "A single wide, shallow, round polymer-clay pool of dark-blue matte clay water with small white clay wave crests, edged by a thin pale-yellow clay sand rim. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    41
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "polilla",
+   "es": "Polilla",
+   "familia": "animales",
+   "en": "the moth (a small fuzzy grey clay moth)",
+   "ref": "A single small stop-motion polymer-clay moth with a fuzzy grey matte clay body, two soft pale-grey wings and feathery antennae. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    42
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "botes_de_pintura",
+   "es": "Botes de pintura",
+   "familia": "objeto",
+   "en": "the paint pots (three small clay pots of red, yellow and blue paint)",
+   "ref": "Three small round stop-motion polymer-clay paint pots in a row, filled with glossy red, yellow and blue clay paint. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    43
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pata_de_arana_de_cerca",
+   "es": "Pata de araña de cerca",
+   "familia": "animales",
+   "en": "the spider leg (a giant close-up of a brown clay spider leg covered in tiny branching hairs)",
+   "ref": "A single oversized polymer-clay close-up of a spider leg tip: a brown matte clay segment covered in many tiny branching dark clay hairs, ending in two small curved claws. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    44
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "nube",
+   "es": "Nube",
+   "familia": "cielo_espacio",
+   "en": "the cloud (a big fluffy white clay cumulus cloud)",
+   "ref": "A single big, fluffy stop-motion polymer-clay cumulus cloud made of rounded puffs of soft white matte clay, slightly grey underneath. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    45
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "gato",
+   "es": "Gato",
+   "familia": "animales",
+   "en": "the cat (a fluffy orange clay cat)",
+   "ref": "A single cute stop-motion polymer-clay cat with fluffy orange matte clay fur, white paws, a pink nose and green bead eyes. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    46
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "coche_de_juguete",
+   "es": "Coche de juguete",
+   "familia": "objeto",
+   "en": "the toy car (a small round red clay car)",
+   "ref": "A single small, round stop-motion polymer-clay car with a shiny red matte body, clear clay windows and four black clay wheels. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    49
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "flor",
+   "es": "Flor",
+   "familia": "objeto",
+   "en": "the flower (a big pink clay flower with a yellow center)",
+   "ref": "A single big stop-motion polymer-clay flower with five rounded pink matte clay petals, a yellow clay center and a green clay stem. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    50
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "tarro_de_miel",
+   "es": "Tarro de miel",
+   "familia": "comida",
+   "en": "the honey jar (a round clear clay jar of golden honey)",
+   "ref": "A single round, clear glassy-looking polymer-clay jar filled with glossy golden clay honey, with a small wooden clay dipper. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    50
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "columna_de_juguete",
+   "es": "Columna de juguete",
+   "familia": "cuerpo",
+   "en": "the spine model (a stack of small white clay bones with soft pale-blue cushions between them)",
+   "ref": "A single polymer-clay teaching model of a spine: a gently curved stack of small white matte clay bones with soft, puffy pale-blue clay cushions between each pair. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    52
+   ],
+   "tomas": 2,
+   "prioridad": "normal"
+  },
+  {
+   "id": "papelitos",
+   "es": "Papelitos",
+   "familia": "particulas",
+   "en": "the paper bits (small flat white clay squares)",
+   "ref": "Seven small, flat, thin squares of solid white matte polymer clay scattered loosely, like bits of torn paper. Deep fingerprints.",
+   "episodios": [
+    17
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "pieza_de_jabon",
+   "es": "Pieza de jabón",
+   "familia": "cuerpo",
+   "en": "the soap piece (a bubblegum-pink clay ball head with one short yellow clay tail peg)",
+   "ref": "A single oversized stop-motion polymer-clay soap molecule shaped like a tadpole: one smooth bubblegum-pink clay ball as the head, with one short chunky yellow clay peg sticking out as the tail. Solid uniform matte colors, deep fingerprints.",
+   "episodios": [
+    23
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "trozo_de_hoja",
+   "es": "Trozo de hoja",
+   "familia": "cuerpo",
+   "en": "the leaf piece (a half-moon piece of green clay leaf)",
+   "ref": "A single half-moon shaped piece of bright green matte polymer-clay leaf with a pale vein, several times bigger than the ant. Deep fingerprints.",
+   "episodios": [
+    36
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "estrella_gigante",
+   "es": "Estrella gigante",
+   "familia": "cielo_espacio",
+   "en": "the giant star (a big glowing orange-yellow clay ball)",
+   "ref": "A single big stop-motion polymer-clay star: a round ball of bright orange and yellow matte clay with a soft warm glow and a lumpy surface. Deep fingerprints, simple bold shape.",
+   "episodios": [
+    39
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "prisma",
+   "es": "Prisma",
+   "familia": "objeto",
+   "en": "the prism (a clear triangular clay prism)",
+   "ref": "A single clear, glassy-looking triangular polymer-clay prism standing upright, with smooth faces and deep fingerprints.",
+   "episodios": [
+    43
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "mosca",
+   "es": "Mosca",
+   "familia": "animales",
+   "en": "the fly (a small dark-grey clay fly with clear wings)",
+   "ref": "A single small stop-motion polymer-clay housefly with a dark-grey matte clay body, red bead eyes and two clear clay wings. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    44
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "puercoespin",
+   "es": "Puercoespín",
+   "familia": "animales",
+   "en": "the porcupine (a round brown clay porcupine with long pale quills)",
+   "ref": "A single cute stop-motion polymer-clay porcupine: a round brown matte clay body with a small face, black bead eyes and many long pale-cream clay quills on its back. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    46
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "punta_de_la_raiz",
+   "es": "Punta de la raíz",
+   "familia": "objeto",
+   "en": "the root tip (a giant rounded white clay root tip with tiny heavy brown grains in its cells)",
+   "ref": "A single oversized polymer-clay teaching model of a root tip: a rounded white matte clay tip made of small visible cells, each holding a few tiny heavy brown clay grains. Deep fingerprints, simple bold shapes.",
+   "episodios": [
+    51
+   ],
+   "tomas": 1,
+   "prioridad": "normal"
+  },
+  {
+   "id": "almohadita",
+   "es": "Almohadita",
+   "familia": "objeto",
+   "en": "the small pillow (a soft pale-blue clay pillow)",
+   "ref": "A single small, plump stop-motion polymer-clay pillow of solid pale-blue matte clay with softly rounded corners. Deep fingerprints.",
+   "episodios": [
+    12
+   ],
+   "tomas": 0,
+   "prioridad": "normal"
+  }
+ ]
+}

@@ -1,0 +1,1238 @@
+{
+ "episodio": 14,
+ "id": "ep14",
+ "titulo": "¿De qué están hechos los mocos?",
+ "tema": "Mocos",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "maqueta_de_la_nariz_corte",
+  "capa_de_moco",
+  "pelitos_cilios",
+  "polvo_y_microbios"
+ ],
+ "efectos": [
+  {
+   "es": "¡Achís!",
+   "en": "Big comic cartoon sneeze"
+  },
+  {
+   "es": "Moco pegajoso",
+   "en": "Wet sticky squelch, stretching"
+  },
+  {
+   "es": "Pelitos en ola",
+   "en": "Soft rhythmic brushing swish"
+  },
+  {
+   "es": "Polvo atrapado",
+   "en": "Small soft splat"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop estornuda y un moco verde sale volando.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop jolts forward with a big silent sneeze and one small pale-green clay blob flies out in front of him and lands on the set.",
+   "narrador": "[surprised] ¡Achís! Uy… ¿Qué es eso verde y pegajoso que salió volando?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El moco verde se estira como un hilo y vuelve a caer.",
+   "escena": "A small pale-green clay blob sits in the center of the frame.",
+   "accion": "The pale-green blob stretches slowly upward into a sticky string and sags back down, again and again.",
+   "narrador": "Sí: es un moco. Qué asco, ¿verdad? Pues prepárate, porque hoy vas a cambiar de opinión.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los mocos. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los mocos son pedacitos de cerebro que se escapan por la nariz!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un cerebro de arcilla, entero, da saltitos.",
+   "escena": "A small pink clay brain sits in the center of the frame, whole and smooth.",
+   "accion": "The pink brain bounces gently in place, again and again.",
+   "narrador": "Tranquilo: tu cerebro está completo y bien guardado dentro del cráneo. No se sale por ningún lado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop sacude la cabeza y no se le cae nada.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop shakes his head quickly from side to side, again and again, and stays perfectly fine.",
+   "narrador": "Además, fabricas mocos nuevos todos los días. Si fueran cerebro, ¡ya no te quedaría nada!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si son tan asquerosos, ¿para qué los fabrica mi nariz todo el día?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La maqueta de la nariz gira despacio.",
+   "escena": "The nose model stands in the center of the frame.",
+   "accion": "The nose model turns slowly in place like on a turntable.",
+   "narrador": "¡Buena pregunta! El cuerpo no fabrica nada por gusto. Si lo hace, es porque le sirve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la entrada de la nariz.",
+   "escena": "The nose model stands in the center of the set.",
+   "accion": "The nose model stays still while the camera glides slowly closer to its nostril.",
+   "narrador": "¿Para qué servirá un moco? ¿Tú qué crees? Piénsalo… ¡Vamos a entrar en la nariz!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El túnel rosado del interior de la nariz.",
+   "escena": "The pink tunnel inside the nose model fills the frame.",
+   "accion": "Small pale-blue clay wisps drift slowly through the pink tunnel from left to right, one after another.",
+   "narrador": "[excited] ¡Hagamos zoom! Por dentro, tu nariz es un túnel por donde pasa el aire que respiras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte",
+    "capa_de_moco"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una capa verde y pegajosa cubre el suelo del túnel.",
+   "escena": "The pink tunnel inside the nose model fills the frame, its floor covered by the mucus layer.",
+   "accion": "The mucus layer ripples very slowly, like thick honey.",
+   "narrador": "Las paredes del túnel están cubiertas por una capa húmeda y pegajosa. Eso es el moco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pelitos_cilios"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los pelitos se doblan en ola.",
+   "escena": "The tiny hairs fill the frame, standing in a row.",
+   "accion": "The tiny hairs bend one after another in a slow wave, from left to right, again and again.",
+   "narrador": "Debajo hay millones de pelitos diminutos, mucho más pequeños que un pelo. Se mueven como olas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte",
+    "polvo_y_microbios"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Polvo y microbios entran flotando por la nariz.",
+   "escena": "The entrance of the pink tunnel in the nose model fills the frame, with the dust and germs floating just outside it.",
+   "accion": "The dust and germs drift slowly into the tunnel, one after another.",
+   "narrador": "Y con el aire entran visitantes: polvo, polen, humo y microbios que quieren llegar a tus pulmones.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "capa_de_moco",
+    "pelitos_cilios"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: la capa de moco sobre los pelitos.",
+   "imagen": "The mucus layer lying on top of the tiny hairs, evenly lit. Wide clean empty white space above them.",
+   "narrador": "Un túnel, una capa pegajosa y millones de pelitos. ¡Es una trampa perfecta!",
+   "rotulos": "Moco (capa pegajosa) · Pelitos (cilios)"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿una trampa? ¿Dentro de mi propia nariz?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "capa_de_moco",
+    "polvo_y_microbios"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "El polvo y los microbios caen sobre el moco y se quedan pegados.",
+   "escena": "The mucus layer fills the lower half of the frame, with the dust and germs floating just above it.",
+   "accion": "The dust and germs sink onto the mucus layer one by one and stay stuck in place.",
+   "narrador": "Mira: todo lo que toca el moco se queda pegado. Como moscas en una cinta pegajosa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si atrapa tanta suciedad… alguien tiene que sacarla de ahí."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "capa_de_moco",
+    "pelitos_cilios"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los pelitos mueven la capa de moco como una cinta transportadora.",
+   "escena": "The mucus layer lies on top of the tiny hairs, with grey specks and purple germs stuck in it.",
+   "accion": "The tiny hairs wave together and slide the whole mucus layer slowly to the right, like a conveyor belt.",
+   "narrador": "Para eso están los pelitos. Con sus olas empujan el moco sucio, como una cinta transportadora.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte",
+    "capa_de_moco"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El moco avanza por el túnel hacia el fondo.",
+   "escena": "The nose model lies in the center of the set, with the mucus layer inside its pink tunnel.",
+   "accion": "The mucus layer slides slowly along the tunnel toward the back of the nose model.",
+   "narrador": "La mayor parte va hacia atrás, a la garganta. Y sin que lo notes… te la tragas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P7",
+    "nombre": "Desconcertado",
+    "direccion": "Pipo looks slowly from one side to the other and back, completely baffled."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Ba? ¿Bo? ¿Bi?",
+    "intencion": "Desconcertado",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo mira a un lado y al otro, sin entender.",
+   "narrador": "Pipo pone cara de susto: ¿me trago mis mocos? ¿Todos los días?"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el estómago, los microbios se deshacen.",
+   "escena": "A round peach-orange clay stomach, shown in cross-section with yellow clay liquid inside, sits in the center of the frame, and tiny purple clay germs float in the liquid.",
+   "accion": "The tiny purple germs shrink slowly in the yellow liquid until they disappear.",
+   "narrador": "Sí, cerca de un litro al día. Tranquilo: los jugos del estómago destruyen a los microbios.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_nariz_corte",
+    "capa_de_moco"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la entrada de la nariz, un trocito de moco se seca.",
+   "escena": "A small piece of the mucus layer sits at the edge of the nose model's nostril, with grey specks stuck in it.",
+   "accion": "The small piece of mucus slowly shrinks and hardens into a small dry greenish lump.",
+   "narrador": "¿Y los mocos secos? Son moco de la entrada, seco por el aire y lleno de polvo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y por qué cuando me resfrío hay tantísimo, y cambia de color?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "capa_de_moco"
+   ],
+   "movimientos": [
+    "cae",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Llegan muchos microbios y la capa de moco engorda.",
+   "escena": "The mucus layer fills the frame, with many tiny purple clay germs landing on it.",
+   "accion": "The mucus layer swells thicker and thicker as more and more purple germs land on it.",
+   "narrador": "Porque llegan muchos virus de golpe. Tu nariz fabrica moco extra para atraparlos y sacarlos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "capa_de_moco"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Llegan células defensoras y el moco se vuelve verdoso.",
+   "escena": "The mucus layer fills the frame, very pale, with small white clay cells with dot eyes rolling into it.",
+   "accion": "The small white cells roll into the mucus and the mucus slowly turns yellow-green around them.",
+   "narrador": "Y llegan refuerzos: células defensoras. Cuando hay muchísimas, el moco se pone amarillo o verde.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop toma aire: viene un estornudo.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop takes a slow deep breath, leaning back, as if a big sneeze were coming.",
+   "narrador": "Y cuando la trampa se llena demasiado, tu cuerpo tiene un botón de emergencia…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "¡Achís! Plop estornuda una lluvia de gotitas verdes.",
+   "escena": "Plop stands in the center of the set, leaning back with his eyes squeezed shut.",
+   "accion": "Plop jolts forward with a big silent sneeze and a spray of tiny pale-green clay droplets flies out in front of him.",
+   "narrador": "[excited] ¡Achís! El estornudo: un huracán que saca de golpe el moco, el polvo y los microbios.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las gotitas caen en un pañuelo.",
+   "escena": "A white clay tissue floats in the center of the frame, with tiny pale-green clay droplets flying toward it from the left.",
+   "accion": "The tiny droplets land on the white tissue one by one and stay there.",
+   "narrador": "Por eso se estornuda en un pañuelo o en el codo: para no regalarle tus microbios a nadie.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop respira tranquilo.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop breathes in and out slowly with relaxed, happy eyes.",
+   "narrador": "Así que el moco no es suciedad. Es tu guardián: atrapa, arrastra y expulsa a los invasores.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No eran pedacitos de cerebro, Pipo. Es una trampa pegajosa que protege tus pulmones."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: la nariz lo fabrica todo el día porque todo el día respiras."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: el moco atrapa, los pelitos empujan y el estornudo lo saca.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a pale-green clay blanket with grey specks stuck in it; the same blanket lying on a row of short pink clay bristles; and a white clay tissue with tiny green droplets on it. Clean empty white space above each one.",
+   "narrador": "Repasemos: el moco atrapa la suciedad, los pelitos lo empujan, y el estornudo lo saca.",
+   "rotulos": "1 Atrapa · 2 Los pelitos empujan · 3 ¡Achís!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una jirafa se limpia la nariz con la lengua.",
+   "escena": "A small yellow clay giraffe with brown spots stands in the center of the frame.",
+   "accion": "The giraffe slowly stretches out its long dark tongue up to its own nose and licks it.",
+   "narrador": "[curious] Dato extra: las jirafas no necesitan pañuelo. Se limpian la nariz… ¡con la lengua!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un caracol se desliza sobre su rastro de baba.",
+   "escena": "A small brown clay snail sits in the center of the frame on a thin pale-green clay trail.",
+   "accion": "The snail glides slowly forward along the pale-green trail.",
+   "narrador": "Y casi todos los animales fabrican moco. El caracol hasta lo usa para deslizarse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes ver cómo atrapa el polvo, con un adulto. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un tazón de pasta blanca con motas de pimienta y una cuchara.",
+   "imagen": "A small clay bowl of thick white paste with a few black pepper specks stuck on its surface, and a clay spoon beside it. Clean empty white space above them.",
+   "narrador": "Mezcla maicena con agua y échale pimienta. ¿Ves cómo lo pegajoso atrapa el polvo?",
+   "rotulos": "Reto en casa · con un adulto"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

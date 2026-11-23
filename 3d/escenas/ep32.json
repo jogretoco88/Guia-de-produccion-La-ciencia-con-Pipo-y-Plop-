@@ -1,0 +1,1244 @@
+{
+ "episodio": 32,
+ "id": "ep32",
+ "titulo": "¿Por qué brillan las luciérnagas?",
+ "tema": "Luciérnagas",
+ "categoria": "an",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "terrario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "luciernaga",
+  "farol_por_dentro",
+  "burbujas_de_oxigeno",
+  "bombilla_antigua",
+  "linterna_pequena"
+ ],
+ "efectos": [
+  {
+   "es": "Grillos de noche",
+   "en": "Crickets chirping on a quiet summer night"
+  },
+  {
+   "es": "Destello",
+   "en": "Soft magical twinkle"
+  },
+  {
+   "es": "Clic de linterna",
+   "en": "Small flashlight click"
+  },
+  {
+   "es": "Alas de escarabajo",
+   "en": "Tiny wings buzzing softly"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "titere",
+   "enPantalla": "De noche, una lucecita se enciende en la hierba.",
+   "escena": "A dark-blue clay night meadow with tall green clay grass blades fills the set, with the firefly resting on one grass blade.",
+   "accion": "The firefly's pale yellow-green tail end glows brighter and dimmer, slowly, again and again.",
+   "narrador": "[whispers] Es de noche en el campo. Y de pronto, entre la hierba… una lucecita se enciende.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Muchas lucecitas parpadean sobre el prado.",
+   "escena": "A dark-blue clay night meadow with tall green clay grass blades fills the set, with many tiny yellow-green clay dots floating above the grass.",
+   "accion": "The tiny yellow-green dots blink on and off, one after another, across the meadow.",
+   "narrador": "[excited] ¡Y otra, y otra! Son luciérnagas. Un bichito que se enciende… sin pilas y sin cables.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre las luciérnagas. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las luciérnagas se tragaron una bombilla diminuta!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "bombilla_antigua"
+   ],
+   "movimientos": [
+    "flota",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bombilla antigua echa calor.",
+   "escena": "The light bulb stands in the center of the frame, with three small wavy orange clay lines rising above it.",
+   "accion": "The wavy orange lines drift slowly upward from the light bulb.",
+   "narrador": "Una bombilla antigua se pone muy caliente. Si la luciérnaga llevara una dentro, ¡se cocinaría!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "La luciérnaga brilla posada en la manopla de Plop.",
+   "escena": "Plop stands facing the camera, with the firefly resting on his raised paddle arm.",
+   "accion": "The firefly's tail end glows brighter and dimmer while Plop watches it calmly.",
+   "narrador": "Pero la luz de la luciérnaga casi no calienta. Se posa en tu mano y no quema.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si no es una bombilla, ¿qué tiene en la colita que brilla?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira de cerca la colita.",
+   "escena": "Plop stands beside the firefly, which rests on a big green clay leaf at his height.",
+   "accion": "Plop leans in slowly and looks closely at the firefly's pale tail end.",
+   "narrador": "Plop se fija bien: la luz sale siempre del mismo sitio, del final de la panza.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La cámara se acerca a la colita.",
+   "escena": "The firefly rests alone on a green clay leaf in the center of the set.",
+   "accion": "The firefly stays still while the camera glides slowly closer to its tail end.",
+   "narrador": "¿Qué habrá ahí dentro? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro de la colita!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "farol_por_dentro"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: el farol por dentro, lleno de bolitas.",
+   "escena": "The light lantern fills the frame, cut open to show many small yellow clay beads packed inside.",
+   "accion": "The small yellow beads jiggle gently in place.",
+   "narrador": "[excited] ¡Hagamos zoom! Dentro de la colita hay un farol. Y el farol guarda una sustancia especial.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "farol_por_dentro",
+    "burbujas_de_oxigeno"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Llegan burbujas de oxígeno al farol.",
+   "escena": "The light lantern fills the frame, cut open, with the oxygen bubbles gathered at its left edge.",
+   "accion": "The oxygen bubbles drift slowly in among the yellow beads.",
+   "narrador": "La luciérnaga respira por unos tubitos. Así le llega aire, con oxígeno, hasta el farol.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "farol_por_dentro",
+    "burbujas_de_oxigeno"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas que tocan una burbuja se encienden.",
+   "escena": "The light lantern fills the frame, cut open, with the oxygen bubbles mixed in among the yellow beads.",
+   "accion": "Each yellow bead that touches an oxygen bubble lights up with a soft yellow-green glow.",
+   "narrador": "Cuando la sustancia se junta con el oxígeno… ¡se enciende! Es una reacción química que da luz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una pulsera luminosa se enciende.",
+   "escena": "A green clay glow bracelet lies in a curve in the center of the frame, on a dark-blue clay surface.",
+   "accion": "The glow bracelet slowly brightens with a soft green glow.",
+   "narrador": "Es como las pulseras que brillan en las fiestas: al doblarlas se mezclan dos cosas y dan luz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "farol_por_dentro",
+    "burbujas_de_oxigeno"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: sustancia más oxígeno, igual a luz.",
+   "imagen": "The light lantern on the left, cut open with yellow clay beads inside, and a few of the oxygen bubbles on the right. Clean empty white space above them.",
+   "narrador": "Sustancia especial más oxígeno igual a luz. Y casi sin calor: luz fría.",
+   "rotulos": "Sustancia + oxígeno = luz · Luz fría"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luciernaga",
+    "bombilla_antigua"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La bombilla echa calor; la luciérnaga no.",
+   "escena": "The light bulb with wavy orange clay heat lines above it stands on the left, and the firefly rests on a green clay leaf on the right.",
+   "accion": "The firefly's tail end glows brighter and dimmer, slowly, again and again.",
+   "narrador": "Una bombilla antigua gasta casi toda su energía en calor. La luciérnaga, en cambio, apenas se calienta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "farol_por_dentro",
+    "burbujas_de_oxigeno"
+   ],
+   "movimientos": [
+    "flota",
+    "aparece",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Entra aire: luz. Sale el aire: oscuro.",
+   "escena": "The light lantern fills the frame, cut open, with yellow beads inside and the oxygen bubbles at its edge.",
+   "accion": "The oxygen bubbles drift in and out of the lantern, and the beads glow and fade with them.",
+   "narrador": "Para encender y apagar, controla cuánto aire llega al farol. Aire dentro: luz. Sin aire: oscuro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: vale, ya sé cómo se encienden… pero ¿para qué quiere luz un bicho?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: en la oscuridad, una luz es perfecta para decir: ¡aquí estoy!"
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El macho vuela y hace destellos.",
+   "escena": "The firefly flies in the air above dark-green clay grass, against a dark-blue clay night sky backdrop.",
+   "accion": "The firefly flies slowly from left to right, its tail end blinking on and off.",
+   "narrador": "Exacto: es su manera de hablar. Los machos vuelan y hacen destellos, como un mensaje en clave.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La hembra contesta desde la hierba.",
+   "escena": "The firefly rests on top of a tall green clay grass blade, against a dark-blue clay night sky backdrop.",
+   "accion": "The firefly's tail end blinks twice, pauses, and blinks twice again.",
+   "narrador": "La hembra espera en la hierba. Si le gusta el mensaje, contesta con su propio destello.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡es como hablar por la noche con una linterna!"
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una cría de luciérnaga brilla en el suelo.",
+   "escena": "A small segmented brown clay larva with a tiny pale-yellow clay dot on its tail rests on dark-brown clay ground in the center of the frame.",
+   "accion": "The larva crawls slowly forward while its tiny tail dot glows softly.",
+   "narrador": "Hasta las crías brillan. Su luz avisa a quien quiera comérselas: ¡sabemos fatal, mejor no!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿las luciérnagas son moscas? ¿O gusanitos que vuelan?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La luciérnaga abre sus alas duras de escarabajo.",
+   "escena": "The firefly sits in the center of the frame on a green clay leaf.",
+   "accion": "The firefly slowly lifts its two hard wing covers and unfolds its thin wings underneath.",
+   "narrador": "Ni lo uno ni lo otro: son escarabajos. Mira: tienen dos alas duras que tapan las de volar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un árbol entero parpadea a la vez.",
+   "escena": "A dark-green clay tree stands in the center of the frame against a dark-blue clay night sky, covered with many tiny yellow-green clay dots.",
+   "accion": "All the tiny dots on the tree light up together and fade together, again and again.",
+   "narrador": "Y en algunos bosques miles de luciérnagas se ponen de acuerdo… ¡y parpadean todas a la vez!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "linterna_pequena"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop levanta una linterna y la mira.",
+   "escena": "Plop stands facing the camera, holding the small flashlight in one paddle arm.",
+   "accion": "Plop slowly raises the small flashlight and looks at it with a curious smile.",
+   "narrador": "Plop tiene una idea: ¿y si les contesto con una linterna, imitando su clave?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "linterna_pequena"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop hace destellos con la linterna en el prado.",
+   "escena": "Plop stands in a dark-blue clay night meadow with tall green clay grass, holding the small flashlight.",
+   "accion": "Plop clicks the small flashlight on and off, twice, again and again.",
+   "narrador": "[whispers] Algunos científicos lo hacen de verdad: imitan la clave con una linterna… y las luciérnagas responden.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luciernaga"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La luciérnaga contesta con dos destellos.",
+   "escena": "The firefly rests on a tall green clay grass blade in the center of the frame, against a dark-blue clay night sky backdrop.",
+   "accion": "The firefly's tail end blinks twice in reply, again and again.",
+   "narrador": "Pero ojo: cada tipo de luciérnaga tiene su clave. Si te equivocas de clave, nadie contesta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "revienta",
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente feliz en el prado.",
+   "escena": "Plop stands facing the camera in a dark-blue clay night meadow.",
+   "accion": "Plop nods happily and slowly opens his paddle arms wide.",
+   "narrador": "La luz de la luciérnaga no es magia ni una bombilla: es química… para decir hola.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era una bombilla, Pipo. Es una reacción química con oxígeno, y casi no calienta."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: en la colita guarda un farol con una sustancia que se enciende."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: oxígeno, farol encendido y luciérnaga que habla.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: small pale-blue clay bubbles; a pale-yellow clay lantern segment with yellow clay beads glowing inside; and a small dark-brown clay beetle with a glowing yellow-green tail end above green clay grass. Clean empty white space above each one.",
+   "narrador": "Repasemos: oxígeno, más la sustancia del farol, da luz fría… y un mensaje en clave.",
+   "rotulos": "1 Oxígeno · 2 Sustancia del farol · 3 Luz fría que habla"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Se apaga la farola y aparecen las lucecitas.",
+   "escena": "A small dark-blue clay meadow fills the frame, with a bright white clay street lamp standing on its right side.",
+   "accion": "The street lamp's light switches off and many tiny yellow-green clay dots appear over the grass.",
+   "narrador": "[curious] Dato extra: las luces de las ciudades las confunden. Donde la noche es oscura, se ven muchas más.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pez del fondo del mar con su propia lucecita.",
+   "escena": "A small round dark-blue clay fish with a tiny glowing yellow clay dot hanging in front of its head swims in the center of the frame, against a black clay deep-sea backdrop.",
+   "accion": "The fish swims slowly forward while the tiny dot glows softly.",
+   "narrador": "Y no son las únicas: en el fondo del mar, muchísimos animales fabrican su propia luz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un reto para esta noche. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "linterna_pequena"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una linterna y dos destellos.",
+   "imagen": "The small flashlight on the left and two small yellow clay stars on the right, representing two flashes. Clean empty white space above them.",
+   "narrador": "Con una linterna, inventa una clave con tu familia. ¿Dos destellos? ¡Significa hola!",
+   "rotulos": "Reto en casa · mensajes de luciérnaga"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

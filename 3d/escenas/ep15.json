@@ -1,0 +1,1238 @@
+{
+ "episodio": 15,
+ "id": "ep15",
+ "titulo": "¿Cómo se forma el arcoíris?",
+ "tema": "Arcoíris",
+ "categoria": "ci",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "gota_de_lluvia_gigante",
+  "rayo_de_luz_blanca",
+  "arcoiris",
+  "sol_de_arcilla",
+  "nube_de_lluvia"
+ ],
+ "efectos": [
+  {
+   "es": "Lluvia suave",
+   "en": "Gentle light rain, soft and steady"
+  },
+  {
+   "es": "La luz se abre",
+   "en": "Rising magical glissando on a glockenspiel"
+  },
+  {
+   "es": "Rebote en la gota",
+   "en": "Soft glassy ping"
+  },
+  {
+   "es": "Aparece el arcoíris",
+   "en": "Warm shimmering chime swell"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "arcoiris",
+    "nube_de_lluvia"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Llueve y un arcoíris aparece poco a poco.",
+   "escena": "The rain cloud floats on the left of the set, with blue clay drops falling under it.",
+   "accion": "The rainbow slowly rises into view on the right, growing from one end to the other.",
+   "narrador": "[curious] Llueve, sale el sol… y de pronto, un arco gigante de colores cruza el cielo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo estira la manopla hacia el arcoíris sin alcanzarlo.",
+   "escena": "Pipo stands in front of the rainbow, which arches behind him in the distance.",
+   "accion": "Pipo stretches one paddle arm toward the rainbow, again and again, reaching for it.",
+   "narrador": "Es tan bonito que dan ganas de tocarlo. Pero nadie ha podido jamás. ¿Qué es en realidad?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a descubrir de qué está hecho un arcoíris."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡al final del arcoíris alguien lo pinta con siete brochas!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo camina hacia el arcoíris y este no se acerca.",
+   "escena": "Pipo stands on the left of the set, with the rainbow arching far away on the right.",
+   "accion": "Pipo marches in place toward the rainbow while the rainbow stays exactly as far away as before.",
+   "narrador": "Vamos a buscar al pintor. Pipo camina y camina… y el arcoíris siempre queda igual de lejos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El arcoíris se desvanece.",
+   "escena": "The rainbow arches across the frame.",
+   "accion": "The rainbow slowly fades away, from one end to the other, until it is gone.",
+   "narrador": "Y si una nube tapa el Sol, desaparece en un instante. Ninguna pintura se borra tan rápido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿por qué solo aparece cuando hay sol y lluvia al mismo tiempo?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla",
+    "nube_de_lluvia"
+   ],
+   "movimientos": [
+    "cae",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol a un lado y la nube de lluvia al otro.",
+   "escena": "The clay sun sits on the left of the set and the rain cloud floats on the right, with blue clay drops falling under it.",
+   "accion": "The blue clay drops keep falling under the cloud, one after another, while the clay sun pulses gently.",
+   "narrador": "¡Esa es la pista! Hacen falta dos ingredientes: luz del Sol y gotas de agua en el aire.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a una gota de lluvia.",
+   "escena": "The giant raindrop floats in the center of the set.",
+   "accion": "The giant raindrop stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué le hace una gota a la luz? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar una sola gota!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La gota de lluvia gira: es una bolita casi perfecta.",
+   "escena": "The giant raindrop floats in the center of the frame.",
+   "accion": "The giant raindrop turns slowly in place like on a turntable.",
+   "narrador": "[excited] ¡Hagamos zoom! Una gota de lluvia no tiene forma de lágrima: es una bolita casi perfecta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante",
+    "rayo_de_luz_blanca"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El rayo blanco entra en la gota y se dobla.",
+   "escena": "The giant raindrop sits in the center of the frame, with the white light beam pointing at it from the upper left.",
+   "accion": "The white light beam slides into the raindrop and bends downward as it enters.",
+   "narrador": "Cuando la luz entra en la gota, se dobla. Pasa siempre al ir de aire a agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de la gota, la luz blanca se abre en colores.",
+   "escena": "The giant raindrop fills the frame, with a short white clay rod inside it on the left.",
+   "accion": "The white rod inside the raindrop slowly fans out into thin clay stripes of red, yellow, green and blue.",
+   "narrador": "Cada color se dobla un poquito distinto. Por eso, dentro de la gota, la luz blanca se abre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los colores rebotan en el fondo de la gota.",
+   "escena": "The giant raindrop fills the frame, with thin clay stripes of red, yellow, green and blue reaching its back wall.",
+   "accion": "The colored stripes bounce off the back wall of the raindrop and travel back toward the front.",
+   "narrador": "Luego rebota en el fondo de la gota, como en un espejo, y regresa hacia adelante.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "gota_de_lluvia_gigante",
+    "rayo_de_luz_blanca"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: la luz entra blanca en la gota y sale en colores.",
+   "imagen": "The giant raindrop in the center, with the white light beam entering it from the upper left and a small fan of colored clay stripes leaving it at the lower left, evenly lit. Clean empty white space on the right side.",
+   "narrador": "La luz entra, se dobla, rebota y sale abierta en colores. ¡Todo en una gota!",
+   "rotulos": "1 Entra y se dobla · 2 Rebota · 3 Sale en colores"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "revienta",
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo abre los brazos como un abanico.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo slowly spreads both paddle arms apart, like opening a big fan.",
+   "narrador": "Pipo lo entiende así: la gota abre la luz como quien abre un abanico.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los colores salen de la gota, ya separados.",
+   "escena": "The giant raindrop sits on the right of the frame, with colored clay stripes at its front wall.",
+   "accion": "The colored stripes slide out of the raindrop and spread apart, red on top and violet at the bottom.",
+   "narrador": "Al salir, los colores ya van separados: rojo por un lado, violeta por el otro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: una gota sola es poquísimo. ¿Qué pasa cuando hay millones?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Muchas gotas, y de cada una sale un abanico de colores.",
+   "escena": "Many small pale-blue clay raindrops hang in the air across the whole set.",
+   "accion": "Each small raindrop sends out a tiny fan of colored clay stripes, one after another, all across the set.",
+   "narrador": "En la lluvia hay millones de gotas. Y cada una hace exactamente lo mismo con la luz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "A un ojo le llega un color distinto de cada gota.",
+   "escena": "A friendly clay eye sits at the lower left of the frame, and three pale-blue clay raindrops float at different heights on the right.",
+   "accion": "A red stripe from the top raindrop, a green stripe from the middle one and a blue stripe from the bottom one travel to the eye.",
+   "narrador": "Pero de cada gota solo te llega un color: el que apunta justo hacia tu ojo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las gotas de arriba se vuelven rojas; las de abajo, violetas.",
+   "escena": "A column of pale-blue clay raindrops floats in the center of the frame.",
+   "accion": "The top raindrops slowly turn red, the middle ones green and the bottom ones violet.",
+   "narrador": "Las gotas más altas te mandan rojo. Las de más abajo, violeta. Y en medio, todos los demás.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L5",
+    "nombre": "Lo entendió",
+    "direccion": "Plop's eyes grow wide and he slowly raises one paddle arm, as if he just understood something."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Aaah, nilú!",
+    "intencion": "Lo entendió",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop abre los ojos y levanta un brazo: ¡lo entendió!",
+   "narrador": "Plop lo acaba de entender: no es una cosa. ¡Son millones de gotas, cada una con su color!"
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un arco gris se llena de color, franja por franja.",
+   "escena": "A wide arch of plain grey clay stands on the set.",
+   "accion": "The arch slowly fills with color, stripe by stripe, from red on the outside to violet on the inside.",
+   "narrador": "Por eso los colores siempre van en el mismo orden: rojo afuera, violeta adentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡es un mosaico de luz, y cada gota pone una piedrita!"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "sol_de_arcilla"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, de espaldas al Sol, señala hacia adelante.",
+   "escena": "Pipo stands in the center of the set with his back to the clay sun, which sits behind him on the left.",
+   "accion": "Pipo slowly raises one paddle arm and points forward, away from the sun.",
+   "narrador": "Y hay una regla: el Sol tiene que estar a tu espalda, y la lluvia, delante de ti.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo dibuja en el aire la curva del arcoíris.",
+   "escena": "Pipo stands on the left of the set, looking at the rainbow arching on the right.",
+   "accion": "Pipo slowly traces the curve of the rainbow in the air with one paddle arm.",
+   "narrador": "¿Y por qué es curvo? Porque las gotas que te mandan color forman un círculo a tu alrededor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "El arcoíris toca el suelo por los dos extremos.",
+   "escena": "The rainbow arches across the frame, its two ends touching the white floor.",
+   "accion": "Each stripe of the rainbow pulses very gently, one after another.",
+   "narrador": "Solo ves la mitad de arriba porque el suelo tapa el resto. Pero desde un avión…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un arcoíris redondo, completo, gira despacio.",
+   "escena": "A full circle made of seven colored clay stripes floats upright in the center of the set.",
+   "accion": "The full rainbow circle turns very slowly, like a wheel.",
+   "narrador": "[excited] ¡…se ve el círculo completo! Los pilotos a veces ven arcoíris redondos como un aro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo camina y el arcoíris se mueve con él.",
+   "escena": "Pipo stands on the left of the set, with the rainbow arching far away on the right.",
+   "accion": "Pipo takes slow steps to the right and the rainbow slides to the right with him, keeping the same distance.",
+   "narrador": "Y por eso nunca llegas a su final. Si tú te mueves, tu arcoíris se mueve contigo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira hacia arriba, maravillado.",
+   "escena": "Pipo stands in the center of the set, looking up.",
+   "accion": "Pipo sways gently from side to side, looking up with wide, amazed eyes.",
+   "narrador": "Cada persona ve su propio arcoíris, hecho con sus propias gotas. El tuyo es solo tuyo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No había pintor ni brochas, Pipo. Hay millones de gotas abriendo la luz del Sol."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: hace falta la luz del Sol y gotas que la abran."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la luz entra, sale en colores y millones de gotas forman el arco.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a thick white clay rod entering a pale-blue clay ball; a pale-blue clay ball with a small fan of colored clay stripes leaving it; and a wide arch of seven colored clay stripes. Clean empty white space above each one.",
+   "narrador": "Repasemos: la luz entra en la gota y se dobla, rebota y sale en colores, y millones forman el arco.",
+   "rotulos": "1 Se dobla · 2 Rebota y se abre · 3 Millones de gotas"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "arcoiris"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sobre el arcoíris aparece otro, más pálido.",
+   "escena": "The rainbow arches across the set.",
+   "accion": "A second, fainter and wider rainbow slowly appears above the first one, with its colors in reverse order.",
+   "narrador": "[curious] Dato extra: a veces aparece un segundo arcoíris encima, más pálido y con los colores al revés.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "gota_de_lluvia_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de la gota, la luz rebota dos veces.",
+   "escena": "The giant raindrop fills the frame, with a thin colored clay stripe inside it.",
+   "accion": "The colored stripe bounces twice off the inner wall of the raindrop before sliding out.",
+   "narrador": "Es luz que rebotó dos veces dentro de cada gota. Cada rebote le da la vuelta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes fabricar tu propio arcoíris en un día de sol. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "sol_de_arcilla"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una manguera rocía agua con un arcoíris pequeño, y el Sol detrás.",
+   "imagen": "A green clay garden hose spraying small pale-blue clay drops, with a small arch of colored clay stripes in the spray, and the clay sun behind it. Clean empty white space above them.",
+   "narrador": "De espaldas al Sol, rocía agua con una manguera o un atomizador. ¿Aparece?",
+   "rotulos": "Reto en casa · tu propio arcoíris"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

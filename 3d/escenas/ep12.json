@@ -1,0 +1,1250 @@
+{
+ "episodio": 12,
+ "id": "ep12",
+ "titulo": "¿Por qué se caen los dientes de leche?",
+ "tema": "Dientes",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "diente_de_leche",
+  "maqueta_de_encia_corte",
+  "diente_definitivo",
+  "almohadita"
+ ],
+ "efectos": [
+  {
+   "es": "Diente flojo",
+   "en": "Small squeaky wiggle, like a loose hinge"
+  },
+  {
+   "es": "Se cae el diente",
+   "en": "Tiny light plink on a hard floor"
+  },
+  {
+   "es": "Cepillado",
+   "en": "Toothbrush scrubbing, quick and foamy"
+  },
+  {
+   "es": "Diente nuevo",
+   "en": "Soft magical sparkle chime"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente de leche se mueve sobre la encía, como una puerta floja.",
+   "escena": "The gum model stands in the center of the frame.",
+   "accion": "The small baby tooth on top of the gum wobbles from side to side, like a loose door.",
+   "narrador": "[curious] ¿Has sentido un diente que se mueve? Baila con la lengua… y un día, ¡se cae!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "diente_de_leche"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop observa un diente caído.",
+   "escena": "Plop stands facing the camera, holding the baby tooth up with one paddle arm.",
+   "accion": "Plop slowly turns the baby tooth in front of his eyes, studying it with amazement.",
+   "narrador": "Les pasa a todos los niños, entre los seis y los doce años. Pero ¿por qué?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los dientes. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los dientes se caen por comer muchos dulces!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "diente_de_leche"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Junto a un caramelo, al diente le sale una manchita oscura.",
+   "escena": "The baby tooth stands in the center of the frame, with a small brown clay candy beside it.",
+   "accion": "A small dark spot slowly appears on the side of the baby tooth.",
+   "narrador": "Los dulces sí dañan los dientes: les hacen caries, unos huequitos. Pero no los hacen caerse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "diente_de_leche"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mece un diente limpio y sano.",
+   "escena": "Plop stands facing the camera, holding the baby tooth, clean and white, in both paddle arms.",
+   "accion": "Plop rocks the clean baby tooth gently from side to side, like a baby.",
+   "narrador": "Además, a los niños que casi no comen dulces también se les caen. Todos, sin falta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: el diente estaba bien agarrado. ¿Quién lo soltó?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "diente_de_leche"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente gira y muestra su raíz.",
+   "escena": "The baby tooth stands in the center of the frame, showing its white crown and its root.",
+   "accion": "The baby tooth turns slowly in place like on a turntable.",
+   "narrador": "¡Buena pregunta! Un diente no está pegado encima: tiene una raíz, clavada en la encía.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la maqueta de la encía.",
+   "escena": "The gum model stands in the center of the set.",
+   "accion": "The gum model stays still while the camera glides slowly closer to it.",
+   "narrador": "Algo aflojó esa raíz desde abajo. ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro de la encía!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La encía por dentro: arriba, el diente de leche con su raíz.",
+   "escena": "The upper part of the gum model fills the frame: the small baby tooth and its root going down into the pink gum.",
+   "accion": "The baby tooth rocks very slightly on its root, again and again.",
+   "narrador": "[excited] ¡Hagamos zoom! Esta es tu encía por dentro. Arriba, el diente de leche, con su raíz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "crece",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Debajo, escondido, hay otro diente más grande.",
+   "escena": "The lower part of the gum model fills the frame, showing the bigger white tooth hidden inside the pink gum.",
+   "accion": "The hidden bigger tooth pulses very gently, growing a tiny bit.",
+   "narrador": "Y debajo, escondido desde hace años… ¡otro diente! Más grande, esperando su turno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "diente_definitivo"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente definitivo gira despacio.",
+   "escena": "The new tooth stands in the center of the frame.",
+   "accion": "The new tooth turns slowly in place like on a turntable.",
+   "narrador": "Es tu diente definitivo. Empezó a formarse cuando eras un bebé, y lleva todo este tiempo creciendo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La encía crece a lo ancho; el diente de leche sigue igual de pequeño.",
+   "escena": "The gum model stands in the center of the frame.",
+   "accion": "The pink gum slowly grows wider while the baby tooth on top stays the same small size.",
+   "narrador": "Los dientes de leche son pequeños porque tu boca era pequeña. Pero tú creces, y ellos no.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de la encía con sus dos dientes.",
+   "imagen": "The gum model stands centered, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Arriba, el diente de leche. Abajo, el definitivo, empujando. ¡Uno encima del otro!",
+   "rotulos": "Diente de leche · Raíz · Diente definitivo"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿tenía dos filas de dientes escondidas, como un tiburón?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente de abajo sube hasta tocar la raíz del de arriba.",
+   "escena": "The gum model fills the frame, with the bigger tooth just below the root of the baby tooth.",
+   "accion": "The bigger tooth rises slowly inside the gum until it touches the root of the baby tooth.",
+   "narrador": "Algo así. Cuando el diente nuevo está listo, empieza a subir. Y arriba hay alguien estorbando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: dos dientes no caben en el mismo lugar. Uno tendrá que irse."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "La raíz del diente de leche se va acortando.",
+   "escena": "The root of the baby tooth fills the frame, with the top of the bigger tooth pressing against it from below.",
+   "accion": "The root of the baby tooth slowly shrinks, getting shorter and shorter.",
+   "narrador": "Y aquí pasa algo increíble: tu cuerpo va deshaciendo la raíz del diente de leche, poquito a poco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Unas células diminutas se comen la raíz.",
+   "escena": "A small white clay root stands in the center of the frame, with a few tiny orange clay cells with dot eyes sitting on it.",
+   "accion": "The tiny orange cells nibble at the root, making it slowly smaller.",
+   "narrador": "Lo hacen unas células especiales. Se comen la raíz y tu cuerpo aprovecha ese material.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: es como quitarle los cimientos a una casa, ladrillo por ladrillo."
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Casi sin raíz, el diente se mueve cada vez más.",
+   "escena": "The gum model fills the frame, with the baby tooth on top now almost without a root and the bigger tooth right under it.",
+   "accion": "The baby tooth wobbles from side to side, more and more loosely.",
+   "narrador": "Sin raíz, el diente ya no tiene de dónde agarrarse. Por eso empieza a moverse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se toca la mejilla con curiosidad.",
+   "escena": "Plop stands facing the camera with one paddle arm on his cheek.",
+   "accion": "Plop presses his cheek gently with his paddle arm, again and again, with curious eyes.",
+   "narrador": "Lo sientes flojo, lo empujas con la lengua… No duele casi nada, porque ya no tiene raíz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L6",
+    "nombre": "No quiere mirar",
+    "direccion": "Plop peeks out from behind his paddle arms and hides again, over and over."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Uy, uy, uy… mu-mu.",
+    "intencion": "No quiere mirar",
+    "etiqueta": "[whispers]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se tapa los ojos y espía entre las manoplas.",
+   "narrador": "[whispers] Plop casi no quiere mirar. El diente cuelga de un hilito… un día más, y…"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "cae",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente de leche se cae de la encía.",
+   "escena": "The gum model fills the frame, with the baby tooth barely attached on top and the tip of the bigger tooth showing just under it.",
+   "accion": "The baby tooth tips over and falls off the gum, landing beside the model.",
+   "narrador": "¡Se cayó! Sin dolor y casi sin sangre. Y mira lo que asoma en el hueco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_encia_corte"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente nuevo asoma y sube por el hueco.",
+   "escena": "The top of the gum model fills the frame, with an empty gap where the baby tooth was and the white tip of the bigger tooth just visible in it.",
+   "accion": "The bigger tooth rises slowly out of the gap, a little higher and a little higher.",
+   "narrador": "El diente nuevo sale despacio. Tarda semanas en llegar a su lugar. Por eso se nota la ventana.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "diente_de_leche"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop levanta el diente caído, orgulloso.",
+   "escena": "Plop stands facing the camera, holding the baby tooth in one paddle arm.",
+   "accion": "Plop lifts the baby tooth up high and looks at it proudly.",
+   "narrador": "Pero esto no pasa una sola vez. ¿Cuántos dientes de leche crees que vas a perder?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una sonrisa de dientecitos salta como una ola.",
+   "escena": "A curved row of small white clay baby teeth, shaped like a smile, lies in the center of the set.",
+   "accion": "The small teeth hop one after another, from left to right, like a wave.",
+   "narrador": "¡Veinte! Los veinte se caen, uno por uno, y los reemplazan dientes más grandes y fuertes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "diente_definitivo"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El diente definitivo da saltitos.",
+   "escena": "The new tooth stands in the center of the frame, big and bright white.",
+   "accion": "The new tooth bounces gently in place, again and again.",
+   "narrador": "Al final tendrás treinta y dos. Esos ya no tienen repuesto: son para toda la vida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "diente_definitivo"
+   ],
+   "movimientos": [
+    "gira",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop cepilla el diente nuevo con un cepillo gigante.",
+   "escena": "Plop stands beside the new tooth, holding a big blue clay toothbrush with both paddle arms.",
+   "accion": "Plop scrubs the new tooth with the toothbrush in small circles, again and again.",
+   "narrador": "Por eso hay que cuidarlos desde el primer día: cepillo, pasta y pocos dulces.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No eran los dulces, Pipo. Un diente nuevo empuja desde abajo y el cuerpo deshace la raíz."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: nadie lo soltó de golpe. Se quedó sin raíz."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: el diente nuevo empuja, la raíz se deshace y el viejo se cae.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a pink clay gum with a small tooth on top and a bigger tooth hidden below; the same gum with the small tooth's root almost gone; and the same gum with only the bigger tooth, risen into place. Clean empty white space above each one.",
+   "narrador": "Repasemos: el diente nuevo empuja, la raíz del viejo se deshace, y el diente de leche se cae.",
+   "rotulos": "1 El nuevo empuja · 2 La raíz se deshace · 3 Se cae"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "A un tiburón se le cae un diente y otro ocupa su lugar.",
+   "escena": "A small friendly grey clay shark with rows of tiny white clay teeth lies in the center of the frame.",
+   "accion": "One tiny tooth falls out of the shark's mouth and another one slides forward to take its place, again and again.",
+   "narrador": "[curious] Dato extra: los tiburones cambian de dientes toda la vida. Tienen filas y filas de repuesto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Junto al tiburón crece un montoncito de dientes.",
+   "escena": "A small friendly grey clay shark lies in the center of the frame next to a small pile of tiny white clay teeth.",
+   "accion": "The pile of tiny teeth grows slowly as more teeth drop onto it, one by one.",
+   "narrador": "Un tiburón puede gastar miles de dientes. Tú solo tienes dos juegos. ¡Cuida el segundo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, ve a buscar un espejo. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "diente_de_leche",
+    "almohadita"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El diente de leche sobre la almohadita, junto a un espejo.",
+   "imagen": "The baby tooth resting on the small pillow, next to a small round clay hand mirror. Clean empty white space above them.",
+   "narrador": "Cuenta tus dientes frente al espejo. ¿Cuántos son de leche y cuántos nuevos?",
+   "rotulos": "Reto en casa · cuenta tus dientes"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

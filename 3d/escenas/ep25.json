@@ -1,0 +1,1256 @@
+{
+ "episodio": 25,
+ "id": "ep25",
+ "titulo": "¿Qué pasa si te tragas un chicle?",
+ "tema": "Chicle",
+ "categoria": "co",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "chicle",
+  "maqueta_del_tubo_digestivo",
+  "jugos_del_estomago",
+  "galleta"
+ ],
+ "efectos": [
+  {
+   "es": "Bomba de chicle",
+   "en": "Bubble gum bubble inflating and popping"
+  },
+  {
+   "es": "Tragar",
+   "en": "Comic cartoon gulp"
+  },
+  {
+   "es": "El intestino empuja",
+   "en": "Slow squelchy squeeze"
+  },
+  {
+   "es": "Chicle que se estira",
+   "en": "Sticky gum stretching"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "revienta"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo sostiene una bomba de chicle que crece y revienta.",
+   "escena": "Pipo stands facing the camera, holding a big pink clay gum bubble in front of his closed mouth with both paddle arms.",
+   "accion": "The pink gum bubble swells bigger and bigger and bursts, vanishing completely.",
+   "narrador": "[curious] Una bomba de chicle enorme, cada vez más grande y… [surprised] ¡pum! Ay. Se lo tragó.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se mira la panza, preocupado.",
+   "escena": "Pipo faces the camera with both paddle arms on his belly.",
+   "accion": "Pipo looks down at his belly and slowly back up at the camera, with wide, worried eyes.",
+   "narrador": "Y entonces alguien dice lo de siempre: ese chicle se va a quedar siete años en tu panza.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saber si es verdad. Hoy vamos a seguir a ese chicle. ¿Listos?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡el chicle se pega adentro y ahí se queda, siete años enteros!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se palpa la panza con cuidado.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo pats his belly with both paddle arms, again and again, checking it carefully.",
+   "narrador": "Si fuera así, mucha gente tendría la panza llena de chicles viejos. Y los doctores jamás los encuentran.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "galleta"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En un tazón de agua, la galleta se deshace y el chicle no.",
+   "escena": "A small blue clay bowl of water sits in the center of the frame, with the cracker and the gum piece floating in it.",
+   "accion": "The cracker slowly crumbles apart in the water while the gum piece stays whole.",
+   "narrador": "Probemos: en agua, una galleta se deshace enseguida. El chicle, en cambio, sigue enterito.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: todo lo demás que como se deshace. ¿Por qué el chicle no?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "chicle"
+   ],
+   "movimientos": [
+    "crece",
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "El chicle se estira en un hilo largo y vuelve.",
+   "escena": "The gum piece lies in the center of the frame.",
+   "accion": "The gum piece stretches slowly into a long strand and shrinks back, again and again.",
+   "narrador": "¡Buena pregunta! El chicle es distinto de cualquier comida. Mira cómo se estira sin romperse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "chicle"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al chicle.",
+   "escena": "The gum piece lies alone in the center of the set.",
+   "accion": "The gum piece stays still while the camera glides slowly closer to it.",
+   "narrador": "¿De qué estará hecho? ¿Tú qué crees? Piénsalo… ¡Vamos a mirarlo muy de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del chicle resbalan granitos de azúcar.",
+   "escena": "The gum piece fills the frame, with tiny white clay sugar grains on its surface.",
+   "accion": "The tiny white sugar grains slide off the gum piece one by one.",
+   "narrador": "[excited] ¡Hagamos zoom! Un chicle tiene azúcar, sabor, color… y una goma elástica que lo sostiene todo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Hilos rosados largos y enredados, como espaguetis.",
+   "escena": "A tangle of long pink clay strings, like cooked spaghetti, fills the frame.",
+   "accion": "The long pink strings slide slowly over each other, stretching and tangling.",
+   "narrador": "Esa goma está hecha de hilos larguísimos y enredados, como un plato de espaguetis diminutos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "encoge",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El tubo digestivo se mueve como una ola.",
+   "escena": "The digestive tube model stands in the center of the frame.",
+   "accion": "The coiled tube of the model ripples slowly, squeezing along its length like a wave.",
+   "narrador": "Y este es el camino de la comida: boca, estómago y un intestino larguísimo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_tubo_digestivo",
+    "jugos_del_estomago"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el estómago se arremolinan los jugos.",
+   "escena": "The stomach pouch of the digestive tube model fills the frame, with the stomach juices inside it.",
+   "accion": "The stomach juices swirl slowly around inside the pouch.",
+   "narrador": "En el estómago hay jugos muy fuertes. Su trabajo es romper la comida en pedacitos diminutos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el chicle y el tubo digestivo.",
+   "imagen": "The gum piece on the left and the digestive tube model on the right, evenly lit. Clean empty white space above each one.",
+   "narrador": "Una goma de hilos enredados y un tubo con jugos que rompen comida. ¿Quién gana?",
+   "rotulos": "Goma (hilos enredados) · Estómago · Intestino"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mastica con la boca cerrada.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo chews with his mouth closed, his cheeks moving up and down, again and again.",
+   "narrador": "Pipo recuerda: masticas y masticas un chicle por horas… y sigue ahí, igualito.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_tubo_digestivo",
+    "jugos_del_estomago",
+    "galleta"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el estómago, los jugos rompen la galleta en migas.",
+   "escena": "The stomach pouch of the digestive tube model fills the frame, with the cracker and the stomach juices inside it.",
+   "accion": "The stomach juices surround the cracker and it slowly breaks into tiny crumbs.",
+   "narrador": "Con una galleta, los jugos pueden: la rompen en trocitos que tu cuerpo absorbe y aprovecha.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: con el chicle, los jugos lo van a tener mucho más difícil."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo",
+    "jugos_del_estomago"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los jugos chocan contra el chicle, que sigue entero.",
+   "escena": "The stomach pouch of the digestive tube model fills the frame, with the gum piece and the stomach juices inside it.",
+   "accion": "The stomach juices bump against the gum piece again and again, while the gum piece stays whole.",
+   "narrador": "Así es. Los jugos se llevan el azúcar y el sabor. Pero la goma no la pueden romper.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo se asusta: ¿entonces sí se queda ahí? ¿Para siempre, dando vueltas en mi estómago?"
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "encoge",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El estómago aprieta y empuja el chicle hacia el intestino.",
+   "escena": "The digestive tube model fills the frame, with the gum piece inside the stomach pouch, near the opening to the coiled tube.",
+   "accion": "The stomach pouch squeezes and pushes the gum piece into the coiled tube.",
+   "narrador": "Tranquilo. Tu estómago no guarda nada: cada pocas horas se vacía y empuja todo hacia el intestino.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "encoge",
+    "ondula",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las paredes del tubo aprietan detrás del chicle y lo hacen avanzar.",
+   "escena": "A section of the coiled tube of the digestive tube model fills the frame, with the gum piece inside it.",
+   "accion": "The walls of the tube squeeze behind the gum piece in a slow wave, pushing it along.",
+   "narrador": "Y el intestino tiene músculos que aprietan como quien exprime un tubo de pasta de dientes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡es un tobogán que empuja solo! Nada se queda atascado."
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El chicle avanza junto con otros restos de comida.",
+   "escena": "A section of the coiled tube of the digestive tube model fills the frame, with the gum piece inside it among small brown clay food bits.",
+   "accion": "The gum piece and the brown food bits slide slowly along the tube together.",
+   "narrador": "El chicle viaja junto con el resto de lo que no se digiere: cáscaras, semillas, fibra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y no se pega a las paredes? En el zapato sí se pega…"
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El chicle resbala sobre la pared cubierta de moco.",
+   "escena": "The inner wall of the coiled tube fills the frame, coated with a thin pale-green clay layer, with the gum piece resting on it.",
+   "accion": "The gum piece slides smoothly and freely along the pale-green layer.",
+   "narrador": "No. Las paredes del intestino están cubiertas de moco resbaloso. Ahí adentro, nada se pega.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "El chicle se acerca al final del tubo.",
+   "escena": "The digestive tube model stretches across the set, with the gum piece near the open end of the coiled tube on the right.",
+   "accion": "The gum piece slides slowly toward the open end of the tube.",
+   "narrador": "Y así, en uno o dos días, el chicle llega al final del recorrido. ¿Y entonces?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "chicle",
+    "maqueta_del_tubo_digestivo"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "El chicle sale por el extremo del tubo.",
+   "escena": "The open end of the coiled tube fills the right side of the frame, with the gum piece just inside it.",
+   "accion": "The gum piece slides out of the open end of the tube and drops onto the floor.",
+   "narrador": "[laughs] ¡Sale! Igual que entró. Por donde sale todo lo que tu cuerpo no usa. Ya sabes dónde.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo respira aliviado.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo's shoulders slowly drop and he sways gently with relief, eyes half closed.",
+   "narrador": "Ni siete años, ni siete meses. Uno o dos días, como cualquier otra cosa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un montón de chicles: cae uno más.",
+   "escena": "A big pile of pink clay gum wads sits in the center of the frame.",
+   "accion": "One more pink gum wad drops onto the pile, making it wobble.",
+   "narrador": "Eso sí: tragar uno por accidente no hace daño. Tragar muchos seguidos sí puede causar un tapón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No se queda siete años, Pipo. Tu cuerpo no puede digerir la goma, pero sí sabe sacarla."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: no se deshace porque sus hilos resisten a los jugos."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: el chicle entre jugos, el tubo que empuja y la salida.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a pink clay gum wad among small green clay drops; a pink clay tube squeezing a pink gum wad along; and a pink gum wad dropping out of the end of a pink clay tube. Clean empty white space above each one.",
+   "narrador": "Repasemos: los jugos no pueden romper la goma, el intestino la empuja, y en uno o dos días sale.",
+   "rotulos": "1 No se digiere · 2 El intestino empuja · 3 Sale en uno o dos días"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "De un árbol escurre una gota de savia blanca.",
+   "escena": "A small brown clay tree with green leaves stands in the center of the frame, with a white clay drop oozing from a cut in its trunk.",
+   "accion": "The white drop slowly grows and runs down the trunk.",
+   "narrador": "[curious] Dato extra: el primer chicle salía de un árbol, el chicozapote. Su savia blanca es elástica.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita de chicle blanco salta frente a una pirámide.",
+   "escena": "A small sand-colored clay stepped pyramid stands at the back of the frame, with a small white clay gum ball in front of it.",
+   "accion": "The white gum ball bounces gently in place, again and again.",
+   "narrador": "Los mayas ya la masticaban hace más de mil años. Hoy la goma se fabrica en laboratorios.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Y ahora, un experimento para hacer con la boca. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "chicle"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El chicle junto a un reloj.",
+   "imagen": "The gum piece on the left and a simple round white clay clock face with a single red hand on the right. Clean empty white space above them.",
+   "narrador": "Mastica un chicle cinco minutos y míralo. ¿Qué perdió y qué sigue igual?",
+   "rotulos": "Reto en casa · cinco minutos de chicle"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

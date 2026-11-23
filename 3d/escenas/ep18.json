@@ -1,0 +1,1256 @@
+{
+ "episodio": 18,
+ "id": "ep18",
+ "titulo": "¿Por qué no puedes hacerte cosquillas tú mismo?",
+ "tema": "Cosquillas",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "pluma",
+  "maqueta_del_cerebro",
+  "cable_de_nervio",
+  "trozo_de_piel_con_sensores"
+ ],
+ "efectos": [
+  {
+   "es": "Pluma que roza",
+   "en": "Soft feathery tickle brush"
+  },
+  {
+   "es": "Risa de cosquillas",
+   "en": "Child giggling, short and bright"
+  },
+  {
+   "es": "Aviso por el nervio",
+   "en": "Quick light electric zip"
+  },
+  {
+   "es": "El volumen baja",
+   "en": "Soft descending slide whistle"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "pluma"
+   ],
+   "movimientos": [
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Una pluma roza la panza de Plop, que se retuerce de risa.",
+   "escena": "Plop stands facing the camera, with the feather floating beside his belly.",
+   "accion": "The feather brushes Plop's belly back and forth and Plop squirms and shakes with silent giggles.",
+   "narrador": "[laughs] Una pluma te roza la panza y… ¡no puedes aguantar la risa! Aunque no quieras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "pluma"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se pasa la pluma él mismo y no siente nada.",
+   "escena": "Plop stands facing the camera, holding the feather with one paddle arm against his own belly.",
+   "accion": "Plop brushes the feather back and forth on his own belly and stays perfectly calm.",
+   "narrador": "Ahora inténtalo tú mismo, con la misma pluma, en el mismo lugar. Y… nada. Ni cosquillas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre las cosquillas. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las cosquillas son bichitos invisibles que solo salen con visita!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "pluma"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pluma gira despacio: no tiene bichitos.",
+   "escena": "The feather lies in the center of the frame.",
+   "accion": "The feather turns slowly in place like on a turntable.",
+   "narrador": "Revisemos la pluma: no hay bichitos. Es la misma pluma, haga cosquillas o no.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se pica los costados y se encoge de hombros.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop pokes his own sides with both paddle arms, again and again, and shrugs.",
+   "narrador": "Y Plop lo intenta con las manos, con fuerza, despacito, por sorpresa… No hay manera.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: misma pluma, misma panza. ¿Por qué cambia si lo hago yo?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "trozo_de_piel_con_sensores"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los sensores de la piel laten uno tras otro.",
+   "escena": "The skin patch lies in the center of the frame.",
+   "accion": "The round blue sensors on the skin patch pulse gently, one after another.",
+   "narrador": "¡Buena pregunta! La piel siente exactamente lo mismo. La diferencia no está en la piel.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_cerebro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al cerebro.",
+   "escena": "The brain model sits in the center of the set, seen from the side.",
+   "accion": "The brain model stays still while the camera glides slowly closer to it.",
+   "narrador": "Entonces, ¿dónde está? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar dentro de la cabeza!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pluma",
+    "trozo_de_piel_con_sensores"
+   ],
+   "movimientos": [
+    "cae",
+    "revienta",
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pluma roza los sensores, que se hunden y vuelven a subir.",
+   "escena": "The round blue sensors on the skin patch fill the frame, with the tip of the feather just above them.",
+   "accion": "The feather tip brushes across the blue sensors and each sensor it touches sinks and pops back up.",
+   "narrador": "[excited] ¡Hagamos zoom! Tu piel está llena de sensores. Cuando algo los toca, mandan un aviso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_cerebro",
+    "cable_de_nervio",
+    "trozo_de_piel_con_sensores"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un aviso viaja por el nervio desde la piel hasta el cerebro.",
+   "escena": "The skin patch lies on the left of the set and the brain model sits on the right, joined by the nerve cable.",
+   "accion": "One small blue clay bead travels slowly along the nerve cable from the skin patch to the brain model.",
+   "narrador": "El aviso viaja por los nervios hasta el cerebro. Él decide qué significa cada toque.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_cerebro"
+   ],
+   "movimientos": [
+    "rebota",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la parte de atrás del cerebro late el cerebelo.",
+   "escena": "The brain model sits in the center of the frame, seen from the side.",
+   "accion": "The small darker-pink bump at the back of the brain model pulses gently.",
+   "narrador": "Y aquí atrás hay una parte especial: el cerebelo. Su trabajo es coordinar tus movimientos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_cerebro"
+   ],
+   "movimientos": [
+    "revienta",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del cerebelo salen flechitas blancas: predicciones.",
+   "escena": "The small darker-pink bump at the back of the brain model fills the frame.",
+   "accion": "Tiny white clay arrows pop out of the darker-pink bump one by one and fly forward.",
+   "narrador": "Para hacerlo bien, el cerebelo adivina. Antes de que te muevas, ya sabe lo que vas a sentir.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_del_cerebro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina del cerebro con el cerebelo.",
+   "imagen": "The brain model seen from the side, centered, evenly lit. Wide clean empty white space on both sides.",
+   "narrador": "Sensores en la piel, nervios y un cerebelo que adivina. ¡Recuerda al adivino!",
+   "rotulos": "Cerebro · Cerebelo (el adivino)"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: ¿adivina? ¿Mi cerebro sabe lo que voy a sentir antes de sentirlo?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop acerca despacio su manopla a su propia panza.",
+   "escena": "Plop stands facing the camera, with one paddle arm raised beside his belly.",
+   "accion": "Plop slowly moves his paddle arm toward his own belly until it touches.",
+   "narrador": "Sí. Cuando tú mueves tu mano hacia tu panza, tu cerebro ya espera ese toque exacto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si el cerebro lo espera… entonces no hay ninguna sorpresa."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_cerebro",
+    "cable_de_nervio"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "El aviso se encoge hasta ser un puntito al llegar al cerebro.",
+   "escena": "The brain model sits in the center of the frame, with one small blue clay bead arriving at it along the nerve cable.",
+   "accion": "The small blue bead shrinks to a tiny dot as it enters the brain model.",
+   "narrador": "Exacto. Como ya lo sabía, el cerebro le baja el volumen a ese aviso. Casi ni lo escucha.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: es como un chiste que ya te sabes. Ya no da risa."
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pluma",
+    "maqueta_del_cerebro",
+    "trozo_de_piel_con_sensores"
+   ],
+   "movimientos": [
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pluma cae de sorpresa y un aviso enorme corre hacia el cerebro.",
+   "escena": "The skin patch lies on the left of the set and the brain model sits on the right, joined by a long yellow clay cord, with the feather floating above the skin patch.",
+   "accion": "The feather suddenly dips down and brushes the skin patch, and a big blue clay bead rushes along the cord to the brain model.",
+   "narrador": "Pero cuando te toca otra persona, el cerebelo no puede adivinar dónde, ni cuándo, ni cómo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_cerebro"
+   ],
+   "movimientos": [
+    "tiembla",
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El cerebro se sacude al recibir el aviso.",
+   "escena": "The brain model sits in the center of the frame, with a big blue clay bead arriving at it.",
+   "accion": "The brain model jolts and shakes as the big blue bead bumps into it.",
+   "narrador": "El aviso llega con todo su volumen. ¡Sorpresa! Y el cerebro reacciona como ante una alarma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "pluma"
+   ],
+   "movimientos": [
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se retuerce de risa otra vez (puedes repetir el clip 1).",
+   "escena": "Plop stands facing the camera, with the feather floating beside his belly.",
+   "accion": "The feather brushes Plop's belly back and forth and Plop squirms and shakes with silent giggles.",
+   "narrador": "Por eso te retuerces y te ríes sin poder evitarlo. La risa de cosquillas es un reflejo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y por qué da más cosquillas en la panza, el cuello y las axilas?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figura con zonas rojas en el cuello, los costados y la panza.",
+   "escena": "A simple peach clay body shape stands in the center of the frame, with small red clay patches on its neck, sides and belly.",
+   "accion": "The small red patches pulse gently, one after another.",
+   "narrador": "Son zonas blandas y delicadas. Los científicos creen que el reflejo sirve para protegerlas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "trozo_de_piel_con_sensores"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un bichito camina sobre la piel y los sensores se hunden a su paso.",
+   "escena": "The skin patch lies in the center of the frame, with a tiny black clay bug standing at its left edge.",
+   "accion": "The tiny bug walks slowly across the skin patch and the round blue sensors sink one after another under it.",
+   "narrador": "También creen que avisa de bichos que caminan sobre la piel: esa cosquillita suave que da escalofrío.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "pluma"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop trae la pluma desde su espalda hacia su panza.",
+   "escena": "Plop stands facing the camera, holding the feather behind his back with both paddle arms.",
+   "accion": "Plop slowly brings the feather around from behind his back toward his own belly.",
+   "narrador": "¿Y si intentas engañar a tu cerebro? ¿Si te haces cosquillas rapidísimo, sin pensarlo?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "pluma"
+   ],
+   "movimientos": [
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se pasa la pluma muy rápido y niega con la cabeza.",
+   "escena": "Plop stands facing the camera, holding the feather with one paddle arm against his own belly.",
+   "accion": "Plop brushes the feather quickly on his own belly, again and again, and slowly shakes his head.",
+   "narrador": "No funciona. El cerebelo es más rápido que tú: siempre sabe lo que vas a hacer.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un brazo robot espera un momento y pasa una pluma por la piel.",
+   "escena": "A simple grey clay robot arm holds a white clay feather over a peach clay patch in the center of the frame.",
+   "accion": "The robot arm waits a moment and brushes the feather across the peach patch.",
+   "narrador": "Los científicos lo probaron con un robot. Si el robot tarda un poquito en obedecerte… ¡sí da cosquillas!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente, asombrado.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop nods slowly with wide, amazed eyes.",
+   "narrador": "Con ese retraso, el cerebelo ya no adivina bien. Y vuelve la sorpresa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No eran bichitos invisibles, Pipo. Es tu cerebro, que adivina tus propios movimientos."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: si lo haces tú, no hay sorpresa. Sin sorpresa, no hay cosquillas."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la piel avisa, el cerebelo adivina y el aviso se apaga.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a white clay feather touching a peach clay patch with blue sensors; a pink clay brain with a darker-pink bump at the back; and a pink clay brain with a tiny blue dot beside it. Clean empty white space above each one.",
+   "narrador": "Repasemos: la piel avisa al cerebro, el cerebelo adivina tu propio toque, y le baja el volumen.",
+   "rotulos": "1 La piel avisa · 2 El cerebelo adivina · 3 Sin sorpresa, sin cosquillas"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una pluma le hace cosquillas a una ratita, que patalea feliz.",
+   "escena": "A small grey clay rat lies on its back in the center of the frame, with a white clay feather floating above its belly.",
+   "accion": "The feather brushes the rat's belly and the rat wriggles happily, kicking its little legs.",
+   "narrador": "[curious] Dato extra: las ratas también tienen cosquillas. Y se ríen, con chillidos tan agudos que no oímos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un chimpancé se mece de risa con las cosquillas.",
+   "escena": "A small brown clay chimpanzee sits in the center of the frame, with a white clay feather floating beside its side.",
+   "accion": "The feather brushes the chimpanzee's side and it rocks back and forth, shaking with silent laughter.",
+   "narrador": "Los chimpancés y los gorilas también. Reír con cosquillas es más antiguo que los humanos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora te toca comprobarlo. Plop tiene un reto para ti… y hay una regla importante."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "pluma"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "La pluma junto a un pie de arcilla.",
+   "imagen": "The feather lying next to a simple peach clay foot shape. Clean empty white space above them.",
+   "narrador": "Hazte cosquillas en el pie. Luego pide permiso y prueba con alguien. ¿Qué cambia?",
+   "rotulos": "Reto en casa · siempre con permiso"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

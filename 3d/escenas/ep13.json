@@ -1,0 +1,1251 @@
+{
+ "episodio": 13,
+ "id": "ep13",
+ "titulo": "¿Por qué explotan los volcanes?",
+ "tema": "Volcán",
+ "categoria": "ti",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "volcan_de_arcilla",
+  "volcan_por_dentro",
+  "burbujas_de_gas",
+  "lava"
+ ],
+ "efectos": [
+  {
+   "es": "Temblor del volcán",
+   "en": "Deep rumbling earthquake, low and growing"
+  },
+  {
+   "es": "Erupción",
+   "en": "Volcanic eruption blast with a roaring whoosh"
+  },
+  {
+   "es": "Lava que fluye",
+   "en": "Thick bubbling lava, slow and heavy"
+  },
+  {
+   "es": "Burbujas de magma",
+   "en": "Deep thick bubbles popping slowly"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "tiembla",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El volcán tiembla y lanza una fuente de lava.",
+   "escena": "The clay volcano stands in the center of the set.",
+   "accion": "The clay volcano trembles and a fountain of orange-red clay lava shoots up from its crater and runs down its sides.",
+   "narrador": "[curious] Una montaña tranquila… empieza a temblar… ¡y lanza roca derretida hacia el cielo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se asoma a mirar el volcán desde lejos.",
+   "escena": "Pipo stands at the left edge of the frame, far from the clay volcano on the right, leaning back.",
+   "accion": "Pipo slowly leans forward to look at the volcano and leans back again, over and over.",
+   "narrador": "Los volcanes dan un poco de miedo. Pero cuando entiendes cómo funcionan, también asombran.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a mirar, a salvo, dentro de un volcán. ¿Listos?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡la montaña comió demasiado ají y ahora le pica!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El volcán gira despacio: es pura roca.",
+   "escena": "The clay volcano stands in the center of the frame.",
+   "accion": "The clay volcano turns slowly in place like on a turntable.",
+   "narrador": "Pero las montañas no comen: no tienen boca ni panza. Son roca, de arriba abajo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo golpea la ladera del volcán: es durísima.",
+   "escena": "Pipo stands beside the clay volcano with one paddle arm against its side.",
+   "accion": "Pipo knocks on the side of the volcano with his paddle arm, again and again.",
+   "narrador": "Y esa roca es durísima. Pipo la golpea y no se mueve ni un poquito.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si la roca es tan dura, ¿cómo puede salir disparada como un refresco?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del cráter sube un hilito blanco.",
+   "escena": "The crater at the top of the clay volcano fills the frame.",
+   "accion": "A thin white clay wisp rises slowly from the crater, curling upward.",
+   "narrador": "¡Buena comparación, Plop! Guárdala bien, porque el secreto se parece mucho a un refresco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al volcán.",
+   "escena": "The clay volcano stands alone in the center of the set.",
+   "accion": "The clay volcano stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué habrá debajo de la montaña? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar por dentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al volcán por dentro.",
+   "escena": "The cut-open volcano model stands in the center of the set.",
+   "accion": "The cut-open volcano model stays still while the camera glides slowly closer to its orange chamber.",
+   "narrador": "[excited] ¡Hagamos zoom! Bajo el volcán, muy profundo, hay una enorme bolsa de roca derretida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El magma se revuelve, espeso.",
+   "escena": "The round orange magma chamber at the bottom of the cut-open volcano model fills the frame.",
+   "accion": "The orange magma churns slowly, like thick porridge.",
+   "narrador": "Se llama magma. Está tan caliente que la roca se vuelve espesa y pegajosa, como miel.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro del magma flotan burbujitas de gas, muy separadas.",
+   "escena": "The orange magma chamber of the cut-open volcano model fills the frame, with a few small gas bubbles spread through the magma.",
+   "accion": "The small gas bubbles drift slowly through the orange magma, far apart from each other.",
+   "narrador": "Y dentro del magma hay gas escondido, disuelto, igual que en una botella de refresco cerrada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro"
+   ],
+   "movimientos": [
+    "flota",
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "La chimenea: un tubo que sube hasta el cráter.",
+   "escena": "The narrow channel inside the cut-open volcano model fills the frame, running from the orange magma chamber up to the crater.",
+   "accion": "A little orange magma rises slowly a short way up the narrow channel and sinks back, again and again.",
+   "narrador": "Desde la bolsa sube un tubo hasta la cima: la chimenea. Es la única salida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "volcan_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina del volcán por dentro.",
+   "imagen": "The cut-open volcano model stands centered, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Abajo, la cámara de magma con su gas. En medio, la chimenea. Arriba, el cráter.",
+   "rotulos": "Cráter · Chimenea · Cámara de magma"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se agacha como si le pesara algo enorme.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo slowly crouches lower and lower, as if a heavy weight were pressing down on him.",
+   "narrador": "Pipo lo siente así: encima del magma hay kilómetros de roca, aplastándolo con muchísima fuerza.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las burbujitas tiemblan, apretadas, sin poder crecer.",
+   "escena": "The orange magma chamber of the cut-open volcano model fills the frame, with small gas bubbles spread through the magma.",
+   "accion": "The small gas bubbles quiver in place inside the magma, staying tiny.",
+   "narrador": "Esa presión hace de tapa. Mientras aprieta, el gas no puede formar burbujas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: ¿y si el magma empieza a subir… y la tapa aprieta cada vez menos?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El magma sube por la chimenea.",
+   "escena": "The cut-open volcano model fills the frame, with orange magma at the bottom of the narrow channel.",
+   "accion": "The orange magma rises slowly up the narrow channel.",
+   "narrador": "Eso pasa. El magma pesa menos que la roca que lo rodea, y poco a poco sube.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las burbujitas se hinchan mientras el magma sube.",
+   "escena": "Orange magma inside the narrow channel fills the frame, with a few tiny gas bubbles in it.",
+   "accion": "The tiny gas bubbles swell slowly into bigger and bigger white bubbles.",
+   "narrador": "Mientras sube, tiene menos roca encima. Menos presión. Y el gas empieza a formar burbujas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡es como abrir la tapa del refresco, pero muy, muy despacio!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "crece",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las burbujas empujan el magma hacia arriba.",
+   "escena": "Orange magma inside the narrow channel fills the frame, full of big white bubbles.",
+   "accion": "The big white bubbles keep growing and push the orange magma upward faster and faster.",
+   "narrador": "Las burbujas crecen y empujan el magma hacia arriba. Más burbujas, más empuje, más velocidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "El volcán tiembla y ruedan piedritas.",
+   "escena": "The clay volcano stands in the center of the frame.",
+   "accion": "The clay volcano shakes harder and harder, with small clay pebbles rolling down its sides.",
+   "narrador": "Afuera, la montaña tiembla. Los científicos lo notan y avisan a la gente con tiempo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L6",
+    "nombre": "No quiere mirar",
+    "direccion": "Plop peeks out from behind his paddle arms and hides again, over and over."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Uy, uy, uy… mu-mu.",
+    "intencion": "No quiere mirar",
+    "etiqueta": "[whispers]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se tapa los ojos y espía entre las manoplas.",
+   "narrador": "[whispers] Plop no quiere mirar. El magma ya está casi en la cima… tres, dos, uno…"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_por_dentro",
+    "lava"
+   ],
+   "movimientos": [
+    "flota",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El magma burbujeante llega al borde del cráter.",
+   "escena": "The crater at the top of the cut-open volcano model fills the frame, with orange magma full of white bubbles just below its rim.",
+   "accion": "The bubbly orange magma rises over the rim of the crater and starts to spill out.",
+   "narrador": "Cuando ese magma lleno de gas llega arriba, ya nada lo aprieta. Y entonces…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla",
+    "lava"
+   ],
+   "movimientos": [
+    "crece",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "¡Erupción! Fuente de lava y nubes grises.",
+   "escena": "The clay volcano stands in the center of the set with orange-red lava at the rim of its crater.",
+   "accion": "A tall fountain of orange-red clay lava bursts from the crater and grey clay clouds puff upward.",
+   "narrador": "[excited] ¡Erupción! El gas se expande de golpe y lanza el magma, que ahora se llama lava.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "volcan_de_arcilla",
+    "lava"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "La lava baja despacio por la ladera.",
+   "escena": "The side of the clay volcano fills the frame, with a stream of orange-red lava at the top.",
+   "accion": "The orange-red lava flows slowly down the side of the volcano.",
+   "narrador": "La lava baja por la ladera a más de mil grados. Pero no todos los volcanes hacen igual…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "De un volcán bajo y ancho sale lava tranquila, como un río.",
+   "escena": "A low, wide brown clay volcano stands in the center of the frame, with thin orange lava at its crater.",
+   "accion": "The thin orange lava flows gently and steadily out of the crater, like a slow river.",
+   "narrador": "Si el magma es aguado, el gas escapa fácil y la lava sale tranquila, como un río.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un volcán alto y tapado revienta en nubes grises.",
+   "escena": "A tall, steep brown clay volcano stands in the center of the frame, its crater plugged with thick dark-red clay.",
+   "accion": "The thick plug bulges upward and bursts into grey clay clouds.",
+   "narrador": "Si es espeso, el gas queda atrapado, la presión crece… y la explosión es enorme.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "volcan_de_arcilla"
+   ],
+   "movimientos": [
+    "ondula",
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo juega con el hilito de vapor del cráter.",
+   "escena": "Pipo stands beside the clay volcano, which has a thin white clay wisp above its crater.",
+   "accion": "Pipo slowly waves one paddle arm through the white wisp, watching it curl.",
+   "narrador": "Todo depende de dos cosas: cuánto gas hay y qué tan espeso es el magma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era ají, Pipo. Era gas disuelto en roca derretida, esperando a que bajara la presión."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: sale disparada por lo mismo que un refresco agitado."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: magma con gas, burbujas que crecen y erupción.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a round orange clay blob with a few tiny white clay balls inside; an orange clay column full of big white clay bubbles; and a brown clay volcano with an orange-red lava fountain. Clean empty white space above each one.",
+   "narrador": "Repasemos: el magma lleva gas disuelto, al subir baja la presión, y las burbujas lo lanzan afuera.",
+   "rotulos": "1 Gas disuelto · 2 Menos presión · 3 ¡Erupción!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "lava"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La lava se enfría y se vuelve roca gris.",
+   "escena": "A puddle of orange-red clay lava lies in the center of the frame.",
+   "accion": "The orange-red lava slowly turns dark grey and hard, from the edges toward the center.",
+   "narrador": "[curious] Dato extra: cuando la lava se enfría, se convierte en roca nueva. Roca recién nacida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una isla volcánica crece sobre el mar.",
+   "escena": "A small dark-grey clay island with a tiny volcano on it sits on a flat dark-blue clay sea.",
+   "accion": "The dark-grey island grows slowly wider and taller as orange lava spills from its tiny volcano.",
+   "narrador": "Capa sobre capa, esa roca puede formar islas enteras. Así nacieron Hawái y las Canarias.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes hacer una erupción segura en casa, con un adulto. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un volcán de plastilina con bicarbonato y vinagre al lado.",
+   "imagen": "A small brown clay volcano standing on a tray, with a small clay spoon of white powder and a small clay bottle beside it. Clean empty white space above them.",
+   "narrador": "Haz un volcán de plastilina. Adentro: bicarbonato y un chorrito de vinagre. ¡Mira el gas!",
+   "rotulos": "Reto en casa · con un adulto"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

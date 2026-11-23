@@ -1,0 +1,1207 @@
+{
+ "episodio": 49,
+ "id": "ep49",
+ "titulo": "¿Por qué nos mareamos en el coche?",
+ "tema": "Mareo",
+ "categoria": "cu",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "oido_interno",
+  "coche_de_juguete"
+ ],
+ "efectos": [
+  {
+   "es": "Motor",
+   "en": "Car engine humming on a road"
+  },
+  {
+   "es": "Olas",
+   "en": "Boat rocking on waves"
+  },
+  {
+   "es": "Giro",
+   "en": "Comic spinning whoosh"
+  },
+  {
+   "es": "Mareo",
+   "en": "Wobbly dizzy cartoon sound"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "coche_de_juguete"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un coche toma curvas entre colinas.",
+   "escena": "The toy car drives along a curvy grey clay road through green clay hills in the center of the set.",
+   "accion": "The toy car drives slowly around a curve and sways from side to side.",
+   "narrador": "[curious] Un viaje en coche, con muchas curvas. Vas leyendo un cuento en el asiento de atrás…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, en el coche, se agarra la tripa.",
+   "escena": "Pipo sits in the back seat of a simple clay car interior, holding a small open book.",
+   "accion": "Pipo slowly lowers the book and puts one paddle arm on his tummy, swaying slightly.",
+   "narrador": "…y de pronto, la tripa se revuelve, sudas, te pones pálido. ¡Te mareas! ¿Por qué?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop está atento. Hoy descubrimos por qué nos mareamos en el coche."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡el estómago da vueltas dentro de la barriga, como una lavadora!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La ropa gira dentro de una lavadora.",
+   "escena": "A small white clay washing machine with a round window stands in the center of the frame, with colorful clay clothes inside.",
+   "accion": "The colorful clothes spin round and round inside the window.",
+   "narrador": "El estómago no da vueltas: está bien sujeto en su sitio. El mareo empieza en otro lugar…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un puntito brilla dentro de la cabeza, junto a la oreja.",
+   "escena": "A friendly peach clay head shape in side view sits in the center of the frame, with a small glowing dot just inside where the ear is.",
+   "accion": "The small glowing dot near the ear pulses softly.",
+   "narrador": "¡Empieza en la cabeza! En un sitio escondido muy dentro de tus orejas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿por qué en el coche me mareo leyendo, y mirando por la ventana no?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira por la ventana y se relaja.",
+   "escena": "Pipo sits in the back seat of a simple clay car interior, looking out of the side window at green clay hills.",
+   "accion": "Pipo takes a slow deep breath and his body relaxes.",
+   "narrador": "Pipo lo prueba: deja el cuento, mira por la ventana… y se encuentra un poco mejor. ¡Qué raro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "oido_interno"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al oído interno.",
+   "escena": "The inner ear model stands alone on its white clay stand in the center of the set.",
+   "accion": "The inner ear model stays still while the camera glides slowly closer to its three loops.",
+   "narrador": "¿Qué tienen que ver las orejas con el mareo? ¿Tú qué crees? Piénsalo… ¡Entremos en el oído!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "oido_interno"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Zoom: tres aros llenos de líquido.",
+   "escena": "The inner ear model fills the frame, showing its three clear loops filled with pale-blue liquid.",
+   "accion": "The pale-blue liquid sloshes gently inside the three loops.",
+   "narrador": "[excited] ¡Hagamos zoom! Dentro del oído hay tres tubitos en forma de aro, llenos de líquido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "oido_interno"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El líquido se mueve y dobla unos pelitos.",
+   "escena": "The inner ear model fills the frame, with tiny clay hairs inside its loops.",
+   "accion": "The inner ear model tilts slowly to one side and the pale-blue liquid flows and bends the tiny hairs.",
+   "narrador": "Al moverte, el líquido se mueve y dobla unos pelitos sensibles: así el cerebro lo sabe.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "oido_interno"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos flechas llegan al cerebro: una del ojo y otra del oído.",
+   "escena": "A soft pink clay brain sits in the center of the frame, with a big round white clay eye on its left and the inner ear model on its right.",
+   "accion": "A green clay arrow travels from the eye to the brain and a red clay arrow travels from the ear to the brain at the same time.",
+   "narrador": "En el coche, leyendo, tus ojos ven un libro quieto. Pero tu oído siente curvas y baches.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Signos de interrogación alrededor del cerebro.",
+   "escena": "A soft pink clay brain sits in the center of the frame, with small yellow clay question marks around it.",
+   "accion": "The small question marks pop up one after another around the brain, which wobbles gently.",
+   "narrador": "Dos mensajes que no encajan… ¡y el cerebro se lía! Los científicos creen que eso causa el mareo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "oido_interno"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: ojos, oído y cerebro liado.",
+   "imagen": "A big round white clay eye on the left, the inner ear model on the right and a pink clay brain between them. Clean empty white space above them.",
+   "narrador": "Ojos: todo quieto. Oído: todo se mueve. Cerebro: ¡no entiendo nada! Y llega el mareo.",
+   "rotulos": "Ojos: quieto · Oído: ¡movimiento! · Cerebro: ¿?"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira la carretera de frente, tranquilo.",
+   "escena": "Pipo sits in the back seat of a simple clay car interior, looking forward between the front seats at the road and the hills ahead.",
+   "accion": "Pipo watches the road ahead calmly and sways gently with the curves.",
+   "narrador": "Si miras afuera, a lo lejos, tus ojos también ven el movimiento. Los mensajes encajan otra vez.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un bebé, un niño y un adulto: solo el niño se tambalea.",
+   "escena": "Three small clay figures of different sizes stand in a row in the center of the frame: a baby, a child and an adult.",
+   "accion": "The child in the middle wobbles gently while the baby and the adult stay still.",
+   "narrador": "Curioso: los niños de tu edad se marean más que los bebés y que los mayores.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: ¡entonces los trucos contra el mareo tienen que ayudar a que los mensajes encajen!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "coche_de_juguete"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "El coche avanza hacia el horizonte.",
+   "escena": "The toy car drives along a straight grey clay road toward green clay hills and a flat horizon in the center of the frame.",
+   "accion": "The toy car drives slowly forward toward the horizon.",
+   "narrador": "¡Eso es! Truco uno: mira por la ventana, lejos, hacia el horizonte. Y deja el libro para después.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Entra brisa por una ventanilla medio abierta.",
+   "escena": "A small clay car window is rolled halfway down in the center of the frame, with thin pale-blue clay wisps of breeze outside.",
+   "accion": "The thin pale-blue wisps of breeze flow gently in through the window.",
+   "narrador": "Truco dos: un poco de aire fresco. Y truco tres: no comer mucho justo antes del viaje.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡hay que ponerse de acuerdo con uno mismo!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un barquito se balancea en las olas.",
+   "escena": "A small red-and-white clay boat rocks on dark-blue clay waves in the center of the frame.",
+   "accion": "The boat rocks slowly up and down on the waves.",
+   "narrador": "Pasa igual en barco, en avión… ¡y hasta con algunos videojuegos, aunque no te muevas!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y por qué me mareo al dar vueltas, aunque luego me pare?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "oido_interno"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El modelo se para, pero el líquido sigue girando.",
+   "escena": "The inner ear model fills the frame, with pale-blue liquid inside its three loops.",
+   "accion": "The inner ear model stops turning but the pale-blue liquid inside keeps swirling around the loops.",
+   "narrador": "Al girar, el líquido de los aros gira contigo. Cuando paras, él sigue girando un ratito más.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita quieta mientras el jardín gira a su alrededor.",
+   "escena": "A small clay figure stands still in the center of a round green clay garden.",
+   "accion": "The garden around the figure slowly turns while the figure stands still.",
+   "narrador": "Por eso, aunque estés quieto, sientes que todo da vueltas a tu alrededor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bailarina gira fijando la mirada.",
+   "escena": "A small clay ballerina in a pink tutu stands on one toe on a wooden clay stage in the center of the frame.",
+   "accion": "The ballerina spins smoothly, her head turning quickly to face forward again at each turn.",
+   "narrador": "Las bailarinas fijan la mirada en un punto y giran la cabeza la última. ¡Se marean menos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira fijo a cámara: tiene una idea.",
+   "escena": "Pipo stands facing the camera on green clay grass.",
+   "accion": "Pipo stares straight at the camera and slowly raises one paddle arm.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿y si probamos el truco de las bailarinas?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo gira despacio sobre el césped.",
+   "escena": "Pipo stands in the center of a wide green clay lawn.",
+   "accion": "Pipo turns slowly around in place three times.",
+   "narrador": "[excited] Primero, gira sin mirar nada en concreto, despacito, sobre el césped… y para. ¿Todo da vueltas?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo gira mirando una banderita roja.",
+   "escena": "Pipo stands in the center of a wide green clay lawn, facing a small red clay flag stuck in the grass in front of him.",
+   "accion": "Pipo turns slowly around in place, snapping his head back to face the red flag at each turn.",
+   "narrador": "Ahora gira mirando una banderita, y gira la cabeza la última. ¿Notas la diferencia?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente tranquilo.",
+   "escena": "Pipo stands facing the camera on green clay grass.",
+   "accion": "Pipo nods slowly with a calm smile.",
+   "narrador": "El mareo no es un fallo de la tripa: es tu cerebro, que recibe mensajes que no encajan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No es una lavadora, Pipo. El cerebro se lía con los mensajes del oído y los ojos."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: leyendo, tus ojos ven todo quieto, y tu oído siente las curvas."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: aros con líquido, ojo con libro y cerebro liado.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: three clear clay loops filled with pale-blue liquid; a big round white clay eye looking at a small open book; and a pink clay brain with small yellow question marks around it. Clean empty white space above each one.",
+   "narrador": "Repasemos: el oído siente el movimiento, los ojos ven todo quieto, y el cerebro se lía.",
+   "rotulos": "1 El oído: ¡movimiento! · 2 Los ojos: quieto · 3 El cerebro se lía"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un astronauta flota boca abajo en la estación espacial.",
+   "escena": "A small clay astronaut in a white suit floats upside down inside a round grey clay space station module in the center of the frame.",
+   "accion": "The astronaut slowly tumbles in the air.",
+   "narrador": "[curious] Dato extra: muchos astronautas se marean sus primeros días en el espacio. ¡Allí no hay abajo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Piedrecitas diminutas se deslizan al inclinarse.",
+   "escena": "A tiny pale clay pad covered with many minuscule white clay crystals fills the center of the frame.",
+   "accion": "The minuscule crystals slide gently to one side as the pad tilts.",
+   "narrador": "En tu oído hay piedrecitas diminutas. Al inclinarte se deslizan y te dicen dónde está el suelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un reto de bailarines. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una banderita roja en el césped y una bailarina.",
+   "imagen": "A small red clay flag stuck in green clay grass on the left and a small clay ballerina in a pink tutu on the right. Clean empty white space above them.",
+   "narrador": "Sobre césped, gira tres veces sin mirar nada, y luego mirando un punto. ¿Qué cambia?",
+   "rotulos": "Reto en casa · el truco de las bailarinas"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

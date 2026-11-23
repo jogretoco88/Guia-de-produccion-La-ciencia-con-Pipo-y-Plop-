@@ -1,0 +1,1236 @@
+{
+ "episodio": 51,
+ "id": "ep51",
+ "titulo": "¿Cómo sabe una semilla hacia dónde crecer?",
+ "tema": "Semilla",
+ "categoria": "co",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "frijol",
+  "frasco_de_germinacion",
+  "punta_de_la_raiz"
+ ],
+ "efectos": [
+  {
+   "es": "Brote",
+   "en": "Soft magical growing sprout sound"
+  },
+  {
+   "es": "Agua",
+   "en": "Small water pour"
+  },
+  {
+   "es": "Crujido",
+   "en": "Tiny seed cracking open"
+  },
+  {
+   "es": "Viento",
+   "en": "Light breeze through grass"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un frijol seco en un plato.",
+   "escena": "The bean lies on a white clay plate in the center of the frame.",
+   "accion": "The camera glides slowly around the bean.",
+   "narrador": "[curious] Un frijol seco. Duro, quieto, parece una piedrecita. Pero dentro guarda un secreto…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "flota",
+    "revienta",
+    "empuja",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El frijol se abre y brota: raíz abajo, tallo arriba.",
+   "escena": "The bean lies on dark-brown clay soil in the center of the frame.",
+   "accion": "The bean splits open, a white root pushes down into the soil and a green shoot rises up with two small leaves.",
+   "narrador": "[excited] ¡En unos días, se convierte en una planta! ¿Cómo sabe crecer… y hacia dónde?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop está listo. Hoy descubrimos cómo una semilla se convierte en planta."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las semillas comen tierra, y por eso crecen!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Brotan frijoles en un frasco con algodón, sin tierra.",
+   "escena": "The sprout jar stands on a white clay table in the center of the frame.",
+   "accion": "Small white roots slowly push out of the beans pressed against the glass.",
+   "narrador": "Pues mira: en un frasco con algodón mojado, sin nada de tierra… ¡también brotan!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un bote de frijoles secos en la cocina, sin cambios.",
+   "escena": "A clear clay jar of dry brown clay beans stands on a kitchen shelf in the center of the frame.",
+   "accion": "The dry beans in the jar stay completely still.",
+   "narrador": "Y los frijoles del bote de la cocina pueden pasar meses sin brotar. Les falta algo…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si no comen tierra, ¿de dónde sacan comida para crecer al principio?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira de cerca el frijol.",
+   "escena": "Pipo stands beside the bean, which rests on a white clay plate at his height.",
+   "accion": "Pipo leans in slowly and looks closely at the bean.",
+   "narrador": "Pipo sospecha que la respuesta está dentro del frijol. ¿Y si lo abrimos?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al frijol.",
+   "escena": "The bean rests alone on a white clay plate in the center of the set.",
+   "accion": "The bean stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué habrá dentro de un frijol? ¿Tú qué crees? Piénsalo… ¡Vamos a abrirlo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: el frijol abierto, con una plantita bebé dentro.",
+   "escena": "The bean fills the frame, split into its two thick halves that are still pressed together.",
+   "accion": "The two halves of the bean slowly open apart, showing the tiny pale-green baby plant tucked inside.",
+   "narrador": "[excited] ¡Hagamos zoom! Dentro hay una plantita bebé, con su raíz y sus hojitas, dormida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "La comida de las mitades pasa a la plantita.",
+   "escena": "The open bean fills the frame, with its two thick pale halves around the tiny baby plant.",
+   "accion": "Small glowing yellow dots flow slowly from the thick halves into the tiny baby plant.",
+   "narrador": "Y las dos mitades gordas son su merienda: comida guardada para los primeros días.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El frijol se hincha en el agua.",
+   "escena": "The bean lies in a small puddle of pale-blue clay water in the center of the frame, its brown skin wrinkled.",
+   "accion": "The bean slowly swells bigger and its wrinkled skin stretches smooth.",
+   "narrador": "Lo que la despierta es el agua: el frijol bebe, se hincha… ¡y la plantita arranca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "revienta",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sale la raíz y se curva hacia la tierra.",
+   "escena": "The swollen bean lies on dark-brown clay soil in the center of the frame.",
+   "accion": "The bean's skin splits and a small white root pokes out and curves down into the soil.",
+   "narrador": "Lo primero que sale siempre es la raíz. Así la planta se agarra y empieza a beber.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "frijol"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el frijol abierto con su plantita.",
+   "imagen": "The bean in the center, split open with the tiny pale-green baby plant inside between its two thick halves. Clean empty white space above it.",
+   "narrador": "Plantita bebé, merienda guardada y una piel que la protege. Solo falta agua.",
+   "rotulos": "Plantita bebé · Merienda guardada · Piel protectora + agua"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "frijol"
+   ],
+   "movimientos": [
+    "flota",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sube el tallo y abre dos hojitas.",
+   "escena": "The bean sits half buried in dark-brown clay soil in the center of the frame, with its white root going down.",
+   "accion": "A pale-green shoot rises slowly up out of the soil and unfolds two small green leaves.",
+   "narrador": "Después sale el tallo, hacia arriba. Cuando sus hojas ven la luz, empiezan a fabricar su propia comida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo pone el frasco del revés.",
+   "escena": "Pipo stands beside the sprout jar, which sits on a white clay table at his height.",
+   "accion": "Pipo slowly turns the sprout jar upside down with both paddle arms.",
+   "narrador": "Pipo hace una travesura: ¡pone el frasco del revés! ¿Ahora la raíz crecerá hacia arriba?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: la raíz va a darse la vuelta. ¡Siempre busca el suelo!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el frasco del revés, la raíz se curva hacia abajo.",
+   "escena": "The sprout jar stands upside down on a white clay table in the center of the frame, with a bean whose small white root points up.",
+   "accion": "The small white root slowly curls around and grows back downward.",
+   "narrador": "¡Sí! En un par de días, la raíz hace una curva y vuelve a crecer hacia abajo. ¡Siempre!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "punta_de_la_raiz"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los granitos pesados caen hacia el lado de abajo.",
+   "escena": "The root tip fills the frame, with tiny heavy brown grains inside its cells.",
+   "accion": "The root tip tilts slowly to one side and the tiny brown grains roll down to the lowest side of each cell.",
+   "narrador": "La punta de la raíz tiene granitos pesados que caen hacia el suelo. ¡Le dicen dónde está abajo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡la raíz lleva una brújula de piedrecitas que siempre señala abajo!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una planta en la ventana se inclina hacia el sol.",
+   "escena": "A small green clay plant in a red clay pot stands on a windowsill in the center of the frame, with bright sunlight coming from the left.",
+   "accion": "The plant's stem slowly bends toward the sunlight on the left.",
+   "narrador": "El tallo, en cambio, busca la luz: por eso las plantas de la ventana se inclinan hacia fuera.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿cuánto tiempo puede esperar dormida una semilla?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Una semilla de dátil antiquísima echa una hojita.",
+   "escena": "A small dark-brown clay date seed lies on a clay pot of soil in the center of the frame, with a tiny green palm sprout rising from it.",
+   "accion": "The tiny green palm sprout slowly unfolds one narrow leaf.",
+   "narrador": "¡Muchísimo! Unos científicos hicieron brotar una semilla de palmera de unos dos mil años.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Una semilla enorme junto a una pizca de polvo.",
+   "escena": "A huge dark-brown clay double coconut sits on the left of a white clay table, next to a tiny pinch of fine clay dust on the right.",
+   "accion": "A light breeze blows the tiny dust gently away while the huge seed stays still.",
+   "narrador": "Las hay gigantes, como el coco de mar, de más de quince kilos… ¡y otras finas como polvo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Lentejas, garbanzos y un hueso de aguacate echan raíces.",
+   "escena": "A white clay plate in the center of the frame holds small piles of lentils, chickpeas and beans, with an avocado pit in the middle.",
+   "accion": "Tiny white roots slowly poke out of a few of the seeds on the plate.",
+   "narrador": "Y tu cocina está llena de semillas: lentejas, garbanzos, frijoles… ¡hasta el hueso del aguacate!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo levanta el frasco sonriendo: tiene una idea.",
+   "escena": "Pipo stands facing the camera, holding the sprout jar in one paddle arm.",
+   "accion": "Pipo slowly lifts the sprout jar and looks at the beans inside with a big smile.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿y si hacemos nuestro propio frasco de semillas?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Algodón y frijoles entran en el frasco.",
+   "escena": "The sprout jar stands empty on a white clay table in the center of the frame, with a pile of white clay cotton and three brown clay beans beside it.",
+   "accion": "The white cotton slides into the jar and the three beans press against the glass one by one.",
+   "narrador": "[excited] Algodón en un frasco, tres frijoles pegados al cristal y un chorrito de agua. ¡Nada más!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la ventana, las raíces bajan y los tallos suben.",
+   "escena": "The sprout jar stands on a sunny white clay windowsill in the center of the frame.",
+   "accion": "White roots grow down and green shoots grow up from the three beans.",
+   "narrador": "En pocos días verás la raíz bajar y el tallo subir, pegados al cristal para que los espíes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente con una gran sonrisa.",
+   "escena": "Pipo stands facing the camera in the center of the set.",
+   "accion": "Pipo nods slowly with a big smile.",
+   "narrador": "Una semilla es una planta dormida con su merienda. El agua la despierta… y ella sabe el camino.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No comen tierra, Pipo. Al principio crecen con la comida que llevan guardada dentro."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: la merienda está en las dos mitades gordas del frijol."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: frijol en agua, raíz que baja y tallo que sube.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a brown clay bean in a small drop of pale-blue water; a brown clay bean with a white root growing down; and a brown clay bean with a root down and a green shoot with two leaves up. Clean empty white space above each one.",
+   "narrador": "Repasemos: el agua despierta a la plantita, primero sale la raíz hacia abajo, y luego el tallo hacia la luz.",
+   "rotulos": "1 El agua la despierta · 2 Raíz abajo · 3 Tallo hacia la luz"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La entrada de un almacén de semillas en una montaña nevada.",
+   "escena": "A small grey clay building entrance sticks out of a snowy white clay mountain in the center of the frame.",
+   "accion": "Soft white clay snowflakes drift slowly past the entrance.",
+   "narrador": "[curious] Dato extra: en una montaña helada de Noruega guardan más de un millón de semillas, por si acaso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las semillas de un diente de león salen volando.",
+   "escena": "A round white clay dandelion puff stands on a green clay stem in the center of the frame.",
+   "accion": "A light breeze blows and small white clay dandelion seeds float away into the air.",
+   "narrador": "Y algunas semillas viajan solas: las del diente de león vuelan con el viento como paracaídas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un huerto en un frasco. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "frasco_de_germinacion"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El frasco con algodón y tres frijoles.",
+   "imagen": "The sprout jar in the center, with three brown beans pressed against the glass, one with a small white root. Clean empty white space above it.",
+   "narrador": "Algodón mojado, tres legumbres contra el cristal. ¿Cuántos días tarda en salir la raíz?",
+   "rotulos": "Reto en casa · tu huerto en un frasco"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

@@ -1,0 +1,1251 @@
+{
+ "episodio": 8,
+ "id": "ep08",
+ "titulo": "¿Por qué nos tiramos pedos?",
+ "tema": "Pedos",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "maqueta_del_intestino",
+  "bacterias_del_intestino",
+  "burbujas_de_gas",
+  "frijol_gigante"
+ ],
+ "efectos": [
+  {
+   "es": "¡Prrrt!",
+   "en": "Short funny cartoon fart, light and comic"
+  },
+  {
+   "es": "Burbujas de gas",
+   "en": "Soft bubbling in thick liquid"
+  },
+  {
+   "es": "La panza se infla",
+   "en": "Rubber balloon stretching slowly"
+  },
+  {
+   "es": "Alivio",
+   "en": "Short relieved comic sigh"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "crece",
+    "revienta",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop da un saltito: detrás de él sale una nubecita amarilla.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop gives a tiny surprised hop as one small pale-yellow clay puff pops out behind him and drifts away.",
+   "narrador": "[whispers] Silencio total en el laboratorio… [surprised] ¡Prrrt! Ups. ¿Quién fue?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira a los lados, apenado.",
+   "escena": "Plop faces the camera, centered in frame.",
+   "accion": "Plop looks slowly from side to side with wide, embarrassed eyes.",
+   "narrador": "A todos nos pasa: a ti, a mí, a tu maestra y hasta a los reyes. ¿Por qué?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría. Y es bastante loca. ¿Listos para investigar… sin taparse la nariz?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: tenemos un globito en la panza que se desinfla cuando nos reímos."
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se ríe a carcajadas y no pasa nada.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop shakes with silent giggles, his belly bouncing, while the air around him stays clear.",
+   "narrador": "Probemos: Plop se ríe y se ríe… y nada. Además, también pasa cuando estás serio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un globito rojo se desinfla.",
+   "escena": "A small round red clay balloon sits in the center of the frame.",
+   "accion": "The red balloon slowly shrinks until it lies flat.",
+   "narrador": "Y ningún doctor ha encontrado un globo dentro de una panza. Tiene que ser otra cosa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: yo solo como comida. ¿De dónde sale tanto aire?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "frijol_gigante"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop come un frijol gigante a toda prisa.",
+   "escena": "Plop stands facing the camera, holding the giant bean with both paddle arms.",
+   "accion": "Plop lifts the bean toward his closed mouth again and again, as if eating quickly.",
+   "narrador": "¡Buena pregunta! Un poco entra por arriba: cada vez que comes rápido, tragas aire sin darte cuenta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "La cámara se acerca a la panza de Plop.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop stays still while the camera glides slowly closer to his belly.",
+   "narrador": "Pero la mayor parte se fabrica adentro. ¿Quién la fabrica? ¿Tú qué crees? Piénsalo… ¡Vamos a entrar!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_intestino"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento a la maqueta del intestino.",
+   "escena": "The gut model lies in the center of the set.",
+   "accion": "The gut model stays still while the camera glides slowly closer to it.",
+   "narrador": "[excited] ¡Hagamos zoom! Este tubo larguísimo es tu intestino. Si lo estiraras, mediría varios metros.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_intestino"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Trocitos de comida avanzan por dentro del tubo.",
+   "escena": "A section of the gut model fills the frame, with small dark red clay bean pieces inside it.",
+   "accion": "The bean pieces slide slowly along the inside of the tube from left to right.",
+   "narrador": "Por aquí viaja tu comida. Tu cuerpo va tomando lo que necesita… pero no puede con todo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bacterias_del_intestino"
+   ],
+   "movimientos": [
+    "ondula",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una multitud de bacterias se menea.",
+   "escena": "A crowd of gut bacteria fills the frame.",
+   "accion": "The gut bacteria wiggle and bump gently into each other, again and again.",
+   "narrador": "Y aquí vive una multitud: billones de bacterias. Son diminutas, no se ven, y son tus inquilinas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bacterias_del_intestino"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bacterias se comen un trocito de frijol.",
+   "escena": "One dark red clay bean piece sits in the center of the frame, surrounded by gut bacteria.",
+   "accion": "The gut bacteria crowd onto the bean piece and nibble it, making it slowly smaller.",
+   "narrador": "Ellas se comen lo que tú no pudiste digerir. ¡Les encantan los frijoles, el brócoli y la cebolla!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_del_intestino",
+    "bacterias_del_intestino"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el intestino y sus bacterias.",
+   "imagen": "The gut model on the left and a small group of gut bacteria on the right, evenly lit. Clean empty white space above them.",
+   "narrador": "Un intestino larguísimo y billones de bacterias que comen tus sobras. ¡Recuérdalas!",
+   "rotulos": "Intestino · Bacterias (tus inquilinas)"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿bichitos viviendo en mi panza? ¡Qué asco!… ¿O qué suerte?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bacterias_del_intestino"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Tres bacterias saltan contentas.",
+   "escena": "Three gut bacteria stand in a row in the center of the frame.",
+   "accion": "The three gut bacteria bob happily up and down, one after another.",
+   "narrador": "¡Qué suerte! Son amigas: te ayudan a digerir, fabrican vitaminas y te defienden de microbios malos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Pero Plop ya sospecha algo: si comen… algo tienen que soltar después."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bacterias_del_intestino",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "flota",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "De las bacterias salen burbujitas de gas.",
+   "escena": "A few gut bacteria sit in the center of the frame next to a small dark red clay bean piece.",
+   "accion": "Small pale-yellow clay bubbles pop out of the gut bacteria one by one and float upward.",
+   "narrador": "Exacto. Cuando las bacterias comen, sueltan gas. Igual que tú sueltas aire cuando respiras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_intestino",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El tubo se va llenando de burbujas.",
+   "escena": "A section of the gut model fills the frame, with a few gas bubbles inside it.",
+   "accion": "More and more gas bubbles appear inside the tube, slowly filling it up.",
+   "narrador": "Burbuja a burbuja, el gas se va juntando dentro del intestino. Y ahí no cabe para siempre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_intestino",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "crece",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El tubo se hincha, lleno de gas.",
+   "escena": "A section of the gut model fills the frame, packed with gas bubbles.",
+   "accion": "The tube slowly swells outward as the gas bubbles press against its walls.",
+   "narrador": "El intestino se estira como un globo largo. A veces hasta lo sientes: es la panza inflada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: es como agitar una botella de refresco… pero dentro de ti."
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_intestino",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las burbujas viajan por el tubo hacia la salida.",
+   "escena": "The gut model stretches across the set, with gas bubbles inside it on the left.",
+   "accion": "The gas bubbles travel slowly along the tube toward its open end on the right.",
+   "narrador": "Los músculos del intestino empujan el gas hacia la única salida que queda… ya sabes cuál.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L6",
+    "nombre": "No quiere mirar",
+    "direccion": "Plop peeks out from behind his paddle arms and hides again, over and over."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Uy, uy, uy… mu-mu.",
+    "intencion": "No quiere mirar",
+    "etiqueta": "[whispers]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se tapa los ojos y espía entre las manoplas.",
+   "narrador": "[whispers] Plop no quiere mirar. El gas va llegando al final del tubo… tres, dos, uno…"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_del_intestino",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "revienta",
+    "ondula",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "¡Prrrt! Las burbujas salen disparadas del tubo.",
+   "escena": "The open end of the gut model fills the right side of the frame, with gas bubbles just inside it.",
+   "accion": "The gas bubbles shoot out of the open end one after another, making the rim of the tube flap.",
+   "narrador": "[laughs] ¡Prrrt! El gas sale de golpe y hace vibrar la salida, como cuando soplas una trompetilla.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop respira aliviado.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop's shoulders slowly drop and he sways gently with relief, eyes half closed.",
+   "narrador": "Y qué alivio. Ese ruido no es mala educación de tu cuerpo: es tu intestino trabajando bien.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Entre muchas burbujas amarillas tiembla una sola verde.",
+   "escena": "A group of gas bubbles floats in the center of the frame: almost all pale yellow, and one single small green one.",
+   "accion": "The single green bubble wobbles among the pale-yellow bubbles, again and again.",
+   "narrador": "Pero falta lo más misterioso. Si casi todo ese gas no huele… ¿de dónde viene el olor?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "La burbuja verde suelta hilitos de olor.",
+   "escena": "One single small green clay bubble fills the frame, surrounded by pale-yellow bubbles.",
+   "accion": "The green bubble pulses gently, sending out tiny green clay wisps.",
+   "narrador": "De una parte diminuta: menos de una burbuja de cada cien. Esa lleva azufre, como el huevo podrido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "bacterias_del_intestino",
+    "frijol_gigante"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bacterias festejan alrededor del frijol.",
+   "escena": "The giant bean sits in the center of the frame, with gut bacteria gathered around it.",
+   "accion": "The gut bacteria hop excitedly around the giant bean, again and again.",
+   "narrador": "Y según lo que comas, tus bacterias fabrican más o menos gas. Los frijoles son su fiesta favorita.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se da palmaditas en la panza, orgulloso.",
+   "escena": "Plop stands facing the camera with both paddle arms on his belly.",
+   "accion": "Plop pats his belly gently, again and again, with proud, happy eyes.",
+   "narrador": "Una persona sana lo hace más de diez veces al día. Señal de que tus inquilinas comen bien.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No había ningún globito, Pipo. Hay billones de bacterias fabricando gas con tus sobras."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: un poco de aire lo tragas, y el resto lo fabrican ellas."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: bacterias comiendo, el tubo con gas y la nubecita.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: small colorful clay capsules sitting on a dark red clay bean; a short pink clay tube full of pale-yellow clay bubbles; and one pale-yellow clay puff. Clean empty white space above each one.",
+   "narrador": "Repasemos: tragas aire, tus bacterias fabrican gas con las sobras, y el intestino lo empuja afuera.",
+   "rotulos": "1 Aire que tragas · 2 Gas de las bacterias · 3 ¡Afuera!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una vaca de arcilla mastica y suelta nubecitas por la boca.",
+   "escena": "A small black-and-white clay cow stands in the center of the frame, chewing.",
+   "accion": "Small pale-yellow clay puffs pop out of the cow's mouth one by one while it chews.",
+   "narrador": "[curious] Dato extra: las vacas tienen tantas bacterias que sueltan gas todo el día, sobre todo eructando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las nubecitas suben alrededor de la vaca.",
+   "escena": "A small black-and-white clay cow stands in the center of the set, surrounded by pale-yellow clay puffs.",
+   "accion": "The pale-yellow puffs drift slowly upward around the cow, one after another.",
+   "narrador": "Es tanto gas que los científicos lo miden y lo estudian, porque calienta un poquito el planeta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, una misión de detective para la hora de la comida. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "frijol_gigante"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un frijol, un brócoli y un vaso de refresco.",
+   "imagen": "The giant bean, a small green clay broccoli floret and a clay glass of fizzy drink with bubbles, side by side. Clean empty white space above them.",
+   "narrador": "Pregunta en casa qué comidas dan más gases. Pista: frijoles, brócoli y refrescos.",
+   "rotulos": "Reto en casa · detectives de la comida"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

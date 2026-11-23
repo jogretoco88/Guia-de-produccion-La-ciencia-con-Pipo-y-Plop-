@@ -1,0 +1,15 @@
+Episodios: 52 · 260 minutos en total
+Tomas: 2028
+  clips animados por script: 814
+  clips con Pipo o Plop, animados a mano: 261
+  clips con animales (títeres), animados a mano: 119
+  clips de objetos sin movimiento de la biblioteca, a mano: 35
+  reacciones de la biblioteca: 539
+  láminas: 156
+Objetos distintos: 183 (10 en más de un episodio)
+Familias: cielo_espacio 16 · particulas 34 · objeto 48 · maqueta_corte 36 · comida 17 · cuerpo 11 · animales 21
+Fotogramas únicos a 12 fps: 187200
+Render del año: 104 h a 2 s/fotograma · 520 h a 10 s · 1040 h a 20 s
+Tomas por zona: zoom 832 · cuerpo 214 · planetario 196 · cocina 167 · terrario 167 · pizarra 156 · casa 133 · entrada 104 · agua 59
+Movimientos: rueda_desliza 259 · balancea 154 · flota 138 · gira 131 · crece 112 · aparece 110 · cae 109 · ondula 99 · rebota 87 · empuja 85 · late 82 · acercamiento_lento 76 · tiembla 73 · revienta 70 · encoge 44
+Clips de objetos sin movimiento reconocido (se animan a mano): 35

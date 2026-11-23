@@ -1,0 +1,1231 @@
+{
+ "episodio": 26,
+ "id": "ep26",
+ "titulo": "¿Por qué desaparecieron los dinosaurios?",
+ "tema": "Dinosaurios",
+ "categoria": "ti",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "dinosaurio_de_arcilla",
+  "asteroide",
+  "tierra_de_arcilla",
+  "pajarito",
+  "helecho"
+ ],
+ "efectos": [
+  {
+   "es": "El asteroide cae",
+   "en": "Deep roaring whoosh of a falling meteor"
+  },
+  {
+   "es": "Impacto lejano",
+   "en": "Huge distant boom with a long rumble"
+  },
+  {
+   "es": "Viento con polvo",
+   "en": "Low dusty wind howling"
+  },
+  {
+   "es": "Canto de pájaro",
+   "en": "Cheerful small bird chirping"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "dinosaurio_de_arcilla",
+    "asteroide"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Un dinosaurio sigue con la mirada un asteroide que cruza el cielo.",
+   "escena": "The clay dinosaur stands on the right of the set, looking up at the asteroid high in the upper left corner.",
+   "accion": "The asteroid travels slowly down across the sky toward the horizon while the clay dinosaur follows it with its head.",
+   "narrador": "[whispers] Hace muchísimo tiempo, un dinosaurio miró al cielo… y vio acercarse una bola de fuego.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "dinosaurio_de_arcilla"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El dinosaurio baja y sube su largo cuello.",
+   "escena": "The clay dinosaur stands in the center of the frame.",
+   "accion": "The clay dinosaur slowly lowers its long neck and raises it again.",
+   "narrador": "Los dinosaurios dominaron la Tierra durante millones de años. Y un día, desaparecieron. ¿Qué pasó?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los dinosaurios. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡se fueron todos de vacaciones y se perdieron en el camino!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una brocha descubre un esqueleto en la roca.",
+   "escena": "A grey clay rock slab lies in the center of the frame, with a white clay dinosaur skeleton pressed into its surface.",
+   "accion": "A soft brown clay brush sweeps slowly across the slab, uncovering more of the white skeleton.",
+   "narrador": "Pero no se fueron: se quedaron. Sus huesos están enterrados en las rocas de todo el mundo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop recorre las capas de roca hasta una rayita oscura.",
+   "escena": "Plop stands beside a tall block of clay rock layers: brown at the bottom, a thin dark-grey line in the middle and tan on top.",
+   "accion": "Plop slowly moves one paddle arm up along the layers, stopping at the thin dark-grey line.",
+   "narrador": "Y hay algo raro. Debajo de cierta capa de roca hay huesos de dinosaurio. Encima, ni uno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: eran los más grandes y fuertes. ¿Cómo pudo desaparecer algo así?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Entre dos capas de roca late una rayita oscura.",
+   "escena": "A tall block of clay rock layers fills the frame: brown at the bottom, a thin dark-grey line in the middle and tan on top.",
+   "accion": "The thin dark-grey line pulses gently between the brown layer and the tan layer.",
+   "narrador": "¡Buena pregunta! La pista está en esa rayita oscura. Aparece igual en todos los continentes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "balancea",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la rayita oscura.",
+   "escena": "A tall block of clay rock layers stands in the center of the set: brown at the bottom, a thin dark-grey line in the middle and tan on top.",
+   "accion": "The block of rock layers stays still while the camera glides slowly closer to the thin dark-grey line.",
+   "narrador": "¿Qué habrá en esa capa? ¿Tú qué crees? Piénsalo… ¡Vamos a mirarla de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la capa oscura brillan motitas plateadas.",
+   "escena": "The thin dark-grey line in the rock layers fills the frame, sprinkled with tiny silver clay specks.",
+   "accion": "The tiny silver specks twinkle one after another along the dark-grey line.",
+   "narrador": "[excited] ¡Hagamos zoom! Esa capa tiene un metal rarísimo en la Tierra, pero común en rocas del espacio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "asteroide"
+   ],
+   "movimientos": [
+    "gira",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "El asteroide gira con su cola de fuego.",
+   "escena": "The asteroid floats in the center of the frame.",
+   "accion": "The asteroid turns slowly in place while its orange flame tail flickers.",
+   "narrador": "Esas rocas del espacio se llaman asteroides. Y este no era pequeño: medía unos diez kilómetros.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "asteroide",
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "flota",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "El asteroide se acerca a la Tierra.",
+   "escena": "The clay Earth stands in the center of the frame, with the asteroid floating at the upper left, small beside it.",
+   "accion": "The asteroid drifts slowly closer to the clay Earth.",
+   "narrador": "Diez kilómetros: más alto que la montaña más alta del mundo. Y venía a toda velocidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la Tierra queda un cráter redondo junto al mar.",
+   "escena": "The clay Earth fills the frame, with a round dent on its surface next to a blue sea.",
+   "accion": "The round dent pulses gently, glowing orange at its edges.",
+   "narrador": "Cayó en lo que hoy es México. Dejó un cráter enorme, que todavía existe, enterrado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "asteroide",
+    "tierra_de_arcilla"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el asteroide apuntando a la Tierra.",
+   "imagen": "The clay Earth in the center with the asteroid at the upper left pointing toward it, evenly lit. Clean empty white space on the right side.",
+   "narrador": "Un asteroide de diez kilómetros, hace sesenta y seis millones de años. ¡Todo cambió!",
+   "rotulos": "Asteroide · 10 km · Hace 66 millones de años"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: pero cayó en un solo lugar. ¿Y los dinosaurios del otro lado del mundo?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "asteroide",
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El asteroide choca y se abre un anillo de polvo.",
+   "escena": "The clay Earth stands in the center of the set, with the asteroid just above its surface.",
+   "accion": "The asteroid hits the clay Earth and a ring of grey clay dust spreads outward from the spot.",
+   "narrador": "El golpe fue tan fuerte que lanzó al cielo una cantidad gigantesca de polvo y ceniza.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si ese polvo subió tan alto… ¡pudo cubrir todo el planeta!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El polvo gris envuelve toda la Tierra.",
+   "escena": "The clay Earth stands in the center of the set, with a patch of grey clay dust on one side.",
+   "accion": "The grey dust spreads slowly around the whole clay Earth until it is wrapped in a grey layer.",
+   "narrador": "Así fue. El viento llevó el polvo alrededor del mundo. En pocos días, cubrió el cielo entero.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El polvo espesa y el Sol queda oculto.",
+   "escena": "A bright-yellow clay sun sits at the top of the frame, above a thick layer of grey clay dust.",
+   "accion": "The grey dust layer thickens slowly until the yellow sun is hidden behind it.",
+   "narrador": "Y el polvo tapó la luz del Sol. No un día ni dos: durante muchos meses.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P7",
+    "nombre": "Desconcertado",
+    "direccion": "Pipo looks slowly from one side to the other and back, completely baffled."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Ba? ¿Bo? ¿Bi?",
+    "intencion": "Desconcertado",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo mira a un lado y al otro, sin entender.",
+   "narrador": "Pipo no entiende: ¿y qué tiene de grave un poco de oscuridad? Yo duermo con la luz apagada."
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "helecho"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El helecho se marchita y se vuelve marrón.",
+   "escena": "The fern stands in the center of the frame under a grey clay sky.",
+   "accion": "The fern slowly droops and turns from bright green to brown.",
+   "narrador": "Las plantas necesitan luz para fabricar su comida. Sin Sol, empezaron a morir en todo el planeta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "dinosaurio_de_arcilla",
+    "helecho"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El dinosaurio toca el helecho seco y baja la cabeza.",
+   "escena": "The clay dinosaur stands beside the fern, which is brown and drooping.",
+   "accion": "The clay dinosaur nudges the brown fern with its nose and slowly lowers its head.",
+   "narrador": "Sin plantas, los dinosaurios que comían hojas se quedaron sin alimento.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un dinosaurio cazador busca a un lado y al otro.",
+   "escena": "A small orange clay meat-eating dinosaur with a big head stands alone in the center of the frame under a grey clay sky.",
+   "accion": "The orange dinosaur looks slowly to the left and to the right, searching.",
+   "narrador": "Y sin ellos, los dinosaurios cazadores tampoco tenían qué comer. La cadena entera se rompió.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: entonces, ¿no sobrevivió nadie? ¿Ni un solo animal?"
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Un animalito sale de su madriguera, come una semilla y vuelve.",
+   "escena": "A tiny brown clay mouse-like animal peeks out of a small hole in a brown clay mound in the center of the frame.",
+   "accion": "The tiny animal comes out of the hole, nibbles a small clay seed and darts back in.",
+   "narrador": "Sí sobrevivieron algunos: los pequeños. Necesitaban poca comida y podían esconderse bajo tierra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "dinosaurio_de_arcilla",
+    "pajarito"
+   ],
+   "movimientos": [
+    "balancea",
+    "rebota",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El pajarito y el dinosaurio se miran y ladean la cabeza igual.",
+   "escena": "The clay dinosaur stands on the left of the frame and the tiny bird stands on the right, facing each other.",
+   "accion": "The tiny bird hops closer to the clay dinosaur and tilts its head, just as the dinosaur tilts its own.",
+   "narrador": "Y entre los que sobrevivieron había un grupo muy especial. Míralos bien… ¿se parecen?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "pajarito"
+   ],
+   "movimientos": [
+    "ondula",
+    "rebota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El pajarito aletea y salta orgulloso.",
+   "escena": "The tiny bird stands in the center of the frame.",
+   "accion": "The tiny bird flaps its wings and hops proudly, again and again.",
+   "narrador": "[excited] ¡Las aves! Un grupo de dinosaurios pequeños, con plumas, sobrevivió. Sus descendientes son los pájaros.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "pajarito"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "Las patas escamosas del pajarito dan pasos.",
+   "escena": "The scaly orange feet of the tiny bird fill the frame.",
+   "accion": "The scaly feet step slowly forward, one after the other.",
+   "narrador": "Mira las patas de una gallina: escamas, garras, tres dedos al frente. Patas de dinosaurio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "pajarito"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira asombrado al pajarito posado en su manopla.",
+   "escena": "Plop stands facing the camera, with the tiny bird perched on one raised paddle arm.",
+   "accion": "Plop looks at the tiny bird with wide, amazed eyes while the bird hops in place.",
+   "narrador": "Así que los dinosaurios no desaparecieron del todo. Algunos cantan en tu ventana cada mañana.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No se fueron de vacaciones, Pipo. Un asteroide tapó el Sol y la comida se acabó."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: ser grande y fuerte no sirve cuando falta la comida."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: el asteroide, la Tierra cubierta de polvo y el helecho seco.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a dark-grey clay rock with an orange flame tail above a blue-and-green clay globe; the same globe wrapped in grey clay dust; and a brown, drooping clay fern. Clean empty white space above each one.",
+   "narrador": "Repasemos: cayó un asteroide, el polvo tapó el Sol, las plantas murieron y la comida se acabó.",
+   "rotulos": "1 El asteroide · 2 Sin luz del Sol · 3 Sin comida"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bajo un cielo despejado, el animalito crece.",
+   "escena": "A tiny brown clay mouse-like animal stands in the center of the frame under a bright clay sky.",
+   "accion": "The tiny animal slowly grows bigger and bigger.",
+   "narrador": "[curious] Dato extra: sin dinosaurios gigantes, los pequeños mamíferos tuvieron espacio para crecer y cambiar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un ratoncito, un elefante y una persona se mecen en fila.",
+   "escena": "A row of three clay figures stands in the center of the frame: a small brown mouse-like animal, a grey elephant and a small peach clay human figure.",
+   "accion": "The three figures bob gently up and down, one after another, from left to right.",
+   "narrador": "De ellos vienen los elefantes, las ballenas, los perros… y también nosotros.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Hoy puedes salir a buscar dinosaurios vivos. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "pajarito"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El pajarito junto a una lupa y un cuaderno.",
+   "imagen": "The tiny bird standing next to a chunky clay magnifying glass and a small white clay notebook. Clean empty white space above them.",
+   "narrador": "Observa un pájaro. ¿En qué se parecen sus patas a las de un dinosaurio? ¡Dibújalas!",
+   "rotulos": "Reto en casa · busca dinosaurios vivos"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

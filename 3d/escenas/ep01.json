@@ -1,0 +1,1260 @@
+{
+ "episodio": 1,
+ "id": "ep01",
+ "titulo": "¿Por qué explotan las palomitas de maíz?",
+ "tema": "Palomitas",
+ "categoria": "co",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "grano_de_maiz_gigante",
+  "grano_partido_por_la_mitad",
+  "palomita_gigante"
+ ],
+ "efectos": [
+  {
+   "es": "Reventón de palomita",
+   "en": "Single loud popcorn pop, close-up, crisp"
+  },
+  {
+   "es": "Vapor a presión",
+   "en": "Steam hissing under pressure, slowly rising in pitch"
+  },
+  {
+   "es": "Temblor del grano",
+   "en": "Tense low rumble with small creaks, building up"
+  },
+  {
+   "es": "Gelatina de almidón",
+   "en": "Soft wet squelch, jelly wobble"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante",
+    "palomita_gigante"
+   ],
+   "movimientos": [
+    "tiembla",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "El grano tiembla sobre la placa caliente y revienta en una palomita.",
+   "escena": "The kernel sits alone in the center of the set on a flat round orange-red clay disc.",
+   "accion": "The kernel shakes harder and harder and finally bursts open into a big fluffy white clay popcorn.",
+   "narrador": "[curious] Un grano de maíz es duro como una piedra. Pero con calor… [surprised] ¡se convierte en una nube!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "palomita_gigante"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira asombrado la palomita gigante.",
+   "escena": "Pipo stands on the left beside the popcorn, which is almost as tall as he is.",
+   "accion": "Pipo slowly leans toward the popcorn, tilting his head from side to side in amazement.",
+   "narrador": "¿Cómo cabe algo tan grande y esponjoso dentro de algo tan pequeño y tan duro?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a descubrir el secreto que esconde cada palomita."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] Pipo tiene una idea loca: ¿y si adentro vive un duende que infla globos?"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo pega la cabeza al grano para escuchar.",
+   "escena": "Pipo stands right next to the kernel with the side of his head pressed against it.",
+   "accion": "Pipo keeps the side of his head against the kernel, listening carefully, while his eyes slowly look left and right.",
+   "narrador": "Si fuera así, al acercar la oreja lo oiríamos soplar. Pero no se oye nada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo rebota sentado sobre el grano, que no cede.",
+   "escena": "Pipo sits on top of the kernel.",
+   "accion": "Pipo bounces up and down on top of the kernel, again and again, while the kernel stays perfectly rigid.",
+   "narrador": "Otra idea: apretarlo con fuerza. Pero ni con todo el peso de Pipo se abre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta algo importante: si la fuerza no lo abre, ¿por qué el calor sí?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo rodea el grano, examinándolo.",
+   "escena": "Pipo stands on the left of the kernel, looking at it closely.",
+   "accion": "Pipo waddles slowly around the kernel in a half circle, never taking his eyes off it.",
+   "narrador": "¡Buena pregunta! Eso significa que el secreto no está afuera. Está escondido adentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca despacio al grano.",
+   "escena": "The kernel stands alone in the center of the set.",
+   "accion": "The kernel stays completely still while the camera glides slowly closer to it.",
+   "narrador": "¿Y tú qué crees que hay dentro? Piénsalo… ¿Ya? ¡Vamos a abrirlo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al grano partido por la mitad.",
+   "escena": "The cut-open kernel model stands in the center of the set with its flat cut face toward the camera.",
+   "accion": "The model stays still while the camera glides slowly closer to its cut face.",
+   "narrador": "[excited] ¡Hagamos zoom! Al partir el grano por la mitad, aparecen tres partes secretas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita rebota contra la cáscara amarilla: es durísima.",
+   "escena": "The thick golden-yellow shell wall of the cut-open kernel model fills the frame, with a little of the white filling visible beside it.",
+   "accion": "One small white clay ball rolls into the yellow shell wall and bounces off it, again and again.",
+   "narrador": "Primera: una cáscara amarilla durísima. Se llama pericarpio y funciona como un casco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "tiembla",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El relleno blanco de almidón tiembla como masa firme.",
+   "escena": "The cut face of the cut-open kernel model fills the frame, centered on its white starch filling.",
+   "accion": "The white starch filling wobbles gently like firm dough, again and again.",
+   "narrador": "Segunda: un relleno blanco y apretado llamado almidón. Es la comida que guarda la semilla.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "crece",
+    "encoge",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "La gotita cian palpita en el centro.",
+   "escena": "The small cyan droplet in the center of the cut-open kernel model fills the frame, surrounded by white starch.",
+   "accion": "The cyan droplet pulses gently, swelling and shrinking a little, again and again.",
+   "narrador": "[whispers] Y tercera, bien escondida entre el almidón… ¡agua! Solo un poquito, pero es la clave.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina del corte con sus tres partes.",
+   "imagen": "The cut-open kernel model stands centered, its flat cut face toward the camera, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Casco duro, relleno de almidón y un poquito de agua. ¡Recuerda estas tres!",
+   "rotulos": "Pericarpio (el casco) · Almidón · Agua"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "[surprised] Pipo no lo puede creer: ¿agua? ¡Si el grano está sequísimo por fuera!"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La gotita choca contra la cáscara y regresa: está atrapada.",
+   "escena": "The cut face of the cut-open kernel model fills the frame, with the cyan droplet in its center.",
+   "accion": "The cyan droplet slides slowly toward the yellow shell wall, bumps into it and slides back, again and again.",
+   "narrador": "Justo por eso. El casco es tan cerrado que el agua no puede escapar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Y Plop ya lo sospecha: agua encerrada, más calor… ¡aquí va a pasar algo!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "flota",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El grano sobre la placa caliente; suben cintas de calor.",
+   "escena": "The kernel sits in the center of the set on a flat round orange-red clay disc.",
+   "accion": "Three wavy orange clay ribbons wiggle slowly upward around the kernel, like rising heat.",
+   "narrador": "Ahora encendemos el calor. El grano se calienta más y más por dentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "gira",
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La gotita se hincha y se vuelve una nube azul claro.",
+   "escena": "The cut face of the cut-open kernel model fills the frame, with the cyan droplet in its center.",
+   "accion": "The cyan droplet slowly swells and turns into a puffy pale-blue clay cloud.",
+   "narrador": "Con el calor, el agua hace su truco: deja de ser líquida y se convierte en vapor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "crece",
+    "empuja",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La nube de vapor sigue creciendo dentro del grano.",
+   "escena": "Inside the cut-open kernel model, a puffy pale-blue clay cloud sits where the droplet was.",
+   "accion": "The pale-blue cloud keeps growing slowly, pressing into the white filling around it.",
+   "narrador": "Y el vapor es un grandulón: necesita muchísimo más espacio que el agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo infla los cachetes como un globo.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo slowly puffs up his cheeks bigger and bigger, holding his breath with wide eyes.",
+   "narrador": "Pipo lo entiende así: es como inflar un globo dentro de una caja cerrada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El vapor empuja la cáscara, que se abomba y aguanta.",
+   "escena": "Inside the cut-open kernel model, a pale-blue clay cloud presses against the thick yellow shell wall, which fills the right side of the frame.",
+   "accion": "The pale-blue cloud pushes against the yellow shell wall, which bulges slightly outward and springs back, again and again.",
+   "narrador": "El vapor empuja el casco desde adentro, buscando una salida. Pero el casco aguanta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "gira",
+    "tiembla",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El almidón se ablanda y tiembla como gelatina.",
+   "escena": "The cut face of the cut-open kernel model fills the frame, with a pale-blue clay cloud in its center surrounded by the white starch filling.",
+   "accion": "The white starch filling turns soft and jiggles like warm jelly, again and again.",
+   "narrador": "Mientras tanto, el calor ablanda el almidón hasta volverlo una gelatina caliente y elástica.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "crece",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "El grano vibra cada vez más rápido sobre la placa.",
+   "escena": "The kernel sits in the center of the set on a flat round orange-red clay disc.",
+   "accion": "The kernel vibrates faster and faster and swells very slightly.",
+   "narrador": "Más calor, más vapor, más presión. ¡El grano es ahora una mini olla a presión!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L6",
+    "nombre": "No quiere mirar",
+    "direccion": "Plop peeks out from behind his paddle arms and hides again, over and over."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Uy, uy, uy… mu-mu.",
+    "intencion": "No quiere mirar",
+    "etiqueta": "[whispers]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se tapa los ojos y espía entre las manoplas.",
+   "narrador": "[whispers] ¿Cuánto más aguantará el casco? Plop casi no quiere mirar… ¿y tú?"
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una grieta fina avanza por la cáscara.",
+   "escena": "The golden-yellow surface of the kernel fills the frame.",
+   "accion": "A thin dark crack slowly travels across the yellow surface from left to right.",
+   "narrador": "Cuando llega a unos ciento ochenta grados, el casco ya no puede más y…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante",
+    "palomita_gigante"
+   ],
+   "movimientos": [
+    "revienta",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "¡Pum! El grano se abre y brota la espuma blanca.",
+   "escena": "The kernel, with a thin crack across it, sits in the center of the set on a flat round orange-red clay disc.",
+   "accion": "The kernel bursts open along the crack and fluffy white clay foam erupts outward, forming a big popcorn.",
+   "narrador": "[excited] ¡Pum! El casco se rompe y todo el vapor sale disparado de un solo golpe.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "palomita_gigante"
+   ],
+   "movimientos": [
+    "cae",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La palomita termina de inflarse y queda firme.",
+   "escena": "The popcorn fills the frame.",
+   "accion": "The popcorn slowly puffs outward into rounded lobes until it settles into a firm shape.",
+   "narrador": "La gelatina de almidón se infla como espuma, se enfría en el aire y queda tiesa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "palomita_gigante"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo abraza la palomita, feliz.",
+   "escena": "Pipo stands beside the popcorn with both paddle arms wrapped around it.",
+   "accion": "Pipo hugs the popcorn and rocks happily from side to side.",
+   "narrador": "¡Esa espuma blanca y crujiente es la palomita! El grano se volteó de adentro hacia afuera.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "[laughs] No había duende, Pipo. El que infla la palomita… ¡es el vapor de agua!"
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: el calor lo abre porque convierte el agua en vapor."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso en tres pasos: gota, nube de vapor y palomita.",
+   "imagen": "Three clay objects in a row from left to right, evenly spaced: a small cyan clay droplet, a puffy pale-blue clay cloud, and a fluffy white clay popcorn. Clean empty white space above each one.",
+   "narrador": "Repasemos: agua escondida, calor que la vuelve vapor y un casco que aguanta… hasta que ¡pum!",
+   "rotulos": "1 Agua escondida · 2 Vapor que empuja · 3 ¡Pum!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [
+    "flota",
+    "revienta",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un grano agrietado deja escapar un hilito de vapor.",
+   "escena": "A kernel with a small open crack on its side stands alone in the center of the frame.",
+   "accion": "A thin pale-blue clay wisp slowly leaks out of the crack and drifts upward.",
+   "narrador": "[curious] ¿Y los granos que nunca revientan? Tienen una grieta: el vapor se les escapa poquito a poco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "personaje",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "grano_de_maiz_gigante"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo consuela al grano que no reventó.",
+   "escena": "Pipo stands beside the kernel, resting one paddle arm on top of it.",
+   "accion": "Pipo gently pats the top of the kernel, again and again, looking at it kindly.",
+   "narrador": "Por eso siempre quedan algunos en el fondo del tazón. No son flojos: ¡tienen una fuga!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Plop tiene un reto para ti. Necesitas a un adulto, palomitas… y ojos de detective."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Tazón de palomitas, tres granos sin reventar y una lupa.",
+   "imagen": "A white clay bowl full of white clay popcorn, three unpopped golden-yellow clay kernels lying in front of it, and a chunky clay magnifying glass beside them. Clean empty white space on the right side.",
+   "narrador": "Cuenten los granos que no reventaron y busquen su grieta. ¿Cuántos encontraron?",
+   "rotulos": "Reto en casa · con un adulto"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

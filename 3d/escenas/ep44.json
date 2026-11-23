@@ -1,0 +1,1233 @@
+{
+ "episodio": 44,
+ "id": "ep44",
+ "titulo": "¿Por qué las arañas no se pegan en su telaraña?",
+ "tema": "Arañas",
+ "categoria": "an",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "terrario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "arana",
+  "telarana",
+  "pata_de_arana_de_cerca",
+  "mosca"
+ ],
+ "efectos": [
+  {
+   "es": "Hilo que vibra",
+   "en": "Thin thread twanging softly"
+  },
+  {
+   "es": "Mosca",
+   "en": "Fly buzzing"
+  },
+  {
+   "es": "Gotitas",
+   "en": "Tiny water droplets plinking"
+  },
+  {
+   "es": "Salto",
+   "en": "Tiny quick hop"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "telarana"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Una telaraña con rocío al amanecer.",
+   "escena": "The web stretches between two green clay plant stems in the center of the set, sparkling with tiny clay dew drops.",
+   "accion": "The web sways gently in a light breeze.",
+   "narrador": "[curious] Una telaraña al amanecer. Parece frágil… pero es una trampa pegajosa perfecta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "telarana",
+    "mosca"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Una mosca se queda pegada.",
+   "escena": "The fly is stuck on a spiral thread of the web in the center of the frame.",
+   "accion": "The fly wiggles its legs and wings but stays stuck to the thread.",
+   "narrador": "Una mosca la toca y ¡zas!, queda pegada. Pero la araña no se pega. ¿Por qué?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre las arañas. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las arañas flotan un poquito por encima de su telaraña!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "arana",
+    "telarana"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "La araña camina por la telaraña tocando los hilos.",
+   "escena": "The spider walks across the web in the center of the frame, its legs gripping the threads.",
+   "accion": "The spider walks slowly across the web, its eight legs touching the threads one by one.",
+   "narrador": "Pues no flotan: sus ocho patas tocan los hilos todo el rato. Aun así, no se quedan pegadas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "arana"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La araña levanta sus ocho patas.",
+   "escena": "The spider sits in the center of the frame on a green clay leaf.",
+   "accion": "The spider lifts its eight legs one at a time, from front to back.",
+   "narrador": "Por cierto: ocho patas. Las arañas no son insectos, que tienen seis. Son arácnidos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿la telaraña es pegajosa entera? ¿O solo algunos hilos?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "telarana"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira de cerca los hilos.",
+   "escena": "Plop stands beside the web, which stretches between two green clay stems at his height.",
+   "accion": "Plop leans in slowly and looks closely at the threads of the web.",
+   "narrador": "¡Buena pregunta! Plop mira bien: no todos los hilos son iguales. Unos van rectos, otros en espiral.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "telarana"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La cámara se acerca al centro de la telaraña.",
+   "escena": "The web stretches alone between two green clay stems in the center of the set.",
+   "accion": "The web stays still while the camera glides slowly closer to its center.",
+   "narrador": "¿Qué diferencia habrá entre ellos? ¿Tú qué crees? Piénsalo… ¡Vamos a acercarnos a los hilos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "telarana"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Zoom: el hilo en espiral, lleno de gotitas de pegamento.",
+   "escena": "A close-up of one spiral thread of the web fills the frame, dotted with tiny shiny clear clay glue droplets like beads on a string.",
+   "accion": "The glue droplets on the thread wobble gently.",
+   "narrador": "[excited] ¡Hagamos zoom! Los hilos en espiral están cubiertos de gotitas de pegamento, como un collar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "telarana"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Un hilo recto, liso y seco.",
+   "escena": "A close-up of one straight spoke thread of the web fills the frame, smooth and dry with no droplets.",
+   "accion": "The smooth thread vibrates gently.",
+   "narrador": "Pero los hilos rectos, los radios, están secos. Ni una gota de pegamento.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "arana",
+    "telarana"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "La araña camina por un hilo recto.",
+   "escena": "The spider stands on one straight spoke thread of the web in the center of the frame.",
+   "accion": "The spider walks slowly along the straight spoke thread toward the center of the web.",
+   "narrador": "Y la araña lo sabe: camina sobre todo por los hilos secos, como por un camino seguro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pata_de_arana_de_cerca"
+   ],
+   "movimientos": [
+    "flota",
+    "balancea"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La pata peluda toca el pegamento y se suelta.",
+   "escena": "The spider leg fills the frame, its tip resting on a spiral thread dotted with glue droplets.",
+   "accion": "The leg tip touches the glue droplets lightly and lifts away cleanly.",
+   "narrador": "Y si pisa un hilo pegajoso, sus patas tienen trucos: pelitos ramificados que tocan muy poquito pegamento.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "telarana"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: hilos secos para caminar, pegajosos para atrapar.",
+   "imagen": "The web in the center, with its straight spoke threads plain and dry and its spiral threads dotted with tiny shiny glue droplets. Clean empty white space above it.",
+   "narrador": "Hilos rectos: secos, para caminar. Hilos en espiral: pegajosos, para atrapar.",
+   "rotulos": "Rectos: secos (camino) · Espiral: pegajosos (trampa)"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pata_de_arana_de_cerca"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Una gota de pegamento resbala por los pelos de la pata.",
+   "escena": "The spider leg fills the frame, its tiny hairs coated with a thin shiny clay layer.",
+   "accion": "A small glue droplet slides off the shiny hairs without sticking.",
+   "narrador": "Además, sus patas llevan una capa aceitosa, como una sartén antiadherente. El pegamento resbala.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop camina de puntillas entre chicles.",
+   "escena": "Plop stands on a floor dotted with small shiny pink clay gum blobs.",
+   "accion": "Plop tiptoes slowly forward, placing each foot carefully between the gum blobs.",
+   "narrador": "Y se mueve con cuidado, tocando lo justo. Como tú cuando esquivas chicles pegados en la acera.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: vale, la araña no se pega… pero ¿de dónde saca tanto hilo?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: debe tener una fábrica de hilo escondida en algún sitio…"
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "arana"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "Sale un hilo de la punta de la barriga de la araña.",
+   "escena": "The spider hangs in the center of the frame seen from below, with small finger-like spinnerets at the tip of its round body.",
+   "accion": "A thin white clay thread slowly comes out of the spinnerets as the spider lowers itself.",
+   "narrador": "¡La tiene! En la punta de la barriga, unas boquillas llamadas hileras sacan la seda, líquida al principio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡la araña es un tubo de pasta de dientes que fabrica cuerdas!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un hilo de seda y un alambre sostienen una pesa cada uno.",
+   "escena": "A thin white clay silk thread and a thin grey clay steel wire hang side by side in the center of the frame, each holding up a small clay weight.",
+   "accion": "The two threads sway gently with their weights.",
+   "narrador": "Esa seda es fortísima: para lo poco que pesa, es tan resistente como el acero.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y no le da pena tirar su telaraña cuando se rompe?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "arana",
+    "telarana"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La araña recoge su telaraña rota.",
+   "escena": "The spider sits in the center of a torn web, gathering the loose threads with its front legs.",
+   "accion": "The spider slowly rolls the loose threads into a small ball and brings it to its mouth.",
+   "narrador": "¡No la tira! Muchas arañas se comen su vieja telaraña y reciclan la seda para hacer otra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una araña saltadora da un brinco.",
+   "escena": "A small fuzzy black-and-white clay jumping spider with big round front eyes sits on a green clay leaf in the center of the frame.",
+   "accion": "The jumping spider hops forward to another leaf in one quick leap.",
+   "narrador": "Y no todas tejen telarañas: las arañas saltadoras cazan de un brinco, con sus ojazos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una telarañita en la esquina de una ventana.",
+   "escena": "A small clay house window with a tiny web in its corner sits in the center of the frame, with a few grey clay mosquitoes caught in the web.",
+   "accion": "The tiny web trembles gently in the corner of the window.",
+   "narrador": "Casi todas son inofensivas para nosotros, y atrapan mosquitos y moscas. ¡Son vecinas muy útiles!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira por una lupa.",
+   "escena": "Plop stands facing the camera, holding a small clay magnifying glass in one paddle arm.",
+   "accion": "Plop slowly lifts the magnifying glass and peers through it with a curious smile.",
+   "narrador": "Plop tiene una idea: ¿y si buscamos una telaraña de verdad y la miramos con lupa?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "telarana"
+   ],
+   "movimientos": [
+    "cae",
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El rocío brilla en los hilos de la espiral.",
+   "escena": "The web stretches between two green clay plant stems in the center of the frame, with tiny clay dew drops sparkling mostly along its spiral threads.",
+   "accion": "The dew drops on the spiral threads glisten softly as the web sways.",
+   "narrador": "[excited] Al amanecer, el rocío brilla sobre todo en los hilos pegajosos. ¡Así ves la trampa!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "arana",
+    "telarana"
+   ],
+   "movimientos": [
+    "gira",
+    "tiembla"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La araña nota la vibración y se gira.",
+   "escena": "The spider waits in the center of the web, with one leg resting on a straight spoke thread.",
+   "accion": "The web trembles slightly and the spider turns quickly toward the vibration.",
+   "narrador": "La araña espera en el centro. Si algo cae en la red, nota la vibración en sus patas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente y sonríe.",
+   "escena": "Plop stands facing the camera in the center of the set.",
+   "accion": "Plop nods slowly and smiles.",
+   "narrador": "No es magia: es un plan perfecto. Caminos secos para ella, trampas pegajosas para los demás.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No flotan, Pipo. Pisan los hilos secos, y sus patas casi no se pegan."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: solo los hilos en espiral son pegajosos."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: hilo seco, hilo pegajoso y pata antiadherente.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a straight dry white clay thread; a spiral white clay thread dotted with shiny glue droplets; and a hairy brown clay spider leg with a shiny coating. Clean empty white space above each one.",
+   "narrador": "Repasemos: hilos rectos secos, hilos en espiral pegajosos, y patas con pelitos y capa antiadherente.",
+   "rotulos": "1 Rectos: secos · 2 Espiral: pegajosos · 3 Patas antiadherentes"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una telaraña gigante cruza un río.",
+   "escena": "A huge clay spider web stretches across a pale-blue clay river between two green clay trees in the center of the frame.",
+   "accion": "The huge web sways gently above the flowing river.",
+   "narrador": "[curious] Dato extra: la araña de corteza de Darwin teje telarañas que cruzan ríos de veinticinco metros.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Arañitas bebé vuelan colgadas de sus hilos.",
+   "escena": "Several tiny clay baby spiders float in the air in the center of the frame, each hanging from a long thin white silk thread, against a pale-blue clay sky.",
+   "accion": "The tiny spiders drift slowly upward and sideways on their silk threads.",
+   "narrador": "Y las arañas bebé viajan volando: sueltan un hilo y el viento se las lleva. ¡Como con globo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, una misión de exploradores. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una lupa y una telaraña con rocío.",
+   "imagen": "A small clay magnifying glass on the left and a small clay spider web with sparkling dew drops on the right. Clean empty white space above them.",
+   "narrador": "Busca una telaraña con un adulto y mírala con lupa, sin tocarla. ¿Ves las gotitas?",
+   "rotulos": "Reto en casa · detectives de telarañas"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

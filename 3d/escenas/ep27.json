@@ -1,0 +1,1250 @@
+{
+ "episodio": 27,
+ "id": "ep27",
+ "titulo": "¿Por qué flota un barco gigante de metal?",
+ "tema": "Barcos",
+ "categoria": "ca",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "agua",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "barco_de_arcilla",
+  "bolita_maciza",
+  "tina_de_agua",
+  "bloque_de_agua"
+ ],
+ "efectos": [
+  {
+   "es": "Chapuzón pequeño",
+   "en": "Small metal ball plopping into water"
+  },
+  {
+   "es": "El barco se mece",
+   "en": "Gentle water lapping against a boat hull"
+  },
+  {
+   "es": "El agua empuja",
+   "en": "Deep soft bubbling push"
+  },
+  {
+   "es": "Sirena de barco",
+   "en": "Short cheerful ship horn"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "bolita_maciza",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita se hunde en la tina.",
+   "escena": "The water tub sits in the center of the set, with the solid ball resting on its dark-blue water surface.",
+   "accion": "The solid ball slowly sinks down into the dark-blue water until it disappears.",
+   "narrador": "[curious] Una bolita de metal, pequeñita, cae al agua… y se hunde hasta el fondo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El barco flota y se mece.",
+   "escena": "The water tub sits in the center of the set, with the clay ship floating on its dark-blue water surface.",
+   "accion": "The clay ship rocks gently from side to side on the water.",
+   "narrador": "Pero un barco enorme, del mismo metal y mil veces más pesado… ¡flota! ¿Cómo puede ser?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a descubrir el secreto de los barcos gigantes."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los barcos flotan porque tienen motor y nunca se quedan quietos!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El barco, quieto, sigue flotando.",
+   "escena": "The water tub sits in the center of the set, with the clay ship floating on its dark-blue water surface.",
+   "accion": "The clay ship stays perfectly still on the water, floating calmly.",
+   "narrador": "Pero un barco con el motor apagado, quieto en el puerto, sigue flotando igual de bien.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una balsa flota sin motor.",
+   "escena": "A small flat brown clay raft floats on a flat dark-blue clay water surface in the center of the frame.",
+   "accion": "The brown raft bobs gently up and down on the water.",
+   "narrador": "Y una balsa, un tronco o un patito de hule flotan sin motor. El secreto es otro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: el barco pesa mucho más que la bolita. ¿Por qué se hunde la pequeña?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "barco_de_arcilla",
+    "bolita_maciza"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo compara el barco y la bolita.",
+   "escena": "Pipo stands between the clay ship on his left and the solid ball on his right.",
+   "accion": "Pipo looks slowly from the ship to the ball and back, again and again.",
+   "narrador": "¡Buena pregunta! Entonces el peso no lo decide todo. Hay que mirar otra cosa: la forma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al barco.",
+   "escena": "The clay ship stands alone in the center of the set.",
+   "accion": "The clay ship stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué tiene de especial la forma de un barco? ¿Tú qué crees? Piénsalo… ¡Vamos a mirarlo por dentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "T",
+    "es": "Cenital fijo",
+    "focal": 35,
+    "altura": "encima, mirando hacia abajo",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Desde arriba: el casco está hueco, lleno de aire.",
+   "escena": "Seen from above, the clay ship lies in the center of the frame, showing that its hull is hollow and empty inside.",
+   "accion": "A small pale-blue clay wisp drifts slowly around inside the empty hull.",
+   "narrador": "[excited] ¡Hagamos zoom! Un barco no es un bloque macizo. Por dentro está hueco, lleno de aire.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolita_maciza"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita partida: es maciza por dentro.",
+   "escena": "The solid ball sits in the center of the frame, cut in half to show that it is solid grey clay all the way through.",
+   "accion": "The two halves of the solid ball rock gently apart and back together.",
+   "narrador": "La bolita, en cambio, es maciza. Metal apretado por dentro y por fuera, sin un solo hueco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tina_de_agua",
+    "bloque_de_agua"
+   ],
+   "movimientos": [
+    "flota",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un bloque entra en la tina y el agua se desborda.",
+   "escena": "The water tub sits in the center of the frame, full to the brim, with the water block floating just above it.",
+   "accion": "The water block lowers into the tub and the dark-blue water rises and spills over the rim.",
+   "narrador": "Ahora mira el agua. Cuando metes algo en ella, tiene que apartarse para hacerle espacio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del agua salen flechas que empujan hacia arriba.",
+   "escena": "The water tub fills the frame, with small white clay arrows pointing upward from the dark-blue water surface.",
+   "accion": "The small white arrows push upward together, again and again.",
+   "narrador": "Y el agua apartada empuja de vuelta, hacia arriba. Cuanta más agua apartas, más fuerte te empuja.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "barco_de_arcilla",
+    "bolita_maciza"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el barco hueco y la bolita maciza.",
+   "imagen": "The clay ship on the left and the solid ball on the right, evenly lit. Clean empty white space above each one.",
+   "narrador": "Barco hueco, lleno de aire. Bolita maciza. Y un agua que empuja hacia arriba.",
+   "rotulos": "Hueco (con aire) · Macizo · El agua empuja hacia arriba"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "revienta",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo hunde una pelota de playa y esta vuelve a subir.",
+   "escena": "Pipo stands beside the water tub, pressing a big orange clay beach ball down onto the dark-blue water with both paddle arms.",
+   "accion": "Pipo pushes the beach ball down into the water and it pops back up, again and again.",
+   "narrador": "Pipo ya lo ha sentido: al hundir una pelota en la piscina, el agua la empuja para arriba.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolita_maciza",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita baja: la flecha que la empuja es muy pequeña.",
+   "escena": "The water tub sits in the center of the frame, with the solid ball just under the water surface and one small white clay arrow pointing up beneath it.",
+   "accion": "The solid ball sinks slowly past the small white arrow, down to the bottom.",
+   "narrador": "La bolita aparta muy poca agua. El empujón es chiquito y no alcanza para sostener su peso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: el barco, tan ancho y hueco… ¡debe apartar una montaña de agua!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bajo el casco, muchas flechas sostienen el barco.",
+   "escena": "The water tub sits in the center of the frame, with the clay ship floating in it and many white clay arrows pointing up beneath its hull.",
+   "accion": "The many white arrows push upward together under the hull, holding the ship steady.",
+   "narrador": "Así es. Su casco ancho aparta muchísima agua. Y toda esa agua lo empuja hacia arriba.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla",
+    "bloque_de_agua"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "En un balancín, el agua apartada pesa más que el barco.",
+   "escena": "A simple white clay seesaw stands in the center of the frame, with the clay ship on its left end and a much bigger water block on its right end.",
+   "accion": "The seesaw slowly tips until the big water block is down and the clay ship is up.",
+   "narrador": "Aquí está la regla: si el agua que apartas pesa más que tú, flotas. El barco pesa menos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡el barco es casi todo aire! Y el aire casi no pesa."
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolita_maciza",
+    "bloque_de_agua"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el balancín, la bolita pesa más que su poquita agua.",
+   "escena": "A simple white clay seesaw stands in the center of the frame, with the solid ball on its left end and a tiny water block on its right end.",
+   "accion": "The seesaw slowly tips until the solid ball is down and the tiny water block is up.",
+   "narrador": "La bolita, al revés: pesa más que el poquito de agua que aparta. Por eso se hunde.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Suben cajas al barco, que se hunde un poco más con cada una.",
+   "escena": "The water tub sits in the center of the set, with the clay ship floating in it and three small brown clay crates beside the tub.",
+   "accion": "The three crates hop onto the ship one by one and the ship sinks a little lower in the water with each one.",
+   "narrador": "Cuando lo cargan, el barco se hunde un poco más. Aparta más agua y recibe más empujón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y si lo cargan demasiado? ¿O si le entra agua por un agujero?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El casco se llena de agua y el barco se hunde.",
+   "escena": "The water tub sits in the center of the set, with the clay ship floating low in it and dark-blue water inside its hull.",
+   "accion": "More dark-blue water fills the hull and the clay ship sinks slowly below the surface.",
+   "narrador": "Entonces el agua ocupa el lugar del aire. El barco se vuelve demasiado pesado… y se hunde.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "barco_de_arcilla"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El agua sube hasta la línea blanca del casco.",
+   "escena": "The side of the clay ship's red hull fills the frame, with a white clay line painted along it just above the water.",
+   "accion": "The water level rises slowly toward the white line and stops just below it.",
+   "narrador": "Por eso los barcos llevan pintada una línea en el casco. El agua nunca debe pasar de ahí.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "bolita_maciza"
+   ],
+   "movimientos": [
+    "encoge",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo aprieta la bolita entre sus manoplas.",
+   "escena": "Pipo stands facing the camera, holding the solid ball in both paddle arms.",
+   "accion": "Pipo slowly squeezes and presses the solid ball between his paddle arms, flattening it a little.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿y si le cambio la forma a la bolita?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "bolita_maciza"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita se aplana y se curva hasta ser un barquito hueco.",
+   "escena": "The solid ball sits in the center of the frame.",
+   "accion": "The solid ball slowly flattens and curls up at the edges into a small hollow bowl-shaped boat.",
+   "narrador": "[excited] El mismo material, el mismo peso. Pero ahora es hueca, con forma de barquito.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "flota",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El barquito gris flota en la tina.",
+   "escena": "The water tub sits in the center of the set, with a small hollow grey clay bowl-shaped boat resting on its water surface.",
+   "accion": "The small grey boat floats and bobs gently on the dark-blue water.",
+   "narrador": "¡Y flota! No cambió lo que pesa. Cambió cuánta agua aparta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo aplaude y salta junto a la tina.",
+   "escena": "Pipo stands beside the water tub, where a small hollow grey clay boat floats.",
+   "accion": "Pipo claps his paddle arms together and hops with joy.",
+   "narrador": "Ese es el secreto de todos los barcos: no importa solo el peso, sino la forma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era el motor, Pipo. Es el casco hueco, que aparta mucha agua y pesa menos que ella."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: la bolita se hunde porque aparta poquísima agua para lo que pesa."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la bolita hundida, el barco con flechas y el barquito hueco.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a small grey clay ball at the bottom of a blue clay water block; a red clay boat floating on a blue clay water block with white arrows under it; and a small hollow grey clay bowl floating. Clean empty white space above each one.",
+   "narrador": "Repasemos: el agua empuja lo que la aparta, el barco hueco aparta mucha, y por eso flota.",
+   "rotulos": "1 El agua empuja · 2 El casco hueco aparta mucha · 3 ¡Flota!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita entra en una bañera y el agua se desborda.",
+   "escena": "A small white clay bathtub full of dark-blue clay water stands in the center of the frame, with a small peach clay figure standing beside it.",
+   "accion": "The small figure steps into the bathtub and the water rises and spills over the edge.",
+   "narrador": "[curious] Dato extra: esto lo descubrió Arquímedes hace más de dos mil años… ¡al meterse en la bañera!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un cubo de hielo flota y se mece.",
+   "escena": "A pale icy-cyan clay cube floats on a flat dark-blue clay water surface in the center of the frame.",
+   "accion": "The pale-cyan cube bobs gently up and down on the water.",
+   "narrador": "Y es la misma regla del hielo: flota porque pesa menos que el agua que aparta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Este reto se hace con plastilina, como todo en este canal. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una bola de plastilina, un barquito de plastilina y tres monedas.",
+   "imagen": "A small ball of grey clay on the left, a small hollow grey clay boat on the right, and three clay coins between them. Clean empty white space above them.",
+   "narrador": "Haz una bola de plastilina: se hunde. Ahora hazle forma de barco. ¿Cuántas monedas aguanta?",
+   "rotulos": "Reto en casa · el barco de plastilina"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

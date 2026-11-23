@@ -1,0 +1,1235 @@
+{
+ "episodio": 37,
+ "id": "ep37",
+ "titulo": "¿Por qué la manzana se pone marrón?",
+ "tema": "Manzana marrón",
+ "categoria": "co",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "manzana",
+  "celditas_de_la_manzana",
+  "medio_limon"
+ ],
+ "efectos": [
+  {
+   "es": "Mordisco",
+   "en": "Crisp apple bite crunch"
+  },
+  {
+   "es": "Cuchillo",
+   "en": "Knife slicing through an apple"
+  },
+  {
+   "es": "Gotas de limón",
+   "en": "Small liquid drops falling"
+  },
+  {
+   "es": "Burbujeo",
+   "en": "Soft gentle fizz"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una manzana recién cortada, blanquita.",
+   "escena": "The apple sits cut in half on a white clay plate in the center of the frame, its two halves showing creamy white flesh.",
+   "accion": "The two apple halves rock gently apart.",
+   "narrador": "[happily] Una manzana recién cortada: blanquita, jugosa, crujiente. Pero si la dejas un rato…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pulpa se vuelve marrón.",
+   "escena": "The apple sits cut in half on a white clay plate in the center of the frame, its two halves showing creamy white flesh.",
+   "accion": "The creamy white flesh of the apple halves slowly turns light brown.",
+   "narrador": "[surprised] …¡se vuelve marrón! Y no le has hecho nada. ¿Qué le pasó a la manzana?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop no le quita el ojo. Hoy descubrimos por qué la manzana se pone marrón."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡la manzana se pone morena porque toma el sol!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "En un armario oscuro también se oscurece.",
+   "escena": "The apple sits cut in half on a white clay plate inside a dim wooden clay cupboard in the center of the frame.",
+   "accion": "The creamy white flesh of the apple halves slowly turns light brown in the dim light.",
+   "narrador": "Pero si la guardas a oscuras en un armario, también se pone marrón. No es el sol.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La manzana entera sigue igual; la cortada se oscurece.",
+   "escena": "A whole uncut apple sits next to a cut apple half on a white clay plate in the center of the frame.",
+   "accion": "The cut half slowly turns brown while the whole apple stays shiny red.",
+   "narrador": "Y una manzana entera puede pasar días sin ponerse marrón por dentro. Solo pasa al cortarla.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿qué cambia al cortarla? ¿Qué le entra a la manzana?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira de cerca la manzana cortada.",
+   "escena": "Pipo stands beside the apple, which sits cut in half on a white clay plate at his height.",
+   "accion": "Pipo leans in slowly and looks closely at the cut surface of the apple.",
+   "narrador": "¡Buena pista! Al cortarla, el cuchillo rompe algo… y el aire toca la parte de dentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la pulpa.",
+   "escena": "The apple sits alone, cut in half, on a white clay plate in the center of the set.",
+   "accion": "The apple stays still while the camera glides slowly closer to its creamy white flesh.",
+   "narrador": "¿Qué hay escondido en la pulpa? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "celditas_de_la_manzana"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: las celditas guardan dos cosas separadas.",
+   "escena": "The apple cells fill the frame, each holding green beads in one small pocket and yellow beads in another.",
+   "accion": "The green and yellow beads jiggle gently inside their separate pockets.",
+   "narrador": "[excited] ¡Hagamos zoom! La manzana está hecha de celditas. Y dentro guardan dos cosas, separadas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "celditas_de_la_manzana"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas verdes brillan en su bolsillo.",
+   "escena": "The apple cells fill the frame, each holding green beads in one small pocket and yellow beads in another.",
+   "accion": "The green beads glow softly in their pockets.",
+   "narrador": "Las bolitas verdes son unas ayudantes. Las amarillas, una sustancia de la fruta. Nunca se tocan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "celditas_de_la_manzana"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El cuchillo rompe las celditas y todo se mezcla.",
+   "escena": "The apple cells fill the frame, with a big silver clay knife edge just above them.",
+   "accion": "The knife edge slides down through the cells and the green and yellow beads spill out and mix together.",
+   "narrador": "Pero el cuchillo rompe las celditas. ¡Y las ayudantes y la sustancia se mezclan!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "celditas_de_la_manzana"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Llegan burbujas de aire y las bolitas se vuelven marrones.",
+   "escena": "The broken apple cells fill the frame, with green and yellow beads mixed together and small pale-blue clay bubbles drifting in from above.",
+   "accion": "Each yellow bead touched by a pale-blue bubble slowly turns brown.",
+   "narrador": "Llega el oxígeno del aire. Las ayudantes lo usan para transformar la sustancia… en marrón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "celditas_de_la_manzana"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: ayudantes, sustancia y oxígeno hacen el marrón.",
+   "imagen": "The apple cells in the center, broken open, with green beads, yellow beads, pale-blue clay bubbles and a few brown beads mixed together. Clean empty white space above them.",
+   "narrador": "Ayudantes, sustancia de la fruta y oxígeno: juntos fabrican el color marrón.",
+   "rotulos": "Ayudantes + sustancia + oxígeno = marrón"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Plátano, aguacate y papa se oscurecen.",
+   "escena": "A peeled clay banana, a cut clay avocado half and a cut clay potato half sit in a row on a white clay plate in the center of the frame.",
+   "accion": "The cut surfaces of the three foods slowly turn brown, one after another.",
+   "narrador": "Por eso también se oscurecen el plátano, el aguacate y la papa cortada. ¡Es la misma reacción!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo duda con media manzana marrón.",
+   "escena": "Pipo stands facing the camera, holding one brown half of the apple in his paddle arm.",
+   "accion": "Pipo looks at the brown apple half and slowly tilts his head, unsure.",
+   "narrador": "Pipo duda: ¿estará mala? No: el marrón no es peligroso. Solo cambia el color y el sabor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si el problema es el oxígeno… ¡hay que taparle el aire a la manzana!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La manzana en agua sigue blanquita.",
+   "escena": "The apple sits cut in half inside a clear clay bowl full of pale-blue clay water in the center of the frame.",
+   "accion": "The apple halves bob gently in the water and stay creamy white.",
+   "narrador": "¡Bien pensado! Si la cubres con agua, el oxígeno casi no llega. Se queda blanquita más tiempo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "manzana",
+    "medio_limon"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Caen gotas de limón sobre la manzana.",
+   "escena": "The lemon half hovers above the cut apple, which sits on a white clay plate in the center of the frame.",
+   "accion": "A few small yellow clay drops fall slowly from the lemon onto the apple.",
+   "narrador": "Otro truco famoso: unas gotas de limón. El ácido del limón pone a dormir a las ayudantes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡el limón es como una canción de cuna para las ayudantes!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "celditas_de_la_manzana"
+   ],
+   "movimientos": [
+    "gira",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas verdes se quedan quietas y pálidas.",
+   "escena": "The broken apple cells fill the frame, with green and yellow beads mixed together and small yellow clay drops resting on them.",
+   "accion": "The green beads slowly stop jiggling and turn pale.",
+   "narrador": "Con el ácido, las ayudantes casi no trabajan. Y la vitamina C del limón también frena el marrón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "manzana"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La manzana cortada en la nevera.",
+   "escena": "The apple sits cut in half on a white clay plate inside an open white clay fridge with frosty pale-blue walls, in the center of the frame.",
+   "accion": "Tiny frosty clay sparkles drift slowly around the apple halves.",
+   "narrador": "El frío también ayuda: en la nevera, las ayudantes trabajan mucho más despacio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y si la cocinas? ¿También se pone marrón?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una olla con trozos de manzana echa vapor.",
+   "escena": "A small red clay pot with apple pieces inside sits on a small grey clay stove in the center of the frame.",
+   "accion": "Soft white steam rises slowly from the pot.",
+   "narrador": "Cocinar desarma a las ayudantes para siempre. Por eso la compota no se oscurece así.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Hojas de té verdes que se vuelven marrones.",
+   "escena": "A small pile of green clay tea leaves sits next to a small pile of dark-brown clay tea leaves on a white clay plate in the center of the frame.",
+   "accion": "The green tea leaves slowly darken to brown.",
+   "narrador": "Y a veces lo queremos: el té negro se hace dejando que las hojas se pongan marrones así.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "manzana",
+    "medio_limon"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira la manzana y el limón: tiene una idea.",
+   "escena": "Pipo stands facing the camera beside a white clay plate holding the apple cut in half and the lemon half.",
+   "accion": "Pipo looks from the apple to the lemon and slowly raises one paddle arm.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿una carrera de manzanas para ver cuál aguanta más?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Cuatro trozos de manzana: solo el primero se oscurece.",
+   "escena": "Four apple slices lie in a row on a white clay plate in the center of the frame: one plain, one with yellow lemon drops, one in a small bowl of water and one covered in frost.",
+   "accion": "The plain apple slice slowly turns brown while the other three stay creamy white.",
+   "narrador": "[excited] La que no tiene nada se oscurece primero. Limón, agua y frío la protegen.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Tres manzanas distintas se oscurecen a distinta velocidad.",
+   "escena": "Three cut clay apple halves with red, green and yellow skins sit in a row on a white clay plate in the center of the frame.",
+   "accion": "The three apple halves slowly turn brown, each at a different speed.",
+   "narrador": "Y cada tipo de manzana es distinto: unas tienen más ayudantes y se ponen marrones mucho antes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente y se frota la barriga.",
+   "escena": "Pipo stands facing the camera in the center of the set.",
+   "accion": "Pipo nods slowly and rubs his belly with one paddle arm.",
+   "narrador": "Así que una manzana cortada y marrón no está estropeada: solo tuvo una reacción química.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era el sol, Pipo. Es el oxígeno del aire, que entra cuando la cortas."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: al cortarla se rompen las celditas y sus dos secretos se mezclan."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: manzana cortada, celditas rotas y manzana marrón.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a red clay apple cut in half with creamy white flesh; pale-cream clay cells broken open with green and yellow beads mixing; and a red clay apple half with light-brown flesh. Clean empty white space above each one.",
+   "narrador": "Repasemos: el cuchillo rompe las celditas, todo se mezcla con el oxígeno, y aparece el marrón.",
+   "rotulos": "1 Se rompen las celditas · 2 Se mezclan con oxígeno · 3 ¡Marrón!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Media manzana que no se oscurece junto a un reloj.",
+   "escena": "A cut clay apple half with bright creamy white flesh sits on a white clay plate in the center of the frame, next to a small round white clay clock.",
+   "accion": "The clock hand sweeps slowly around the dial while the apple stays creamy white.",
+   "narrador": "[curious] Dato extra: hay manzanas en las que los científicos apagaron a las ayudantes. ¡Casi no se ponen marrones!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una manzana con un golpe marrón.",
+   "escena": "A whole red clay apple sits on a white clay table in the center of the frame, with a small soft brown spot on its side.",
+   "accion": "The small brown spot on the apple slowly grows a little bigger.",
+   "narrador": "Y cuando una manzana se golpea, sale una mancha marrón: los golpes también rompen celditas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, una carrera de manzanas. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "manzana",
+    "medio_limon"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Cuatro trozos de manzana y medio limón.",
+   "imagen": "Four slices of the apple in a row on the left and the lemon half on the right. Clean empty white space above them.",
+   "narrador": "Cuatro trozos: solo, con limón, en agua y en la nevera. ¿Cuál se oscurece último?",
+   "rotulos": "Reto en casa · la carrera de manzanas"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

@@ -1,0 +1,1248 @@
+{
+ "episodio": 9,
+ "id": "ep09",
+ "titulo": "¿Por qué se pegan los imanes?",
+ "tema": "Imanes",
+ "categoria": "ca",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "casa",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "iman_de_barra",
+  "iman_por_dentro_flechitas_ordenadas",
+  "hierro_por_dentro_flechitas_desordenadas",
+  "clavo_gigante"
+ ],
+ "efectos": [
+  {
+   "es": "¡Clac!",
+   "en": "Two magnets snapping together, sharp click"
+  },
+  {
+   "es": "Empuje invisible",
+   "en": "Soft springy rubber stretch"
+  },
+  {
+   "es": "Flechitas que se ordenan",
+   "en": "Quick series of light ticks, like falling dominoes"
+  },
+  {
+   "es": "Brújula",
+   "en": "Gentle wobbling metallic hum that settles"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Un segundo imán salta hacia el que sostiene Pipo.",
+   "escena": "Pipo stands facing the camera, holding the bar magnet with both paddle arms, while a second red-and-blue clay bar magnet lies on the set a short distance away.",
+   "accion": "The second magnet slides quickly across the set and snaps onto the magnet Pipo is holding.",
+   "narrador": "[curious] Dos imanes. Los acercas un poquito y… ¡clac! Se pegan solos, sin que nadie los empuje.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos imanes enfrentados por el mismo color se empujan.",
+   "escena": "Two bar magnets lie in the center of the frame with their blue halves facing each other and a small gap between them.",
+   "accion": "One bar magnet slides toward the other, and the other one slides away, keeping the same gap, again and again.",
+   "narrador": "Pero si volteas uno… ¡ahora se empujan! No hay forma de juntarlos. ¿Qué fuerza invisible es esta?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a descubrir qué esconde un imán por dentro."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los imanes tienen pegamento invisible!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "flota",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo toca el imán y su manopla sale limpia.",
+   "escena": "Pipo stands facing the camera, pressing one paddle arm against the bar magnet, which stands upright on the set.",
+   "accion": "Pipo lifts his paddle arm off the magnet and presses it on again, over and over, coming away clean every time.",
+   "narrador": "Si fuera pegamento, Pipo se quedaría pegado. Y el pegamento nunca empuja: solo pega.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El imán toca un bloque de madera y no lo atrapa.",
+   "escena": "The bar magnet lies in the center of the frame, next to a small brown clay wood block.",
+   "accion": "The bar magnet slides against the wood block and slides away again, while the wood block stays loose.",
+   "narrador": "Además, el pegamento pega todo. El imán es exigente: a la madera, al plástico y al papel, no.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿por qué solo se pega a algunas cosas? ¿Qué tienen de especial?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra",
+    "clavo_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El clavo salta hacia el imán.",
+   "escena": "The bar magnet lies on the left of the frame and the giant nail lies on the right.",
+   "accion": "The giant nail slides across the set and snaps onto the bar magnet.",
+   "narrador": "¡Buena pregunta! Al hierro sí lo atrapa. El hierro y el imán tienen algo en común, muy adentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al imán.",
+   "escena": "The bar magnet stands alone in the center of the set.",
+   "accion": "The bar magnet stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué habrá dentro de un imán? ¿Tú qué crees? Piénsalo… ¡Vamos a abrirlo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_por_dentro_flechitas_ordenadas"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al imán por dentro.",
+   "escena": "The cut magnet model stands in the center of the set.",
+   "accion": "The cut magnet model stays still while the camera glides slowly closer to its yellow arrows.",
+   "narrador": "[excited] ¡Hagamos zoom! Por dentro, un imán está hecho de millones de imanes diminutos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_por_dentro_flechitas_ordenadas"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las flechitas tiemblan, todas apuntando al mismo lado.",
+   "escena": "A few yellow clay arrows inside the cut magnet model fill the frame, all pointing to the right.",
+   "accion": "The yellow arrows quiver gently in place, all still pointing the same way.",
+   "narrador": "Aquí los dibujamos como flechitas. Cada flechita es un mini-imán con su propia fuerza, pequeñita.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "hierro_por_dentro_flechitas_desordenadas"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el hierro normal, cada flechita apunta a un lado distinto.",
+   "escena": "The plain iron model stands in the center of the frame.",
+   "accion": "The yellow arrows inside the block wobble gently, each one pointing in a different direction.",
+   "narrador": "En un trozo de hierro normal también hay flechitas. Pero cada una apunta hacia donde quiere.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "hierro_por_dentro_flechitas_desordenadas"
+   ],
+   "movimientos": [
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos flechitas se empujan punta con punta y no avanzan.",
+   "escena": "Two yellow clay arrows inside the plain iron model fill the frame, pointing at each other, tip to tip.",
+   "accion": "The two arrows push against each other, tip to tip, and stay exactly where they are.",
+   "narrador": "Unas tiran para acá y otras para allá. Sus fuerzas se anulan, y no pasa nada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "iman_por_dentro_flechitas_ordenadas",
+    "hierro_por_dentro_flechitas_desordenadas"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: hierro desordenado e imán ordenado.",
+   "imagen": "The plain iron model on the left and the cut magnet model on the right, evenly lit. Clean empty white space above each one.",
+   "narrador": "Hierro normal: flechitas desordenadas. Imán: todas apuntando al mismo lado. ¡Esa es la diferencia!",
+   "rotulos": "Hierro: mini-imanes desordenados · Imán: mini-imanes ordenados"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo jala una cuerda invisible.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo leans forward and pulls hard on an invisible rope, again and again.",
+   "narrador": "Pipo lo entiende así: si cada uno jala para su lado, nadie avanza. Si todos jalan juntos…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_por_dentro_flechitas_ordenadas"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Todas las flechitas se inclinan a la vez.",
+   "escena": "The cut magnet model stands in the center of the frame.",
+   "accion": "All the yellow arrows inside the block lean to the right together and straighten up again, in perfect unison, again and again.",
+   "narrador": "…la fuerza se suma. Millones de mini-imanes empujando hacia el mismo lado: eso es un imán.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya sospecha lo del clavo: sus flechitas también pueden ordenarse… si un imán se acerca."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra",
+    "clavo_gigante"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las flechitas del clavo giran hasta apuntar al imán.",
+   "escena": "The giant nail lies in the center of the frame with small yellow clay arrows on it pointing in random directions, and the bar magnet lies just to its left.",
+   "accion": "The yellow arrows on the nail turn, one after another, until they all point toward the magnet.",
+   "narrador": "Así es. El imán ordena las flechitas del clavo. Por un rato, el clavo también es un imán.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra",
+    "clavo_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El clavo recorre el último tramo y se pega.",
+   "escena": "The giant nail lies next to the bar magnet, with its yellow arrows all pointing toward the magnet.",
+   "accion": "The giant nail slides the last short distance and snaps onto the bar magnet.",
+   "narrador": "Y dos imanes bien colocados se atraen. ¡Clac! Por eso el hierro salta hacia el imán.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un bloque de madera gira: por dentro no tiene flechitas.",
+   "escena": "A small brown clay wood block stands in the center of the frame, plain and smooth.",
+   "accion": "The wood block turns slowly in place like on a turntable.",
+   "narrador": "¿Y la madera? No tiene flechitas que ordenar. Por eso el imán pasa de largo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop sigue intrigado: ¿y por qué a veces dos imanes se pegan y a veces se empujan?"
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El imán gira: una mitad roja y otra azul.",
+   "escena": "The bar magnet stands upright in the center of the frame, red half on top and blue half at the bottom.",
+   "accion": "The bar magnet turns slowly in place like on a turntable.",
+   "narrador": "Porque cada imán tiene dos extremos distintos, llamados polos: el polo norte y el polo sur.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Rojo con azul: los imanes se juntan de golpe.",
+   "escena": "Two bar magnets lie in the center of the frame, the red half of one facing the blue half of the other, with a small gap between them.",
+   "accion": "The two bar magnets slide toward each other and snap together.",
+   "narrador": "Polos distintos se buscan: norte con sur, ¡clac! Sus flechitas quedan en fila, como un tren.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Rojo con rojo: los imanes se alejan.",
+   "escena": "Two bar magnets lie in the center of the frame, with their red halves facing each other and a small gap between them.",
+   "accion": "The two bar magnets slide away from each other, widening the gap.",
+   "narrador": "Polos iguales se rechazan: norte con norte, o sur con sur, se empujan sin tocarse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo intenta juntar dos imanes que se rechazan.",
+   "escena": "Pipo stands facing the camera, holding one bar magnet in each paddle arm, their red halves pointing at each other.",
+   "accion": "Pipo pushes the two magnets toward each other with effort, and they keep sliding apart, again and again.",
+   "narrador": "Pipo empuja con todas sus fuerzas. Es como apretar un resorte invisible.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un imán colgado de un hilo gira solo y se detiene.",
+   "escena": "The bar magnet hangs level from a thin white clay thread in the center of the frame.",
+   "accion": "The hanging bar magnet turns slowly by itself until it stops, pointing in one direction.",
+   "narrador": "Y ahora, lo más sorprendente. Cuelga un imán de un hilo, déjalo quieto… y mira lo que hace.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Junto a una Tierra de arcilla, un imancito gira y apunta al norte.",
+   "escena": "A blue-and-green clay Earth globe stands in the center of the set, with a small red-and-blue clay bar magnet floating beside it.",
+   "accion": "The small bar magnet turns slowly until its red half points toward the top of the globe.",
+   "narrador": "[excited] ¡Gira solo y apunta al norte! Porque la Tierra entera es un imán gigantesco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La aguja de una brújula oscila y se detiene.",
+   "escena": "A round white clay compass with a red clay needle lies in the center of the frame.",
+   "accion": "The red needle swings gently left and right until it settles, pointing up.",
+   "narrador": "Eso es una brújula: un imancito libre que siempre encuentra el norte. Así se orientaban los barcos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo levanta el imán, contento.",
+   "escena": "Pipo stands facing the camera, holding the bar magnet above his head with both paddle arms.",
+   "accion": "Pipo sways happily from side to side, holding the magnet up high.",
+   "narrador": "Fuerzas invisibles, ordenadas flechita por flechita. Así funcionan también motores, timbres y audífonos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era pegamento, Pipo. Eran millones de mini-imanes, todos apuntando hacia el mismo lado."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: solo se pega a lo que tiene flechitas que se pueden ordenar."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: flechitas desordenadas, ordenadas y dos imanes pegados.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a grey clay block with yellow arrows pointing in random directions; a grey clay block with yellow arrows all pointing the same way; and two red-and-blue clay bar magnets snapped together. Clean empty white space above each one.",
+   "narrador": "Repasemos: mini-imanes desordenados no hacen fuerza, ordenados sí, y los polos distintos se atraen.",
+   "rotulos": "1 Desordenados · 2 Ordenados · 3 Polos distintos se atraen"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "gira",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "El imán se parte en dos y cada mitad vuelve a ser rojo y azul.",
+   "escena": "The bar magnet lies in the center of the frame.",
+   "accion": "The bar magnet slowly splits in the middle into two shorter bars, and each short bar turns half red and half blue.",
+   "narrador": "[curious] Dato extra: si partes un imán por la mitad, no separas sus polos. ¡Obtienes dos imanes completos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "iman_de_barra"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las dos mitades se parten otra vez: cuatro imanes.",
+   "escena": "Two short red-and-blue clay bar magnets lie side by side in the center of the frame.",
+   "accion": "Each short bar splits again into two even shorter bars, each one half red and half blue.",
+   "narrador": "Y si los vuelves a partir, cuatro. Cada pedacito conserva su norte y su sur.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "En tu casa hay un tesoro escondido de cosas magnéticas. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "iman_de_barra",
+    "clavo_gigante"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El imán rodeado de un clavo, una cuchara, una moneda y madera.",
+   "imagen": "The bar magnet in the center, surrounded by the giant nail, a clay spoon, a clay coin and a small brown clay wood block. Clean empty white space above them.",
+   "narrador": "Con un imán de nevera, descubre qué cosas de tu casa se pegan.",
+   "rotulos": "Reto en casa · búsqueda del tesoro magnético"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

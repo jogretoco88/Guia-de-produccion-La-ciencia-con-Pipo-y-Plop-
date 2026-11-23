@@ -1,0 +1,1230 @@
+{
+ "episodio": 35,
+ "id": "ep35",
+ "titulo": "¿Por qué tiembla la tierra?",
+ "tema": "Temblores",
+ "categoria": "ti",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "tierra_por_dentro",
+  "dos_placas",
+  "sismografo",
+  "mesa_fuerte"
+ ],
+ "efectos": [
+  {
+   "es": "Retumbar",
+   "en": "Deep low rumbling of the ground"
+  },
+  {
+   "es": "Tintineo",
+   "en": "Glasses rattling on a shelf"
+  },
+  {
+   "es": "Crac de roca",
+   "en": "Sharp rock crack"
+  },
+  {
+   "es": "Calma",
+   "en": "Gentle birdsong after silence"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pueblito de plastilina tiembla.",
+   "escena": "A small clay town of three colorful houses and one round green tree stands on flat green clay ground in the center of the set.",
+   "accion": "The houses and the tree shake quickly from side to side.",
+   "narrador": "[surprised] De pronto, el suelo empieza a moverse. Las lámparas se balancean, los vasos tintinean…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se tambalea con los brazos abiertos.",
+   "escena": "Pipo stands in the center of the set on flat green clay ground, looking down at his feet.",
+   "accion": "Pipo wobbles from side to side, holding his paddle arms out for balance.",
+   "narrador": "…y en unos segundos, todo vuelve a la calma. Fue un temblor. ¿Qué lo provocó?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop está atento. Hoy descubrimos qué pasa bajo nuestros pies cuando tiembla la tierra."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡la Tierra tiene hipo, como yo en el episodio cuatro!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_por_dentro"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Tierra por dentro gira despacio.",
+   "escena": "The Earth slice sits on a white clay stand in the center of the frame, a ball with a wedge cut out to show its layers.",
+   "accion": "The Earth slice turns slowly in place.",
+   "narrador": "La Tierra no tiene diafragma ni pulmones. Pero por dentro sí guarda algo que se mueve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_por_dentro"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "La capa naranja brilla bajo la corteza.",
+   "escena": "The cut-open wedge of the Earth slice fills the frame, showing the thin brown crust above the thick orange layer.",
+   "accion": "The orange inner layer glows softly brighter and dimmer.",
+   "narrador": "Debajo de la corteza hay roca muy caliente, que se mueve despacito, como una pasta muy espesa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si eso se mueve siempre, ¿por qué no tiembla todo el tiempo?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "tierra_por_dentro"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira de cerca la corteza.",
+   "escena": "Pipo stands beside the Earth slice, which rests on a white clay stand at his height.",
+   "accion": "Pipo leans in slowly and looks closely at the outer crust of the Earth slice.",
+   "narrador": "¡Buena pregunta! La clave está en la capa de fuera, la corteza. No es de una sola pieza.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a las grietas de la corteza.",
+   "escena": "The Earth slice sits alone on a white clay stand in the center of the set, with thin cracks running across its outer crust.",
+   "accion": "The Earth slice stays still while the camera glides slowly closer to the cracks.",
+   "narrador": "¿Qué pasa en esas grietas? ¿Tú qué crees? Piénsalo… ¡Vamos a acercarnos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_por_dentro"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: la corteza está partida en piezas.",
+   "escena": "The outer crust of the Earth slice fills the frame, divided by thin cracks into big puzzle-like pieces.",
+   "accion": "The big crust pieces drift very slowly, each in a different direction.",
+   "narrador": "[excited] ¡Hagamos zoom! La corteza está rota en piezas gigantes, como un puzle: las placas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un caracol avanza un poquito sobre una regla.",
+   "escena": "A small yellow clay ruler lies across the center of the frame, with a tiny green clay snail at its left end.",
+   "accion": "The snail creeps slowly a short way along the ruler.",
+   "narrador": "Se mueven poquito: unos centímetros al año. Más o menos lo que crecen tus uñas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "dos_placas"
+   ],
+   "movimientos": [
+    "ondula",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos placas se empujan con los bordes atascados.",
+   "escena": "The two plates sit side by side in the center of the frame, their jagged edges pressed tightly together.",
+   "accion": "The two plates push against each other and their edges bend slightly without slipping.",
+   "narrador": "Donde dos placas se tocan, sus bordes rugosos se atascan. Siguen empujando… pero no se mueven.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "dos_placas"
+   ],
+   "movimientos": [
+    "ondula",
+    "empuja",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las placas se sueltan de golpe.",
+   "escena": "The two plates sit side by side in the center of the frame, their jagged edges pressed tightly together.",
+   "accion": "The two plates suddenly slip past each other with a quick jolt and small clay ripples spread out from the edge.",
+   "narrador": "Hasta que, ¡crac!, se sueltan de golpe. Esa sacudida viaja por el suelo en ondas: ¡un terremoto!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "dos_placas"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: placas atascadas que se sueltan.",
+   "imagen": "The two plates in the center, their jagged edges pressed together, with small clay ripples spreading out from the edge. Clean empty white space above them.",
+   "narrador": "Placas que empujan, bordes que se atascan, un golpe que se suelta: ¡temblor!",
+   "rotulos": "Empujan → se atascan → ¡se sueltan! → ondas"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "revienta",
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo empuja una puerta atascada que se abre de golpe.",
+   "escena": "Pipo stands beside a tall light-brown clay door, pushing on it with both paddle arms.",
+   "accion": "Pipo pushes hard on the stuck door and it suddenly swings open, making him stumble forward.",
+   "narrador": "Como una puerta atascada: empujas, empujas… y de repente se abre de golpe. ¡Y casi te caes!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Ondas que salen de un punto rojo.",
+   "escena": "A wide flat green clay field fills the frame, with a small red clay dot in its center.",
+   "accion": "Rings of small clay ripples spread slowly outward from the red dot across the field.",
+   "narrador": "Las ondas salen del punto donde se soltaron, como al tirar una piedra a un charco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si las placas no paran de moverse… ¡debe temblar muchísimo!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "sismografo"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El sismógrafo dibuja una línea ondulada.",
+   "escena": "The seismograph stands in the center of the frame, its pen resting on a long strip of white clay paper.",
+   "accion": "The paper strip slides slowly along while the pen draws a small wavy line on it.",
+   "narrador": "¡Y así es! Estos aparatos, los sismógrafos, notan cientos de miles de temblores cada año.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "sismografo"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El sismógrafo dibuja una línea casi plana.",
+   "escena": "The paper strip of the seismograph fills the frame, with the black pen resting on it.",
+   "accion": "The paper slides slowly along while the pen draws a tiny, barely wavy line.",
+   "narrador": "Pero casi todos son tan pequeños que nadie los siente. Solo los aparatos los detectan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡la Tierra se estira todo el rato, pero casi siempre en silencio!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un mapa del mundo con los bordes de las placas.",
+   "escena": "A flat clay world map fills the frame, with thick red clay lines running along the edges of the plates.",
+   "accion": "Small red clay dots blink on and off along the thick red lines.",
+   "narrador": "Y casi siempre en los mismos sitios: los bordes de las placas, como Japón o los Andes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y si hay uno fuerte? ¿Qué tengo que hacer?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "mesa_fuerte"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se agacha y se mete bajo la mesa.",
+   "escena": "Pipo stands beside the sturdy table in the center of the set.",
+   "accion": "Pipo crouches down and crawls under the sturdy table.",
+   "narrador": "Haz como Pipo. Primero, agáchate: así el temblor no te tira al suelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "mesa_fuerte"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, bajo la mesa, se agarra a una pata.",
+   "escena": "Pipo crouches under the sturdy table in the center of the set.",
+   "accion": "Pipo holds on to one table leg with one paddle arm and covers his head with the other.",
+   "narrador": "Segundo, cúbrete bajo una mesa fuerte. Tercero, agárrate a una pata hasta que pare.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una familia de plastilina se toma de las manos.",
+   "escena": "Three small clay figures of different sizes, a family, stand together on green clay grass in the center of the frame.",
+   "accion": "The three figures nod and hold hands.",
+   "narrador": "Y practica con tu familia: un lugar seguro donde reunirse. Saber qué hacer da tranquilidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira una torre de bloques: tiene una idea.",
+   "escena": "Pipo stands facing the camera, holding a small tower of colorful clay blocks on one paddle arm.",
+   "accion": "Pipo looks closely at the small block tower and slowly raises his other paddle arm.",
+   "narrador": "Pipo tiene una idea, y no es loca: ¿cómo se construyen casas que aguanten los temblores?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sobre una gelatina que tiembla, una torre cae y otra aguanta.",
+   "escena": "Two small towers stand side by side on a wobbly pale-green clay jelly block: a stiff grey clay tower on the left and a bendy tower with a wide base on the right.",
+   "accion": "The jelly block shakes from side to side, the stiff left tower topples and the bendy right tower sways and stays up.",
+   "narrador": "[excited] Los ingenieros las prueban en mesas que tiemblan. Las casas que se doblan un poquito aguantan mejor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un edificio sobre muelles casi no se mueve.",
+   "escena": "A small white clay building stands on four round grey clay springs on flat green clay ground in the center of the frame.",
+   "accion": "The ground shakes from side to side while the building above the springs stays almost still.",
+   "narrador": "Algunos edificios se apoyan sobre unos cojines especiales: el suelo se mueve, pero el edificio casi no.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente tranquilo.",
+   "escena": "Pipo stands facing the camera in the center of the set.",
+   "accion": "Pipo nods slowly and pats his chest with one paddle arm, calm and confident.",
+   "narrador": "Entender el temblor ayuda a no tenerle tanto miedo. Y la ciencia nos ayuda a estar preparados.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era hipo, Pipo. Son placas de roca que se atascan y se sueltan de golpe."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: no tiembla siempre porque las placas pasan años atascadas antes de soltarse."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: placas, bordes atascados y sacudida.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a clay Earth ball with its crust cracked into pieces; two brown clay slabs with jagged edges pressed together; and two brown clay slabs slipping apart with ripples around them. Clean empty white space above each one.",
+   "narrador": "Repasemos: la corteza está en placas, sus bordes se atascan, y al soltarse, la tierra tiembla.",
+   "rotulos": "1 Placas · 2 Se atascan · 3 ¡Se sueltan y tiembla!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un aparato sobre la Luna nota un temblor.",
+   "escena": "A grey clay Moon surface fills the frame, with a small silver clay instrument box standing on it.",
+   "accion": "Fine grey dust on the Moon surface trembles gently around the instrument box.",
+   "narrador": "[curious] Dato extra: ¡en la Luna también hay temblores! Los astronautas dejaron aparatos allí para medirlos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Unas montañas nevadas crecen despacio.",
+   "escena": "A small range of white-capped grey clay mountains stands in the center of the frame.",
+   "accion": "The mountains rise very slowly a little higher.",
+   "narrador": "Y esas mismas placas, empujándose durante millones de años, levantaron montañas como el Himalaya.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un simulacro en casa. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "mesa_fuerte"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una mesa fuerte.",
+   "imagen": "The sturdy table in the center, standing on a light-brown clay floor. Clean empty white space above it.",
+   "narrador": "Busca en casa una mesa fuerte y practica: agáchate, cúbrete y agárrate. ¿Cuánto tardas?",
+   "rotulos": "Reto en casa · agáchate, cúbrete, agárrate"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

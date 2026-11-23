@@ -1,0 +1,1265 @@
+{
+ "episodio": 16,
+ "id": "ep16",
+ "titulo": "¿Por qué pican los mosquitos?",
+ "tema": "Mosquitos",
+ "categoria": "an",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "terrario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "mosquito_de_arcilla",
+  "maqueta_de_brazo",
+  "piel_por_dentro",
+  "gotita_de_saliva"
+ ],
+ "efectos": [
+  {
+   "es": "Zumbido",
+   "en": "Single mosquito buzzing close to the ear"
+  },
+  {
+   "es": "Picadura",
+   "en": "Tiny sharp cartoon poke"
+  },
+  {
+   "es": "Comezón",
+   "en": "Quick dry scratching"
+  },
+  {
+   "es": "Agua que se vacía",
+   "en": "Small bucket of water pouring out"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla",
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "cae",
+    "balancea"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El mosquito aterriza en el brazo y baja la trompa.",
+   "escena": "The arm model lies in the center of the frame, with the clay mosquito hovering just above it.",
+   "accion": "The clay mosquito lands on the arm model and dips its long snout onto it.",
+   "narrador": "[whispers] Zzzz… Ese zumbido. Aterriza sin que lo notes, y al rato… ¡qué comezón!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se rasca una roncha roja.",
+   "escena": "Plop stands facing the camera with a small red clay bump on his side.",
+   "accion": "Plop rubs the red bump with one paddle arm, again and again, with annoyed eyes.",
+   "narrador": "Una roncha roja que pica y pica. ¿Por qué un bicho tan pequeño molesta tanto?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los mosquitos. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los mosquitos pican porque están enojados con nosotros!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla"
+   ],
+   "movimientos": [
+    "balancea",
+    "empuja"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El mosquito bebe tranquilo de una flor.",
+   "escena": "The clay mosquito sits on a small pink clay flower in the center of the frame.",
+   "accion": "The clay mosquito dips its snout into the flower and sips calmly, again and again.",
+   "narrador": "Pero mira: la mayoría del tiempo, los mosquitos comen néctar de flores, tan tranquilos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos mosquitos: el de antenas peludas niega con la cabeza.",
+   "escena": "Two grey clay mosquitoes stand side by side in the center of the frame: one with fluffy feathery antennae and one with thin plain antennae.",
+   "accion": "The mosquito with fluffy antennae shakes its head slowly, while the other one stays still.",
+   "narrador": "Y los machos jamás pican a nadie. Solo pican las hembras. No es enojo: es otra cosa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: solo se lleva una gotita. ¿Por qué pica tanto después?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mosquito_de_arcilla"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop estudia la trompa del mosquito.",
+   "escena": "Plop stands beside the clay mosquito, which sits on the set, leaning toward it.",
+   "accion": "Plop slowly tilts his head from side to side, studying the mosquito's long snout.",
+   "narrador": "¡Buena pregunta! La gotita no es el problema. El problema es lo que ella deja a cambio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La cámara se acerca a la trompa del mosquito.",
+   "escena": "The clay mosquito sits in the center of the set.",
+   "accion": "The clay mosquito stays still while the camera glides slowly closer to its long snout.",
+   "narrador": "¿Qué deja en tu piel? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar su trompa de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La trompa: una aguja finísima.",
+   "escena": "The long snout of the clay mosquito fills the frame.",
+   "accion": "The long snout sways slowly up and down.",
+   "narrador": "[excited] ¡Hagamos zoom! Esta trompa no es un tubo cualquiera: es una aguja más delgada que un pelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "La piel por dentro: un tubito con sangre que corre.",
+   "escena": "The skin model stands in the center of the frame.",
+   "accion": "Small red clay beads travel slowly along the red blood vessel inside the skin model, one after another.",
+   "narrador": "Y esto es tu piel por dentro. Bajo la superficie pasan tubitos diminutos llenos de sangre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla",
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La trompa atraviesa la piel hasta el tubito de sangre.",
+   "escena": "The clay mosquito sits on top of the skin model, its snout touching the surface.",
+   "accion": "The mosquito's snout slides slowly down through the skin model until it reaches the red blood vessel.",
+   "narrador": "La aguja atraviesa la piel buscando uno de esos tubitos. Es tan fina que casi no la sientes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro",
+    "gotita_de_saliva"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "De la punta de la trompa sale una gotita de saliva.",
+   "escena": "The tip of the mosquito's snout fills the frame, inside the red blood vessel of the skin model.",
+   "accion": "The saliva drop slides out of the tip of the snout into the red blood vessel.",
+   "narrador": "Pero antes de beber, hace algo importante: suelta una gotita de su saliva dentro de ti.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "mosquito_de_arcilla",
+    "piel_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el mosquito sobre la piel, con la trompa en el vaso de sangre.",
+   "imagen": "The clay mosquito sitting on top of the skin model with its snout reaching the red blood vessel, evenly lit. Wide clean empty white space on both sides.",
+   "narrador": "Una aguja, un tubito de sangre y una gotita de saliva. ¡Ojo con la saliva!",
+   "rotulos": "Trompa (aguja) · Vaso de sangre · Saliva"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: ¿y para qué quiere escupirme? ¡Qué mala educación!"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro del tubito se forma un tapón y la sangre se detiene.",
+   "escena": "The red blood vessel inside the skin model fills the frame, with red clay beads flowing through it and a small dark-red clay plug forming at one spot.",
+   "accion": "The dark-red plug grows slowly until the red beads stop flowing.",
+   "narrador": "Porque tu sangre tiene un truco: cuando algo la pincha, se espesa y tapa el agujero enseguida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si la sangre se tapa, el mosquito no puede beber… ¡la saliva lo impide!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro",
+    "gotita_de_saliva"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La saliva toca el tapón, lo deshace y la sangre vuelve a correr.",
+   "escena": "The red blood vessel inside the skin model fills the frame, with a small dark-red clay plug in it and the saliva drop beside the plug.",
+   "accion": "The saliva drop touches the dark-red plug, the plug melts away and the red beads flow again.",
+   "narrador": "Exacto. Su saliva lleva una sustancia que mantiene la sangre líquida. Así puede beber tranquila.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla",
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "gira",
+    "crece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La panza del mosquito se hincha y se pone roja.",
+   "escena": "The clay mosquito sits on the arm model with its snout down.",
+   "accion": "The mosquito's grey belly slowly swells and turns red.",
+   "narrador": "En un par de minutos se llena la panza. Bebe hasta tres veces su propio peso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P7",
+    "nombre": "Desconcertado",
+    "direccion": "Pipo looks slowly from one side to the other and back, completely baffled."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Ba? ¿Bo? ¿Bi?",
+    "intencion": "Desconcertado",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo mira a un lado y al otro, sin entender.",
+   "narrador": "Pipo no entiende: si come néctar, ¿para qué quiere mi sangre?"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Junto al mosquito aparecen huevitos blancos.",
+   "escena": "The clay mosquito, its belly red and round, sits in the center of the frame next to a small cluster of tiny white clay eggs.",
+   "accion": "Tiny white clay eggs appear one by one beside the mosquito, joining the cluster.",
+   "narrador": "No es para ella: es para sus huevos. La sangre tiene las proteínas que necesita para fabricarlos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro",
+    "gotita_de_saliva"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Células defensoras rodean la gotita de saliva.",
+   "escena": "The skin model fills the frame, with the saliva drop inside it near the surface, and small white clay cells with dot eyes at the edges of the frame.",
+   "accion": "The small white cells roll toward the saliva drop from both sides and surround it.",
+   "narrador": "Ella se va, pero su saliva se queda. Y tus defensas la descubren: ¡aquí hay algo extraño!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y esa saliva me hace daño? ¿Por eso me pica?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "flota",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las células sueltan chispitas y la piel se levanta en una roncha.",
+   "escena": "The skin model fills the frame, with small white clay cells gathered around one spot inside it.",
+   "accion": "The white cells release tiny orange clay sparks, and the surface of the skin above them rises into a red bump.",
+   "narrador": "Lo que pica es tu propia defensa. Tus células sueltan una señal de alarma en la piel.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "crece",
+    "rebota",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "La roncha del brazo se hincha y palpita.",
+   "escena": "The arm model lies in the center of the frame with a small red clay bump on it.",
+   "accion": "The red bump swells slowly a little bigger and pulses gently.",
+   "narrador": "Esa señal hincha la zona y avisa a los nervios. El resultado: una roncha… y la comezón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "tiembla",
+    "empuja",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop duda si rascarse o no.",
+   "escena": "Plop stands facing the camera with a small red clay bump on his side and one paddle arm raised just above it.",
+   "accion": "Plop's paddle arm hovers over the bump, trembling, moving closer and pulling back, again and again.",
+   "narrador": "Y entonces dan unas ganas enormes de rascarse. Pero… ¿es buena idea?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "crece",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La roncha crece y se pone más roja.",
+   "escena": "The arm model lies in the center of the frame with a small red clay bump on it.",
+   "accion": "The red bump grows bigger and redder, little by little.",
+   "narrador": "No mucho. Al rascar, la piel se irrita y suelta más señal de alarma. Pica más todavía.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se pone un hielo en la roncha y se relaja.",
+   "escena": "Plop stands facing the camera, pressing a small pale-cyan clay ice cube against the red clay bump on his side.",
+   "accion": "Plop holds the ice cube on the bump and his shoulders slowly drop with relief.",
+   "narrador": "Mejor lavar la roncha y ponerle algo frío. El frío calma a los nervios que avisan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mosquito_de_arcilla"
+   ],
+   "movimientos": [
+    "gira",
+    "crece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El mosquito sigue un rastro de nubecitas azules.",
+   "escena": "The clay mosquito hovers on the left of the frame, and small pale-blue clay puffs drift toward it from the right.",
+   "accion": "The clay mosquito turns toward the pale-blue puffs and flies slowly along them to the right.",
+   "narrador": "¿Y cómo te encuentran? Siguen el aire que exhalas y el calor de tu piel, como un rastro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No estaban enojados, Pipo. Las hembras necesitan sangre para sus huevos, nada más."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: pica tanto porque tu cuerpo se defiende de su saliva."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la picadura, la saliva rodeada de defensas y la roncha.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a grey clay mosquito with its snout in a peach clay block; a tiny pale-green clay droplet surrounded by small white clay cells; and a peach clay block with a red bump on it. Clean empty white space above each one.",
+   "narrador": "Repasemos: la hembra pica para sus huevos, deja saliva, y tu defensa causa la roncha.",
+   "rotulos": "1 Pica por sus huevos · 2 Deja saliva · 3 Tu defensa da comezón"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "En un charquito, de los huevos salen larvas que se menean.",
+   "escena": "A small round blue clay puddle lies in the center of the frame, with a cluster of tiny white clay eggs floating on it.",
+   "accion": "Tiny grey clay wrigglers hatch from the eggs one by one and wiggle in the blue puddle.",
+   "narrador": "[curious] Dato extra: los mosquitos ponen sus huevos en agua quieta. Un tapón de botella les basta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una cubeta se vuelca y el agua se derrama.",
+   "escena": "A small yellow clay bucket full of flat blue clay water stands in the center of the frame, tilted slightly.",
+   "accion": "The yellow bucket tips over slowly and the blue clay water spills out onto the set.",
+   "narrador": "Sin agua estancada, no hay mosquitos nuevos. Es la mejor forma de tener menos picaduras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Y eso lo puedes hacer hoy en tu casa, con un adulto. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una cubeta, un plato de maceta y una tapa, cada uno con agua.",
+   "imagen": "A small yellow clay bucket, a clay flowerpot saucer and a clay bottle cap, each holding a little flat blue clay water. Clean empty white space above them.",
+   "narrador": "Busquen agua quieta en macetas, cubetas y tapas. ¡Y vacíenla toda!",
+   "rotulos": "Reto en casa · cazadores de agua quieta"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

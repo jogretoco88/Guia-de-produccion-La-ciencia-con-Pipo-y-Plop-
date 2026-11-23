@@ -1,0 +1,320 @@
+{
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados",
+  "nota": "Se anima de a dos: cada pose dura 2 fotogramas. Solo se renderizan los fotogramas únicos (12 por segundo) y se duplican al montar."
+ },
+ "camaras": {
+  "W": {
+   "es": "Plano general fijo",
+   "focal": 35,
+   "altura": "ojos del títere",
+   "movimiento": "fija"
+  },
+  "M": {
+   "es": "Plano medio fijo",
+   "focal": 50,
+   "altura": "ojos del títere",
+   "movimiento": "fija"
+  },
+  "C": {
+   "es": "Primer plano fijo",
+   "focal": 85,
+   "altura": "ojos del títere",
+   "movimiento": "fija",
+   "desenfoque": "fondo suave"
+  },
+  "X": {
+   "es": "Macro fijo",
+   "focal": 100,
+   "altura": "a la altura del detalle",
+   "movimiento": "fija",
+   "desenfoque": "fuerte"
+  },
+  "T": {
+   "es": "Cenital fijo",
+   "focal": 35,
+   "altura": "encima, mirando hacia abajo",
+   "movimiento": "fija"
+  },
+  "I": {
+   "es": "Acercamiento lento",
+   "focal": 50,
+   "altura": "ojos del títere",
+   "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+  }
+ },
+ "movimientos": {
+  "flota": {
+   "detecta": "\\b(rise|rises|rising|float|floats|floating|drift|drifts|drifting|lift|lifts|wiggle slowly upward)",
+   "es": "Sube o flota",
+   "blender": "Desplazamiento vertical con curva suave y un vaivén lateral pequeño"
+  },
+  "cae": {
+   "detecta": "\\b(fall|falls|falling|drop|drops|dropping|sink|sinks|sinking|settle|settles|lands?)\\b",
+   "es": "Cae o se hunde",
+   "blender": "Caída con aceleración y un aplastado al tocar el suelo"
+  },
+  "rueda_desliza": {
+   "detecta": "\\b(roll|rolls|rolling|slide|slides|sliding|glide|glides|gliding|travel|travels|move|moves|moving|march|marches|flow|flows|flowing|crawl|crawls|zip|zips|race|races)\\b",
+   "es": "Rueda o se desliza",
+   "blender": "Recorrido por una curva; si rueda, giro proporcional a la distancia"
+  },
+  "gira": {
+   "detecta": "\\b(spin|spins|spinning|rotate|rotates|rotating|turn|turns|turning|swirl|swirls|swirling|circle|circles|orbit|orbits|orbiting|twist|twists|sweep|sweeps|sweeping|tick|ticks|ticking)\\b",
+   "es": "Gira",
+   "blender": "Rotación continua sobre su eje o alrededor de otro objeto"
+  },
+  "crece": {
+   "detecta": "\\b(grow|grows|growing|swell|swells|swelling|expand|expands|expanding|inflate|inflates|inflating|puff|puffs|stretch|stretches|stretching|bigger)\\b",
+   "es": "Crece o se hincha",
+   "blender": "Escala con curva suave y un pequeño rebote al final"
+  },
+  "encoge": {
+   "detecta": "\\b(shrink|shrinks|shrinking|squeeze|squeezes|squeezing|squash|squashes|contract|contracts|deflate|deflates|smaller)\\b",
+   "es": "Se encoge o se aplasta",
+   "blender": "Escala hacia abajo; conserva el volumen ensanchándose"
+  },
+  "tiembla": {
+   "detecta": "\\b(shake|shakes|shaking|tremble|trembles|trembling|wobble|wobbles|wobbling|jiggle|jiggles|jiggling|quiver|quivers|vibrate|vibrates|vibrating|rattle|rattles)\\b",
+   "es": "Tiembla",
+   "blender": "Ruido de posición y rotación de baja amplitud; la amplitud puede crecer"
+  },
+  "revienta": {
+   "detecta": "\\b(burst|bursts|bursting|crack|cracks|cracking|split|splits|splitting|pop|pops|popping|break|breaks|breaking|open|opens|opening|explode|explodes)\\b",
+   "es": "Se abre o revienta",
+   "blender": "Cambio de forma por claves de forma o intercambio de modelo en un fotograma"
+  },
+  "ondula": {
+   "detecta": "\\b(wave|waves|waving|wavy|wiggle|wiggles|wiggling|ripple|ripples|rippling|sway|sways|swaying|flutter|flutters|fluttering|flap|flaps|flapping|bend|bends|bending)\\b",
+   "es": "Ondula",
+   "blender": "Deformación senoidal a lo largo del objeto"
+  },
+  "balancea": {
+   "detecta": "\\b(rock|rocks|rocking|bob|bobs|bobbing|swing|swings|swinging|swish|swishes|tip|tips|tipping|tilt|tilts|tilting|lean|leans|leaning|nod|nods|seesaw|flex|flexes|arch|arches|dip|dips|dipping)\\b",
+   "es": "Se balancea o se inclina",
+   "blender": "Rotación de ida y vuelta sobre la base, con curva suave"
+  },
+  "empuja": {
+   "detecta": "\\b(push|pushes|pushing|press|presses|pressing|pull|pulls|pulling|tug|tugs|grab|grabs|brush|brushes|brushing|peck|pecks|pecking|lick|licks|licking|sip|sips|poke|pokes|scrub|scrubs|rub|rubs|jolt|jolts|kick|kicks|wriggle|wriggles|churn|churns|stir|stirs)\\b",
+   "es": "Empuja, toca o frota",
+   "blender": "Avance hasta el contacto, deformación del objeto tocado y regreso"
+  },
+  "aparece": {
+   "detecta": "\\b(appear|appears|appearing|fade|fades|fading|fill|fills|filling|spread|spreads|spreading|gather|gathers|gathering|join|joins|form|forms|forming|change|changes|changing|turn into|turns into|shoot|shoots|spill|spills|spilling|pour|pours|fan out|fans out|leak|leaks|emerge|emerges|melt|melts|melting|dissolve|dissolves|darken|darkens|wrinkle|wrinkles|thicken|thickens|widen|widens|flatten|flattens|crumble|crumbles|smooth out|smooths out|creep|creeps|curl|curls|clearer)\\b",
+   "es": "Aparece, se llena o cambia",
+   "blender": "Escala desde cero, revelado con máscara o mezcla de color; las piezas nuevas salen una a una"
+  },
+  "rebota": {
+   "detecta": "\\b(bounce|bounces|bouncing|hop|hops|hopping|jump|jumps|jumping|bump|bumps|bumping|knock|knocks|tap|taps|tapping)\\b",
+   "es": "Rebota",
+   "blender": "Arcos repetidos con aplastado y estirado en cada contacto"
+  },
+  "late": {
+   "detecta": "\\b(pulse|pulses|pulsing|throb|throbs|throbbing|beat|beats|beating|blink|blinks|blinking|glow|glows|glowing|flash|flashes|flashing|flicker|flickers|flickering|twinkle|twinkles|twinkling|light up|lights up|lighting up)\\b",
+   "es": "Late o brilla",
+   "blender": "Escala o emisión que sube y baja con ritmo fijo"
+  },
+  "acercamiento_lento": {
+   "detecta": "camera (glides|moves|slowly)|push-in|closer to",
+   "es": "La cámara se acerca",
+   "blender": "Cámara que avanza a velocidad constante; el sujeto queda quieto"
+  }
+ },
+ "zonas": {
+  "mesa": {
+   "es": "Mesa central de experimentos",
+   "para": "La prueba y los experimentos de cualquier episodio"
+  },
+  "zoom": {
+   "es": "Cámara de zoom",
+   "para": "Bloques 3 y 4: dentro de las cosas. Es la pieza que identifica al canal: Pipo y Plop entran y todo crece a su alrededor"
+  },
+  "cuerpo": {
+   "es": "Rincón del cuerpo",
+   "para": "Maquetas del cuerpo, esqueleto de juguete, espejo"
+  },
+  "terrario": {
+   "es": "Terrario",
+   "para": "Animales: plantas de arcilla, piedras, troncos"
+  },
+  "agua": {
+   "es": "Tina y acuario",
+   "detecta": "\\b(tub|ocean|sea|aquarium|water tank|bathtub)\\b",
+   "prioridad": true,
+   "para": "Todo lo que flota, se hunde o pasa en el agua"
+  },
+  "cocina": {
+   "es": "Cocinita",
+   "detecta": "\\b(kitchen|stove|oven|frying pan|pan|pot|hot plate|orange-red clay disc|plate)\\b",
+   "para": "Comida y calor"
+  },
+  "casa": {
+   "es": "Rincón de casa",
+   "detecta": "\\b(bed|sofa|cushion|pillow|blanket|shoe|bathroom|window)\\b",
+   "para": "Cama, sofá, baño y cosas de casa"
+  },
+  "planetario": {
+   "es": "Ventana-planetario",
+   "detecta": "\\b(sky|sun|moon|planet|planets|space|outer space|astronaut|asteroid|black hole|star|stars|space station)\\b",
+   "para": "Cielo, clima, Tierra y espacio"
+  },
+  "pizarra": {
+   "es": "Pizarra de las láminas",
+   "para": "Las cinco láminas de cada episodio: el objeto solo, bien iluminado, sin texto"
+  },
+  "entrada": {
+   "es": "Puerta del laboratorio",
+   "para": "Cortinilla y tarjeta final: Pipo y Plop juntos"
+  }
+ },
+ "zonaPorCategoria": {
+  "cu": "cuerpo",
+  "co": "cocina",
+  "an": "terrario",
+  "ci": "planetario",
+  "ti": "planetario",
+  "ca": "casa"
+ },
+ "familias": {
+  "maqueta_corte": {
+   "detecta": "maqueta|por dentro|corte|partid|cut-open|cut in half|cross-section|cutaway|inside view",
+   "tecnica": "Un solo método: el objeto entero se corta con un plano y la cara del corte recibe su propio material de colores. Se hace una vez y vale para todas las maquetas"
+  },
+  "particulas": {
+   "detecta": "burbuja|gota|bolita|molécula|electr|gas|gotita|pedacito|levadura|bacteria|plaqueta|glóbulo|polvo|trocito|cristal|celdita|anillo|onda|cinta|flechita|micela|capsaicina|cilio|pelito|jugo|plaquita",
+   "tecnica": "Formas simples (esfera, gota, anillo) con variaciones de tamaño y color; se reparten con instancias"
+  },
+  "cielo_espacio": {
+   "detecta": "\\bsol\\b|luna|tierra de arcilla|estrella|agujero|asteroide|nube|rayo|arcoíris|estación espacial|panel del cielo|planeta",
+   "tecnica": "Esferas y discos esculpidos; las nubes y rayos son piezas de arcilla, no humo ni luz real"
+  },
+  "animales": {
+   "detecta": "gato|perr|mosquito|hormiga|oruga|crisálida|mariposa|luciérnaga|murciélago|polilla|araña|mosca|gorrión|camaleón|abeja|dinosaurio|pajarito|puercoespín",
+   "tecnica": "Títeres con esqueleto simple: el mismo estilo de Pipo y Plop (cuerpos redondos, sin dedos)"
+  },
+  "comida": {
+   "detecta": "maíz|palomita|ají|cebolla|frijol|galleta|\\bpan\\b|masa|helado|manzana|limón|chicle|miel|leche|refresco|hielo",
+   "tecnica": "Esculpido sólido; los cortes usan la técnica de maquetas"
+  },
+  "cuerpo": {
+   "detecta": "diente|cerebro|hueso|mano|columna|oído|ojo|nariz|piel|pulmon|brazo|rodilla|mandíbula|intestino|lengua|garganta|encía|yema|pie",
+   "tecnica": "Siempre como juguete o maqueta, nunca realista: piezas redondas y de colores planos"
+  }
+ },
+ "idioma": {
+  "nombre": "pipoplés",
+  "reglas": [
+   "Pipo y Plop hablan entre ellos en un idioma inventado, sin palabras de ningún idioma real. Así el mismo video sirve para todos los idiomas.",
+   "El sentido lo dan la entonación, la cara y el cuerpo, no las palabras.",
+   "Pipo usa sílabas con p, b y t, rápidas y con energía. Plop usa sílabas con pl, l, m y n, suaves y pausadas.",
+   "Cada reacción tiene su frase fija: los niños la aprenden y la repiten.",
+   "El narrador es quien explica la ciencia, en cada idioma."
+  ],
+  "reacciones": {
+   "P1": {
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "P2": {
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "P3": {
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "P4": {
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "P5": {
+    "dice": "Oooh… ¡tiba!",
+    "intencion": "Impresionado",
+    "etiqueta": "[gasps]"
+   },
+   "P6": {
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "P7": {
+    "dice": "¿Ba? ¿Bo? ¿Bi?",
+    "intencion": "Desconcertado",
+    "etiqueta": "[surprised]"
+   },
+   "P8": {
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "P9": {
+    "dice": "¡Pipi-pipi-ba!",
+    "intencion": "Celebra",
+    "etiqueta": "[laughs]"
+   },
+   "P10": {
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "L1": {
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "L2": {
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "L3": {
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "L4": {
+    "dice": "¡Oh! Oh-lu-lu…",
+    "intencion": "Asombro",
+    "etiqueta": "[gasps]"
+   },
+   "L5": {
+    "dice": "¡Aaah, nilú!",
+    "intencion": "Lo entendió",
+    "etiqueta": "[surprised]"
+   },
+   "L6": {
+    "dice": "Uy, uy, uy… mu-mu.",
+    "intencion": "No quiere mirar",
+    "etiqueta": "[whispers]"
+   },
+   "L7": {
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "L8": {
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "L9": {
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "L10": {
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   }
+  }
+ }
+}

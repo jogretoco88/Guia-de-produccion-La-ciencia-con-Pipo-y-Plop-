@@ -1,0 +1,1246 @@
+{
+ "episodio": 28,
+ "id": "ep28",
+ "titulo": "¿Qué pasa dentro del capullo de una mariposa?",
+ "tema": "Mariposa",
+ "categoria": "an",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "terrario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "oruga",
+  "crisalida",
+  "crisalida_por_dentro",
+  "mariposa"
+ ],
+ "efectos": [
+  {
+   "es": "Oruga comiendo",
+   "en": "Tiny crunchy munching on a leaf"
+  },
+  {
+   "es": "Sopa de oruga",
+   "en": "Slow thick gloopy stirring"
+  },
+  {
+   "es": "La crisálida se abre",
+   "en": "Soft dry crackle, like thin paper tearing"
+  },
+  {
+   "es": "Aleteo",
+   "en": "Light delicate wing flutter"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "oruga"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "La oruga come una hoja, mordisco a mordisco.",
+   "escena": "The caterpillar sits on a big green clay leaf in the center of the frame.",
+   "accion": "The caterpillar munches along the edge of the leaf, leaving a curved bite, again and again.",
+   "narrador": "[curious] Una oruga. Come hojas todo el día, sin parar. Gordita, lenta, sin alas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mariposa"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La mariposa abre y cierra las alas sobre una flor.",
+   "escena": "The butterfly rests on a small pink clay flower in the center of the frame.",
+   "accion": "The butterfly slowly opens and closes its wide wings, again and again.",
+   "narrador": "Y semanas después, del mismo animal sale esto. ¿Cómo se convierte una cosa en la otra?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre las mariposas. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡ahí adentro la oruga se pone un disfraz con alas!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "oruga",
+    "mariposa"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La oruga avanza despacio; la mariposa aletea.",
+   "escena": "The caterpillar stands on the left of the frame and the butterfly rests on the right.",
+   "accion": "The caterpillar inches slowly forward while the butterfly flutters its wings.",
+   "narrador": "Pero no es un disfraz. Mira bien: patas largas, antenas, trompa, alas… Es un cuerpo totalmente distinto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "oruga"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop busca alas escondidas en la oruga.",
+   "escena": "Plop stands beside the caterpillar, leaning toward it.",
+   "accion": "Plop slowly moves his head along the caterpillar from one end to the other, searching.",
+   "narrador": "Y Plop busca alas escondidas en la oruga, por todos lados. No hay. Ni una pista.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: la oruga no tenía alas. ¿De dónde las sacó ahí adentro?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "crisalida"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La crisálida se mece suavemente.",
+   "escena": "The chrysalis hangs in the center of the frame.",
+   "accion": "The chrysalis sways very gently, as if in a light breeze.",
+   "narrador": "¡Buena pregunta! Todo ocurre aquí, en esta cápsula verde. Se llama crisálida.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "crisalida"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La cámara se acerca a la crisálida.",
+   "escena": "The chrysalis hangs in the center of the set.",
+   "accion": "The chrysalis stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué pasa ahí dentro? ¿Tú qué crees? Piénsalo… ¡Vamos a abrir una, con mucho cuidado!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "oruga"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta",
+    "empuja"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La oruga, colgada, se quita la piel y aparece una funda verde.",
+   "escena": "The caterpillar hangs upside down from a brown clay twig in the center of the frame, curled like a hook.",
+   "accion": "The caterpillar wriggles slowly as its green skin splits and slides upward, revealing a smooth green pod underneath.",
+   "narrador": "[excited] ¡Hagamos zoom! Primero, la oruga se cuelga de una rama y cambia de piel por última vez.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La crisálida se oscurece un poco y queda inmóvil.",
+   "escena": "The chrysalis hangs in the center of the frame.",
+   "accion": "The chrysalis slowly turns a deeper green and becomes perfectly still.",
+   "narrador": "Debajo aparece la crisálida: una funda dura. Por fuera, parece que no pasa nada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento a la crisálida por dentro.",
+   "escena": "The cut-open chrysalis model hangs in the center of the set.",
+   "accion": "The cut-open chrysalis model stays still while the camera glides slowly closer to the pale-yellow soup inside it.",
+   "narrador": "Pero por dentro… prepárate. Casi todo el cuerpo de la oruga se está deshaciendo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida_por_dentro"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La sopa amarilla se revuelve despacio.",
+   "escena": "The pale-yellow clay soup inside the cut-open chrysalis model fills the frame.",
+   "accion": "The pale-yellow soup swirls very slowly, like thick custard.",
+   "narrador": "Sus músculos, su boca, sus patas gorditas: todo se convierte en una especie de sopa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "crisalida_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de la crisálida por dentro.",
+   "imagen": "The cut-open chrysalis model centered, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Por fuera, una funda quieta. Por dentro, sopa de oruga. ¡Y algo más!",
+   "rotulos": "Crisálida · Sopa de oruga · Grupitos de células"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿sopa? ¿La oruga se derrite? ¡Entonces se acabó la oruga!"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida_por_dentro"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la sopa flotan unos discos naranjas que no se deshacen.",
+   "escena": "The pale-yellow soup inside the cut-open chrysalis model fills the frame, with a few small orange clay discs floating in it.",
+   "accion": "The small orange discs pulse gently, one after another, staying whole in the soup.",
+   "narrador": "No del todo. Flotando en la sopa quedan unos grupitos de células que no se deshacen.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: esos grupitos deben saber algo… ¡tienen que traer las instrucciones!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida_por_dentro"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los discos naranjas crecen absorbiendo la sopa.",
+   "escena": "A few small orange clay discs float in pale-yellow clay soup, filling the frame.",
+   "accion": "The orange discs slowly grow bigger, soaking up the yellow soup around them.",
+   "narrador": "Así es. Cada grupito es como una semilla. Y la sopa es su comida: la usan para crecer.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un disco naranja se estira y se despliega en forma de ala.",
+   "escena": "One orange clay disc floats in the center of the frame, in pale-yellow clay soup.",
+   "accion": "The orange disc slowly stretches and unfolds into a small flat orange wing shape.",
+   "narrador": "Un grupito se convierte en un ala. Otro, en otra ala. Otros, en patas, antenas y ojos nuevos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡es como desarmar una casa de bloques y armar un avión!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida_por_dentro"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de la funda se va formando una mariposa plegada.",
+   "escena": "The cut-open chrysalis model fills the frame, with a small folded orange-and-black butterfly shape forming inside it.",
+   "accion": "The folded butterfly shape slowly becomes clearer and darker inside the pod.",
+   "narrador": "Poco a poco, dentro de la funda se arma un cuerpo completamente nuevo, pieza por pieza.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de una oruga brillan unos disquitos naranjas.",
+   "escena": "A green clay caterpillar shown in cross-section lies in the center of the frame, with a few tiny orange clay discs inside its body.",
+   "accion": "The tiny orange discs twinkle one after another inside the caterpillar.",
+   "narrador": "Y lo más increíble: la oruga llevaba esos grupitos desde que salió del huevo. Dormidos, esperando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y cuánto tarda todo eso? ¿La mariposa se acuerda de cuando era oruga?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La crisálida se oscurece y deja ver dibujos naranjas y negros.",
+   "escena": "The chrysalis hangs in the center of the frame.",
+   "accion": "The green chrysalis slowly darkens until orange and black wing patterns show through its skin.",
+   "narrador": "Tarda unas dos semanas. Y algunos experimentos sugieren que sí guarda recuerdos de su vida de oruga.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Una grieta se abre en la crisálida.",
+   "escena": "The chrysalis hangs in the center of the frame, dark, with orange and black patterns showing through.",
+   "accion": "A thin crack opens slowly down the side of the chrysalis.",
+   "narrador": "Cuando todo está listo, la funda se vuelve transparente… y empieza a rajarse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "crisalida",
+    "mariposa"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La mariposa sale, con las alas pequeñas y arrugadas.",
+   "escena": "The chrysalis hangs in the center of the frame, cracked open, with the head and legs of the butterfly poking out.",
+   "accion": "The butterfly pulls itself slowly out of the chrysalis, its wings small and crumpled.",
+   "narrador": "Sale algo arrugado y mojado, con alas chiquitas. ¿Salió mal? Espera un momento…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mariposa"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Las alas arrugadas se despliegan hasta su tamaño completo.",
+   "escena": "The butterfly hangs from an empty green clay pod in the center of the frame, its wings small and crumpled.",
+   "accion": "The butterfly's crumpled wings slowly unfold and stretch out to their full size.",
+   "narrador": "[excited] La mariposa bombea líquido a sus alas, y se despliegan como un paraguas que se abre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "mariposa"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La mariposa abre y cierra las alas, secándolas.",
+   "escena": "The butterfly rests on a brown clay twig in the center of the frame, wings fully open.",
+   "accion": "The butterfly slowly opens and closes its wings, again and again.",
+   "narrador": "Espera a que se sequen y se endurezcan. Y entonces, por primera vez en su vida…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "mariposa"
+   ],
+   "movimientos": [
+    "flota",
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "La mariposa despega de la manopla de Plop.",
+   "escena": "Plop stands facing the camera, with the butterfly resting on one raised paddle arm.",
+   "accion": "The butterfly lifts off Plop's paddle arm and flutters up and away while Plop follows it with his eyes.",
+   "narrador": "…¡vuela! El animal que solo sabía arrastrarse y comer hojas, ahora bebe néctar de flor en flor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era un disfraz, Pipo. La oruga se desarma casi entera y se vuelve a construir."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: las alas salieron de grupitos de células que llevaba guardados."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la crisálida, su interior y la mariposa.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a green clay pod hanging from a brown twig; a green clay pod in cross-section with pale-yellow soup and small orange discs inside; and an orange-and-black clay butterfly with open wings. Clean empty white space above each one.",
+   "narrador": "Repasemos: la oruga se encierra, su cuerpo se deshace en sopa, y unas células construyen la mariposa.",
+   "rotulos": "1 Se encierra · 2 Se deshace · 3 Se reconstruye"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "A un renacuajo le salen patas y se le encoge la cola.",
+   "escena": "A small dark-green clay tadpole with a long tail swims in a flat blue clay pond in the center of the frame.",
+   "accion": "The tadpole slowly grows four small legs while its tail shrinks.",
+   "narrador": "[curious] Dato extra: este cambio se llama metamorfosis. Las ranas también lo hacen: de renacuajo a rana.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una mariquita, una abeja y una mosca saltan en fila.",
+   "escena": "A row of three small clay insects stands in the center of the frame: a red ladybug, a yellow-and-black bee and a grey fly.",
+   "accion": "The three insects hop one after another, from left to right.",
+   "narrador": "Y las mariquitas, las abejas y las moscas. La mayoría de los insectos pasa por algo así.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Las orugas están más cerca de lo que crees. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "oruga"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "La oruga sobre una hoja mordida, junto a un lápiz y un cuaderno.",
+   "imagen": "The caterpillar on a big green clay leaf with curved bites along its edge, next to a clay pencil and a small white clay notebook. Clean empty white space above them.",
+   "narrador": "Busca orugas u hojas mordidas en un jardín. Míralas sin tocarlas y dibújalas.",
+   "rotulos": "Reto en casa · detective de orugas"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

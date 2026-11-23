@@ -1,0 +1,1249 @@
+{
+ "episodio": 29,
+ "id": "ep29",
+ "titulo": "¿Por qué la Luna cambia de forma?",
+ "tema": "La Luna",
+ "categoria": "ci",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "luna_de_arcilla",
+  "tierra_de_arcilla",
+  "sol_de_arcilla"
+ ],
+ "efectos": [
+  {
+   "es": "Noche tranquila",
+   "en": "Calm night ambience with soft crickets"
+  },
+  {
+   "es": "La Luna gira",
+   "en": "Slow deep gentle orbital whoosh"
+  },
+  {
+   "es": "Eclipse",
+   "en": "Mysterious soft low drone swell"
+  },
+  {
+   "es": "Nueva fase",
+   "en": "Single light sparkling chime"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Cuatro lunas en fila: llena, mordida, media y una uñita.",
+   "escena": "A row of four white clay Moon shapes lies in the center of the frame: a full circle, a circle with a bite missing, a half circle and a thin crescent.",
+   "accion": "The four Moon shapes pulse gently one after another, from left to right.",
+   "narrador": "[curious] Mira la Luna esta noche. Y mañana. Y en una semana. ¡Cada vez tiene una forma distinta!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira hacia arriba y ladea la cabeza.",
+   "escena": "Pipo stands in the center of the set, looking up.",
+   "accion": "Pipo slowly tilts his head to one side and to the other while looking up.",
+   "narrador": "Redonda, mordida, una uñita… y a veces, ni se ve. ¿Quién se la está comiendo?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a resolver el misterio de la Luna que cambia."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡un ratón gigante se la come, y después le vuelve a crecer!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna gira: es una bola entera, mitad clara y mitad oscura.",
+   "escena": "The clay Moon floats in the center of the frame.",
+   "accion": "The clay Moon turns slowly in place like on a turntable.",
+   "narrador": "Pero la Luna es una bola de roca enorme. Con telescopio se ve entera, incluso la parte oscura.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las formas de la Luna saltan en orden, una y otra vez.",
+   "escena": "A row of four white clay Moon shapes lies in the center of the frame: a thin crescent, a half circle, a full circle and a half circle facing the other way.",
+   "accion": "The four Moon shapes hop one after another, from left to right, again and again.",
+   "narrador": "Y los cambios se repiten igualitos cada mes, siempre en el mismo orden. Ningún ratón es tan puntual.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si es una bola de roca, ¿cómo puede cambiar de forma cada semana?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol ilumina la mitad de la Luna que lo mira.",
+   "escena": "The clay sun sits on the left of the frame and the clay Moon floats on the right, its light-grey half facing the sun.",
+   "accion": "The clay sun pulses gently while the clay Moon stays still, half light and half dark.",
+   "narrador": "¡Buena pregunta! Primera pista: la Luna no tiene luz propia. Brilla porque el Sol la ilumina.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la Luna.",
+   "escena": "The clay Moon floats in the center of the set.",
+   "accion": "The clay Moon stays still while the camera glides slowly closer to it.",
+   "narrador": "Si no cambia la Luna, ¿qué cambia? ¿Tú qué crees? Piénsalo… ¡Vamos a verlo desde lejos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol, la Tierra y la Luna, que da vueltas.",
+   "escena": "The clay sun sits at the left edge of the set, the clay Earth stands in the center and the clay Moon floats beside the Earth.",
+   "accion": "The clay Moon travels slowly around the clay Earth in a wide circle.",
+   "narrador": "[excited] ¡Hagamos zoom hacia afuera! Aquí está el Sol, aquí la Tierra, y dando vueltas, la Luna.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La mitad clara de la Luna siempre mira al Sol.",
+   "escena": "The clay Moon floats in the center of the frame, its light-grey half facing left toward the clay sun at the edge of the frame.",
+   "accion": "The clay Moon bobs gently while its light-grey half stays facing the sun.",
+   "narrador": "El Sol siempre ilumina media Luna: la mitad que mira hacia él. La otra mitad queda a oscuras.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna da una vuelta completa a la Tierra.",
+   "escena": "The clay Earth stands in the center of the frame, with the clay Moon floating to its right.",
+   "accion": "The clay Moon travels slowly around the clay Earth, completing one full circle.",
+   "narrador": "Y la Luna le da una vuelta completa a la Tierra más o menos cada mes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita en la Tierra sigue algo con la mirada.",
+   "escena": "The clay Earth fills the left side of the frame, with a tiny peach clay figure standing on top of it, looking toward the right.",
+   "accion": "The tiny figure turns its head slowly, following something across the sky.",
+   "narrador": "Nosotros la miramos desde aquí, desde la Tierra. Y según dónde esté, vemos una parte distinta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el Sol, la Tierra y la Luna en fila.",
+   "imagen": "The clay sun on the left, the clay Earth in the center and the clay Moon on the right, in a row, evenly lit. Clean empty white space above them.",
+   "narrador": "El Sol ilumina, la Luna da vueltas y nosotros miramos desde la Tierra. ¡Tres piezas!",
+   "rotulos": "Sol · Tierra · Luna"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "gira",
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo gira con una pelota en alto, iluminada por una lámpara.",
+   "escena": "Pipo stands facing the camera, holding a white clay ball up in one paddle arm, with a small yellow clay lamp glowing on the left of the set.",
+   "accion": "Pipo turns slowly in place, holding the ball out, so the lit side of the ball changes as he turns.",
+   "narrador": "Pipo lo prueba con una pelota y una lámpara: al girar, ve la pelota iluminada de formas distintas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Luna llena: del lado opuesto al Sol, muestra toda su cara clara.",
+   "escena": "The clay sun sits at the left edge of the set, the clay Earth stands in the center and the clay Moon floats on the far right, its light-grey half facing the Earth.",
+   "accion": "The light-grey half of the clay Moon pulses gently, fully facing the Earth.",
+   "narrador": "Cuando la Luna está del lado opuesto al Sol, vemos toda su cara iluminada: Luna llena.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: y cuando esté del mismo lado que el Sol… ¡veremos su cara oscura!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Luna nueva: entre el Sol y la Tierra, nos muestra su mitad oscura.",
+   "escena": "The clay sun sits at the left edge of the set and the clay Moon floats between the sun and the clay Earth, its dark-grey half facing the Earth.",
+   "accion": "The clay Moon bobs gently while its dark-grey half stays turned toward the Earth.",
+   "narrador": "Exacto. Entre el Sol y nosotros, nos muestra su mitad oscura. Es la Luna nueva: no se ve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el borde de la Luna asoma un filito claro.",
+   "escena": "The clay Moon fills the frame, almost entirely dark grey, with a thin light-grey sliver along its right edge.",
+   "accion": "The thin light-grey sliver slowly widens a little.",
+   "narrador": "Unos días después se asoma un filito iluminado: esa uñita se llama Luna creciente.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡no se achica! Nos enseña más o menos de su lado iluminado."
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La parte clara de la Luna va creciendo.",
+   "escena": "The clay Moon fills the frame, exactly half light grey on the right and half dark grey on the left.",
+   "accion": "The line between the light half and the dark half moves slowly to the left, making the light part bigger.",
+   "narrador": "Cada noche vemos un poco más: media Luna, tres cuartos… hasta la Luna llena.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una sombra avanza y la parte clara se reduce.",
+   "escena": "The clay Moon fills the frame, fully light grey.",
+   "accion": "A dark-grey shade creeps slowly across the Moon from the right edge, covering more and more of it.",
+   "narrador": "Y después, al revés: cada noche un poco menos. Eso se llama Luna menguante.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y esa parte oscura es la sombra de la Tierra tapando la Luna?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna gira y muestra su lado de día y su lado de noche.",
+   "escena": "The clay Moon floats in the center of the frame, half light grey and half dark grey.",
+   "accion": "The clay Moon turns slowly in place like on a turntable, showing its dark half and its light half.",
+   "narrador": "Buena idea, pero no. Es su propio lado de noche: la mitad que no mira al Sol.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol, la Tierra y la Luna alineados: una sombra cruza la Luna.",
+   "escena": "The clay sun, the clay Earth and the clay Moon stand in one straight line across the set, with the Earth in the middle.",
+   "accion": "A soft dark-grey shadow slides slowly across the clay Moon from one side to the other.",
+   "narrador": "La sombra de la Tierra solo la tapa de vez en cuando. Y eso tiene otro nombre…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna en sombra se vuelve rojiza.",
+   "escena": "The clay Moon fills the frame, covered by a dark-grey shadow.",
+   "accion": "The shadowed clay Moon slowly turns a deep copper red.",
+   "narrador": "…¡eclipse de Luna! Los tres se alinean justo, y la Luna se pone rojiza. ¿Y al revés?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla",
+    "tierra_de_arcilla",
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna pasa por delante del Sol y lo tapa.",
+   "escena": "The clay sun, the clay Moon and the clay Earth stand in one straight line across the set, with the Moon in the middle.",
+   "accion": "The clay Moon slides slowly in front of the clay sun, covering it.",
+   "narrador": "[excited] Si la Luna pasa justo delante del Sol, lo tapa: eclipse. ¡De día se hace de noche!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira hacia arriba con unos lentes oscuros.",
+   "escena": "Pipo stands facing the camera, holding a pair of big dark clay glasses in front of his eyes with both paddle arms.",
+   "accion": "Pipo slowly tilts his head upward while keeping the dark glasses in front of his eyes.",
+   "narrador": "Importante: un eclipse de Sol nunca se mira directo. Solo con lentes especiales y con un adulto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna, pálida, cruza un cielo de día.",
+   "escena": "The clay Moon floats in the center of the frame, pale, in front of a wide flat sky-blue clay panel.",
+   "accion": "The pale clay Moon drifts slowly across the sky-blue panel.",
+   "narrador": "Ah, y la Luna también sale de día. Está ahí muchas veces: solo hay que buscarla.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No hay ratón, Pipo. La Luna siempre está entera: cambia cuánto vemos de su mitad iluminada."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Tu respuesta, Plop: no cambia de forma. Cambia de lugar, y la vemos desde otro ángulo."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: Luna llena, media Luna y Luna casi nueva.",
+   "imagen": "Three clay Moons in a row from left to right, evenly spaced: one fully light grey, one half light grey and half dark grey, and one dark grey with a thin light sliver. Clean empty white space above each one.",
+   "narrador": "Repasemos: el Sol ilumina media Luna, la Luna gira alrededor de la Tierra, y vemos partes distintas.",
+   "rotulos": "1 Media Luna iluminada · 2 Da vueltas · 3 Vemos partes distintas"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna da una vuelta mostrando siempre el mismo cráter.",
+   "escena": "The clay Moon floats in the center of the frame, with one big round crater on its front.",
+   "accion": "The clay Moon travels in a slow circle while the big round crater always stays facing the camera.",
+   "narrador": "[curious] Dato extra: la Luna siempre nos muestra la misma cara. Su otro lado nunca se ve desde aquí.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "luna_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una sonda espacial rodea la Luna y pasa por detrás.",
+   "escena": "A small grey clay space probe with two flat blue panels floats beside the clay Moon in the center of the frame.",
+   "accion": "The small space probe travels slowly around the clay Moon and disappears behind it.",
+   "narrador": "Solo las naves espaciales han podido fotografiarlo. Tiene muchísimos más cráteres.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes seguir a la Luna como un astrónomo. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un cuaderno con lunas dibujadas, un lápiz y una Luna pálida.",
+   "imagen": "A small white clay notebook with seven small grey clay circles in a row on it, next to a clay pencil, with a pale grey clay Moon above. Clean empty white space on the right side.",
+   "narrador": "Dibuja la Luna cada noche durante dos semanas. ¿Crece o se achica?",
+   "rotulos": "Reto en casa · diario de la Luna"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

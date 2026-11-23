@@ -1,0 +1,1234 @@
+{
+ "episodio": 22,
+ "id": "ep22",
+ "titulo": "¿Por qué los perros lo huelen todo?",
+ "tema": "Olfato del perro",
+ "categoria": "an",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "terrario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "perrito_de_arcilla",
+  "hocico_por_dentro",
+  "pedacitos_de_olor",
+  "galleta"
+ ],
+ "efectos": [
+  {
+   "es": "Olfateo",
+   "en": "Dog sniffing quickly, close-up"
+  },
+  {
+   "es": "Cola feliz",
+   "en": "Soft rapid tail thumping on the floor"
+  },
+  {
+   "es": "Rastro encontrado",
+   "en": "Short cheerful bark"
+  },
+  {
+   "es": "Olor que flota",
+   "en": "Light airy shimmer"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla",
+    "galleta"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El perrito va directo a la galleta escondida, con la nariz en el suelo.",
+   "escena": "The clay puppy stands on the left of the set with its nose on the floor, and the cookie lies half hidden behind a small white clay box on the right.",
+   "accion": "The clay puppy walks slowly across the set with its nose on the floor, straight to the cookie.",
+   "narrador": "[curious] Una galleta escondida. Nadie la ve… pero este perrito va directo, con la nariz pegada al suelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop olfatea el aire y no encuentra nada.",
+   "escena": "Plop stands in the center of the set, facing the camera.",
+   "accion": "Plop sniffs the air to the left and to the right, again and again, and shrugs.",
+   "narrador": "Plop lo intenta y no huele nada. ¿Qué tiene esa nariz que no tengamos nosotros?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre los perros. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡los perros huelen todo porque son muy, muy chismosos!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El perrito olfatea un poste de arriba abajo.",
+   "escena": "The clay puppy stands beside a small grey clay post in the center of the frame, with its nose against the post.",
+   "accion": "The clay puppy sniffs the post up and down, again and again, wagging its tail.",
+   "narrador": "Algo de razón tiene: oliendo un poste, un perro sabe quién pasó por ahí y cuándo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "tiembla",
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop huele el mismo poste y niega con la cabeza.",
+   "escena": "Plop stands beside the clay puppy, both facing a small grey clay post.",
+   "accion": "Plop leans toward the post and sniffs it, and slowly shakes his head.",
+   "narrador": "Pero ser curioso no alcanza. Plop tiene la misma curiosidad… y no huele nada de eso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: yo también tengo nariz. ¿Qué tiene la suya que no tenga la mía?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La nariz negra del perrito se mueve.",
+   "escena": "The big black nose of the clay puppy fills the frame.",
+   "accion": "The black nose twitches and wiggles, again and again.",
+   "narrador": "¡Buena pregunta! Para empezar, mira esa nariz: siempre húmeda. Y eso no es casualidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La cámara se acerca al hocico del perrito.",
+   "escena": "The clay puppy sits in the center of the set, facing the camera.",
+   "accion": "The clay puppy stays still while the camera glides slowly closer to its nose.",
+   "narrador": "¿Qué habrá dentro de ese hocico? ¿Tú qué crees? Piénsalo… ¡Vamos a entrar!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pedacitos_de_olor",
+    "galleta"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "De la galleta suben pedacitos de olor.",
+   "escena": "The cookie lies in the center of the frame.",
+   "accion": "The smell bits rise slowly from the cookie and drift away through the air.",
+   "narrador": "[excited] ¡Hagamos zoom! Primero, ¿qué es un olor? Son pedacitos diminutos que se escapan de las cosas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla",
+    "pedacitos_de_olor"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "Los pedacitos de olor se pegan a la nariz húmeda.",
+   "escena": "The big black nose of the clay puppy fills the frame, with the smell bits floating in front of it.",
+   "accion": "The smell bits drift onto the black nose one by one and stick to it.",
+   "narrador": "La nariz húmeda los atrapa, como un pañuelo mojado atrapa el polvo. Ni uno se escapa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "hocico_por_dentro"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "El laberinto rosado del hocico ondula.",
+   "escena": "The snout model stands in the center of the frame.",
+   "accion": "The pink folded maze inside the snout model ripples gently, fold after fold.",
+   "narrador": "Por dentro, el hocico es un laberinto de pliegues, cubierto de sensores de olor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "hocico_por_dentro",
+    "pedacitos_de_olor"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "El olor toca los sensores, que se hunden un poquito.",
+   "escena": "The pink folds inside the snout model fill the frame, covered with tiny red clay dots, with the smell bits floating toward them.",
+   "accion": "The smell bits land on the tiny red dots one by one and each dot they touch sinks slightly.",
+   "narrador": "Un perro tiene entre cien y trescientos millones de sensores, según la raza. Tú tienes unos seis millones.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "hocico_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina del hocico por dentro.",
+   "imagen": "The snout model stands centered, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Nariz húmeda que atrapa, un laberinto de pliegues y millones de sensores. ¡Súper nariz!",
+   "rotulos": "Nariz húmeda · Laberinto · Sensores de olor"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: ¿y de qué sirve tanta nariz si el cerebro no entiende lo que huele?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos cerebros: en uno la zona del olfato es pequeña; en el otro, enorme.",
+   "escena": "Two small pink clay brains sit side by side in the center of the frame: the left one has a tiny red clay patch on it and the right one has a large red clay patch.",
+   "accion": "The large red patch on the right brain pulses strongly, while the tiny red patch on the left brain pulses faintly.",
+   "narrador": "¡Bien pensado! En su cerebro, la parte dedicada a oler es muchísimo mayor que en el nuestro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: con una nariz así… ¡el mundo entero debe ser un mapa de olores!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "hocico_por_dentro",
+    "pedacitos_de_olor"
+   ],
+   "movimientos": [
+    "flota",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro del hocico, el aire sigue por abajo y el olor se queda arriba.",
+   "escena": "The snout model fills the frame, with two paths inside it: a lower pink tunnel and an upper pocket of pink folds.",
+   "accion": "Small pale-blue clay wisps flow along the lower tunnel, while the smell bits drift up into the upper pocket and stay there.",
+   "narrador": "Y hay más trucos: al inhalar, una parte del aire se desvía solo para oler.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El aire sale por las ranuras de los lados de la nariz.",
+   "escena": "The big black nose of the clay puppy fills the frame, showing the small slits at its sides.",
+   "accion": "Small pale-blue clay wisps puff out sideways through the slits of the nose, again and again.",
+   "narrador": "Y al soltar el aire, sale por unas ranuras a los lados. Así no espanta los olores nuevos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡es una aspiradora de olores que nunca se apaga!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El perrito olfatea a la izquierda y a la derecha.",
+   "escena": "The clay puppy faces the camera in the center of the frame.",
+   "accion": "The clay puppy tilts its nose slowly to the left and to the right, sniffing each side.",
+   "narrador": "Además, cada fosa nasal huele por separado. Así sabe de qué lado viene el olor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla",
+    "pedacitos_de_olor"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El perrito sigue un rastro de olor por el suelo.",
+   "escena": "A line of the smell bits lies along the floor across the set, and the clay puppy stands at its left end with its nose down.",
+   "accion": "The clay puppy follows the line of smell bits slowly from left to right with its nose on the floor.",
+   "narrador": "Por eso puede seguir un rastro. Cada pisada deja olor, y él lo lee como tú una línea.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y de verdad puede oler cosas que pasaron hace días?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pedacitos_de_olor"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Unos pedacitos de olor, pálidos, se van encogiendo.",
+   "escena": "A few of the smell bits lie on the floor in the center of the frame, very small and pale.",
+   "accion": "The pale smell bits shrink very slowly, a little at a time.",
+   "narrador": "Sí. Los olores se apagan poco a poco, y él nota cuáles son frescos y cuáles viejos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "El perrito olfatea a Plop moviendo la cola.",
+   "escena": "Plop stands facing the camera, with the clay puppy beside him, its nose against his side.",
+   "accion": "The clay puppy sniffs Plop up and down, wagging its tail faster and faster.",
+   "narrador": "Con una sola olfateada sabe quién eres, qué comiste y hasta cómo te sientes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El perrito levanta la nariz hacia una caja.",
+   "escena": "The clay puppy stands on the left of the frame with its nose in the air, and a small white clay box stands on the right.",
+   "accion": "The clay puppy lifts its nose higher and higher, sniffing toward the white box.",
+   "narrador": "Entonces, esa galleta escondida detrás de la caja… para él, ¿está escondida de verdad?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla",
+    "galleta"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El perrito rodea la caja y encuentra la galleta.",
+   "escena": "The clay puppy stands beside a small white clay box, with the cookie just behind the box.",
+   "accion": "The clay puppy walks around the white box, finds the cookie and wags its tail happily.",
+   "narrador": "[excited] ¡Para nada! Su olor flota por todo el cuarto. Es como si la galleta estuviera gritando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El perrito, con un chaleco rojo, rastrea en zigzag.",
+   "escena": "The clay puppy, wearing a small red clay vest, stands in the center of the frame with its nose on the floor.",
+   "accion": "The clay puppy sniffs along the floor in a careful zigzag.",
+   "narrador": "Por eso los perros ayudan a encontrar personas perdidas, y hasta detectan algunas enfermedades.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop acaricia al perrito.",
+   "escena": "Plop stands beside the clay puppy, with one paddle arm on its head.",
+   "accion": "Plop gently pats the clay puppy's head, again and again, and the puppy wags its tail.",
+   "narrador": "Tú ves el mundo con los ojos. Él lo ve con la nariz. Dos formas distintas de conocerlo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No es que sean chismosos, Pipo. Tienen una nariz hecha para atrapar y leer olores."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: su nariz tiene muchísimos más sensores, y su cerebro los escucha."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la nariz que atrapa, el laberinto de sensores y el cerebro.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a big black clay dog nose with tiny orange clay balls stuck on it; a brown clay snout in cross-section with a pink folded maze inside; and a small pink clay brain with a large red patch. Clean empty white space above each one.",
+   "narrador": "Repasemos: la nariz húmeda atrapa los olores, millones de sensores los detectan, y el cerebro los lee.",
+   "rotulos": "1 Atrapa · 2 Detecta · 3 El cerebro lee"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [
+    "perrito_de_arcilla"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "titere",
+   "enPantalla": "La nariz del perrito, con su dibujo de surcos, se acerca como un sello.",
+   "escena": "The big black nose of the clay puppy fills the frame, covered with a pattern of small bumps and lines.",
+   "accion": "The black nose presses forward and pulls back, again and again, like a stamp.",
+   "narrador": "[curious] Dato extra: la nariz de cada perro tiene un dibujo único, como tus huellas dactilares.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "terrario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un elefante olfatea con la trompa en alto.",
+   "escena": "A small grey clay elephant stands in the center of the frame with its trunk raised.",
+   "accion": "The elephant waves its raised trunk slowly through the air, sniffing.",
+   "narrador": "Y hay narices todavía mejores: la del elefante es una de las más finas del reino animal.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "¿Qué tan buena es tu nariz? Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Tres tazones con comida y una venda para los ojos.",
+   "imagen": "Three small clay bowls in a row, holding a slice of yellow clay banana, a wedge of orange clay orange and a brown clay chocolate square, next to a folded blue clay blindfold. Clean empty white space above them.",
+   "narrador": "Con los ojos cerrados, adivina tres comidas solo por su olor. ¿Cuántas aciertas?",
+   "rotulos": "Reto en casa · el juego del olfato"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "terrario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

@@ -1,0 +1,1251 @@
+{
+ "episodio": 20,
+ "id": "ep20",
+ "titulo": "¿Por qué el pan tiene huequitos?",
+ "tema": "Pan",
+ "categoria": "co",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "bola_de_masa",
+  "levaduras",
+  "burbujas_de_gas",
+  "rebanada_de_pan"
+ ],
+ "efectos": [
+  {
+   "es": "La masa crece",
+   "en": "Slow soft stretching dough, airy"
+  },
+  {
+   "es": "Burbujas en la masa",
+   "en": "Tiny soft bubbles popping in thick batter"
+  },
+  {
+   "es": "Horno",
+   "en": "Warm low oven hum with a soft crackle"
+  },
+  {
+   "es": "Pan crujiente",
+   "en": "Crisp bread crust cracking"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bola de masa crece sola hasta desbordar el tazón.",
+   "escena": "The dough ball sits in a wide brown clay bowl in the center of the frame.",
+   "accion": "The dough ball swells slowly until it is twice as big and rises over the rim of the bowl.",
+   "narrador": "[curious] Mira esta bola de masa. Nadie la toca, nadie la infla… ¡y crece sola hasta el doble!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "rebanada_de_pan"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una rebanada de pan gira: está llena de huequitos.",
+   "escena": "The bread slice stands upright in the center of the frame, showing its many small holes.",
+   "accion": "The bread slice turns slowly in place like on a turntable.",
+   "narrador": "Y cuando se hornea, el pan queda lleno de huequitos. ¿Quién hizo todos esos agujeros?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre el pan. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡la masa respira porque está dormida, y por eso se infla!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La masa se mece: no tiene nariz ni pulmones.",
+   "escena": "The dough ball sits in the center of the frame.",
+   "accion": "The dough ball rocks very gently from side to side.",
+   "narrador": "Pero la masa es harina con agua. No tiene nariz ni pulmones. No puede respirar ni dormir.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "bola_de_masa"
+   ],
+   "movimientos": [
+    "empuja",
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop hunde la manopla en la masa y el hueco se rellena solo.",
+   "escena": "Plop stands beside the dough ball with one paddle arm pressed into it.",
+   "accion": "Plop pulls his paddle arm out of the dough and the dent slowly fills back in.",
+   "narrador": "Aunque algo pasa ahí adentro: Plop la aplasta… y ella vuelve a inflarse, muy despacio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: nadie la está inflando. ¿Quién sopla ahí adentro?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Harina, agua y un cubito beige que da saltitos.",
+   "escena": "A small pile of white clay flour, a blue clay water drop and a tiny beige clay cube sit in a row in the center of the frame.",
+   "accion": "The tiny beige cube hops in place, again and again, while the flour and the water drop stay still.",
+   "narrador": "¡Buena pregunta! El pan lleva harina, agua, sal… y un ingrediente secreto, pequeñito y de color beige.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al cubito de levadura.",
+   "escena": "A tiny beige clay cube sits alone in the center of the set.",
+   "accion": "The beige cube stays still while the camera glides slowly closer to it.",
+   "narrador": "Se llama levadura. ¿Qué tendrá de especial? ¿Tú qué crees? Piénsalo… ¡Vamos a mirarla de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "levaduras"
+   ],
+   "movimientos": [
+    "ondula",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una multitud de levaduras se menea.",
+   "escena": "A crowd of yeast cells fills the frame.",
+   "accion": "The yeast cells wiggle and bump gently into each other, again and again.",
+   "narrador": "[excited] ¡Hagamos zoom! La levadura no es un polvo cualquiera. ¡Está viva! Son hongos diminutos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "levaduras"
+   ],
+   "movimientos": [
+    "cae",
+    "revienta",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una gota de agua despierta a las levaduras dormidas.",
+   "escena": "A few yeast cells sit still in the center of the frame, with their eyes closed, and a blue clay water drop above them.",
+   "accion": "The blue water drop lands on the yeast cells and they open their eyes and start to wiggle.",
+   "narrador": "En el paquete están dormidas. Pero con agua tibia despiertan… y despiertan con hambre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "levaduras"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las levaduras se comen un terrón de azúcar.",
+   "escena": "A few yeast cells sit in the center of the frame around a small white clay sugar cube.",
+   "accion": "The yeast cells nibble the white sugar cube, making it slowly smaller.",
+   "narrador": "Su comida favorita es el azúcar. Y la harina tiene azúcares escondidos para ellas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "levaduras",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "flota",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "De las levaduras salen burbujitas blancas.",
+   "escena": "A few yeast cells sit in the center of the frame, round and full.",
+   "accion": "Small white clay bubbles pop out of the yeast cells one by one and float upward.",
+   "narrador": "Y después de comer, cada levadura suelta un poquito de gas. El mismo gas del refresco.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "levaduras",
+    "burbujas_de_gas"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: azúcar, levaduras y burbujas de gas.",
+   "imagen": "Three yeast cells in a row, with a small white clay sugar cube on their left and three gas bubbles on their right, evenly lit. Clean empty white space above them.",
+   "narrador": "Levadura viva, azúcar para comer y gas que sale. ¡Tres piezas para inflar un pan!",
+   "rotulos": "Azúcar · Levadura (hongo vivo) · Gas"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿el pan tiene bichitos vivos? ¿Y me los como?"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa",
+    "levaduras"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de la masa, las levaduras se menean.",
+   "escena": "A cut-open piece of the dough ball fills the frame, with yeast cells scattered inside it.",
+   "accion": "The yeast cells inside the dough wiggle gently in place.",
+   "narrador": "Tranquilo: son hongos buenos, primos de los champiñones. Y en el horno… ya verás qué pasa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: millones de levaduras soltando gas dentro de la masa… ¡eso la infla!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la masa aparecen burbujas que van creciendo.",
+   "escena": "A cut-open piece of the dough ball fills the frame, smooth and solid.",
+   "accion": "Small white bubbles appear inside the dough one by one and slowly grow bigger.",
+   "narrador": "Así es. Cada levadura fabrica su burbujita. Y son millones, repartidas por toda la masa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un trozo de masa se estira largo y fino sin romperse.",
+   "escena": "A piece of cream-colored clay dough is held at both ends by two small brown clay pegs in the center of the frame.",
+   "accion": "The two pegs move slowly apart and the dough stretches long and thin, staying in one piece.",
+   "narrador": "Pero falta algo. La masa de trigo es elástica: se estira como un chicle sin romperse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡la masa está hecha de miles de globitos diminutos!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa",
+    "burbujas_de_gas"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La masa se estira alrededor de cada burbuja.",
+   "escena": "A cut-open piece of the dough ball fills the frame, with a few white bubbles inside it.",
+   "accion": "The white bubbles swell and the dough around them stretches like thin walls, keeping each bubble inside.",
+   "narrador": "Esa red elástica atrapa el gas. Las burbujas no pueden escapar y empujan la masa hacia afuera.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La masa crece en su tazón (puedes repetir el clip 1).",
+   "escena": "The dough ball sits in a wide brown clay bowl in the center of the frame.",
+   "accion": "The dough ball swells slowly until it is twice as big and rises over the rim of the bowl.",
+   "narrador": "Por eso la masa crece. Hay que dejarla reposar una hora, tapada y calentita.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y qué les pasa a las levaduras cuando la masa entra al horno?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bola_de_masa"
+   ],
+   "movimientos": [
+    "gira",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el horno, la masa se infla un poco más y se dora.",
+   "escena": "The risen dough ball sits inside a simple open grey clay oven with an orange clay glow at the bottom.",
+   "accion": "The dough ball puffs up a little more and its surface slowly turns golden-brown.",
+   "narrador": "Con el calor, el gas de cada burbuja se expande todavía más. El pan da su último estirón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "levaduras"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Con el calor, las levaduras cierran los ojos y se detienen.",
+   "escena": "A few yeast cells sit in the center of the frame, with wavy orange clay heat ribbons rising around them.",
+   "accion": "The yeast cells slowly close their eyes and stop moving.",
+   "narrador": "A las levaduras el horno les queda demasiado caliente. Ahí termina su trabajo: ya no están vivas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las burbujas se van y dejan huecos redondos en el pan.",
+   "escena": "A cut-open golden-brown clay loaf fills the frame, with white clay bubbles inside it.",
+   "accion": "The white bubbles fade away, leaving empty round holes in the firm bread.",
+   "narrador": "La masa se endurece alrededor de cada burbuja. El gas se escapa… pero su forma se queda.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "rebanada_de_pan"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La rebanada se inclina y enseña sus huequitos.",
+   "escena": "The bread slice stands upright in the center of the frame, showing its many small holes.",
+   "accion": "The bread slice leans slowly toward the camera, showing its holes up close.",
+   "narrador": "[excited] ¡Esos son los huequitos! Cada agujero del pan es la huella de una burbuja.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pan plano junto a un pan alto.",
+   "escena": "A flat round pale clay flatbread lies in the center of the frame next to a tall golden-brown clay loaf.",
+   "accion": "The tall loaf bounces gently in place while the flatbread stays flat.",
+   "narrador": "Sin levadura, el pan queda plano y apretado, como una tortilla o una galleta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "rebanada_de_pan"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop aprieta la rebanada y vuelve a su forma.",
+   "escena": "Plop stands facing the camera, holding the bread slice between both paddle arms.",
+   "accion": "Plop squeezes the bread slice gently and it springs back to its shape, again and again.",
+   "narrador": "Y por eso el pan es esponjoso: está lleno de aire. Lo aprietas y vuelve a su forma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "La masa no respiraba, Pipo. Eran millones de hongos diminutos, comiendo y soltando gas."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: quien sopla ahí adentro es la levadura."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: levaduras con azúcar, masa con burbujas y pan con huecos.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: small beige clay balls around a white clay sugar cube; a cream-colored clay dough ball full of white bubbles; and a slice of clay bread with many small holes. Clean empty white space above each one.",
+   "narrador": "Repasemos: la levadura come azúcar y suelta gas, la masa lo atrapa, y el horno fija los huequitos.",
+   "rotulos": "1 La levadura suelta gas · 2 La masa lo atrapa · 3 El horno fija los huecos"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pan redondo frente a una pirámide.",
+   "escena": "A small sand-colored clay pyramid stands at the back of the frame, with a round golden-brown clay loaf in front of it.",
+   "accion": "The round loaf rocks gently from side to side in front of the pyramid.",
+   "narrador": "[curious] Dato extra: en el antiguo Egipto ya hacían pan con levadura, hace más de cuatro mil años.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "levaduras"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las levaduras saltan contentas.",
+   "escena": "A crowd of yeast cells fills the frame.",
+   "accion": "The yeast cells bounce happily up and down, one after another.",
+   "narrador": "Pero nadie sabía que estaba viva. Se descubrió hace menos de doscientos años, con un microscopio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes ver a la levadura inflar un globo, con un adulto. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una botella con un globo en la boca, junto a levadura y azúcar.",
+   "imagen": "A pale-grey clay bottle with a small red clay balloon stretched over its neck, half inflated, next to a tiny beige clay cube and a white clay sugar cube. Clean empty white space above them.",
+   "narrador": "En una botella: levadura, agua tibia y azúcar. Tápala con un globo… ¡y espera!",
+   "rotulos": "Reto en casa · con un adulto"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

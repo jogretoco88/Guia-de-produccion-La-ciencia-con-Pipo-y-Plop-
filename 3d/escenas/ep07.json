@@ -1,0 +1,1252 @@
+{
+ "episodio": 7,
+ "id": "ep07",
+ "titulo": "¿Por qué el cielo es azul?",
+ "tema": "Cielo azul",
+ "categoria": "ci",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "sol_de_arcilla",
+  "rayo_de_luz_blanca",
+  "bolitas_de_colores_la_luz",
+  "moleculas_de_aire",
+  "panel_del_cielo"
+ ],
+ "efectos": [
+  {
+   "es": "La luz rebota",
+   "en": "Soft playful boing, light and airy"
+  },
+  {
+   "es": "La luz viaja",
+   "en": "Gentle shimmering whoosh"
+  },
+  {
+   "es": "Pasos gigantes",
+   "en": "Slow big cartoon footsteps"
+  },
+  {
+   "es": "Atardecer",
+   "en": "Warm soft chime swell"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "panel_del_cielo"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira hacia arriba, hacia el panel azul del cielo.",
+   "escena": "Pipo stands in front of the sky panel, looking up at it.",
+   "accion": "Pipo slowly tilts his head back, farther and farther, staring up at the blue panel.",
+   "narrador": "[curious] Mira hacia arriba. El cielo es azul, enorme y azul. Pero… ¿quién lo pintó?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "flota",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Unas moléculas de aire flotan: el aire no tiene color.",
+   "escena": "A few air molecules float in the center of the frame.",
+   "accion": "The air molecules drift slowly around each other, bobbing gently.",
+   "narrador": "El aire es transparente: puedes ver a través de él. Entonces, ¿de dónde sale tanto azul?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Es una de las preguntas más famosas del mundo. ¿Listos?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡el cielo es azul porque es un espejo del mar!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, sobre una duna, busca el mar y no lo encuentra.",
+   "escena": "Pipo stands on a low yellow clay sand dune, facing the camera.",
+   "accion": "Pipo looks slowly all around him, searching, and shrugs.",
+   "narrador": "Pero en el desierto no hay mar por ninguna parte… y el cielo es igual de azul.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un vaso con agua de mar: es transparente.",
+   "escena": "A chunky clay glass filled with pale, almost colorless clay water stands in the center of the frame.",
+   "accion": "The glass rocks gently from side to side.",
+   "narrador": "Además, un vaso de agua de mar es transparente. El azul no viene de ahí.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si el aire no tiene color, ¿qué le hace a la luz del Sol?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla",
+    "rayo_de_luz_blanca"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del Sol sale un rayo de luz blanca.",
+   "escena": "The clay sun sits on the left with the white light beam stretching from it toward the right.",
+   "accion": "The white light beam slides slowly forward from the sun toward the right edge of the frame.",
+   "narrador": "¡Esa es la pista! El secreto está en lo que pasa cuando la luz atraviesa el aire.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "rayo_de_luz_blanca"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al rayo de luz blanca.",
+   "escena": "The white light beam lies across the center of the set.",
+   "accion": "The white light beam stays still while the camera glides slowly closer to it.",
+   "narrador": "¿De qué está hecha la luz del Sol? ¿Tú qué crees? Piénsalo… ¡Vamos a mirarla por dentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "rayo_de_luz_blanca",
+    "bolitas_de_colores_la_luz"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "El rayo blanco se deshace en bolitas de todos los colores.",
+   "escena": "The white light beam lies across the center of the frame.",
+   "accion": "The white light beam slowly breaks apart into a row of small clay balls in rainbow colors.",
+   "narrador": "[excited] ¡Hagamos zoom! La luz del Sol parece blanca, pero esconde todos los colores juntos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolitas_de_colores_la_luz"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita roja avanza a saltos largos; la azul, a saltitos cortos.",
+   "escena": "One red clay ball and one blue clay ball stand side by side on the left of the frame.",
+   "accion": "Both balls travel to the right: the red ball in long, lazy hops and the blue ball in short, quick hops.",
+   "narrador": "Cada color viaja distinto. El rojo da pasos largos y tranquilos; el azul, pasitos cortos y rápidos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "flota",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las moléculas de aire flotan como obstáculos diminutos.",
+   "escena": "Many air molecules float spread out across the frame.",
+   "accion": "The air molecules bob gently in place, like tiny floating obstacles.",
+   "narrador": "Y el aire, aunque no lo veas, está lleno de moléculas: bolitas mucho más pequeñas que el polvo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolitas_de_colores_la_luz",
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita roja pasa entre las moléculas sin tocarlas.",
+   "escena": "One red clay ball stands on the left, with a few air molecules floating across the middle of the frame.",
+   "accion": "The red ball travels to the right in long hops, passing between the air molecules without touching them.",
+   "narrador": "Los pasos largos del rojo saltan sobre las moléculas casi sin tocarlas. El rojo sigue de largo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "rayo_de_luz_blanca",
+    "bolitas_de_colores_la_luz"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: la luz blanca y sus colores.",
+   "imagen": "The white light beam on the left and the color balls in a row on the right, evenly lit. Clean empty white space above them.",
+   "narrador": "Luz blanca: todos los colores juntos. Y cada color camina a su propio paso.",
+   "rotulos": "Luz blanca = todos los colores · Rojo: paso largo · Azul: paso corto"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo marcha con pasos gigantes.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo marches in place with slow, exaggerated giant steps.",
+   "narrador": "Pipo lo prueba: con pasos gigantes, pasa por encima de las piedritas del camino.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolitas_de_colores_la_luz",
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita azul choca con las moléculas y cambia de rumbo.",
+   "escena": "One blue clay ball stands on the left, with a few air molecules floating across the middle of the frame.",
+   "accion": "The blue ball travels in short hops, bumps into an air molecule and bounces away in a new direction, again and again.",
+   "narrador": "Pero los pasitos del azul tropiezan con las moléculas una y otra vez. Y cada choque lo desvía.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si el azul rebota por todos lados… ¡va a llenar todo el cielo!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla",
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "aparece",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bolitas azules salen del Sol y rebotan por todo el cuadro.",
+   "escena": "The clay sun sits in the upper left, and many air molecules float across the rest of the frame.",
+   "accion": "Small blue clay balls leave the sun and bounce from one air molecule to another, spreading across the whole frame.",
+   "narrador": "Eso es justo lo que pasa. La luz azul rebota de molécula en molécula por todo el cielo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "A Pipo le llegan bolitas azules desde todas partes.",
+   "escena": "Pipo stands in the center of the set, looking up.",
+   "accion": "Small blue clay balls drift slowly down toward Pipo from every direction, one after another.",
+   "narrador": "Por eso, mires donde mires, te llega luz azul. No viene de un punto: viene de todas partes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "panel_del_cielo"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo abre los brazos frente al panel del cielo.",
+   "escena": "Pipo stands in front of the sky panel.",
+   "accion": "Pipo slowly spreads both paddle arms wide, looking up at the blue panel.",
+   "narrador": "El cielo no está pintado. Es luz azul rebotando sobre nuestras cabezas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y los otros colores? ¿A dónde se fueron el rojo y el amarillo?"
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla",
+    "bolitas_de_colores_la_luz"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "El rojo y el amarillo salen del Sol en línea recta.",
+   "escena": "The clay sun sits on the left, with one red and one yellow clay ball beside it.",
+   "accion": "The red ball and the yellow ball travel in a straight line from the sun to the right edge of the frame.",
+   "narrador": "Siguen su camino, casi rectos. Por eso el Sol se ve amarillento: es luz que no se desvió.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: el azul es el más juguetón. ¡Se la pasa rebotando!"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla",
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol baja hacia el horizonte, detrás de una larga fila de aire.",
+   "escena": "The clay sun sits low at the left edge of the frame, with a long row of air molecules stretching across to the right.",
+   "accion": "The clay sun sinks slowly lower, little by little.",
+   "narrador": "Ahora mira el atardecer. El Sol está bajito y su luz cruza muchísimo más aire.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "bolitas_de_colores_la_luz",
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas azules se pierden rebotando; llegan las naranjas y rojas.",
+   "escena": "A long row of air molecules stretches across the frame, with blue, orange and red clay balls on the left.",
+   "accion": "The balls travel to the right: the blue ones bounce away and leave the frame, while the orange and red ones reach the right edge.",
+   "narrador": "En ese viaje tan largo, el azul se pierde rebotando. Solo llegan el naranja y el rojo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol cambia de amarillo a rojo anaranjado.",
+   "escena": "The clay sun sits low in the center of the set.",
+   "accion": "The clay sun slowly changes from bright yellow to deep orange-red.",
+   "narrador": "Y entonces el cielo, que era azul todo el día, se pone…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se sienta a mirar el Sol rojo del atardecer.",
+   "escena": "Pipo stands beside a low orange-red clay sun, looking at it.",
+   "accion": "Pipo slowly sits down facing the orange-red sun and sways gently, enjoying the view.",
+   "narrador": "[excited] ¡Rojo y naranja! El atardecer es la misma luz, después de perder su azul.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "bolitas_de_colores_la_luz",
+    "moleculas_de_aire"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita azul rebota entre dos moléculas.",
+   "escena": "One blue clay ball sits in the center of the frame between two air molecules.",
+   "accion": "The blue ball bounces back and forth between the two air molecules, again and again.",
+   "narrador": "Mismo Sol, mismo aire. Lo único que cambia es cuánto aire tiene que cruzar la luz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo asiente mirando hacia arriba.",
+   "escena": "Pipo stands in the center of the set, looking up.",
+   "accion": "Pipo nods slowly while looking up, with wide, amazed eyes.",
+   "narrador": "De día, poco aire: gana el azul. Al atardecer, mucho aire: ganan el rojo y el naranja.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era un espejo del mar, Pipo. Es la luz azul del Sol, rebotando en el aire."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: el aire no tiene color, pero desvía la luz azul."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la luz de colores, el azul que rebota y el atardecer.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a thick white clay rod next to small clay balls in rainbow colors; one blue clay ball among a few pale-grey clay balls; and a low orange-red clay sun. Clean empty white space above each one.",
+   "narrador": "Repasemos: la luz blanca lleva todos los colores, el aire desvía el azul, y al atardecer llega el rojo.",
+   "rotulos": "1 Luz de todos los colores · 2 El azul rebota · 3 Atardecer rojo"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "sol_de_arcilla"
+   ],
+   "movimientos": [
+    "crece",
+    "encoge",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "El Sol brilla sobre un suelo lunar con el cielo negro.",
+   "escena": "A grey clay ground with small craters stretches across the frame, with a tall flat black clay panel standing behind it and the clay sun in front of the panel.",
+   "accion": "The clay sun pulses very gently, growing and shrinking a little, against the black panel.",
+   "narrador": "[curious] Dato extra: en la Luna no hay aire que desvíe la luz. ¿De qué color será su cielo?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "personaje",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, en la Luna, mira un cielo negro.",
+   "escena": "Pipo stands on a grey clay ground with small craters, in front of a tall flat black clay panel.",
+   "accion": "Pipo slowly looks up at the black panel and tilts his head in surprise.",
+   "narrador": "¡Negro! Incluso de día, con el Sol brillando. Sin aire, no hay azul.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes fabricar un cielo en un vaso. Plop tiene un reto para ti, con un adulto."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un vaso con agua lechosa y una linterna.",
+   "imagen": "A chunky clay glass filled with pale milky-white clay water, with a small grey clay flashlight pointing at it from the left. Clean empty white space on the right side.",
+   "narrador": "Agua, gotas de leche y una linterna. De lado se ve azulado; de frente, anaranjado.",
+   "rotulos": "Reto en casa · un cielo en un vaso"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

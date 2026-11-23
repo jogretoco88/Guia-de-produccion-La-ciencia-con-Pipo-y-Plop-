@@ -1,0 +1,1235 @@
+{
+ "episodio": 46,
+ "id": "ep46",
+ "titulo": "¿Por qué se nos pone la piel de gallina?",
+ "tema": "Piel de gallina",
+ "categoria": "cu",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cuerpo",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "piel_por_dentro",
+  "gato",
+  "puercoespin",
+  "maqueta_de_brazo"
+ ],
+ "efectos": [
+  {
+   "es": "Viento frío",
+   "en": "Cold wind gust"
+  },
+  {
+   "es": "Escalofrío",
+   "en": "Quick comic shiver sound"
+  },
+  {
+   "es": "Gato bufando",
+   "en": "Small cat hiss"
+  },
+  {
+   "es": "Cajita de música",
+   "en": "Soft music box melody"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "flota",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Al brazo le salen bultitos y se le levantan los pelos.",
+   "escena": "The arm model lies in the center of the frame, its fine hairs lying flat.",
+   "accion": "Small round bumps slowly rise all over the skin and the fine hairs stand up.",
+   "narrador": "[curious] Sales de la piscina, sopla el viento… y de repente, tu brazo se llena de bultitos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop tirita y se abraza.",
+   "escena": "Plop stands facing the camera in the center of the set.",
+   "accion": "Plop shivers and hugs himself with both paddle arms.",
+   "narrador": "¡Piel de gallina! Y no solo con frío: también con un susto, o con una canción emocionante.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre la piel de gallina. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡te estás convirtiendo en gallina y te van a salir plumas!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una gallina ahueca sus plumas.",
+   "escena": "A plump white clay hen stands in the center of the frame on brown clay ground.",
+   "accion": "The hen fluffs up its feathers and settles them back down.",
+   "narrador": "No te saldrán plumas. Se llama así porque, sin plumas, la piel de las aves tiene bultitos parecidos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "ondula",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "En cada bultito, un pelito de pie.",
+   "escena": "The arm model fills the frame, covered in small bumps with one fine hair standing up from each bump.",
+   "accion": "The fine hairs sway gently on top of their bumps.",
+   "narrador": "Fíjate bien: en cada bultito hay un pelito de pie. ¡Los bultos y los pelos van juntos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: ¿quién levanta esos pelitos? ¡Yo no lo hago a propósito!"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "balancea",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira de cerca los bultitos.",
+   "escena": "Plop stands beside the arm model, which lies on a white clay table at his height.",
+   "accion": "Plop leans in slowly and looks closely at the bumps on the arm model.",
+   "narrador": "Plop tiene razón: no puedes poner la piel de gallina queriendo. Ni quitarla. Pasa sola.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "rebota",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a un bultito.",
+   "escena": "The arm model lies alone on a white clay base in the center of the set, covered in small bumps.",
+   "accion": "The arm model stays still while the camera glides slowly closer to one bump.",
+   "narrador": "¿Qué habrá debajo de cada pelito? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar bajo la piel!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Zoom: el pelo, su bolsillito y un músculo diminuto.",
+   "escena": "The skin slice fills the frame, showing one fine hair growing out of its small pocket with the tiny red muscle attached to its side.",
+   "accion": "The tiny red muscle twitches gently.",
+   "narrador": "[excited] ¡Hagamos zoom! Cada pelo nace de un bolsillito en la piel. Y lleva pegado un músculo diminuto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "crece",
+    "encoge",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El músculo se encoge y el pelo se pone de pie.",
+   "escena": "The skin slice fills the frame, with the hair lying flat and the tiny red muscle relaxed.",
+   "accion": "The tiny red muscle squeezes shorter, the hair stands straight up and the skin above it puffs into a small bump.",
+   "narrador": "Cuando ese músculo se encoge, tira del pelo y lo pone de pie. ¡Y sale un bultito!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "encoge",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un aviso viaja por el nervio hasta el músculo.",
+   "escena": "The skin slice fills the frame, with a thin yellow clay nerve reaching the tiny red muscle.",
+   "accion": "A small glowing yellow bead travels along the nerve and the tiny red muscle squeezes.",
+   "narrador": "Un nervio da la orden, sin que tú decidas. Es el mismo sistema que salta con los sustos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Muchos pelos se levantan a la vez.",
+   "escena": "A wide strip of the skin slice fills the frame, with many hairs lying flat and a tiny red muscle beside each one.",
+   "accion": "All the tiny red muscles squeeze together and all the hairs stand up at the same time.",
+   "narrador": "Y como tienes miles de pelitos, se levantan todos a la vez. ¡Una ola de bultitos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "piel_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: nervio, musculito, pelo de pie y bultito.",
+   "imagen": "The skin slice in the center, showing the hair standing up straight with its tiny red muscle squeezed short and a small bump in the skin above. Clean empty white space above it.",
+   "narrador": "Un nervio avisa, el musculito se encoge, el pelo se levanta y aparece el bultito.",
+   "rotulos": "Nervio → musculito → pelo de pie → bultito"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gato"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El gato se ahueca en la nieve.",
+   "escena": "The cat sits on white clay snow in the center of the frame.",
+   "accion": "The cat's fur slowly puffs up, making it look round and fluffy.",
+   "narrador": "¿Y para qué sirve? En animales peludos, el pelo erizado atrapa aire calentito, como un abrigo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "gato"
+   ],
+   "movimientos": [
+    "crece",
+    "balancea"
+   ],
+   "animacion": "titere",
+   "enPantalla": "El gato se asusta y se infla.",
+   "escena": "The cat stands on a grey clay floor in the center of the frame, facing a small green clay cucumber.",
+   "accion": "The cat arches its back and its fur puffs up, making it look much bigger.",
+   "narrador": "Y con un susto, el gato se infla para parecer más grande. ¡Que nadie se meta con él!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: al gato le sirve… pero nosotros casi no tenemos pelo. ¿Y a nosotros?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: quizá es algo que nos quedó de nuestros antepasados peludos…"
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un simio peludo eriza su pelo.",
+   "escena": "A small furry brown clay ape sits on a green clay branch in the center of the frame.",
+   "accion": "The ape's brown fur slowly puffs up all over its body.",
+   "narrador": "¡Bien pensado! Nuestros parientes lejanos eran mucho más peludos. A ellos sí les abrigaba.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: ¡es un abrigo de pelo… sin pelo suficiente!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un ratón en la nieve se pone más peludo.",
+   "escena": "A small white clay mouse sits on white clay snow in the center of the frame.",
+   "accion": "The mouse's white fur slowly grows a little thicker and fluffier.",
+   "narrador": "Una pista nueva: en ratones, ese musculito ayuda a que crezca más pelo con el frío.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "puercoespin"
+   ],
+   "movimientos": [],
+   "animacion": "titere",
+   "enPantalla": "El puercoespín levanta sus púas.",
+   "escena": "The porcupine stands on brown clay ground in the center of the frame, its long quills lying flat.",
+   "accion": "The porcupine slowly raises all its long quills until they stand straight up.",
+   "narrador": "Y el puercoespín usa el mismo truco: sus púas son pelos gruesos, y las levanta con esos musculitos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y por qué se me pone la piel de gallina con una canción bonita?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita escucha música con los ojos cerrados.",
+   "escena": "A small clay figure sits in the center of the frame wearing big red clay headphones, with small colorful clay music notes floating around it.",
+   "accion": "The music notes float slowly upward and the figure closes its eyes and smiles.",
+   "narrador": "Una emoción fuerte enciende el mismo sistema que el susto o el frío. ¡El cuerpo se emociona entero!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "flota",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Al brazo le salen bultitos; a la palma de la mano, no.",
+   "escena": "The arm model lies in the center of the frame next to a peach clay hand model with its palm facing up.",
+   "accion": "Small bumps rise on the arm while the palm of the hand stays smooth.",
+   "narrador": "Por cierto: en las palmas de las manos nunca sale piel de gallina. ¡Allí no hay pelos!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop levanta una libreta: tiene una idea.",
+   "escena": "Plop stands facing the camera, holding a small yellow clay notebook in one paddle arm.",
+   "accion": "Plop slowly lifts the notebook and taps it with his other paddle arm.",
+   "narrador": "Plop tiene una idea: ¿una lista de todo lo que nos pone la piel de gallina?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una libreta con un cubito, una nota musical y un fantasmita.",
+   "escena": "A small yellow clay notebook lies open in the center of the frame, with three small clay drawings on its pages: an ice cube, a music note and a little ghost.",
+   "accion": "The three small drawings wiggle gently on the page, one after another.",
+   "narrador": "[excited] Un cubito de hielo, tu canción favorita, una historia de miedo… ¿Cuál gana?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "maqueta_de_brazo"
+   ],
+   "movimientos": [
+    "balancea",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Los bultitos del brazo se alisan.",
+   "escena": "Plop stands beside the arm model, which shows small bumps all over its skin.",
+   "accion": "Plop nods slowly as the bumps on the arm model smooth away.",
+   "narrador": "Y fíjate cuánto dura: en cuanto pasa el frío o la emoción, los musculitos se relajan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop asiente y sonríe.",
+   "escena": "Plop stands facing the camera in the center of the set.",
+   "accion": "Plop nods slowly and smiles.",
+   "narrador": "La piel de gallina es un recuerdo de cuando éramos más peludos… que todavía sigue funcionando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No te saldrán plumas, Pipo. Son musculitos que levantan cada pelo y hacen un bultito."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: los levanta un nervio, solito, sin que tú se lo pidas."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: nervio, musculito que tira y brazo con bultitos.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a thin yellow clay nerve with a glowing bead; a cut-open piece of peach clay skin with a hair standing up and a tiny red muscle; and a peach clay arm covered in small bumps. Clean empty white space above each one.",
+   "narrador": "Repasemos: un nervio avisa, cada musculito tira de su pelo, y la piel se llena de bultitos.",
+   "rotulos": "1 El nervio avisa · 2 El musculito tira · 3 ¡Bultitos!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita se concentra y le salen bultitos.",
+   "escena": "A small clay figure in a blue shirt stands in the center of the frame, holding out one bare arm and concentrating.",
+   "accion": "Small bumps slowly rise along the figure's bare arm.",
+   "narrador": "[curious] Dato extra: unas pocas personas pueden ponerse la piel de gallina a voluntad. ¡Un superpoder rarísimo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cuerpo",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "A una figurita se le ponen los pelos de punta.",
+   "escena": "A small clay figure with short brown clay hair stands in the center of the frame, looking surprised.",
+   "accion": "The figure's short hair slowly stands straight up on its head.",
+   "narrador": "Y cuando dices «se me ponen los pelos de punta», hablas del mismo musculito. ¡Era literal!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, una lista de escalofríos. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una libreta, un cubito, una nota musical y un fantasmita.",
+   "imagen": "A small yellow clay notebook on the left and three small clay icons on the right: an ice cube, a music note and a little ghost. Clean empty white space above them.",
+   "narrador": "Haz tu lista: ¿qué te pone la piel de gallina? ¿Frío, una canción, un susto?",
+   "rotulos": "Reto en casa · cazadores de escalofríos"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cuerpo",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

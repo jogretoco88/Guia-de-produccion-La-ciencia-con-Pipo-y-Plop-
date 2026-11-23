@@ -1,0 +1,1249 @@
+{
+ "episodio": 6,
+ "id": "ep06",
+ "titulo": "¿Por qué lloramos al cortar cebolla?",
+ "tema": "Cebolla",
+ "categoria": "co",
+ "protagonista": "L",
+ "acompanante": "P",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "cebolla_gigante",
+  "cebolla_partida",
+  "maqueta_de_una_celda_de_cebolla",
+  "maqueta_de_un_ojo"
+ ],
+ "efectos": [
+  {
+   "es": "Corte de cebolla",
+   "en": "Crisp knife slicing through an onion on a wooden board"
+  },
+  {
+   "es": "Gas que sube",
+   "en": "Soft airy hiss rising gently"
+  },
+  {
+   "es": "Lágrima que cae",
+   "en": "Single cartoon water drop plink"
+  },
+  {
+   "es": "Alarma del ojo",
+   "en": "Small toy alarm, two quick beeps"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "cebolla_partida"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta",
+    "late"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop, junto a la cebolla recién cortada, derrama lágrimas de arcilla.",
+   "escena": "Plop stands beside the cut onion model, facing the camera.",
+   "accion": "Blue clay tears pop out of Plop's eyes one by one and roll down his cheeks while he blinks.",
+   "narrador": "[curious] Plop está llorando. Pero no está triste. Solo cortó una cebolla. ¿Qué pasó aquí?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "cebolla_gigante"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cebolla entera se mece, inofensiva.",
+   "escena": "The onion stands alone in the center of the frame.",
+   "accion": "The onion rocks gently from side to side.",
+   "narrador": "Mira: la cebolla entera no molesta a nadie. Pero al cortarla, hace llorar hasta al más valiente.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P6",
+    "nombre": "Curioso",
+    "direccion": "Pipo leans slowly toward the camera with curious eyes and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Mm? ¿Pito?",
+    "intencion": "Curioso",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se inclina hacia la cámara, curioso.",
+   "narrador": "Pipo ya tiene una teoría sobre estas lágrimas. Y es bastante loca. ¿Listos para investigar?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: la cebolla se pone triste cuando la cortan, ¡y la tristeza se contagia!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "cebolla_gigante"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cebolla gira despacio: no tiene ojos ni cara.",
+   "escena": "The onion stands in the center of the frame.",
+   "accion": "The onion turns slowly in place like on a turntable.",
+   "narrador": "Pero la cebolla no tiene ojos, ni cara, ni cerebro. No puede sentir tristeza… ni contagiarla.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "cebolla_gigante"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Plop huele la cebolla entera y no llora.",
+   "escena": "Plop stands right next to the onion with his face close to it.",
+   "accion": "Plop sniffs the onion calmly, again and again, with dry, relaxed eyes.",
+   "narrador": "Además, Plop la huele entera, bien de cerca, y no pasa nada. Ni una lágrima.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si entera no me hace llorar, ¿qué cambia cuando la corto?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "cebolla_gigante"
+   ],
+   "movimientos": [
+    "revienta",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un cuchillo de arcilla parte la cebolla en dos.",
+   "escena": "The onion stands in the center of the frame with a chunky grey clay knife resting on top of it.",
+   "accion": "The clay knife slowly presses down through the onion until it splits into two halves.",
+   "narrador": "¡Buena pregunta! Al cortarla rompemos algo por dentro. Algo que estaba cerrado y muy bien guardado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "cebolla_partida"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la cara cortada de la cebolla.",
+   "escena": "The cut onion model lies in the center of the set with its cut face toward the camera.",
+   "accion": "The cut onion model stays still while the camera glides slowly closer to its white layers.",
+   "narrador": "¿Qué se rompe ahí adentro? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar muy de cerca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "cebolla_partida"
+   ],
+   "movimientos": [
+    "ondula",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las capas blancas de la cebolla se mueven como una ola.",
+   "escena": "The white layers of the cut onion model fill the frame.",
+   "accion": "The white layers flex gently, one after another, like a slow wave.",
+   "narrador": "[excited] ¡Hagamos zoom! La cebolla está hecha de capas, y cada capa de millones de celdas diminutas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_una_celda_de_cebolla"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una celda: un cuarto con dos cajones separados.",
+   "escena": "The onion cell model stands in the center of the frame.",
+   "accion": "The green balls and the orange balls jiggle gently, each group staying inside its own compartment.",
+   "narrador": "Cada celda es como un cuarto con dos cajones. En uno guarda una sustancia; en el otro, otra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_una_celda_de_cebolla"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pared entre los dos cajones aguanta firme.",
+   "escena": "The inner wall of the onion cell model fills the center of the frame, with green balls on its left and orange balls on its right.",
+   "accion": "The inner clay wall quivers gently while the green balls and the orange balls stay apart on each side.",
+   "narrador": "Mientras están separadas, no pasa nada. Son tranquilas, como dos vecinos que nunca se ven.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_una_celda_de_cebolla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "La hoja del cuchillo rompe la pared de la celda.",
+   "escena": "The onion cell model stands in the center of the frame, with a grey clay blade touching its top edge.",
+   "accion": "The grey clay blade slides slowly down through the box, breaking the wall between the two compartments.",
+   "narrador": "Pero el cuchillo rompe las paredes. Y por primera vez, las dos sustancias se encuentran.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "maqueta_de_una_celda_de_cebolla"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de la celda con sus dos cajones.",
+   "imagen": "The onion cell model stands centered, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Dos sustancias, dos cajones y una pared entre ellas. ¡Recuerda esa pared!",
+   "rotulos": "Sustancia 1 · Pared · Sustancia 2"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P3",
+    "nombre": "Ni idea",
+    "direccion": "Pipo slowly lifts both paddle arms in a big shrug and tilts his head."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Mmm… ¿bo-ti?",
+    "intencion": "No tiene ni idea",
+    "etiqueta": "[curious]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros.",
+   "narrador": "Pipo pregunta: ¿y qué tiene de malo que se junten? ¡Solo son dos vecinos saludándose!"
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_una_celda_de_cebolla"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas verdes y naranjas se juntan y forman una nubecita.",
+   "escena": "The onion cell model fills the frame, with its inner wall broken and the green balls and the orange balls side by side.",
+   "accion": "The green balls and the orange balls roll together and merge into one small yellow-green clay cloud.",
+   "narrador": "Pues al mezclarse reaccionan. Y juntas fabrican algo nuevo: un gas que antes no existía.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya sospecha a dónde va ese gas… Sube, sube, directo hacia arriba."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "cebolla_partida"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "De la cebolla cortada suben nubecitas de gas.",
+   "escena": "The cut onion model lies in the center of the set.",
+   "accion": "Small yellow-green clay clouds rise slowly from the cut onion, one after another, drifting upward.",
+   "narrador": "Millones de celdas rotas sueltan su gas al mismo tiempo. Y el gas flota por el aire.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_un_ojo"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nubecita de gas se acerca al ojo.",
+   "escena": "The eye model sits in the center of the frame, with one small yellow-green clay cloud floating to its left.",
+   "accion": "The yellow-green cloud drifts slowly toward the eye model until it touches it.",
+   "narrador": "En pocos segundos llega a tus ojos. Y tus ojos siempre están cubiertos de una capa de agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_un_ojo"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El ojo se entrecierra y se pone rosado donde lo toca el gas.",
+   "escena": "The eye model fills the frame, with one small yellow-green clay cloud touching its surface.",
+   "accion": "The eye model slowly squints and turns pink around the spot where the cloud touches it.",
+   "narrador": "El gas irrita los sensores de tu ojo, los mismos que avisan cuando entra polvo o humo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_un_ojo"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una señal viaja por un cable desde el ojo hasta el cerebro.",
+   "escena": "The eye model sits on the left and a small pink clay brain on the right, joined by a long red clay cord lying on the set.",
+   "accion": "One small yellow clay bead travels slowly along the red cord from the eye model to the brain.",
+   "narrador": "Los sensores mandan un mensaje urgente al cerebro: ¡alerta, algo está molestando al ojo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo entiende así: es como la alarma de humo de la casa. Suena aunque no haya fuego."
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_un_ojo"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolsita azul sobre el ojo suelta lágrimas.",
+   "escena": "The eye model sits in the center of the frame, with a small blue clay pouch attached just above it.",
+   "accion": "The blue pouch squeezes gently and blue clay tears roll out of it down over the eye, one after another.",
+   "narrador": "El cerebro responde enseguida. Ordena a unas glándulas encima del ojo: ¡fabriquen lágrimas, muchas lágrimas!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_un_ojo"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las lágrimas arrastran la nubecita fuera del ojo.",
+   "escena": "The eye model sits in the center of the frame with a small yellow-green clay cloud stuck on it and blue clay tears just above it.",
+   "accion": "The blue tears roll down over the eye and carry the yellow-green cloud away with them.",
+   "narrador": "Las lágrimas no son de tristeza. Son una manguera: lavan el gas y lo sacan del ojo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L5",
+    "nombre": "Lo entendió",
+    "direccion": "Plop's eyes grow wide and he slowly raises one paddle arm, as if he just understood something."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Aaah, nilú!",
+    "intencion": "Lo entendió",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop abre los ojos y levanta un brazo: ¡lo entendió!",
+   "narrador": "Plop lo acaba de entender: no lloro por pena. ¡Mis ojos se están defendiendo!"
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "cebolla_partida"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "late"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop parpadea entre lágrimas junto a la cebolla.",
+   "escena": "Plop stands beside the cut onion model with blue clay tears on his cheeks.",
+   "accion": "Plop blinks slowly, again and again, as more blue clay tears roll down his cheeks.",
+   "narrador": "Pero si la cebolla no está triste… ¿para qué fabrica un gas tan molesto?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "cebolla_gigante"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un ratón de arcilla se aparta de la cebolla, lagrimeando.",
+   "escena": "The onion stands in the center of the frame, with a small brown clay mouse touching it with its nose.",
+   "accion": "The clay mouse backs away from the onion, shaking its head again and again, with tiny blue tears on its face.",
+   "narrador": "Para defenderse. Si un animal la muerde, el gas le arde en los ojos y no vuelve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [
+    "cebolla_gigante"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop mira la cebolla con respeto.",
+   "escena": "Plop stands beside the onion, looking at it.",
+   "accion": "Plop nods slowly at the onion, as if showing respect.",
+   "narrador": "La cebolla no puede correr ni esconderse. Su única arma es la química.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "cebolla_partida"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "De la cebolla fría sube una sola nubecita, muy despacio.",
+   "escena": "The cut onion model lies in the center of the frame with three small blue clay snowflake shapes resting on it.",
+   "accion": "A single small yellow-green clay cloud rises very slowly from the cut onion.",
+   "narrador": "¿Un truco? El frío vuelve lento al gas. Una cebolla recién sacada de la nevera hace llorar menos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era tristeza contagiosa, Pipo. Era un gas que sale cuando dos sustancias se juntan."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: entera está cerrada. Al cortarla, rompes las paredes y sale el gas."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la celda rota, el gas y el ojo con lágrimas.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a white clay box with a broken inner wall; a small yellow-green clay cloud; and a friendly clay eye with blue clay tears. Clean empty white space above each one.",
+   "narrador": "Repasemos: el cuchillo rompe las celdas, se forma un gas, y tus lágrimas lo lavan.",
+   "rotulos": "1 Celdas rotas · 2 Gas · 3 Lágrimas que lavan"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Tres lágrimas de distinto tamaño se mecen en fila.",
+   "escena": "Three blue clay tears of different sizes stand in a row in the center of the frame.",
+   "accion": "The three tears wobble gently, one after another, from left to right.",
+   "narrador": "[curious] Dato extra: tus ojos fabrican tres tipos de lágrimas. Unas para cada parpadeo, otras para defenderse…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "personaje",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Plop se seca una lágrima y parpadea contento.",
+   "escena": "Plop stands in the center of the set, facing the camera, with one blue clay tear on his cheek.",
+   "accion": "Plop slowly wipes the tear from his cheek with one paddle arm and blinks with happy eyes.",
+   "narrador": "…y otras para las emociones. Que sepamos, solo las personas lloramos así. ¡Y aún es un misterio!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora te toca investigar en tu cocina. Plop tiene un reto para ti, con un adulto."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Dos cebollas: una con un copo de nieve encima y otra sin nada.",
+   "imagen": "Two round golden-brown clay onions side by side: the left one with a small blue clay snowflake on top, the right one plain. Clean empty white space above them.",
+   "narrador": "Corten una cebolla fría de la nevera y otra sin enfriar. ¿Cuál hace llorar menos?",
+   "rotulos": "Reto en casa · con un adulto"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L10",
+    "nombre": "Adiós",
+    "direccion": "Plop waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Chau-lú!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

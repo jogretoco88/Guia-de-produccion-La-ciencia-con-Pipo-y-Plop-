@@ -1,0 +1,1236 @@
+{
+ "episodio": 21,
+ "id": "ep21",
+ "titulo": "¿Por qué el trueno suena después del rayo?",
+ "tema": "Rayo y trueno",
+ "categoria": "ci",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "nube_de_tormenta",
+  "rayo",
+  "trocitos_de_hielo",
+  "anillos_de_sonido"
+ ],
+ "efectos": [
+  {
+   "es": "Trueno cercano",
+   "en": "Loud thunder crack followed by a rolling rumble"
+  },
+  {
+   "es": "Trueno lejano",
+   "en": "Soft distant rolling thunder"
+  },
+  {
+   "es": "Rayo",
+   "en": "Very short sharp electric crackle"
+  },
+  {
+   "es": "Lluvia en la ventana",
+   "en": "Steady rain against a window"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta",
+    "rayo"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "De la nube oscura cae un rayo y desaparece.",
+   "escena": "The storm cloud floats at the top of the set above a flat green clay ground.",
+   "accion": "The lightning bolt shoots down from the storm cloud to the green ground and disappears.",
+   "narrador": "[whispers] Noche de tormenta. De pronto, un destello lo ilumina todo… y luego, silencio.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo escucha, muy quieto, y de pronto salta del susto.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo stands very still, listening, and suddenly jumps with a startled hop.",
+   "narrador": "Uno… dos… tres… [surprised] ¡BRUUUM! El trueno llega después y hace temblar las ventanas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo: ¿qué es ese ruido y por qué siempre llega tarde? ¿Listos?"
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las nubes chocan como carritos y hacen ese ruido!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos nubes se juntan suavemente, como almohadas.",
+   "escena": "Two puffy grey clay clouds float side by side in the center of the frame.",
+   "accion": "The two clouds drift into each other and squish together softly, like two pillows.",
+   "narrador": "Pero una nube es agua flotando, como la niebla. Si chocan, se mezclan sin hacer ningún ruido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo camina dentro de una nube baja.",
+   "escena": "Pipo stands inside a low pale-grey clay cloud that covers the floor around him.",
+   "accion": "Pipo walks slowly in place through the pale-grey cloud, waving it aside with his paddle arms.",
+   "narrador": "Pipo camina dentro de una nube sin sentir ningún golpe. El trueno viene de otra cosa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: el rayo y el trueno nacen juntos. ¿Por qué uno llega tarde?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta",
+    "rayo"
+   ],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bajo la nube, el rayo parpadea.",
+   "escena": "The storm cloud fills the upper part of the frame, with the lightning bolt hanging just below it.",
+   "accion": "The lightning bolt flickers in and out below the storm cloud, again and again.",
+   "narrador": "¡Esa es la pista! Son dos partes de lo mismo: una se ve y la otra se oye.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la nube de tormenta.",
+   "escena": "The storm cloud floats in the center of the set.",
+   "accion": "The storm cloud stays still while the camera glides slowly closer to it.",
+   "narrador": "Pero primero: ¿de dónde sale el rayo? ¿Tú qué crees? Piénsalo… ¡Vamos a entrar en la nube!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta",
+    "trocitos_de_hielo"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de la nube flotan trocitos de hielo.",
+   "escena": "The inside of the storm cloud fills the frame, with the ice bits floating in it.",
+   "accion": "The ice bits swirl slowly up and down inside the cloud.",
+   "narrador": "[excited] ¡Hagamos zoom! Una nube de tormenta es altísima, y arriba hace tanto frío que hay hielo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "trocitos_de_hielo"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los trocitos de hielo chocan entre sí.",
+   "escena": "The ice bits float in the center of the frame, surrounded by grey cloud.",
+   "accion": "The small white balls and the tiny pale-blue crystals bump into each other, again and again.",
+   "narrador": "El viento sube y baja con fuerza. Y los trocitos de hielo chocan entre sí millones de veces.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "En un choque, unas bolitas amarillas saltan de un trocito a otro.",
+   "escena": "One small white clay ball and one tiny pale-blue clay crystal touch in the center of the frame, with a few tiny yellow clay balls on the crystal.",
+   "accion": "The tiny yellow balls hop from the pale-blue crystal onto the white ball.",
+   "narrador": "En cada choque, unos le quitan electrones a otros. Igual que el globo al frotarlo en tu pelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta"
+   ],
+   "movimientos": [
+    "cae",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los electrones bajan y se juntan en la base de la nube.",
+   "escena": "The storm cloud fills the frame, with many tiny yellow clay balls scattered all through it.",
+   "accion": "The tiny yellow balls sink slowly and gather along the bottom edge of the cloud.",
+   "narrador": "Los pedazos más pesados, cargados de electrones, bajan. La base de la nube se llena de ellos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "nube_de_tormenta",
+    "trocitos_de_hielo"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: la nube con hielo arriba y electrones abajo.",
+   "imagen": "The storm cloud in the center, with the ice bits inside its upper half and many tiny yellow clay balls along its bottom edge, evenly lit. Clean empty white space on both sides.",
+   "narrador": "Hielo que choca arriba, electrones que se juntan abajo. ¡Una nube cargada!",
+   "rotulos": "Hielo que choca · Electrones acumulados"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo arrastra los pies sobre el suelo.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo shuffles his feet quickly back and forth on the floor, again and again.",
+   "narrador": "Pipo lo entiende así: es como arrastrar los pies en una alfombra. Te vas cargando sin notarlo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta"
+   ],
+   "movimientos": [
+    "tiembla",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los electrones se amontonan en la base de la nube, sobre el suelo verde.",
+   "escena": "The storm cloud floats at the top of the set, with many tiny yellow clay balls along its bottom edge, above a flat green clay ground.",
+   "accion": "The tiny yellow balls along the bottom of the cloud jiggle and crowd closer and closer together.",
+   "narrador": "Los electrones se amontonan y se amontonan. Quieren escapar hacia el suelo, pero el aire los frena.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: cuando sean demasiados… ¡van a saltar todos a la vez!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "nube_de_tormenta",
+    "rayo"
+   ],
+   "movimientos": [
+    "aparece",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "El rayo baja en zigzag de la nube al suelo.",
+   "escena": "The storm cloud floats at the top of the set, with many tiny yellow clay balls along its bottom edge, above a flat green clay ground.",
+   "accion": "The lightning bolt shoots down from the bottom of the cloud to the green ground in one jagged flash.",
+   "narrador": "Y saltan. Abren un camino en zigzag por el aire y bajan de golpe. Eso es el rayo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "rayo"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Alrededor del rayo ondulan cintas de calor.",
+   "escena": "The lightning bolt fills the frame, with wavy orange clay heat ribbons around it.",
+   "accion": "The orange heat ribbons shimmer and stretch outward from the lightning bolt.",
+   "narrador": "Es una chispa gigantesca. Y calienta el aire por donde pasa más que la superficie del Sol.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P2",
+    "nombre": "Incrédulo",
+    "direccion": "Pipo leans back with wide eyes and slowly shakes his head from side to side in disbelief."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Nooo-bo?",
+    "intencion": "No se lo cree",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se echa atrás y niega con la cabeza.",
+   "narrador": "Pipo no lo puede creer: ¿más caliente que el Sol? ¿Y dura solo un instante?"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "rayo",
+    "anillos_de_sonido"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Del rayo salen anillos de sonido en todas direcciones.",
+   "escena": "The lightning bolt stands in the center of the frame, with the sound rings wrapped closely around it.",
+   "accion": "The sound rings spread quickly outward from the lightning bolt in all directions.",
+   "narrador": "Sí. Ese aire, calentado de golpe, se hincha con tanta violencia que estalla. Ese estallido es el trueno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡es como reventar un globo, pero del tamaño de una montaña!"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "rayo",
+    "anillos_de_sonido"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Carrera: la luz llega al ojo al instante; el sonido avanza despacio hacia la oreja.",
+   "escena": "The lightning bolt stands at the left edge of the set, and a small friendly clay eye and a small peach clay ear sit at the right edge.",
+   "accion": "A small yellow clay ball zips instantly from the lightning bolt to the eye, while the sound rings travel slowly across the set toward the ear.",
+   "narrador": "Ahora, la carrera. La luz del rayo y el sonido del trueno salen al mismo tiempo hacia ti.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza",
+    "aparece",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita amarilla cruza en un parpadeo; un arco morado la sigue despacio.",
+   "escena": "A small yellow clay ball and one curved pale-purple clay arc sit side by side at the left edge of the frame.",
+   "accion": "The yellow ball shoots across the frame in a blink, while the purple arc glides slowly after it.",
+   "narrador": "Pero la luz es rapidísima: llega al instante. El sonido es casi un millón de veces más lento.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L5",
+    "nombre": "Lo entendió",
+    "direccion": "Plop's eyes grow wide and he slowly raises one paddle arm, as if he just understood something."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Aaah, nilú!",
+    "intencion": "Lo entendió",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop abre los ojos y levanta un brazo: ¡lo entendió!",
+   "narrador": "Plop lo acaba de entender: ¡por eso primero lo veo y después lo oigo!"
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mueve la cabeza a ritmo, contando segundos.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo nods his head slowly in a steady rhythm, as if counting seconds.",
+   "narrador": "Y eso te da un superpoder: contando los segundos, puedes saber qué tan lejos cayó el rayo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "rayo",
+    "anillos_de_sonido"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Los anillos de sonido cruzan el estudio hasta llegar a Pipo.",
+   "escena": "Pipo stands at the right edge of the set, facing the lightning bolt far away at the left edge.",
+   "accion": "The sound rings travel slowly across the set from the lightning bolt until they reach Pipo.",
+   "narrador": "El sonido tarda unos tres segundos en recorrer un kilómetro. Tres segundos: un kilómetro. Seis: dos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se relaja.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo's shoulders slowly drop and he sways gently, calm and relaxed.",
+   "narrador": "Si cada vez tarda más, la tormenta se aleja. Si tarda menos, se acerca: ¡a casa!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "En una casita se enciende una luz, bajo la nube.",
+   "escena": "A small red clay house stands in the center of the frame, under a dark-grey clay cloud.",
+   "accion": "A warm yellow clay light blinks on in the window of the small house.",
+   "narrador": "Dentro de casa o de un auto estás a salvo. El rayo busca lo más alto: árboles, postes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "Las nubes no chocaban, Pipo. Era una chispa enorme calentando el aire hasta hacerlo estallar."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: nacen juntos, pero la luz corre mucho más que el sonido."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la nube cargada, el rayo y los anillos del trueno.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a dark-grey clay cloud with tiny yellow clay balls along its bottom; a jagged yellow clay zigzag; and three curved pale-purple clay arcs spreading outward. Clean empty white space above each one.",
+   "narrador": "Repasemos: la nube junta electrones, el rayo los descarga y calienta el aire, y el aire estalla en trueno.",
+   "rotulos": "1 La nube se carga · 2 El rayo · 3 El trueno"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sobre una Tierra de arcilla parpadean chispitas por todas partes.",
+   "escena": "A blue-and-green clay Earth globe stands in the center of the set.",
+   "accion": "Tiny yellow clay sparks blink on and off all over the globe, one after another.",
+   "narrador": "[curious] Dato extra: ahora mismo, en algún lugar del mundo, caen unos cincuenta rayos cada segundo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "Sobre un lago, los rayos caen uno tras otro.",
+   "escena": "A flat dark-blue clay lake lies in the center of the frame under a dark-grey clay cloud.",
+   "accion": "Small jagged yellow clay bolts flash from the cloud down to the lake, one after another.",
+   "narrador": "El lugar con más rayos del mundo está en Venezuela: el lago de Maracaibo, con su Catatumbo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "En la próxima tormenta, tú puedes medir la distancia. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Una casita, una nube con rayo a lo lejos y un reloj.",
+   "imagen": "A small red clay house with a yellow window, a dark-grey clay cloud with a jagged yellow bolt in the distance, and a simple round white clay clock face. Clean empty white space above them.",
+   "narrador": "Desde adentro de casa, cuenta los segundos entre el rayo y el trueno. ¿Se acerca?",
+   "rotulos": "Reto en casa · siempre desde adentro"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

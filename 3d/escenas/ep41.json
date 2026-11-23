@@ -1,0 +1,1213 @@
+{
+ "episodio": 41,
+ "id": "ep41",
+ "titulo": "¿Por qué el mar es salado y los ríos no?",
+ "tema": "Mar salado",
+ "categoria": "ti",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "agua",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "trozo_de_mar",
+  "roca_con_minerales",
+  "plato_con_agua_salada"
+ ],
+ "efectos": [
+  {
+   "es": "Olas",
+   "en": "Gentle ocean waves on a beach"
+  },
+  {
+   "es": "Gaviotas",
+   "en": "Seagulls calling"
+  },
+  {
+   "es": "Lluvia sobre roca",
+   "en": "Rain falling on stones"
+  },
+  {
+   "es": "Cristales",
+   "en": "Tiny crystal sparkle chime"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "trozo_de_mar"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Olas en el mar.",
+   "escena": "The sea pool fills the set, its dark-blue clay surface rippling with small white clay wave crests.",
+   "accion": "Small waves roll slowly across the sea pool from left to right.",
+   "narrador": "[curious] El mar: enorme, azul, lleno de vida. Y si alguna vez te ha entrado agua en la boca…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "encoge",
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo pone cara de asco en la playa.",
+   "escena": "Pipo stands facing the camera on a pale-yellow clay beach.",
+   "accion": "Pipo squeezes his eyes shut and shakes his head quickly from side to side.",
+   "narrador": "…¡puaj! Está saladísimo. Pero los ríos que llegan al mar son de agua dulce. ¿Cómo puede ser?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop está listo. Hoy descubrimos de dónde sale la sal del mar."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡el mar es salado porque los peces lloran muchísimo!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pececito nada en círculo.",
+   "escena": "A small orange clay fish swims in the center of the frame against a dark-blue clay underwater backdrop.",
+   "accion": "The small fish swims slowly in a circle, blowing a few tiny clay bubbles.",
+   "narrador": "Los peces no lloran: ni siquiera tienen lágrimas. Y hay demasiada sal para salir de ningún animal.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una cucharada de sal cae en un vaso de agua.",
+   "escena": "A tall clear clay glass of water stands in the center of the frame, with a small white clay spoon above it holding a pile of white salt grains.",
+   "accion": "The spoon tips and the white salt grains pour slowly into the water.",
+   "narrador": "En cada litro de mar hay unas siete cucharaditas de sal. ¡En todo el océano, montañas y montañas!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si los ríos son dulces, ¿quién le echa la sal al mar?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "roca_con_minerales"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira de cerca una roca.",
+   "escena": "Pipo stands beside the rock, which sits on a white clay stand at his height.",
+   "accion": "Pipo leans in slowly and looks closely at the sparkly bits in the rock.",
+   "narrador": "Pipo sospecha de algo inesperado: las piedras. Sí, las piedras de las montañas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "roca_con_minerales"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "balancea",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la roca.",
+   "escena": "The rock sits alone on a white clay stand in the center of the set.",
+   "accion": "The rock stays still while the camera glides slowly closer to its sparkly bits.",
+   "narrador": "¿Qué tienen que ver las piedras con el mar? ¿Tú qué crees? Piénsalo… ¡Sigamos una gota de lluvia!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "roca_con_minerales"
+   ],
+   "movimientos": [
+    "cae",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Zoom: la lluvia arranca granitos de la roca.",
+   "escena": "The rock fills the frame, with small pale-blue clay raindrops falling onto it.",
+   "accion": "The raindrops land on the rock and carry tiny sparkly white grains away down its side.",
+   "narrador": "[excited] ¡Hagamos zoom! La lluvia cae sobre las rocas y, muy despacito, les arranca granitos de minerales.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un río lleva granitos blancos.",
+   "escena": "A winding pale-blue clay river runs across the frame through green clay hills, with tiny white clay grains floating in it.",
+   "accion": "The river flows slowly from left to right, carrying the tiny white grains.",
+   "narrador": "Los ríos los llevan, disueltos, hasta el mar. Son tan poquitos que el río no sabe salado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "trozo_de_mar"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El sol evapora el agua y la sal se queda.",
+   "escena": "The sea pool fills the frame under a bright yellow clay sun, with tiny white clay grains scattered in the water.",
+   "accion": "Small pale-blue clay wisps rise slowly from the sea surface toward the sun while the white grains stay in the water.",
+   "narrador": "El truco: el sol evapora el agua del mar. El agua sube… pero la sal se queda.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una nube va del mar a las colinas y llueve.",
+   "escena": "A white clay cloud floats above green clay hills on the left and a dark-blue clay sea on the right, against a pale-blue clay sky.",
+   "accion": "The cloud drifts slowly from the sea toward the hills and pale-blue raindrops fall from it.",
+   "narrador": "Esa agua forma nubes y vuelve a llover, dulce. Y vuelve a arrastrar granitos al mar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el viaje de la sal hasta el mar.",
+   "imagen": "A simple clay landscape: grey clay mountains on the left, a pale-blue clay river flowing to a dark-blue clay sea on the right, a yellow clay sun above the sea and a white clay cloud above the mountains. Clean empty white space above them.",
+   "narrador": "Lluvia, rocas, río, mar… y el sol se lleva el agua, pero deja la sal.",
+   "rotulos": "Lluvia → rocas → río → mar · El agua sube, la sal se queda"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un reloj de arena deja caer su arena.",
+   "escena": "A small grey clay hourglass stands in the center of the frame, with white clay sand inside it.",
+   "accion": "The white sand flows slowly from the top of the hourglass to the bottom.",
+   "narrador": "Esto pasa desde hace cientos de millones de años. Poco a poco, la sal se fue juntando.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una chimenea del fondo del mar echa humo oscuro.",
+   "escena": "A small dark-grey clay chimney stands on the dark sea floor in the center of the frame, against a deep-blue clay underwater backdrop.",
+   "accion": "Dark clay smoke puffs slowly out of the top of the chimney.",
+   "narrador": "Y hay otra fuente: chimeneas y volcanes del fondo del mar que también sueltan minerales.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si la sal nunca se va… ¡el mar debe ponerse cada vez más salado!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una balanza con sal en los dos platos queda equilibrada.",
+   "escena": "A white clay balance scale stands in the center of the frame, with a small pile of white salt grains on each of its two plates.",
+   "accion": "The balance scale tips gently up and down and settles perfectly level.",
+   "narrador": "Buena idea, pero no. Parte de la sal se queda en el fondo, y así se equilibra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Cubitos de sal brillan en un plato.",
+   "escena": "A small pile of tiny white clay salt cubes sits on a dark-blue clay plate in the center of the frame.",
+   "accion": "The tiny white salt cubes sparkle softly.",
+   "narrador": "¿Y qué sal es? Sobre todo, la misma que la del salero de tu cocina.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡el mar es una sopa que lleva millones de años cocinándose!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una capa de sal altísima cubre un continente.",
+   "escena": "A small green clay continent shape lies in the center of the frame, covered by a thick white clay layer of salt.",
+   "accion": "The thick white salt layer rises slowly higher over the continent.",
+   "narrador": "Toda la sal del mar, extendida sobre la tierra, haría una capa más alta que un rascacielos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop se preocupa: ¿y por qué no podemos beber agua de mar si tenemos sed?"
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita aparta un vaso de agua de mar.",
+   "escena": "A small clay figure stands in the center of the frame holding a clear clay glass of dark-blue sea water away from its face.",
+   "accion": "The figure slowly shakes its head and puts the glass down.",
+   "narrador": "Para sacar tanta sal, tus riñones gastarían más agua de la que bebes. ¡Tendrías más sed!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "A una gaviota le cae una gotita del pico.",
+   "escena": "A white clay seagull stands on a grey clay rock in the center of the frame, with a tiny clear clay drop at the tip of its beak.",
+   "accion": "The tiny drop falls slowly from the seagull's beak and the seagull shakes its head.",
+   "narrador": "Las gaviotas sí pueden: tienen una glándula que saca la sal por la nariz. ¡Estornudan sal!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una figurita flota leyendo en el mar Muerto.",
+   "escena": "A small clay figure floats on its back on a pale turquoise clay sea in the center of the frame, holding a tiny clay newspaper.",
+   "accion": "The figure bobs gently on the surface of the water.",
+   "narrador": "En el mar Muerto hay tanta sal que la gente flota sin esfuerzo… ¡y hasta puede leer tumbada!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "plato_con_agua_salada"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo mira un plato con agua: tiene una idea.",
+   "escena": "Pipo stands facing the camera, holding the salty plate in one paddle arm.",
+   "accion": "Pipo looks at the plate of water and slowly raises his other paddle arm.",
+   "narrador": "Pipo tiene una idea, y no es loca: hacer un mar en un plato… y sacarle la sal.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "plato_con_agua_salada"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El plato de agua salada, al sol.",
+   "escena": "The salty plate sits on a white clay windowsill in the center of the frame, in warm sunlight.",
+   "accion": "Pale-blue clay wisps rise slowly from the water in the plate.",
+   "narrador": "[excited] Agua con sal en un plato, al sol, junto a la ventana. Ahora toca esperar unos días.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "plato_con_agua_salada"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "El plato ya seco, lleno de cristales de sal.",
+   "escena": "The salty plate sits on a white clay windowsill in the center of the frame, now dry, with white clay salt crystals covering its bottom.",
+   "accion": "The white salt crystals sparkle softly in the sunlight.",
+   "narrador": "El agua se fue al aire y en el plato quedó la sal. ¡Igual que en el mar!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Montoncitos de sal junto a las piscinas de una salina.",
+   "escena": "Shallow rectangular pools of pale-blue clay water sit in rows on flat ground in the center of the frame, with small white clay salt piles beside them.",
+   "accion": "The small white salt piles grow slowly taller beside the pools.",
+   "narrador": "Así se saca la sal en las salinas: dejan que el sol evapore el agua del mar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No son lágrimas de pez, Pipo. Es sal de las rocas, que traen los ríos."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: el sol evapora el agua, pero la sal se queda."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: roca con lluvia, río con granitos y mar al sol.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a grey clay rock with blue clay raindrops on it; a pale-blue clay river with tiny white grains; and a dark-blue clay sea under a yellow clay sun with white grains in it. Clean empty white space above each one.",
+   "narrador": "Repasemos: la lluvia arranca sal a las rocas, los ríos la llevan al mar, y allí se queda.",
+   "rotulos": "1 La lluvia arranca sal · 2 El río la lleva · 3 En el mar se queda"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un iceberg flota en el mar.",
+   "escena": "A white clay iceberg floats on a dark-blue clay sea in the center of the frame.",
+   "accion": "The iceberg bobs gently on the water.",
+   "narrador": "[curious] Dato extra: los icebergs son de agua dulce. ¡Nacen de la nieve que cae sobre la tierra!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pez abre y cierra las agallas.",
+   "escena": "A small orange clay fish swims in the center of the frame against a dark-blue clay underwater backdrop.",
+   "accion": "The small fish swims slowly forward, opening and closing its gills.",
+   "narrador": "Y los peces de mar tienen un truco: sacan la sal que les sobra por las agallas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ahora, un mar en un plato. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "plato_con_agua_salada"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El plato con agua y una cucharita de sal.",
+   "imagen": "The salty plate on the left, full of water, and a small white clay spoon with salt grains on the right. Clean empty white space above them.",
+   "narrador": "Agua con sal en un plato, al sol. ¿Cuántos días tarda en aparecer la sal?",
+   "rotulos": "Reto en casa · tu propia salina"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

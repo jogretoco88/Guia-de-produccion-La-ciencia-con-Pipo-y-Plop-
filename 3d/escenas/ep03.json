@@ -1,0 +1,1251 @@
+{
+ "episodio": 3,
+ "id": "ep03",
+ "titulo": "¿Por qué pica el ají si no está caliente?",
+ "tema": "Ají",
+ "categoria": "co",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "aji_rojo_gigante",
+  "aji_partido_por_la_mitad",
+  "maqueta_de_la_lengua_con_sensores",
+  "bolitas_de_capsaicina",
+  "vaso_de_leche"
+ ],
+ "efectos": [
+  {
+   "es": "Temblor picante",
+   "en": "Cartoon sizzling shiver, short"
+  },
+  {
+   "es": "Falsa alarma",
+   "en": "Small toy alarm beeping fast, three beeps"
+  },
+  {
+   "es": "Señal por el nervio",
+   "en": "Quick electric zip travelling along a wire"
+  },
+  {
+   "es": "Alivio",
+   "en": "Long relieved sigh with a soft cooling sparkle"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "aji_rojo_gigante"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, con el ají en la boca, tiembla cada vez más.",
+   "escena": "Pipo stands facing the camera, holding the chili against his closed mouth with one paddle arm.",
+   "accion": "Pipo trembles harder and harder with wide eyes, shaking the chili in his paddle arm.",
+   "narrador": "[gasps] Un mordisquito a este ají y… ¡fuego en la boca! Pero espera: el ají no está caliente.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "aji_rojo_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al ají, quieto y frío.",
+   "escena": "The chili lies alone in the center of the set.",
+   "accion": "The chili stays completely still while the camera glides slowly closer to it.",
+   "narrador": "Tócalo: está frío. No hay llamas ni humo. Entonces, ¿por qué sentimos que la boca arde?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop sospecha que aquí hay un truco. Y tiene razón: el ají es un gran mentiroso."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡dentro del ají vive un dragón chiquito que escupe fuego!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "aji_rojo_gigante"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El ají se mece sobre un plato: nada de humo.",
+   "escena": "The chili rests on a small flat white clay plate in the center of the frame.",
+   "accion": "The chili rocks gently from side to side on the plate.",
+   "narrador": "Si hubiera fuego de verdad, el ají echaría humo y quemaría el plato. Y está fresquito.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo bebe agua y salta más todavía.",
+   "escena": "Pipo stands facing the camera, pressing a big solid blue clay glass against his closed mouth with both paddle arms.",
+   "accion": "Pipo hops from one foot to the other, trembling more and more, with the blue glass still at his mouth.",
+   "narrador": "Segunda idea: apagarlo con agua, como una fogata. Pero… ¡el picor se riega por toda la boca!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si el agua apaga el fuego de verdad, ¿por qué no apaga este?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "aji_rojo_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo examina el ají de cerca.",
+   "escena": "Pipo stands beside the chili, which lies on the set, leaning over it.",
+   "accion": "Pipo slowly moves his head along the chili from one end to the other, inspecting it.",
+   "narrador": "¡Gran pista, Plop! Si el agua no lo apaga, quizá no es fuego. Quizá es otra cosa.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "T",
+    "es": "Cenital fijo",
+    "focal": 35,
+    "altura": "encima, mirando hacia abajo",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "aji_rojo_gigante"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Desde arriba: el ají gira despacio.",
+   "escena": "Seen from above, the chili lies alone in the center of the set.",
+   "accion": "The chili turns slowly in place like on a turntable.",
+   "narrador": "¿Qué será lo que nos engaña? ¿Tú qué crees? Piénsalo… ¡Vamos a abrir el ají!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "aji_partido_por_la_mitad"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al ají partido: semillas y venas blancas.",
+   "escena": "The cut-open chili model lies in the center of the set with its open inside toward the camera.",
+   "accion": "The model stays still while the camera glides slowly closer to its white inner veins.",
+   "narrador": "[excited] ¡Hagamos zoom! Dentro del ají hay semillas y unas venitas blancas. Ahí se esconde el culpable.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "aji_partido_por_la_mitad",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bolitas amarillas tiemblan sobre las venas blancas.",
+   "escena": "The white inner veins of the cut-open chili model fill the frame, with a few small capsaicin balls sitting on them.",
+   "accion": "The capsaicin balls wobble gently on the white veins, again and again.",
+   "narrador": "Se llama capsaicina: una sustancia aceitosa e invisible. Aquí la pintamos de amarillo para verla.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores"
+   ],
+   "movimientos": [
+    "flota",
+    "cae",
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Los botones de la lengua suben y bajan en fila.",
+   "escena": "The tongue model lies in the center of the frame with its red buttons on top.",
+   "accion": "The red buttons rise and sink gently one after another, like a slow wave.",
+   "narrador": "Ahora mira tu lengua. Está llena de sensores diminutos, como botones de alarma.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores"
+   ],
+   "movimientos": [
+    "cae",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita de calor cae sobre un botón, que vibra.",
+   "escena": "The tongue model lies in the center of the frame, with one small orange clay ball hovering just above one of its red buttons.",
+   "accion": "The orange ball drops onto the red button, which sinks and vibrates quickly.",
+   "narrador": "Su trabajo es avisar del calor. Si la sopa quema, se encienden y gritan: ¡cuidado!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "aji_partido_por_la_mitad",
+    "maqueta_de_la_lengua_con_sensores"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: el ají partido y la lengua con sus botones.",
+   "imagen": "The cut-open chili model on the left, with small yellow clay balls on its white veins, and the tongue model on the right, evenly lit. Clean empty white space above each one.",
+   "narrador": "Capsaicina en el ají, botones de calor en la lengua. ¿Y si se encuentran?",
+   "rotulos": "Capsaicina · Sensores de calor (TRPV1)"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo baila como un robot.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo does a stiff little robot dance, moving his paddle arms in short jerky steps.",
+   "narrador": "Pipo pregunta cómo se llaman esos botones. Tienen nombre de robot: te erre pe uve uno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una bolita amarilla rueda y encaja sobre un botón.",
+   "escena": "One red button of the tongue model fills the frame, with one capsaicin ball resting beside it.",
+   "accion": "The capsaicin ball rolls slowly onto the red button and settles on it, like a key fitting a lock.",
+   "narrador": "Y aquí está el truco: la capsaicina tiene justo la forma de la llave de esos botones.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L4",
+    "nombre": "Asombro",
+    "direccion": "Plop's eyes grow wide and he slowly raises both paddle arms to his cheeks."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Oh! Oh-lu-lu…",
+    "intencion": "Asombro",
+    "etiqueta": "[gasps]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop abre mucho los ojos y se lleva las manoplas a la cara.",
+   "narrador": "Plop ya lo ve venir: una llave falsa… ¡va a encender la alarma sin que haya calor!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La bolita hunde el botón, que empieza a vibrar.",
+   "escena": "One red button of the tongue model fills the frame, with one capsaicin ball sitting on top of it.",
+   "accion": "The capsaicin ball presses the red button down and the button vibrates quickly, again and again.",
+   "narrador": "Eso es justo lo que pasa. La capsaicina toca el botón, y el botón se enciende por error.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una señal viaja por un cable desde la lengua hasta el cerebro.",
+   "escena": "The tongue model sits on the left and a small pink clay brain on the right, joined by a long red clay cord lying on the set.",
+   "accion": "One small yellow clay bead travels slowly along the red cord from the tongue model to the brain.",
+   "narrador": "El botón manda un mensaje urgente por los nervios, que son como cables, hasta el cerebro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "tiembla",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El cerebro se sacude, alarmado.",
+   "escena": "A small pink clay brain sits in the center of the frame.",
+   "accion": "The pink brain jolts and shakes in alarm, again and again.",
+   "narrador": "Y el mensaje dice: ¡auxilio, aquí hay algo muy caliente! Aunque no sea verdad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se abanica la boca con las dos manoplas.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo fans his closed mouth with both paddle arms, quickly, again and again.",
+   "narrador": "El cerebro se lo cree todo. Por eso Pipo siente fuego donde no hay fuego.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "revienta",
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "A Pipo le brotan gotitas de sudor.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Small blue clay sweat drops pop out around Pipo's head, one by one, while he sways dizzily.",
+   "narrador": "Y como cree que te quemas, intenta enfriarte: te pone rojo y te hace sudar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop pregunta lo que todos pensamos: entonces… ¿la lengua se está quemando o no?"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "La lengua se menea tranquila, con bolitas sobre los botones.",
+   "escena": "The tongue model lies in the center of the frame with a few capsaicin balls sitting on its red buttons.",
+   "accion": "The tongue model wiggles calmly from side to side, perfectly healthy.",
+   "narrador": "¡No! Tu lengua está perfecta. Todo es una falsa alarma: el ají engaña a tus sensores.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "cae",
+    "rueda_desliza",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "El agua empuja las bolitas amarillas hacia otros botones.",
+   "escena": "The tongue model lies in the center of the frame with a few capsaicin balls sitting on its red buttons.",
+   "accion": "Blue clay water drops slide across the tongue model and push the capsaicin balls onto other red buttons.",
+   "narrador": "¿Y el agua? La capsaicina es aceitosa, y el agua resbala sobre el aceite. Solo la pasea.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "gira",
+    "tiembla",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo salta en círculos, desesperado.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo hops around in a small circle, trembling, again and again.",
+   "narrador": "Por eso, después del agua, ¡pica en más lugares! Pipo necesita otro plan… y rápido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "vaso_de_leche"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un vaso de leche entra deslizándose en cuadro.",
+   "escena": "The glass of milk stands at the left edge of the frame.",
+   "accion": "The glass of milk slides slowly to the center of the frame.",
+   "narrador": "Plop tiene la solución: leche. ¿Qué tendrá la leche que no tiene el agua?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bolitas blancas ruedan y se pegan a las amarillas.",
+   "escena": "The tongue model lies in the center of the frame with a few capsaicin balls sitting on its red buttons.",
+   "accion": "Small white clay balls roll slowly onto the tongue model and stick to the capsaicin balls.",
+   "narrador": "Tiene caseína: una proteína que adora las grasas y atrapa a la capsaicina como un imán.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "maqueta_de_la_lengua_con_sensores",
+    "bolitas_de_capsaicina"
+   ],
+   "movimientos": [
+    "flota",
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las blancas se llevan a las amarillas; los botones se calman.",
+   "escena": "The tongue model lies in the center of the frame, each capsaicin ball on it hugged by a small white clay ball.",
+   "accion": "The white balls roll away off the tongue model, carrying the capsaicin balls with them, and the red buttons rise back up.",
+   "narrador": "La despega de los botones y se la lleva. Los botones se apagan… y la alarma termina.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "vaso_de_leche"
+   ],
+   "movimientos": [
+    "cae",
+    "ondula"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo abraza el vaso de leche, aliviado.",
+   "escena": "Pipo stands facing the camera, hugging the glass of milk against his vest.",
+   "accion": "Pipo's shoulders slowly drop and he sways gently with relief, eyes half closed.",
+   "narrador": "[sighs] ¡Qué alivio! No había dragón, Pipo: era una llave falsa encendiendo tus sensores de calor.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Tu pista era buena, Plop: no era fuego, era un aceite. Y a ese lo atrapa la leche."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la llave falsa, el agua que la pasea y la leche que la atrapa.",
+   "imagen": "Three small clay scenes in a row from left to right, evenly spaced: a yellow clay ball sitting on a red clay button; a blue clay drop pushing a yellow clay ball; and a white clay ball hugging a yellow clay ball. Clean empty white space above each one.",
+   "narrador": "Repasemos: la capsaicina engaña a tus sensores, el agua la pasea y la leche la atrapa.",
+   "rotulos": "1 Falsa alarma · 2 El agua la pasea · 3 La leche la atrapa"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "aji_rojo_gigante"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pajarito picotea el ají tan tranquilo.",
+   "escena": "A tiny solid sky-blue clay bird with an orange beak stands next to the chili.",
+   "accion": "The tiny bird pecks calmly at the chili, again and again.",
+   "narrador": "[curious] Dato extra: a los pájaros el ají no les pica nada. Sus sensores no reconocen esa llave.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El pajarito se aleja a saltitos con una semilla en el pico.",
+   "escena": "A tiny solid sky-blue clay bird with an orange beak stands on the left side of the set, holding one small cream clay seed in its beak.",
+   "accion": "The tiny bird hops slowly across the set from left to right, carrying the seed.",
+   "narrador": "Y eso le conviene a la planta: los pájaros se llevan sus semillas volando a otros lugares.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "El picante es el truco del ají para elegir quién se lo come. Y ahora, un reto."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "aji_rojo_gigante",
+    "vaso_de_leche"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "El ají, el vaso de leche y un signo de pregunta.",
+   "imagen": "The chili on the left and the glass of milk on the right, with a chunky blue clay question mark standing between them. Clean empty white space above them.",
+   "narrador": "Pregunta en casa quién aguanta más el picante. Y cuéntales el secreto de la leche.",
+   "rotulos": "Reto en casa · entrevista a tu familia"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

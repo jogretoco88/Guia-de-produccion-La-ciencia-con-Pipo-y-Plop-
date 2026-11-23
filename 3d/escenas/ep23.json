@@ -1,0 +1,1247 @@
+{
+ "episodio": 23,
+ "id": "ep23",
+ "titulo": "¿Por qué las burbujas siempre son redondas?",
+ "tema": "Burbujas",
+ "categoria": "ca",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "casa",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "burbuja_de_jabon",
+  "aro_cuadrado",
+  "pieza_de_jabon",
+  "pared_de_la_burbuja_corte"
+ ],
+ "efectos": [
+  {
+   "es": "Soplar una burbuja",
+   "en": "Soft gentle blow through a bubble wand"
+  },
+  {
+   "es": "Burbuja flotando",
+   "en": "Light airy floating shimmer"
+  },
+  {
+   "es": "¡Plop!",
+   "en": "Tiny soap bubble pop"
+  },
+  {
+   "es": "Liga que se estira",
+   "en": "Rubber band stretching softly"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "burbuja_de_jabon",
+    "aro_cuadrado"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Del aro cuadrado de Pipo sale una burbuja redonda.",
+   "escena": "Pipo stands facing the camera, holding the square wand up with one paddle arm.",
+   "accion": "A soap bubble swells slowly out of the square wand and floats free as a perfect round ball.",
+   "narrador": "[curious] Un aro cuadrado. Soplas con cuidado y sale… ¡una burbuja redonda! ¿No debería ser cuadrada?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "flota",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "La burbuja sube flotando.",
+   "escena": "The soap bubble floats in the center of the frame.",
+   "accion": "The soap bubble drifts slowly upward, wobbling gently.",
+   "narrador": "Con un aro de estrella, de corazón o de triángulo pasa lo mismo. Siempre, siempre redonda.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a descubrir quién le da forma a una burbuja."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡las burbujas son redondas porque el aire de adentro es redondo!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El aire llena una caja y un tubo: toma la forma de cada uno.",
+   "escena": "A square white clay box and a long thin white clay tube stand side by side in the center of the frame, with small pale-blue clay wisps inside each.",
+   "accion": "The pale-blue wisps drift around inside the box and inside the tube, filling every corner.",
+   "narrador": "Pero el aire no tiene forma propia. En una caja es cuadrado; en un tubo, alargado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo toca la burbuja y revienta.",
+   "escena": "Pipo stands facing the camera, with the soap bubble floating in front of him.",
+   "accion": "Pipo touches the soap bubble with one paddle arm and it bursts into tiny pale-blue clay droplets.",
+   "narrador": "Y si Pipo la toca… ¡plop! Desaparece. La forma no venía del aire: venía de su pared.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: el aro era cuadrado. Entonces, ¿quién la volvió redonda?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La burbuja gira despacio.",
+   "escena": "The soap bubble floats in the center of the frame.",
+   "accion": "The soap bubble turns slowly in place like on a turntable.",
+   "narrador": "¡Buena pregunta! La respuesta está en esa pared finísima, mil veces más delgada que un pelo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la pared de la burbuja.",
+   "escena": "The soap bubble floats in the center of the set.",
+   "accion": "The soap bubble stays still while the camera glides slowly closer to its surface.",
+   "narrador": "¿De qué estará hecha? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar la pared de la burbuja!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pared_de_la_burbuja_corte"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento a la pared: un sándwich de tres capas.",
+   "escena": "The soap film model stretches across the center of the set.",
+   "accion": "The soap film model stays still while the camera glides slowly closer to it.",
+   "narrador": "[excited] ¡Hagamos zoom! La pared de una burbuja es un sándwich de tres capas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pared_de_la_burbuja_corte"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "En el medio, una capa de agua que ondula.",
+   "escena": "The soap film model fills the frame.",
+   "accion": "The thin blue layer in the middle ripples gently between the two rows of pink soap pieces.",
+   "narrador": "En el medio hay una capa de agua. Y a los dos lados, miles de piezas de jabón.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pieza_de_jabon"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una pieza de jabón mueve la cola.",
+   "escena": "One soap piece stands in the center of the frame, its pink head down and its yellow tail up.",
+   "accion": "The soap piece wiggles its yellow tail gently.",
+   "narrador": "¿Las recuerdas? Cabeza amiga del agua y cola que huye. Aquí, todas meten la cabeza al agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "cae",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una lámina de agua sin jabón se encoge en una gota.",
+   "escena": "A flat blue clay water film stretches between two small grey clay posts in the center of the frame.",
+   "accion": "The blue film pulls itself together into one round blue drop that falls from the posts.",
+   "narrador": "El agua sola no puede hacer burbujas: se encoge enseguida en gotas. Es demasiado apretada.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "pared_de_la_burbuja_corte"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de la pared de la burbuja.",
+   "imagen": "The soap film model centered, evenly lit. Wide clean empty white space above and below it.",
+   "narrador": "Jabón, agua, jabón. Un sándwich elástico tan fino que casi no se ve.",
+   "rotulos": "Jabón · Agua · Jabón"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "crece",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo estira una liga invisible.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo slowly pulls his two paddle arms apart, as if stretching a rubber band, and lets them snap back, again and again.",
+   "narrador": "Pipo lo entiende así: esa pared es como una liga. Se estira… y siempre quiere encogerse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "pared_de_la_burbuja_corte"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "crece",
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pared se estira entre dos postes y tira de ellos.",
+   "escena": "The soap film model stretches between two small grey clay posts in the center of the frame.",
+   "accion": "The soap film model stretches wider as the two posts move apart, pulling against them the whole time.",
+   "narrador": "El jabón afloja al agua y la deja estirarse sin romperse. Pero la pared sigue tirando hacia adentro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: si toda la pared tira hacia adentro por igual… ¿qué forma saldrá?"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "aro_cuadrado"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Del aro cuadrado asoma una burbuja con esquinas que se van redondeando.",
+   "escena": "The square wand stands in the center of the frame, with a lumpy, boxy pale-blue clay blob bulging out of it.",
+   "accion": "The boxy blob rounds off its corners as it bulges out, becoming smoother and smoother.",
+   "narrador": "Mira en cámara lenta. Al salir del aro, la burbuja tiene esquinas. Pero la pared tira de ellas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La burbuja recoge sus esquinas hasta quedar redonda.",
+   "escena": "A lumpy pale-blue clay blob with soft corners floats in the center of the frame.",
+   "accion": "The blob pulls its corners in until it is a perfect round ball.",
+   "narrador": "Cada esquina es pared de sobra. La liga la encoge, la alisa… hasta que no queda ninguna.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡la burbuja se abraza a sí misma lo más fuerte que puede!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "gira",
+    "encoge",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un cubo azul se convierte en una bola igual a la de al lado.",
+   "escena": "A pale-blue clay cube floats on the left of the frame and a pale-blue clay ball floats on the right.",
+   "accion": "The cube slowly shrinks its corners and turns into a ball exactly like the one beside it.",
+   "narrador": "Y aquí está el secreto: de todas las formas, la esfera guarda el mismo aire con menos pared.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "crece",
+    "encoge",
+    "late"
+   ],
+   "animacion": "script",
+   "enPantalla": "La burbuja late suavemente.",
+   "escena": "The soap bubble floats in the center of the frame.",
+   "accion": "The soap bubble pulses very gently, growing and shrinking a little.",
+   "narrador": "La burbuja no elige ser redonda. Es que cualquier otra forma le cuesta más pared.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y dos burbujas pegadas? Esas no se ven tan redondas…"
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos burbujas se juntan y forman una pared plana entre ellas.",
+   "escena": "Two pale-blue clay bubbles float side by side in the center of the frame, just touching.",
+   "accion": "The two bubbles press together and a flat wall forms between them.",
+   "narrador": "Buena observación. Cuando se juntan, comparten una pared plana. Así gastan todavía menos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "Muchas burbujas apretadas: sus paredes se vuelven lados rectos.",
+   "escena": "A cluster of many small pale-blue clay bubbles packed together fills the frame.",
+   "accion": "The packed bubbles press against each other and their shared walls straighten into flat sides.",
+   "narrador": "Y cuando hay muchísimas, como en la espuma, se aprietan y forman figuras de varios lados.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo sigue con la mirada una burbuja que sube.",
+   "escena": "Pipo stands facing the camera, looking up at the soap bubble floating above him.",
+   "accion": "Pipo follows the soap bubble with his eyes as it drifts slowly higher.",
+   "narrador": "Pero ninguna burbuja dura para siempre. ¿Por qué revientan, si nadie las toca?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "pared_de_la_burbuja_corte"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "La capa de agua adelgaza hasta que las dos filas de jabón se tocan.",
+   "escena": "The soap film model fills the frame.",
+   "accion": "The thin blue layer in the middle gets thinner and thinner until the two rows of pink soap pieces touch.",
+   "narrador": "Porque el agua del medio se va: escurre hacia abajo y se evapora. La pared adelgaza…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "cae",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "La burbuja revienta en gotitas.",
+   "escena": "The soap bubble floats in the center of the frame.",
+   "accion": "The soap bubble bursts into tiny pale-blue clay droplets that fall away.",
+   "narrador": "…y cuando ya no queda agua, ¡plop! Por eso duran más en días húmedos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "burbuja_de_jabon",
+    "aro_cuadrado"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo hace otra burbuja con el aro cuadrado (puedes repetir el clip 1).",
+   "escena": "Pipo stands facing the camera, holding the square wand up with one paddle arm.",
+   "accion": "A soap bubble swells slowly out of the square wand and floats free as a perfect round ball.",
+   "narrador": "Aro cuadrado, burbuja redonda. Ahora ya sabes quién gana siempre esa apuesta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No era el aire redondo, Pipo. Es la pared de jabón, que tira por igual hacia adentro."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: la volvió redonda su propia pared, encogiéndose todo lo posible."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la pared en capas, la burbuja con esquinas y la esfera.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a thin blue clay layer between two rows of pink clay balls; a lumpy pale-blue clay blob with soft corners; and a perfect pale-blue clay ball. Clean empty white space above each one.",
+   "narrador": "Repasemos: la pared es agua entre jabón, tira hacia adentro como una liga, y la esfera gasta menos.",
+   "rotulos": "1 Agua entre jabón · 2 Tira hacia adentro · 3 La esfera gasta menos"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "burbuja_de_jabon"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Por la burbuja se deslizan bandas de colores.",
+   "escena": "The soap bubble fills the frame.",
+   "accion": "Soft bands of pink, green and blue slide slowly across the surface of the soap bubble.",
+   "narrador": "[curious] Dato extra: ¿has visto los colores que nadan en una burbuja? No es pintura: es luz.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "casa",
+   "personajes": [],
+   "objetos": [
+    "pared_de_la_burbuja_corte"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La luz rebota en las dos caras de la pared.",
+   "escena": "The soap film model fills the frame, with a thin white clay rod pointing at it from the upper left.",
+   "accion": "The white rod touches the film and two thin colored clay stripes bounce back from it, one from each side of the film.",
+   "narrador": "La luz rebota en las dos caras de la pared. Según su grosor, aparece un color u otro.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes comprobarlo con aros de cualquier forma. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "aro_cuadrado"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Aros de varias formas junto a un tazón de agua jabonosa.",
+   "imagen": "Three clay wands side by side: the square wand, a triangle-shaped orange clay wand and a star-shaped orange clay wand, next to a small clay bowl of pale-blue soapy water. Clean empty white space above them.",
+   "narrador": "Haz aros con limpiapipas: triángulo, cuadrado, estrella. ¿Sale alguna burbuja que no sea redonda?",
+   "rotulos": "Reto en casa · la apuesta de las burbujas"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "casa",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

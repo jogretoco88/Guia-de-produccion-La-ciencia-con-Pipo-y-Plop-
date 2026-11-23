@@ -1,0 +1,1255 @@
+{
+ "episodio": 19,
+ "id": "ep19",
+ "titulo": "¿Por qué flotan los astronautas?",
+ "tema": "Astronautas",
+ "categoria": "ti",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "planetario",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "astronauta_de_arcilla",
+  "tierra_de_arcilla",
+  "estacion_espacial",
+  "pelota_roja"
+ ],
+ "efectos": [
+  {
+   "es": "Flotar en órbita",
+   "en": "Soft airy drifting hum, weightless"
+  },
+  {
+   "es": "Lanzamiento de pelota",
+   "en": "Quick cartoon throw whoosh"
+  },
+  {
+   "es": "Motores de la estación",
+   "en": "Short low rocket thruster burst"
+  },
+  {
+   "es": "Caída de montaña rusa",
+   "en": "Descending slide whistle with a giggle"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "astronauta_de_arcilla"
+   ],
+   "movimientos": [
+    "flota",
+    "cae",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El astronauta flota de cabeza junto a una gota y una galleta.",
+   "escena": "The clay astronaut floats upside down in the center of the frame, with a small round blue clay water drop and a small brown clay cookie floating beside it.",
+   "accion": "The clay astronaut, the water drop and the cookie drift and turn slowly in the air.",
+   "narrador": "[curious] En la estación espacial, los astronautas flotan. Flota el agua, flota la comida… ¡flota todo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "cae",
+    "rebota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo suelta la pelota y cae al suelo.",
+   "escena": "Pipo stands facing the camera, holding the red ball up high with one paddle arm.",
+   "accion": "Pipo lets go of the red ball and it drops straight to the floor and bounces.",
+   "narrador": "Aquí abajo, en cambio, todo cae. Sueltas una pelota y va directo al suelo. ¿Qué cambia arriba?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Y te aviso: la respuesta no es la que casi todos creen."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡en el espacio alguien apagó la gravedad!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "La estación gira muy cerca de la Tierra.",
+   "escena": "The clay Earth stands in the center of the set, with the space station floating very close to its surface.",
+   "accion": "The space station travels slowly around the clay Earth, staying very close to it.",
+   "narrador": "Pero mira qué cerca está la estación: a solo cuatrocientos kilómetros. Menos que un viaje largo en auto.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una pelota cae hacia la Tierra.",
+   "escena": "The clay Earth fills the lower part of the frame, with the red ball floating a short distance above it.",
+   "accion": "The red ball falls slowly down toward the clay Earth.",
+   "narrador": "A esa altura, la gravedad de la Tierra sigue jalando casi igual que aquí. No se apaga.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si la gravedad sigue ahí, ¿por qué la estación no se cae?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La estación gira despacio.",
+   "escena": "The space station floats in the center of the frame.",
+   "accion": "The space station turns slowly in place like on a turntable.",
+   "narrador": "¡Esa es la pregunta! Y la respuesta sorprende: la estación sí se está cayendo. Todo el tiempo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la Tierra y a la estación.",
+   "escena": "The clay Earth stands in the center of the set, with the space station floating beside it.",
+   "accion": "The clay Earth and the space station stay still while the camera glides slowly closer to them.",
+   "narrador": "¿Cómo puede caer sin llegar al suelo? ¿Tú qué crees? Piénsalo… ¡Vamos a hacer un experimento!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo lanza la pelota despacio: cae cerca.",
+   "escena": "Pipo stands on the left of the frame, holding the red ball with one paddle arm.",
+   "accion": "Pipo tosses the red ball gently forward and it lands on the floor a short distance away.",
+   "narrador": "[excited] ¡Hagamos zoom en la idea! Lanza una pelota despacio: cae cerca de tus pies.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo lanza la pelota con fuerza: cae lejos.",
+   "escena": "Pipo stands at the left edge of the set, holding the red ball with one paddle arm.",
+   "accion": "Pipo throws the red ball hard and it flies in a long arc and lands at the far right edge of the set.",
+   "narrador": "Lánzala más fuerte: cae más lejos. Mientras avanza, la gravedad la va curvando hacia abajo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Desde una montaña sobre la Tierra, la pelota cae un poco más allá.",
+   "escena": "The clay Earth stands in the center of the set, with the red ball resting on a tiny brown clay mountain on top of it.",
+   "accion": "The red ball flies off the mountain, curves down and lands a little way around the clay Earth.",
+   "narrador": "Ahora imagina una montaña altísima. Lanzas la pelota y cae lejos, siguiendo la curva del planeta.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Con más velocidad, la pelota rodea casi media Tierra.",
+   "escena": "The clay Earth stands in the center of the set, with the red ball resting on a tiny brown clay mountain on top of it.",
+   "accion": "The red ball flies off the mountain, curves around almost half of the clay Earth and lands on the far side.",
+   "narrador": "Con más velocidad, cae todavía más lejos. Y la Tierra es redonda: el suelo también se curva.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "tierra_de_arcilla",
+    "pelota_roja"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina: la Tierra, la montaña y la pelota.",
+   "imagen": "The clay Earth in the center with a tiny brown clay mountain on top and the red ball beside the mountain, evenly lit. Wide clean empty white space on both sides.",
+   "narrador": "Dos ingredientes: la gravedad, que jala hacia abajo, y la velocidad, que lleva hacia adelante.",
+   "rotulos": "Gravedad: jala hacia abajo · Velocidad: lleva hacia adelante"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "gira",
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo gira el brazo como una honda, cada vez más rápido.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo swings one paddle arm around and around in a big circle, faster and faster.",
+   "narrador": "Pipo se pregunta: ¿y si la lanzo tan rápido que el suelo se curve igual que ella?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "pelota_roja"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La pelota da la vuelta completa a la Tierra, una y otra vez.",
+   "escena": "The clay Earth stands in the center of the set, with the red ball floating beside the tiny brown clay mountain on top of it.",
+   "accion": "The red ball travels all the way around the clay Earth in a full circle, again and again, always at the same height.",
+   "narrador": "¡Entonces nunca llega al suelo! Cae y cae, pero el suelo se aleja a la misma velocidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: eso que hace la pelota… ¡es lo mismo que hace la estación!"
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La estación da una vuelta completa a la Tierra.",
+   "escena": "The clay Earth stands in the center of the set, with the space station floating close to it.",
+   "accion": "The space station travels all the way around the clay Earth in a full circle.",
+   "narrador": "Exacto. Eso se llama estar en órbita: caer alrededor de la Tierra sin tocarla jamás.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "crece",
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "La estación avanza con estelas de velocidad.",
+   "escena": "The space station floats in the center of the frame, with small white clay speed streaks behind it.",
+   "accion": "The white speed streaks stretch and shrink behind the space station, again and again.",
+   "narrador": "Para lograrlo va rapidísimo: veintiocho mil kilómetros por hora. Una vuelta al mundo cada hora y media.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: ¡la estación se cae, pero siempre falla y no atina al suelo!"
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "astronauta_de_arcilla"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dentro de la estación, el astronauta flota de un lado a otro.",
+   "escena": "The clay astronaut floats inside a simple open frame of grey clay, the inside of a space station.",
+   "accion": "The clay astronaut drifts slowly from one side of the grey frame to the other.",
+   "narrador": "¿Y los astronautas? Ellos van dentro, cayendo a la misma velocidad que la estación.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "cae"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo y una plataforma caen juntos: Pipo flota sobre ella.",
+   "escena": "Pipo stands on a small grey clay platform that hangs in the air in the center of the frame.",
+   "accion": "The grey platform and Pipo drop downward together, and Pipo floats just above the platform as they fall.",
+   "narrador": "Cuando tú y el piso caen juntos, el piso ya no te empuja. Y sientes que flotas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L5",
+    "nombre": "Lo entendió",
+    "direccion": "Plop's eyes grow wide and he slowly raises one paddle arm, as if he just understood something."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Aaah, nilú!",
+    "intencion": "Lo entendió",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop abre los ojos y levanta un brazo: ¡lo entendió!",
+   "narrador": "Plop lo acaba de entender: ¡no flotan porque falte gravedad! Flotan porque van cayendo juntos."
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "astronauta_de_arcilla"
+   ],
+   "movimientos": [
+    "cae",
+    "tiembla"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una gota de agua forma una bolita en el aire.",
+   "escena": "A small round blue clay water drop floats in the center of the frame, next to the clay astronaut.",
+   "accion": "The blue water drop wobbles slowly in the air and settles into a perfect ball.",
+   "narrador": "Por eso el agua forma bolitas en el aire, y la comida se escapa del plato.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "flota",
+    "cae"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se pone de puntitas, como bajando en una montaña rusa.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo lifts up onto his toes with his paddle arms floating upward and his eyes wide, as if dropping on a roller coaster.",
+   "narrador": "¿Has sentido el estómago subir en una montaña rusa cuando baja? Es esa sensación… pero sin parar.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La estación frena y baja hacia la Tierra.",
+   "escena": "The clay Earth stands in the center of the set, with the space station floating close to it.",
+   "accion": "The space station slows down and drifts lower and lower toward the clay Earth.",
+   "narrador": "Pero hay una condición. Si la estación frenara, la curva ya no alcanzaría, y entonces…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla",
+    "estacion_espacial"
+   ],
+   "movimientos": [
+    "flota",
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "La estación enciende un motor y vuelve a subir.",
+   "escena": "The clay Earth stands in the center of the set, with the space station floating very close to its surface.",
+   "accion": "A small orange clay flame puffs from the back of the space station and the station rises back to a higher path around the Earth.",
+   "narrador": "…caería de verdad. Por eso, de vez en cuando, enciende sus motores para recuperar velocidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "tierra_de_arcilla"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La Luna gira alrededor de la Tierra.",
+   "escena": "The clay Earth stands in the center of the set, with a small grey clay Moon floating far to its right.",
+   "accion": "The small grey Moon travels slowly around the clay Earth in a wide circle.",
+   "narrador": "Y la Luna hace lo mismo desde hace miles de millones de años: cae alrededor de la Tierra.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "pelota_roja"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo lanza la pelota hacia arriba y la atrapa.",
+   "escena": "Pipo stands facing the camera, holding the red ball in both paddle arms.",
+   "accion": "Pipo tosses the red ball a little way up and catches it, again and again.",
+   "narrador": "Cada vez que lanzas una pelota, haces una órbita chiquita que el suelo interrumpe.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "Nadie apagó la gravedad, Pipo. Sigue ahí, haciendo caer a la estación sin descanso."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: no se estrella porque avanza tan rápido que siempre falla el suelo."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: la pelota que cae, la estación en órbita y el astronauta flotando.",
+   "imagen": "Three clay scenes in a row from left to right, evenly spaced: a red clay ball falling toward a blue-and-green clay globe; a small grey clay capsule circling the globe; and a small white clay astronaut floating. Clean empty white space above each one.",
+   "narrador": "Repasemos: la gravedad sigue jalando, la estación cae dando vueltas, y los astronautas caen con ella.",
+   "rotulos": "1 La gravedad jala · 2 Cae en órbita · 3 Caen juntos: flotan"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "astronauta_de_arcilla"
+   ],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Junto a una regla, el astronauta se estira un poco.",
+   "escena": "The clay astronaut floats upright in the center of the frame, next to a tall thin white clay ruler.",
+   "accion": "The clay astronaut slowly stretches a little taller beside the ruler.",
+   "narrador": "[curious] Dato extra: en órbita, los astronautas crecen unos centímetros. Su columna se estira sin peso.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "planetario",
+   "personajes": [],
+   "objetos": [
+    "astronauta_de_arcilla"
+   ],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "script",
+   "enPantalla": "De vuelta en el suelo, el astronauta recupera su estatura.",
+   "escena": "The clay astronaut stands on the white floor in the center of the frame, next to a tall thin white clay ruler.",
+   "accion": "The clay astronaut slowly shrinks back a little shorter beside the ruler.",
+   "narrador": "Al volver a la Tierra, en pocos días recuperan su estatura de siempre.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Tú puedes ver caer algo sin peso, afuera y con un adulto. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un vaso con un agujero del que sale un chorrito de agua.",
+   "imagen": "A yellow clay cup with a small hole near its bottom and a thin stream of blue clay water coming out of the hole. Clean empty white space above it.",
+   "narrador": "Llena de agua un vaso con un agujero y suéltalo. ¿Sigue saliendo agua mientras cae?",
+   "rotulos": "Reto en casa · afuera y con un adulto"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "planetario",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

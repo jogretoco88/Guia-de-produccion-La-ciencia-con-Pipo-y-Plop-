@@ -1,0 +1,1223 @@
+{
+ "episodio": 5,
+ "id": "ep05",
+ "titulo": "¿Por qué flota el hielo si es sólido?",
+ "tema": "Hielo",
+ "categoria": "ca",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "agua",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "cubo_de_hielo_gigante",
+  "tina_de_agua",
+  "molecula_de_agua",
+  "anillo_de_hielo_seis_moleculas"
+ ],
+ "efectos": [
+  {
+   "es": "La piedra se hunde",
+   "en": "Stone plopping into deep water"
+  },
+  {
+   "es": "El hielo flota",
+   "en": "Ice cube bobbing in water, gentle splash"
+  },
+  {
+   "es": "El agua se congela",
+   "en": "Delicate ice crackling as it freezes"
+  },
+  {
+   "es": "La botella se agrieta",
+   "en": "Plastic bottle cracking under pressure"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "cae",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una piedra se hunde en el agua de la tina.",
+   "escena": "The water tub sits in the center of the set with a grey clay rock resting on its dark-blue water surface.",
+   "accion": "The grey rock slowly sinks down into the dark-blue water until it disappears.",
+   "narrador": "Una piedra en el agua… se hunde. Casi todo lo sólido se hunde. Es lo normal.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "cubo_de_hielo_gigante",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El cubo de hielo flota y se mece.",
+   "escena": "The water tub sits in the center of the set with the ice cube floating on its dark-blue water surface.",
+   "accion": "The ice cube bobs gently up and down on the water surface, again and again.",
+   "narrador": "[surprised] Pero el hielo también es sólido, es agua dura como piedra… ¡y flota! ¿Por qué?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P7",
+    "nombre": "Desconcertado",
+    "direccion": "Pipo looks slowly from one side to the other and back, completely baffled."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¿Ba? ¿Bo? ¿Bi?",
+    "intencion": "Desconcertado",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo mira a un lado y al otro, sin entender.",
+   "narrador": "Pipo no lo entiende. Y con razón: el agua esconde un secreto rarísimo."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: ¡el hielo lleva flotadores invisibles, como los de la piscina!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "cubo_de_hielo_gigante",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "revienta",
+    "empuja"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo hunde el cubo y este vuelve a subir.",
+   "escena": "Pipo stands beside the water tub with both paddle arms resting on the ice cube, which floats on the dark-blue water surface.",
+   "accion": "Pipo pushes the ice cube down into the water and it pops back up, again and again.",
+   "narrador": "Si los tuviera, al empujarlo hacia abajo se quedaría hundido. Pero siempre vuelve a subir.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un iceberg enorme flota en el mar.",
+   "escena": "A large jagged pale-cyan clay iceberg floats on a wide flat dark-blue clay sea that fills the lower half of the frame.",
+   "accion": "The iceberg rocks very slowly from side to side on the dark-blue sea.",
+   "narrador": "Segunda idea: flota porque es pequeño. Pero un iceberg es más grande que un edificio… y flota igual.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si el hielo está hecho de agua, ¿en qué se diferencia del agua?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "cubo_de_hielo_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo examina el cubo de hielo.",
+   "escena": "Pipo stands beside the ice cube, which rests on the set, leaning toward it.",
+   "accion": "Pipo slowly moves his head around the ice cube, inspecting it from one side to the other.",
+   "narrador": "¡Esa es la pista! Mismo material, distinto comportamiento. Algo cambia cuando el agua se congela.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "cubo_de_hielo_gigante"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca al cubo de hielo.",
+   "escena": "The ice cube stands alone in the center of the set.",
+   "accion": "The ice cube stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué será lo que cambia? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar el agua por dentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una molécula de agua gira despacio.",
+   "escena": "One water molecule fills the frame.",
+   "accion": "The water molecule turns slowly in place like on a turntable.",
+   "narrador": "[excited] ¡Hagamos zoom! El agua está hecha de piezas diminutas llamadas moléculas. Así se ve una.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "La molécula mueve sus dos orejitas.",
+   "escena": "One water molecule stands in the center of the frame, its two white ears on top.",
+   "accion": "The water molecule wiggles its two white ears, again and again.",
+   "narrador": "Parece la cabeza de un osito: una bola grande de oxígeno y dos orejitas de hidrógeno.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Muchas moléculas ruedan y se empujan: es agua líquida.",
+   "escena": "A loose pile of many water molecules covers the center of the set.",
+   "accion": "The water molecules roll over each other and jostle playfully, never stopping.",
+   "narrador": "En el agua líquida, las moléculas están en plena fiesta: se mueven, ruedan y se empujan.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las moléculas, muy juntas, se deslizan unas contra otras.",
+   "escena": "Many water molecules, packed tightly together, fill the frame.",
+   "accion": "The tightly packed water molecules slide slowly past each other, staying close together.",
+   "narrador": "Como no paran de moverse, pueden estar muy juntitas, casi sin dejar huecos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de la molécula de agua.",
+   "imagen": "One large water molecule stands centered, its two white ears on top, evenly lit. Wide clean empty white space on both sides.",
+   "narrador": "Molécula de agua: un oxígeno y dos hidrógenos. Por eso se llama hache dos o.",
+   "rotulos": "O (oxígeno) · H · H (hidrógeno) · H₂O"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo tirita de frío.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo hugs himself with both paddle arms and shivers, again and again.",
+   "narrador": "Pipo pregunta: ¿y qué pasa con la fiesta cuando hace mucho, mucho frío?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las moléculas se mueven cada vez más lento.",
+   "escena": "A loose pile of many water molecules covers the center of the set.",
+   "accion": "The water molecules move slower and slower until they are barely rocking.",
+   "narrador": "Con el frío, las moléculas se quedan sin energía. Bailan más y más lento…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop apuesta a que se van a apretar más, como casi todas las cosas cuando se enfrían."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "molecula_de_agua"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Dos moléculas se atraen y se enganchan.",
+   "escena": "Two water molecules stand apart, one on the left and one on the right of the frame.",
+   "accion": "The two water molecules slide slowly toward each other and click together.",
+   "narrador": "Pero las moléculas de agua tienen una manía: se atraen entre sí, como imanes chiquitos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "T",
+    "es": "Cenital fijo",
+    "focal": 35,
+    "altura": "encima, mirando hacia abajo",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "anillo_de_hielo_seis_moleculas"
+   ],
+   "movimientos": [
+    "rueda_desliza"
+   ],
+   "animacion": "script",
+   "enPantalla": "Desde arriba: seis moléculas se abren en un anillo.",
+   "escena": "Seen from above, six water molecules sit bunched together in a tight cluster in the center of the set.",
+   "accion": "The six water molecules slide slowly outward and link into a wide hexagonal ring with an empty center.",
+   "narrador": "Al llegar a cero grados dejan de bailar y se agarran… pero con los brazos bien estirados.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "T",
+    "es": "Cenital fijo",
+    "focal": 35,
+    "altura": "encima, mirando hacia abajo",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "anillo_de_hielo_seis_moleculas"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "El anillo hexagonal gira despacio.",
+   "escena": "Seen from above, the ice ring model lies in the center of the set.",
+   "accion": "The ice ring model turns slowly in place like a wheel.",
+   "narrador": "Forman anillos de seis, todas a la misma distancia, como un panal de abejas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "anillo_de_hielo_seis_moleculas"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento al hueco vacío del anillo.",
+   "escena": "Seen from above, the ice ring model lies in the center of the set.",
+   "accion": "The ice ring model stays still while the camera glides slowly closer to its empty center.",
+   "narrador": "Y mira el centro de cada anillo: ¡está vacío! El hielo está lleno de huequitos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "gira",
+    "crece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo estira los brazos a los lados y gira.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo stretches both paddle arms straight out to the sides and turns slowly in place.",
+   "narrador": "Pipo lo entiende así: bailando caben muchos en la pista; con los brazos estirados, caben menos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "crece"
+   ],
+   "animacion": "script",
+   "enPantalla": "El cubo de hielo crece un poco más que el de agua.",
+   "escena": "Two clay cubes of the same size stand side by side: a dark-blue cube on the left and a pale icy-cyan cube on the right.",
+   "accion": "The pale-cyan cube slowly grows until it is a little bigger than the dark-blue cube.",
+   "narrador": "Por eso el hielo ocupa más espacio que el agua que lo formó: casi una décima parte más.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una botella se abomba hasta agrietarse.",
+   "escena": "A sealed solid blue clay bottle stands in the center of the frame.",
+   "accion": "The bottle slowly bulges outward until a crack opens along its side.",
+   "narrador": "¿Has visto una botella llena reventarse en el congelador? Es el hielo, estirándose al formarse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L5",
+    "nombre": "Lo entendió",
+    "direccion": "Plop's eyes grow wide and he slowly raises one paddle arm, as if he just understood something."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Aaah, nilú!",
+    "intencion": "Lo entendió",
+    "etiqueta": "[surprised]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop abre los ojos y levanta un brazo: ¡lo entendió!",
+   "narrador": "Plop conecta las piezas: mismas moléculas, pero más separadas. Entonces el hielo es…"
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El balancín se inclina: el agua baja, el hielo sube.",
+   "escena": "A simple white clay seesaw stands level in the center of the set, with a dark-blue clay cube on its left end and a pale icy-cyan clay cube of the same size on its right end.",
+   "accion": "The seesaw slowly tips until the dark-blue cube is down and the pale-cyan cube is up.",
+   "narrador": "…¡más liviano! Un cubo de hielo pesa menos que un cubo de agua del mismo tamaño.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [
+    "cubo_de_hielo_gigante",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "flota",
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "El cubo sube desde el fondo hasta la superficie.",
+   "escena": "The water tub sits in the center of the set, with only the top edge of the ice cube showing above the dark-blue water surface.",
+   "accion": "The ice cube slowly rises out of the dark-blue water and bobs on the surface.",
+   "narrador": "Y lo más liviano siempre queda arriba. El agua de abajo empuja al hielo hacia la superficie.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "cubo_de_hielo_gigante",
+    "tina_de_agua"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo le da palmaditas al cubo flotante.",
+   "escena": "Pipo stands beside the water tub, where the ice cube floats on the dark-blue water surface.",
+   "accion": "Pipo gently pats the top of the floating ice cube, again and again, nodding.",
+   "narrador": "No hay flotadores, Pipo. El hielo flota porque sus moléculas, bien estiradas, dejan huecos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "De lado: el iceberg tiene casi todo su cuerpo bajo el agua.",
+   "escena": "Side cutaway view: a tall pale-cyan clay iceberg whose small tip rises above a flat dark-blue clay water line, while its much larger body hangs below the line against lighter blue clay.",
+   "accion": "The iceberg bobs very slowly up and down, its tip staying above the water line.",
+   "narrador": "Hasta un iceberg gigante cumple la regla: flota, aunque casi todo su cuerpo queda bajo el agua.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y tu pregunta, Plop: el hielo es agua, sí, pero agua ordenada en anillos con huecos."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "cubo_de_hielo_gigante"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo, sentado en el cubo, balancea las piernas.",
+   "escena": "Pipo sits on top of the ice cube, facing the camera.",
+   "accion": "Pipo swings his short legs back and forth happily, again and again.",
+   "narrador": "Mismo material, distinta forma de acomodarse. ¡Qué rara y qué genial es el agua!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [
+    "molecula_de_agua",
+    "anillo_de_hielo_seis_moleculas"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: moléculas juntas, anillo con hueco y hielo flotando.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a tight pile of water molecules; the ice ring model; and a pale icy-cyan clay cube floating on a small flat dark-blue clay water surface. Clean empty white space above each one.",
+   "narrador": "Repasemos: el frío forma anillos, los anillos dejan huecos y, con huecos, el hielo flota.",
+   "rotulos": "1 Anillos · 2 Huecos · 3 ¡Flota!"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Corte de un lago: el hielo se forma solo arriba.",
+   "escena": "Side cutaway view of a lake: a wide block of dark-blue clay water with a flat top surface fills the lower two thirds of the frame.",
+   "accion": "A thin pale-cyan clay layer slowly spreads across the top of the dark-blue water from left to right.",
+   "narrador": "[curious] Dato extra: gracias a esto, los lagos se congelan solo por arriba, como si tuvieran techo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "agua",
+   "personajes": [],
+   "objetos": [],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un pez nada tranquilo bajo el techo de hielo.",
+   "escena": "Side cutaway view of a lake: dark-blue clay water covered by a thin pale-cyan clay layer on top, with one small orange clay fish in the water.",
+   "accion": "The orange fish swims slowly from left to right under the pale-cyan layer, wiggling its tail.",
+   "narrador": "Debajo, el agua sigue líquida y los peces pasan el invierno nadando tranquilos.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Si el hielo se hundiera, los lagos se congelarían enteros. Y ahora… Plop tiene un reto."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un vaso con agua y dos cubos de hielo.",
+   "imagen": "A chunky clay drinking glass filled with dark-blue clay water, with two pale icy-cyan clay cubes floating at the top, mostly below the water line. Clean empty white space on the right side.",
+   "narrador": "Con un adulto, pon hielo en un vaso con agua. ¿Cuánto queda escondido debajo?",
+   "rotulos": "Reto en casa · ¿cuánto hielo se esconde?"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "agua",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}

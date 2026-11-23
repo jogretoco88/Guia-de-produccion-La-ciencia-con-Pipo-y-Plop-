@@ -1,0 +1,1261 @@
+{
+ "episodio": 11,
+ "id": "ep11",
+ "titulo": "¿Por qué burbujea el refresco?",
+ "tema": "Refresco",
+ "categoria": "co",
+ "protagonista": "P",
+ "acompanante": "L",
+ "zonaBase": "cocina",
+ "render": {
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 24,
+  "animarDeA": 2,
+  "motor": "EEVEE para todas las tomas; CYCLES solo para miniaturas y planos destacados"
+ },
+ "duracion": 300,
+ "frames": 7200,
+ "framesUnicos": 3600,
+ "objetos": [
+  "botella_de_refresco",
+  "botella_por_dentro",
+  "bolitas_de_gas",
+  "vaso_de_refresco"
+ ],
+ "efectos": [
+  {
+   "es": "¡Psss!",
+   "en": "Soda bottle opening, sharp fizzy hiss"
+  },
+  {
+   "es": "Burbujeo",
+   "en": "Gentle fizzy soda bubbling in a glass"
+  },
+  {
+   "es": "Fuente de espuma",
+   "en": "Soda fountain erupting, foamy whoosh"
+  },
+  {
+   "es": "Burbuja que revienta",
+   "en": "Tiny bubble pop, close-up"
+  }
+ ],
+ "tomas": [
+  {
+   "n": 1,
+   "bloque": 1,
+   "tipo": "personaje",
+   "inicio": 0,
+   "dur": 8,
+   "frames": 192,
+   "clip": 1,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "flota",
+    "aparece"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo destapa la botella y salen burbujas disparadas.",
+   "escena": "Pipo stands beside the soda bottle, with one paddle arm on its red cap.",
+   "accion": "Pipo lifts the cap off the bottle and small white clay bubbles shoot up out of the bottle's neck, one after another.",
+   "narrador": "[curious] ¡Psss! Abres la botella y miles de burbujas suben a toda prisa. ¿De dónde salieron?",
+   "bocaAbierta": false
+  },
+  {
+   "n": 2,
+   "bloque": 1,
+   "tipo": "objetos",
+   "inicio": 8,
+   "dur": 8,
+   "frames": 192,
+   "clip": 2,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "balancea"
+   ],
+   "animacion": "script",
+   "enPantalla": "La botella cerrada, quieta y sin burbujas.",
+   "escena": "The soda bottle stands in the center of the frame with its cap on.",
+   "accion": "The soda bottle rocks very gently from side to side.",
+   "narrador": "Hace un segundo, con la tapa puesta, no había ni una. El líquido estaba quieto y tranquilo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 3,
+   "bloque": 1,
+   "tipo": "reaccion",
+   "inicio": 16,
+   "dur": 8,
+   "frames": 192,
+   "clip": 3,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L7",
+    "nombre": "¿Listos?",
+    "direccion": "Plop blinks, leans slightly toward the camera and nods eagerly, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¿Lu-ni? ¡Lu-ni!",
+    "intencion": "¿Listos?",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop mira a cámara y asiente con ganas.",
+   "narrador": "Plop también quiere saberlo. Hoy vamos a descubrir qué esconde una botella cerrada."
+  },
+  {
+   "n": 4,
+   "bloque": 1,
+   "tipo": "cortinilla",
+   "inicio": 24,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  },
+  {
+   "n": 5,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 28,
+   "dur": 8,
+   "frames": 192,
+   "clip": 4,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P1",
+    "nombre": "Idea",
+    "direccion": "Pipo slowly raises one paddle arm high above his head with wide, excited eyes, as if he just had an idea."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Pipi-ba!",
+    "intencion": "Tiene una idea",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo levanta un brazo: ¡tiene una idea!",
+   "narrador": "[mischievously] La idea loca de Pipo: en la fábrica meten burbujitas dormidas, ¡y el ruido las despierta!"
+  },
+  {
+   "n": 6,
+   "bloque": 2,
+   "tipo": "personaje",
+   "inicio": 36,
+   "dur": 8,
+   "frames": 192,
+   "clip": 5,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo aplaude junto a la botella cerrada: nada.",
+   "escena": "Pipo stands beside the closed soda bottle.",
+   "accion": "Pipo claps his paddle arms together next to the bottle, again and again, while the bottle stays calm.",
+   "narrador": "Probemos: Pipo hace muchísimo ruido junto a la botella cerrada… y no despierta ninguna.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 7,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 44,
+   "dur": 8,
+   "frames": 192,
+   "clip": 6,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Por dentro, el líquido está liso: no hay burbujas.",
+   "escena": "The cut-open bottle model stands in the center of the frame, cap on, its amber liquid perfectly smooth.",
+   "accion": "The amber liquid inside sways very gently, staying smooth.",
+   "narrador": "Y si miramos adentro, no hay burbujas dormidas por ningún lado. Solo líquido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 8,
+   "bloque": 2,
+   "tipo": "reaccion",
+   "inicio": 52,
+   "dur": 8,
+   "frames": 192,
+   "clip": 7,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L1",
+    "nombre": "Pensativo",
+    "direccion": "Plop slowly tilts his head from one side to the other, thinking, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmmm… ¿plu-ni?",
+    "intencion": "Pensativo",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop ladea la cabeza, pensativo.",
+   "narrador": "[thoughtful] Plop se pregunta: si estaban adentro, ¿por qué no se veían con la botella cerrada?"
+  },
+  {
+   "n": 9,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 60,
+   "dur": 8,
+   "frames": 192,
+   "clip": 8,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La botella gira despacio.",
+   "escena": "The soda bottle stands in the center of the frame with its cap on.",
+   "accion": "The soda bottle turns slowly in place like on a turntable.",
+   "narrador": "¡Buena pregunta! Algo está escondido en el líquido. Tan bien escondido que ni se ve.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 10,
+   "bloque": 2,
+   "tipo": "objetos",
+   "inicio": 68,
+   "dur": 8,
+   "frames": 192,
+   "clip": 9,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "La cámara se acerca a la botella.",
+   "escena": "The soda bottle stands alone in the center of the set with its cap on.",
+   "accion": "The soda bottle stays still while the camera glides slowly closer to it.",
+   "narrador": "¿Qué será y quién lo esconde? ¿Tú qué crees? Piénsalo… ¡Vamos a mirar muy adentro!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 11,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 76,
+   "dur": 8,
+   "frames": 192,
+   "clip": 10,
+   "camara": {
+    "codigo": "I",
+    "es": "Acercamiento lento",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "avanza despacio hacia el sujeto durante toda la toma"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "revienta",
+    "acercamiento_lento"
+   ],
+   "animacion": "script",
+   "enPantalla": "Acercamiento a la botella por dentro.",
+   "escena": "The cut-open bottle model stands in the center of the set, cap on.",
+   "accion": "The cut-open bottle model stays still while the camera glides slowly closer to its amber liquid.",
+   "narrador": "[excited] ¡Hagamos zoom! En el refresco hay algo más que agua, azúcar y sabor: hay un gas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 12,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 84,
+   "dur": 8,
+   "frames": 192,
+   "clip": 11,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro",
+    "bolitas_de_gas"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Bolitas de gas repartidas en el líquido, lejos unas de otras.",
+   "escena": "The amber liquid inside the cut-open bottle model fills the frame, with a few gas balls spread through it.",
+   "accion": "The gas balls drift slowly through the amber liquid, staying far apart from each other.",
+   "narrador": "Se llama dióxido de carbono. Está disuelto: repartido en pedacitos tan pequeños que no forman burbujas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 13,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 92,
+   "dur": 8,
+   "frames": 192,
+   "clip": 12,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro"
+   ],
+   "movimientos": [
+    "empuja"
+   ],
+   "animacion": "script",
+   "enPantalla": "La tapa roja aprieta hacia abajo.",
+   "escena": "The top of the cut-open bottle model fills the frame: the red cap and the small empty space under it.",
+   "accion": "The red cap presses down firmly, quivering slightly, holding everything in.",
+   "narrador": "En la fábrica lo meten a la fuerza, apretándolo. Y la tapa lo mantiene encerrado y apretado.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 14,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 100,
+   "dur": 8,
+   "frames": 192,
+   "clip": 13,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro",
+    "bolitas_de_gas"
+   ],
+   "movimientos": [
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "El gas de arriba rebota entre la tapa y el líquido.",
+   "escena": "The top of the cut-open bottle model fills the frame, with a few gas balls packed in the small space between the liquid and the red cap.",
+   "accion": "The gas balls in the small space bounce against the cap and the liquid, again and again.",
+   "narrador": "Ese apretón se llama presión. Mientras haya presión, el gas se queda quieto dentro del líquido.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 15,
+   "bloque": 3,
+   "tipo": "lamina",
+   "inicio": 108,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "botella_por_dentro"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Lámina de la botella por dentro.",
+   "imagen": "The cut-open bottle model stands centered, cap on, evenly lit. Wide clean empty white space on both sides of the model.",
+   "narrador": "Líquido, gas disuelto y una tapa que aprieta. ¡Recuerda la tapa!",
+   "rotulos": "Tapa (presión) · Gas disuelto · Líquido"
+  },
+  {
+   "n": 16,
+   "bloque": 3,
+   "tipo": "personaje",
+   "inicio": 114,
+   "dur": 8,
+   "frames": 192,
+   "clip": 14,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [],
+   "movimientos": [
+    "encoge"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo se abraza a sí mismo, apretado.",
+   "escena": "Pipo stands in the center of the set, facing the camera.",
+   "accion": "Pipo hugs himself tightly with both paddle arms, squeezing smaller and smaller.",
+   "narrador": "Pipo lo entiende así: es como ir en un autobús lleno. Apretados, nadie se puede mover.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 17,
+   "bloque": 3,
+   "tipo": "objetos",
+   "inicio": 122,
+   "dur": 8,
+   "frames": 192,
+   "clip": 15,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro",
+    "bolitas_de_gas"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "La tapa se levanta y el gas de arriba escapa.",
+   "escena": "The top of the cut-open bottle model fills the frame, with gas balls packed under the red cap.",
+   "accion": "The red cap lifts off and the gas balls under it rush up and out of the bottle.",
+   "narrador": "Pero al abrir la tapa… ¡psss! El gas de arriba se escapa y la presión baja de golpe.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 18,
+   "bloque": 3,
+   "tipo": "reaccion",
+   "inicio": 130,
+   "dur": 8,
+   "frames": 192,
+   "clip": 16,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L2",
+    "nombre": "Sospecha",
+    "direccion": "Plop narrows his eyes and nods slowly, as if he suspects what is about to happen."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Mmm-hm… plo-plo.",
+    "intencion": "Sospecha algo",
+    "etiqueta": "[mischievously]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop entrecierra los ojos y asiente: sospecha algo.",
+   "narrador": "Plop ya lo sospecha: sin nadie que lo apriete, el gas escondido querrá salir también."
+  },
+  {
+   "n": 19,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 138,
+   "dur": 8,
+   "frames": 192,
+   "clip": 17,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro",
+    "bolitas_de_gas"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "crece",
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las bolitas de gas se juntan y forman burbujas grandes.",
+   "escena": "The amber liquid inside the cut-open bottle model fills the frame, with small gas balls spread through it.",
+   "accion": "The small gas balls slide toward each other and join into a few bigger white bubbles.",
+   "narrador": "Así es. Sin presión, los pedacitos de gas se juntan unos con otros y forman burbujas.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 20,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 146,
+   "dur": 8,
+   "frames": 192,
+   "clip": 18,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_por_dentro",
+    "bolitas_de_gas"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Las burbujas suben por el líquido.",
+   "escena": "Inside the cut-open bottle model, a few big white bubbles sit in the amber liquid.",
+   "accion": "The white bubbles rise slowly through the amber liquid to the top, one after another.",
+   "narrador": "Y como el gas pesa mucho menos que el líquido, las burbujas suben, suben y suben.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 21,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 154,
+   "dur": 8,
+   "frames": 192,
+   "clip": 19,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "movimientos": [
+    "flota",
+    "revienta"
+   ],
+   "animacion": "script",
+   "enPantalla": "En la superficie del vaso, las burbujas revientan.",
+   "escena": "The clay glass stands in the center of the frame, with small white bubbles on the surface of its soda.",
+   "accion": "The small white bubbles on the surface pop one by one while new ones rise to replace them.",
+   "narrador": "Al llegar arriba, revientan. Ese es el cosquilleo que sientes en la nariz cuando bebes.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 22,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 162,
+   "dur": 8,
+   "frames": 192,
+   "clip": 20,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L8",
+    "nombre": "Preocupado",
+    "direccion": "Plop leans slowly toward the camera with worried eyes."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Ay… plo-mu…",
+    "intencion": "Preocupado",
+    "etiqueta": "[sighs]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se inclina hacia la cámara, preocupado.",
+   "narrador": "Plop quiere saber: ¿y por qué las burbujas siempre nacen en los mismos puntitos del vaso?"
+  },
+  {
+   "n": 23,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 170,
+   "dur": 8,
+   "frames": 192,
+   "clip": 21,
+   "camara": {
+    "codigo": "X",
+    "es": "Macro fijo",
+    "focal": 100,
+    "altura": "a la altura del detalle",
+    "movimiento": "fija",
+    "desenfoque": "fuerte"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "movimientos": [
+    "flota",
+    "crece",
+    "rebota"
+   ],
+   "animacion": "script",
+   "enPantalla": "En un puntito áspero del vaso nacen burbujas en fila.",
+   "escena": "The inner wall of the clay glass fills the frame, with one tiny rough bump on it, under amber soda.",
+   "accion": "Small white bubbles grow on the rough bump one by one, let go and rise in a straight line.",
+   "narrador": "Porque necesitan un lugar donde agarrarse para crecer: un rasguño, una pelusa, un granito de polvo.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 24,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 178,
+   "dur": 8,
+   "frames": 192,
+   "clip": 22,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P8",
+    "nombre": "Lo explica",
+    "direccion": "Pipo slowly opens both paddle arms wide to the sides and nods."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Pa-ti, pa-to… ¡tiba-po!",
+    "intencion": "Lo explica",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo abre los brazos y asiente, como quien explica algo.",
+   "narrador": "Pipo lo explica a su manera: las burbujas son tímidas. Solo se juntan donde hay una esquinita."
+  },
+  {
+   "n": 25,
+   "bloque": 4,
+   "tipo": "personaje",
+   "inicio": 186,
+   "dur": 8,
+   "frames": 192,
+   "clip": 23,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "tiembla"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo agita la botella cerrada.",
+   "escena": "Pipo stands facing the camera, holding the closed soda bottle with both paddle arms.",
+   "accion": "Pipo shakes the closed soda bottle up and down, again and again.",
+   "narrador": "¿Y si agitas la botella? Metes miles de burbujitas en el líquido: miles de lugares donde agarrarse.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 26,
+   "bloque": 4,
+   "tipo": "reaccion",
+   "inicio": 194,
+   "dur": 8,
+   "frames": 192,
+   "clip": 24,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "zoom",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L6",
+    "nombre": "No quiere mirar",
+    "direccion": "Plop peeks out from behind his paddle arms and hides again, over and over."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "Uy, uy, uy… mu-mu.",
+    "intencion": "No quiere mirar",
+    "etiqueta": "[whispers]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se tapa los ojos y espía entre las manoplas.",
+   "narrador": "[whispers] Plop no quiere mirar. Botella agitada, tapa a punto de abrirse… tres, dos, uno…"
+  },
+  {
+   "n": 27,
+   "bloque": 4,
+   "tipo": "objetos",
+   "inicio": 202,
+   "dur": 8,
+   "frames": 192,
+   "clip": 25,
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "zoom",
+   "personajes": [],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "aparece"
+   ],
+   "animacion": "script",
+   "enPantalla": "De la botella sale una fuente de espuma.",
+   "escena": "The soda bottle stands in the center of the set with its cap just lifted off.",
+   "accion": "A tall fountain of white clay foam shoots up out of the bottle and spills down its sides.",
+   "narrador": "[surprised] ¡Fuente de espuma! Todo el gas quiso salir a la vez. Mejor no hacerlo dentro de casa…",
+   "bocaAbierta": false
+  },
+  {
+   "n": 28,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 210,
+   "dur": 8,
+   "frames": 192,
+   "clip": 26,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "movimientos": [
+    "ondula"
+   ],
+   "animacion": "script",
+   "enPantalla": "Un vaso de refresco sin gas: liso, sin una burbuja.",
+   "escena": "The clay glass stands in the center of the frame, its amber soda perfectly smooth and flat.",
+   "accion": "The amber soda sways very gently, staying smooth and flat.",
+   "narrador": "¿Y un refresco olvidado en la mesa? Se queda sin gas: todo se escapó, burbuja a burbuja.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 29,
+   "bloque": 5,
+   "tipo": "objetos",
+   "inicio": 218,
+   "dur": 8,
+   "frames": 192,
+   "clip": 27,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "botella_de_refresco"
+   ],
+   "movimientos": [
+    "rueda_desliza",
+    "gira"
+   ],
+   "animacion": "script",
+   "enPantalla": "La tapa vuelve sola a la botella y se enrosca.",
+   "escena": "The soda bottle stands in the center of the frame with its cap off, and the red cap lies beside it.",
+   "accion": "The red cap slides to the bottle and twists itself back onto the neck.",
+   "narrador": "Por eso se vuelve a tapar. La tapa conserva la presión y el gas se queda donde está.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 30,
+   "bloque": 5,
+   "tipo": "personaje",
+   "inicio": 226,
+   "dur": 8,
+   "frames": 192,
+   "clip": 28,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "a_mano",
+   "enPantalla": "Pipo sigue con la mirada las burbujas del vaso.",
+   "escena": "Pipo stands facing the camera, holding the clay glass with both paddle arms.",
+   "accion": "Pipo watches the small white bubbles rise in the glass, following them with his eyes, again and again.",
+   "narrador": "Cada burbuja que ves subir es gas que estaba escondido, apretado, esperando su oportunidad.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 31,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 234,
+   "dur": 8,
+   "frames": 192,
+   "clip": 29,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P4",
+    "nombre": "Lo acepta",
+    "direccion": "Pipo shrugs with both paddle arms and nods slowly with smiling eyes."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "Okibo, okibo.",
+    "intencion": "Lo acepta",
+    "etiqueta": "[thoughtful]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se encoge de hombros y asiente con ojos sonrientes.",
+   "narrador": "No había burbujas dormidas, Pipo. Había un gas disuelto, sujeto por la presión de la tapa."
+  },
+  {
+   "n": 32,
+   "bloque": 5,
+   "tipo": "reaccion",
+   "inicio": 242,
+   "dur": 8,
+   "frames": 192,
+   "clip": 30,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L3",
+    "nombre": "¡Eso es!",
+    "direccion": "Plop nods happily and bounces lightly in place, again and again."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Plin! ¡Plin-lu!",
+    "intencion": "¡Eso es!",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop asiente contento, con saltitos.",
+   "narrador": "Y esa es tu respuesta, Plop: no se veían porque el gas estaba deshecho en el líquido."
+  },
+  {
+   "n": 33,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 250,
+   "dur": 8,
+   "frames": 192,
+   "zona": "pizarra",
+   "objetos": [],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Repaso: botella cerrada, botella abierta y vaso con burbujas.",
+   "imagen": "Three clay models in a row from left to right, evenly spaced: a closed orange clay bottle with a red cap; the same bottle open with white clay bubbles rising from its neck; and a clay glass of amber soda with a line of white bubbles rising inside. Clean empty white space above each one.",
+   "narrador": "Repasemos: la tapa aprieta el gas en el líquido, al abrir baja la presión y salen las burbujas.",
+   "rotulos": "1 Gas a presión · 2 Se abre la tapa · 3 Burbujas"
+  },
+  {
+   "n": 34,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 258,
+   "dur": 8,
+   "frames": 192,
+   "clip": 31,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "movimientos": [
+    "flota"
+   ],
+   "animacion": "script",
+   "enPantalla": "Una pasa sube por el vaso, cubierta de burbujitas.",
+   "escena": "The clay glass stands in the center of the frame, full of amber soda with rising white bubbles, and one small dark purple clay raisin rests at the bottom.",
+   "accion": "The raisin rises slowly to the surface, covered in tiny white bubbles.",
+   "narrador": "[curious] Dato extra: echa una pasa en agua con gas. Las burbujas se le pegan como flotadores.",
+   "bocaAbierta": false
+  },
+  {
+   "n": 35,
+   "bloque": 6,
+   "tipo": "objetos",
+   "inicio": 266,
+   "dur": 8,
+   "frames": 192,
+   "clip": 32,
+   "camara": {
+    "codigo": "C",
+    "es": "Primer plano fijo",
+    "focal": 85,
+    "altura": "ojos del títere",
+    "movimiento": "fija",
+    "desenfoque": "fondo suave"
+   },
+   "zona": "cocina",
+   "personajes": [],
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "movimientos": [
+    "cae"
+   ],
+   "animacion": "script",
+   "enPantalla": "Arriba, la pasa pierde sus burbujas y se hunde otra vez.",
+   "escena": "The clay glass stands in the center of the frame, with one small dark purple clay raisin floating at the surface of its amber soda.",
+   "accion": "The raisin sinks slowly back down to the bottom of the glass.",
+   "narrador": "Arriba, las burbujas revientan y la pasa se hunde. Y vuelve a empezar: ¡es una pasa buzo!",
+   "bocaAbierta": false
+  },
+  {
+   "n": 36,
+   "bloque": 6,
+   "tipo": "reaccion",
+   "inicio": 274,
+   "dur": 8,
+   "frames": 192,
+   "clip": 33,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "L"
+   ],
+   "accion": {
+    "codigo": "L9",
+    "nombre": "Reto",
+    "direccion": "Plop takes one small step toward the camera and slowly raises one paddle arm, as if inviting the viewer."
+   },
+   "voz": {
+    "personaje": "L",
+    "dice": "¡Tu-lu, tu-lu!",
+    "intencion": "Invita al reto",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Plop se acerca a cámara e invita al reto.",
+   "narrador": "Ese experimento lo puedes hacer hoy mismo. Plop tiene un reto para ti."
+  },
+  {
+   "n": 37,
+   "bloque": 6,
+   "tipo": "lamina",
+   "inicio": 282,
+   "dur": 6,
+   "frames": 144,
+   "zona": "pizarra",
+   "objetos": [
+    "vaso_de_refresco"
+   ],
+   "camara": {
+    "codigo": "W",
+    "es": "Plano general fijo",
+    "focal": 35,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "animacion": "script",
+   "movimientos": [
+    "acercamiento_lento"
+   ],
+   "enPantalla": "Un vaso con burbujas y tres pasas al lado.",
+   "imagen": "The clay glass full of amber soda with white bubbles, and three small dark purple clay raisins lying beside it. Clean empty white space above them.",
+   "narrador": "Echa unas pasas en un vaso de agua con gas. ¿Cuántas veces suben y bajan?",
+   "rotulos": "Reto en casa · las pasas buzo"
+  },
+  {
+   "n": 38,
+   "bloque": 7,
+   "tipo": "reaccion",
+   "inicio": 288,
+   "dur": 8,
+   "frames": 192,
+   "clip": 34,
+   "camara": {
+    "codigo": "M",
+    "es": "Plano medio fijo",
+    "focal": 50,
+    "altura": "ojos del títere",
+    "movimiento": "fija"
+   },
+   "zona": "cocina",
+   "personajes": [
+    "P"
+   ],
+   "accion": {
+    "codigo": "P10",
+    "nombre": "Adiós",
+    "direccion": "Pipo waves one paddle arm at the camera, slowly and happily."
+   },
+   "voz": {
+    "personaje": "P",
+    "dice": "¡Bai-bai-po!",
+    "intencion": "Se despide",
+    "etiqueta": "[excited]"
+   },
+   "animacion": "biblioteca",
+   "enPantalla": "Pipo se despide con la manopla.",
+   "narrador": ""
+  },
+  {
+   "n": 39,
+   "bloque": 7,
+   "tipo": "tarjeta_final",
+   "inicio": 296,
+   "dur": 4,
+   "frames": 96,
+   "zona": "entrada",
+   "personajes": [
+    "P",
+    "L"
+   ],
+   "animacion": "canal",
+   "reutilizable": true
+  }
+ ]
+}
