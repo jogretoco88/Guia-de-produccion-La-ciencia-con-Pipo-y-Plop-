@@ -27,19 +27,19 @@
  "efectos": [
   {
    "es": "Lluvia suave",
-   "en": "Gentle light rain, soft and steady"
+   "sonido": "AMB_Lluvia_Suave"
   },
   {
    "es": "La luz se abre",
-   "en": "Rising magical glissando on a glockenspiel"
+   "sonido": "INSTR_Glockenspiel_Sube"
   },
   {
    "es": "Rebote en la gota",
-   "en": "Soft glassy ping"
+   "sonido": "INSTR_Copa_Ping"
   },
   {
    "es": "Aparece el arcoíris",
-   "en": "Warm shimmering chime swell"
+   "sonido": "INSTR_Copas_Armonia"
   }
  ],
  "tomas": [
@@ -67,6 +67,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Llueve y un arcoíris aparece poco a poco.",
@@ -99,6 +103,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo estira la manopla hacia el arcoíris sin alcanzarlo.",
@@ -216,6 +223,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo camina hacia el arcoíris y este no se acerca.",
    "escena": "Pipo stands on the left of the set, with the rainbow arching far away on the right.",
@@ -246,6 +256,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El arcoíris se desvanece.",
@@ -314,6 +327,10 @@
     "cae",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "El Sol a un lado y la nube de lluvia al otro.",
    "escena": "The clay sun sits on the left of the set and the rain cloud floats on the right, with blue clay drops falling under it.",
@@ -345,6 +362,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a una gota de lluvia.",
    "escena": "The giant raindrop floats in the center of the set.",
@@ -375,6 +395,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "La gota de lluvia gira: es una bolita casi perfecta.",
@@ -409,6 +432,10 @@
     "rueda_desliza",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "El rayo blanco entra en la gota y se dobla.",
    "escena": "The giant raindrop sits in the center of the frame, with the white light beam pointing at it from the upper left.",
@@ -439,6 +466,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Dentro de la gota, la luz blanca se abre en colores.",
@@ -471,6 +501,10 @@
    "movimientos": [
     "rueda_desliza",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Los colores rebotan en el fondo de la gota.",
@@ -531,6 +565,10 @@
     "revienta",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo abre los brazos como un abanico.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -562,6 +600,10 @@
    "movimientos": [
     "rueda_desliza",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Los colores salen de la gota, ya separados.",
@@ -624,6 +666,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Muchas gotas, y de cada una sale un abanico de colores.",
    "escena": "Many small pale-blue clay raindrops hang in the air across the whole set.",
@@ -653,6 +696,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "A un ojo le llega un color distinto de cada gota.",
    "escena": "A friendly clay eye sits at the lower left of the frame, and three pale-blue clay raindrops float at different heights on the right.",
@@ -681,6 +727,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Las gotas de arriba se vuelven rojas; las de abajo, violetas.",
@@ -746,6 +795,10 @@
     "balancea",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Un arco gris se llena de color, franja por franja.",
    "escena": "A wide arch of plain grey clay stands on the set.",
@@ -810,6 +863,7 @@
     "sol_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo, de espaldas al Sol, señala hacia adelante.",
    "escena": "Pipo stands in the center of the set with his back to the clay sun, which sits behind him on the left.",
@@ -840,6 +894,7 @@
     "arcoiris"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo dibuja en el aire la curva del arcoíris.",
    "escena": "Pipo stands on the left of the set, looking at the rainbow arching on the right.",
@@ -871,6 +926,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "El arcoíris toca el suelo por los dos extremos.",
    "escena": "The rainbow arches across the frame, its two ends touching the white floor.",
@@ -898,6 +956,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Un arcoíris redondo, completo, gira despacio.",
@@ -931,6 +992,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo camina y el arcoíris se mueve con él.",
    "escena": "Pipo stands on the left of the set, with the rainbow arching far away on the right.",
@@ -960,6 +1024,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira hacia arriba, maravillado.",
@@ -1085,6 +1152,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Sobre el arcoíris aparece otro, más pálido.",
    "escena": "The rainbow arches across the set.",
@@ -1116,6 +1186,10 @@
    "movimientos": [
     "rueda_desliza",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Dentro de la gota, la luz rebota dos veces.",

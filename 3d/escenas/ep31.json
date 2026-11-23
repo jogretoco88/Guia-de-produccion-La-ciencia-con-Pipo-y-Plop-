@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Motores al despegar",
-   "en": "Jet airplane engines roaring during takeoff"
+   "sonido": "MECAN_Avion_Despega"
   },
   {
    "es": "Viento",
-   "en": "Soft rushing wind"
+   "sonido": "AMB_Brisa_Suave"
   },
   {
    "es": "Avión de papel",
-   "en": "Light whoosh of a paper plane gliding"
+   "sonido": "AIRE_Avion_Papel"
   },
   {
    "es": "Campanilla de cabina",
-   "en": "Soft airplane cabin chime"
+   "sonido": "MECAN_Campanilla_Cabina"
   }
  ],
  "tomas": [
@@ -64,6 +64,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El avión gigante rueda por la pista.",
@@ -94,6 +97,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "El avión despega y sube.",
@@ -208,6 +214,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Un globo sube solo.",
    "escena": "A small red clay balloon on a string floats in the center of the frame, against a pale-blue clay sky backdrop.",
@@ -236,6 +245,7 @@
     "avion_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "El avión, quieto en la pista, no se levanta.",
    "escena": "The clay airplane stands parked on a flat grey clay runway in the center of the set.",
@@ -303,6 +313,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira de cerca las alas del avión.",
    "escena": "Pipo stands beside the clay airplane, which rests on a flat grey clay runway.",
@@ -333,6 +346,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a un ala.",
@@ -365,6 +381,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Zoom: el ala de lado, con el aire que llega.",
@@ -399,6 +418,10 @@
     "rueda_desliza",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "El aire pasa por el ala y sale doblado hacia abajo.",
    "escena": "The wing slice stands in the center of the frame, tilted slightly upward at the front, with the air ribbons flowing over and under it.",
@@ -431,6 +454,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Una flecha blanca crece hacia arriba sobre el ala.",
    "escena": "The wing slice stands in the center of the frame, with the air ribbons bending down behind it and one big white clay arrow pointing up above it.",
@@ -461,6 +487,10 @@
    "movimientos": [
     "ondula",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo salta: empuja el suelo y sube.",
@@ -522,6 +552,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "El aire se pega a la curva de arriba del ala.",
    "escena": "The wing slice stands in the center of the frame, with the air ribbons flowing over its curved top.",
@@ -552,6 +585,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Encima del ala hay menos aire apretado que debajo.",
@@ -618,6 +654,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "El avión acelera y levanta la rueda de delante.",
    "escena": "The clay airplane is on a long flat grey clay runway in the center of the set.",
@@ -646,6 +685,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La aguja del velocímetro sube hasta el final.",
@@ -712,6 +754,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Las hélices de los motores giran.",
    "escena": "The clay airplane fills the frame from the side, with two round grey clay engines under its wing.",
@@ -742,6 +787,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Cuatro flechas alrededor del avión.",
@@ -808,6 +856,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "El avión baja planeando, suave.",
    "escena": "The clay airplane glides in the air above a flat green clay field, against a pale-blue clay sky backdrop.",
@@ -837,6 +888,10 @@
    "movimientos": [
     "rueda_desliza",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Una gaviota planea con las alas abiertas.",
@@ -870,6 +925,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo levanta un avión de papel y lo mira.",
    "escena": "Pipo stands facing the camera, holding the paper plane in one paddle arm.",
@@ -899,6 +957,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El avión de papel cruza el set.",
@@ -931,6 +992,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Los bordes de atrás de las alas, doblados hacia arriba.",
    "escena": "The paper plane fills the frame seen from behind, with the back edges of its wings folded slightly upward.",
@@ -960,6 +1024,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El avión de papel sube en curva.",
@@ -1085,6 +1152,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Cochecitos aparcados en filas sobre un ala gigante.",
    "escena": "A huge white clay airplane wing lies flat across the frame, with many tiny colorful clay cars parked in neat rows on top of it.",
@@ -1115,6 +1185,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El avión vuela sobre las nubes.",

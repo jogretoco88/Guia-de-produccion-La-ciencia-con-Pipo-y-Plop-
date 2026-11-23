@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Hilo que vibra",
-   "en": "Thin thread twanging softly"
+   "sonido": "FOLEY_Hilo_Pulsado"
   },
   {
    "es": "Mosca",
-   "en": "Fly buzzing"
+   "sonido": "ANIMAL_Mosca"
   },
   {
    "es": "Gotitas",
-   "en": "Tiny water droplets plinking"
+   "sonido": "AGUA_Gotitas_Hoja"
   },
   {
    "es": "Salto",
-   "en": "Tiny quick hop"
+   "sonido": "FOLEY_Toque_Papel"
   }
  ],
  "tomas": [
@@ -64,6 +64,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "Una telaraña con rocío al amanecer.",
@@ -96,6 +99,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "Una mosca se queda pegada.",
@@ -211,6 +217,7 @@
     "telarana"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "La araña camina por la telaraña tocando los hilos.",
    "escena": "The spider walks across the web in the center of the frame, its legs gripping the threads.",
@@ -241,6 +248,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "titere",
    "enPantalla": "La araña levanta sus ocho patas.",
@@ -309,6 +319,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira de cerca los hilos.",
    "escena": "Plop stands beside the web, which stretches between two green clay stems at his height.",
@@ -339,6 +352,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca al centro de la telaraña.",
@@ -371,6 +387,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "titere",
    "enPantalla": "Zoom: el hilo en espiral, lleno de gotitas de pegamento.",
    "escena": "A close-up of one spiral thread of the web fills the frame, dotted with tiny shiny clear clay glue droplets like beads on a string.",
@@ -402,6 +421,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "titere",
    "enPantalla": "Un hilo recto, liso y seco.",
    "escena": "A close-up of one straight spoke thread of the web fills the frame, smooth and dry with no droplets.",
@@ -432,6 +454,7 @@
     "telarana"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "La araña camina por un hilo recto.",
    "escena": "The spider stands on one straight spoke thread of the web in the center of the frame.",
@@ -463,6 +486,10 @@
    "movimientos": [
     "flota",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "titere",
    "enPantalla": "La pata peluda toca el pegamento y se suelta.",
@@ -522,6 +549,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "titere",
    "enPantalla": "Una gota de pegamento resbala por los pelos de la pata.",
    "escena": "The spider leg fills the frame, its tiny hairs coated with a thin shiny clay layer.",
@@ -550,6 +580,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop camina de puntillas entre chicles.",
    "escena": "Plop stands on a floor dotted with small shiny pink clay gum blobs.",
@@ -648,6 +679,7 @@
     "arana"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "Sale un hilo de la punta de la barriga de la araña.",
    "escena": "The spider hangs in the center of the frame seen from below, with small finger-like spinnerets at the tip of its round body.",
@@ -710,6 +742,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un hilo de seda y un alambre sostienen una pesa cada uno.",
@@ -778,6 +813,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "titere",
    "enPantalla": "La araña recoge su telaraña rota.",
    "escena": "The spider sits in the center of a torn web, gathering the loose threads with its front legs.",
@@ -806,6 +844,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una araña saltadora da un brinco.",
@@ -836,6 +877,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Una telarañita en la esquina de una ventana.",
    "escena": "A small clay house window with a tiny web in its corner sits in the center of the frame, with a few grey clay mosquitoes caught in the web.",
@@ -865,6 +909,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira por una lupa.",
@@ -897,6 +944,10 @@
    "movimientos": [
     "cae",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "El rocío brilla en los hilos de la espiral.",
@@ -931,6 +982,10 @@
     "gira",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "titere",
    "enPantalla": "La araña nota la vibración y se gira.",
    "escena": "The spider waits in the center of the web, with one leg resting on a straight spoke thread.",
@@ -960,6 +1015,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1085,6 +1143,10 @@
     "rueda_desliza",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una telaraña gigante cruza un río.",
    "escena": "A huge clay spider web stretches across a pale-blue clay river between two green clay trees in the center of the frame.",
@@ -1113,6 +1175,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Arañitas bebé vuelan colgadas de sus hilos.",

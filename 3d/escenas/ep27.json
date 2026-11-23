@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Chapuzón pequeño",
-   "en": "Small metal ball plopping into water"
+   "sonido": "AGUA_Objeto_Cae"
   },
   {
    "es": "El barco se mece",
-   "en": "Gentle water lapping against a boat hull"
+   "sonido": "AGUA_Casco_Barco"
   },
   {
    "es": "El agua empuja",
-   "en": "Deep soft bubbling push"
+   "sonido": "AGUA_Burbujeo_Profundo"
   },
   {
    "es": "Sirena de barco",
-   "en": "Short cheerful ship horn"
+   "sonido": "MECAN_Bocina_Barco"
   }
  ],
  "tomas": [
@@ -65,6 +65,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "La bolita se hunde en la tina.",
@@ -96,6 +99,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "El barco flota y se mece.",
@@ -212,6 +218,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "El barco, quieto, sigue flotando.",
    "escena": "The water tub sits in the center of the set, with the clay ship floating on its dark-blue water surface.",
@@ -240,6 +249,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una balsa flota sin motor.",
@@ -307,6 +319,7 @@
     "bolita_maciza"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo compara el barco y la bolita.",
    "escena": "Pipo stands between the clay ship on his left and the solid ball on his right.",
@@ -338,6 +351,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al barco.",
    "escena": "The clay ship stands alone in the center of the set.",
@@ -367,6 +383,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Desde arriba: el casco está hueco, lleno de aire.",
@@ -398,6 +417,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La bolita partida: es maciza por dentro.",
@@ -432,6 +454,10 @@
     "flota",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Un bloque entra en la tina y el agua se desborda.",
    "escena": "The water tub sits in the center of the frame, full to the brim, with the water block floating just above it.",
@@ -462,6 +488,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Del agua salen flechas que empujan hacia arriba.",
@@ -524,6 +553,10 @@
     "revienta",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo hunde una pelota de playa y esta vuelve a subir.",
    "escena": "Pipo stands beside the water tub, pressing a big orange clay beach ball down onto the dark-blue water with both paddle arms.",
@@ -555,6 +588,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "La bolita baja: la flecha que la empuja es muy pequeña.",
@@ -623,6 +659,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Bajo el casco, muchas flechas sostienen el barco.",
    "escena": "The water tub sits in the center of the frame, with the clay ship floating in it and many white clay arrows pointing up beneath its hull.",
@@ -654,6 +693,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "En un balancín, el agua apartada pesa más que el barco.",
@@ -721,6 +763,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "En el balancín, la bolita pesa más que su poquita agua.",
    "escena": "A simple white clay seesaw stands in the center of the frame, with the solid ball on its left end and a tiny water block on its right end.",
@@ -752,6 +797,10 @@
    "movimientos": [
     "cae",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Suben cajas al barco, que se hunde un poco más con cada una.",
@@ -820,6 +869,10 @@
     "cae",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El casco se llena de agua y el barco se hunde.",
    "escena": "The water tub sits in the center of the set, with the clay ship floating low in it and dark-blue water inside its hull.",
@@ -850,6 +903,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "El agua sube hasta la línea blanca del casco.",
@@ -884,6 +940,10 @@
     "encoge",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo aprieta la bolita entre sus manoplas.",
    "escena": "Pipo stands facing the camera, holding the solid ball in both paddle arms.",
@@ -914,6 +974,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "La bolita se aplana y se curva hasta ser un barquito hueco.",
@@ -946,6 +1009,10 @@
     "flota",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "El barquito gris flota en la tina.",
    "escena": "The water tub sits in the center of the set, with a small hollow grey clay bowl-shaped boat resting on its water surface.",
@@ -977,6 +1044,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo aplaude y salta junto a la tina.",
@@ -1102,6 +1172,10 @@
     "flota",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Una figurita entra en una bañera y el agua se desborda.",
    "escena": "A small white clay bathtub full of dark-blue clay water stands in the center of the frame, with a small peach clay figure standing beside it.",
@@ -1130,6 +1204,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Un cubo de hielo flota y se mece.",

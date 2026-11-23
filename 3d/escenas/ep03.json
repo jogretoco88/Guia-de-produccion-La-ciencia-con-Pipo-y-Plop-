@@ -27,19 +27,19 @@
  "efectos": [
   {
    "es": "Temblor picante",
-   "en": "Cartoon sizzling shiver, short"
+   "sonido": "COMIDA_Ají_Chisporrotea"
   },
   {
    "es": "Falsa alarma",
-   "en": "Small toy alarm beeping fast, three beeps"
+   "sonido": "MECAN_Temporizador_Pitidos"
   },
   {
    "es": "Señal por el nervio",
-   "en": "Quick electric zip travelling along a wire"
+   "sonido": "ELEC_Chispa_Cable"
   },
   {
    "es": "Alivio",
-   "en": "Long relieved sigh with a soft cooling sparkle"
+   "sonido": "VOZ_Suspiro_Alivio"
   }
  ],
  "tomas": [
@@ -67,6 +67,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo, con el ají en la boca, tiembla cada vez más.",
@@ -98,6 +101,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Acercamiento al ají, quieto y frío.",
@@ -214,6 +220,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "El ají se mece sobre un plato: nada de humo.",
    "escena": "The chili rests on a small flat white clay plate in the center of the frame.",
@@ -244,6 +253,10 @@
    "movimientos": [
     "tiembla",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo bebe agua y salta más todavía.",
@@ -312,6 +325,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo examina el ají de cerca.",
    "escena": "Pipo stands beside the chili, which lies on the set, leaning over it.",
@@ -341,6 +357,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Desde arriba: el ají gira despacio.",
@@ -373,6 +392,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento al ají partido: semillas y venas blancas.",
    "escena": "The cut-open chili model lies in the center of the set with its open inside toward the camera.",
@@ -404,6 +426,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Bolitas amarillas tiemblan sobre las venas blancas.",
@@ -438,6 +463,11 @@
     "cae",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Los botones de la lengua suben y bajan en fila.",
    "escena": "The tongue model lies in the center of the frame with its red buttons on top.",
@@ -469,6 +499,10 @@
    "movimientos": [
     "cae",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Una bolita de calor cae sobre un botón, que vibra.",
@@ -528,6 +562,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo baila como un robot.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -560,6 +597,10 @@
    "movimientos": [
     "cae",
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Una bolita amarilla rueda y encaja sobre un botón.",
@@ -629,6 +670,10 @@
     "tiembla",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "La bolita hunde el botón, que empieza a vibrar.",
    "escena": "One red button of the tongue model fills the frame, with one capsaicin ball sitting on top of it.",
@@ -658,6 +703,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Una señal viaja por un cable desde la lengua hasta el cerebro.",
@@ -689,6 +737,10 @@
     "tiembla",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "El cerebro se sacude, alarmado.",
    "escena": "A small pink clay brain sits in the center of the frame.",
@@ -717,6 +769,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo se abanica la boca con las dos manoplas.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -748,6 +801,11 @@
     "cae",
     "revienta",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "A Pipo le brotan gotitas de sudor.",
@@ -816,6 +874,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "La lengua se menea tranquila, con bolitas sobre los botones.",
    "escena": "The tongue model lies in the center of the frame with a few capsaicin balls sitting on its red buttons.",
@@ -850,6 +911,11 @@
     "rueda_desliza",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "El agua empuja las bolitas amarillas hacia otros botones.",
    "escena": "The tongue model lies in the center of the frame with a few capsaicin balls sitting on its red buttons.",
@@ -882,6 +948,11 @@
     "tiembla",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo salta en círculos, desesperado.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -912,6 +983,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un vaso de leche entra deslizándose en cuadro.",
@@ -944,6 +1018,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Bolitas blancas ruedan y se pegan a las amarillas.",
@@ -978,6 +1055,10 @@
     "flota",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Las blancas se llevan a las amarillas; los botones se calman.",
    "escena": "The tongue model lies in the center of the frame, each capsaicin ball on it hugged by a small white clay ball.",
@@ -1010,6 +1091,10 @@
    "movimientos": [
     "cae",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo abraza el vaso de leche, aliviado.",
@@ -1101,6 +1186,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Un pajarito picotea el ají tan tranquilo.",
    "escena": "A tiny solid sky-blue clay bird with an orange beak stands next to the chili.",
@@ -1128,6 +1216,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "El pajarito se aleja a saltitos con una semilla en el pico.",

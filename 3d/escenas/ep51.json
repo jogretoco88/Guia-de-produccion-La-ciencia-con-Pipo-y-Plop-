@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Brote",
-   "en": "Soft magical growing sprout sound"
+   "sonido": "FOLEY_Tallo_Cruje"
   },
   {
    "es": "Agua",
-   "en": "Small water pour"
+   "sonido": "AGUA_Riego_Tierra"
   },
   {
    "es": "Crujido",
-   "en": "Tiny seed cracking open"
+   "sonido": "FOLEY_Semilla_Abre"
   },
   {
    "es": "Viento",
-   "en": "Light breeze through grass"
+   "sonido": "AMB_Viento_Hierba"
   }
  ],
  "tomas": [
@@ -65,6 +65,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un frijol seco en un plato.",
@@ -99,6 +102,12 @@
     "revienta",
     "empuja",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El frijol se abre y brota: raíz abajo, tallo arriba.",
@@ -215,6 +224,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Brotan frijoles en un frasco con algodón, sin tierra.",
    "escena": "The sprout jar stands on a white clay table in the center of the frame.",
@@ -242,6 +254,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un bote de frijoles secos en la cocina, sin cambios.",
    "escena": "A clear clay jar of dry brown clay beans stands on a kitchen shelf in the center of the frame.",
@@ -309,6 +322,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira de cerca el frijol.",
    "escena": "Pipo stands beside the bean, which rests on a white clay plate at his height.",
@@ -340,6 +356,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al frijol.",
    "escena": "The bean rests alone on a white clay plate in the center of the set.",
@@ -370,6 +389,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Zoom: el frijol abierto, con una plantita bebé dentro.",
@@ -403,6 +425,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "La comida de las mitades pasa a la plantita.",
    "escena": "The open bean fills the frame, with its two thick pale halves around the tiny baby plant.",
@@ -433,6 +459,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "El frijol se hincha en el agua.",
@@ -465,6 +494,10 @@
    "movimientos": [
     "revienta",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Sale la raíz y se curva hacia la tierra.",
@@ -525,6 +558,10 @@
     "flota",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Sube el tallo y abre dos hojitas.",
    "escena": "The bean sits half buried in dark-brown clay soil in the center of the frame, with its white root going down.",
@@ -556,6 +593,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo pone el frasco del revés.",
@@ -624,6 +664,10 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "En el frasco del revés, la raíz se curva hacia abajo.",
    "escena": "The sprout jar stands upside down on a white clay table in the center of the frame, with a bean whose small white root points up.",
@@ -655,6 +699,10 @@
    "movimientos": [
     "rueda_desliza",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Los granitos pesados caen hacia el lado de abajo.",
@@ -719,6 +767,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una planta en la ventana se inclina hacia el sol.",
    "escena": "A small green clay plant in a red clay pot stands on a windowsill in the center of the frame, with bright sunlight coming from the left.",
@@ -781,6 +832,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Una semilla de dátil antiquísima echa una hojita.",
    "escena": "A small dark-brown clay date seed lies on a clay pot of soil in the center of the frame, with a tiny green palm sprout rising from it.",
@@ -808,6 +860,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Una semilla enorme junto a una pizca de polvo.",
    "escena": "A huge dark-brown clay double coconut sits on the left of a white clay table, next to a tiny pinch of fine clay dust on the right.",
@@ -836,6 +889,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Lentejas, garbanzos y un hueso de aguacate echan raíces.",
@@ -869,6 +925,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo levanta el frasco sonriendo: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding the sprout jar in one paddle arm.",
@@ -900,6 +959,10 @@
    "movimientos": [
     "rueda_desliza",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Algodón y frijoles entran en el frasco.",
@@ -933,6 +996,10 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "En la ventana, las raíces bajan y los tallos suben.",
    "escena": "The sprout jar stands on a sunny white clay windowsill in the center of the frame.",
@@ -962,6 +1029,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente con una gran sonrisa.",
@@ -1086,6 +1156,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "La entrada de un almacén de semillas en una montaña nevada.",
    "escena": "A small grey clay building entrance sticks out of a snowy white clay mountain in the center of the frame.",
@@ -1114,6 +1187,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Las semillas de un diente de león salen volando.",

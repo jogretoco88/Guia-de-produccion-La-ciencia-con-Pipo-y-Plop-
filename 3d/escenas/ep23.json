@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Soplar una burbuja",
-   "en": "Soft gentle blow through a bubble wand"
+   "sonido": "AIRE_Soplar_Burbuja"
   },
   {
    "es": "Burbuja flotando",
-   "en": "Light airy floating shimmer"
+   "sonido": "AIRE_Soplo_Suave"
   },
   {
    "es": "¡Plop!",
-   "en": "Tiny soap bubble pop"
+   "sonido": "AGUA_Pompa_Revienta"
   },
   {
    "es": "Liga que se estira",
-   "en": "Rubber band stretching softly"
+   "sonido": "FOLEY_Liga_Estira"
   }
  ],
  "tomas": [
@@ -68,6 +68,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Del aro cuadrado de Pipo sale una burbuja redonda.",
@@ -100,6 +104,10 @@
    "movimientos": [
     "flota",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "La burbuja sube flotando.",
@@ -215,6 +223,10 @@
     "flota",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El aire llena una caja y un tubo: toma la forma de cada uno.",
    "escena": "A square white clay box and a long thin white clay tube stand side by side in the center of the frame, with small pale-blue clay wisps inside each.",
@@ -246,6 +258,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo toca la burbuja y revienta.",
@@ -313,6 +328,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La burbuja gira despacio.",
    "escena": "The soap bubble floats in the center of the frame.",
@@ -343,6 +361,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la pared de la burbuja.",
@@ -375,6 +396,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la pared: un sándwich de tres capas.",
    "escena": "The soap film model stretches across the center of the set.",
@@ -405,6 +429,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "En el medio, una capa de agua que ondula.",
@@ -437,6 +464,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una pieza de jabón mueve la cola.",
    "escena": "One soap piece stands in the center of the frame, its pink head down and its yellow tail up.",
@@ -466,6 +496,10 @@
    "movimientos": [
     "cae",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Una lámina de agua sin jabón se encoge en una gota.",
@@ -525,6 +559,10 @@
     "crece",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo estira una liga invisible.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -557,6 +595,11 @@
     "rueda_desliza",
     "crece",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "La pared se estira entre dos postes y tira de ellos.",
@@ -622,6 +665,7 @@
     "aro_cuadrado"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Del aro cuadrado asoma una burbuja con esquinas que se van redondeando.",
    "escena": "The square wand stands in the center of the frame, with a lumpy, boxy pale-blue clay blob bulging out of it.",
@@ -650,6 +694,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "La burbuja recoge sus esquinas hasta quedar redonda.",
@@ -716,6 +763,11 @@
     "encoge",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Aprieta",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Un cubo azul se convierte en una bola igual a la de al lado.",
    "escena": "A pale-blue clay cube floats on the left of the frame and a pale-blue clay ball floats on the right.",
@@ -748,6 +800,11 @@
     "crece",
     "encoge",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "La burbuja late suavemente.",
@@ -814,6 +871,10 @@
     "empuja",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Dos burbujas se juntan y forman una pared plana entre ellas.",
    "escena": "Two pale-blue clay bubbles float side by side in the center of the frame, just touching.",
@@ -842,6 +903,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Muchas burbujas apretadas: sus paredes se vuelven lados rectos.",
@@ -875,6 +939,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo sigue con la mirada una burbuja que sube.",
    "escena": "Pipo stands facing the camera, looking up at the soap bubble floating above him.",
@@ -904,6 +971,7 @@
     "pared_de_la_burbuja_corte"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "La capa de agua adelgaza hasta que las dos filas de jabón se tocan.",
    "escena": "The soap film model fills the frame.",
@@ -935,6 +1003,10 @@
    "movimientos": [
     "cae",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "La burbuja revienta en gotitas.",
@@ -969,6 +1041,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo hace otra burbuja con el aro cuadrado (puedes repetir el clip 1).",
@@ -1095,6 +1171,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Por la burbuja se deslizan bandas de colores.",
    "escena": "The soap bubble fills the frame.",
@@ -1125,6 +1204,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "La luz rebota en las dos caras de la pared.",

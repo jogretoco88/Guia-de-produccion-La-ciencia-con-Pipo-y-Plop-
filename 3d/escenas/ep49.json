@@ -24,19 +24,19 @@
  "efectos": [
   {
    "es": "Motor",
-   "en": "Car engine humming on a road"
+   "sonido": "MECAN_Auto_Interior"
   },
   {
    "es": "Olas",
-   "en": "Boat rocking on waves"
+   "sonido": "AGUA_Casco_Barco"
   },
   {
    "es": "Giro",
-   "en": "Comic spinning whoosh"
+   "sonido": "MECAN_Silla_Gira"
   },
   {
    "es": "Mareo",
-   "en": "Wobbly dizzy cartoon sound"
+   "sonido": "METAL_Lamina_Ondula"
   }
  ],
  "tomas": [
@@ -62,6 +62,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un coche toma curvas entre colinas.",
@@ -92,6 +95,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo, en el coche, se agarra la tripa.",
@@ -206,6 +212,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La ropa gira dentro de una lavadora.",
    "escena": "A small white clay washing machine with a round window stands in the center of the frame, with colorful clay clothes inside.",
@@ -234,6 +243,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un puntito brilla dentro de la cabeza, junto a la oreja.",
@@ -298,6 +310,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira por la ventana y se relaja.",
    "escena": "Pipo sits in the back seat of a simple clay car interior, looking out of the side window at green clay hills.",
@@ -329,6 +342,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al oído interno.",
    "escena": "The inner ear model stands alone on its white clay stand in the center of the set.",
@@ -358,6 +374,7 @@
     "oido_interno"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Zoom: tres aros llenos de líquido.",
    "escena": "The inner ear model fills the frame, showing its three clear loops filled with pale-blue liquid.",
@@ -391,6 +408,11 @@
     "ondula",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "El líquido se mueve y dobla unos pelitos.",
    "escena": "The inner ear model fills the frame, with tiny clay hairs inside its loops.",
@@ -422,6 +444,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Dos flechas llegan al cerebro: una del ojo y otra del oído.",
    "escena": "A soft pink clay brain sits in the center of the frame, with a big round white clay eye on its left and the inner ear model on its right.",
@@ -451,6 +476,10 @@
    "movimientos": [
     "tiembla",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Signos de interrogación alrededor del cerebro.",
@@ -509,6 +538,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira la carretera de frente, tranquilo.",
    "escena": "Pipo sits in the back seat of a simple clay car interior, looking forward between the front seats at the road and the hills ahead.",
@@ -537,6 +569,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Un bebé, un niño y un adulto: solo el niño se tambalea.",
@@ -602,6 +637,7 @@
     "coche_de_juguete"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "El coche avanza hacia el horizonte.",
    "escena": "The toy car drives along a straight grey clay road toward green clay hills and a flat horizon in the center of the frame.",
@@ -630,6 +666,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Entra brisa por una ventanilla medio abierta.",
@@ -694,6 +733,10 @@
    "movimientos": [
     "ondula",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Un barquito se balancea en las olas.",
@@ -761,6 +804,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El modelo se para, pero el líquido sigue girando.",
    "escena": "The inner ear model fills the frame, with pale-blue liquid inside its three loops.",
@@ -789,6 +835,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Una figurita quieta mientras el jardín gira a su alrededor.",
@@ -819,6 +868,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Una bailarina gira fijando la mirada.",
    "escena": "A small clay ballerina in a pink tutu stands on one toe on a wooden clay stage in the center of the frame.",
@@ -847,6 +899,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira fijo a cámara: tiene una idea.",
    "escena": "Pipo stands facing the camera on green clay grass.",
@@ -876,6 +929,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo gira despacio sobre el césped.",
@@ -907,6 +963,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo gira mirando una banderita roja.",
    "escena": "Pipo stands in the center of a wide green clay lawn, facing a small red clay flag stuck in the grass in front of him.",
@@ -936,6 +995,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente tranquilo.",
@@ -1058,6 +1120,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un astronauta flota boca abajo en la estación espacial.",
    "escena": "A small clay astronaut in a white suit floats upside down inside a round grey clay space station module in the center of the frame.",
@@ -1087,6 +1150,10 @@
    "movimientos": [
     "rueda_desliza",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Piedrecitas diminutas se deslizan al inclinarse.",

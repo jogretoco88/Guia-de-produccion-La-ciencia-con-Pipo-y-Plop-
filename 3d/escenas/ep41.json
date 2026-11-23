@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Olas",
-   "en": "Gentle ocean waves on a beach"
+   "sonido": "AMB_Olas_Playa"
   },
   {
    "es": "Gaviotas",
-   "en": "Seagulls calling"
+   "sonido": "ANIMAL_Gaviotas"
   },
   {
    "es": "Lluvia sobre roca",
-   "en": "Rain falling on stones"
+   "sonido": "CLIMA_Lluvia_Rocas"
   },
   {
    "es": "Cristales",
-   "en": "Tiny crystal sparkle chime"
+   "sonido": "FOLEY_Cristales_Tintinean"
   }
  ],
  "tomas": [
@@ -64,6 +64,10 @@
    "movimientos": [
     "rueda_desliza",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Olas en el mar.",
@@ -95,6 +99,10 @@
    "movimientos": [
     "encoge",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo pone cara de asco en la playa.",
@@ -209,6 +217,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Un pececito nada en círculo.",
    "escena": "A small orange clay fish swims in the center of the frame against a dark-blue clay underwater backdrop.",
@@ -238,6 +249,10 @@
    "movimientos": [
     "balancea",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Una cucharada de sal cae en un vaso de agua.",
@@ -306,6 +321,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira de cerca una roca.",
    "escena": "Pipo stands beside the rock, which sits on a white clay stand at his height.",
@@ -337,6 +355,10 @@
     "rueda_desliza",
     "balancea",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la roca.",
@@ -370,6 +392,10 @@
     "cae",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: la lluvia arranca granitos de la roca.",
    "escena": "The rock fills the frame, with small pale-blue clay raindrops falling onto it.",
@@ -398,6 +424,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un río lleva granitos blancos.",
@@ -430,6 +459,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "El sol evapora el agua y la sal se queda.",
    "escena": "The sea pool fills the frame under a bright yellow clay sun, with tiny white clay grains scattered in the water.",
@@ -459,6 +491,10 @@
    "movimientos": [
     "flota",
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Una nube va del mar a las colinas y llueve.",
@@ -514,6 +550,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Un reloj de arena deja caer su arena.",
    "escena": "A small grey clay hourglass stands in the center of the frame, with white clay sand inside it.",
@@ -542,6 +581,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Una chimenea del fondo del mar echa humo oscuro.",
@@ -608,6 +650,10 @@
     "cae",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Una balanza con sal en los dos platos queda equilibrada.",
    "escena": "A white clay balance scale stands in the center of the frame, with a small pile of white salt grains on each of its two plates.",
@@ -635,6 +681,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Cubitos de sal brillan en un plato.",
    "escena": "A small pile of tiny white clay salt cubes sits on a dark-blue clay plate in the center of the frame.",
@@ -697,6 +744,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Una capa de sal altísima cubre un continente.",
@@ -762,6 +812,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Una figurita aparta un vaso de agua de mar.",
    "escena": "A small clay figure stands in the center of the frame holding a clear clay glass of dark-blue sea water away from its face.",
@@ -792,6 +845,10 @@
     "cae",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "A una gaviota le cae una gotita del pico.",
    "escena": "A white clay seagull stands on a grey clay rock in the center of the frame, with a tiny clear clay drop at the tip of its beak.",
@@ -820,6 +877,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una figurita flota leyendo en el mar Muerto.",
@@ -851,6 +911,7 @@
     "plato_con_agua_salada"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira un plato con agua: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding the salty plate in one paddle arm.",
@@ -882,6 +943,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "El plato de agua salada, al sol.",
    "escena": "The salty plate sits on a white clay windowsill in the center of the frame, in warm sunlight.",
@@ -911,6 +975,7 @@
     "plato_con_agua_salada"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "El plato ya seco, lleno de cristales de sal.",
    "escena": "The salty plate sits on a white clay windowsill in the center of the frame, now dry, with white clay salt crystals covering its bottom.",
@@ -939,6 +1004,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Montoncitos de sal junto a las piscinas de una salina.",
@@ -1063,6 +1131,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Un iceberg flota en el mar.",
    "escena": "A white clay iceberg floats on a dark-blue clay sea in the center of the frame.",
@@ -1091,6 +1162,9 @@
    "objetos": [],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Un pez abre y cierra las agallas.",

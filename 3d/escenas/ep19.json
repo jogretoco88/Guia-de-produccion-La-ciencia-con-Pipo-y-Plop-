@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Flotar en órbita",
-   "en": "Soft airy drifting hum, weightless"
+   "sonido": "AMB_Nave_Cabina"
   },
   {
    "es": "Lanzamiento de pelota",
-   "en": "Quick cartoon throw whoosh"
+   "sonido": "AIRE_Pelota_Lanzada"
   },
   {
    "es": "Motores de la estación",
-   "en": "Short low rocket thruster burst"
+   "sonido": "MECAN_Propulsor"
   },
   {
    "es": "Caída de montaña rusa",
-   "en": "Descending slide whistle with a giggle"
+   "sonido": "MECAN_Montana_Rusa"
   }
  ],
  "tomas": [
@@ -67,6 +67,11 @@
     "flota",
     "cae",
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "El astronauta flota de cabeza junto a una gota y una galleta.",
@@ -100,6 +105,10 @@
    "movimientos": [
     "cae",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo suelta la pelota y cae al suelo.",
@@ -216,6 +225,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La estación gira muy cerca de la Tierra.",
    "escena": "The clay Earth stands in the center of the set, with the space station floating very close to its surface.",
@@ -247,6 +259,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Una pelota cae hacia la Tierra.",
@@ -314,6 +329,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La estación gira despacio.",
    "escena": "The space station floats in the center of the frame.",
@@ -345,6 +363,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la Tierra y a la estación.",
@@ -378,6 +399,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo lanza la pelota despacio: cae cerca.",
    "escena": "Pipo stands on the left of the frame, holding the red ball with one paddle arm.",
@@ -410,6 +434,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo lanza la pelota con fuerza: cae lejos.",
    "escena": "Pipo stands at the left edge of the set, holding the red ball with one paddle arm.",
@@ -441,6 +468,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Desde una montaña sobre la Tierra, la pelota cae un poco más allá.",
    "escena": "The clay Earth stands in the center of the set, with the red ball resting on a tiny brown clay mountain on top of it.",
@@ -471,6 +501,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Con más velocidad, la pelota rodea casi media Tierra.",
@@ -531,6 +564,10 @@
     "gira",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo gira el brazo como una honda, cada vez más rápido.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -562,6 +599,10 @@
    "movimientos": [
     "rueda_desliza",
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "La pelota da la vuelta completa a la Tierra, una y otra vez.",
@@ -630,6 +671,10 @@
     "rueda_desliza",
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La estación da una vuelta completa a la Tierra.",
    "escena": "The clay Earth stands in the center of the set, with the space station floating close to it.",
@@ -661,6 +706,10 @@
    "movimientos": [
     "crece",
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "La estación avanza con estelas de velocidad.",
@@ -727,6 +776,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro de la estación, el astronauta flota de un lado a otro.",
    "escena": "The clay astronaut floats inside a simple open frame of grey clay, the inside of a space station.",
@@ -757,6 +809,10 @@
    "movimientos": [
     "flota",
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo y una plataforma caen juntos: Pipo flota sobre ella.",
@@ -825,6 +881,10 @@
     "cae",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Una gota de agua forma una bolita en el aire.",
    "escena": "A small round blue clay water drop floats in the center of the frame, next to the clay astronaut.",
@@ -856,6 +916,10 @@
     "flota",
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se pone de puntitas, como bajando en una montaña rusa.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -886,6 +950,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "La estación frena y baja hacia la Tierra.",
@@ -919,6 +986,10 @@
     "flota",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "La estación enciende un motor y vuelve a subir.",
    "escena": "The clay Earth stands in the center of the set, with the space station floating very close to its surface.",
@@ -950,6 +1021,10 @@
     "rueda_desliza",
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La Luna gira alrededor de la Tierra.",
    "escena": "The clay Earth stands in the center of the set, with a small grey clay Moon floating far to its right.",
@@ -980,6 +1055,7 @@
     "pelota_roja"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo lanza la pelota hacia arriba y la atrapa.",
    "escena": "Pipo stands facing the camera, holding the red ball in both paddle arms.",
@@ -1105,6 +1181,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Junto a una regla, el astronauta se estira un poco.",
    "escena": "The clay astronaut floats upright in the center of the frame, next to a tall thin white clay ruler.",
@@ -1135,6 +1214,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "De vuelta en el suelo, el astronauta recupera su estatura.",

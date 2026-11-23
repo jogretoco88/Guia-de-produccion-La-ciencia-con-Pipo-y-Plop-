@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "¡Achís!",
-   "en": "Big comic cartoon sneeze"
+   "sonido": "VOZ_Estornudo"
   },
   {
    "es": "Moco pegajoso",
-   "en": "Wet sticky squelch, stretching"
+   "sonido": "FOLEY_Slime_Estira"
   },
   {
    "es": "Pelitos en ola",
-   "en": "Soft rhythmic brushing swish"
+   "sonido": "FOLEY_Cepillo_Tela"
   },
   {
    "es": "Polvo atrapado",
-   "en": "Small soft splat"
+   "sonido": "FOLEY_Arcilla_Splat"
   }
  ],
  "tomas": [
@@ -65,6 +65,10 @@
    "movimientos": [
     "cae",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop estornuda y un moco verde sale volando.",
@@ -94,6 +98,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "El moco verde se estira como un hilo y vuelve a caer.",
@@ -208,6 +215,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Un cerebro de arcilla, entero, da saltitos.",
    "escena": "A small pink clay brain sits in the center of the frame, whole and smooth.",
@@ -237,6 +247,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop sacude la cabeza y no se le cae nada.",
@@ -304,6 +317,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La maqueta de la nariz gira despacio.",
    "escena": "The nose model stands in the center of the frame.",
@@ -335,6 +351,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la entrada de la nariz.",
    "escena": "The nose model stands in the center of the set.",
@@ -365,6 +384,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "El túnel rosado del interior de la nariz.",
@@ -398,6 +420,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una capa verde y pegajosa cubre el suelo del túnel.",
    "escena": "The pink tunnel inside the nose model fills the frame, its floor covered by the mucus layer.",
@@ -428,6 +453,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Los pelitos se doblan en ola.",
@@ -460,6 +488,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Polvo y microbios entran flotando por la nariz.",
@@ -555,6 +586,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "El polvo y los microbios caen sobre el moco y se quedan pegados.",
    "escena": "The mucus layer fills the lower half of the frame, with the dust and germs floating just above it.",
@@ -623,6 +657,10 @@
     "rueda_desliza",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Los pelitos mueven la capa de moco como una cinta transportadora.",
    "escena": "The mucus layer lies on top of the tiny hairs, with grey specks and purple germs stuck in it.",
@@ -653,6 +691,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El moco avanza por el túnel hacia el fondo.",
@@ -718,6 +759,9 @@
    "movimientos": [
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "En el estómago, los microbios se deshacen.",
    "escena": "A round peach-orange clay stomach, shown in cross-section with yellow clay liquid inside, sits in the center of the frame, and tiny purple clay germs float in the liquid.",
@@ -749,6 +793,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "En la entrada de la nariz, un trocito de moco se seca.",
@@ -817,6 +864,10 @@
     "cae",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Llegan muchos microbios y la capa de moco engorda.",
    "escena": "The mucus layer fills the frame, with many tiny purple clay germs landing on it.",
@@ -849,6 +900,10 @@
     "rueda_desliza",
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Llegan células defensoras y el moco se vuelve verdoso.",
    "escena": "The mucus layer fills the frame, very pale, with small white clay cells with dot eyes rolling into it.",
@@ -878,6 +933,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop toma aire: viene un estornudo.",
@@ -909,6 +967,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "¡Achís! Plop estornuda una lluvia de gotitas verdes.",
    "escena": "Plop stands in the center of the set, leaning back with his eyes squeezed shut.",
@@ -938,6 +999,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Las gotitas caen en un pañuelo.",
    "escena": "A white clay tissue floats in the center of the frame, with tiny pale-green clay droplets flying toward it from the left.",
@@ -966,6 +1030,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop respira tranquilo.",
    "escena": "Plop stands in the center of the set, facing the camera.",
@@ -1090,6 +1155,10 @@
     "crece",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Una jirafa se limpia la nariz con la lengua.",
    "escena": "A small yellow clay giraffe with brown spots stands in the center of the frame.",
@@ -1118,6 +1187,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un caracol se desliza sobre su rastro de baba.",

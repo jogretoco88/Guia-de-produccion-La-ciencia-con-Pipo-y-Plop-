@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Viento suave",
-   "en": "Gentle breeze"
+   "sonido": "AMB_Brisa_Suave"
   },
   {
    "es": "Lluvia",
-   "en": "Soft rain starting"
+   "sonido": "AMB_Lluvia_Suave"
   },
   {
    "es": "Trueno lejano",
-   "en": "Distant soft thunder"
+   "sonido": "CLIMA_Trueno_Lejano"
   },
   {
    "es": "Vapor",
-   "en": "Soft hiss of steam"
+   "sonido": "AIRE_Vapor_Tetera"
   }
  ],
  "tomas": [
@@ -63,6 +63,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Una nube pasa sobre las colinas.",
@@ -92,6 +95,9 @@
    "objetos": [],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Una nube en una balanza equilibra una fila de elefantes.",
@@ -207,6 +213,10 @@
     "flota",
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Una bolita de algodón cae despacio al césped.",
    "escena": "A small white clay cotton ball floats in the air in the center of the frame, against a pale-blue clay sky.",
@@ -236,6 +246,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo agita la manopla entre la niebla.",
@@ -303,6 +316,10 @@
     "flota",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira su manopla mojada.",
    "escena": "Pipo stands among soft white clay fog wisps, looking at one of his paddle arms covered in tiny clay water droplets.",
@@ -333,6 +350,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la nube.",
@@ -366,6 +386,10 @@
     "flota",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: gotitas diminutas flotando.",
    "escena": "The cloud droplets fill the frame, floating far apart against a pale-white backdrop.",
@@ -396,6 +420,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Una gotita crece alrededor de una mota de polvo.",
@@ -429,6 +456,12 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El aire caliente sube y arriba se vuelve nubecitas.",
    "escena": "Soft pale-orange clay wisps rise from green clay ground toward a pale-blue clay sky in the center of the frame.",
@@ -457,6 +490,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Un vaso con hielo se llena de gotitas por fuera.",
@@ -517,6 +553,10 @@
     "flota",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "El aire que sube empuja las gotitas hacia arriba.",
    "escena": "The cloud droplets fill the frame, with soft pale-orange clay wisps rising from the bottom of the frame.",
@@ -546,6 +586,10 @@
    "movimientos": [
     "flota",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Una nube enorme sobre un elefante diminuto.",
@@ -611,6 +655,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "En la balanza, el bloque de aire pesa más que la nube.",
    "escena": "A giant white clay balance scale stands in the center of the frame, with a fluffy white clay cloud on one plate and a much bigger pale-blue clay block of air on the other.",
@@ -640,6 +687,10 @@
    "movimientos": [
     "cae",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Las gotitas chocan y forman una gota grande.",
@@ -703,6 +754,9 @@
    "objetos": [],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Una nube gris oscura deja caer lluvia.",
@@ -768,6 +822,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Una nube llueve suave sobre un pueblito.",
    "escena": "A white clay cloud floats above a small clay town in the center of the frame, with soft blue clay rain falling gently from it.",
@@ -796,6 +853,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Nubes altas y finas como plumas.",
@@ -827,6 +887,10 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Una figurita echa vaho en la nieve.",
    "escena": "A small clay figure in a red winter hat stands on white clay snow in the center of the frame.",
@@ -857,6 +921,7 @@
     "frasco_de_la_nube"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira el frasco: tiene una idea.",
    "escena": "Pipo stands facing the camera beside the cloud jar, which sits on a white clay table at his height.",
@@ -887,6 +952,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Vapor que sube dentro del frasco.",
@@ -920,6 +988,10 @@
     "gira",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Se forma una nubecita bajo el plato.",
    "escena": "The cloud jar sits on a white clay table in the center of the frame.",
@@ -949,6 +1021,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente con asombro.",
@@ -1073,6 +1148,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Una nube de tormenta más alta que una montaña.",
    "escena": "A towering white clay storm cloud rises in the center of the frame, much taller than a small grey clay snowy mountain beside it.",
@@ -1101,6 +1179,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Júpiter con sus franjas de nubes.",

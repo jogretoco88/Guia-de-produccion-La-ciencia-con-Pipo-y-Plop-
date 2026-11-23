@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Temblor del volcán",
-   "en": "Deep rumbling earthquake, low and growing"
+   "sonido": "TIERRA_Temblor"
   },
   {
    "es": "Erupción",
-   "en": "Volcanic eruption blast with a roaring whoosh"
+   "sonido": "TIERRA_Erupcion"
   },
   {
    "es": "Lava que fluye",
-   "en": "Thick bubbling lava, slow and heavy"
+   "sonido": "TIERRA_Lodo_Burbujea"
   },
   {
    "es": "Burbujas de magma",
-   "en": "Deep thick bubbles popping slowly"
+   "sonido": "TIERRA_Lodo_Burbujea"
   }
  ],
  "tomas": [
@@ -65,6 +65,10 @@
    "movimientos": [
     "tiembla",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El volcán tiembla y lanza una fuente de lava.",
@@ -97,6 +101,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se asoma a mirar el volcán desde lejos.",
@@ -213,6 +220,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El volcán gira despacio: es pura roca.",
    "escena": "The clay volcano stands in the center of the frame.",
@@ -244,6 +254,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo golpea la ladera del volcán: es durísima.",
@@ -311,6 +324,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Del cráter sube un hilito blanco.",
    "escena": "The crater at the top of the clay volcano fills the frame.",
@@ -341,6 +357,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al volcán.",
@@ -374,6 +393,10 @@
     "revienta",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento al volcán por dentro.",
    "escena": "The cut-open volcano model stands in the center of the set.",
@@ -404,6 +427,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "El magma se revuelve, espeso.",
@@ -437,6 +463,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro del magma flotan burbujitas de gas, muy separadas.",
    "escena": "The orange magma chamber of the cut-open volcano model fills the frame, with a few small gas bubbles spread through the magma.",
@@ -468,6 +497,10 @@
    "movimientos": [
     "flota",
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "La chimenea: un tubo que sube hasta el cráter.",
@@ -526,6 +559,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se agacha como si le pesara algo enorme.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -557,6 +593,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Las burbujitas tiemblan, apretadas, sin poder crecer.",
@@ -624,6 +663,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "El magma sube por la chimenea.",
    "escena": "The cut-open volcano model fills the frame, with orange magma at the bottom of the narrow channel.",
@@ -655,6 +697,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Las burbujitas se hinchan mientras el magma sube.",
@@ -723,6 +768,10 @@
     "crece",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Las burbujas empujan el magma hacia arriba.",
    "escena": "Orange magma inside the narrow channel fills the frame, full of big white bubbles.",
@@ -754,6 +803,10 @@
    "movimientos": [
     "rueda_desliza",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "El volcán tiembla y ruedan piedritas.",
@@ -823,6 +876,10 @@
     "flota",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El magma burbujeante llega al borde del cráter.",
    "escena": "The crater at the top of the cut-open volcano model fills the frame, with orange magma full of white bubbles just below its rim.",
@@ -854,6 +911,10 @@
    "movimientos": [
     "crece",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "¡Erupción! Fuente de lava y nubes grises.",
@@ -887,6 +948,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La lava baja despacio por la ladera.",
    "escena": "The side of the clay volcano fills the frame, with a stream of orange-red lava at the top.",
@@ -916,6 +980,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "De un volcán bajo y ancho sale lava tranquila, como un río.",
    "escena": "A low, wide brown clay volcano stands in the center of the frame, with thin orange lava at its crater.",
@@ -944,6 +1011,9 @@
    "objetos": [],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Un volcán alto y tapado revienta en nubes grises.",
@@ -977,6 +1047,10 @@
    "movimientos": [
     "ondula",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo juega con el hilito de vapor del cráter.",
@@ -1103,6 +1177,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La lava se enfría y se vuelve roca gris.",
    "escena": "A puddle of orange-red clay lava lies in the center of the frame.",
@@ -1131,6 +1208,10 @@
    "movimientos": [
     "crece",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Una isla volcánica crece sobre el mar.",

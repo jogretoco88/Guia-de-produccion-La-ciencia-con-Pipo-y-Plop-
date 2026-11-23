@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Mordisco",
-   "en": "Crisp apple bite crunch"
+   "sonido": "COMIDA_Manzana_Mordisco"
   },
   {
    "es": "Cuchillo",
-   "en": "Knife slicing through an apple"
+   "sonido": "COMIDA_Manzana_Corte"
   },
   {
    "es": "Gotas de limón",
-   "en": "Small liquid drops falling"
+   "sonido": "COMIDA_Limon_Gotas"
   },
   {
    "es": "Burbujeo",
-   "en": "Soft gentle fizz"
+   "sonido": "COMIDA_Refresco_Burbujea"
   }
  ],
  "tomas": [
@@ -64,6 +64,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una manzana recién cortada, blanquita.",
@@ -95,6 +98,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "La pulpa se vuelve marrón.",
@@ -211,6 +217,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "En un armario oscuro también se oscurece.",
    "escena": "The apple sits cut in half on a white clay plate inside a dim wooden clay cupboard in the center of the frame.",
@@ -241,6 +250,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "La manzana entera sigue igual; la cortada se oscurece.",
@@ -309,6 +321,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira de cerca la manzana cortada.",
    "escena": "Pipo stands beside the apple, which sits cut in half on a white clay plate at his height.",
@@ -339,6 +354,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la pulpa.",
@@ -371,6 +389,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: las celditas guardan dos cosas separadas.",
    "escena": "The apple cells fill the frame, each holding green beads in one small pocket and yellow beads in another.",
@@ -401,6 +422,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Las bolitas verdes brillan en su bolsillo.",
@@ -434,6 +458,10 @@
     "rueda_desliza",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El cuchillo rompe las celditas y todo se mezcla.",
    "escena": "The apple cells fill the frame, with a big silver clay knife edge just above them.",
@@ -464,6 +492,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Llegan burbujas de aire y las bolitas se vuelven marrones.",
@@ -521,6 +552,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Plátano, aguacate y papa se oscurecen.",
    "escena": "A peeled clay banana, a cut clay avocado half and a cut clay potato half sit in a row on a white clay plate in the center of the frame.",
@@ -552,6 +586,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo duda con media manzana marrón.",
@@ -619,6 +656,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "La manzana en agua sigue blanquita.",
    "escena": "The apple sits cut in half inside a clear clay bowl full of pale-blue clay water in the center of the frame.",
@@ -650,6 +690,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Caen gotas de limón sobre la manzana.",
@@ -717,6 +760,10 @@
     "gira",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas verdes se quedan quietas y pálidas.",
    "escena": "The broken apple cells fill the frame, with green and yellow beads mixed together and small yellow clay drops resting on them.",
@@ -747,6 +794,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "La manzana cortada en la nevera.",
@@ -812,6 +862,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Una olla con trozos de manzana echa vapor.",
    "escena": "A small red clay pot with apple pieces inside sits on a small grey clay stove in the center of the frame.",
@@ -840,6 +893,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Hojas de té verdes que se vuelven marrones.",
@@ -872,6 +928,7 @@
     "medio_limon"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira la manzana y el limón: tiene una idea.",
    "escena": "Pipo stands facing the camera beside a white clay plate holding the apple cut in half and the lemon half.",
@@ -901,6 +958,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Cuatro trozos de manzana: solo el primero se oscurece.",
    "escena": "Four apple slices lie in a row on a white clay plate in the center of the frame: one plain, one with yellow lemon drops, one in a small bowl of water and one covered in frost.",
@@ -929,6 +989,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Tres manzanas distintas se oscurecen a distinta velocidad.",
@@ -960,6 +1023,10 @@
    "movimientos": [
     "balancea",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente y se frota la barriga.",
@@ -1084,6 +1151,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Media manzana que no se oscurece junto a un reloj.",
    "escena": "A cut clay apple half with bright creamy white flesh sits on a white clay plate in the center of the frame, next to a small round white clay clock.",
@@ -1112,6 +1182,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Una manzana con un golpe marrón.",

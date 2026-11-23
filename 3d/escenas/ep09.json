@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "¡Clac!",
-   "en": "Two magnets snapping together, sharp click"
+   "sonido": "METAL_Imanes_Clac"
   },
   {
    "es": "Empuje invisible",
-   "en": "Soft springy rubber stretch"
+   "sonido": "METAL_Imanes_Empujan"
   },
   {
    "es": "Flechitas que se ordenan",
-   "en": "Quick series of light ticks, like falling dominoes"
+   "sonido": "FOLEY_Domino_Caen"
   },
   {
    "es": "Brújula",
-   "en": "Gentle wobbling metallic hum that settles"
+   "sonido": "METAL_Brujula"
   }
  ],
  "tomas": [
@@ -66,6 +66,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "a_mano",
    "enPantalla": "Un segundo imán salta hacia el que sostiene Pipo.",
@@ -97,6 +100,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Dos imanes enfrentados por el mismo color se empujan.",
@@ -215,6 +221,10 @@
     "flota",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo toca el imán y su manopla sale limpia.",
    "escena": "Pipo stands facing the camera, pressing one paddle arm against the bar magnet, which stands upright on the set.",
@@ -245,6 +255,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El imán toca un bloque de madera y no lo atrapa.",
@@ -313,6 +326,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "El clavo salta hacia el imán.",
    "escena": "The bar magnet lies on the left of the frame and the giant nail lies on the right.",
@@ -343,6 +359,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al imán.",
@@ -375,6 +394,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento al imán por dentro.",
    "escena": "The cut magnet model stands in the center of the set.",
@@ -405,6 +427,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Las flechitas tiemblan, todas apuntando al mismo lado.",
@@ -437,6 +462,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "En el hierro normal, cada flechita apunta a un lado distinto.",
    "escena": "The plain iron model stands in the center of the frame.",
@@ -468,6 +496,10 @@
    "movimientos": [
     "balancea",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Dos flechitas se empujan punta con punta y no avanzan.",
@@ -528,6 +560,10 @@
     "balancea",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo jala una cuerda invisible.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -558,6 +594,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Todas las flechitas se inclinan a la vez.",
@@ -626,6 +665,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Las flechitas del clavo giran hasta apuntar al imán.",
    "escena": "The giant nail lies in the center of the frame with small yellow clay arrows on it pointing in random directions, and the bar magnet lies just to its left.",
@@ -658,6 +700,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "El clavo recorre el último tramo y se pega.",
    "escena": "The giant nail lies next to the bar magnet, with its yellow arrows all pointing toward the magnet.",
@@ -686,6 +731,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Un bloque de madera gira: por dentro no tiene flechitas.",
@@ -753,6 +801,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El imán gira: una mitad roja y otra azul.",
    "escena": "The bar magnet stands upright in the center of the frame, red half on top and blue half at the bottom.",
@@ -784,6 +835,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Rojo con azul: los imanes se juntan de golpe.",
    "escena": "Two bar magnets lie in the center of the frame, the red half of one facing the blue half of the other, with a small gap between them.",
@@ -814,6 +868,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Rojo con rojo: los imanes se alejan.",
@@ -848,6 +905,10 @@
     "rueda_desliza",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo intenta juntar dos imanes que se rechazan.",
    "escena": "Pipo stands facing the camera, holding one bar magnet in each paddle arm, their red halves pointing at each other.",
@@ -879,6 +940,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Un imán colgado de un hilo gira solo y se detiene.",
    "escena": "The bar magnet hangs level from a thin white clay thread in the center of the frame.",
@@ -906,6 +970,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Junto a una Tierra de arcilla, un imancito gira y apunta al norte.",
@@ -936,6 +1003,10 @@
    "movimientos": [
     "cae",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La aguja de una brújula oscila y se detiene.",
@@ -968,6 +1039,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo levanta el imán, contento.",
@@ -1095,6 +1169,10 @@
     "gira",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "El imán se parte en dos y cada mitad vuelve a ser rojo y azul.",
    "escena": "The bar magnet lies in the center of the frame.",
@@ -1125,6 +1203,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Las dos mitades se parten otra vez: cuatro imanes.",

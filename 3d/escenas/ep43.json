@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Pincel",
-   "en": "Paintbrush swishing on paper"
+   "sonido": "FOLEY_Pincel_Papel"
   },
   {
    "es": "Linterna",
-   "en": "Flashlight click"
+   "sonido": "MECAN_Linterna_Clic"
   },
   {
    "es": "Peonza",
-   "en": "Spinning top whirring"
+   "sonido": "FOLEY_Peonza"
   },
   {
    "es": "Destello",
-   "en": "Sparkly magic chime"
+   "sonido": "INSTR_Campanita"
   }
  ],
  "tomas": [
@@ -62,6 +62,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Azul y amarillo se mezclan y sale verde.",
@@ -95,6 +98,11 @@
     "rueda_desliza",
     "gira",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Luz roja y luz verde se juntan y dan amarillo.",
@@ -209,6 +217,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Todas las pinturas juntas dan un barro marrón.",
    "escena": "A white clay palette lies in the center of the frame, with blobs of red, yellow, blue and green clay paint.",
@@ -241,6 +252,11 @@
     "rueda_desliza",
     "gira",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Tres luces juntas dan blanco.",
@@ -309,6 +325,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira dentro de un bote de pintura.",
    "escena": "Pipo stands beside the paint pots, which sit on a white clay table at his height.",
@@ -339,6 +358,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a los botes de pintura.",
@@ -371,6 +393,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: el prisma abre la luz blanca en colores.",
    "escena": "The prism stands in the center of the frame against a dark clay backdrop, with a thin white clay beam of light entering it from the left.",
@@ -400,6 +425,10 @@
    "movimientos": [
     "cae",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "El plátano se traga flechas y devuelve la amarilla.",
@@ -431,6 +460,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "La flecha amarilla entra en un ojo.",
    "escena": "A big round white clay eye with a brown iris fills the right side of the frame, with a small yellow clay arrow on the left.",
@@ -460,6 +493,10 @@
    "movimientos": [
     "gira",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Azul y amarillo se mezclan y solo escapa la flecha verde.",
@@ -518,6 +555,10 @@
     "gira",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Tres luces se cruzan y aparecen colores nuevos.",
    "escena": "The color flashlights shine onto a white clay wall in the center of the frame, making three overlapping circles of red, green and blue light.",
@@ -547,6 +588,10 @@
    "movimientos": [
     "ondula",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Una pantalla de cerca: puntitos rojos, verdes y azules.",
@@ -613,6 +658,9 @@
     "empuja",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Puntitos rojos y verdes se funden en amarillo.",
    "escena": "A close-up of a clay screen fills the frame, with a patch of tiny red and green clay dots glowing side by side.",
@@ -641,6 +689,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Tres sensores de color dentro de un ojo.",
@@ -704,6 +755,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Una impresora saca una hoja llena de colores.",
@@ -770,6 +824,10 @@
     "cae",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Las flechas rebotan en el cubo blanco y se hunden en el negro.",
    "escena": "A white clay cube and a black clay cube sit side by side in the center of the frame, with small colored clay arrows pointing at them from above.",
@@ -800,6 +858,10 @@
     "flota",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una camiseta negra se calienta al sol.",
    "escena": "A black clay T-shirt and a white clay T-shirt lie side by side on green clay grass under a bright yellow clay sun.",
@@ -829,6 +891,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Un arcoíris sobre las colinas bajo la lluvia.",
    "escena": "A big rainbow arches over green clay hills in the center of the frame, with a few small pale-blue clay raindrops falling.",
@@ -857,6 +922,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira un disco de colores: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding a round white clay disc painted in rainbow-colored slices.",
@@ -885,6 +951,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Una peonza de colores gira y se ve casi blanca.",
@@ -915,6 +984,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Una peonza azul y amarilla gira y se ve gris.",
    "escena": "A round clay spinning top with a flat disc painted half blue and half yellow stands on a white clay table in the center of the frame.",
@@ -944,6 +1016,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente con asombro.",
@@ -1066,6 +1141,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un camarón mantis mueve sus ojos.",
    "escena": "A bright rainbow-colored clay mantis shrimp sits on a sandy clay sea floor in the center of the frame.",
@@ -1094,6 +1170,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Un perro mira una pelota roja en el césped.",

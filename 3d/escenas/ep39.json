@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Zumbido espacial",
-   "en": "Deep low space drone"
+   "sonido": "AMB_Ventilacion_Grave"
   },
   {
    "es": "Remolino",
-   "en": "Swirling cosmic whoosh"
+   "sonido": "AGUA_Remolino_Desague"
   },
   {
    "es": "Pelota",
-   "en": "Small ball landing back in a hand"
+   "sonido": "FOLEY_Pelota_Mano"
   },
   {
    "es": "Canica girando",
-   "en": "Marble rolling around in a circle"
+   "sonido": "FOLEY_Canica_Gira_Tazon"
   }
  ],
  "tomas": [
@@ -65,6 +65,10 @@
    "movimientos": [
     "gira",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "En el espacio, un anillo naranja gira alrededor de algo negro.",
@@ -96,6 +100,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Chispas que giran hacia el centro.",
@@ -210,6 +217,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La Tierra gira tranquila alrededor del Sol.",
    "escena": "A small blue-and-green clay Earth circles a big glowing yellow clay Sun in the center of the frame, against a black clay space backdrop.",
@@ -238,6 +248,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "La Tierra y un agujero negro, muy lejos uno del otro.",
@@ -306,6 +319,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo lanza la pelota hacia arriba y vuelve.",
    "escena": "Pipo stands in the center of the set, holding the small ball in one paddle arm.",
@@ -336,6 +352,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al agujero negro.",
@@ -368,6 +387,10 @@
    "movimientos": [
     "cae",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Zoom: una bola pesada hunde la cama elástica.",
@@ -403,6 +426,11 @@
     "balancea",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Una canica da vueltas hacia el hoyo.",
    "escena": "The stretchy sheet fills the frame, with a heavy orange clay ball sitting in a deep dip in its middle.",
@@ -434,6 +462,9 @@
    "movimientos": [
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "La estrella gigante se encoge hasta un puntito.",
    "escena": "The giant star glows in the center of the frame against a black clay space backdrop.",
@@ -464,6 +495,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Una bolita negra hunde la cama elástica en un embudo.",
@@ -522,6 +556,7 @@
     "pelota"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo lanza la pelota con muchísima fuerza.",
    "escena": "Pipo stands in the center of the set, holding the small ball in one paddle arm, against a pale-blue clay sky backdrop.",
@@ -551,6 +586,10 @@
    "movimientos": [
     "ondula",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Un rayo de luz se dobla y vuelve a la esfera negra.",
@@ -619,6 +658,10 @@
     "gira",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "El anillo brillante gira alrededor.",
    "escena": "The black hole floats in the center of the frame against a black clay space backdrop.",
@@ -647,6 +690,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Antenas de todo el mundo apuntan al cielo.",
@@ -711,6 +757,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Una rosquilla naranja borrosa con un centro oscuro.",
    "escena": "A blurry glowing orange clay donut shape with a dark center floats in the center of the frame, against a black clay backdrop.",
@@ -739,6 +788,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Una galaxia en espiral gira despacio.",
@@ -804,6 +856,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Una bolita blanca se estira como un fideo.",
    "escena": "A small round white clay ball floats near a perfectly black clay sphere, against a black clay space backdrop.",
@@ -833,6 +888,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La Tierra sigue girando alrededor del Sol.",
    "escena": "A big glowing yellow clay Sun sits in the center of the frame with a small blue-and-green clay Earth circling it, against a black clay space backdrop.",
@@ -861,6 +919,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira una canica: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding a small blue clay marble in one paddle arm.",
@@ -890,6 +949,10 @@
    "movimientos": [
     "cae",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una naranja hunde una sábana estirada sobre un cesto.",
@@ -921,6 +984,10 @@
     "rueda_desliza",
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Una canica da vueltas alrededor de la naranja.",
    "escena": "A white clay bedsheet is stretched tight across a round clay laundry basket, with an orange clay ball resting in a dip in its middle.",
@@ -950,6 +1017,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente con asombro.",
@@ -1074,6 +1144,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Un reloj cerca del agujero negro avanza muy despacio.",
    "escena": "A round white clay clock floats near a perfectly black clay sphere with a glowing orange ring, against a black clay space backdrop.",
@@ -1104,6 +1177,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "El agujero negro gira sobre sí mismo.",

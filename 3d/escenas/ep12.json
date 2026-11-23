@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Diente flojo",
-   "en": "Small squeaky wiggle, like a loose hinge"
+   "sonido": "FOLEY_Clavija_Floja"
   },
   {
    "es": "Se cae el diente",
-   "en": "Tiny light plink on a hard floor"
+   "sonido": "FOLEY_Objeto_Cae_Piso"
   },
   {
    "es": "Cepillado",
-   "en": "Toothbrush scrubbing, quick and foamy"
+   "sonido": "FOLEY_Cepillo_Dientes"
   },
   {
    "es": "Diente nuevo",
-   "en": "Soft magical sparkle chime"
+   "sonido": "INSTR_Campanita"
   }
  ],
  "tomas": [
@@ -65,6 +65,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "El diente de leche se mueve sobre la encía, como una puerta floja.",
@@ -97,6 +100,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop observa un diente caído.",
@@ -213,6 +219,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Junto a un caramelo, al diente le sale una manchita oscura.",
    "escena": "The baby tooth stands in the center of the frame, with a small brown clay candy beside it.",
@@ -244,6 +253,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop mece un diente limpio y sano.",
@@ -311,6 +323,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El diente gira y muestra su raíz.",
    "escena": "The baby tooth stands in the center of the frame, showing its white crown and its root.",
@@ -342,6 +357,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la maqueta de la encía.",
    "escena": "The gum model stands in the center of the set.",
@@ -372,6 +390,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La encía por dentro: arriba, el diente de leche con su raíz.",
@@ -405,6 +426,10 @@
     "crece",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Debajo, escondido, hay otro diente más grande.",
    "escena": "The lower part of the gum model fills the frame, showing the bigger white tooth hidden inside the pink gum.",
@@ -436,6 +461,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El diente definitivo gira despacio.",
    "escena": "The new tooth stands in the center of the frame.",
@@ -466,6 +494,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "La encía crece a lo ancho; el diente de leche sigue igual de pequeño.",
@@ -560,6 +591,10 @@
     "flota",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "El diente de abajo sube hasta tocar la raíz del de arriba.",
    "escena": "The gum model fills the frame, with the bigger tooth just below the root of the baby tooth.",
@@ -626,6 +661,9 @@
    "movimientos": [
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "La raíz del diente de leche se va acortando.",
    "escena": "The root of the baby tooth fills the frame, with the top of the bigger tooth pressing against it from below.",
@@ -654,6 +692,9 @@
    "objetos": [],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "Unas células diminutas se comen la raíz.",
@@ -720,6 +761,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Casi sin raíz, el diente se mueve cada vez más.",
    "escena": "The gum model fills the frame, with the baby tooth on top now almost without a root and the bigger tooth right under it.",
@@ -749,6 +793,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se toca la mejilla con curiosidad.",
@@ -817,6 +864,10 @@
     "cae",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "El diente de leche se cae de la encía.",
    "escena": "The gum model fills the frame, with the baby tooth barely attached on top and the tip of the bigger tooth showing just under it.",
@@ -848,6 +899,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "El diente nuevo asoma y sube por el hueco.",
@@ -881,6 +936,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop levanta el diente caído, orgulloso.",
    "escena": "Plop stands facing the camera, holding the baby tooth in one paddle arm.",
@@ -909,6 +967,10 @@
    "movimientos": [
     "ondula",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una sonrisa de dientecitos salta como una ola.",
@@ -940,6 +1002,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "El diente definitivo da saltitos.",
@@ -973,6 +1038,10 @@
    "movimientos": [
     "gira",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop cepilla el diente nuevo con un cepillo gigante.",
@@ -1098,6 +1167,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "A un tiburón se le cae un diente y otro ocupa su lugar.",
    "escena": "A small friendly grey clay shark with rows of tiny white clay teeth lies in the center of the frame.",
@@ -1127,6 +1200,10 @@
    "movimientos": [
     "cae",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Junto al tiburón crece un montoncito de dientes.",

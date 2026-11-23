@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Olfateo",
-   "en": "Dog sniffing quickly, close-up"
+   "sonido": "ANIMAL_Perro_Olfatea"
   },
   {
    "es": "Cola feliz",
-   "en": "Soft rapid tail thumping on the floor"
+   "sonido": "ANIMAL_Perro_Cola"
   },
   {
    "es": "Rastro encontrado",
-   "en": "Short cheerful bark"
+   "sonido": "ANIMAL_Perro_Ladra"
   },
   {
    "es": "Olor que flota",
-   "en": "Light airy shimmer"
+   "sonido": "AIRE_Soplo_Suave"
   }
  ],
  "tomas": [
@@ -64,6 +64,7 @@
     "galleta"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El perrito va directo a la galleta escondida, con la nariz en el suelo.",
    "escena": "The clay puppy stands on the left of the set with its nose on the floor, and the cookie lies half hidden behind a small white clay box on the right.",
@@ -92,6 +93,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop olfatea el aire y no encuentra nada.",
    "escena": "Plop stands in the center of the set, facing the camera.",
@@ -205,6 +207,7 @@
     "perrito_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El perrito olfatea un poste de arriba abajo.",
    "escena": "The clay puppy stands beside a small grey clay post in the center of the frame, with its nose against the post.",
@@ -237,6 +240,10 @@
    "movimientos": [
     "tiembla",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop huele el mismo poste y niega con la cabeza.",
@@ -304,6 +311,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "La nariz negra del perrito se mueve.",
    "escena": "The big black nose of the clay puppy fills the frame.",
@@ -334,6 +344,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca al hocico del perrito.",
@@ -367,6 +380,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "De la galleta suben pedacitos de olor.",
    "escena": "The cookie lies in the center of the frame.",
@@ -399,6 +415,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "titere",
    "enPantalla": "Los pedacitos de olor se pegan a la nariz húmeda.",
    "escena": "The big black nose of the clay puppy fills the frame, with the smell bits floating in front of it.",
@@ -429,6 +448,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "El laberinto rosado del hocico ondula.",
@@ -461,6 +483,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "El olor toca los sensores, que se hunden un poquito.",
@@ -552,6 +577,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Dos cerebros: en uno la zona del olfato es pequeña; en el otro, enorme.",
    "escena": "Two small pink clay brains sit side by side in the center of the frame: the left one has a tiny red clay patch on it and the right one has a large red clay patch.",
@@ -620,6 +648,10 @@
     "flota",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro del hocico, el aire sigue por abajo y el olor se queda arriba.",
    "escena": "The snout model fills the frame, with two paths inside it: a lower pink tunnel and an upper pocket of pink folds.",
@@ -650,6 +682,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "titere",
    "enPantalla": "El aire sale por las ranuras de los lados de la nariz.",
@@ -716,6 +751,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "titere",
    "enPantalla": "El perrito olfatea a la izquierda y a la derecha.",
    "escena": "The clay puppy faces the camera in the center of the frame.",
@@ -745,6 +783,7 @@
     "pedacitos_de_olor"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El perrito sigue un rastro de olor por el suelo.",
    "escena": "A line of the smell bits lies along the floor across the set, and the clay puppy stands at its left end with its nose down.",
@@ -811,6 +850,9 @@
    "movimientos": [
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "Unos pedacitos de olor, pálidos, se van encogiendo.",
    "escena": "A few of the smell bits lie on the floor in the center of the frame, very small and pale.",
@@ -841,6 +883,7 @@
     "perrito_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "El perrito olfatea a Plop moviendo la cola.",
    "escena": "Plop stands facing the camera, with the clay puppy beside him, its nose against his side.",
@@ -872,6 +915,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "titere",
    "enPantalla": "El perrito levanta la nariz hacia una caja.",
    "escena": "The clay puppy stands on the left of the frame with its nose in the air, and a small white clay box stands on the right.",
@@ -902,6 +948,7 @@
     "galleta"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El perrito rodea la caja y encuentra la galleta.",
    "escena": "The clay puppy stands beside a small white clay box, with the cookie just behind the box.",
@@ -931,6 +978,7 @@
     "perrito_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El perrito, con un chaleco rojo, rastrea en zigzag.",
    "escena": "The clay puppy, wearing a small red clay vest, stands in the center of the frame with its nose on the floor.",
@@ -961,6 +1009,7 @@
     "perrito_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop acaricia al perrito.",
    "escena": "Plop stands beside the clay puppy, with one paddle arm on its head.",
@@ -1086,6 +1135,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "titere",
    "enPantalla": "La nariz del perrito, con su dibujo de surcos, se acerca como un sello.",
    "escena": "The big black nose of the clay puppy fills the frame, covered with a pattern of small bumps and lines.",
@@ -1114,6 +1166,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un elefante olfatea con la trompa en alto.",

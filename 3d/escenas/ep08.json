@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "¡Prrrt!",
-   "en": "Short funny cartoon fart, light and comic"
+   "sonido": "VOZ_Pedo_Suave"
   },
   {
    "es": "Burbujas de gas",
-   "en": "Soft bubbling in thick liquid"
+   "sonido": "FOLEY_Burbujas_Almibar"
   },
   {
    "es": "La panza se infla",
-   "en": "Rubber balloon stretching slowly"
+   "sonido": "FOLEY_Globo_Infla"
   },
   {
    "es": "Alivio",
-   "en": "Short relieved comic sigh"
+   "sonido": "VOZ_Suspiro_Alivio"
   }
  ],
  "tomas": [
@@ -67,6 +67,12 @@
     "crece",
     "revienta",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop da un saltito: detrás de él sale una nubecita amarilla.",
@@ -97,6 +103,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop mira a los lados, apenado.",
    "escena": "Plop faces the camera, centered in frame.",
@@ -212,6 +219,10 @@
     "tiembla",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop se ríe a carcajadas y no pasa nada.",
    "escena": "Plop stands in the center of the set, facing the camera.",
@@ -240,6 +251,9 @@
    "objetos": [],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "Un globito rojo se desinfla.",
@@ -308,6 +322,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop come un frijol gigante a toda prisa.",
    "escena": "Plop stands facing the camera, holding the giant bean with both paddle arms.",
@@ -338,6 +355,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "a_mano",
    "enPantalla": "La cámara se acerca a la panza de Plop.",
@@ -370,6 +390,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la maqueta del intestino.",
    "escena": "The gut model lies in the center of the set.",
@@ -400,6 +423,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Trocitos de comida avanzan por dentro del tubo.",
@@ -433,6 +459,10 @@
     "ondula",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Una multitud de bacterias se menea.",
    "escena": "A crowd of gut bacteria fills the frame.",
@@ -463,6 +493,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "Las bacterias se comen un trocito de frijol.",
@@ -557,6 +590,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Tres bacterias saltan contentas.",
    "escena": "Three gut bacteria stand in a row in the center of the frame.",
@@ -625,6 +661,10 @@
     "flota",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "De las bacterias salen burbujitas de gas.",
    "escena": "A few gut bacteria sit in the center of the frame next to a small dark red clay bean piece.",
@@ -656,6 +696,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El tubo se va llenando de burbujas.",
@@ -689,6 +732,10 @@
    "movimientos": [
     "crece",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "El tubo se hincha, lleno de gas.",
@@ -755,6 +802,10 @@
    "movimientos": [
     "rueda_desliza",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Las burbujas viajan por el tubo hacia la salida.",
@@ -825,6 +876,11 @@
     "ondula",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Ondula",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "¡Prrrt! Las burbujas salen disparadas del tubo.",
    "escena": "The open end of the gut model fills the right side of the frame, with gas bubbles just inside it.",
@@ -855,6 +911,10 @@
    "movimientos": [
     "cae",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop respira aliviado.",
@@ -887,6 +947,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Entre muchas burbujas amarillas tiembla una sola verde.",
    "escena": "A group of gas bubbles floats in the center of the frame: almost all pale yellow, and one single small green one.",
@@ -917,6 +980,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "La burbuja verde suelta hilitos de olor.",
@@ -950,6 +1016,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Las bacterias festejan alrededor del frijol.",
    "escena": "The giant bean sits in the center of the frame, with gut bacteria gathered around it.",
@@ -978,6 +1047,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop se da palmaditas en la panza, orgulloso.",
    "escena": "Plop stands facing the camera with both paddle arms on his belly.",
@@ -1101,6 +1171,10 @@
     "crece",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "Una vaca de arcilla mastica y suelta nubecitas por la boca.",
    "escena": "A small black-and-white clay cow stands in the center of the frame, chewing.",
@@ -1129,6 +1203,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Las nubecitas suben alrededor de la vaca.",

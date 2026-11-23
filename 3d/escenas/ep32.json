@@ -27,19 +27,19 @@
  "efectos": [
   {
    "es": "Grillos de noche",
-   "en": "Crickets chirping on a quiet summer night"
+   "sonido": "AMB_Noche_Grillos"
   },
   {
    "es": "Destello",
-   "en": "Soft magical twinkle"
+   "sonido": "INSTR_Campanita"
   },
   {
    "es": "Clic de linterna",
-   "en": "Small flashlight click"
+   "sonido": "MECAN_Linterna_Clic"
   },
   {
    "es": "Alas de escarabajo",
-   "en": "Tiny wings buzzing softly"
+   "sonido": "ANIMAL_Escarabajo_Alas"
   }
  ],
  "tomas": [
@@ -65,6 +65,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "titere",
    "enPantalla": "De noche, una lucecita se enciende en la hierba.",
@@ -93,6 +96,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Muchas lucecitas parpadean sobre el prado.",
@@ -210,6 +216,10 @@
     "flota",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una bombilla antigua echa calor.",
    "escena": "The light bulb stands in the center of the frame, with three small wavy orange clay lines rising above it.",
@@ -241,6 +251,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "a_mano",
    "enPantalla": "La luciérnaga brilla posada en la manopla de Plop.",
@@ -309,6 +322,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira de cerca la colita.",
    "escena": "Plop stands beside the firefly, which rests on a big green clay leaf at his height.",
@@ -340,6 +356,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a la colita.",
    "escena": "The firefly rests alone on a green clay leaf in the center of the set.",
@@ -370,6 +389,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Zoom: el farol por dentro, lleno de bolitas.",
@@ -403,6 +425,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Llegan burbujas de oxígeno al farol.",
    "escena": "The light lantern fills the frame, cut open, with the oxygen bubbles gathered at its left edge.",
@@ -435,6 +460,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas que tocan una burbuja se encienden.",
    "escena": "The light lantern fills the frame, cut open, with the oxygen bubbles mixed in among the yellow beads.",
@@ -463,6 +491,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Una pulsera luminosa se enciende.",
@@ -524,6 +555,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "titere",
    "enPantalla": "La bombilla echa calor; la luciérnaga no.",
    "escena": "The light bulb with wavy orange clay heat lines above it stands on the left, and the firefly rests on a green clay leaf on the right.",
@@ -557,6 +591,11 @@
     "flota",
     "aparece",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Entra aire: luz. Sale el aire: oscuro.",
@@ -658,6 +697,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "titere",
    "enPantalla": "El macho vuela y hace destellos.",
    "escena": "The firefly flies in the air above dark-green clay grass, against a dark-blue clay night sky backdrop.",
@@ -688,6 +730,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "titere",
    "enPantalla": "La hembra contesta desde la hierba.",
@@ -752,6 +797,10 @@
    "movimientos": [
     "rueda_desliza",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Una cría de luciérnaga brilla en el suelo.",
@@ -819,6 +868,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "titere",
    "enPantalla": "La luciérnaga abre sus alas duras de escarabajo.",
    "escena": "The firefly sits in the center of the frame on a green clay leaf.",
@@ -848,6 +900,10 @@
    "movimientos": [
     "aparece",
     "late"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un árbol entero parpadea a la vez.",
@@ -879,6 +935,7 @@
     "linterna_pequena"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop levanta una linterna y la mira.",
    "escena": "Plop stands facing the camera, holding the small flashlight in one paddle arm.",
@@ -909,6 +966,7 @@
     "linterna_pequena"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop hace destellos con la linterna en el prado.",
    "escena": "Plop stands in a dark-blue clay night meadow with tall green clay grass, holding the small flashlight.",
@@ -940,6 +998,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "titere",
    "enPantalla": "La luciérnaga contesta con dos destellos.",
    "escena": "The firefly rests on a tall green clay grass blade in the center of the frame, against a dark-blue clay night sky backdrop.",
@@ -970,6 +1031,10 @@
    "movimientos": [
     "revienta",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente feliz en el prado.",
@@ -1094,6 +1159,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Se apaga la farola y aparecen las lucecitas.",
    "escena": "A small dark-blue clay meadow fills the frame, with a bright white clay street lamp standing on its right side.",
@@ -1122,6 +1190,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un pez del fondo del mar con su propia lucecita.",

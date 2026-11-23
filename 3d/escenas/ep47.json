@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Gorrión",
-   "en": "Sparrow chirping"
+   "sonido": "ANIMAL_Pajaro_Canto"
   },
   {
    "es": "Zumbido eléctrico",
-   "en": "Low electrical hum of power lines"
+   "sonido": "ELEC_Cables_Zumban"
   },
   {
    "es": "Brisa",
-   "en": "Light breeze"
+   "sonido": "AMB_Brisa_Suave"
   },
   {
    "es": "Aleteo",
-   "en": "Small bird wings flapping"
+   "sonido": "ANIMAL_Pajaro_Despega"
   }
  ],
  "tomas": [
@@ -64,6 +64,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "titere",
    "enPantalla": "Un gorrión en un cable eléctrico.",
@@ -96,6 +99,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "titere",
    "enPantalla": "El gorrión mira tranquilo a los lados.",
@@ -213,6 +219,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "Las patitas del gorrión agarran el cable.",
    "escena": "The sparrow's thin pink clay feet fill the frame, gripping the black power line.",
@@ -242,6 +251,7 @@
     "cable_electrico"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "El extremo del cable: metal sin funda.",
    "escena": "The cut end of the power line fills the frame, showing shiny grey clay metal strands with no covering.",
@@ -310,6 +320,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira las dos patas del gorrión en el cable.",
    "escena": "Pipo stands beside the sparrow, which perches on a short piece of the power line held up by two small grey clay posts at his height.",
@@ -340,6 +353,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al cable.",
@@ -374,6 +390,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: bolitas de luz corren por dentro del cable.",
    "escena": "The inside of the power line fills the frame, shown as a long metal tube with the glowing beads flowing through it.",
@@ -403,6 +423,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "El agua baja de un depósito alto a uno bajo.",
    "escena": "Two clear clay tanks of pale-blue water stand side by side in the center of the frame, one high on the left and one low on the right, joined by a clear clay tube.",
@@ -430,6 +453,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Dos depósitos a la misma altura: el agua no se mueve.",
    "escena": "Two clear clay tanks of pale-blue water stand side by side at the same height in the center of the frame, joined by a clear clay tube.",
@@ -463,6 +487,10 @@
    "movimientos": [
     "rueda_desliza",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "titere",
    "enPantalla": "La electricidad pasa bajo las patas sin entrar en el pájaro.",
@@ -527,6 +555,11 @@
     "gira",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas siguen recto por el metal.",
    "escena": "The inside of the power line fills the frame, a long metal tube with the glowing beads flowing through it and a small brown clay bird foot resting on top.",
@@ -556,6 +589,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo, quieto en un puente, sobre un arroyo.",
@@ -619,6 +655,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un águila se aparta de dos cables.",
    "escena": "A big brown clay eagle with wide wings flies near two parallel black clay power lines in the center of the frame, against a pale-blue clay sky.",
@@ -647,6 +684,9 @@
    "objetos": [],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Un pajarito se posa en una percha segura sobre el poste.",
@@ -711,6 +751,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Un poste con un triángulo rojo de peligro.",
    "escena": "A tall grey clay power pole with black clay lines stands in the center of the frame on green clay ground, with a big red clay warning triangle at its base.",
@@ -773,6 +816,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un niño se queda lejos de un cable caído y llama a alguien.",
    "escena": "A black clay power line lies fallen on grey clay pavement in the center of the frame, with a small clay child standing far back from it.",
@@ -801,6 +845,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Una cometa roja en un parque, lejos de los cables.",
@@ -831,6 +878,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Una fila de gorriones en un mismo cable hace sitio a otro.",
    "escena": "A long row of small brown clay sparrows perches along one black clay power line against a pale-blue clay sky.",
@@ -859,6 +909,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo levanta unos prismáticos: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding a small pair of green clay binoculars in one paddle arm.",
@@ -892,6 +943,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo sigue con prismáticos a un gorrión en el cable.",
    "escena": "Pipo stands on green clay grass looking up at the power line high above him, where the sparrow perches.",
@@ -922,6 +976,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Un enchufe con su cable de plástico blanco.",
    "escena": "A white clay electric plug with a white clay cable lies on a light-brown clay floor in the center of the frame.",
@@ -951,6 +1008,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente, serio y tranquilo.",
@@ -1073,6 +1133,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un caracol sobre un tubo de bolitas que se empujan.",
    "escena": "A long row of small yellow clay beads fills a clear clay tube across the frame, with a tiny green clay snail crawling on top of the tube.",
@@ -1101,6 +1162,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Una anguila eléctrica rodeada de chispas.",

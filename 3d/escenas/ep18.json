@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Pluma que roza",
-   "en": "Soft feathery tickle brush"
+   "sonido": "FOLEY_Pluma_Roza"
   },
   {
    "es": "Risa de cosquillas",
-   "en": "Child giggling, short and bright"
+   "sonido": "VOZ_Risa_Nino"
   },
   {
    "es": "Aviso por el nervio",
-   "en": "Quick light electric zip"
+   "sonido": "ELEC_Chispa_Cable"
   },
   {
    "es": "El volumen baja",
-   "en": "Soft descending slide whistle"
+   "sonido": "INSTR_Xilofono_Baja"
   }
  ],
  "tomas": [
@@ -67,6 +67,10 @@
    "movimientos": [
     "tiembla",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Una pluma roza la panza de Plop, que se retuerce de risa.",
@@ -99,6 +103,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se pasa la pluma él mismo y no siente nada.",
@@ -215,6 +222,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La pluma gira despacio: no tiene bichitos.",
    "escena": "The feather lies in the center of the frame.",
@@ -244,6 +254,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se pica los costados y se encoge de hombros.",
@@ -311,6 +324,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Los sensores de la piel laten uno tras otro.",
    "escena": "The skin patch lies in the center of the frame.",
@@ -341,6 +357,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al cerebro.",
@@ -377,6 +396,12 @@
     "balancea",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "La pluma roza los sensores, que se hunden y vuelven a subir.",
    "escena": "The round blue sensors on the skin patch fill the frame, with the tip of the feather just above them.",
@@ -408,6 +433,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un aviso viaja por el nervio desde la piel hasta el cerebro.",
@@ -441,6 +469,10 @@
     "rebota",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "En la parte de atrás del cerebro late el cerebelo.",
    "escena": "The brain model sits in the center of the frame, seen from the side.",
@@ -472,6 +504,10 @@
    "movimientos": [
     "revienta",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Del cerebelo salen flechitas blancas: predicciones.",
@@ -564,6 +600,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop acerca despacio su manopla a su propia panza.",
    "escena": "Plop stands facing the camera, with one paddle arm raised beside his belly.",
@@ -630,6 +669,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "El aviso se encoge hasta ser un puntito al llegar al cerebro.",
@@ -698,6 +740,10 @@
     "balancea",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "La pluma cae de sorpresa y un aviso enorme corre hacia el cerebro.",
    "escena": "The skin patch lies on the left of the set and the brain model sits on the right, joined by a long yellow clay cord, with the feather floating above the skin patch.",
@@ -731,6 +777,11 @@
     "empuja",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "El cerebro se sacude al recibir el aviso.",
    "escena": "The brain model sits in the center of the frame, with a big blue clay bead arriving at it.",
@@ -763,6 +814,10 @@
    "movimientos": [
     "tiembla",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se retuerce de risa otra vez (puedes repetir el clip 1).",
@@ -828,6 +883,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Una figura con zonas rojas en el cuello, los costados y la panza.",
    "escena": "A simple peach clay body shape stands in the center of the frame, with small red clay patches on its neck, sides and belly.",
@@ -859,6 +917,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Un bichito camina sobre la piel y los sensores se hunden a su paso.",
    "escena": "The skin patch lies in the center of the frame, with a tiny black clay bug standing at its left edge.",
@@ -889,6 +950,7 @@
     "pluma"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop trae la pluma desde su espalda hacia su panza.",
    "escena": "Plop stands facing the camera, holding the feather behind his back with both paddle arms.",
@@ -922,6 +984,10 @@
     "tiembla",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop se pasa la pluma muy rápido y niega con la cabeza.",
    "escena": "Plop stands facing the camera, holding the feather with one paddle arm against his own belly.",
@@ -950,6 +1016,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Un brazo robot espera un momento y pasa una pluma por la piel.",
@@ -980,6 +1049,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente, asombrado.",
@@ -1104,6 +1176,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Una pluma le hace cosquillas a una ratita, que patalea feliz.",
    "escena": "A small grey clay rat lies on its back in the center of the frame, with a white clay feather floating above its belly.",
@@ -1134,6 +1209,11 @@
     "tiembla",
     "balancea",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Un chimpancé se mece de risa con las cosquillas.",

@@ -48,6 +48,25 @@ Cada personaje necesita: modelo esculpido, esqueleto (Rigify), formas de boca pa
   - **Plop:** `M46kPfoaSFdeaL0sLmqQ`. Suave, redonda y pausada, con murmullos pensativos (unos 133 Hz).
 - La sincronía de labios se hace con Rhubarb Lip Sync, que analiza el audio y da las formas de boca fotograma a fotograma.
 
+## Efectos de sonido
+
+**Criterio: que suene a la realidad.** Los efectos de caricatura y las indicaciones genéricas sonaban falsos. Cada indicación para ElevenLabs Sound Effects v3 sigue cuatro reglas:
+
+1. Nombrar la fuente física real: objeto, material y acción.
+2. Dar la perspectiva de grabación (micrófono cercano, oído desde dentro de un cuarto…).
+3. Lo que no suena en la realidad (la luz, una idea, el arcoíris) se resuelve con un objeto o un instrumento acústico real: una bombilla que se enciende, una copa de cristal frotada, una marimba.
+4. Una sola fuente por indicación; las capas se mezclan después.
+
+`audio/biblioteca.py` arma `audio/biblioteca.json` con los 208 sonidos del año: los 208 efectos de la guía (agrupados cuando se repiten), un sonido por movimiento de la animación, un ambiente por zona del laboratorio y el kit del canal. El exportador asigna a cada efecto de cada escena su sonido (`efectos[].sonido`) y a cada toma animada el sonido de su movimiento (`tomas[].sonidos`).
+
+| | |
+|---|---|
+| Sonidos de la biblioteca | 208 |
+| Hechos en el piloto | 11 (noviembre de 2026, 560 créditos) |
+| Por generar | 197, unos 5 900 créditos con 4 variaciones |
+
+El acabado (`audio/acabado_efectos.py`) recorta el ataque, aplica fundidos, quita graves sobrantes, iguala el nivel por familia y arma camas de 60 s con fundidos cruzados para los ambientes.
+
 ## El laboratorio
 
 Un solo set grande con rincones que se reutilizan todo el año. Las paredes y el suelo son azul claro y transmiten calma. Los objetos, el mobiliario y las luces de colores vivos lo hacen llamativo.

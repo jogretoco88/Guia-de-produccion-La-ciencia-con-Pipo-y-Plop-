@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Giro en el aire",
-   "en": "Quick soft whoosh of a small body twisting"
+   "sonido": "AIRE_Tela_Giro"
   },
   {
    "es": "Aterrizaje suave",
-   "en": "Soft padded thud on carpet"
+   "sonido": "ANIMAL_Gato_Aterriza"
   },
   {
    "es": "Ronroneo",
-   "en": "Gentle short cat purr"
+   "sonido": "ANIMAL_Gato_Ronronea"
   },
   {
    "es": "Patas de resorte",
-   "en": "Small cartoon spring boing"
+   "sonido": "METAL_Resorte"
   }
  ],
  "tomas": [
@@ -66,6 +66,10 @@
    "movimientos": [
     "cae",
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "titere",
    "enPantalla": "El gato cae del cojín, gira en el aire y aterriza de pie.",
@@ -97,6 +101,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "titere",
    "enPantalla": "El gato se lame una pata, tan tranquilo.",
@@ -213,6 +220,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "titere",
    "enPantalla": "La cola del gato se mece: es delgada.",
    "escena": "The clay cat sits with its back to the camera, its long tail lying on the set.",
@@ -243,6 +253,10 @@
    "movimientos": [
     "gira",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop intenta girar sobre un pie y se tambalea.",
@@ -311,6 +325,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop estudia las orejas del gato.",
    "escena": "Plop stands beside the clay cat, leaning toward its head.",
@@ -341,6 +358,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a las orejas del gato.",
@@ -373,6 +393,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la maqueta del oído interno.",
    "escena": "The inner ear model stands in the center of the set.",
@@ -404,6 +427,10 @@
    "movimientos": [
     "rueda_desliza",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Unas bolitas azules se deslizan dentro de los tubitos.",
@@ -438,6 +465,11 @@
     "ondula",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "La columna de bloques se arquea y se tuerce.",
    "escena": "The flexible spine model lies in the center of the frame.",
@@ -469,6 +501,10 @@
    "movimientos": [
     "crece",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "El gato dobla y estira las patas como resortes.",
@@ -563,6 +599,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "El gato, panza arriba en el aire, gira solo la cabeza.",
    "escena": "The clay cat hangs upside down in mid-air in the center of the frame, belly up, legs pointing upward.",
@@ -629,6 +668,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "La mitad delantera del gato gira siguiendo a la cabeza.",
    "escena": "The clay cat hangs in mid-air, belly up, with its head already turned toward the ground.",
@@ -659,6 +701,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "En la maqueta, media columna gira y la otra media espera.",
@@ -725,6 +770,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "La mitad trasera gira: el gato queda mirando al suelo.",
    "escena": "The clay cat hangs in mid-air with its front half facing the ground and its back half still belly up.",
@@ -755,6 +803,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "titere",
    "enPantalla": "El gato abre las cuatro patas en el aire.",
@@ -822,6 +873,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "titere",
    "enPantalla": "Justo sobre el suelo, el gato arquea la espalda.",
    "escena": "The clay cat hangs in mid-air just above the white floor, legs stretched down toward it.",
@@ -852,6 +906,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "Las patas se doblan al tocar el suelo.",
@@ -885,6 +942,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira al gato, asombrado.",
    "escena": "Plop stands beside the clay cat, looking at it.",
@@ -913,6 +973,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un gatito diminuto rueda de espaldas y se pone de pie.",
@@ -946,6 +1009,10 @@
     "cae",
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "La caída completa otra vez (puedes repetir el clip 1).",
    "escena": "The clay cat lies on its back at the edge of the top of the tall cushion.",
@@ -975,6 +1042,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y aplaude bajito.",
@@ -1102,6 +1172,10 @@
     "rueda_desliza",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "La maqueta del oído se inclina a un lado y al otro.",
    "escena": "The inner ear model stands in the center of the frame.",
@@ -1132,6 +1206,10 @@
    "movimientos": [
     "flota",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop hace equilibrio en un solo pie.",

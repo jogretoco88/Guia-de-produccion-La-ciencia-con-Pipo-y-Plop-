@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Zumbido",
-   "en": "Single mosquito buzzing close to the ear"
+   "sonido": "ANIMAL_Mosquito"
   },
   {
    "es": "Picadura",
-   "en": "Tiny sharp cartoon poke"
+   "sonido": "FOLEY_Pinchazo"
   },
   {
    "es": "Comezón",
-   "en": "Quick dry scratching"
+   "sonido": "FOLEY_Rascar_Piel"
   },
   {
    "es": "Agua que se vacía",
-   "en": "Small bucket of water pouring out"
+   "sonido": "AGUA_Cubo_Vacia"
   }
  ],
  "tomas": [
@@ -67,6 +67,10 @@
    "movimientos": [
     "cae",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "titere",
    "enPantalla": "El mosquito aterriza en el brazo y baja la trompa.",
@@ -98,6 +102,10 @@
    "movimientos": [
     "empuja",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se rasca una roncha roja.",
@@ -215,6 +223,10 @@
     "balancea",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "titere",
    "enPantalla": "El mosquito bebe tranquilo de una flor.",
    "escena": "The clay mosquito sits on a small pink clay flower in the center of the frame.",
@@ -243,6 +255,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Dos mosquitos: el de antenas peludas niega con la cabeza.",
@@ -311,6 +326,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop estudia la trompa del mosquito.",
    "escena": "Plop stands beside the clay mosquito, which sits on the set, leaning toward it.",
@@ -341,6 +359,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a la trompa del mosquito.",
@@ -373,6 +394,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "La trompa: una aguja finísima.",
    "escena": "The long snout of the clay mosquito fills the frame.",
@@ -403,6 +427,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La piel por dentro: un tubito con sangre que corre.",
@@ -435,6 +462,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La trompa atraviesa la piel hasta el tubito de sangre.",
@@ -469,6 +499,11 @@
     "cae",
     "rueda_desliza",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "De la punta de la trompa sale una gotita de saliva.",
@@ -564,6 +599,10 @@
     "rueda_desliza",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro del tubito se forma un tapón y la sangre se detiene.",
    "escena": "The red blood vessel inside the skin model fills the frame, with red clay beads flowing through it and a small dark-red clay plug forming at one spot.",
@@ -633,6 +672,11 @@
     "rueda_desliza",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "La saliva toca el tapón, lo deshace y la sangre vuelve a correr.",
    "escena": "The red blood vessel inside the skin model fills the frame, with a small dark-red clay plug in it and the saliva drop beside the plug.",
@@ -665,6 +709,10 @@
    "movimientos": [
     "gira",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "titere",
    "enPantalla": "La panza del mosquito se hincha y se pone roja.",
@@ -732,6 +780,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "Junto al mosquito aparecen huevitos blancos.",
    "escena": "The clay mosquito, its belly red and round, sits in the center of the frame next to a small cluster of tiny white clay eggs.",
@@ -764,6 +815,10 @@
    "movimientos": [
     "cae",
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Células defensoras rodean la gotita de saliva.",
@@ -832,6 +887,10 @@
     "flota",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Las células sueltan chispitas y la piel se levanta en una roncha.",
    "escena": "The skin model fills the frame, with small white clay cells gathered around one spot inside it.",
@@ -864,6 +923,11 @@
     "crece",
     "rebota",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Rebota",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "La roncha del brazo se hincha y palpita.",
@@ -898,6 +962,12 @@
     "empuja",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop duda si rascarse o no.",
    "escena": "Plop stands facing the camera with a small red clay bump on his side and one paddle arm raised just above it.",
@@ -930,6 +1000,10 @@
     "crece",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "La roncha crece y se pone más roja.",
    "escena": "The arm model lies in the center of the frame with a small red clay bump on it.",
@@ -960,6 +1034,10 @@
    "movimientos": [
     "cae",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se pone un hielo en la roncha y se relaja.",
@@ -992,6 +1070,10 @@
    "movimientos": [
     "gira",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "titere",
    "enPantalla": "El mosquito sigue un rastro de nubecitas azules.",
@@ -1116,6 +1198,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "En un charquito, de los huevos salen larvas que se menean.",
    "escena": "A small round blue clay puddle lies in the center of the frame, with a cluster of tiny white clay eggs floating on it.",
@@ -1145,6 +1230,10 @@
    "movimientos": [
     "balancea",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Una cubeta se vuelca y el agua se derrama.",

@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "¡Hip!",
-   "en": "Single cute cartoon hiccup"
+   "sonido": "VOZ_Hipo"
   },
   {
    "es": "Tirón del diafragma",
-   "en": "Quick rubber band snap"
+   "sonido": "FOLEY_Liga_Chasquido"
   },
   {
    "es": "Portazo de las cuerdas vocales",
-   "en": "Small wooden door slamming shut"
+   "sonido": "FOLEY_Puertita_Cierra"
   },
   {
    "es": "Respiración tranquila",
-   "en": "Slow calm breath in and out"
+   "sonido": "VOZ_Respiracion_Tranquila"
   }
  ],
  "tomas": [
@@ -64,6 +64,10 @@
    "movimientos": [
     "empuja",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop da un salto de hipo y tumba su torre de bloques.",
@@ -96,6 +100,10 @@
    "movimientos": [
     "empuja",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop salta con hipo cada dos segundos, sorprendido.",
@@ -211,6 +219,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop niega con la cabeza y se toca la panza.",
    "escena": "Plop stands facing the camera with one paddle arm on his belly.",
@@ -240,6 +251,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop infla los cachetes aguantando el aire.",
@@ -304,6 +318,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop se señala debajo de las costillas.",
    "escena": "Plop stands in the center of the set, facing the camera.",
@@ -334,6 +349,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "a_mano",
    "enPantalla": "La cámara se acerca al pecho de Plop.",
@@ -366,6 +384,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la maqueta de los pulmones.",
    "escena": "The lungs model stands in the center of the set.",
@@ -396,6 +417,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La banda roja bajo los pulmones se flexiona.",
@@ -428,6 +452,10 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El diafragma baja y los pulmones se llenan.",
    "escena": "The lungs model stands in the center of the frame, its crimson band curved upward like a dome.",
@@ -459,6 +487,11 @@
     "rueda_desliza",
     "crece",
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "El diafragma baja y sube con ritmo tranquilo.",
@@ -551,6 +584,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Las órdenes viajan del cerebro al diafragma por el nervio.",
    "escena": "The brain-and-nerve model stretches across the set: the small pink brain on the left, the long yellow cord, and the lungs on the right.",
@@ -617,6 +653,10 @@
     "tiembla",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop se sacude de risa.",
    "escena": "Plop stands in the center of the set, facing the camera.",
@@ -648,6 +688,11 @@
     "tiembla",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "El estómago se infla y roza el nervio.",
    "escena": "A round peach-orange clay ball, the stomach, sits just below a yellow clay cord that runs straight across the frame.",
@@ -678,6 +723,10 @@
     "rueda_desliza",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Una señal roja cruza el nervio a toda velocidad.",
    "escena": "A yellow clay cord runs straight across the frame from left to right, with one small red clay bead at its left end.",
@@ -707,6 +756,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "El diafragma da un tirón brusco hacia abajo.",
@@ -740,6 +792,10 @@
     "revienta",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Un chorro de aire baja por la garganta.",
    "escena": "The throat-door model stands in the center of the frame with its two cream flaps open.",
@@ -772,6 +828,10 @@
     "rueda_desliza",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Las cuerdas vocales se cierran de golpe.",
    "escena": "The two cream flaps on top of the throat-door model fill the frame, standing open.",
@@ -803,6 +863,11 @@
     "empuja",
     "rebota",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop salta con hipo.",
@@ -871,6 +936,10 @@
     "empuja",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop, cansado, sigue saltando con hipo.",
    "escena": "Plop faces the camera, centered in frame, with tired half-closed eyes.",
@@ -900,6 +969,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop respira hondo y aguanta el aire.",
@@ -932,6 +1004,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Bolitas grises se juntan entre los pulmones.",
    "escena": "The two pink lungs of the lungs model fill the frame.",
@@ -961,6 +1036,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Las órdenes vuelven a viajar con calma.",
@@ -994,6 +1072,11 @@
     "crece",
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "El diafragma recupera su ritmo (puedes repetir el clip 13).",
    "escena": "The lungs model stands in the center of the frame.",
@@ -1023,6 +1106,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop respira tranquilo y asiente feliz.",
@@ -1082,6 +1168,10 @@
     "empuja",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Un perrito de arcilla tiene hipo.",
    "escena": "A small brown clay puppy with floppy ears sits in the center of the frame, facing the camera.",
@@ -1110,6 +1200,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Un bebé envuelto en su mantita da saltitos de hipo.",

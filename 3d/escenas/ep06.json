@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Corte de cebolla",
-   "en": "Crisp knife slicing through an onion on a wooden board"
+   "sonido": "COMIDA_Cebolla_Corte"
   },
   {
    "es": "Gas que sube",
-   "en": "Soft airy hiss rising gently"
+   "sonido": "AIRE_Gas_Escapa"
   },
   {
    "es": "Lágrima que cae",
-   "en": "Single cartoon water drop plink"
+   "sonido": "AGUA_Gota_Charco"
   },
   {
    "es": "Alarma del ojo",
-   "en": "Small toy alarm, two quick beeps"
+   "sonido": "MECAN_Temporizador_Pitidos"
   }
  ],
  "tomas": [
@@ -68,6 +68,11 @@
     "rueda_desliza",
     "revienta",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop, junto a la cebolla recién cortada, derrama lágrimas de arcilla.",
@@ -99,6 +104,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La cebolla entera se mece, inofensiva.",
@@ -215,6 +223,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La cebolla gira despacio: no tiene ojos ni cara.",
    "escena": "The onion stands in the center of the frame.",
@@ -245,6 +256,7 @@
     "cebolla_gigante"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop huele la cebolla entera y no llora.",
    "escena": "Plop stands right next to the onion with his face close to it.",
@@ -312,6 +324,10 @@
     "revienta",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Un cuchillo de arcilla parte la cebolla en dos.",
    "escena": "The onion stands in the center of the frame with a chunky grey clay knife resting on top of it.",
@@ -342,6 +358,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la cara cortada de la cebolla.",
@@ -375,6 +394,10 @@
     "ondula",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Las capas blancas de la cebolla se mueven como una ola.",
    "escena": "The white layers of the cut onion model fill the frame.",
@@ -405,6 +428,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Una celda: un cuarto con dos cajones separados.",
@@ -437,6 +463,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "La pared entre los dos cajones aguanta firme.",
    "escena": "The inner wall of the onion cell model fills the center of the frame, with green balls on its left and orange balls on its right.",
@@ -468,6 +497,10 @@
    "movimientos": [
     "rueda_desliza",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "La hoja del cuchillo rompe la pared de la celda.",
@@ -561,6 +594,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas verdes y naranjas se juntan y forman una nubecita.",
    "escena": "The onion cell model fills the frame, with its inner wall broken and the green balls and the orange balls side by side.",
@@ -626,6 +662,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "De la cebolla cortada suben nubecitas de gas.",
    "escena": "The cut onion model lies in the center of the set.",
@@ -656,6 +695,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Una nubecita de gas se acerca al ojo.",
@@ -688,6 +730,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El ojo se entrecierra y se pone rosado donde lo toca el gas.",
    "escena": "The eye model fills the frame, with one small yellow-green clay cloud touching its surface.",
@@ -717,6 +762,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Una señal viaja por un cable desde el ojo hasta el cerebro.",
@@ -784,6 +832,10 @@
     "rueda_desliza",
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "Una bolsita azul sobre el ojo suelta lágrimas.",
    "escena": "The eye model sits in the center of the frame, with a small blue clay pouch attached just above it.",
@@ -814,6 +866,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Las lágrimas arrastran la nubecita fuera del ojo.",
@@ -883,6 +938,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop parpadea entre lágrimas junto a la cebolla.",
    "escena": "Plop stands beside the cut onion model with blue clay tears on his cheeks.",
@@ -913,6 +972,9 @@
    ],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Un ratón de arcilla se aparta de la cebolla, lagrimeando.",
@@ -946,6 +1008,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira la cebolla con respeto.",
    "escena": "Plop stands beside the onion, looking at it.",
@@ -976,6 +1041,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "De la cebolla fría sube una sola nubecita, muy despacio.",
@@ -1100,6 +1168,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Tres lágrimas de distinto tamaño se mecen en fila.",
    "escena": "Three blue clay tears of different sizes stand in a row in the center of the frame.",
@@ -1129,6 +1200,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se seca una lágrima y parpadea contento.",

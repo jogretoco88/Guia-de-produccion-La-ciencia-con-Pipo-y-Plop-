@@ -27,19 +27,19 @@
  "efectos": [
   {
    "es": "¡Fuchi!",
-   "en": "Comic stink whoosh with a little squeak"
+   "sonido": "VOZ_Asco_Nariz"
   },
   {
    "es": "El zapato se abre",
-   "en": "Shoe being pulled off with a soft pop"
+   "sonido": "FOLEY_Zapato_Sale"
   },
   {
    "es": "Bacterias comiendo",
-   "en": "Tiny rapid cartoon munching"
+   "sonido": "FOLEY_Migas_Mordisquean"
   },
   {
    "es": "Aire fresco",
-   "en": "Light breezy whoosh with a sparkle"
+   "sonido": "AIRE_Soplo_Suave"
   }
  ],
  "tomas": [
@@ -68,6 +68,10 @@
    "movimientos": [
     "flota",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Del zapato sale una nube verdosa.",
@@ -101,6 +105,10 @@
    "movimientos": [
     "ondula",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop se echa hacia atrás, abanicándose.",
@@ -214,6 +222,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop se revisa los costados y las piernas, y se encoge de hombros.",
    "escena": "Plop stands in the center of the set, facing the camera.",
@@ -242,6 +251,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un pie descalzo mueve los dedos en la arena.",
@@ -310,6 +322,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Por dentro del zapato, oscuro, resbala una gota.",
    "escena": "The opening of the clay shoe fills the frame, dark inside.",
@@ -342,6 +358,10 @@
     "revienta",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la boca del zapato.",
    "escena": "The clay shoe stands in the center of the set.",
@@ -372,6 +392,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la piel del pie por dentro.",
@@ -407,6 +430,11 @@
     "rueda_desliza",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "Una gota sube por el tubito y sale a la superficie.",
    "escena": "One coiled blue clay sweat gland inside the foot skin model fills the frame, with its thin tube rising to the surface.",
@@ -439,6 +467,10 @@
     "cae",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Las gotas de sudor, limpias, se mecen.",
    "escena": "A few of the sweat drops sit in the center of the frame.",
@@ -470,6 +502,10 @@
    "movimientos": [
     "ondula",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una multitud de bacterias se menea.",
@@ -566,6 +602,10 @@
     "cae",
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "Las bacterias se comen una gota de sudor y escamitas de piel.",
    "escena": "A few of the skin bacteria sit in the center of the frame, around one sweat drop and a few tiny beige clay flakes.",
@@ -634,6 +674,11 @@
     "crece",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "De las bacterias salen nubecitas verdosas.",
    "escena": "A few of the skin bacteria sit in the center of the frame, round and full.",
@@ -665,6 +710,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Dentro del zapato, las bacterias se multiplican.",
@@ -732,6 +780,10 @@
     "crece",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Las nubecitas de olor se apretujan dentro del zapato.",
    "escena": "The clay shoe stands in the center of the frame, with yellow-green clay puffs packed inside its opening.",
@@ -764,6 +816,10 @@
    "movimientos": [
     "flota",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "Del zapato sale la nube de olor (puedes repetir el clip 1).",
@@ -832,6 +888,10 @@
     "cae",
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "En un pie al aire, las gotas de sudor se evaporan.",
    "escena": "A simple peach clay foot stands in the center of the frame, with a few of the sweat drops on it.",
@@ -862,6 +922,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Un calcetín blanco absorbe las gotas de sudor.",
@@ -896,6 +959,10 @@
     "gira",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop voltea el zapato y lo sacude.",
    "escena": "Plop stands facing the camera, holding the clay shoe far out in front of him with both paddle arms.",
@@ -929,6 +996,11 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Al sol, las nubecitas salen del zapato y se desvanecen.",
    "escena": "The clay shoe stands in the center of the frame, under a bright-yellow clay sun.",
@@ -957,6 +1029,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un pie en una palangana, cubierto de espuma.",
@@ -989,6 +1064,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop huele el zapato y asiente, tranquilo.",
@@ -1114,6 +1192,10 @@
     "flota",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "De un trozo de queso sube una nubecita verdosa.",
    "escena": "A wedge of pale-yellow clay cheese with holes stands in the center of the frame, with a small yellow-green clay puff above it.",
@@ -1145,6 +1227,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Las bacterias saltan entre el queso y el zapato.",

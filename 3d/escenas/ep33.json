@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Mordisco",
-   "en": "Quick crunchy bite into an ice cream cone"
+   "sonido": "COMIDA_Cono_Mordisco"
   },
   {
    "es": "Golpe cómico",
-   "en": "Short comic cartoon boing"
+   "sonido": "FOLEY_Palmada_Frente"
   },
   {
    "es": "Escarcha",
-   "en": "Icy crackling frost spreading"
+   "sonido": "HIELO_Cruje_Congela"
   },
   {
    "es": "Sorbo con pajita",
-   "en": "Fast slurp through a straw"
+   "sonido": "COMIDA_Sorbo_Pajita"
   }
  ],
  "tomas": [
@@ -64,6 +64,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Un helado con un mordisco enorme.",
@@ -95,6 +98,10 @@
    "movimientos": [
     "encoge",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se agarra la frente.",
@@ -211,6 +218,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Entre la boca y el cerebro hay hueso.",
    "escena": "The head model stands in side view in the center of the frame, showing the pale bony layer between the roof of the mouth and the brain area.",
@@ -239,6 +249,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Un cerebro de plastilina sobre un soporte.",
@@ -307,6 +320,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira el helado con sospecha.",
    "escena": "Pipo stands beside the ice cream cone, which rests in a white clay holder at his height.",
@@ -337,6 +353,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al techo de la boca.",
@@ -369,6 +388,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: el helado enfría el techo de la boca.",
    "escena": "The head model fills the frame in side view, with a small round pink clay scoop pressed against the roof of its mouth.",
@@ -399,6 +421,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "El tubito de sangre se encoge con el frío.",
@@ -431,6 +456,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "El tubito se ensancha y la sangre corre.",
    "escena": "The blood tube lies across the center of the frame, narrow, with a few red beads inside it.",
@@ -462,6 +490,10 @@
    "movimientos": [
     "rueda_desliza",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un aviso sube por el nervio hasta la frente.",
@@ -521,6 +553,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Un cable amarillo que se divide en dos.",
    "escena": "A thick yellow clay cable splits into two branches in the center of the frame, one branch ending in a small pink clay dot and the other in a small peach clay dot.",
@@ -550,6 +586,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se toca la frente.",
@@ -617,6 +656,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "La lengua calienta el paladar y la escarcha se derrite.",
    "escena": "The head model fills the frame in side view, with its pink tongue pressed up flat against the frosty roof of the mouth.",
@@ -645,6 +687,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un vaso de agua del tiempo.",
@@ -709,6 +754,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Un cronómetro avanza un poquito.",
    "escena": "A round white clay stopwatch with one red clay hand fills the center of the frame.",
@@ -738,6 +786,7 @@
     "helado_de_cucurucho"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Una cucharita toma un poquito de helado.",
    "escena": "The ice cream cone stands in a white clay holder in the center of the frame, with a small white clay spoon beside it.",
@@ -802,6 +851,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "El granizado baja rápido por la pajita.",
    "escena": "A tall clear clay cup full of bright blue clay slush with a red clay straw stands in the center of the frame.",
@@ -829,6 +881,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Tres figuritas con helado; solo una se toca la frente.",
    "escena": "Three small clay figures in different colors stand in a row in the center of the frame, each holding a tiny pink ice cream cone.",
@@ -859,6 +912,7 @@
     "helado_de_cucurucho"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo, con su helado, levanta el otro brazo: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding the ice cream cone in one paddle arm.",
@@ -888,6 +942,10 @@
    "movimientos": [
     "flota",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un voluntario bebe agua helada y una pantalla mide su sangre.",
@@ -921,6 +979,10 @@
     "crece",
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "El tubito se ensancha y luego vuelve a su tamaño.",
    "escena": "The blood tube lies across the center of the frame, with red beads flowing inside it.",
@@ -950,6 +1012,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente tranquilo.",
@@ -1074,6 +1139,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Una fila de letras de plastilina salta.",
    "escena": "A long row of colorful clay letter blocks stretches across the center of the frame.",
@@ -1102,6 +1170,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Un cubito de hielo junto a un vaso de agua fría.",

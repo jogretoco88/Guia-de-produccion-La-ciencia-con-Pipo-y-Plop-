@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Frotar el globo",
-   "en": "Squeaky rubbing on a rubber balloon"
+   "sonido": "FOLEY_Globo_Frotar"
   },
   {
    "es": "El pelo se levanta",
-   "en": "Soft light static crackling"
+   "sonido": "ELEC_Estatica_Lana"
   },
   {
    "es": "Chispazo",
-   "en": "Small sharp electric zap"
+   "sonido": "ELEC_Chispazo"
   },
   {
    "es": "Trueno lejano",
-   "en": "Short distant thunder rumble"
+   "sonido": "CLIMA_Trueno_Lejano"
   }
  ],
  "tomas": [
@@ -66,6 +66,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo frota el globo contra su chaleco.",
@@ -99,6 +102,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "El pelo se levanta hacia el globo.",
@@ -216,6 +223,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Un globo sin frotar no levanta el pelo.",
    "escena": "The hair tuft stands in the center of the frame, with the red balloon floating just above it.",
@@ -246,6 +256,7 @@
     "globo_rojo"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo palpa el globo: está seco y limpio.",
    "escena": "Pipo stands facing the camera, holding the red balloon in one paddle arm and touching it with the other.",
@@ -312,6 +323,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El globo gira despacio.",
    "escena": "The red balloon floats in the center of the frame.",
@@ -343,6 +357,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al globo.",
    "escena": "The red balloon floats in the center of the set.",
@@ -372,6 +389,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Un átomo: un centro rojo con bolitas amarillas girando.",
    "escena": "A simple clay atom model fills the frame: a round red clay center with three tiny yellow clay balls circling around it.",
@@ -400,6 +420,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Una de las bolitas amarillas se aleja y vuelve.",
@@ -431,6 +454,10 @@
     "cae",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Una balanza en equilibrio: bolas rojas a un lado, amarillas al otro.",
    "escena": "A simple clay scale stands level in the center of the frame, with three red clay balls on one pan and three tiny yellow clay balls on the other.",
@@ -461,6 +488,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Los electrones saltan de un pelo a un trozo de globo.",
@@ -518,6 +548,10 @@
     "ondula",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se balancea de un pie a otro, como en un sube y baja.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -551,6 +585,10 @@
    "movimientos": [
     "tiembla",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "El globo queda cubierto de electrones; el pelo se inclina hacia él.",
@@ -620,6 +658,10 @@
     "flota",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "El pelo y el globo se acercan hasta tocarse.",
    "escena": "The red balloon floats on the right of the frame and the hair tuft stands on the left, with a small gap between them.",
@@ -648,6 +690,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Una bola amarilla y una roja se juntan de golpe.",
@@ -715,6 +760,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Los papelitos saltan y se pegan al globo.",
    "escena": "The paper bits lie on the set in the center of the frame, with the red balloon floating just above them.",
@@ -745,6 +793,7 @@
     "globo_rojo"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo suelta el globo y se queda pegado a la pared.",
    "escena": "Pipo stands beside a tall white clay wall panel, pressing the red balloon against it with one paddle arm.",
@@ -811,6 +860,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Los electrones recorren un cable en fila, como un trencito.",
    "escena": "A long grey clay wire lies across the frame, with the electrons lined up along it.",
@@ -839,6 +891,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Dos globos frotados se alejan uno del otro.",
@@ -871,6 +926,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo acerca la manopla a una perilla.",
    "escena": "Pipo stands beside a round grey clay doorknob on a white clay door panel, with one paddle arm reaching toward it.",
@@ -899,6 +957,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una chispa salta de la manopla a la perilla.",
@@ -933,6 +994,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "El globo resbala por la pared y cae.",
    "escena": "Pipo stands beside a tall white clay wall panel with the red balloon stuck on it.",
@@ -964,6 +1029,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo levanta el globo, contento.",
@@ -1087,6 +1155,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "De una nube oscura cae un rayo.",
    "escena": "A puffy dark-grey clay cloud floats at the top of the set above a flat green clay ground.",
@@ -1115,6 +1186,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "En la base de la nube se amontonan electrones.",

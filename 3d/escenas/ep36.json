@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Pasitos",
-   "en": "Tiny scurrying footsteps"
+   "sonido": "ANIMAL_Pasitos"
   },
   {
    "es": "Hoja",
-   "en": "Soft leaf rustle"
+   "sonido": "FOLEY_Hoja_Seca"
   },
   {
    "es": "Esfuerzo cómico",
-   "en": "Comic heavy-lifting strain sound"
+   "sonido": "VOZ_Esfuerzo"
   },
   {
    "es": "Hormiguero",
-   "en": "Busy underground scuttling ambience"
+   "sonido": "AMB_Hormiguero"
   }
  ],
  "tomas": [
@@ -64,6 +64,7 @@
     "trozo_de_hoja"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "Una hormiga carga una hoja enorme.",
    "escena": "The ant walks across flat brown clay ground in the center of the frame, carrying the leaf piece high above its head.",
@@ -92,6 +93,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Un forzudo levanta un coche con esfuerzo.",
@@ -206,6 +210,7 @@
     "hormiga"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "La hormiga mordisquea una miga de azúcar.",
    "escena": "The ant stands in the center of the frame next to a small white clay sugar crumb.",
@@ -236,6 +241,7 @@
     "hormiga"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "La hormiga camina por la manopla de Plop.",
    "escena": "Plop stands facing the camera, with the ant resting on his raised paddle arm.",
@@ -303,6 +309,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira de cerca la hormiga.",
    "escena": "Plop stands beside the ant, which rests on a big green clay leaf at his height.",
@@ -333,6 +342,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a la hormiga.",
@@ -366,6 +378,10 @@
     "flota",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "titere",
    "enPantalla": "Zoom: las patitas de la hormiga.",
    "escena": "The ant fills the frame in side view, standing on flat brown clay ground.",
@@ -398,6 +414,10 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "La hormiga crece y crece.",
    "escena": "The ant stands in the center of the frame on flat brown clay ground.",
@@ -429,6 +449,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Un bloque y un cubo de ocho bloques.",
    "escena": "The block cubes sit side by side in the center of the frame: a single small orange block on the left and the bigger cube of eight blocks on the right.",
@@ -459,6 +482,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Solo cuatro cuadrados rojos en la base del cubo grande.",
@@ -518,6 +544,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "La hormiga gigante no puede sostenerse.",
    "escena": "A giant version of the ant fills the frame, standing on flat brown clay ground.",
@@ -549,6 +578,10 @@
    "movimientos": [
     "rueda_desliza",
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "titere",
    "enPantalla": "La hormiga vuelve a su tamaño y camina ligera.",
@@ -650,6 +683,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "El cuello finito de la hormiga.",
    "escena": "The ant fills the frame in side view, with its small head joined to its body by a thin neck.",
@@ -713,6 +749,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Cinco hormigas cargan juntas una miga grande.",
    "escena": "Five small red-brown clay ants carry one big yellow clay cookie crumb together across flat brown clay ground in the center of the frame.",
@@ -741,6 +780,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Una fila de hormigas sigue un rastro.",
@@ -809,6 +851,10 @@
     "flota",
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "titere",
    "enPantalla": "La hormiga cae despacito y aterriza en una hoja.",
    "escena": "The ant floats in the air in the center of the frame against a pale-blue clay sky backdrop, its legs spread out.",
@@ -838,6 +884,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Un elefante levanta una pata.",
    "escena": "A big grey clay elephant stands on flat green clay ground in the center of the frame.",
@@ -866,6 +915,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop deja una miguita en el suelo.",
    "escena": "Plop stands facing the camera, holding a small yellow clay cookie crumb in one paddle arm.",
@@ -895,6 +945,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Llega una hormiga a la miga, y después muchas más.",
    "escena": "A small yellow clay cookie crumb lies on flat brown clay ground in the center of the frame, with one small red-brown clay ant beside it.",
@@ -922,6 +975,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "El hormiguero por dentro, con túneles y salas.",
    "escena": "A cut-away brown clay anthill fills the frame, showing tunnels and small round rooms underground.",
@@ -951,6 +1005,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1075,6 +1132,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Un globo terráqueo cubierto de hormigas.",
    "escena": "A big round clay world globe sits in the center of the frame, covered with many tiny red-brown clay ants.",
@@ -1103,6 +1163,9 @@
    "objetos": [],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "Hormigas cortadoras cuidan su huerto de hongo.",

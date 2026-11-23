@@ -27,19 +27,19 @@
  "efectos": [
   {
    "es": "La luz rebota",
-   "en": "Soft playful boing, light and airy"
+   "sonido": "FOLEY_Canica_Azulejo"
   },
   {
    "es": "La luz viaja",
-   "en": "Gentle shimmering whoosh"
+   "sonido": "INSTR_Copa_Frotada"
   },
   {
    "es": "Pasos gigantes",
-   "en": "Slow big cartoon footsteps"
+   "sonido": "FOLEY_Pasos_Pesados"
   },
   {
    "es": "Atardecer",
-   "en": "Warm soft chime swell"
+   "sonido": "INSTR_Cuenco_Tibetano"
   }
  ],
  "tomas": [
@@ -67,6 +67,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira hacia arriba, hacia el panel azul del cielo.",
@@ -99,6 +102,10 @@
    "movimientos": [
     "flota",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Unas moléculas de aire flotan: el aire no tiene color.",
@@ -212,6 +219,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo, sobre una duna, busca el mar y no lo encuentra.",
    "escena": "Pipo stands on a low yellow clay sand dune, facing the camera.",
@@ -240,6 +248,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Un vaso con agua de mar: es transparente.",
@@ -307,6 +318,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Del Sol sale un rayo de luz blanca.",
    "escena": "The clay sun sits on the left with the white light beam stretching from it toward the right.",
@@ -337,6 +351,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al rayo de luz blanca.",
@@ -370,6 +387,9 @@
    "movimientos": [
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "El rayo blanco se deshace en bolitas de todos los colores.",
    "escena": "The white light beam lies across the center of the frame.",
@@ -401,6 +421,10 @@
    "movimientos": [
     "rueda_desliza",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "La bolita roja avanza a saltos largos; la azul, a saltitos cortos.",
@@ -434,6 +458,10 @@
     "flota",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Las moléculas de aire flotan como obstáculos diminutos.",
    "escena": "Many air molecules float spread out across the frame.",
@@ -466,6 +494,10 @@
    "movimientos": [
     "rueda_desliza",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "La bolita roja pasa entre las moléculas sin tocarlas.",
@@ -525,6 +557,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo marcha con pasos gigantes.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -557,6 +592,10 @@
    "movimientos": [
     "rueda_desliza",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "La bolita azul choca con las moléculas y cambia de rumbo.",
@@ -625,6 +664,10 @@
     "aparece",
     "rebota"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Bolitas azules salen del Sol y rebotan por todo el cuadro.",
    "escena": "The clay sun sits in the upper left, and many air molecules float across the rest of the frame.",
@@ -654,6 +697,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "a_mano",
    "enPantalla": "A Pipo le llegan bolitas azules desde todas partes.",
@@ -686,6 +732,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo abre los brazos frente al panel del cielo.",
@@ -754,6 +803,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "El rojo y el amarillo salen del Sol en línea recta.",
    "escena": "The clay sun sits on the left, with one red and one yellow clay ball beside it.",
@@ -820,6 +872,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "El Sol baja hacia el horizonte, detrás de una larga fila de aire.",
    "escena": "The clay sun sits low at the left edge of the frame, with a long row of air molecules stretching across to the right.",
@@ -853,6 +908,10 @@
     "rueda_desliza",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas azules se pierden rebotando; llegan las naranjas y rojas.",
    "escena": "A long row of air molecules stretches across the frame, with blue, orange and red clay balls on the left.",
@@ -882,6 +941,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El Sol cambia de amarillo a rojo anaranjado.",
@@ -915,6 +977,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se sienta a mirar el Sol rojo del atardecer.",
    "escena": "Pipo stands beside a low orange-red clay sun, looking at it.",
@@ -947,6 +1012,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Una bolita azul rebota entre dos moléculas.",
    "escena": "One blue clay ball sits in the center of the frame between two air molecules.",
@@ -976,6 +1044,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente mirando hacia arriba.",
@@ -1103,6 +1174,11 @@
     "encoge",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "El Sol brilla sobre un suelo lunar con el cielo negro.",
    "escena": "A grey clay ground with small craters stretches across the frame, with a tall flat black clay panel standing behind it and the clay sun in front of the panel.",
@@ -1132,6 +1208,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo, en la Luna, mira un cielo negro.",

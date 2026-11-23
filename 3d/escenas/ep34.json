@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Respiración tranquila",
-   "en": "Slow peaceful sleeping breath"
+   "sonido": "VOZ_Respiracion_Tranquila"
   },
   {
    "es": "Música de ensueño",
-   "en": "Soft dreamy chime glissando"
+   "sonido": "INSTR_Celesta_Suave"
   },
   {
    "es": "Despertador",
-   "en": "Old alarm clock ringing briefly"
+   "sonido": "MECAN_Despertador"
   },
   {
    "es": "Pasar páginas",
-   "en": "Notebook pages flipping"
+   "sonido": "FOLEY_Paginas"
   }
  ],
  "tomas": [
@@ -67,6 +67,10 @@
    "movimientos": [
     "flota",
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop duerme en su cama, de noche.",
@@ -97,6 +101,10 @@
    "movimientos": [
     "gira",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Una nube de sueño con un dragón volando dentro.",
@@ -211,6 +219,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Un proyector apagado frente a una pantalla vacía.",
    "escena": "A small grey clay movie projector stands switched off in the center of the frame, with an empty white clay screen behind it.",
@@ -241,6 +252,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "El cerebro dormido se enciende a ratos.",
@@ -308,6 +322,7 @@
     "libreta_de_suenos"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop despierta y no recuerda nada.",
    "escena": "Plop sits up in the bed in soft morning light, with the dream notebook resting closed on his blanket.",
@@ -339,6 +354,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al cerebro.",
    "escena": "The brain model sits alone on its white stand in the center of the set, against a dark-blue clay night backdrop.",
@@ -369,6 +387,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Zoom: una bolita baja la escalera del sueño.",
@@ -402,6 +423,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "La bolita vuelve a subir al escalón morado.",
    "escena": "The sleep stairs fill the frame, with a small white clay ball resting on the bottom dark-blue step.",
@@ -430,6 +455,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Los ojos se mueven rápido bajo los párpados.",
@@ -460,6 +488,10 @@
    "movimientos": [
     "gira",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un reloj con cinco puntos morados que se encienden.",
@@ -518,6 +550,7 @@
     "cama"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop duerme completamente quieto.",
    "escena": "Plop lies asleep in the bed in the center of the set, under its blue blanket, against a dark-blue clay night backdrop.",
@@ -550,6 +583,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop abre su libreta por la mañana.",
@@ -647,6 +683,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Una científica da vueltas a un gran signo de interrogación.",
    "escena": "A small clay figure in a white lab coat stands in the center of the frame next to a big clay sculpture shaped like a question mark.",
@@ -677,6 +714,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Tarjetitas de recuerdos entran en el cerebro.",
@@ -742,6 +782,10 @@
     "rueda_desliza",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Una rata duerme y una lucecita recorre su laberinto.",
    "escena": "A small white clay rat sleeps curled up next to a small green clay maze in the center of the frame.",
@@ -806,6 +850,9 @@
    "movimientos": [
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "Un monstruito en una nube de sueño se encoge.",
    "escena": "A big fluffy white clay thought cloud floats in the center of the frame against a dark-blue clay night sky, with a small purple clay monster inside it.",
@@ -833,6 +880,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un perro dormido mueve las patas.",
    "escena": "A small brown clay dog sleeps curled up on a round red clay cushion in the center of the frame.",
@@ -866,6 +914,10 @@
     "flota",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop levanta su libreta: tiene una idea.",
    "escena": "Plop stands facing the camera, holding the dream notebook in one paddle arm.",
@@ -897,6 +949,7 @@
     "libreta_de_suenos"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop dibuja su sueño en la cama.",
    "escena": "Plop sits up in the bed in soft morning light, with the dream notebook open on his blanket.",
@@ -928,6 +981,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Las páginas de la libreta, llenas de dibujos.",
    "escena": "The dream notebook lies open in the center of the frame, its pages covered in small colorful clay drawings.",
@@ -957,6 +1013,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1081,6 +1140,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Un despertador suena sobre la mesita.",
    "escena": "A small red clay alarm clock with two bells stands in the center of the frame on a white clay nightstand.",
@@ -1109,6 +1171,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Una nube de sueño crece junto a un reloj.",

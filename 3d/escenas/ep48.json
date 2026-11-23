@@ -24,19 +24,19 @@
  "efectos": [
   {
    "es": "Escamas",
-   "en": "Soft scaly rustle"
+   "sonido": "ANIMAL_Lagarto_Escamas"
   },
   {
    "es": "Lengua",
-   "en": "Fast elastic zip sound"
+   "sonido": "FOLEY_Liga_Mojada"
   },
   {
    "es": "Brillo",
-   "en": "Shimmering sparkle"
+   "sonido": "INSTR_Campanita"
   },
   {
    "es": "Selva",
-   "en": "Gentle rainforest ambience"
+   "sonido": "AMB_Selva"
   }
  ],
  "tomas": [
@@ -63,6 +63,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "titere",
    "enPantalla": "El camaleón pasa de verde a amarillo y naranja.",
@@ -95,6 +98,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop levanta los brazos asombrado.",
@@ -211,6 +217,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "Sobre un cojín rojo, el camaleón sigue verde.",
    "escena": "The chameleon sits on a bright red clay cushion in the center of the frame, its skin green.",
@@ -241,6 +250,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "titere",
    "enPantalla": "Dos camaleones se encuentran y se encienden de color.",
@@ -309,6 +321,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira de cerca la piel del camaleón.",
    "escena": "Plop stands beside the chameleon, which grips a brown clay branch at his height.",
@@ -339,6 +354,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a la piel.",
@@ -371,6 +389,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: cristalitos ordenados en filas.",
    "escena": "The skin crystals fill the frame, packed close together in neat rows.",
@@ -401,6 +422,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "La luz rebota azul en los cristales juntos.",
@@ -433,6 +457,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Los cristales se separan y el brillo se vuelve naranja.",
    "escena": "The skin crystals fill the frame, arranged in neat rows.",
@@ -463,6 +490,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "El azul atraviesa una capa amarilla y se ve verde.",
@@ -520,6 +550,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Una pompa de jabón con colores de arcoíris.",
    "escena": "A big round soap bubble floats in the center of the frame against a dark clay backdrop, its surface swirling with rainbow colors.",
@@ -550,6 +583,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "titere",
    "enPantalla": "El camaleón, tranquilo, vuelve a verde.",
@@ -652,6 +688,10 @@
     "crece",
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "titere",
    "enPantalla": "Dos camaleones brillantes se hinchan y cabecean.",
    "escena": "Two of the chameleon face each other on a brown clay branch in the center of the frame, both bright orange and yellow.",
@@ -717,6 +757,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "titere",
    "enPantalla": "El que pierde se oscurece y se aleja.",
    "escena": "Two of the chameleon face each other on a brown clay branch in the center of the frame, one bright orange and one dull green.",
@@ -748,6 +791,10 @@
    "movimientos": [
     "gira",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "titere",
    "enPantalla": "Al sol de la mañana, el camaleón oscuro se aclara.",
@@ -816,6 +863,10 @@
     "empuja",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "La lengua del camaleón atrapa un grillo.",
    "escena": "The chameleon sits on a brown clay branch on the left of the frame, with a small grey clay cricket on a leaf on the right.",
@@ -845,6 +896,7 @@
     "camaleon"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "Los ojos del camaleón miran cada uno a un lado.",
    "escena": "The chameleon sits on a brown clay branch in the center of the frame, facing the camera.",
@@ -875,6 +927,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop sostiene tres tarjetas de colores.",
    "escena": "Plop stands facing the camera, holding three small round clay cards in one paddle arm: green, orange and dark brown.",
@@ -903,6 +958,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Una familia juega con tarjetas de colores.",
@@ -934,6 +992,10 @@
     "balancea",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Un pulpo se vuelve del color de la roca.",
    "escena": "An orange clay octopus rests on a sandy clay sea floor in the center of the frame, next to a grey clay rock.",
@@ -963,6 +1025,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1087,6 +1152,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Un camaleón diminuto en la punta de un dedo.",
    "escena": "A tiny brown clay chameleon sits on the tip of a big peach clay fingertip in the center of the frame.",
@@ -1115,6 +1183,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Una isla llena de camaleones de colores.",

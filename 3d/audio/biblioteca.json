@@ -1,0 +1,3116 @@
+{
+ "modelo": "eleven_text_to_sound_v3",
+ "variaciones": 4,
+ "creditos_por_segundo": 3.333,
+ "reglas": [
+  "Nombrar la fuente física real: objeto, material y acción.",
+  "Dar la perspectiva de grabación.",
+  "Lo que no suena en la realidad se resuelve con un objeto o un instrumento acústico real.",
+  "Una sola fuente por indicación; las capas se mezclan después."
+ ],
+ "resumen": {
+  "sonidos": 208,
+  "efectos_de_la_guia_cubiertos": 208,
+  "ya_hechos_en_el_piloto": 11,
+  "por_generar": 197,
+  "costo_por_generar": 5932,
+  "no_cumplen_realismo": [
+   "TRANS_Whoosh_Corto",
+   "FIRMA_Hagamos_Zoom"
+  ]
+ },
+ "sonidos": [
+  {
+   "id": "FOLEY_Plastilina_Cae",
+   "categoria": "FOLEY",
+   "es": "Plastilina que cae",
+   "indicacion": "Soft lump of modeling clay dropped onto a wooden table, dull squishy thud, close-mic, dry studio",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: cae",
+   "piloto": "01",
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Revienta",
+   "categoria": "FOLEY",
+   "es": "Plastilina que revienta",
+   "indicacion": "Thick plasticine bubble bursting, juicy wet pop with a soft squelch tail, close-mic, dry studio",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: revienta",
+   "piloto": "02",
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Rebota",
+   "categoria": "FOLEY",
+   "es": "Bolita que rebota",
+   "indicacion": "Small rubber ball bouncing twice on a wooden table, real springy taps, close-mic, dry studio",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: rebota",
+   "piloto": "03 (versión realista nueva)",
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Rueda",
+   "categoria": "FOLEY",
+   "es": "Plastilina que rueda",
+   "indicacion": "Soft ball of modeling clay rolling slowly across a wooden tabletop, gentle continuous rumble with tiny sticky clicks, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: rueda_desliza",
+   "piloto": "04",
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Estira",
+   "categoria": "FOLEY",
+   "es": "Plastilina que se estira",
+   "indicacion": "Soft modeling clay being slowly stretched, rubbery elastic squeak rising in pitch, close-mic, dry studio",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: crece",
+   "piloto": "05",
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Arcilla_Rasguno",
+   "categoria": "FOLEY",
+   "es": "Rasguño en arcilla",
+   "indicacion": "Fingernail scratching slowly across firm modeling clay, gritty dragging scrape, close-mic, dry studio",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: empuja",
+   "piloto": "06",
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Arcilla_Rompe",
+   "categoria": "FOLEY",
+   "es": "Arcilla seca que se rompe",
+   "indicacion": "Dry hardened clay piece snapping in half, crisp brittle crack followed by small crumbs falling on wood, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: revienta (objetos duros)",
+   "piloto": "07",
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Despega",
+   "categoria": "FOLEY",
+   "es": "Plastilina que se despega (flota)",
+   "indicacion": "Soft modeling clay slowly peeled up from a wooden table, sticky tacky release, close-mic, dry studio",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: flota",
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Gira",
+   "categoria": "FOLEY",
+   "es": "Plastilina que gira",
+   "indicacion": "Lump of modeling clay spinning on a smooth wooden table, soft continuous friction whirr, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: gira",
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Aprieta",
+   "categoria": "FOLEY",
+   "es": "Plastilina que se aprieta (encoge)",
+   "indicacion": "Hand slowly squeezing a ball of soft modeling clay, dense squelchy compression, close-mic, dry studio",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: encoge",
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Tiembla",
+   "categoria": "FOLEY",
+   "es": "Plastilina que tiembla",
+   "indicacion": "Small clay figure rattling and trembling on a wooden table, quick soft knocks, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: tiembla",
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Ondula",
+   "categoria": "FOLEY",
+   "es": "Lámina de plastilina que ondula",
+   "indicacion": "Thin soft sheet of modeling clay flexing and flapping gently, soft sticky flutter, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: ondula",
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Balancea",
+   "categoria": "FOLEY",
+   "es": "Plastilina que se balancea",
+   "indicacion": "Rounded clay object rocking back and forth on a wooden table, soft rolling knocks with faint creaks, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: balancea",
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Plastilina_Late",
+   "categoria": "FOLEY",
+   "es": "Plastilina que late",
+   "indicacion": "Soft rubber ball squeezed and released rhythmically in a hand, muffled pulsing squish, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: late",
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "TRANS_Vara_Swish",
+   "categoria": "TRANSICION",
+   "es": "Soplo corto (aparece), versión realista",
+   "indicacion": "Thin bamboo stick swished quickly through the air, short clean swoosh, close-mic",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: aparece",
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "TRANS_Whoosh_Corto",
+   "categoria": "TRANSICION",
+   "es": "Soplo corto (aparece)",
+   "indicacion": "Short soft airy whoosh, quick and playful, smooth swell and fade",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "movimiento: aparece",
+   "piloto": "11",
+   "costo": 11,
+   "cumple_realismo": false
+  },
+  {
+   "id": "AMB_Laboratorio_TonoSala",
+   "categoria": "AMBIENTE",
+   "es": "Tono de sala del laboratorio",
+   "indicacion": "Quiet cozy science lab room tone, faint soft electrical hum, very calm",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [],
+   "uso": "zona: todas",
+   "piloto": "10",
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Cocina_TonoSala",
+   "categoria": "AMBIENTE",
+   "es": "Cocinita",
+   "indicacion": "Quiet home kitchen room tone, soft refrigerator hum, very calm",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [],
+   "uso": "zona: cocina",
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Terrario",
+   "categoria": "AMBIENTE",
+   "es": "Terrario",
+   "indicacion": "Small indoor terrarium ambience, faint leaves rustling and very soft insect clicks, close and calm",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [],
+   "uso": "zona: terrario",
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Acuario",
+   "categoria": "AMBIENTE",
+   "es": "Tina y acuario",
+   "indicacion": "Home aquarium ambience, gentle air pump bubbling and soft water trickle",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [],
+   "uso": "zona: agua",
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_CamaraZoom",
+   "categoria": "AMBIENTE",
+   "es": "Cámara de zoom",
+   "indicacion": "Soft low hum of precision lab equipment running, steady and calm, heard close",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [],
+   "uso": "zona: zoom",
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Casa_TonoSala",
+   "categoria": "AMBIENTE",
+   "es": "Rincón de casa",
+   "indicacion": "Cozy living room tone, faint distant clock ticking, very quiet",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [],
+   "uso": "zona: casa",
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Cortinilla_Marimba",
+   "categoria": "INSTRUMENTO",
+   "es": "Cortinilla del canal (3 s)",
+   "indicacion": "Three-second cheerful melody played on a real wooden marimba and ukulele, ending on a bright high note",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "kit: cortinilla",
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Bombilla_Enciende",
+   "categoria": "FOLEY",
+   "es": "La idea loca de Pipo",
+   "indicacion": "Old light bulb switching on, sharp switch click followed by a soft filament buzz",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "kit: idea de Pipo (clip 4)",
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FIRMA_Hagamos_Zoom",
+   "categoria": "FIRMA",
+   "es": "¡Hagamos zoom! (versión del piloto)",
+   "indicacion": "Magical shrinking zoom effect, rising sparkly shimmer with a soft whoosh, bright and playful",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "kit: zoom (clip 10)",
+   "piloto": "12",
+   "costo": 27,
+   "cumple_realismo": false
+  },
+  {
+   "id": "FIRMA_Microscopio_Enfoca",
+   "categoria": "FIRMA",
+   "es": "¡Hagamos zoom! (versión realista)",
+   "indicacion": "Vintage brass microscope focus knob turned quickly, fine ratcheting gear clicks, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "kit: zoom (clip 10)",
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Reloj_TicTac",
+   "categoria": "MECANICO",
+   "es": "Tic-tac (pausa para pensar)",
+   "indicacion": "Mechanical wall clock ticking softly, steady rhythm, close",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "40.1"
+   ],
+   "uso": "kit: piénsalo (clip 9)",
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Xilofono_Repaso",
+   "categoria": "INSTRUMENTO",
+   "es": "Repaso",
+   "indicacion": "Three ascending notes on a real wooden xylophone, clear and warm",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "kit: repaso",
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Trompeta_Reto",
+   "categoria": "INSTRUMENTO",
+   "es": "Reto en casa",
+   "indicacion": "Short cheerful fanfare on a real brass trumpet, bright and clean",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [],
+   "uso": "kit: reto",
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Palomita_Revienta",
+   "categoria": "COMIDA",
+   "es": "Reventón de palomita",
+   "indicacion": "Single popcorn kernel popping in a hot metal pan, sharp crisp pop, close-mic",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "1.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VAPOR_Valvula_Presion",
+   "categoria": "AIRE",
+   "es": "Vapor a presión",
+   "indicacion": "Steam escaping from a small pressure valve, hiss slowly rising in pitch, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "1.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Granos_Sartén",
+   "categoria": "COMIDA",
+   "es": "Temblor del grano",
+   "indicacion": "Dry corn kernels rattling and creaking in a hot metal pan, tension building, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "1.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Gelatina",
+   "categoria": "COMIDA",
+   "es": "Gelatina de almidón",
+   "indicacion": "Firm gelatin wobbling in a glass bowl, soft wet squelch, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "1.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Gota_Hoja",
+   "categoria": "AGUA",
+   "es": "Gota que rebota",
+   "indicacion": "Single water drop landing on a waxy leaf and splitting, small bright plip, close-mic",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "2.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Espuma_Frotar",
+   "categoria": "FOLEY",
+   "es": "Frotar con espuma",
+   "indicacion": "Hands scrubbing with thick soap lather, foamy squishing bubbles, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "2.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Canicas_Ruedan",
+   "categoria": "FOLEY",
+   "es": "Piezas que ruedan",
+   "indicacion": "Several small glass marbles rolling across a wooden table, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "2.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Grifo_Enjuague",
+   "categoria": "AGUA",
+   "es": "El agua enjuaga",
+   "indicacion": "Short gentle stream of tap water rinsing over a ceramic plate in a sink",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "2.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Ají_Chisporrotea",
+   "categoria": "COMIDA",
+   "es": "Temblor picante",
+   "indicacion": "Chili pepper slices sizzling briefly in hot oil, sharp crackle, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "3.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Temporizador_Pitidos",
+   "categoria": "MECANICO",
+   "es": "Alarma pequeña",
+   "indicacion": "Small digital kitchen timer beeping quickly three times",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "3.1",
+    "6.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ELEC_Chispa_Cable",
+   "categoria": "ELECTRICO",
+   "es": "Señal por el nervio",
+   "indicacion": "Quick electric spark traveling along a thin metal wire, short crackling zip",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "3.2",
+    "18.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Suspiro_Alivio",
+   "categoria": "VOZ",
+   "es": "Alivio",
+   "indicacion": "Long relieved human exhale through the mouth, close-mic, quiet room",
+   "duracion": 1.8,
+   "bucle": false,
+   "efectos_guia": [
+    "3.3",
+    "8.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 24,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Hipo",
+   "categoria": "VOZ",
+   "es": "¡Hip!",
+   "indicacion": "Single real hiccup from a young child, short and soft, close-mic",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "4.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Liga_Chasquido",
+   "categoria": "FOLEY",
+   "es": "Tirón del diafragma",
+   "indicacion": "Thick rubber band snapping against a wooden surface, quick, close-mic",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "4.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Puertita_Cierra",
+   "categoria": "FOLEY",
+   "es": "Portazo de las cuerdas vocales",
+   "indicacion": "Small wooden cabinet door slamming shut, short knock with faint rattle",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "4.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Respiracion_Tranquila",
+   "categoria": "VOZ",
+   "es": "Respiración tranquila",
+   "indicacion": "Slow calm breathing in and out through the nose, close-mic, quiet room",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "4.3",
+    "34.0",
+    "52.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Objeto_Cae",
+   "categoria": "AGUA",
+   "es": "Algo cae al agua",
+   "indicacion": "Small stone dropped into a deep bucket of water, deep plop with rising bubbles",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "5.0",
+    "27.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Hielo_Vaso",
+   "categoria": "AGUA",
+   "es": "El hielo flota",
+   "indicacion": "Ice cube dropped into a glass of water, bobbing with a gentle splash and clinks",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "5.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "HIELO_Cruje_Congela",
+   "categoria": "HIELO",
+   "es": "El agua se congela",
+   "indicacion": "Ice crackling and creaking slowly as it freezes on a pond, delicate, close-mic",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "5.2",
+    "33.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Botella_Cruje",
+   "categoria": "FOLEY",
+   "es": "La botella se agrieta",
+   "indicacion": "Plastic bottle creaking and cracking under pressure, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "5.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Cebolla_Corte",
+   "categoria": "COMIDA",
+   "es": "Corte de cebolla",
+   "indicacion": "Sharp knife slicing through a raw onion on a wooden cutting board, crisp crunch",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "6.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Gas_Escapa",
+   "categoria": "AIRE",
+   "es": "Gas que sube",
+   "indicacion": "Soft gas escaping from a small valve, gentle airy hiss",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "6.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Gota_Charco",
+   "categoria": "AGUA",
+   "es": "Lágrima que cae",
+   "indicacion": "Single water droplet falling into a shallow puddle, clean small plink, close-mic",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "6.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Canica_Azulejo",
+   "categoria": "FOLEY",
+   "es": "La luz rebota",
+   "indicacion": "Small glass marble bouncing on a ceramic tile, light bright clicks",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "7.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Copa_Frotada",
+   "categoria": "INSTRUMENTO",
+   "es": "La luz viaja",
+   "indicacion": "Wet finger circling the rim of a crystal wine glass, smooth airy ringing tone",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "7.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Pasos_Pesados",
+   "categoria": "FOLEY",
+   "es": "Pasos gigantes",
+   "indicacion": "Slow heavy footsteps on a wooden floor, deep thuds with floor creaks",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "7.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Cuenco_Tibetano",
+   "categoria": "INSTRUMENTO",
+   "es": "Atardecer",
+   "indicacion": "Soft warm swell of a struck singing bowl, gentle and calm",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "7.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Pedo_Suave",
+   "categoria": "VOZ",
+   "es": "¡Prrrt!",
+   "indicacion": "Short soft fart sound, muffled and light, close-mic",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "8.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Burbujas_Almibar",
+   "categoria": "FOLEY",
+   "es": "Burbujas de gas",
+   "indicacion": "Air bubbles rising slowly through thick syrup in a glass jar, soft gloops, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "8.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Globo_Infla",
+   "categoria": "FOLEY",
+   "es": "La panza se infla",
+   "indicacion": "Rubber balloon slowly inflating and stretching, squeaky rubber, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "8.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "METAL_Imanes_Clac",
+   "categoria": "METAL",
+   "es": "¡Clac!",
+   "indicacion": "Two strong magnets snapping together, sharp metallic click",
+   "duracion": 0.5,
+   "bucle": false,
+   "efectos_guia": [
+    "9.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 7,
+   "cumple_realismo": true
+  },
+  {
+   "id": "METAL_Imanes_Empujan",
+   "categoria": "METAL",
+   "es": "Empuje invisible",
+   "indicacion": "Two magnets pushing against each other on a wooden table, soft sliding scrape and wobble",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "9.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Domino_Caen",
+   "categoria": "FOLEY",
+   "es": "Flechitas que se ordenan",
+   "indicacion": "Row of small wooden dominoes falling in quick succession on a table",
+   "duracion": 1.8,
+   "bucle": false,
+   "efectos_guia": [
+    "9.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 24,
+   "cumple_realismo": true
+  },
+  {
+   "id": "METAL_Brujula",
+   "categoria": "METAL",
+   "es": "Brújula",
+   "indicacion": "Compass needle spinning and settling inside a small metal case, faint metallic ticks",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "9.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Tela_Giro",
+   "categoria": "AIRE",
+   "es": "Giro en el aire",
+   "indicacion": "Quick swish of a small cloth twisting through the air, close",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "10.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Gato_Aterriza",
+   "categoria": "ANIMAL",
+   "es": "Aterrizaje suave",
+   "indicacion": "Cat landing softly on a carpet, padded thump",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "10.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Gato_Ronronea",
+   "categoria": "ANIMAL",
+   "es": "Ronroneo",
+   "indicacion": "Real house cat purring contentedly, close-mic",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "10.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "METAL_Resorte",
+   "categoria": "METAL",
+   "es": "Patas de resorte",
+   "indicacion": "Small metal spring compressed and released, real springy twang",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "10.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Refresco_Abre",
+   "categoria": "COMIDA",
+   "es": "¡Psss!",
+   "indicacion": "Plastic soda bottle cap twisted open, sharp fizzy hiss of carbonation",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "11.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Refresco_Burbujea",
+   "categoria": "COMIDA",
+   "es": "Burbujeo",
+   "indicacion": "Carbonated soda fizzing in a glass, close-mic",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "11.1",
+    "37.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Refresco_Espuma",
+   "categoria": "COMIDA",
+   "es": "Fuente de espuma",
+   "indicacion": "Shaken soda bottle opened and foaming over, rushing fizzy spray and splatter",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "11.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Burbuja_Revienta",
+   "categoria": "COMIDA",
+   "es": "Burbuja que revienta",
+   "indicacion": "Single tiny soda bubble popping at the surface, close-mic",
+   "duracion": 0.4,
+   "bucle": false,
+   "efectos_guia": [
+    "11.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 5,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Clavija_Floja",
+   "categoria": "FOLEY",
+   "es": "Diente flojo",
+   "indicacion": "Small loose wooden peg wiggling in its hole, tiny creaks, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "12.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Objeto_Cae_Piso",
+   "categoria": "FOLEY",
+   "es": "Se cae el diente",
+   "indicacion": "Tiny hard object dropping on a tiled floor, light bouncing ticks",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "12.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Cepillo_Dientes",
+   "categoria": "FOLEY",
+   "es": "Cepillado",
+   "indicacion": "Toothbrush scrubbing teeth with foamy toothpaste, close-mic",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "12.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Campanita",
+   "categoria": "INSTRUMENTO",
+   "es": "Campanita (destellos y momentos especiales)",
+   "indicacion": "Single small brass bell tapped gently, clear ringing tone that fades",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "12.3",
+    "29.3",
+    "32.1",
+    "40.3",
+    "43.3",
+    "48.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "TIERRA_Temblor",
+   "categoria": "TIERRA",
+   "es": "Temblor de tierra",
+   "indicacion": "Deep low earthquake rumble with rocks shifting, slowly growing",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "13.0",
+    "35.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "TIERRA_Erupcion",
+   "categoria": "TIERRA",
+   "es": "Erupción",
+   "indicacion": "Powerful volcanic explosion with a roaring rush of debris",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "13.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "TIERRA_Lodo_Burbujea",
+   "categoria": "TIERRA",
+   "es": "Lava y magma",
+   "indicacion": "Thick mud bubbling slowly and heavily in a pot, deep gloops popping",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "13.2",
+    "13.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Estornudo",
+   "categoria": "VOZ",
+   "es": "¡Achís!",
+   "indicacion": "Real human sneeze, single loud achoo, close-mic",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "14.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Slime_Estira",
+   "categoria": "FOLEY",
+   "es": "Moco pegajoso",
+   "indicacion": "Wet sticky slime being pulled apart and stretching, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "14.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Cepillo_Tela",
+   "categoria": "FOLEY",
+   "es": "Pelitos en ola",
+   "indicacion": "Soft bristle brush sweeping rhythmically across fabric",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "14.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Arcilla_Splat",
+   "categoria": "FOLEY",
+   "es": "Polvo atrapado",
+   "indicacion": "Small lump of wet clay landing on a damp surface, soft splat",
+   "duracion": 0.5,
+   "bucle": false,
+   "efectos_guia": [
+    "14.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 7,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Lluvia_Suave",
+   "categoria": "AMBIENTE",
+   "es": "Lluvia suave",
+   "indicacion": "Gentle steady rain pattering on a small wooden model set, soft and intimate, close perspective",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "15.0",
+    "45.1"
+   ],
+   "uso": null,
+   "piloto": "08",
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Glockenspiel_Sube",
+   "categoria": "INSTRUMENTO",
+   "es": "La luz se abre",
+   "indicacion": "Rising glissando played on a real glockenspiel with soft mallets",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "15.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Copa_Ping",
+   "categoria": "INSTRUMENTO",
+   "es": "Rebote en la gota",
+   "indicacion": "Light tap of a spoon on a thin wine glass, clear glassy ping",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "15.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Copas_Armonia",
+   "categoria": "INSTRUMENTO",
+   "es": "Aparece el arcoíris",
+   "indicacion": "Slow swell of several crystal glasses ringing together in harmony",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "15.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Mosquito",
+   "categoria": "ANIMAL",
+   "es": "Zumbido de mosquito",
+   "indicacion": "Single mosquito buzzing close to the ear, passing by",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "16.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Pinchazo",
+   "categoria": "FOLEY",
+   "es": "Picadura",
+   "indicacion": "Tiny sharp prick of a pin into soft cork, short click",
+   "duracion": 0.4,
+   "bucle": false,
+   "efectos_guia": [
+    "16.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 5,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Rascar_Piel",
+   "categoria": "FOLEY",
+   "es": "Comezón",
+   "indicacion": "Fingernails scratching quickly on skin, dry scratch, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "16.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Cubo_Vacia",
+   "categoria": "AGUA",
+   "es": "Agua que se vacía",
+   "indicacion": "Small plastic bucket of water poured out onto a stone floor",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "16.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Globo_Frotar",
+   "categoria": "FOLEY",
+   "es": "Frotar el globo",
+   "indicacion": "Hand rubbing a rubber balloon, squeaky rubbing, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "17.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ELEC_Estatica_Lana",
+   "categoria": "ELECTRICO",
+   "es": "El pelo se levanta",
+   "indicacion": "Faint static electricity crackling on a wool sweater, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "17.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ELEC_Chispazo",
+   "categoria": "ELECTRICO",
+   "es": "Chispazo",
+   "indicacion": "Small static electric spark discharge, sharp snap",
+   "duracion": 0.4,
+   "bucle": false,
+   "efectos_guia": [
+    "17.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 5,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CLIMA_Trueno_Lejano",
+   "categoria": "CLIMA",
+   "es": "Trueno lejano",
+   "indicacion": "Distant thunder rumbling softly across the sky",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "17.3",
+    "21.1",
+    "45.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Pluma_Roza",
+   "categoria": "FOLEY",
+   "es": "Pluma que roza",
+   "indicacion": "Feather brushing lightly across skin, soft delicate swish, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "18.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Risa_Nino",
+   "categoria": "VOZ",
+   "es": "Risa de cosquillas",
+   "indicacion": "Young child giggling brightly, short, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "18.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Xilofono_Baja",
+   "categoria": "INSTRUMENTO",
+   "es": "El volumen baja",
+   "indicacion": "Gentle descending notes on a real wooden xylophone",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "18.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Nave_Cabina",
+   "categoria": "AMBIENTE",
+   "es": "Flotar en órbita",
+   "indicacion": "Low steady hum of air ventilation inside a small spacecraft cabin",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "19.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Pelota_Lanzada",
+   "categoria": "AIRE",
+   "es": "Lanzamiento de pelota",
+   "indicacion": "Soft rubber ball tossed through the air, quick swish",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "19.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Propulsor",
+   "categoria": "MECANICO",
+   "es": "Motores de la estación",
+   "indicacion": "Short burst of a small rocket thruster, hissing roar",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "19.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Montana_Rusa",
+   "categoria": "MECANICO",
+   "es": "Caída de montaña rusa",
+   "indicacion": "Roller coaster car rushing down a track with clattering wheels, distant riders cheering",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "19.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Masa_Estira",
+   "categoria": "COMIDA",
+   "es": "La masa crece",
+   "indicacion": "Soft bread dough slowly stretched and folded by hand, sticky, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "20.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Masa_Burbujas",
+   "categoria": "COMIDA",
+   "es": "Burbujas en la masa",
+   "indicacion": "Tiny bubbles popping in thick pancake batter, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "20.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Horno",
+   "categoria": "MECANICO",
+   "es": "Horno",
+   "indicacion": "Kitchen oven humming with a faint fan and soft ticking of heating metal",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "20.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Pan_Cruje",
+   "categoria": "COMIDA",
+   "es": "Pan crujiente",
+   "indicacion": "Crusty bread loaf broken by hand, crackling crust, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "20.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CLIMA_Trueno_Cercano",
+   "categoria": "CLIMA",
+   "es": "Trueno cercano",
+   "indicacion": "Close thunder crack followed by a long rolling rumble",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "21.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CLIMA_Rayo",
+   "categoria": "CLIMA",
+   "es": "Rayo",
+   "indicacion": "Very short sharp electric crackle of a lightning strike",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "21.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Lluvia_Ventana",
+   "categoria": "AMBIENTE",
+   "es": "Lluvia en la ventana",
+   "indicacion": "Steady rain hitting a glass window, heard from inside a quiet room",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "21.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Perro_Olfatea",
+   "categoria": "ANIMAL",
+   "es": "Olfateo",
+   "indicacion": "Dog sniffing quickly, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "22.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Perro_Cola",
+   "categoria": "ANIMAL",
+   "es": "Cola feliz",
+   "indicacion": "Dog tail thumping rapidly on a wooden floor",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "22.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Perro_Ladra",
+   "categoria": "ANIMAL",
+   "es": "Rastro encontrado",
+   "indicacion": "Single short friendly bark of a small dog",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "22.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Soplo_Suave",
+   "categoria": "AIRE",
+   "es": "Soplo suave (olor, aire fresco, algo que flota)",
+   "indicacion": "Very soft gentle breath of air, light airy whoosh",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "22.3",
+    "23.1",
+    "30.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Soplar_Burbuja",
+   "categoria": "AIRE",
+   "es": "Soplar una burbuja",
+   "indicacion": "Gentle blowing through a plastic bubble wand, soft airy breath",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "23.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Pompa_Revienta",
+   "categoria": "AGUA",
+   "es": "¡Plop!",
+   "indicacion": "Tiny soap bubble popping, close-mic",
+   "duracion": 0.3,
+   "bucle": false,
+   "efectos_guia": [
+    "23.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 4,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Liga_Estira",
+   "categoria": "FOLEY",
+   "es": "Liga que se estira",
+   "indicacion": "Rubber band slowly stretched until tight, creaking rubber, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "23.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Tropezon",
+   "categoria": "FOLEY",
+   "es": "Tropezón",
+   "indicacion": "Person tripping on a rug and landing on a soft cushion, shuffle and soft thud",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "24.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Piedritas_Corren",
+   "categoria": "FOLEY",
+   "es": "Plaquetas corriendo",
+   "indicacion": "Many tiny pebbles skittering across a wooden board",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "24.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Hilos_Tensan",
+   "categoria": "FOLEY",
+   "es": "La red se teje",
+   "indicacion": "Thin threads pulled tight and plucked, stretchy creak, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "24.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Hojuela_Cae",
+   "categoria": "FOLEY",
+   "es": "La costra se cae",
+   "indicacion": "Tiny dry leaf flake dropping onto paper",
+   "duracion": 0.5,
+   "bucle": false,
+   "efectos_guia": [
+    "24.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 7,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Chicle_Bomba",
+   "categoria": "COMIDA",
+   "es": "Bomba de chicle",
+   "indicacion": "Bubble gum bubble slowly blown up and popping, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "25.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Tragar",
+   "categoria": "VOZ",
+   "es": "Tragar",
+   "indicacion": "Person swallowing a gulp of water, close-mic",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "25.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Globo_Agua_Aprieta",
+   "categoria": "FOLEY",
+   "es": "El intestino empuja",
+   "indicacion": "Slow squelchy squeeze of a water-filled balloon in two hands",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "25.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Chicle_Estira",
+   "categoria": "COMIDA",
+   "es": "Chicle que se estira",
+   "indicacion": "Sticky chewing gum stretched between fingers, tacky stretch, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "25.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CIELO_Meteoro",
+   "categoria": "CIELO",
+   "es": "El asteroide cae",
+   "indicacion": "Deep roaring rush of a large burning meteor falling through the sky",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "26.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CIELO_Impacto_Lejano",
+   "categoria": "CIELO",
+   "es": "Impacto lejano",
+   "indicacion": "Huge distant explosion boom with a long rolling rumble",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "26.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CLIMA_Viento_Polvo",
+   "categoria": "CLIMA",
+   "es": "Viento con polvo",
+   "indicacion": "Low howling wind blowing dust and sand",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "26.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Pajaro_Canto",
+   "categoria": "ANIMAL",
+   "es": "Canto de pájaro",
+   "indicacion": "Small songbird chirping cheerfully outdoors",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "26.3",
+    "35.3",
+    "47.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Casco_Barco",
+   "categoria": "AGUA",
+   "es": "El barco se mece",
+   "indicacion": "Gentle water lapping against a small wooden boat hull",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "27.1",
+    "49.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Burbujeo_Profundo",
+   "categoria": "AGUA",
+   "es": "El agua empuja",
+   "indicacion": "Deep soft underwater bubbling surge",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "27.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Bocina_Barco",
+   "categoria": "MECANICO",
+   "es": "Sirena de barco",
+   "indicacion": "Short distant ship horn blast",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "27.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Oruga_Come",
+   "categoria": "ANIMAL",
+   "es": "Oruga comiendo",
+   "indicacion": "Tiny crunchy munching on a fresh green leaf, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "28.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Avena_Remover",
+   "categoria": "COMIDA",
+   "es": "Sopa de oruga",
+   "indicacion": "Slow thick gloopy stirring of porridge with a wooden spoon",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "28.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Papel_Rasga",
+   "categoria": "FOLEY",
+   "es": "La crisálida se abre",
+   "indicacion": "Thin dry paper tearing slowly with soft crackles, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "28.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Mariposa_Aletea",
+   "categoria": "ANIMAL",
+   "es": "Aleteo de mariposa",
+   "indicacion": "Light delicate fluttering of thin paper wings, close",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "28.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Noche_Grillos",
+   "categoria": "AMBIENTE",
+   "es": "Noche tranquila",
+   "indicacion": "Calm night ambience with soft crickets far away",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "29.0",
+    "32.0",
+    "42.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Barrido_Lento",
+   "categoria": "AIRE",
+   "es": "La Luna gira",
+   "indicacion": "Slow deep smooth whoosh of air passing",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "29.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Chelo_Grave",
+   "categoria": "INSTRUMENTO",
+   "es": "Eclipse",
+   "indicacion": "Low sustained note on a bowed cello string, soft and mysterious",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "29.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Asco_Nariz",
+   "categoria": "VOZ",
+   "es": "¡Fuchi!",
+   "indicacion": "Short disgusted nasal exhale, close-mic",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "30.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Zapato_Sale",
+   "categoria": "FOLEY",
+   "es": "El zapato se abre",
+   "indicacion": "Sneaker pulled off a foot with a soft suction pop",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "30.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Migas_Mordisquean",
+   "categoria": "FOLEY",
+   "es": "Bacterias comiendo",
+   "indicacion": "Tiny rapid nibbling crunch on dry crumbs, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "30.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Avion_Despega",
+   "categoria": "MECANICO",
+   "es": "Motores al despegar",
+   "indicacion": "Jet airplane engines roaring during takeoff, heard from the runway",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "31.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Brisa_Suave",
+   "categoria": "AMBIENTE",
+   "es": "Brisa suave",
+   "indicacion": "Soft airy breeze with a faint gentle whistle, calm and steady",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "31.1",
+    "45.0",
+    "47.2"
+   ],
+   "uso": null,
+   "piloto": "09",
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Avion_Papel",
+   "categoria": "AIRE",
+   "es": "Avión de papel",
+   "indicacion": "Paper airplane gliding past, light paper swish",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "31.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Campanilla_Cabina",
+   "categoria": "MECANICO",
+   "es": "Campanilla de cabina",
+   "indicacion": "Airplane cabin chime, soft two-tone ding",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "31.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Linterna_Clic",
+   "categoria": "MECANICO",
+   "es": "Clic de linterna",
+   "indicacion": "Small flashlight push button click",
+   "duracion": 0.3,
+   "bucle": false,
+   "efectos_guia": [
+    "32.2",
+    "43.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 4,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Escarabajo_Alas",
+   "categoria": "ANIMAL",
+   "es": "Alas de escarabajo",
+   "indicacion": "Small beetle buzzing its wings, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "32.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Cono_Mordisco",
+   "categoria": "COMIDA",
+   "es": "Mordisco al helado",
+   "indicacion": "Crunchy bite into a crisp waffle ice cream cone",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "33.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Palmada_Frente",
+   "categoria": "FOLEY",
+   "es": "Golpe en la frente",
+   "indicacion": "Hand lightly patting a forehead, soft skin pat",
+   "duracion": 0.4,
+   "bucle": false,
+   "efectos_guia": [
+    "33.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 5,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Sorbo_Pajita",
+   "categoria": "COMIDA",
+   "es": "Sorbo con pajita",
+   "indicacion": "Fast slurp through a plastic straw, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "33.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Celesta_Suave",
+   "categoria": "INSTRUMENTO",
+   "es": "Música de ensueño",
+   "indicacion": "Soft slow notes on a real celesta, gentle and dreamy",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "34.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Despertador",
+   "categoria": "MECANICO",
+   "es": "Despertador",
+   "indicacion": "Old mechanical alarm clock bell ringing briefly",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "34.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Paginas",
+   "categoria": "FOLEY",
+   "es": "Pasar páginas",
+   "indicacion": "Notebook paper pages flipping",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "34.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Vasos_Tiemblan",
+   "categoria": "FOLEY",
+   "es": "Tintineo",
+   "indicacion": "Glasses rattling on a wooden shelf during a tremor",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "35.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "TIERRA_Roca_Crac",
+   "categoria": "TIERRA",
+   "es": "Crac de roca",
+   "indicacion": "Large rock cracking apart, sharp stony crack",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "35.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Pasitos",
+   "categoria": "ANIMAL",
+   "es": "Pasitos",
+   "indicacion": "Tiny quick footsteps of a small animal scurrying on wood",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "36.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Hoja_Seca",
+   "categoria": "FOLEY",
+   "es": "Hoja",
+   "indicacion": "Single dry leaf rustling as it is dragged across the ground",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "36.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Esfuerzo",
+   "categoria": "VOZ",
+   "es": "Esfuerzo",
+   "indicacion": "Person straining to lift something heavy, short effort grunt, close-mic",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "36.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Hormiguero",
+   "categoria": "AMBIENTE",
+   "es": "Hormiguero",
+   "indicacion": "Busy scuttling of many insects in dry soil, close",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "36.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Manzana_Mordisco",
+   "categoria": "COMIDA",
+   "es": "Mordisco a la manzana",
+   "indicacion": "Crisp bite into a fresh apple, juicy crunch, close-mic",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "37.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Manzana_Corte",
+   "categoria": "COMIDA",
+   "es": "Cuchillo",
+   "indicacion": "Knife slicing through a crisp apple on a wooden board",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "37.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Limon_Gotas",
+   "categoria": "COMIDA",
+   "es": "Gotas de limón",
+   "indicacion": "A few drops of lemon juice falling onto a ceramic plate",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "37.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Tina_Chapotea",
+   "categoria": "AGUA",
+   "es": "Baño",
+   "indicacion": "Bath water sloshing gently with small hand splashes",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "38.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Patito_Goma",
+   "categoria": "FOLEY",
+   "es": "Patito",
+   "indicacion": "Squeaky rubber duck squeezed twice",
+   "duracion": 0.8,
+   "bucle": false,
+   "efectos_guia": [
+    "38.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 11,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Canica_Tazon",
+   "categoria": "FOLEY",
+   "es": "Canica",
+   "indicacion": "Glass marble dropped into a ceramic bowl, clinking",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "38.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Grifo_Gotea",
+   "categoria": "AGUA",
+   "es": "Goteo",
+   "indicacion": "Water dripping slowly from a tap into a sink",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "38.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Ventilacion_Grave",
+   "categoria": "AMBIENTE",
+   "es": "Zumbido espacial",
+   "indicacion": "Deep low steady drone of a large ventilation system",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "39.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Remolino_Desague",
+   "categoria": "AGUA",
+   "es": "Remolino",
+   "indicacion": "Water swirling down a bathtub drain, gurgling vortex",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "39.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Pelota_Mano",
+   "categoria": "FOLEY",
+   "es": "Pelota",
+   "indicacion": "Small rubber ball landing back in a hand, soft slap",
+   "duracion": 0.4,
+   "bucle": false,
+   "efectos_guia": [
+    "39.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 5,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Canica_Gira_Tazon",
+   "categoria": "FOLEY",
+   "es": "Canica girando",
+   "indicacion": "Marble rolling around inside a ceramic bowl in circles",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "39.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Bostezo",
+   "categoria": "VOZ",
+   "es": "Bostezo",
+   "indicacion": "Long relaxed human yawn, close-mic",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "40.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Periquitos",
+   "categoria": "ANIMAL",
+   "es": "Periquitos",
+   "indicacion": "Two parakeets chirping",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "40.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Olas_Playa",
+   "categoria": "AMBIENTE",
+   "es": "Olas",
+   "indicacion": "Gentle ocean waves on a sandy beach",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "41.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Gaviotas",
+   "categoria": "ANIMAL",
+   "es": "Gaviotas",
+   "indicacion": "Seagulls calling over a beach",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "41.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CLIMA_Lluvia_Rocas",
+   "categoria": "CLIMA",
+   "es": "Lluvia sobre roca",
+   "indicacion": "Rain falling on stones and rocks",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "41.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Cristales_Tintinean",
+   "categoria": "FOLEY",
+   "es": "Cristales",
+   "indicacion": "Small glass crystals clinking gently together",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "41.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Murcielago_Alas",
+   "categoria": "ANIMAL",
+   "es": "Aleteo de murciélago",
+   "indicacion": "Soft leathery wings flapping, bat flying past",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "42.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Murcielago_Chillidos",
+   "categoria": "ANIMAL",
+   "es": "Chirridos",
+   "indicacion": "High-pitched bat squeaks",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "42.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Palmada_Eco",
+   "categoria": "FOLEY",
+   "es": "Eco",
+   "indicacion": "Single hand clap echoing in a large empty hall",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "42.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Pincel_Papel",
+   "categoria": "FOLEY",
+   "es": "Pincel",
+   "indicacion": "Paintbrush swishing on paper",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "43.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Peonza",
+   "categoria": "FOLEY",
+   "es": "Peonza",
+   "indicacion": "Spinning top whirring on a wooden floor",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "43.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Hilo_Pulsado",
+   "categoria": "FOLEY",
+   "es": "Hilo que vibra",
+   "indicacion": "Thin tight thread plucked, soft twang",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "44.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Mosca",
+   "categoria": "ANIMAL",
+   "es": "Mosca",
+   "indicacion": "Housefly buzzing around",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "44.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Gotitas_Hoja",
+   "categoria": "AGUA",
+   "es": "Gotitas",
+   "indicacion": "Tiny water droplets falling onto a leaf, plinking",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "44.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Toque_Papel",
+   "categoria": "FOLEY",
+   "es": "Salto",
+   "indicacion": "Tiny light tap of something small landing on paper",
+   "duracion": 0.3,
+   "bucle": false,
+   "efectos_guia": [
+    "44.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 4,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AIRE_Vapor_Tetera",
+   "categoria": "AIRE",
+   "es": "Vapor",
+   "indicacion": "Soft hiss of steam from a kettle spout",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "45.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "CLIMA_Viento_Frio",
+   "categoria": "CLIMA",
+   "es": "Viento frío",
+   "indicacion": "Cold wind gust whistling past a window",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "46.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Escalofrio",
+   "categoria": "VOZ",
+   "es": "Escalofrío",
+   "indicacion": "Person shivering with chattering teeth, short, close-mic",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "46.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Gato_Bufa",
+   "categoria": "ANIMAL",
+   "es": "Gato bufando",
+   "indicacion": "Small cat hissing",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "46.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Cajita_Musica",
+   "categoria": "INSTRUMENTO",
+   "es": "Cajita de música",
+   "indicacion": "Small wind-up music box playing a gentle melody",
+   "duracion": 4.0,
+   "bucle": false,
+   "efectos_guia": [
+    "46.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 53,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ELEC_Cables_Zumban",
+   "categoria": "ELECTRICO",
+   "es": "Zumbido eléctrico",
+   "indicacion": "Low electrical hum of overhead power lines",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "47.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Pajaro_Despega",
+   "categoria": "ANIMAL",
+   "es": "Aleteo de pájaro",
+   "indicacion": "Small bird wings flapping as it takes off",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "47.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Lagarto_Escamas",
+   "categoria": "ANIMAL",
+   "es": "Escamas",
+   "indicacion": "Soft scaly rustle of a lizard moving on bark",
+   "duracion": 1.2,
+   "bucle": false,
+   "efectos_guia": [
+    "48.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 16,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Liga_Mojada",
+   "categoria": "FOLEY",
+   "es": "Lengua",
+   "indicacion": "Wet rubber band flicked quickly, sticky snap",
+   "duracion": 0.5,
+   "bucle": false,
+   "efectos_guia": [
+    "48.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 7,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Selva",
+   "categoria": "AMBIENTE",
+   "es": "Selva",
+   "indicacion": "Gentle rainforest ambience with distant birds and insects",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "48.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Auto_Interior",
+   "categoria": "MECANICO",
+   "es": "Motor",
+   "indicacion": "Car engine humming steadily on a road, heard from inside the car",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "49.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "MECAN_Silla_Gira",
+   "categoria": "MECANICO",
+   "es": "Giro",
+   "indicacion": "Office chair spinning quickly with a squeaky swivel",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "49.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "METAL_Lamina_Ondula",
+   "categoria": "METAL",
+   "es": "Mareo",
+   "indicacion": "Large thin metal sheet wobbled slowly, warbling rumble",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "49.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Abejas",
+   "categoria": "ANIMAL",
+   "es": "Zumbido de abejas",
+   "indicacion": "Gentle buzzing of a few bees around flowers",
+   "duracion": 3.0,
+   "bucle": false,
+   "efectos_guia": [
+    "50.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 40,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Colmena",
+   "categoria": "AMBIENTE",
+   "es": "Colmena",
+   "indicacion": "Busy beehive hum, close",
+   "duracion": 5.0,
+   "bucle": false,
+   "efectos_guia": [
+    "50.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 67,
+   "cumple_realismo": true
+  },
+  {
+   "id": "COMIDA_Miel_Gotea",
+   "categoria": "COMIDA",
+   "es": "Miel",
+   "indicacion": "Thick honey dripping slowly from a spoon into a jar",
+   "duracion": 2.0,
+   "bucle": false,
+   "efectos_guia": [
+    "50.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 27,
+   "cumple_realismo": true
+  },
+  {
+   "id": "ANIMAL_Insecto_Revolotea",
+   "categoria": "ANIMAL",
+   "es": "Aleteo rápido",
+   "indicacion": "Fast tiny wings fanning, insect hovering close",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "50.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Tallo_Cruje",
+   "categoria": "FOLEY",
+   "es": "Brote",
+   "indicacion": "Soft creaking of a green plant stem bending and unfolding, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "51.0"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AGUA_Riego_Tierra",
+   "categoria": "AGUA",
+   "es": "Agua",
+   "indicacion": "Small amount of water poured from a cup onto soil",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "51.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Semilla_Abre",
+   "categoria": "FOLEY",
+   "es": "Crujido",
+   "indicacion": "Tiny dry seed cracking open, close-mic",
+   "duracion": 0.6,
+   "bucle": false,
+   "efectos_guia": [
+    "51.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 8,
+   "cumple_realismo": true
+  },
+  {
+   "id": "AMB_Viento_Hierba",
+   "categoria": "AMBIENTE",
+   "es": "Viento en la hierba",
+   "indicacion": "Light breeze rustling through tall grass",
+   "duracion": 10,
+   "bucle": true,
+   "efectos_guia": [
+    "51.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 133,
+   "cumple_realismo": true
+  },
+  {
+   "id": "FOLEY_Lapiz_Pared",
+   "categoria": "FOLEY",
+   "es": "Lápiz",
+   "indicacion": "Pencil marking a line on a wall",
+   "duracion": 1.0,
+   "bucle": false,
+   "efectos_guia": [
+    "52.1"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 13,
+   "cumple_realismo": true
+  },
+  {
+   "id": "VOZ_Estirarse",
+   "categoria": "VOZ",
+   "es": "Estirón",
+   "indicacion": "Person stretching arms with a long relaxed sigh, close-mic",
+   "duracion": 1.5,
+   "bucle": false,
+   "efectos_guia": [
+    "52.2"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 20,
+   "cumple_realismo": true
+  },
+  {
+   "id": "INSTR_Marimba_Cierre",
+   "categoria": "INSTRUMENTO",
+   "es": "Cierre de temporada",
+   "indicacion": "Warm celebratory chord on a real marimba, gentle",
+   "duracion": 2.5,
+   "bucle": false,
+   "efectos_guia": [
+    "52.3"
+   ],
+   "uso": null,
+   "piloto": null,
+   "costo": 33,
+   "cumple_realismo": true
+  }
+ ]
+}

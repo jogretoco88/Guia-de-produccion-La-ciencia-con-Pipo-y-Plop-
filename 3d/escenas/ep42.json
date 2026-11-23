@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Aleteo",
-   "en": "Soft leathery wings flapping"
+   "sonido": "ANIMAL_Murcielago_Alas"
   },
   {
    "es": "Chirridos",
-   "en": "High-pitched bat squeaks"
+   "sonido": "ANIMAL_Murcielago_Chillidos"
   },
   {
    "es": "Eco",
-   "en": "Single clap echoing in a big empty room"
+   "sonido": "FOLEY_Palmada_Eco"
   },
   {
    "es": "Noche",
-   "en": "Quiet night ambience with crickets"
+   "sonido": "AMB_Noche_Grillos"
   }
  ],
  "tomas": [
@@ -63,6 +63,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "Un murciélago vuela de noche.",
@@ -95,6 +98,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "El murciélago persigue una polilla.",
@@ -209,6 +215,7 @@
     "murcielago"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "Una mamá murciélago abraza a su cría.",
    "escena": "The bat hangs upside down from a brown clay branch in the center of the frame, with a tiny baby bat holding onto its chest.",
@@ -237,6 +244,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una fila de bloques de colores y un ratón.",
@@ -305,6 +315,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira las orejas del murciélago.",
    "escena": "Plop stands beside the bat, which hangs upside down from a brown clay branch at his height.",
@@ -335,6 +348,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a las orejas.",
@@ -368,6 +384,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "Zoom: el murciélago lanza ondas de sonido.",
    "escena": "The bat flies in the center of the frame against a dark-blue clay night sky backdrop.",
@@ -400,6 +419,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "titere",
    "enPantalla": "Las ondas chocan con la polilla y rebotan.",
    "escena": "The moth flutters on the right side of the frame, with the sound arcs traveling toward it from the left, against a dark-blue clay night sky backdrop.",
@@ -430,6 +452,7 @@
     "ondas_de_sonido"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El eco vuelve a las orejas del murciélago.",
    "escena": "The bat flies on the left side of the frame, with the sound arcs coming back toward its big ears, against a dark-blue clay night sky backdrop.",
@@ -458,6 +481,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una figurita escucha la noche con la mano en la oreja.",
@@ -518,6 +544,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop da una palmada en una sala vacía y escucha.",
    "escena": "Plop stands alone in a big empty pale-grey clay room.",
@@ -547,6 +576,7 @@
     "murcielago"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El murciélago esquiva hilos colgados.",
    "escena": "Several thin white clay threads hang down from the top of the frame against a dark-blue clay night sky backdrop, with the bat flying toward them.",
@@ -647,6 +677,9 @@
    "movimientos": [
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "titere",
    "enPantalla": "El ala abierta: dedos largos bajo la piel.",
    "escena": "The bat hangs with one wing stretched wide open in the center of the frame, showing long thin finger bones under the skin.",
@@ -712,6 +745,10 @@
    "movimientos": [
     "rueda_desliza",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "titere",
    "enPantalla": "Una ardilla planea y el murciélago aletea.",
@@ -779,6 +816,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "El murciélago duerme colgado.",
    "escena": "The bat hangs upside down from a brown clay branch in the center of the frame, its wings folded.",
@@ -811,6 +851,10 @@
     "cae",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "titere",
    "enPantalla": "El murciélago se suelta y echa a volar.",
    "escena": "The bat hangs upside down from a brown clay branch in the center of the frame.",
@@ -840,6 +884,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Insectos revolotean alrededor de una farola.",
    "escena": "Many small grey clay moths and mosquitoes flutter around a glowing yellow clay street lamp in the center of the frame, against a dark-blue clay night sky.",
@@ -868,6 +915,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop, con los ojos tapados, tantea con los brazos.",
    "escena": "Plop stands facing the camera with a soft red clay blindfold over his eyes.",
@@ -896,6 +944,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Un niño con los ojos tapados sigue las palmadas de otro.",
@@ -926,6 +977,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Un delfín lanza ondas de sonido bajo el agua.",
    "escena": "A grey clay dolphin swims in the center of the frame against a dark-blue clay underwater backdrop, with pale-yellow clay sound arcs spreading from its head.",
@@ -955,6 +1009,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1079,6 +1136,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Un murciélago bebe néctar de una flor.",
    "escena": "A small brown clay bat hovers in front of a big pale-cream clay flower in the center of the frame, against a dark-blue clay night sky backdrop.",
@@ -1107,6 +1167,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Cinco mamíferos en fila; el último es un murciélago.",

@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Baño",
-   "en": "Bath water bubbles and gentle splashes"
+   "sonido": "AGUA_Tina_Chapotea"
   },
   {
    "es": "Patito",
-   "en": "Squeaky rubber duck"
+   "sonido": "FOLEY_Patito_Goma"
   },
   {
    "es": "Canica",
-   "en": "Glass marble clinking into a bowl"
+   "sonido": "FOLEY_Canica_Tazon"
   },
   {
    "es": "Goteo",
-   "en": "Water dripping slowly"
+   "sonido": "AGUA_Grifo_Gotea"
   }
  ],
  "tomas": [
@@ -62,6 +62,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una bañera con espuma y un patito.",
@@ -93,6 +96,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Las yemas de la mano se arrugan.",
@@ -209,6 +215,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Las arrugas se alisan al secarse.",
    "escena": "The hand model stands upright in the center of the frame, palm facing the camera, with wrinkled fingertips.",
@@ -237,6 +246,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Una esponja se hincha en el agua.",
@@ -305,6 +317,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira de cerca las yemas arrugadas.",
    "escena": "Plop stands beside the hand model, which stands upright at his height with wrinkled fingertips.",
@@ -336,6 +351,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a una yema.",
    "escena": "The hand model stands alone in the center of the set, palm facing the camera, with wrinkled fingertips.",
@@ -366,6 +384,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Zoom: una yema por dentro, con tubitos de sangre.",
@@ -400,6 +421,11 @@
     "encoge",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Un aviso viaja por el nervio y los tubitos se encogen.",
    "escena": "The fingertip slice fills the frame, with a thin yellow clay nerve running alongside the red blood tubes.",
@@ -432,6 +458,10 @@
     "encoge",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El interior se encoge y la piel se arruga por fuera.",
    "escena": "The fingertip slice fills the frame, with narrow red blood tubes in its soft pale-pink inside.",
@@ -461,6 +491,10 @@
    "movimientos": [
     "encoge",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Un colchón se encoge y la sábana hace pliegues.",
@@ -520,6 +554,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Dos manos en el agua: la del vendaje no se arruga.",
    "escena": "Two of the hand models stand side by side in the center of the frame, palms facing the camera, the left one with a white clay bandage around its wrist.",
@@ -548,6 +585,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Una doctora mira un bol de agua.",
@@ -648,6 +688,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Una rueda con surcos echa el agua en la carretera mojada.",
    "escena": "A black clay tire with deep grooves stands on a wet pale-blue clay road in the center of the frame.",
@@ -680,6 +724,11 @@
     "cae",
     "encoge",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Aprieta",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El agua sale por los caminitos de las arrugas.",
@@ -747,6 +796,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "La mano pasa canicas mojadas de un bol a otro.",
    "escena": "A clear clay bowl of pale-blue water full of the marbles sits on the left of the frame and an empty clay bowl on the right, with the hand model reaching between them.",
@@ -813,6 +865,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Dos boles de canicas, iguales.",
    "escena": "Two clear clay bowls holding the marbles sit side by side in the center of the frame.",
@@ -841,6 +896,9 @@
    "objetos": [],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Dos científicos discuten con una canica cada uno.",
@@ -872,6 +930,7 @@
     "canicas"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop mira un bol de canicas: tiene una idea.",
    "escena": "Plop stands facing the camera beside a clear clay bowl of pale-blue water full of the marbles.",
@@ -903,6 +962,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "La mano reposa en agua tibia.",
    "escena": "The hand model stands in a clear clay bowl of warm pale-blue water in the center of the frame, with its fingertips under the water.",
@@ -931,6 +993,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Unos pies con los dedos arrugados se mueven.",
@@ -961,6 +1026,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1085,6 +1153,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Dos yemas con el mismo dibujo de arrugas.",
    "escena": "Two peach clay fingertips stand side by side in the center of the frame, both smooth.",
@@ -1113,6 +1184,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Un mono en unas aguas termales.",

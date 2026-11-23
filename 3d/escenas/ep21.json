@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Trueno cercano",
-   "en": "Loud thunder crack followed by a rolling rumble"
+   "sonido": "CLIMA_Trueno_Cercano"
   },
   {
    "es": "Trueno lejano",
-   "en": "Soft distant rolling thunder"
+   "sonido": "CLIMA_Trueno_Lejano"
   },
   {
    "es": "Rayo",
-   "en": "Very short sharp electric crackle"
+   "sonido": "CLIMA_Rayo"
   },
   {
    "es": "Lluvia en la ventana",
-   "en": "Steady rain against a window"
+   "sonido": "AMB_Lluvia_Ventana"
   }
  ],
  "tomas": [
@@ -65,6 +65,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "De la nube oscura cae un rayo y desaparece.",
@@ -95,6 +98,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo escucha, muy quieto, y de pronto salta del susto.",
@@ -209,6 +215,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Dos nubes se juntan suavemente, como almohadas.",
    "escena": "Two puffy grey clay clouds float side by side in the center of the frame.",
@@ -238,6 +247,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo camina dentro de una nube baja.",
@@ -306,6 +318,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Bajo la nube, el rayo parpadea.",
    "escena": "The storm cloud fills the upper part of the frame, with the lightning bolt hanging just below it.",
@@ -336,6 +351,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la nube de tormenta.",
@@ -369,6 +387,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro de la nube flotan trocitos de hielo.",
    "escena": "The inside of the storm cloud fills the frame, with the ice bits floating in it.",
@@ -400,6 +421,9 @@
    "movimientos": [
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Los trocitos de hielo chocan entre sí.",
    "escena": "The ice bits float in the center of the frame, surrounded by grey cloud.",
@@ -428,6 +452,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "En un choque, unas bolitas amarillas saltan de un trocito a otro.",
@@ -460,6 +487,10 @@
    "movimientos": [
     "cae",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Los electrones bajan y se juntan en la base de la nube.",
@@ -517,6 +548,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo arrastra los pies sobre el suelo.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -547,6 +579,9 @@
    "movimientos": [
     "tiembla",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Los electrones se amontonan en la base de la nube, sobre el suelo verde.",
@@ -615,6 +650,10 @@
     "aparece",
     "late"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "El rayo baja en zigzag de la nube al suelo.",
    "escena": "The storm cloud floats at the top of the set, with many tiny yellow clay balls along its bottom edge, above a flat green clay ground.",
@@ -645,6 +684,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Alrededor del rayo ondulan cintas de calor.",
@@ -712,6 +754,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Del rayo salen anillos de sonido en todas direcciones.",
    "escena": "The lightning bolt stands in the center of the frame, with the sound rings wrapped closely around it.",
@@ -777,6 +822,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Carrera: la luz llega al ojo al instante; el sonido avanza despacio hacia la oreja.",
    "escena": "The lightning bolt stands at the left edge of the set, and a small friendly clay eye and a small peach clay ear sit at the right edge.",
@@ -807,6 +855,11 @@
     "rueda_desliza",
     "aparece",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "TRANS_Vara_Swish",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Una bolita amarilla cruza en un parpadeo; un arco morado la sigue despacio.",
@@ -873,6 +926,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mueve la cabeza a ritmo, contando segundos.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -906,6 +962,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Los anillos de sonido cruzan el estudio hasta llegar a Pipo.",
    "escena": "Pipo stands at the right edge of the set, facing the lightning bolt far away at the left edge.",
@@ -937,6 +996,10 @@
     "cae",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se relaja.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -965,6 +1028,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "En una casita se enciende una luz, bajo la nube.",
@@ -1088,6 +1154,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Sobre una Tierra de arcilla parpadean chispitas por todas partes.",
    "escena": "A blue-and-green clay Earth globe stands in the center of the set.",
@@ -1116,6 +1185,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Sobre un lago, los rayos caen uno tras otro.",

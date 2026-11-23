@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Zumbido",
-   "en": "Gentle buzzing of bees"
+   "sonido": "ANIMAL_Abejas"
   },
   {
    "es": "Colmena",
-   "en": "Busy beehive hum"
+   "sonido": "AMB_Colmena"
   },
   {
    "es": "Miel",
-   "en": "Thick honey dripping"
+   "sonido": "COMIDA_Miel_Gotea"
   },
   {
    "es": "Aleteo",
-   "en": "Fast tiny wings fanning"
+   "sonido": "ANIMAL_Insecto_Revolotea"
   }
  ],
  "tomas": [
@@ -64,6 +64,7 @@
     "tarro_de_miel"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Miel que gotea del cazo de madera.",
    "escena": "The honey jar stands on a white clay table in the center of the frame, with its wooden dipper resting inside.",
@@ -95,6 +96,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "titere",
    "enPantalla": "Una abeja se posa en una flor.",
@@ -212,6 +216,10 @@
     "cae",
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Una gota de néctar aguado en la flor.",
    "escena": "The flower fills the frame, with one clear glossy drop of watery nectar at its center.",
@@ -242,6 +250,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El néctar corre rápido; la miel cae lentísimo.",
@@ -310,6 +321,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop observa la abeja de cerca.",
    "escena": "Plop stands beside the bee, which rests on a big pink clay flower at his height.",
@@ -340,6 +354,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a la abeja.",
@@ -372,6 +389,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "Zoom: la bolsita de néctar dentro de la abeja.",
    "escena": "The bee fills the frame in side view, with a small round see-through pouch inside its body holding golden liquid.",
@@ -402,6 +422,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "titere",
    "enPantalla": "Chispitas dentro de la bolsita: empieza el cambio.",
@@ -435,6 +458,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "titere",
    "enPantalla": "La abeja deja una gota en una celdita de cera.",
    "escena": "The honeycomb fills the frame, with the bee standing at the edge of one empty wax cell.",
@@ -466,6 +492,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "titere",
    "enPantalla": "Las abejas abanican para secar la miel.",
@@ -527,6 +556,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Tapitas de cera cierran las celdas llenas.",
    "escena": "The honeycomb fills the frame, with its cells full of thick golden honey.",
@@ -557,6 +589,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "titere",
    "enPantalla": "A la abeja le salen escamitas de cera en la barriga.",
@@ -658,6 +693,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "titere",
    "enPantalla": "Una gotita de miel en la punta de una cucharita.",
    "escena": "A tiny white clay teaspoon lies in the center of the frame, with one small golden drop of honey at its tip and the bee beside it.",
@@ -720,6 +758,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Abejas que vuelan de flor en flor por un campo.",
@@ -788,6 +829,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "La abeja baila en forma de ocho sobre el panal.",
    "escena": "The bee stands on the honeycomb in the center of the frame, with three more bees gathered around it.",
@@ -819,6 +863,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "titere",
    "enPantalla": "La abeja lleva polen a una flor de manzano.",
    "escena": "The bee flies toward a white apple blossom in the center of the frame, with yellow clay pollen dust on its legs.",
@@ -847,6 +894,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Un tarro antiguo de miel sobre una repisa de arena.",
@@ -878,6 +928,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira tres tarritos de miel distintos.",
    "escena": "Plop stands facing the camera, holding three small clay honey jars of different golden colors.",
@@ -905,6 +958,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Tres mieles de colores distintos junto a tres flores.",
    "escena": "Three small clay honey jars stand in a row in the center of the frame, one pale gold, one amber and one dark brown, each beside a small clay flower of a different kind.",
@@ -937,6 +991,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Filas de hexágonos de cera.",
    "escena": "The honeycomb fills the frame, showing its neat rows of six-sided wax cells.",
@@ -966,6 +1023,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1093,6 +1153,10 @@
     "encoge",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "La abeja reina rodeada de obreras.",
    "escena": "A bigger, longer clay bee rests on the honeycomb in the center of the frame, surrounded by smaller yellow-and-black clay bees.",
@@ -1121,6 +1185,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un biberón y un tarro de miel con una cruz roja.",

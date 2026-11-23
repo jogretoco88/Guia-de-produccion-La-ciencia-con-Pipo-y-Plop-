@@ -25,19 +25,19 @@
  "efectos": [
   {
    "es": "Reventón de palomita",
-   "en": "Single loud popcorn pop, close-up, crisp"
+   "sonido": "COMIDA_Palomita_Revienta"
   },
   {
    "es": "Vapor a presión",
-   "en": "Steam hissing under pressure, slowly rising in pitch"
+   "sonido": "VAPOR_Valvula_Presion"
   },
   {
    "es": "Temblor del grano",
-   "en": "Tense low rumble with small creaks, building up"
+   "sonido": "COMIDA_Granos_Sartén"
   },
   {
    "es": "Gelatina de almidón",
-   "en": "Soft wet squelch, jelly wobble"
+   "sonido": "COMIDA_Gelatina"
   }
  ],
  "tomas": [
@@ -65,6 +65,10 @@
    "movimientos": [
     "tiembla",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "El grano tiembla sobre la placa caliente y revienta en una palomita.",
@@ -97,6 +101,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira asombrado la palomita gigante.",
@@ -213,6 +220,7 @@
     "grano_de_maiz_gigante"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo pega la cabeza al grano para escuchar.",
    "escena": "Pipo stands right next to the kernel with the side of his head pressed against it.",
@@ -244,6 +252,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo rebota sentado sobre el grano, que no cede.",
@@ -312,6 +323,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo rodea el grano, examinándolo.",
    "escena": "Pipo stands on the left of the kernel, looking at it closely.",
@@ -343,6 +357,9 @@
     "rueda_desliza",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca despacio al grano.",
    "escena": "The kernel stands alone in the center of the set.",
@@ -373,6 +390,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Acercamiento al grano partido por la mitad.",
@@ -406,6 +426,10 @@
     "rueda_desliza",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Una bolita rebota contra la cáscara amarilla: es durísima.",
    "escena": "The thick golden-yellow shell wall of the cut-open kernel model fills the frame, with a little of the white filling visible beside it.",
@@ -437,6 +461,10 @@
    "movimientos": [
     "tiembla",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El relleno blanco de almidón tiembla como masa firme.",
@@ -470,6 +498,11 @@
     "crece",
     "encoge",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "La gotita cian palpita en el centro.",
@@ -564,6 +597,10 @@
     "rueda_desliza",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "La gotita choca contra la cáscara y regresa: está atrapada.",
    "escena": "The cut face of the cut-open kernel model fills the frame, with the cyan droplet in its center.",
@@ -630,6 +667,10 @@
     "flota",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "El grano sobre la placa caliente; suben cintas de calor.",
    "escena": "The kernel sits in the center of the set on a flat round orange-red clay disc.",
@@ -662,6 +703,11 @@
     "gira",
     "crece",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "La gotita se hincha y se vuelve una nube azul claro.",
@@ -696,6 +742,11 @@
     "empuja",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "La nube de vapor sigue creciendo dentro del grano.",
    "escena": "Inside the cut-open kernel model, a puffy pale-blue clay cloud sits where the droplet was.",
@@ -725,6 +776,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo infla los cachetes como un globo.",
@@ -756,6 +810,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "El vapor empuja la cáscara, que se abomba y aguanta.",
@@ -790,6 +847,11 @@
     "tiembla",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Tiembla",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El almidón se ablanda y tiembla como gelatina.",
    "escena": "The cut face of the cut-open kernel model fills the frame, with a pale-blue clay cloud in its center surrounded by the white starch filling.",
@@ -820,6 +882,10 @@
    "movimientos": [
     "crece",
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "El grano vibra cada vez más rápido sobre la placa.",
@@ -888,6 +954,10 @@
     "rueda_desliza",
     "revienta"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "Una grieta fina avanza por la cáscara.",
    "escena": "The golden-yellow surface of the kernel fills the frame.",
@@ -919,6 +989,10 @@
    "movimientos": [
     "revienta",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "¡Pum! El grano se abre y brota la espuma blanca.",
@@ -952,6 +1026,10 @@
     "cae",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "La palomita termina de inflarse y queda firme.",
    "escena": "The popcorn fills the frame.",
@@ -983,6 +1061,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo abraza la palomita, feliz.",
@@ -1111,6 +1192,11 @@
     "revienta",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Un grano agrietado deja escapar un hilito de vapor.",
    "escena": "A kernel with a small open crack on its side stands alone in the center of the frame.",
@@ -1141,6 +1227,7 @@
     "grano_de_maiz_gigante"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo consuela al grano que no reventó.",
    "escena": "Pipo stands beside the kernel, resting one paddle arm on top of it.",

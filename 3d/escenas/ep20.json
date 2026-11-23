@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "La masa crece",
-   "en": "Slow soft stretching dough, airy"
+   "sonido": "COMIDA_Masa_Estira"
   },
   {
    "es": "Burbujas en la masa",
-   "en": "Tiny soft bubbles popping in thick batter"
+   "sonido": "COMIDA_Masa_Burbujas"
   },
   {
    "es": "Horno",
-   "en": "Warm low oven hum with a soft crackle"
+   "sonido": "MECAN_Horno"
   },
   {
    "es": "Pan crujiente",
-   "en": "Crisp bread crust cracking"
+   "sonido": "COMIDA_Pan_Cruje"
   }
  ],
  "tomas": [
@@ -66,6 +66,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "La bola de masa crece sola hasta desbordar el tazón.",
@@ -97,6 +101,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "Una rebanada de pan gira: está llena de huequitos.",
@@ -213,6 +220,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "La masa se mece: no tiene nariz ni pulmones.",
    "escena": "The dough ball sits in the center of the frame.",
@@ -245,6 +255,10 @@
    "movimientos": [
     "empuja",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop hunde la manopla en la masa y el hueco se rellena solo.",
@@ -311,6 +325,10 @@
     "cae",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Harina, agua y un cubito beige que da saltitos.",
    "escena": "A small pile of white clay flour, a blue clay water drop and a tiny beige clay cube sit in a row in the center of the frame.",
@@ -339,6 +357,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca al cubito de levadura.",
@@ -371,6 +392,10 @@
    "movimientos": [
     "ondula",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una multitud de levaduras se menea.",
@@ -405,6 +430,11 @@
     "revienta",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una gota de agua despierta a las levaduras dormidas.",
    "escena": "A few yeast cells sit still in the center of the frame, with their eyes closed, and a blue clay water drop above them.",
@@ -435,6 +465,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "Las levaduras se comen un terrón de azúcar.",
@@ -468,6 +501,10 @@
    "movimientos": [
     "flota",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "De las levaduras salen burbujitas blancas.",
@@ -563,6 +600,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro de la masa, las levaduras se menean.",
    "escena": "A cut-open piece of the dough ball fills the frame, with yeast cells scattered inside it.",
@@ -631,6 +671,10 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "En la masa aparecen burbujas que van creciendo.",
    "escena": "A cut-open piece of the dough ball fills the frame, smooth and solid.",
@@ -660,6 +704,10 @@
    "movimientos": [
     "rueda_desliza",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Un trozo de masa se estira largo y fino sin romperse.",
@@ -727,6 +775,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "La masa se estira alrededor de cada burbuja.",
    "escena": "A cut-open piece of the dough ball fills the frame, with a few white bubbles inside it.",
@@ -758,6 +809,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "La masa crece en su tazón (puedes repetir el clip 1).",
@@ -826,6 +881,10 @@
     "gira",
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "En el horno, la masa se infla un poco más y se dora.",
    "escena": "The risen dough ball sits inside a simple open grey clay oven with an orange clay glow at the bottom.",
@@ -857,6 +916,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Con el calor, las levaduras cierran los ojos y se detienen.",
    "escena": "A few yeast cells sit in the center of the frame, with wavy orange clay heat ribbons rising around them.",
@@ -885,6 +947,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Las burbujas se van y dejan huecos redondos en el pan.",
@@ -917,6 +982,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "La rebanada se inclina y enseña sus huequitos.",
    "escena": "The bread slice stands upright in the center of the frame, showing its many small holes.",
@@ -945,6 +1013,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Un pan plano junto a un pan alto.",
@@ -977,6 +1048,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop aprieta la rebanada y vuelve a su forma.",
@@ -1101,6 +1175,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Un pan redondo frente a una pirámide.",
    "escena": "A small sand-colored clay pyramid stands at the back of the frame, with a round golden-brown clay loaf in front of it.",
@@ -1131,6 +1208,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Las levaduras saltan contentas.",

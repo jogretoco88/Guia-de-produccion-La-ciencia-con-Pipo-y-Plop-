@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Oruga comiendo",
-   "en": "Tiny crunchy munching on a leaf"
+   "sonido": "ANIMAL_Oruga_Come"
   },
   {
    "es": "Sopa de oruga",
-   "en": "Slow thick gloopy stirring"
+   "sonido": "COMIDA_Avena_Remover"
   },
   {
    "es": "La crisálida se abre",
-   "en": "Soft dry crackle, like thin paper tearing"
+   "sonido": "FOLEY_Papel_Rasga"
   },
   {
    "es": "Aleteo",
-   "en": "Light delicate wing flutter"
+   "sonido": "ANIMAL_Mariposa_Aletea"
   }
  ],
  "tomas": [
@@ -64,6 +64,7 @@
     "oruga"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "La oruga come una hoja, mordisco a mordisco.",
    "escena": "The caterpillar sits on a big green clay leaf in the center of the frame.",
@@ -94,6 +95,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "titere",
    "enPantalla": "La mariposa abre y cierra las alas sobre una flor.",
@@ -211,6 +215,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "La oruga avanza despacio; la mariposa aletea.",
    "escena": "The caterpillar stands on the left of the frame and the butterfly rests on the right.",
@@ -242,6 +249,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop busca alas escondidas en la oruga.",
@@ -309,6 +319,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "titere",
    "enPantalla": "La crisálida se mece suavemente.",
    "escena": "The chrysalis hangs in the center of the frame.",
@@ -339,6 +352,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "La cámara se acerca a la crisálida.",
@@ -373,6 +389,11 @@
     "revienta",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "titere",
    "enPantalla": "La oruga, colgada, se quita la piel y aparece una funda verde.",
    "escena": "The caterpillar hangs upside down from a brown clay twig in the center of the frame, curled like a hook.",
@@ -403,6 +424,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "titere",
    "enPantalla": "La crisálida se oscurece un poco y queda inmóvil.",
@@ -436,6 +460,10 @@
     "revienta",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la crisálida por dentro.",
    "escena": "The cut-open chrysalis model hangs in the center of the set.",
@@ -466,6 +494,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "La sopa amarilla se revuelve despacio.",
@@ -559,6 +590,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "En la sopa flotan unos discos naranjas que no se deshacen.",
    "escena": "The pale-yellow soup inside the cut-open chrysalis model fills the frame, with a few small orange clay discs floating in it.",
@@ -625,6 +659,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Los discos naranjas crecen absorbiendo la sopa.",
    "escena": "A few small orange clay discs float in pale-yellow clay soup, filling the frame.",
@@ -653,6 +690,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Un disco naranja se estira y se despliega en forma de ala.",
@@ -719,6 +759,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Dentro de la funda se va formando una mariposa plegada.",
    "escena": "The cut-open chrysalis model fills the frame, with a small folded orange-and-black butterfly shape forming inside it.",
@@ -747,6 +790,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Dentro de una oruga brillan unos disquitos naranjas.",
@@ -814,6 +860,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "titere",
    "enPantalla": "La crisálida se oscurece y deja ver dibujos naranjas y negros.",
    "escena": "The chrysalis hangs in the center of the frame.",
@@ -844,6 +893,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "titere",
    "enPantalla": "Una grieta se abre en la crisálida.",
@@ -877,6 +929,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "titere",
    "enPantalla": "La mariposa sale, con las alas pequeñas y arrugadas.",
    "escena": "The chrysalis hangs in the center of the frame, cracked open, with the head and legs of the butterfly poking out.",
@@ -908,6 +963,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "titere",
    "enPantalla": "Las alas arrugadas se despliegan hasta su tamaño completo.",
    "escena": "The butterfly hangs from an empty green clay pod in the center of the frame, its wings small and crumpled.",
@@ -938,6 +996,9 @@
    ],
    "movimientos": [
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "titere",
    "enPantalla": "La mariposa abre y cierra las alas, secándolas.",
@@ -971,6 +1032,10 @@
    "movimientos": [
     "flota",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "La mariposa despega de la manopla de Plop.",
@@ -1096,6 +1161,10 @@
     "crece",
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "script",
    "enPantalla": "A un renacuajo le salen patas y se le encoge la cola.",
    "escena": "A small dark-green clay tadpole with a long tail swims in a flat blue clay pond in the center of the frame.",
@@ -1124,6 +1193,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una mariquita, una abeja y una mosca saltan en fila.",

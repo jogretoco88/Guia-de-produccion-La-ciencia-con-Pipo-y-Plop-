@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Respiración tranquila",
-   "en": "Slow peaceful sleeping breath"
+   "sonido": "VOZ_Respiracion_Tranquila"
   },
   {
    "es": "Lápiz",
-   "en": "Pencil marking on a wall"
+   "sonido": "FOLEY_Lapiz_Pared"
   },
   {
    "es": "Estirón",
-   "en": "Comic stretching boing"
+   "sonido": "VOZ_Estirarse"
   },
   {
    "es": "Cierre de temporada",
-   "en": "Warm gentle celebration chime"
+   "sonido": "INSTR_Marimba_Cierre"
   }
  ],
  "tomas": [
@@ -65,6 +65,7 @@
     "medidor_de_altura"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop se mide en la pared por la noche.",
    "escena": "Plop stands with his back against the height chart on a pale-blue clay wall in the center of the set, in warm evening light.",
@@ -95,6 +96,7 @@
     "medidor_de_altura"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Por la mañana, Plop se mide otra vez.",
    "escena": "Plop stands with his back against the height chart on a pale-blue clay wall in the center of the set, in soft morning light.",
@@ -210,6 +212,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "La columna se aplasta un poquito de pie.",
    "escena": "The spine model stands upright in the center of the frame.",
@@ -240,6 +245,9 @@
    ],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Tumbada, la columna se estira.",
@@ -306,6 +314,7 @@
     "medidor_de_altura"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop señala sus marcas de cumpleaños.",
    "escena": "Plop stands beside the height chart, which has several small colored clay marks at different heights.",
@@ -336,6 +345,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a un extremo del hueso.",
@@ -368,6 +380,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: la franja de crecimiento del hueso.",
    "escena": "One end of the bone model fills the frame, showing its thin pale-blue band near the end.",
@@ -397,6 +412,7 @@
     "hueso_que_crece"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Se apilan celditas y el hueso se alarga.",
    "escena": "One end of the bone model fills the frame, showing its thin pale-blue band near the end.",
@@ -427,6 +443,10 @@
     "flota",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Una glándula diminuta suelta bolitas doradas.",
    "escena": "A small soft pink clay gland shaped like a pea sits at the base of a pink clay brain in the center of the frame, against a dark-blue clay night backdrop.",
@@ -455,6 +475,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Bolitas doradas suben desde el escalón más profundo.",
@@ -515,6 +538,10 @@
     "flota",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas doradas llegan a la franja y la encienden.",
    "escena": "One end of the bone model fills the frame, showing its thin pale-blue band near the end.",
@@ -547,6 +574,10 @@
    "movimientos": [
     "flota",
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop duerme tranquilo.",
@@ -646,6 +677,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "Un reloj con una franja azul enorme de sueño.",
    "escena": "A round white clay clock fills the center of the frame, with a soft blue clay band covering a large part of its dial.",
@@ -709,6 +743,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Un plato de verduras, un vaso de leche y una pelota.",
    "escena": "A white clay plate with colorful clay vegetables, a glass of milk and a small red clay ball sit together on a green clay table in the center of the frame.",
@@ -739,6 +776,9 @@
    ],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Tres huesos: las franjas se apagan con la edad.",
@@ -806,6 +846,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Un puntero sube de una marca a la siguiente.",
    "escena": "The height chart fills the frame, with two small colored clay marks close together near the middle.",
@@ -835,6 +878,10 @@
    "movimientos": [
     "flota",
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Un astronauta flota y se estira.",
@@ -868,6 +915,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop hace una marca en el medidor.",
    "escena": "Plop stands beside the height chart, holding a small yellow clay pencil in one paddle arm.",
@@ -899,6 +949,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Dos marcas: la de la mañana un poco más alta.",
    "escena": "The height chart fills the frame, with a blue clay mark and a slightly higher yellow clay mark.",
@@ -927,6 +980,9 @@
    "objetos": [],
    "movimientos": [
     "crece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
    ],
    "animacion": "script",
    "enPantalla": "Cinco niños de distintas alturas crecen a su ritmo.",
@@ -957,6 +1013,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1081,6 +1140,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Un bebé se estira junto a una cinta métrica.",
    "escena": "A small clay baby in a yellow onesie lies on a soft pink clay blanket next to a small clay measuring tape in the center of the frame.",
@@ -1109,6 +1171,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un esqueleto de juguete saluda.",

@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Viento frío",
-   "en": "Cold wind gust"
+   "sonido": "CLIMA_Viento_Frio"
   },
   {
    "es": "Escalofrío",
-   "en": "Quick comic shiver sound"
+   "sonido": "VOZ_Escalofrio"
   },
   {
    "es": "Gato bufando",
-   "en": "Small cat hiss"
+   "sonido": "ANIMAL_Gato_Bufa"
   },
   {
    "es": "Cajita de música",
-   "en": "Soft music box melody"
+   "sonido": "INSTR_Cajita_Musica"
   }
  ],
  "tomas": [
@@ -66,6 +66,10 @@
    "movimientos": [
     "flota",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Al brazo le salen bultitos y se le levantan los pelos.",
@@ -95,6 +99,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Plop tirita y se abraza.",
    "escena": "Plop stands facing the camera in the center of the set.",
@@ -208,6 +213,9 @@
    "movimientos": [
     "cae"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
+   ],
    "animacion": "script",
    "enPantalla": "Una gallina ahueca sus plumas.",
    "escena": "A plump white clay hen stands in the center of the frame on brown clay ground.",
@@ -239,6 +247,10 @@
    "movimientos": [
     "ondula",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "En cada bultito, un pelito de pie.",
@@ -308,6 +320,10 @@
     "balancea",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira de cerca los bultitos.",
    "escena": "Plop stands beside the arm model, which lies on a white clay table at his height.",
@@ -340,6 +356,10 @@
     "rebota",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a un bultito.",
    "escena": "The arm model lies alone on a white clay base in the center of the set, covered in small bumps.",
@@ -369,6 +389,7 @@
     "piel_por_dentro"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Zoom: el pelo, su bolsillito y un músculo diminuto.",
    "escena": "The skin slice fills the frame, showing one fine hair growing out of its small pocket with the tiny red muscle attached to its side.",
@@ -401,6 +422,11 @@
     "crece",
     "encoge",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "El músculo se encoge y el pelo se pone de pie.",
@@ -435,6 +461,11 @@
     "encoge",
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Aprieta",
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Un aviso viaja por el nervio hasta el músculo.",
    "escena": "The skin slice fills the frame, with a thin yellow clay nerve reaching the tiny red muscle.",
@@ -465,6 +496,9 @@
    ],
    "movimientos": [
     "encoge"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
    ],
    "animacion": "script",
    "enPantalla": "Muchos pelos se levantan a la vez.",
@@ -524,6 +558,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "titere",
    "enPantalla": "El gato se ahueca en la nieve.",
    "escena": "The cat sits on white clay snow in the center of the frame.",
@@ -555,6 +592,10 @@
    "movimientos": [
     "crece",
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "titere",
    "enPantalla": "El gato se asusta y se infla.",
@@ -654,6 +695,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Un simio peludo eriza su pelo.",
    "escena": "A small furry brown clay ape sits on a green clay branch in the center of the frame.",
@@ -717,6 +761,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Un ratón en la nieve se pone más peludo.",
    "escena": "A small white clay mouse sits on white clay snow in the center of the frame.",
@@ -746,6 +793,7 @@
     "puercoespin"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El puercoespín levanta sus púas.",
    "escena": "The porcupine stands on brown clay ground in the center of the frame, its long quills lying flat.",
@@ -810,6 +858,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Una figurita escucha música con los ojos cerrados.",
    "escena": "A small clay figure sits in the center of the frame wearing big red clay headphones, with small colorful clay music notes floating around it.",
@@ -842,6 +893,10 @@
     "flota",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Al brazo le salen bultitos; a la palma de la mano, no.",
    "escena": "The arm model lies in the center of the frame next to a peach clay hand model with its palm facing up.",
@@ -873,6 +928,10 @@
     "flota",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop levanta una libreta: tiene una idea.",
    "escena": "Plop stands facing the camera, holding a small yellow clay notebook in one paddle arm.",
@@ -901,6 +960,9 @@
    "objetos": [],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Una libreta con un cubito, una nota musical y un fantasmita.",
@@ -935,6 +997,10 @@
     "balancea",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Los bultitos del brazo se alisan.",
    "escena": "Plop stands beside the arm model, which shows small bumps all over its skin.",
@@ -964,6 +1030,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop asiente y sonríe.",
@@ -1089,6 +1158,10 @@
     "flota",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "Una figurita se concentra y le salen bultitos.",
    "escena": "A small clay figure in a blue shirt stands in the center of the frame, holding out one bare arm and concentrating.",
@@ -1116,6 +1189,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "A una figurita se le ponen los pelos de punta.",
    "escena": "A small clay figure with short brown clay hair stands in the center of the frame, looking surprised.",

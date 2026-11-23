@@ -55,6 +55,16 @@ const norm = s => s.replace(/\s*\(del Ep\. \d+\)/i, "").trim();
 const slug = s => norm(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
   .replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
 
+/* ---------- biblioteca de efectos (3d/audio/biblioteca.json) ---------- */
+const bibPath = path.join(here, "audio", "biblioteca.json");
+const BIB = fs.existsSync(bibPath) ? JSON.parse(fs.readFileSync(bibPath, "utf8")).sonidos : [];
+const sonidoDeEfecto = {}, sonidoDeMov = {};
+for (const s of BIB) {
+  s.efectos_guia.forEach(e => sonidoDeEfecto[e] = s.id);
+  const m = /^movimiento: (\w+)$/.exec(s.uso || "");
+  if (m && !(m[1] in sonidoDeMov) && !s.id.startsWith("TRANS_Whoosh")) sonidoDeMov[m[1]] = s.id;
+}
+
 /* ---------- reacciones del banco → acciones animadas + voz inventada ---------- */
 const IDIOMA = cfg.idioma.reacciones;
 
@@ -96,6 +106,7 @@ for (const ep of EP) {
         personajes: conPersonaje ? [star] : [],
         objetos: objs,
         movimientos: movs,
+        sonidos: movs.map(m => sonidoDeMov[m]).filter(Boolean),
         animacion: conPersonaje ? "a_mano" : objs.some(o => assets[o].familia === "animales") ? "titere"
           : (movs.length ? "script" : "a_mano"),
         enPantalla: es, escena, accion,
@@ -147,7 +158,7 @@ for (const ep of EP) {
     render: { ancho: cfg.render.ancho, alto: cfg.render.alto, fps: FPS, animarDeA: PASO, motor: cfg.render.motor },
     duracion: t, frames: t * FPS, framesUnicos: t * FPS / PASO,
     objetos: Object.keys(ep.objs).map(objId),
-    efectos: ep.sfx.map(([es, en]) => ({ es, en })),
+    efectos: ep.sfx.map(([es, en], i) => ({ es, sonido: sonidoDeEfecto[`${ep.n}.${i}`] || null })),
     tomas
   };
   fs.writeFileSync(path.join(outDir, id + ".json"), JSON.stringify(escena, null, 1) + "\n");

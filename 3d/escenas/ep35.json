@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Retumbar",
-   "en": "Deep low rumbling of the ground"
+   "sonido": "TIERRA_Temblor"
   },
   {
    "es": "Tintineo",
-   "en": "Glasses rattling on a shelf"
+   "sonido": "FOLEY_Vasos_Tiemblan"
   },
   {
    "es": "Crac de roca",
-   "en": "Sharp rock crack"
+   "sonido": "TIERRA_Roca_Crac"
   },
   {
    "es": "Calma",
-   "en": "Gentle birdsong after silence"
+   "sonido": "ANIMAL_Pajaro_Canto"
   }
  ],
  "tomas": [
@@ -62,6 +62,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Un pueblito de plastilina tiembla.",
@@ -92,6 +95,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se tambalea con los brazos abiertos.",
@@ -208,6 +214,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La Tierra por dentro gira despacio.",
    "escena": "The Earth slice sits on a white clay stand in the center of the frame, a ball with a wedge cut out to show its layers.",
@@ -238,6 +247,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "La capa naranja brilla bajo la corteza.",
@@ -306,6 +318,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira de cerca la corteza.",
    "escena": "Pipo stands beside the Earth slice, which rests on a white clay stand at his height.",
@@ -338,6 +353,10 @@
     "revienta",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a las grietas de la corteza.",
    "escena": "The Earth slice sits alone on a white clay stand in the center of the set, with thin cracks running across its outer crust.",
@@ -369,6 +388,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Zoom: la corteza está partida en piezas.",
    "escena": "The outer crust of the Earth slice fills the frame, divided by thin cracks into big puzzle-like pieces.",
@@ -397,6 +419,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Un caracol avanza un poquito sobre una regla.",
@@ -430,6 +455,10 @@
     "ondula",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Dos placas se empujan con los bordes atascados.",
    "escena": "The two plates sit side by side in the center of the frame, their jagged edges pressed tightly together.",
@@ -462,6 +491,11 @@
     "ondula",
     "empuja",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Las placas se sueltan de golpe.",
@@ -522,6 +556,11 @@
     "balancea",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Revienta",
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo empuja una puerta atascada que se abre de golpe.",
    "escena": "Pipo stands beside a tall light-brown clay door, pushing on it with both paddle arms.",
@@ -551,6 +590,10 @@
    "movimientos": [
     "ondula",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "Ondas que salen de un punto rojo.",
@@ -619,6 +662,10 @@
     "rueda_desliza",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "El sismógrafo dibuja una línea ondulada.",
    "escena": "The seismograph stands in the center of the frame, its pen resting on a long strip of white clay paper.",
@@ -650,6 +697,10 @@
    "movimientos": [
     "rueda_desliza",
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "El sismógrafo dibuja una línea casi plana.",
@@ -713,6 +764,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "Un mapa del mundo con los bordes de las placas.",
@@ -781,6 +835,9 @@
    "movimientos": [
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se agacha y se mete bajo la mesa.",
    "escena": "Pipo stands beside the sturdy table in the center of the set.",
@@ -811,6 +868,7 @@
     "mesa_fuerte"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo, bajo la mesa, se agarra a una pata.",
    "escena": "Pipo crouches under the sturdy table in the center of the set.",
@@ -840,6 +898,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "Una familia de plastilina se toma de las manos.",
    "escena": "Three small clay figures of different sizes, a family, stand together on green clay grass in the center of the frame.",
@@ -868,6 +929,7 @@
    ],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo mira una torre de bloques: tiene una idea.",
    "escena": "Pipo stands facing the camera, holding a small tower of colorful clay blocks on one paddle arm.",
@@ -898,6 +960,10 @@
     "tiembla",
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Sobre una gelatina que tiembla, una torre cae y otra aguanta.",
    "escena": "Two small towers stand side by side on a wobbly pale-green clay jelly block: a stiff grey clay tower on the left and a bendy tower with a wide base on the right.",
@@ -926,6 +992,9 @@
    "objetos": [],
    "movimientos": [
     "tiembla"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
    ],
    "animacion": "script",
    "enPantalla": "Un edificio sobre muelles casi no se mueve.",
@@ -956,6 +1025,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo asiente tranquilo.",
@@ -1080,6 +1152,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "script",
    "enPantalla": "Un aparato sobre la Luna nota un temblor.",
    "escena": "A grey clay Moon surface fills the frame, with a small silver clay instrument box standing on it.",
@@ -1108,6 +1183,9 @@
    "objetos": [],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "Unas montañas nevadas crecen despacio.",

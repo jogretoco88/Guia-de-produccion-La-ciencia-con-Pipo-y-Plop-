@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "Gota que rebota",
-   "en": "Small water drop bouncing off a surface, cartoon boing"
+   "sonido": "AGUA_Gota_Hoja"
   },
   {
    "es": "Frotar con espuma",
-   "en": "Soapy scrubbing with foamy bubbles"
+   "sonido": "FOLEY_Espuma_Frotar"
   },
   {
    "es": "Piezas de jabón rodando",
-   "en": "Many small marbles rolling on a wooden table"
+   "sonido": "FOLEY_Canicas_Ruedan"
   },
   {
    "es": "El agua se lleva la micela",
-   "en": "Short gentle stream of water rinsing"
+   "sonido": "AGUA_Grifo_Enjuague"
   }
  ],
  "tomas": [
@@ -68,6 +68,10 @@
    "movimientos": [
     "cae",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Gotas de agua rebotan en la mancha de grasa de Plop.",
@@ -102,6 +106,11 @@
     "rueda_desliza",
     "tiembla",
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "Una pieza de jabón toca la grasa y la hace temblar.",
@@ -218,6 +227,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Una flor se mece junto a la grasa, que no se inmuta.",
    "escena": "The grease blob sits next to a small clay flower with red petals and a yellow center.",
@@ -250,6 +262,10 @@
    "movimientos": [
     "gira",
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop frota la mancha con las dos manoplas; sigue ahí.",
@@ -319,6 +335,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "La gota se acerca a la grasa, se frena y retrocede.",
    "escena": "The grease blob sits on the left and one water drop stands on the right, with a clear gap between them.",
@@ -349,6 +369,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a una pieza de jabón.",
@@ -381,6 +404,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "El jabón mueve la cola como un renacuajo.",
    "escena": "One pink soap piece fills the frame, its round head on the left and its yellow tail on the right.",
@@ -411,6 +437,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "El jabón gira despacio: cabeza y cola.",
@@ -446,6 +475,11 @@
     "rueda_desliza",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "La cabeza rosa se pega a la gota de agua.",
    "escena": "One pink soap piece stands on the left and one water drop on the right.",
@@ -477,6 +511,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "La cola amarilla se clava en la grasa.",
@@ -575,6 +612,12 @@
     "tiembla",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Tiembla",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Grasa, jabón y agua forman una cadena que se estira sin romperse.",
    "escena": "The grease blob sits on the left, one pink soap piece in the middle with its yellow tail stuck in the blob, and one water drop on the right touching the pink head.",
@@ -608,6 +651,9 @@
    "movimientos": [
     "balancea"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira su mancha y luego a cámara, dudando.",
    "escena": "Plop faces the camera with the grease blob stuck on his belly.",
@@ -638,6 +684,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Muchas piezas de jabón ruedan hacia la grasa.",
@@ -671,6 +720,9 @@
    "movimientos": [
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Las colas se clavan en la grasa, una tras otra.",
    "escena": "The grease blob fills the center of the frame with several pink soap pieces gathered around it, their tails pointing at the blob.",
@@ -700,6 +752,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "Desde arriba: el anillo de jabón se cierra alrededor de la grasa.",
@@ -731,6 +786,9 @@
    ],
    "movimientos": [
     "gira"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
    ],
    "animacion": "script",
    "enPantalla": "La micela gira despacio.",
@@ -797,6 +855,9 @@
    "movimientos": [
     "ondula"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
+   ],
    "animacion": "script",
    "enPantalla": "Las cabezas rosas de la micela se menean alegres.",
    "escena": "The micelle ball fills the frame.",
@@ -830,6 +891,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "script",
    "enPantalla": "Las gotas de agua llegan y se pegan a las cabezas.",
    "escena": "The micelle ball sits in the center of the frame.",
@@ -861,6 +926,10 @@
    "movimientos": [
     "cae",
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "El agua se lleva la micela rodando fuera de cuadro.",
@@ -894,6 +963,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira su panza con esperanza.",
@@ -930,6 +1002,11 @@
     "empuja",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Arcilla_Rasguno",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Plop se frota con jabón: las piezas rodean la mancha.",
    "escena": "Plop stands facing the camera with the grease blob stuck on his belly and a few pink soap pieces on it.",
@@ -964,6 +1041,10 @@
     "cae",
     "rueda_desliza"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Rueda"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Cae el agua y la mancha, envuelta en jabón, se desliza y se va.",
    "escena": "Plop stands facing the camera with the micelle ball stuck on his belly.",
@@ -993,6 +1074,9 @@
    "objetos": [],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop, limpio, se da palmaditas en la panza.",
@@ -1120,6 +1204,10 @@
     "rueda_desliza",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Piezas de jabón clavan sus colas en el abrigo de un microbio.",
    "escena": "A round purple clay germ wrapped in a thin yellow clay coat sits in the center of the frame.",
@@ -1151,6 +1239,10 @@
    "movimientos": [
     "cae",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "El abrigo se rompe en pedazos y el microbio se desinfla.",

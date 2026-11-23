@@ -26,19 +26,19 @@
  "efectos": [
   {
    "es": "¡Psss!",
-   "en": "Soda bottle opening, sharp fizzy hiss"
+   "sonido": "COMIDA_Refresco_Abre"
   },
   {
    "es": "Burbujeo",
-   "en": "Gentle fizzy soda bubbling in a glass"
+   "sonido": "COMIDA_Refresco_Burbujea"
   },
   {
    "es": "Fuente de espuma",
-   "en": "Soda fountain erupting, foamy whoosh"
+   "sonido": "COMIDA_Refresco_Espuma"
   },
   {
    "es": "Burbuja que revienta",
-   "en": "Tiny bubble pop, close-up"
+   "sonido": "COMIDA_Burbuja_Revienta"
   }
  ],
  "tomas": [
@@ -67,6 +67,10 @@
    "movimientos": [
     "flota",
     "aparece"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "TRANS_Vara_Swish"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo destapa la botella y salen burbujas disparadas.",
@@ -98,6 +102,9 @@
    ],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "La botella cerrada, quieta y sin burbujas.",
@@ -213,6 +220,7 @@
     "botella_de_refresco"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Pipo aplaude junto a la botella cerrada: nada.",
    "escena": "Pipo stands beside the closed soda bottle.",
@@ -243,6 +251,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Por dentro, el líquido está liso: no hay burbujas.",
@@ -310,6 +321,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La botella gira despacio.",
    "escena": "The soda bottle stands in the center of the frame with its cap on.",
@@ -340,6 +354,9 @@
    "movimientos": [
     "rueda_desliza",
     "acercamiento_lento"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la botella.",
@@ -373,6 +390,10 @@
     "revienta",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Revienta"
+   ],
    "animacion": "script",
    "enPantalla": "Acercamiento a la botella por dentro.",
    "escena": "The cut-open bottle model stands in the center of the set, cap on.",
@@ -405,6 +426,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Bolitas de gas repartidas en el líquido, lejos unas de otras.",
    "escena": "The amber liquid inside the cut-open bottle model fills the frame, with a few gas balls spread through it.",
@@ -435,6 +459,9 @@
    ],
    "movimientos": [
     "empuja"
+   ],
+   "sonidos": [
+    "FOLEY_Arcilla_Rasguno"
    ],
    "animacion": "script",
    "enPantalla": "La tapa roja aprieta hacia abajo.",
@@ -467,6 +494,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "script",
    "enPantalla": "El gas de arriba rebota entre la tapa y el líquido.",
@@ -525,6 +555,9 @@
    "movimientos": [
     "encoge"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Aprieta"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo se abraza a sí mismo, apretado.",
    "escena": "Pipo stands in the center of the set, facing the camera.",
@@ -556,6 +589,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "script",
    "enPantalla": "La tapa se levanta y el gas de arriba escapa.",
@@ -626,6 +662,11 @@
     "crece",
     "aparece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Estira",
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "Las bolitas de gas se juntan y forman burbujas grandes.",
    "escena": "The amber liquid inside the cut-open bottle model fills the frame, with small gas balls spread through it.",
@@ -658,6 +699,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Las burbujas suben por el líquido.",
    "escena": "Inside the cut-open bottle model, a few big white bubbles sit in the amber liquid.",
@@ -689,6 +733,10 @@
    "movimientos": [
     "flota",
     "revienta"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Revienta"
    ],
    "animacion": "script",
    "enPantalla": "En la superficie del vaso, las burbujas revientan.",
@@ -758,6 +806,11 @@
     "crece",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega",
+    "FOLEY_Plastilina_Estira",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "script",
    "enPantalla": "En un puntito áspero del vaso nacen burbujas en fila.",
    "escena": "The inner wall of the clay glass fills the frame, with one tiny rough bump on it, under amber soda.",
@@ -824,6 +877,9 @@
    "movimientos": [
     "tiembla"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Tiembla"
+   ],
    "animacion": "a_mano",
    "enPantalla": "Pipo agita la botella cerrada.",
    "escena": "Pipo stands facing the camera, holding the closed soda bottle with both paddle arms.",
@@ -889,6 +945,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "De la botella sale una fuente de espuma.",
    "escena": "The soda bottle stands in the center of the set with its cap just lifted off.",
@@ -919,6 +978,9 @@
    ],
    "movimientos": [
     "ondula"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula"
    ],
    "animacion": "script",
    "enPantalla": "Un vaso de refresco sin gas: liso, sin una burbuja.",
@@ -952,6 +1014,10 @@
     "rueda_desliza",
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "La tapa vuelve sola a la botella y se enrosca.",
    "escena": "The soda bottle stands in the center of the frame with its cap off, and the red cap lies beside it.",
@@ -983,6 +1049,9 @@
    ],
    "movimientos": [
     "flota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
    ],
    "animacion": "a_mano",
    "enPantalla": "Pipo sigue con la mirada las burbujas del vaso.",
@@ -1109,6 +1178,9 @@
    "movimientos": [
     "flota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "Una pasa sube por el vaso, cubierta de burbujitas.",
    "escena": "The clay glass stands in the center of the frame, full of amber soda with rising white bubbles, and one small dark purple clay raisin rests at the bottom.",
@@ -1139,6 +1211,9 @@
    ],
    "movimientos": [
     "cae"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Cae"
    ],
    "animacion": "script",
    "enPantalla": "Arriba, la pasa pierde sus burbujas y se hunde otra vez.",

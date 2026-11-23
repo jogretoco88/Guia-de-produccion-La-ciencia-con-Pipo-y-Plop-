@@ -27,19 +27,19 @@
  "efectos": [
   {
    "es": "El asteroide cae",
-   "en": "Deep roaring whoosh of a falling meteor"
+   "sonido": "CIELO_Meteoro"
   },
   {
    "es": "Impacto lejano",
-   "en": "Huge distant boom with a long rumble"
+   "sonido": "CIELO_Impacto_Lejano"
   },
   {
    "es": "Viento con polvo",
-   "en": "Low dusty wind howling"
+   "sonido": "CLIMA_Viento_Polvo"
   },
   {
    "es": "Canto de pájaro",
-   "en": "Cheerful small bird chirping"
+   "sonido": "ANIMAL_Pajaro_Canto"
   }
  ],
  "tomas": [
@@ -66,6 +66,9 @@
    ],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "titere",
    "enPantalla": "Un dinosaurio sigue con la mirada un asteroide que cruza el cielo.",
@@ -96,6 +99,7 @@
     "dinosaurio_de_arcilla"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El dinosaurio baja y sube su largo cuello.",
    "escena": "The clay dinosaur stands in the center of the frame.",
@@ -210,6 +214,10 @@
     "gira",
     "empuja"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Arcilla_Rasguno"
+   ],
    "animacion": "script",
    "enPantalla": "Una brocha descubre un esqueleto en la roca.",
    "escena": "A grey clay rock slab lies in the center of the frame, with a white clay dinosaur skeleton pressed into its surface.",
@@ -239,6 +247,9 @@
    "objetos": [],
    "movimientos": [
     "rueda_desliza"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop recorre las capas de roca hasta una rayita oscura.",
@@ -304,6 +315,9 @@
    "movimientos": [
     "late"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
+   ],
    "animacion": "script",
    "enPantalla": "Entre dos capas de roca late una rayita oscura.",
    "escena": "A tall block of clay rock layers fills the frame: brown at the bottom, a thin dark-grey line in the middle and tan on top.",
@@ -334,6 +348,10 @@
     "balancea",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rueda",
+    "FOLEY_Plastilina_Balancea"
+   ],
    "animacion": "script",
    "enPantalla": "La cámara se acerca a la rayita oscura.",
    "escena": "A tall block of clay rock layers stands in the center of the set: brown at the bottom, a thin dark-grey line in the middle and tan on top.",
@@ -362,6 +380,9 @@
    "objetos": [],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "En la capa oscura brillan motitas plateadas.",
@@ -394,6 +415,10 @@
    "movimientos": [
     "gira",
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira",
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "El asteroide gira con su cola de fuego.",
@@ -428,6 +453,9 @@
     "flota",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Despega"
+   ],
    "animacion": "script",
    "enPantalla": "El asteroide se acerca a la Tierra.",
    "escena": "The clay Earth stands in the center of the frame, with the asteroid floating at the upper left, small beside it.",
@@ -458,6 +486,9 @@
    ],
    "movimientos": [
     "late"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Late"
    ],
    "animacion": "script",
    "enPantalla": "En la Tierra queda un cráter redondo junto al mar.",
@@ -552,6 +583,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El asteroide choca y se abre un anillo de polvo.",
    "escena": "The clay Earth stands in the center of the set, with the asteroid just above its surface.",
@@ -617,6 +651,9 @@
    "movimientos": [
     "aparece"
    ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
+   ],
    "animacion": "script",
    "enPantalla": "El polvo gris envuelve toda la Tierra.",
    "escena": "The clay Earth stands in the center of the set, with a patch of grey clay dust on one side.",
@@ -645,6 +682,9 @@
    "objetos": [],
    "movimientos": [
     "aparece"
+   ],
+   "sonidos": [
+    "TRANS_Vara_Swish"
    ],
    "animacion": "script",
    "enPantalla": "El polvo espesa y el Sol queda oculto.",
@@ -712,6 +752,9 @@
    "movimientos": [
     "gira"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Gira"
+   ],
    "animacion": "script",
    "enPantalla": "El helecho se marchita y se vuelve marrón.",
    "escena": "The fern stands in the center of the frame under a grey clay sky.",
@@ -742,6 +785,7 @@
     "helecho"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "El dinosaurio toca el helecho seco y baja la cabeza.",
    "escena": "The clay dinosaur stands beside the fern, which is brown and drooping.",
@@ -769,6 +813,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un dinosaurio cazador busca a un lado y al otro.",
    "escena": "A small orange clay meat-eating dinosaur with a big head stands alone in the center of the frame under a grey clay sky.",
@@ -831,6 +876,7 @@
    "personajes": [],
    "objetos": [],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "a_mano",
    "enPantalla": "Un animalito sale de su madriguera, come una semilla y vuelve.",
    "escena": "A tiny brown clay mouse-like animal peeks out of a small hole in a brown clay mound in the center of the frame.",
@@ -865,6 +911,10 @@
     "rebota",
     "acercamiento_lento"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "titere",
    "enPantalla": "El pajarito y el dinosaurio se miran y ladean la cabeza igual.",
    "escena": "The clay dinosaur stands on the left of the frame and the tiny bird stands on the right, facing each other.",
@@ -897,6 +947,10 @@
     "ondula",
     "rebota"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Ondula",
+    "FOLEY_Plastilina_Rebota"
+   ],
    "animacion": "titere",
    "enPantalla": "El pajarito aletea y salta orgulloso.",
    "escena": "The tiny bird stands in the center of the frame.",
@@ -926,6 +980,7 @@
     "pajarito"
    ],
    "movimientos": [],
+   "sonidos": [],
    "animacion": "titere",
    "enPantalla": "Las patas escamosas del pajarito dan pasos.",
    "escena": "The scaly orange feet of the tiny bird fill the frame.",
@@ -957,6 +1012,9 @@
    ],
    "movimientos": [
     "rebota"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Rebota"
    ],
    "animacion": "a_mano",
    "enPantalla": "Plop mira asombrado al pajarito posado en su manopla.",
@@ -1081,6 +1139,9 @@
    "movimientos": [
     "crece"
    ],
+   "sonidos": [
+    "FOLEY_Plastilina_Estira"
+   ],
    "animacion": "script",
    "enPantalla": "Bajo un cielo despejado, el animalito crece.",
    "escena": "A tiny brown clay mouse-like animal stands in the center of the frame under a bright clay sky.",
@@ -1109,6 +1170,9 @@
    "objetos": [],
    "movimientos": [
     "balancea"
+   ],
+   "sonidos": [
+    "FOLEY_Plastilina_Balancea"
    ],
    "animacion": "script",
    "enPantalla": "Un ratoncito, un elefante y una persona se mecen en fila.",
