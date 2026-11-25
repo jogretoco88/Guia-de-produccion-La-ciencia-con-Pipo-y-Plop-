@@ -116,8 +116,8 @@ EP.forEach((ep, i) => {
         if (w > 18) err(`${id} voz de ${w} palabras: ${vo}`); if (w < 8) note(`${id} voz corta (${w})`);
         /* Guion al día con el Lore: la reacción deja sitio a su frase en pipoplés */
         if (ep.lore && k === "R" && w > 15) err(`${id} reacción con ${w} palabras: deja sitio a la frase en pipoplés (15 como máximo)`);
-        if (/(^|[¡¿.!?…]\s*)(?:\[[a-z]+\]\s*)?(?:Pipo|Plop),/.test(vo)) talk++;
-        if (c >= 26 && c <= 30 && /crees|Piénsalo|piénsalo/.test(vo)) predict = true;
+        if (/(^|[¡¿.!?…]\s*)(?:\[[a-z]+\]\s*)?(?:Pipo|Plop),|,\s*(?:Pipo|Plop)[,.:!?…]/.test(vo)) talk++;
+        if (c >= 25 && c <= 30 && /crees|Piénsalo|piénsalo/.test(vo)) predict = true;
       }
       if (c === 4 && !(k === "R" && r[1] === "P1")) err(`${id} debe ser la idea loca: ["R","P1",…]`);
       if (c === 7 && !(k === "R" && r[1] === "L1")) err(`${id} debe ser la pregunta de Plop: ["R","L1",…]`);
@@ -146,7 +146,7 @@ EP.forEach((ep, i) => {
   if (t !== 300) err(`${E} dura ${t} s`);
   if (coN < 3) err(`${E} el acompañante aparece ${coN} veces`);
   if (ep.lore) {
-    if (!predict) err(`${E} falta la pausa para predecir en la prueba (bloque 5): «¿Qué crees que pasará?»`);
+    if (!predict) err(`${E} falta la pausa para predecir antes de la prueba (tomas 25 a 30): «¿Qué crees que pasará?»`);
     if (!talk) err(`${E} el narrador no habla nunca con Pipo ni con Plop («Pipo, …»)`);
   }
   for (const [b, n] of Object.entries(used)) if (n > 2) err(`${E} usa ${b} ${n} veces`);

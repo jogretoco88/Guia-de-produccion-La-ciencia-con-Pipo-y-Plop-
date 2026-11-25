@@ -79,7 +79,7 @@ Cada frase dura unos 6 de los 8 segundos de su toma (velocidad 0,9: unas 2,45 pa
 Los episodios marcados con `lore: 1` cumplen además estas reglas, y el validador las comprueba:
 
 - **El narrador es cómplice:** habla con el niño y también con Pipo y Plop («Pipo, no toques eso…»). Al menos una frase se dirige a uno de ellos.
-- **Pausa para predecir** en la prueba (tomas 26 a 30): «¿Qué crees que pasará?».
+- **Pausa para predecir** justo antes de la prueba o durante ella (tomas 25 a 30): «¿Qué crees que pasará?».
 - **Las reacciones dejan sitio al pipoplés:** la voz de una toma `"R"` tiene 15 palabras como máximo, porque antes suena la frase fija del personaje.
 - **Pipo es un pequeño extraterrestre.** Cuando cree que algo funciona «como en su planeta», el narrador aclara cómo funciona en la Tierra. Del planeta de Pipo no se enseña ciencia.
 - **Plop es el piloto de pruebas** cuando la ciencia lo permite: se congela, sale volando o cae, se hace bolita (marca `b`) y vuelve. La voz recuerda que eso solo lo aguanta un osito de agua.

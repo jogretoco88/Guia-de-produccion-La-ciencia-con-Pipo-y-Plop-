@@ -1,6 +1,6 @@
 EP.push({
   n: 12, topic: "Dientes", title: "¿Por qué se caen los dientes de leche?",
-  star: "L", cat: "cu", mot: "M", anc: 1, cert: 1,
+  star: "L", lore: 1, cat: "cu", mot: "M", anc: 1, cert: 1,
   why: "Les está pasando ahora: entre los 6 y los 8 años pierden sus primeros dientes.",
   link: "", nota: "Los dulces causan caries, no la caída: aclararlo sin regañar. El diente flojo se muestra en la maqueta de encía, no en la boca de Plop.",
   secret: "Debajo de cada diente de leche crece uno definitivo. Cuando sube, el cuerpo deshace la raíz del diente de leche, que se afloja y se cae.",
@@ -101,7 +101,7 @@ EP.push({
       "The tooth hill fills the frame, with the bigger tooth just below the root of the baby tooth.",
       "The bigger tooth rises slowly inside the gum until it touches the root of the baby tooth.",
       "Algo así. Cuando el diente nuevo está listo, empieza a subir. Y arriba hay alguien estorbando.", "k"],
-    ["R", "L2", "Plop ya lo sospecha: dos dientes no caben en el mismo lugar. Uno tendrá que irse."],
+    ["R", "L2", "Plop lo sospecha: dos dientes no caben en el mismo lugar. Uno tendrá que irse."],
 
     ["#"],
     ["C", "X", "b", "La raíz del diente de leche se va acortando.",
@@ -121,7 +121,7 @@ EP.push({
       "Plop stands facing the camera with one paddle arm on his cheek.",
       "Plop presses his cheek gently with his paddle arm, again and again, with curious eyes.",
       "Lo sientes flojo, lo empujas con la lengua… No duele casi nada, porque ya no tiene raíz."],
-    ["R", "L6", "[whispers] Plop casi no quiere mirar. El diente cuelga de un hilito… un día más, y…"],
+    ["R", "L6", "[whispers] Plop casi no quiere mirar. El diente cuelga de un hilito… y…"],
     ["C", "C", "b", "El diente de leche se cae de la encía.",
       "The tooth hill fills the frame, with the baby tooth barely attached on top and the tip of the bigger tooth showing just under it.",
       "The baby tooth tips over and falls off the gum, landing beside the model.",
@@ -148,7 +148,7 @@ EP.push({
       "Plop stands beside the new tooth, holding a big blue clay toothbrush with both paddle arms.",
       "Plop scrubs the new tooth with the toothbrush in small circles, again and again.",
       "Por eso hay que cuidarlos desde el primer día: cepillo, pasta y pocos dulces.", "k"],
-    ["R", "P4", "No eran los dulces, Pipo. Un diente nuevo empuja desde abajo y el cuerpo deshace la raíz."],
+    ["R", "P4", "No eran los dulces, Pipo: el diente nuevo empuja y el cuerpo deshace la raíz."],
     ["R", "L3", "Y esa es tu respuesta, Plop: nadie lo soltó de golpe. Se quedó sin raíz."],
 
     ["#"],
