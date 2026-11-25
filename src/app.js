@@ -20,12 +20,11 @@
     set: function (k, v) { try { localStorage.setItem("pipoplop3:" + k, JSON.stringify(v)); } catch (e) { /* sin almacenamiento: la página sigue funcionando */ } }
   };
 
-  var TABS = ["guia", "guion", "tomas", "elenco", "flow", "canal", "plan"];
+  var TABS = ["guia", "guion", "tomas", "elenco", "prod", "canal", "plan"];
   var ui = store.get("ui", {});
   var cur = Math.min(EP.length - 1, Math.max(0, ui.cur || 0));
   var tab = TABS.indexOf(ui.tab) > -1 ? ui.tab : "guia";
   var blk = -1, pc = "", pm = "", pq = "";
-  var calc = store.get("calc", {cr: 10, tk: 1.6, mo: 1000});
   var bankDone = store.get("bank", []);
   var CP = [];
 
@@ -42,14 +41,12 @@
         c++;
         s = {k: "C", id: E + "_C" + pad(c), d: 8, cam: r[1], tags: r[2], es: r[3], scene: r[4], act: r[5], vo: r[6]};
         (r[7] || "").split(" ").forEach(function (f) {
-          if (f === "k") s.key = true;
+          if (f === "b") s.plop = true;
           else if (f === "o") s.open = true;
           else if (f.charAt(0) === "<") s.from = E + "_C" + pad(+f.slice(1));
           else if (/^[a-e]=[tsmlxg]$/.test(f)) { s.zo = s.zo || {}; s.zo[f.charAt(0)] = f.charAt(2); }
         });
-        /* Escala crítica: el protagonista junto a algo mucho más pequeño que él.
-           Con ingredientes sueltos el modelo no sabe el tamaño: se compone primero la imagen. */
-        if (s.tags.indexOf(ep.star) > -1 && s.tags.split("").some(function (k) { var z = zOf(ep, s, k); return z === "t" || z === "s"; })) { s.sc = true; s.key = true; }
+        if (c === 10) s.zuum = true;
       } else if (k === "R" || k === "W") {
         c++;
         var code = k === "W" ? ep.star + "10" : r[1], B = BANK[code];
@@ -84,66 +81,29 @@
     return o;
   }
 
-  /* ---------- Escala ---------- */
+  /* ---------- Escala y elenco de cada toma ---------- */
   function zOf(ep, s, k) { var o = ep.objs[k]; return o ? ((s && s.zo && s.zo[k]) || o.z) : ""; }
-  function shortEn(o) { return o.en.split(" (")[0]; }
-  function scale(ep, s) {
-    var tags = s.tags.split(""), who = tags.filter(function (k) { return WHO[k]; })[0];
-    var ob = tags.filter(function (k) { return ep.objs[k]; });
-    if (!ob.length || (!who && ob.length < 2)) return "";
-    if (who) {
-      var N = WHO[who].es;
-      return "Size and scale: " + N + " is about 30 cm tall; " + ob.map(function (k) {
-        var z = SIZES[zOf(ep, s, k)];
-        return shortEn(ep.objs[k]) + " is " + z[2] + ", " + z[3].replace(/\{N\}/g, N);
-      }).join("; ") + ". Keep these exact sizes for the whole shot. ";
-    }
-    return "Size and scale: " + joinEn(ob.map(function (k) { return shortEn(ep.objs[k]) + " is " + SIZES[zOf(ep, s, k)][2]; })) +
-      ". Keep these relative sizes for the whole shot. ";
+  /* Quién y qué sale en la toma, en español: «Pipo + Grano de maíz gigante» */
+  function cast(ep, tags) {
+    var r = (tags || "").split("").map(function (k) { return WHO[k] ? WHO[k].es : ep.objs[k] ? ep.objs[k].es : ""; }).filter(Boolean);
+    return r.length ? r.join(" + ") : "solo el set";
   }
-
-  /* ---------- Prompts ---------- */
-  function refs(ep, tags) { return tags.split("").map(function (k) { return WHO[k] || ep.objs[k]; }); }
-  function joinEn(a) { return a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1]; }
-  function hdr(ep, tags) {
-    var r = refs(ep, tags);
-    return r.length ? "Using the provided reference images of " + joinEn(r.map(function (x) { return x.en; })) + ": " : "";
+  function sizeLine(ep, s) {
+    var ob = (s.tags || "").split("").filter(function (k) { return ep.objs[k]; });
+    if (!ob.length) return "";
+    return "<p class='meta'><b>Tamaños:</b> " + ob.map(function (k) {
+      var z = SIZES[zOf(ep, s, k)]; return esc(ep.objs[k].es) + ", " + z[0].toLowerCase() + " (" + z[1].split(",")[0] + ")";
+    }).join(" · ") + "</p>";
   }
-  function puppet(s) { return /[PL]/.test(s.tags) && !s.open ? MOUTH + " " : ""; }
-  /* Fondo del episodio: color en inglés para los prompts y en español para las tarjetas */
-  /* Fondo del canal: siempre la misma imagen (fondo_canal.jpg), adjunta como primera referencia. El prompt no lo describe. */
-  var PLATE = "Use the first reference image as the background, exactly as it is. ";
-  /* Escenas con su propio fondo (cielo, espacio, mar): es un panel de arcilla sobre el set del episodio */
-  var PLATE_SET = "Use the first reference image as the background wherever it shows around the scene. ";
-  function plate(s) { return /backdrop/i.test(s.scene || "") ? PLATE_SET : PLATE; }
-  function attach(ep, tags) {
-    var r = refs(ep, tags);
-    return r.length ? r.map(function (x) { return x.tag; }).join(" + ") : "ninguno (solo el prompt)";
+  function ppLine(s) {
+    var P = PIPOPLES[s.code];
+    return "<p class='pp'><b>" + WHO[s.code.charAt(0)].es + " en pipoplés:</b> «" + esc(P[0]) + "» <span class='mut'>" + esc(P[1].toLowerCase()) + "</span></p>";
   }
-  function attachKey(ep, tags) { var r = refs(ep, tags); return ["@FONDO"].concat(r.map(function (x) { return x.tag; })).join(" + "); }
-  function pClip(ep, s) {
-    return CAM[s.cam].v + ". " + plate(s) + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + "One continuous action for the whole 8-second shot: " + s.act +
-      " Everything else in the frame stays still. " + STYLE_V + " " + puppet(s) + AUDIO + " " + NOTEXT;
+  function animFold(s) {
+    if (!s.scene && !s.act) return "";
+    return "<details class='alt'><summary>Indicación de animación (en inglés: la lee el proyecto de Blender)</summary><div>" +
+      (s.scene ? "<p class='meta'><b>Al empezar:</b> " + esc(s.scene) + "</p>" : "") + (s.act ? "<p class='meta'><b>Acción:</b> " + esc(s.act) + "</p>" : "") + "</div></details>";
   }
-  function pMotion(ep, s) {
-    return CAM[s.cam].v + ". Starting from the provided first frame, one continuous action for the whole 8-second shot: " + s.act +
-      " Everything else stays still, and the colors, clay texture, sizes, background and character design stay exactly as in the first frame. Handmade claymation stop-motion motion, animated on twos at 12 fps. " +
-      puppet(s) + AUDIO + " " + NOTEXT;
-  }
-  function pKey(ep, s) {
-    return "16:9 still frame. " + CAM[s.cam].k + ". " + plate(s) + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + STYLE_I + " The frame holds only these clay figures on the plain set. " + NOTEXT;
-  }
-  function pStill(ep, s) {
-    return "16:9 still image. " + plate(s) + hdr(ep, s.tags) + s.scene + " " + scale(ep, s) + STYLE_I + " The image holds only these clay figures on the plain set. " + NOTEXT;
-  }
-  function pScale(ep) {
-    var N = WHO[ep.star].es, ks = Object.keys(ep.objs);
-    return "16:9 still image, a size comparison line-up. Using the provided reference images of " + joinEn([WHO[ep.star].en].concat(ks.map(function (k) { return ep.objs[k].en; }))) + ": " +
-      N + " stands on the left, facing the camera, about 30 cm tall. To his right, standing in one straight row on the same floor and evenly spaced, are " +
-      joinEn(ks.map(function (k) { var z = SIZES[ep.objs[k].z]; return shortEn(ep.objs[k]) + " (" + z[2] + ", " + z[3].replace(/\{N\}/g, N) + ")"; })) +
-      ". Every object keeps exactly this real size next to " + N + ". " + STYLE_I + " The image holds only these clay figures on the plain set. " + NOTEXT;
-  }
-  function pObj(ep, o) { return o.p + " 16:9 frame at eye level, the object centered. " + STYLE_I + " " + NOTEXT; }
 
   /* ---------- Bloques copiables ---------- */
   function cb(text, label, opt) {
@@ -169,79 +129,83 @@
   function ytDesc(ep) {
     var ch = BLOCKS.slice(0, 6).map(function (b, i) { return tc(blockSpan(ep, i)[0]) + " " + b[0]; }).join("\n");
     return ep.title + "\n" + ep.secret + "\n\n" +
-      "Pipo tiene una idea loca, Plop hace la pregunta correcta y juntos descubren la respuesta en plastilina.\n\n" +
+      "Pipo, un pequeño extraterrestre, tiene una idea loca. Plop, un osito de agua casi indestructible, hace la pregunta correcta. Y juntos se meten dentro de la respuesta.\n\n" +
       "CAPÍTULOS\n" + ch + "\n\n" +
       "RETO EN CASA\n" + ep.reto + "\n\n" +
       "PARA FAMILIAS Y DOCENTES\nIdea central: " + ep.secret + "\nPalabras nuevas: " + ep.vocab + "\nFuentes: (pega aquí tus dos fuentes)\n\n" +
       "También se busca como: " + ep.syn + "\n\n" +
-      "Animación creada con herramientas de inteligencia artificial. Guion, revisión científica y montaje hechos por personas.\n\n" +
+      "Animación de plastilina digital hecha en Blender. Voces generadas con ElevenLabs. Guion y revisión científica hechos por personas.\n\n" +
       "#CienciaParaNiños #PipoYPlop " + ep.tags;
   }
 
   /* ---------- Pasos de la guía ---------- */
   var STEPS = [
     {t: "1 · Ciencia y guion", i: [
-      ["Verifica la ficha científica con dos fuentes", "Pestaña Guion. Un libro de texto, un museo de ciencia o una universidad. Anota las fuentes: van en la descripción del video."],
-      ["Lee el guion en voz alta con cronómetro", "Cada frase corresponde a un clip de 8 s. Si una frase pasa de 7 s al leerla, recórtala antes de generar la voz."]]},
-    {t: "2 · Voz en ElevenLabs", i: [
-      ["Usa siempre la misma voz del canal", "Una voz cálida y curiosa en español neutro. Guárdala en tus voces y no la cambies entre episodios."],
-      ["Genera el guion bloque por bloque, con velocidad 0,9", "Pestaña Guion. Modelo Eleven v3, estabilidad Natural y velocidad 0,9 en los ajustes de la voz. Haz dos o tres tomas por bloque y quédate con la mejor."],
-      ["Exporta y nombra cada bloque", "__E___VO_B1 a __E___VO_B7. La voz de todo el episodio dura unos 4 minutos: es lo correcto. Los 5:00 los dan los clips, y cada frase se coloca sobre el suyo en el montaje."]]},
-    {t: "3 · Elenco y láminas en Nano Banana Pro", i: [
-      ["Ten a mano el fondo del canal (@FONDO)", "Pestaña Elenco. Es siempre la misma imagen azul claro y va como primera referencia en cada fotograma y lámina. No se genera ni se describe en los prompts: la imagen es la guía."],
-      ["Ten listo el banco del canal", "Pestaña Elenco. Las 20 reacciones, la cortinilla y la tarjeta final se generan una sola vez con el fondo del canal y sirven para los 52 episodios."],
-      ["Genera los objetos del episodio", "Pestaña Elenco. Un objeto por imagen, sobre el fondo del canal. Guárdalos como ingredientes."],
-      ["Comprueba los tamaños con la hoja de escala", "Pestaña Elenco. Una imagen del protagonista junto a todos los objetos en su tamaño real. Es la regla con la que revisas cada fotograma clave."],
-      ["Genera las 3 láminas del episodio", "Pestaña Tomas, tarjetas amarillas, con @FONDO adjunto. Sin texto: el video se publica en varios idiomas y todo lo dice la voz."]]},
-    {t: "4 · Clips en Google Flow", i: [
-      ["Configura el proyecto", "Veo 3.1 Lite, 16:9, 8 segundos, un resultado por prompt. Nunca adjuntes a Pipo y a Plop en la misma toma. __STAR__ protagoniza; __CO__ aparece con sus reacciones del banco del canal, ya generadas."],
-      ["Genera los clips en orden", "__GEN__ Primero el fotograma con @FONDO y después el clip. Copia cada prompt tal cual."],
-      ["Revisa cada clip antes de seguir", "Personaje correcto, manos sin dedos, boca cerrada, el fondo del canal, una sola acción, sin texto y nada que pueda incomodar a un niño de 5 años (pestaña Flow, reglas de contenido). Descárgalo y nómbralo con su ID."],
-      ["Controla los créditos", "__PTS__"]]},
-    {t: "5 · Montaje en DaVinci Resolve", i: [
-      ["Línea de tiempo 1920×1080 a 24 fps", "Coloca primero los clips y las láminas, en orden y sin huecos: son ellos los que dan los 5:00. No montes al ritmo de la voz, o el episodio se queda en unos 3:30."],
-      ["Importa los subtítulos de tiempos", "Pestaña Guion, archivo .srt. En DaVinci: File → Import → Subtitle, y arrástralo a la línea de tiempo. Cada subtítulo marca dónde empieza una frase."],
-      ["Una frase sobre cada clip", "Corta la voz de cada bloque en sus pausas y coloca cada frase al comienzo de su subtítulo. Si una frase pasa de su clip, recórtala o acelérala hasta un 110 %, nunca más. Deja 2 s de silencio después de «Piénsalo…»."],
-      ["Reacciones del banco", "Colócalas donde indica la pestaña Tomas. Como todo el canal usa el mismo fondo, encajan sin que se note. Si una se repite mucho, voltéala en espejo."],
-      ["Láminas sin texto", "Zoom lento de 100 % a 106 %. Nada de rótulos, títulos ni números: el video se publica en varios idiomas."],
-      ["Sonido", "Silencia el audio de Flow o déjalo a −18 dB si solo tiene roces de arcilla. Añade los efectos de la pestaña Guion y música suave a −20 dB bajo la voz. Mezcla final a −14 LUFS."],
-      ["Textura de stop-motion", "Si un clip se ve demasiado fluido, conviértelo a 12 fps. Mantén tu ajuste de Midtone Detail +30 y grano sutil."]]},
-    {t: "6 · Publicación en YouTube", i: [
+      ["Verifica la ficha científica con dos fuentes", "Pestaña Guion. Un libro de texto, un museo de ciencia o una universidad. Como docente, das el visto bueno. Anota las fuentes: van en la descripción del video."],
+      ["Lee el guion en voz alta con cronómetro", "Cada frase cae en una toma de 8 s y dura unos 6. Si una frase pasa de 7 s al leerla, recórtala antes de grabar."]]},
+    {t: "2 · Voces", i: [
+      ["Narración en los 5 idiomas", "Pestaña Guion. Tu voz de narrador en ElevenLabs, una frase por toma, en español, inglés, francés, portugués de Brasil e hindi. El flujo completo está en la carpeta narracion del repositorio."],
+      ["Frases de Pipo y Plop en pipoplés", "Pestaña Guion. Son frases fijas del banco: se graban una sola vez con sus voces y valen para todos los idiomas. Este episodio usa __PP__."],
+      ["Exporta y nombra", "__E___VO_ES, __E___VO_EN, __E___VO_FR, __E___VO_PT y __E___VO_HI: una pista de narrador por idioma."]]},
+    {t: "3 · Set y utilería en Blender", i: [
+      ["Modela los objetos del episodio", "Pestaña Elenco. Cada objeto a su tamaño junto al títere, que mide unos 30 cm. Todo de plastilina mate, con huellas."],
+      ["Prepara la zona del laboratorio", "Pestaña Producción 3D. Cada escena pasa en la zona que pide su tema; la cámara de zoom se usa en los bloques 3 y 4."],
+      ["Monta el layout del episodio", "En la carpeta blender del proyecto 3D: blender -b -P episodio.py -- --ep __N__ --guardar C:\\pipo_plop\\__EPN___layout.blend --storyboard C:\\pipo_plop\\storyboard___EPN__. Coloca las 39 tomas con su cámara y su duración."]]},
+    {t: "4 · Animación", i: [
+      ["Anima las tomas en orden", "Pestaña Tomas. Una sola acción por toma, animada de a dos (12 poses por segundo). Este episodio tiene __OWN__ tomas propias."],
+      ["Usa las reacciones del banco", "Pestaña Elenco. Las 20 reacciones se animan una sola vez y se reutilizan. Este episodio usa __BANK__."],
+      ["Sincroniza las bocas del pipoplés", "Las frases de Pipo y Plop van con las 9 bocas de reemplazo (Rhubarb Lip Sync o idioma.py). Esa animación sirve para todos los idiomas."],
+      ["Revisa cada toma", "Manos sin dedos, nada de texto, una sola acción y nada que pueda incomodar a un niño de 5 años (Producción 3D, reglas de contenido)."]]},
+    {t: "5 · Render", i: [
+      ["Render en EEVEE a 1920×1080", "A 24 fotogramas por segundo y animado de a dos: solo se renderizan los 12 fotogramas únicos de cada segundo. Cycles, solo para la miniatura."],
+      ["Láminas sin texto", "Las 3 láminas del episodio se renderizan en la pizarra del laboratorio. La cortinilla y la tarjeta final son las del canal."]]},
+    {t: "6 · Montaje y sonido en DaVinci Resolve", i: [
+      ["Línea de tiempo 1920×1080 a 24 fps", "Coloca las tomas y las láminas en orden y sin huecos: son ellas las que dan los 5:00."],
+      ["Importa los subtítulos de tiempos", "Pestaña Guion, archivo .srt. En DaVinci: File → Import → Subtitle. Cada subtítulo marca dónde empieza una frase del narrador."],
+      ["Una frase del narrador sobre cada toma", "Coloca cada frase al comienzo de su subtítulo. Si pasa de su toma, recórtala o acelérala hasta un 110 %, nunca más. Deja 2 s de silencio después de «Piénsalo…»."],
+      ["Pista de música y efectos", "Una sola para todos los idiomas: el pipoplés, el «¡Zuuum!», el estribillo, el jingle del zoom, los efectos del episodio y el kit del canal."],
+      ["Mezcla de cada idioma", "Cada idioma lleva su narrador sobre la pista de música y efectos. La voz siempre se entiende por encima de todo. Normaliza a −16 LUFS."]]},
+    {t: "7 · Publicación en YouTube", i: [
       ["Título, descripción y capítulos", "Cópialos de aquí abajo y añade tus dos fuentes.", "yt"],
       ["Miniatura", "__THUMB__"],
       ["Audiencia: «Sí, es contenido para niños»", "Es obligatorio en un canal dirigido a niños. Desactiva comentarios, tarjetas y pantallas finales: por eso el cierre hablado anuncia el siguiente episodio."],
-      ["Subtítulos y lista de reproducción", "Sube el guion como subtítulos en español y añade el video a la lista de su temporada."],
+      ["Pistas de audio y subtítulos", "Si el canal tiene la función de pistas de audio en varios idiomas, sube los 5 narradores al mismo video. Sube también los subtítulos de cada idioma."],
       ["Revisión en televisor", "Míralo completo en una TV: nitidez, volumen de la voz, que no aparezca ningún texto y que nada pueda asustar o incomodar a un niño de 5 años."]]},
-    {t: "7 · Después de publicar", i: [
-      ["Corta dos Shorts", "El primero: los cuatro clips centrales del bloque 4 (C19 a C22) con su voz, 32 s. El segundo: el dato extra (C31 y C32). Sin texto en pantalla, para poder usarlos en cualquier idioma."],
-      ["Lee la retención a las 48 horas y a los 7 días", "Anota en qué segundo cae la curva y a qué bloque pertenece. Corrige ese bloque en el siguiente episodio."]]}
+    {t: "8 · Después de publicar", i: [
+      ["Corta tres Shorts", "El zoom (desde el clip 10), la prueba con el «¡plop!» de Plop (bloque 5) y el dato extra (C31 y C32). Sin texto en pantalla, para usarlos en cualquier idioma."],
+      ["Lee la retención a las 48 horas y a los 7 días", "Mira los primeros 30 segundos, el zoom y la prueba. Anota en qué segundo cae la curva y corrige ese bloque en el siguiente episodio."]]}
   ];
   var TOTAL = STEPS.reduce(function (s, p) { return s + p.i.length; }, 0);
   function chk(ep) { return store.get("chk" + ep.n, []); }
-  function credits(n) { return Math.ceil(n * calc.tk * calc.cr); }
   function status(ep) {
     var n = chk(ep).length;
     return n === 0 ? "Sin empezar" : n >= TOTAL ? "Publicado" : "En producción · " + n + "/" + TOTAL;
   }
+  function bankUsed(ep) {
+    var u = [];
+    build(ep).forEach(function (s) { if (s.k === "R" && u.indexOf(s.code) < 0) u.push(s.code); });
+    return u;
+  }
 
   /* ---------- Vista: Guía ---------- */
   function vGuia(ep) {
-    var c = count(ep), done = chk(ep), pct = Math.round(done.length / TOTAL * 100), E = "E" + pad(ep.n);
+    var c = count(ep), done = chk(ep), pct = Math.round(done.length / TOTAL * 100), E = "E" + pad(ep.n), U = bankUsed(ep);
     var h = "<section class='panel'><h2>Ep. " + ep.n + " · " + esc(ep.title) + "</h2>" +
-      "<p class='mut'>Protagonista: " + WHO[ep.star].es + " · " + WHO[coOf(ep)].es + " aparece con sus reacciones del banco · " + CATS[ep.cat] + " · " + CERT[ep.cert][0] + "</p>" +
+      "<p class='mut'>Protagonista: " + WHO[ep.star].es + " · lo acompaña " + WHO[coOf(ep)].es + " · " + CATS[ep.cat] + " · " + CERT[ep.cert][0] + "</p>" +
       "<p class='secret'>" + esc(ep.secret) + "</p>" +
-      "<ul class='stats'><li>" + tc(c.dur) + " de video</li><li>" + c.clips + " clips de 8 s</li><li>" + c.gen + " por generar</li><li>" + c.bank + " del banco del canal</li><li>3 láminas nuevas y 2 del canal</li></ul>" +
+      "<ul class='stats'><li>" + tc(c.dur) + " de video</li><li>" + c.clips + " tomas de 8 s</li><li>" + c.gen + " para animar</li><li>" + c.bank + " reacciones del banco</li><li>3 láminas y 2 del canal</li></ul>" +
+      (ep.lore ? "" : "<p class='note'><b>Guion pendiente de pasar al Lore.</b> Las voces de este episodio todavía no tienen al narrador cómplice, la pausa para predecir ni a Plop de piloto de pruebas.</p>") +
       "<div class='barp' role='progressbar' aria-valuemin='0' aria-valuemax='100' aria-valuenow='" + pct + "' aria-label='Avance del episodio'><i style='width:" + pct + "%'></i></div>" +
       "<p class='mut'>" + done.length + " de " + TOTAL + " pasos completados" + (done.length === TOTAL ? ". Episodio publicado." : "") + "</p></section>";
     STEPS.forEach(function (p, pi) {
       h += "<h3>" + esc(p.t) + "</h3><div class='steps'>";
       p.i.forEach(function (it, ii) {
         var id = "p" + pi + "i" + ii, on = done.indexOf(id) > -1;
-        var det = it[1].replace(/__E__/g, E)
-          .replace("__STAR__", WHO[ep.star].tag).replace("__CO__", WHO[coOf(ep)].es)
-          .replace("__GEN__", c.gen + " clips nuevos; los otros " + c.bank + " ya están en el banco del canal.")
-          .replace("__PTS__", "Este episodio: unos " + credits(c.gen) + " créditos (" + c.gen + " clips × " + calc.tk + " intentos × " + calc.cr + " créditos). Ajusta los números en Reglas de Flow. Prueba primero con los créditos diarios.")
-          .replace("__THUMB__", ep.thumbIdea + " Texto de la miniatura (solo en la miniatura, nunca en el video; tradúcelo en cada idioma): «" + ep.thumb + "».");
+        var det = it[1].replace(/__E__/g, E).replace(/__EPN__/g, "ep" + pad(ep.n)).replace("__N__", ep.n)
+          .replace("__PP__", U.map(function (k) { return "«" + PIPOPLES[k][0] + "»"; }).join(", "))
+          .replace("__OWN__", c.gen)
+          .replace("__BANK__", U.length + " de ellas: " + U.join(", "))
+          .replace("__THUMB__", ep.thumbIdea + " Sin palabras, o solo una onomatopeya que se entienda en cualquier idioma: «" + ep.thumb + "».");
         h += "<label class='step" + (on ? " on" : "") + "'><input type='checkbox' id='s-" + ep.n + "-" + id + "' data-id='" + id + "'" + (on ? " checked" : "") + "><div><b>" + esc(it[0]) + "</b><span>" + esc(det) + "</span></div></label>";
         if (it[2] === "yt") h += cb(ytTitle(ep), "Copiar título", {lab: "Título", txt: 1}) + cb(ytDesc(ep), "Copiar descripción", {lab: "Descripción", txt: 1});
       });
@@ -267,18 +231,25 @@
   function vGuion(ep) {
     var S = build(ep), c = count(ep), all = [], marks = [];
     var vt = S.reduce(function (n, s) { return n + (s.vo ? vsec(s.vo) : 0); }, 0);
-    var h = "<section class='panel'><h2>Guion para ElevenLabs · Ep. " + ep.n + "</h2>" +
-      "<p class='mut'>" + c.words + " palabras para " + tc(c.dur) + " de video. Cada línea es la voz de una toma: explica, pregunta y responde a las ideas de Pipo y Plop. La acción la muestra la imagen.</p>" +
-      "<p class='note'><b>La voz dura unos " + tc(vt) + ", no 5:00, y está bien así.</b> Cada frase ocupa unos 6 de los 8 segundos de su clip; el resto es respiro para la imagen, la música y los efectos. " +
-      "Los 5:00 los dan los clips. Si generas la voz de corrido y montas a su ritmo, el episodio se queda en unos 3:30. " +
-      "En el montaje, cada frase se coloca al comienzo de su clip: el archivo de subtítulos de abajo marca dónde.</p>" +
-      ul(["<b>Modelo:</b> Eleven v3, que entiende las etiquetas entre corchetes. Admite unos 5.000 caracteres por generación; cada bloque cabe de sobra.",
-          "<b>Velocidad:</b> 0,9 en los ajustes de la voz. Un ritmo algo más pausado, mejor para niños, que llena más cada clip sin pasarse de los 8 segundos. Medido: a velocidad 1,0, el guion del Ep. 2 duró 3:30.",
-          "<b>Pausas:</b> Eleven v3 no admite etiquetas de pausa con tiempo (<i>break</i>). No intentes estirar el audio con pausas: el tiempo se ajusta en el montaje.",
-          "<b>Voz:</b> una sola para todo el canal. Cálida, curiosa, español neutro.",
-          "<b>Estabilidad:</b> Natural. Si las etiquetas no se notan, baja a Creative y regenera. Si la voz cambia demasiado, sube a Robust.",
+    var h = "<section class='panel'><h2>Guion · Ep. " + ep.n + "</h2>" +
+      "<p class='mut'>" + c.words + " palabras del narrador para " + tc(c.dur) + " de video. Cada línea es la voz de una toma: explica, pregunta y habla con Pipo y Plop. La acción la muestra la imagen.</p>" +
+      "<p class='note'><b>La voz dura unos " + tc(vt) + ", no 5:00, y está bien así.</b> Cada frase ocupa unos 6 de los 8 segundos de su toma; el resto es respiro para la imagen, el pipoplés, la música y los efectos. " +
+      "En el montaje, cada frase se coloca al comienzo de su toma: el archivo de subtítulos de abajo marca dónde.</p>" +
+      ul(["<b>Narrador:</b> tu voz clonada en ElevenLabs, la misma en todo el canal y en los 5 idiomas. Cómplice: habla con el niño y también con Pipo y Plop.",
+          "<b>Modelo:</b> Eleven v4, el de la narración de los episodios 1 a 4. Entiende las etiquetas entre corchetes.",
+          "<b>Velocidad:</b> 0,9 en los ajustes de la voz. Un ritmo algo más pausado, mejor para niños, que llena más cada toma sin pasarse de los 8 segundos.",
+          "<b>Pausas:</b> no estires el audio con pausas: el tiempo se ajusta en el montaje.",
           "<b>Etiquetas:</b> ya vienen puestas, una por frase como máximo. Los efectos de sonido van aparte, no en el texto.",
           "<b>Números y siglas:</b> están escritos como se pronuncian."]) + "</section>";
+    var PP = S.filter(function (s) { return s.k === "R" || s.zuum; });
+    h += "<section class='panel'><h3>Pipo y Plop en pipoplés</h3>" +
+      "<p class='prose'>Son frases fijas: se graban una sola vez con las voces de Pipo y Plop y no se traducen. Van en la pista de música y efectos, al comienzo de su toma; el narrador entra después.</p>" +
+      "<div class='scroll'><table><thead><tr><th>Toma</th><th>Tiempo</th><th>Quién</th><th>Frase</th><th>Intención</th></tr></thead><tbody>" +
+      PP.map(function (s) {
+        if (s.zuum) return "<tr><td>" + s.id + "</td><td>" + tc(s.t0) + "</td><td>Pipo y Plop</td><td>" + esc(ZUUM) + "</td><td>El momento del zoom, con su jingle</td></tr>";
+        var P = PIPOPLES[s.code];
+        return "<tr><td>" + s.id + "</td><td>" + tc(s.t0) + "</td><td>" + WHO[s.code.charAt(0)].es + "</td><td>" + esc(P[0]) + "</td><td>" + esc(P[1]) + "</td></tr>";
+      }).join("") + "</tbody></table></div></section>";
     BLOCKS.forEach(function (b, bi) {
       var L = S.filter(function (s) { return s.b === bi; }), sp = blockSpan(ep, bi);
       var txt = L.map(function (s) { return s.vo; }).join("\n");
@@ -303,8 +274,8 @@
     h += "<section class='panel'><h3>Efectos de sonido de este episodio</h3>" +
       "<p class='mut'>Genera cada uno en Sound Effects de ElevenLabs y colócalo en el montaje. Así la voz queda limpia y controlas el volumen.</p>" +
       ep.sfx.map(function (x) { return cb(x[1], "Copiar", {lab: x[0], ghost: 1}); }).join("") + "</section>" +
-      "<details class='fold'><summary>Kit sonoro del canal (se genera una sola vez)</summary><div>" +
-      KIT.map(function (x) { return cb(x[1], "Copiar", {lab: x[0], ghost: 1}); }).join("") + "</div></details>";
+      "<details class='fold'><summary>Kit sonoro del canal (se hace una sola vez)</summary><div>" +
+      KIT.map(function (x) { return x[1] === "ElevenLabs" ? cb(x[2], "Copiar", {lab: x[0] + " · ElevenLabs", ghost: 1}) : "<div class='rule'><b>" + esc(x[0]) + "<span class='src'>" + esc(x[1]) + "</span></b><span>" + esc(x[2]) + "</span></div>"; }).join("") + "</div></details>";
     h += "<section class='panel'><h3>Ficha científica</h3>" +
       "<p><span class='tag c" + ep.cert + "'>" + CERT[ep.cert][0] + "</span> " + esc(CERT[ep.cert][1]) + "</p>" +
       "<span class='lab'>Lo que afirma el guion</span>" + ul(ep.facts.map(esc)) +
@@ -322,64 +293,40 @@
     if (s.k === "S") {
       return "<article class='shot still'>" + rail(s, "Lámina · " + s.d + " s") + "<div class='body'>" +
         "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
-        "<p class='meta'><b>Ingredientes:</b> " + esc(attachKey(ep, s.tags)) + " · <b>La voz nombra:</b> " + esc(s.lab) + "</p>" + sizeLine(ep, s) +
-        "<p class='mut'>Sin texto en pantalla: el video se publica en varios idiomas.</p>" +
-        cb(pStill(ep, s), "Copiar prompt de la lámina") + "</div></article>";
+        "<p class='meta'><b>En la pizarra:</b> " + esc(cast(ep, s.tags)) + " · <b>La voz nombra:</b> " + esc(s.lab) + "</p>" + sizeLine(ep, s) +
+        "<p class='mut'>Sin texto en pantalla: el video se publica en varios idiomas.</p>" + animFold({scene: s.scene}) + "</div></article>";
     }
     if (s.k === "K") {
       return "<article class='shot still'>" + rail(s, "Lámina del canal · 4 s") + "<div class='body'>" +
         "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
         "<p class='meta'>" + esc(s.lab) + "</p>" +
-        "<p class='note'><b>Ya la tienes:</b> es la misma lámina en todos los episodios, del banco del canal. Es la única imagen donde Pipo y Plop aparecen juntos.</p></div></article>";
+        "<p class='note'><b>Ya la tienes:</b> es la misma en todos los episodios y se anima una sola vez (Elenco).</p></div></article>";
     }
     if (s.k === "R") {
-      return "<article class='shot bank'>" + rail(s, "Banco · 8 s") + "<div class='body'>" +
+      return "<article class='shot bank'>" + rail(s, "Reacción del banco · 8 s") + "<div class='body'>" + ppLine(s) +
         "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
-        "<p class='note'><b>Usa el clip " + s.bid + " («" + esc(s.name) + "») del banco del canal.</b> Ya está generado con el fondo del canal: no gasta créditos. Si se repite mucho, voltéalo en espejo.</p></div></article>";
+        "<p class='note'><b>Usa la reacción " + s.bid + " («" + esc(s.name) + "») del banco.</b> Ya está animada. Primero suena la frase en pipoplés y después entra el narrador.</p></div></article>";
     }
-    h = "<article class='shot'>" + rail(s, "Clip · 8 s") + "<div class='body'>" +
+    h = "<article class='shot'>" + rail(s, "Toma · 8 s") + "<div class='body'>" +
+      (s.zuum ? "<p class='pp'><b>Pipo y Plop:</b> «" + esc(ZUUM) + "» <span class='mut'>con el jingle del zoom</span></p>" : "") +
       "<p class='vo'>" + esc(s.vo) + "</p><p class='es'><b>En pantalla:</b> " + esc(s.es) + "</p>" +
-      "<p class='meta'><b>Ingredientes:</b> " + esc(attachKey(ep, s.tags)) + " · <b>Cámara:</b> " + CAM[s.cam].es + "</p>" +
-      sizeLine(ep, s) +
-      "";
-    if (s.sc && !s.from) {
-      h += "<p class='note'><span class='flag k'>Escala crítica · usa fotograma clave</span> " + esc(WHO[ep.star].es) + " aparece junto a algo mucho más pequeño que él. " +
-        "Con ingredientes sueltos, Flow no sabe el tamaño de cada cosa y suele hacer los objetos tan grandes como el personaje. Compón primero la imagen, comprueba los tamaños y después anímala.</p>" +
-        cb(pKey(ep, s), "Copiar prompt del fotograma", {lab: "1 · Fotograma en Nano Banana Pro: @FONDO y los ingredientes. Revisa que los tamaños sean los indicados antes de seguir"}) +
-        cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con esa imagen como fotograma inicial (Frames to Video)"}) +
-        "<details class='alt'><summary>Ruta rápida con ingredientes (más riesgo de tamaño y fondo equivocados)</summary><div>" +
-        cb(pClip(ep, s), "Copiar prompt del clip") + "</div></details>";
-    } else if (s.from) {
-      h += "<p class='note'><b>Fotograma inicial:</b> el último fotograma de " + s.from + ". Así continúa exactamente donde quedó.</p>" +
-        cb(pMotion(ep, s), "Copiar prompt del clip") +
-        "<details class='alt'><summary>Si la continuación pierde calidad: fotograma clave nuevo</summary><div>" +
-        cb(pKey(ep, s), "Copiar prompt del fotograma", {lab: "1 · Imagen en Nano Banana Pro"}) + "<p class='mut'>Después usa esa imagen como fotograma inicial con el prompt de arriba.</p></div></details>";
-    } else {
-      h += cb(pKey(ep, s), "Copiar prompt del fotograma", {lab: "1 · Fotograma en Nano Banana Pro: @FONDO y los ingredientes"}) +
-        cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con ese fotograma como fotograma inicial"}) +
-        "<details class='alt'><summary>Ruta rápida con ingredientes (el fondo puede variar)</summary><div>" +
-        cb(pClip(ep, s), "Copiar prompt del clip") + "</div></details>";
-    }
-    return h + "</div></article>";
-  }
-  function sizeLine(ep, s) {
-    var ob = s.tags.split("").filter(function (k) { return ep.objs[k]; });
-    if (!ob.length) return "";
-    return "<p class='meta'><b>Tamaños:</b> " + ob.map(function (k) {
-      var z = SIZES[zOf(ep, s, k)]; return esc(ep.objs[k].tag) + " " + z[0].toLowerCase() + " (" + z[1].split(",")[0] + ")";
-    }).join(" · ") + "</p>";
+      "<p class='meta'><b>En la toma:</b> " + esc(cast(ep, s.tags)) + " · <b>Cámara:</b> " + CAM[s.cam].es + " (" + CAM[s.cam].lente + " mm)</p>" + sizeLine(ep, s);
+    if (s.from) h += "<p class='note'><b>Continúa</b> exactamente donde terminó " + s.from + ".</p>";
+    if (s.open) h += "<p class='note'><b>La boca se abre</b> en esta toma (bostezo, lengua afuera).</p>";
+    if (s.plop) h += "<p class='note'><span class='flag k'>¡plop!</span> Plop se hace bolita y suena el «¡plop!» del kit. La voz recuerda que eso solo lo aguanta un tardígrado.</p>";
+    return h + animFold(s) + "</div></article>";
   }
   function vTomas(ep) {
     var S = build(ep), c = count(ep);
     var h = "<section class='panel'><h2>Tomas · Ep. " + ep.n + " · " + esc(ep.topic) + "</h2>" +
-      "<p class='mut'>" + c.gen + " clips por generar, " + c.bank + " del banco del canal y 5 láminas suman " + tc(c.dur) + ". Todo usa el mismo fondo del canal. Cada toma entra con la frase de voz que la acompaña y cada prompt pide una sola acción continua. Nunca están Pipo y Plop en la misma toma.</p>" +
+      "<p class='mut'>" + c.gen + " tomas para animar, " + c.bank + " reacciones del banco y 5 láminas suman " + tc(c.dur) + ". Cada toma entra con la frase del narrador que la acompaña y pide una sola acción continua. Las reacciones del banco traen su frase en pipoplés.</p>" +
       "<div class='tl' aria-hidden='true'>" + BLOCKS.map(function (b, bi) {
         var L = S.filter(function (s) { return s.b === bi; }), sp = blockSpan(ep, bi);
         return "<div class='tb' style='flex:" + (sp[1] - sp[0]) + "'><div class='seg'>" +
           L.map(function (s) { return "<i class='" + (s.k === "C" ? "" : s.k === "R" ? "r" : "s") + "' style='flex:" + s.d + "'></i>"; }).join("") +
           "</div><small>" + tc(sp[0]) + "</small></div>";
       }).join("") + "</div>" +
-      "<p class='legend'><span><i></i>Clip por generar</span><span><i class='r'></i>Clip del banco</span><span><i class='s'></i>Lámina fija</span></p>" +
+      "<p class='legend'><span><i></i>Toma para animar</span><span><i class='r'></i>Reacción del banco</span><span><i class='s'></i>Lámina</span></p>" +
       "<div class='row' role='group' aria-label='Filtrar por bloque'>" +
       "<button class='chip' data-b='-1' aria-pressed='" + (blk === -1) + "'>Todos</button>" +
       BLOCKS.map(function (b, bi) { return "<button class='chip' data-b='" + bi + "' aria-pressed='" + (blk === bi) + "'>" + (bi + 1) + " · " + esc(b[0]) + "</button>"; }).join("") +
@@ -393,153 +340,116 @@
     return h;
   }
 
-  /* ---------- Vista: Elenco ---------- */
-  /* Banco del canal: se genera una vez, con el fondo del canal, y sirve para todos los episodios */
-  var BANK_TOTAL = Object.keys(BANK).length + 2, NOEP = {objs: {}};
-  function bankItem(ep, code) {
-    var B = BANK[code], s = {cam: B[2], tags: code.charAt(0), scene: B[3], act: B[4]}, id = bankId(code), on = bankDone.indexOf(id) > -1;
-    return "<div class='bitem'><label class='step" + (on ? " on" : "") + "'><input type='checkbox' id='bk-" + id + "' data-bank='" + id + "'" + (on ? " checked" : "") + "><div><b>" + id + " · " + esc(B[0]) + "</b><span>" + esc(B[1]) + " " + CAM[B[2]].es + ". Adjunta @FONDO y " + WHO[code.charAt(0)].tag + ".</span></div></label>" +
-      cb(pKey(ep, s), "Copiar prompt del fotograma", {lab: "1 · Fotograma en Nano Banana Pro"}) +
-      cb(pMotion(ep, s), "Copiar prompt del clip", {lab: "2 · Clip en Flow con ese fotograma como fotograma inicial"}) + "</div>";
+  /* ---------- Vista: Elenco y utilería ---------- */
+  var BANK_TOTAL = Object.keys(BANK).length + 2;
+  function bankItem(code) {
+    var B = BANK[code], P = PIPOPLES[code], id = bankId(code), on = bankDone.indexOf(id) > -1;
+    return "<div class='bitem'><label class='step" + (on ? " on" : "") + "'><input type='checkbox' id='bk-" + id + "' data-bank='" + id + "'" + (on ? " checked" : "") + "><div><b>" + id + " · " + esc(B[0]) + " · «" + esc(P[0]) + "»</b><span>" + esc(B[1]) + " " + CAM[B[2]].es + ". Etiqueta de voz: " + esc(P[2]) + ".</span></div></label>" +
+      animFold({scene: B[3], act: B[4]}) + "</div>";
   }
-  function cardItem(ep, k) {
+  function cardItem(k) {
     var K = CARDS[k], id = k === "T" ? "CANAL_INICIO" : "CANAL_FINAL", on = bankDone.indexOf(id) > -1;
-    return "<div class='bitem'><label class='step" + (on ? " on" : "") + "'><input type='checkbox' id='bk-" + id + "' data-bank='" + id + "'" + (on ? " checked" : "") + "><div><b>" + id + " · " + esc(K[0]) + "</b><span>" + esc(K[1]) + " Adjunta @FONDO, @PIPO y @PLOP. Es la única imagen donde aparecen juntos, y es fija.</span></div></label>" +
-      cb(pStill(ep, {tags: "PL", scene: K[2]}), "Copiar prompt de la lámina") + "</div>";
+    return "<div class='bitem'><label class='step" + (on ? " on" : "") + "'><input type='checkbox' id='bk-" + id + "' data-bank='" + id + "'" + (on ? " checked" : "") + "><div><b>" + id + " · " + esc(K[0]) + "</b><span>" + esc(K[1]) + " " + esc(K[4]) + "</span></div></label>" +
+      animFold({scene: K[2]}) + "</div>";
+  }
+  function who(k, papel) {
+    var w = WHO[k];
+    return "<section class='panel'><h3>" + w.es + " · " + esc(w.rol) + (papel ? " · " + papel : "") + "</h3><p>" + esc(w.bio) + "</p>" +
+      "<p class='meta'><b>Aspecto:</b> " + esc(w.look) + "</p>" +
+      "<p class='meta'><b>Voz en ElevenLabs:</b> " + esc(w.voz.es) + " ID " + w.voz.id + ".</p>" +
+      "<details class='alt'><summary>Descripción de la lámina aprobada (referencia del modelado)</summary><div>" + cb(w.p, "Copiar descripción", {txt: 1}) + "</div></details></section>";
   }
   function vElenco(ep) {
-    var w = WHO[ep.star], co = WHO[coOf(ep)], P = [], L = [];
+    var P = [], L = [], S = build(ep);
     Object.keys(BANK).forEach(function (k) { (k.charAt(0) === "P" ? P : L).push(k); });
-    var h = "<section class='panel'><h2>Elenco · Ep. " + ep.n + " · " + esc(ep.topic) + "</h2>" +
-      "<p class='secret'>Un solo personaje por toma, y el mismo fondo en todo el canal.</p>" +
-      "<p class='prose'>" + w.es + " protagoniza. " + co.es + " aparece con sus reacciones del banco del canal, generadas una vez con el mismo fondo. Pipo y Plop nunca comparten toma: así no se contagian colores ni rasgos.</p></section>";
-    h += "<section class='panel'><h3>@FONDO · Fondo del canal</h3>" +
-      "<img class='fondo' src='" + FONDO_IMG + "' alt='Fondo del canal: estudio azul claro, más luminoso en el centro y en el suelo' width='2000' height='1116'>" +
-      "<p class='prose'>Siempre esta imagen, en todos los episodios. Adjúntala como primera referencia en cada fotograma, lámina, objeto y reacción. Los prompts no describen el fondo: solo piden usar la imagen adjunta tal cual, y la imagen es la guía. " +
-      "El azul claro transmite calma y deja que la atención vaya a lo que se explica.</p>" +
-      "<p><a class='btn' download='fondo_canal.jpg' href='" + FONDO_IMG + "'>Descargar fondo_canal.jpg</a></p></section>";
-    h += "<section class='panel'><h3>" + w.tag + " · " + w.es + ", protagonista</h3><p>" + esc(w.bio) + "</p>" +
-      "<p class='note'><b>Si ya lo tienes, no lo regeneres.</b> Este es tu prompt maestro original, sin cambios.</p>" +
-      cb(w.p, "Copiar prompt maestro", {txt: 1}) + "</section>";
+    var h = "<section class='panel'><h2>Elenco y utilería · Ep. " + ep.n + " · " + esc(ep.topic) + "</h2>" +
+      "<p class='secret'>Pipo y Plop están siempre presentes.</p>" +
+      "<p class='prose'>" + WHO[ep.star].es + " protagoniza este episodio y " + WHO[coOf(ep)].es + " lo acompaña con sus reacciones del banco. En Blender son siempre los mismos modelos, así que pueden compartir toma cuando la historia lo pide.</p></section>";
+    h += who(ep.star, "protagonista") + who(coOf(ep), "acompaña");
+    h += "<h2>Objetos del episodio</h2><p class='mut'>Se modelan en plastilina mate, con huellas, a su tamaño junto al títere (unos 30 cm).</p>";
     Object.keys(ep.objs).forEach(function (k) {
       var o = ep.objs[k], z = SIZES[o.z];
-      h += "<section class='panel'><h3>" + o.tag + " · " + esc(o.es) + "</h3>" +
-        "<p class='meta'><b>Tamaño en las escenas:</b> " + z[0] + ", " + esc(z[1]) + " de " + w.es + ".</p>" +
-        cb(pObj(ep, o), "Copiar prompt del objeto") + "</section>";
+      var en = S.filter(function (s) { return (s.k === "C" || s.k === "S") && (s.tags || "").indexOf(k) > -1; }).map(function (s) { return s.id.split("_")[1]; });
+      h += "<section class='panel'><h3>" + esc(o.es) + "</h3>" +
+        "<p class='meta'><b>Tamaño:</b> " + z[0] + ", " + esc(z[1]) + " de " + WHO[ep.star].es + ". <b>Aparece en:</b> " + (en.join(", ") || "ninguna toma") + ".</p>" +
+        "<details class='alt'><summary>Referencia para modelarlo (en inglés)</summary><div>" + cb(o.p, "Copiar referencia", {txt: 1}) + "</div></details></section>";
     });
-    h += "<section class='panel'><h3>Hoja de escala del episodio</h3>" +
-      "<p class='prose'>Cada imagen de referencia muestra un objeto solo, a pantalla completa: no dice nada de su tamaño. Por eso Flow puede hacer una gota tan grande como " + w.es + ". " +
-      "Antes de generar los clips, haz esta imagen en Nano Banana Pro con " + w.tag + " y todos los objetos adjuntos. Si los tamaños salen bien, tenla a mano: es la regla con la que compruebas cada fotograma clave.</p>" +
-      cb(pScale(ep), "Copiar prompt de la hoja de escala") + "</section>";
     h += "<section class='panel'><h2>Banco del canal</h2>" +
-      "<p class='prose'>Veinte reacciones y dos láminas. Se generan una sola vez, con el fondo del canal, y sirven para los 52 episodios: como el fondo es siempre el mismo, encajan sin que se note. Genera las de Pipo en una sesión y las de Plop en otra. Marca cada pieza cuando la apruebes.</p>" +
-      "<ul class='stats'><li id='bank-count'>" + bankDone.length + " de " + BANK_TOTAL + " piezas listas</li><li>Costo único: unos " + credits(Object.keys(BANK).length) + " créditos</li></ul></section>" +
-      "<details class='fold'><summary>Banco de Pipo · " + P.length + " clips</summary><div>" + P.map(function (k) { return bankItem(NOEP, k); }).join("") + "</div></details>" +
-      "<details class='fold'><summary>Banco de Plop · " + L.length + " clips</summary><div>" + L.map(function (k) { return bankItem(NOEP, k); }).join("") + "</div></details>" +
-      "<details class='fold'><summary>Láminas del canal · cortinilla y tarjeta final</summary><div>" + cardItem(NOEP, "T") + cardItem(NOEP, "F") + "</div></details>" +
-      "<details class='fold'><summary>Prompt maestro de " + co.es + " (si aún no tienes su imagen de referencia)</summary><div>" + cb(co.p, "Copiar prompt maestro", {txt: 1}) + "</div></details>";
+      "<p class='prose'>Veinte reacciones y dos láminas. Se animan una sola vez en Blender y sirven para los 52 episodios. Cada reacción tiene su frase fija en pipoplés: el niño la reconoce y la repite. Marca cada pieza cuando esté lista.</p>" +
+      "<ul class='stats'><li id='bank-count'>" + bankDone.length + " de " + BANK_TOTAL + " piezas listas</li></ul></section>" +
+      "<details class='fold'><summary>Reacciones de Pipo · " + P.length + "</summary><div>" + P.map(bankItem).join("") + "</div></details>" +
+      "<details class='fold'><summary>Reacciones de Plop · " + L.length + "</summary><div>" + L.map(bankItem).join("") + "</div></details>" +
+      "<details class='fold'><summary>Láminas del canal · cortinilla y tarjeta final</summary><div>" + cardItem("T") + cardItem("F") + "</div></details>";
     return h;
   }
 
-  /* ---------- Vista: Reglas de Flow ---------- */
+  /* ---------- Vista: Producción 3D ---------- */
   function rule(a) { return "<div class='rule'><b>" + esc(a[0]) + (a[2] ? "<span class='src'>" + a[2] + "</span>" : "") + "</b><span>" + esc(a[1]) + "</span></div>"; }
-  var DO = [
-    ["Un solo personaje por toma", "Cada clip adjunta a Pipo o a Plop, nunca a los dos. Su conversación se arma en el montaje, alternando las tomas de uno y las reacciones del otro."],
-    ["El mismo fondo en todo el canal", "@FONDO, la imagen azul claro, es la primera referencia de cada fotograma, lámina, objeto y reacción. El prompt no lo describe: solo pide usar la imagen adjunta tal cual."],
-    ["Piensa en un niño de 5 años", "Si una imagen puede asustar, dar asco o confundir, cámbiala por un juguete o muestra al personaje entero. Las reglas de contenido están más abajo."],
-    ["Una sola acción continua por clip", "Un verbo principal que dure los 8 s. «Slowly» y «again and again» estiran la acción y te dejan cortar en cualquier punto.", "Comunidad"],
-    ["Sigue la fórmula de Google", "Cámara, sujeto, acción, contexto, estilo y ambiente. Siempre en ese orden.", "Google"],
-    ["Nombra las referencias", "Empieza con «Using the provided reference images of…» y llama a cada cosa siempre igual.", "Google"],
-    ["Escribe el tamaño de cada cosa", "Una imagen de referencia no trae tamaño: el objeto ocupa todo el cuadro. Cada prompt con dos o más elementos dice cuánto mide cada uno respecto al títere (unos 30 cm). Cuando el protagonista sale con algo pequeño, compón antes el fotograma en Nano Banana Pro y comprueba los tamaños."],
-    ["Describe el estado inicial tal como se ve", "Si la imagen muestra a Pipo sentado, el prompt no puede pedirle que se siente. La imagen es el punto de partida; el texto dice qué cambia.", "Google"],
-    ["Repite el bloque de estilo palabra por palabra", "El mismo texto de arcilla, luz y fondo en todos los clips. Cambiar un adjetivo cambia el aspecto.", "Comunidad"],
-    ["Define el audio aunque lo silencies", "Un clip sin indicación de sonido tiende a inventar voces, música y subtítulos.", "Google"],
-    ["Pide lo que quieres, en positivo", "Adjuntar la imagen del fondo y pedir «use it exactly as it is» funciona mejor que «no background».", "Google"],
-    ["Cámara fija por defecto", "El stop-motion real se rueda con cámara fija. Si la cámara se mueve, el sujeto se queda quieto.", "Comunidad"],
-    ["Corrige en imagen antes que en video", "Si la composición es difícil, apruébala primero como fotograma clave. Repetir una imagen cuesta mucho menos que repetir un clip.", "Comunidad"],
-    ["Escribe los prompts en inglés", "Es el idioma de los ejemplos oficiales y donde el modelo obedece con más precisión. La línea «En pantalla» te dice en español qué debe verse.", "Práctica"]
-  ];
-  var DONT = [
-    ["Pipo y Plop en la misma toma", "Dos personajes parecidos se contagian colores y rasgos, y es fácil adjuntar el equivocado. Solo la cortinilla y la tarjeta final, que son láminas fijas, los muestran juntos."],
-    ["Describir el fondo con palabras", "Un color escrito en el prompt compite con la imagen adjunta y el resultado cambia de un clip a otro. La imagen es la guía."],
-    ["Cambiar de fondo", "El banco del canal se hizo con este fondo. Un clip con otro fondo no encaja con sus reacciones y se nota el salto."],
-    ["Partir el clip en tramos de tiempo", "Nada de «0–4 s… 4–8 s» ni cadenas de «then… then…». Si hacen falta dos acciones, son dos clips."],
-    ["Diálogo y comillas", "El habla en el prompt dispara subtítulos incrustados y bocas que se mueven. Aquí solo habla el narrador, y se añade en el montaje.", "Google Labs"],
-    ["Texto, letras, números o signos", "Nunca, ni en la imagen ni en el montaje: el video se publica en varios idiomas. Todo lo dice la voz, que se graba en cada idioma."],
-    ["Cantidades exactas y figuras geométricas por texto", "Más de tres o cuatro objetos iguales, anillos o filas se fijan con un fotograma clave."],
-    ["Listas largas de prohibiciones", "«No humans, no cars, no trees…» es poco fiable y a veces provoca justo eso. La única excepción es la línea corta y fija contra el texto que cierra cada prompt.", "Google"],
-    ["Dedos, líquidos, vidrio, humo y fuego reales", "Todo es arcilla sólida. Gotas, vapor y calor son piezas de plastilina."],
-    ["Mover a la vez la cámara y el sujeto", "Es la causa más común de deformaciones.", "Comunidad"],
-    ["Encadenar más de dos clips por el último fotograma", "Cada eslabón pierde nitidez y color. Al tercero, empieza de nuevo con un fotograma clave.", "Comunidad"],
-    ["Más de tres referencias por clip", "Un personaje y hasta dos objetos. Con más, el modelo los mezcla."]
-  ];
-  var FIX = [
-    ["Aparecen subtítulos, letras o signos", "Revisa que el prompt no tenga comillas ni palabras habladas, y regenera. Si son pocas letras en un borde, reencuadra en DaVinci. Ningún clip con texto llega al video final."],
-    ["El personaje habla o abre la boca", "Usa un plano más abierto y repite «mouth stays closed». Silencia el audio del clip."],
-    ["Cambia el color o la forma del personaje", "No lo arregles con más texto. Regenera el fotograma con el ingrediente original adjunto y revísalo antes de animarlo."],
-    ["Le salen dedos a Pipo o a Plop", "Sus manos son manoplas lisas, sin dedos. Regenera el fotograma añadiendo a la escena «smooth fingerless paddle mittens»."],
-    ["Aparece el otro personaje, o una mezcla de los dos", "Comprueba que la toma tiene un solo personaje adjunto."],
-    ["El fondo no coincide: otro color, lámparas, paredes o muebles", "Regenera el fotograma con @FONDO como primera imagen y el prompt tal cual. No añadas colores ni descripciones del fondo: la imagen es la guía."],
-    ["Algo parece salir de la boca, o se ve una parte del cuerpo suelta", "No lo uses. Que las gotas caigan desde arriba y que la parte del cuerpo se vea unida al personaje, o cámbiala por un juguete."],
-    ["La acción termina a los 3 s y el resto queda quieto", "Añade «slowly» o «again and again». O usa solo los segundos buenos y ralentiza al 85 %."],
-    ["El clip va y viene entre dos estados", "La imagen de partida ya muestra el final de la acción. Corrige el estado inicial o cambia el fotograma."],
-    ["Salen objetos duplicados o de más", "Di la cantidad («one kernel») y usa fotograma clave."],
-    ["Un objeto sale tan grande como el personaje", "No lo animes todavía: compara el fotograma con la hoja de escala del episodio (Elenco) y regenera la imagen hasta que los tamaños sean correctos. Solo entonces anímala. Corregir la imagen cuesta mucho menos que repetir el video."],
-    ["El movimiento se ve demasiado fluido", "En DaVinci, convierte el clip a 12 fps. El prompt ya pide «animated on twos»."],
-    ["La cámara se mueve sola", "Empieza el prompt con «Locked-off camera, tripod shot»."],
-    ["Dos intentos fallidos seguidos", "Para. Cambia de ruta o simplifica la acción antes de gastar más créditos."]
-  ];
-  function calcText(ep) {
-    var c = count(ep), cr = credits(c.gen), per = cr > 0 ? Math.floor(calc.mo / cr) : 0;
-    return "Ep. " + ep.n + ": " + c.gen + " clips ≈ " + cr + " créditos. Con " + calc.mo + " créditos al mes alcanza para " + per + (per === 1 ? " episodio." : " episodios.") +
-      " El banco, una sola vez: " + credits(Object.keys(BANK).length) + " créditos. Los fotogramas y las láminas de Nano Banana Pro van aparte.";
-  }
-  function vFlow(ep) {
-    var s = build(ep).filter(function (x) { return x.k === "C" && /[PL]/.test(x.tags); })[0] || build(ep)[0];
-    var h = "<section class='panel'><h2>Reglas de Flow para evitar alucinaciones</h2>" +
-      "<p class='prose'>Todos los prompts de la pestaña Tomas ya siguen estas reglas. Sirven para entender por qué están escritos así y para escribir los de episodios nuevos.</p>" +
-      "<h3>Configuración del proyecto</h3>" +
-      ul(["<b>Modelo:</b> Veo 3.1 Lite. Hace clips de 8 s en 720p con ingredientes o con fotograma inicial, por unos 10 créditos.",
-          "<b>Cambio del 5 de diciembre de 2026:</b> Flow retira Veo 3.1 Fast y Quality. Google recomienda Veo 3.1 Lite u Omni Flash 1.2. Omni cuesta unos 24 créditos por 8 s: resérvalo para la toma que Lite no logre.",
-          "<b>Formato:</b> 16:9, 8 segundos, un resultado por prompt.",
-          "<b>Referencias:</b> primero @FONDO, el fondo del canal; después una imagen por personaje u objeto. Tres como máximo además del fondo, y un solo personaje por toma.",
-          "<b>Sin texto:</b> el video se publica en varios idiomas. Cada prompt termina con la misma línea contra letras, números y subtítulos."]) + "</section>";
-    h += "<section class='panel'><h3>Por qué nunca dos personajes en la misma toma</h3>" +
-      ul(["Pipo y Plop se parecen: mismo tipo de cuerpo, mismos ojos, misma arcilla. Si los dos están en la misma toma, es fácil adjuntar el equivocado, y el modelo tiende a mezclar sus colores y accesorios.",
-          "Su conversación se arma en el montaje: una toma del protagonista, una reacción del otro, y así.",
-          "Con el banco del canal, el personaje que acompaña no se vuelve a generar en cada episodio: sus reacciones se hacen una vez, con el mismo fondo, y se reutilizan. Ahorra unos 10 clips por episodio.",
-          "Las únicas imágenes donde aparecen juntos son la cortinilla y la tarjeta final: láminas fijas, que se componen con calma en Nano Banana Pro."]) + "</section>";
+  var CMDS = [
+    "# Mide tu PC: segundos por fotograma y horas por episodio",
+    "blender -b -P benchmark.py",
+    "",
+    "# El laboratorio con la calidad completa de tu tarjeta",
+    "blender -b -P escena_demo.py -- --calidad final --salida C:\\pipo_plop\\render\\laboratorio.png",
+    "",
+    "# Monta un episodio (aquí el 1) y su storyboard de 39 tomas",
+    "blender -b -P episodio.py -- --ep 1 --guardar C:\\pipo_plop\\ep01_layout.blend --storyboard C:\\pipo_plop\\storyboard_ep01",
+    "",
+    "# Lámina de un personaje, para compararla con la aprobada",
+    "blender -b -P lamina.py -- --personaje pipo --salida C:\\pipo_plop\\render\\lamina_pipo.png",
+    "",
+    "# Las 9 bocas de un personaje",
+    "blender -b -P hoja_bocas.py -- --personaje plop --carpeta C:\\pipo_plop\\render\\bocas_plop"
+  ].join("\n");
+  function vProd() {
+    var h = "<section class='panel'><h2>Producción 3D en Blender</h2>" +
+      "<p class='secret'>Plastilina digital: se hace en 3D, pero tiene que parecer plastilina hecha a mano.</p>" +
+      "<p class='prose'>Todo se modela, se anima y se renderiza en Blender, en tu computadora. No se usa video generado por IA. Las voces se generan en ElevenLabs y el montaje se hace en DaVinci Resolve.</p></section>";
+    h += "<section class='panel'><h3>Lo que necesitas</h3>" +
+      ul(["<b>Blender 5.2 LTS</b> y el NVIDIA Studio Driver.",
+          "<b>El proyecto 3D</b> (carpeta pipo_plop_3d): los scripts de Blender, el idioma, la matriz de los 52 episodios y el sonido. Su LEEME explica la instalación en Windows.",
+          "<b>Rhubarb Lip Sync</b> para las bocas desde la voz grabada.",
+          "<b>DaVinci Resolve</b> para el montaje y <b>ElevenLabs</b> para las voces.",
+          "<b>Tu equipo:</b> Intel i7-14700F, RTX 5060 Ti de 8 GB y Windows 11. Amplía la RAM a 32 GB."]) +
+      "<p class='mut'>Primeros comandos, desde la carpeta blender del proyecto 3D:</p>" + cb(CMDS, "Copiar comandos", {txt: 1}) + "</section>";
+    h += "<section class='panel'><h3>El estilo de plastilina</h3>" +
+      ul(["Material mate con huellas dactilares, marcas de herramienta y colores sólidos.",
+          "<i>Boiling</i>: la superficie vibra apenas entre fotogramas, como en la plastilina real.",
+          "Animado de a dos: 12 poses por segundo dentro de un video de 24 fotogramas por segundo.",
+          "Las luces parpadean apenas, como en un set de verdad.",
+          "Todo es plastilina: gotas, vapor, luz, sonido y electricidad también son piezas de arcilla, nunca humo ni partículas.",
+          "Dentro de las cosas, cada sustancia lleva siempre el mismo color y la misma forma, en una paleta de colores que transmiten calma."]) +
+      "<div class='scroll'><table><thead><tr><th>Elemento</th><th>Color</th></tr></thead><tbody>" +
+      [["Pipo", "Azul verdoso #096B7C"], ["Chaleco de Pipo", "Mostaza #D08316"], ["Plop", "Verde lima #578B27"], ["Pajarita de Plop", "Naranja terracota #AD410E"],
+       ["Paredes y suelo del laboratorio", "Azul claro, para dar calma"], ["Muebles, objetos y luces", "Colores vivos, para llamar la atención"]]
+        .map(function (r) { return "<tr><td>" + r[0] + "</td><td>" + r[1] + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
+    h += "<section class='panel'><h3>El laboratorio</h3>" +
+      "<p class='prose'>Un solo set grande con rincones que se reutilizan todo el año. La imagen es la referencia del azul claro de las paredes y el suelo.</p>" +
+      "<img class='fondo' src='" + FONDO_IMG + "' alt='Referencia de color del laboratorio: azul claro, más luminoso en el centro y en el suelo' width='2000' height='1116'>" +
+      "<p><a class='btn' download='fondo_canal.jpg' href='" + FONDO_IMG + "'>Descargar la referencia de color</a></p>" +
+      "<div class='scroll'><table><thead><tr><th>Zona</th><th>Para qué</th></tr></thead><tbody>" +
+      ZONAS.map(function (z) { return "<tr><td>" + z[0] + "</td><td>" + z[1] + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
+    h += "<section class='panel'><h3>Cámaras</h3><div class='scroll'><table><thead><tr><th>Código</th><th>Plano</th><th>Lente</th><th>Movimiento</th></tr></thead><tbody>" +
+      Object.keys(CAM).map(function (k) { return "<tr><td>" + k + "</td><td>" + CAM[k].es + "</td><td>" + CAM[k].lente + " mm</td><td>" + esc(CAM[k].mov) + "</td></tr>"; }).join("") +
+      "</tbody></table></div></section>";
+    h += "<section class='panel'><h3>Escala</h3><p class='prose'>Pipo y Plop miden unos 30 cm. Cada objeto tiene su tamaño junto a ellos, y la pestaña Tomas lo recuerda en cada toma.</p>" +
+      "<div class='scroll'><table><thead><tr><th>Tamaño</th><th>Medida</th></tr></thead><tbody>" +
+      Object.keys(SIZES).map(function (k) { return "<tr><td>" + SIZES[k][0] + "</td><td>" + SIZES[k][1].replace(/\{N\}/g, "el títere") + "</td></tr>"; }).join("") +
+      "</tbody></table></div></section>";
+    h += "<section class='panel'><h3>Animación</h3>" +
+      ul(["<b>Una sola acción por toma,</b> la que dice su indicación de animación. Cámara fija; si la cámara se acerca, el sujeto se queda quieto.",
+          "<b>Las reacciones del banco</b> se animan una vez y se reutilizan: son gestos que el niño reconoce.",
+          "<b>Las bocas:</b> nueve bocas de reemplazo, solo cuando Pipo y Plop hablan pipoplés. Con el narrador, la boca se queda cerrada.",
+          "<b>El «¡plop!»:</b> cuando una toma lo marca, Plop se hace bolita, como los tardígrados reales, y vuelve a su forma.",
+          "<b>Tomas encadenadas:</b> algunas continúan exactamente donde terminó otra. La pestaña Tomas lo indica."]) + "</section>";
     h += "<section class='panel'><h3>Contenido para niños de 5 años en adelante</h3>" +
-      "<p class='prose'>Los guiones y prompts de los 52 episodios ya cumplen estas reglas, y el validador del repositorio las comprueba. Úsalas para revisar cada fotograma antes de animarlo y para escribir episodios nuevos.</p>" +
+      "<p class='prose'>Los guiones cumplen estas reglas y el validador del repositorio las comprueba. Úsalas para revisar cada toma antes de renderizarla.</p>" +
       SAFE.map(rule).join("") + "</section>";
-    h += "<section class='panel'><h3>Así está armado cada prompt</h3>" +
-      "<p class='mut'>Ejemplo: " + s.id + ". Una frase por pieza, siempre en el mismo orden.</p>" +
-      ul(["<b>Cámara:</b> " + esc(CAM[s.cam].v) + ".", "<b>Referencias:</b> " + esc(hdr(ep, s.tags)), "<b>Escena inicial:</b> " + esc(s.scene),
-          "<b>Acción única:</b> " + esc(s.act), "<b>Estilo, siempre igual:</b> " + esc(STYLE_V), "<b>Boca, audio y texto:</b> " + esc(MOUTH + " " + AUDIO + " " + NOTEXT),
-          "<b>Fondo:</b> " + esc(PLATE) + "(la imagen adjunta; el prompt no la describe)"]) + "</section>";
-    h += "<div class='two'><section class='panel do'><h3>Haz</h3>" + DO.map(rule).join("") + "</section>" +
-      "<section class='panel dont'><h3>Evita</h3>" + DONT.map(rule).join("") + "</section></div>";
-    h += "<section class='panel'><h3>Dos rutas para generar un clip</h3>" +
-      ul(["<b>Ruta principal, fotograma clave.</b> Primero generas el fotograma en Nano Banana Pro con @FONDO, el personaje y los objetos; después lo animas en Flow como fotograma inicial, con un prompt que solo describe el movimiento. Fija el fondo, el personaje, los tamaños y el encuadre.",
-          "<b>Ruta rápida, ingredientes.</b> Adjuntas las imágenes y pegas el prompt del clip. Ahorra un paso, pero el fondo y los tamaños pueden variar.",
-          "<b>Cuándo usar la rápida:</b> solo en tomas sencillas, y si el resultado coincide con el fondo del canal. Si no, vuelve al fotograma.",
-          "<b>Continuaciones:</b> algunas tomas parten del último fotograma de un clip anterior. No encadenes más de dos seguidas."]) + "</section>";
-    h += "<section class='panel'><h3>Si algo sale mal</h3><dl class='fix'>" +
-      FIX.map(function (f) { return "<div><dt>" + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd></div>"; }).join("") + "</dl></section>";
-    h += "<section class='panel'><h3>Presupuesto de créditos</h3>" +
-      "<p class='mut'>Cambia los números por los de tu plan. Los clips del banco no cuentan en cada episodio.</p>" +
-      "<div class='calc'>" +
-      "<label for='c-cr'>Créditos por clip<input id='c-cr' type='number' inputmode='decimal' min='0' step='1' value='" + calc.cr + "'></label>" +
-      "<label for='c-tk'>Intentos por clip<input id='c-tk' type='number' inputmode='decimal' min='1' step='0.1' value='" + calc.tk + "'></label>" +
-      "<label for='c-mo'>Créditos al mes<input id='c-mo' type='number' inputmode='decimal' min='0' step='50' value='" + calc.mo + "'></label></div>" +
-      "<p class='result' id='c-out'>" + esc(calcText(ep)) + "</p>" +
-      "<p class='mut'>Referencia de noviembre de 2026, según guías de terceros: Veo 3.1 Lite cuesta 10 créditos por clip (5 en Ultra) y el plan AI Pro incluye 1.000 créditos al mes. Confírmalo en Flow.</p></section>";
-    h += "<section class='panel'><h3>De dónde salen estas reglas</h3>" +
-      ul([link("https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1", "Google Cloud: guía de prompts para Veo 3.1") + ". Fórmula, audio, referencias y fotogramas.",
-          link("https://support.google.com/flow/answer/16352836", "Ayuda de Google Flow: modelos y funciones") + ". Qué hace cada modelo y cuáles se retiran.",
-          link("https://docs.cloud.google.com/vertex-ai/generative-ai/docs/video/best-practice", "Google Cloud: buenas prácticas de Veo") + ". En imagen a video, el prompt describe el movimiento.",
-          link("https://www.technologyreview.com/2025/07/15/1120156/googles-generative-video-model-veo-3-has-a-subtitles-problem/", "MIT Technology Review: el problema de los subtítulos de Veo 3") + ".",
-          "Las reglas marcadas «Comunidad» vienen de guías y reseñas de creadores de 2025 y 2026. No son documentación oficial: compruébalas con tus propios clips."]) + "</section>";
+    h += "<section class='panel'><h3>Render y entrega</h3>" +
+      ul(["<b>EEVEE</b> para todas las tomas; <b>Cycles</b> solo para la miniatura y algún plano destacado.",
+          "1920×1080 a 24 fotogramas por segundo. Se renderizan solo los fotogramas únicos y se duplican al montar.",
+          "Cada toma se nombra con su ID (E01_C01, E01_L1…), igual que en la pestaña Tomas.",
+          "La primera vez, mide con benchmark.py cuánto tarda tu tarjeta por episodio, y con el piloto (Ep. 1) cuánto tardas en animarlo."]) + "</section>";
     return h;
   }
 
@@ -547,55 +457,77 @@
   function vCanal() {
     var ep = EP[0];
     var h = "<section class='panel'><h2>El canal</h2>" +
-      "<p class='secret'>Una pregunta que un niño de verdad haría, una respuesta verdadera y cinco minutos de plastilina.</p>" +
-      ul(["<b>Para quién:</b> niños de 5 a 10 años que ven con un adulto cerca, casi siempre en el televisor.",
-          "<b>Qué nunca ve:</b> nada que asuste o dé asco de verdad: ni partes del cuerpo sueltas, ni sangre, ni nada que salga de la boca. Las reglas están en la pestaña Flow.",
-          "<b>Qué se llevan:</b> una idea que pueden contar en la cena y un reto para probarla.",
-          "<b>Qué lo distingue:</b> dos personajes con papeles fijos y una voz que piensa con ellos."]) + "</section>";
-    h += "<section class='panel'><h3>Cómo habla la voz</h3>" +
-      ul(["La imagen muestra la acción. La voz explica qué significa.",
-          "No narra lo que ya se ve. En vez de «Pipo se sienta sobre el grano», dice «ni con todo su peso se abre».",
-          "Las ideas de Pipo son hipótesis: se ponen a prueba y se descartan con una razón, nunca con burla.",
-          "Las preguntas de Plop son las del espectador. La voz las celebra y las responde.",
-          "Habla de tú: mira, fíjate, piénsalo, ¿tú qué crees?",
-          "Una idea por frase y 18 palabras como máximo. Cada frase es un clip.",
+      "<p class='secret'>No basta con preguntar por qué: Pipo y Plop se meten dentro de la respuesta.</p>" +
+      ul(["<b>Para quién:</b> niños de 6 a 8 años, y cada episodio se escribe para uno de 7. Así llega de 5 a 9: los pequeños ven lo que ven los mayores, y a los mayores no les parece de bebés.",
+          "<b>Qué se llevan:</b> entender por qué pasa algo que ven todos los días, reírse mientras lo descubren y un reto para probarlo en casa.",
+          "<b>Qué le damos a los padres:</b> ciencia verificada, un ritmo que estimula sin sobreestimular y un reto para hacer juntos."]) + "</section>";
+    h += "<section class='panel'><h3>Lo que hace única a la serie</h3>" +
+      ul(["<b>Pipo es un extraterrestre:</b> para él todo en la Tierra es un misterio, y eso hace que pregunte lo mismo que el niño.",
+          "<b>El zoom:</b> se entra dentro de las cosas para ver por qué pasan, en plastilina.",
+          "<b>Plop es indestructible:</b> la prueba puede salir muy mal y ser muy divertida.",
+          "<b>Un idioma propio:</b> Pipo y Plop hablan pipoplés, así que el mismo episodio sirve en todos los países. Las canciones también son en pipoplés.",
+          "<b>El método científico como ritual:</b> pregunta, idea, prueba y reto, siempre en el mismo orden."]) + "</section>";
+    h += "<section class='panel'><h3>Los personajes</h3>" +
+      ["P", "L"].map(function (k) { return "<div class='rule'><b>" + WHO[k].es + "<span class='src'>" + esc(WHO[k].rol) + "</span></b><span>" + esc(WHO[k].bio) + "</span></div>"; }).join("") +
+      "<div class='rule'><b>El narrador<span class='src'>El creador del canal</span></b><span>De niño descubrió el laboratorio y se hizo amigo de Pipo y Plop. Hoy, de adulto, guarda su secreto, les ayuda a entender la Tierra y explica la ciencia. Nunca sale en pantalla y es la única voz que cambia de idioma.</span></div></section>";
+    h += "<section class='panel'><h3>Cómo habla el narrador</h3>" +
+      ul(["Suena a cómplice, no a maestro ni a documental: cálido, con humor y con asombro propio.",
+          "Habla con el niño y también con Pipo y Plop, y ellos le contestan en pipoplés. A veces le hacen caso y a veces no: «Pipo, no toques eso…».",
+          "Pregunta y espera: deja dos o tres segundos para que el niño responda a la pantalla.",
+          "La imagen muestra la acción; la voz explica qué significa. No narra lo que ya se ve.",
+          "Las ideas de Pipo son hipótesis: se ponen a prueba y se descartan con una razón, nunca con burla. Cuando Pipo cree que algo funciona «como en su planeta», el narrador aclara cómo funciona en la Tierra.",
+          "Las preguntas de Plop son las del espectador. La voz las celebra y las responde en la prueba.",
+          "Cuando a Plop le pasa algo extremo, recuerda que eso solo lo aguanta un osito de agua.",
+          "Habla de tú: mira, fíjate, piénsalo, ¿tú qué crees? Una idea por frase y 18 palabras como máximo.",
           "Toda palabra nueva llega con una comparación conocida: casco, renacuajo, puerta, panal."]) + "</section>";
-    h += "<section class='panel'><h3>Rituales que se repiten en todos los episodios</h3>" +
-      ul(["«La idea loca de Pipo», con su silbido y siempre la misma reacción del banco.", "«Plop se pregunta…», también con su reacción.", "«¡Hagamos zoom!», siempre con el mismo sonido.",
-          "«¿Tú qué crees? Piénsalo…» y dos segundos de tic-tac.", "«Repasemos»: tres ideas, tres imágenes.",
+    h += "<section class='panel'><h3>El pipoplés</h3>" +
+      "<p class='prose'>El idioma inventado de Pipo y Plop: no tiene palabras de ningún idioma real, así que la serie nunca se dobla. El sentido lo dan la entonación, la cara y el cuerpo. Pipo usa sílabas con p, b y t, rápidas y con energía; Plop, con pl, l, m y n, suaves y pausadas. El pipoplés nunca explica la ciencia: eso lo hace el narrador.</p>" +
+      "<div class='scroll'><table><thead><tr><th>Código</th><th>Intención</th><th>Frase</th></tr></thead><tbody>" +
+      Object.keys(PIPOPLES).map(function (k) { return "<tr><td>" + k + "</td><td>" + esc(PIPOPLES[k][1]) + "</td><td>" + esc(PIPOPLES[k][0]) + "</td></tr>"; }).join("") +
+      "<tr><td>Zoom</td><td>Los dos, en el momento del zoom</td><td>" + esc(ZUUM) + "</td></tr></tbody></table></div>" +
+      "<p class='mut'>Toda palabra nueva pasa por el revisor del proyecto 3D (idioma.py) y por un hablante nativo de cada idioma.</p></section>";
+    h += "<section class='panel'><h3>Los momentos firma</h3>" +
+      ul(["<b>La llegada del misterio:</b> el objeto aparece en el laboratorio, gigante y misterioso.",
+          "<b>La idea loca de Pipo,</b> con su «¡Bipi-ba!»: casi siempre está mal, y eso es lo divertido.",
+          "<b>La pausa para pensar:</b> «¿Tú qué crees? Piénsalo…», y el narrador espera de verdad.",
+          "<b>«¡Hagamos zoom!»</b> y el «¡Zuuum!» de Pipo y Plop, con su jingle: el momento que solo tiene este canal.",
+          "<b>El «¡plop!»:</b> Plop se hace bolita cuando la prueba sale mal.",
+          "<b>El reto:</b> el «¡Tu-lu, tu-lu!» de Plop invita a probarlo en casa.",
           "«La ciencia está en todas partes. ¡Hasta el próximo misterio!»"]) +
-      "<p class='mut'>Los niños vuelven por lo que reconocen. Las reacciones del banco son parte de ese ritual: ver a Pipo levantar el brazo ya anuncia una idea loca. Como todo el canal tiene el mismo fondo, el mismo clip sirve en todos los episodios.</p></section>";
+      "<p class='mut'>Los niños vuelven por lo que reconocen. No se cambian nunca.</p></section>";
     h += "<section class='panel'><h3>Los cinco minutos, bloque por bloque</h3><div class='scroll'><table><thead><tr><th>Bloque</th><th>Tiempo</th><th>Para qué sirve</th><th>Qué sostiene la atención</th></tr></thead><tbody>" +
       BLOCKS.map(function (b, i) { var sp = blockSpan(ep, i); return "<tr><td>" + (i + 1) + " · " + esc(b[0]) + "</td><td>" + tc(sp[0]) + "–" + tc(sp[1]) + "</td><td>" + esc(b[1]) + "</td><td>" + esc(b[2]) + "</td></tr>"; }).join("") +
       "</tbody></table></div></section>";
     h += "<section class='panel'><h3>Título y miniatura</h3>" +
-      ul(["<b>Título:</b> la pregunta tal como la diría un niño, con la palabra clave al principio y menos de 60 caracteres.",
-          "<b>Miniatura:</b> un personaje con una emoción clara, un objeto gigante y una o dos palabras. Es lo único que lleva texto: haz una por idioma.",
-          "<b>Fondo de color pleno y saturado.</b> El video siempre tiene el fondo azul claro; la miniatura puede llevar otro color pleno en cada episodio para distinguirlos en la lista.",
-          "Debe leerse en un móvil pequeño y a tres metros del televisor.",
-          "Los primeros 8 s del video cumplen lo que promete la miniatura.",
-          "Si a los 7 días una miniatura no funciona, cámbiala y compara los clics por impresión de la semana siguiente."]) + "</section>";
+      ul(["<b>Título:</b> la pregunta tal como la diría un niño, con la palabra clave al principio y menos de 60 caracteres. Se traduce en cada idioma.",
+          "<b>Miniatura:</b> una sola cara con una expresión exagerada, un objeto gigante y un fondo liso y saturado.",
+          "Sin palabras, o solo una onomatopeya que se entienda en cualquier idioma: la misma miniatura se ve en los 5 idiomas.",
+          "Pipo o Plop según el protagonista del episodio, para que el niño reconozca a su personaje.",
+          "Debe leerse en un móvil pequeño y a tres metros del televisor. Los primeros segundos del video cumplen lo que promete."]) + "</section>";
     h += "<section class='panel'><h3>Publicación</h3>" +
       ul(["<b>Audiencia:</b> «Sí, es contenido para niños». Un canal dirigido a niños debe marcarlo.",
-          "Eso desactiva los comentarios, las tarjetas, las pantallas finales, la campana, los anuncios personalizados y guardar en listas.",
+          "Eso desactiva los comentarios, las tarjetas, las pantallas finales, la campana y los anuncios personalizados. El canal crece por búsquedas, recomendaciones, YouTube Kids y Shorts.",
           "Por eso el guion nunca pide comentar ni suscribirse. El cierre anuncia la siguiente pregunta y la lista de la temporada reproduce el siguiente episodio.",
-          "La descripción lleva capítulos, reto, palabras nuevas y fuentes. Es lo que leen padres y docentes.",
-          "Sube el guion como subtítulos en español. Como la imagen no lleva texto, el mismo video sirve para cualquier idioma: solo cambia la voz.",
-          "Di en la descripción que la animación se hizo con IA y que el guion y la revisión son humanos. Responde con cuidado la pregunta sobre contenido alterado al subir el video."]) +
+          "<b>Un solo canal con pistas de audio en varios idiomas,</b> si el canal tiene esa función: así todas las vistas se suman en un mismo lugar.",
+          "La descripción lleva capítulos, reto, palabras nuevas y fuentes. Es lo que leen padres y docentes, y cada episodio puede tener su hoja imprimible para la escuela.",
+          "Di en la descripción que la animación está hecha en Blender y que las voces se generan con ElevenLabs."]) +
       "<p class='mut'>Ayuda de YouTube: " + link("https://support.google.com/youtube/answer/9527654", "audiencia del canal o del video") + " y " + link("https://support.google.com/youtube/answer/10774223", "buenas prácticas para contenido infantil y familiar") + ".</p></section>";
     h += "<div class='two'><section class='panel do'><h3>Lo que YouTube premia en contenido infantil</h3>" +
       ul(["Aprender y despertar la curiosidad.", "Creatividad, juego e imaginación.", "Ser buena persona.", "Conexión con el mundo real.", "Diversidad e inclusión."]) + "</section>" +
       "<section class='panel dont'><h3>Lo que castiga</h3>" +
       ul(["Contenido muy comercial.", "Conductas o actitudes negativas.", "Contenido educativo engañoso.", "Lo que dificulta la comprensión.", "Lo sensacionalista.", "Uso extraño de personajes infantiles."]) + "</section></div>" +
-      "<p class='note'><b>Contexto de 2026:</b> más de 200 organizaciones pidieron a YouTube frenar el contenido infantil hecho con IA de baja calidad. Un canal con ciencia verificada, ritmo tranquilo y fuentes a la vista queda del lado correcto de esa discusión. No publiques en serie: un episodio bien hecho por semana.</p>";
+      "<p class='note'><b>Contexto de 2026:</b> más de 200 organizaciones pidieron a YouTube frenar el contenido infantil hecho con IA de baja calidad. Una serie animada a mano en Blender, con ciencia verificada y fuentes a la vista, queda del lado correcto de esa discusión.</p>";
     h += "<section class='panel'><h3>Ritmo de trabajo</h3>" +
-      ul(["Antes de estrenar: el banco completo y tres episodios terminados.", "Después: uno por semana, el mismo día y a la misma hora.",
-          "Dos Shorts por episodio entre estreno y estreno: el mecanismo y el dato extra. El fondo azul liso permite recortar a vertical sin perder al personaje.",
-          "Cuatro temporadas de 13 episodios al año, cada una en su lista de reproducción."]) + "</section>";
+      ul(["<b>Antes de estrenar:</b> la canción, el banco de reacciones, de 6 a 8 episodios terminados y unos 20 Shorts. Un canal infantil que falla en su ritmo semanal pierde el impulso.",
+          "<b>Después:</b> uno por semana, el mismo día y a la misma hora.",
+          "<b>Shorts:</b> 2 o 3 por episodio, de menos de un minuto: el zoom, el «¡plop!» y el dato extra.",
+          "<b>Compilaciones</b> de 30 a 60 minutos por temporada o por tema: muchos niños ven YouTube en la tele.",
+          "<b>Temporada 1 de 13 episodios.</b> Con lo que enseñe el piloto se decide el ritmo de las siguientes."]) + "</section>";
     h += "<section class='panel'><h3>Qué mirar en YouTube Studio</h3>" +
       ul(["<b>Clics por impresión por debajo del 4 %:</b> cambia la miniatura y el título.",
-          "<b>Retención a los 30 s por debajo del 70 %:</b> el misterio no se entiende en los primeros 8 s.",
-          "<b>Duración media por debajo de 2:30:</b> busca el segundo exacto donde cae la curva y mira a qué bloque pertenece.",
+          "<b>Retención a los 30 s por debajo del 70 %:</b> el misterio no atrapa en los primeros segundos.",
+          "<b>Caída en el zoom o en la prueba:</b> el centro del episodio no está funcionando.",
+          "<b>Qué Shorts llevan a ver episodios completos,</b> y qué temas y ganchos se ven más, para orientar la temporada siguiente.",
           "<b>Porcentaje visto en televisor:</b> si sube, las familias lo están viendo juntas."]) +
       "<p class='mut'>Son referencias orientativas para un canal nuevo, no reglas de YouTube.</p></section>";
     return h;
@@ -606,12 +538,12 @@
     var tags = "<span class='tag'>" + CATS[ep.cat] + "</span>" +
       ep.mot.split("").map(function (k) { return "<span class='tag m'>" + MOTORS[k][0] + "</span>"; }).join("") +
       (ep.anc ? "<span class='tag a'>Ancla</span>" : "") + (ep.cert > 1 ? "<span class='tag c" + ep.cert + "'>" + CERT[ep.cert][0] + "</span>" : "") +
-      "<span class='tag st'>" + status(ep) + "</span>";
+      (ep.lore ? "<span class='tag st'>Guion al día con el Lore</span>" : "") + "<span class='tag st'>" + status(ep) + "</span>";
     var rows = [["Por qué engancha", ep.why], ["Respuesta", ep.secret], ["Reto en casa", ep.reto], ["Conecta con", ep.link], ["Nota de producción", ep.nota],
                 ["Certeza", CERT[ep.cert][0] + ". " + CERT[ep.cert][1]]];
     var i = EP.indexOf(ep);
     return "<details class='ep'><summary><span class='num'>" + pad(ep.n) + "</span><span class='q'>" + esc(ep.title) + "</span>" + tags + "</summary><div>" +
-      "<p class='mut'>Protagonista: " + WHO[ep.star].es + " · Texto de miniatura: «" + esc(ep.thumb) + "» · " + count(ep).gen + " clips por generar</p><dl class='ficha'>" +
+      "<p class='mut'>Protagonista: " + WHO[ep.star].es + " · Miniatura: «" + esc(ep.thumb) + "» · " + count(ep).gen + " tomas para animar</p><dl class='ficha'>" +
       rows.filter(function (r) { return r[1]; }).map(function (r) { return "<dt>" + r[0] + "</dt><dd>" + esc(r[1]) + "</dd>"; }).join("") + "</dl>" +
       "<div class='pick'><button class='btn' data-go='" + i + ":guia'>Guía</button><button class='btn ghost' data-go='" + i + ":guion'>Guion</button>" +
       "<button class='btn ghost' data-go='" + i + ":tomas'>Tomas</button><button class='btn ghost' data-go='" + i + ":elenco'>Elenco</button></div></div></details>";
@@ -695,7 +627,7 @@
     h += "<details class='fold'><summary>Cómo está ordenado el año</summary><div>" +
       ul(["Un episodio por semana: 52 semanas, cuatro temporadas de 13.",
           "Nunca hay dos episodios seguidos de la misma categoría. La variedad es lo que mantiene viva la lista de reproducción.",
-          "Pipo protagoniza los episodios impares y Plop los pares. El otro aparece siempre, con sus reacciones del banco, y nunca en la misma toma.",
+          "Pipo protagoniza los episodios impares y Plop los pares. El otro siempre lo acompaña: con sus reacciones del banco y, cuando la historia lo pide, en sus propias tomas.",
           "Las preguntas ancla, las que se buscan todo el año, están repartidas en las cuatro temporadas y se concentran al principio, cuando el canal más necesita que lo encuentren.",
           "Los episodios se llaman entre sí. El volcán recuerda a las palomitas; las burbujas, al jabón; el barco, al hielo. El niño siente que ya sabe algo, y eso lo hace volver.",
           "Algunos episodios son de calendario y se pueden mover: murciélagos y arañas para Halloween, el mar para las vacaciones, la Luna antes de un eclipse. Si mueves uno, cuida que no queden juntos dos de la misma categoría.",
@@ -718,22 +650,22 @@
     $("ep-prev").disabled = cur === 0;
     $("ep-next").disabled = cur === EP.length - 1;
   }
-  function hashOf() { return tab === "canal" || tab === "plan" ? tab : "e" + pad(EP[cur].n) + "-" + tab; }
+  function hashOf() { return tab === "canal" || tab === "plan" || tab === "prod" ? tab : "e" + pad(EP[cur].n) + "-" + tab; }
   function readHash() {
     var h = (location.hash || "").slice(1), m = /^e(\d+)-([a-z]+)$/.exec(h);
     if (m) {
       var i = EP.map(function (e) { return e.n; }).indexOf(+m[1]);
       if (i > -1 && TABS.indexOf(m[2]) > -1) { cur = i; tab = m[2]; return true; }
-    } else if (h === "canal" || h === "plan") { tab = h; return true; }
+    } else if (h === "canal" || h === "plan" || h === "prod") { tab = h; return true; }
     return false;
   }
   function render(keepScroll) {
     var ep = EP[cur];
     CP = [];
     [].forEach.call(document.querySelectorAll("#tabs .tab"), function (b) { b.setAttribute("aria-selected", b.dataset.v === tab); });
-    $("picker").hidden = tab === "canal" || tab === "plan";
+    $("picker").hidden = tab === "canal" || tab === "plan" || tab === "prod";
     picker();
-    $("view").innerHTML = tab === "guion" ? vGuion(ep) : tab === "tomas" ? vTomas(ep) : tab === "elenco" ? vElenco(ep) : tab === "flow" ? vFlow(ep) : tab === "canal" ? vCanal() : tab === "plan" ? vPlan() : vGuia(ep);
+    $("view").innerHTML = tab === "guion" ? vGuion(ep) : tab === "tomas" ? vTomas(ep) : tab === "elenco" ? vElenco(ep) : tab === "prod" ? vProd() : tab === "canal" ? vCanal() : tab === "plan" ? vPlan() : vGuia(ep);
     store.set("ui", {cur: cur, tab: tab});
     try { if ((location.hash || "").slice(1) !== hashOf()) history.replaceState(null, "", "#" + hashOf()); } catch (e) { /* sin historial: no pasa nada */ }
     if (!keepScroll) window.scrollTo(0, 0);
@@ -779,11 +711,6 @@
   });
   $("view").addEventListener("input", function (e) {
     if (e.target.id === "plan-q") { pq = e.target.value; $("plan-list").innerHTML = planList(); return; }
-    var m = {"c-cr": "cr", "c-tk": "tk", "c-mo": "mo"}[e.target.id]; if (!m) return;
-    var n = parseFloat(e.target.value);
-    if (!(n >= 0)) return;
-    calc[m] = n; store.set("calc", calc);
-    $("c-out").textContent = calcText(EP[cur]);
   });
   window.addEventListener("hashchange", function () { if (readHash()) render(); });
 

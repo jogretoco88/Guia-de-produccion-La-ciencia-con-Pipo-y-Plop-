@@ -12,7 +12,7 @@ run("comun.js");
 const files = fs.readdirSync(path.join(root, "src", "episodios")).filter(f => /^ep\d+\.js$/.test(f)).sort();
 files.forEach(f => run("episodios/" + f));
 const get = n => vm.runInContext(n, ctx);
-const EP = get("EP"), CAM = get("CAM"), BANK = get("BANK"), BLOCKS = get("BLOCKS"), CATS = get("CATS"), MOTORS = get("MOTORS"), CERT = get("CERT");
+const EP = get("EP"), CAM = get("CAM"), BANK = get("BANK"), PIPOPLES = get("PIPOPLES"), BLOCKS = get("BLOCKS"), CATS = get("CATS"), MOTORS = get("MOTORS"), CERT = get("CERT");
 
 const words = t => t.replace(/\[[^\]]*\]/g, " ").split(/\s+/).filter(w => /[A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]/.test(w)).length;
 const pad = n => ("0" + n).slice(-2);
@@ -36,7 +36,7 @@ function safe(id, txt) {
   if (GLYPH.test(txt)) err(`${id} pide letras, números o signos: el video no lleva ningún texto`);
   if (MOUTH_OUT.test(txt)) err(`${id} algo sale de la boca: parece que vomita. Que caiga desde arriba`);
 }
-/* El fondo lo pone @FONDO: la escena no cambia el color del suelo, y un fondo propio es un panel sobre el set */
+/* El laboratorio es azul claro: la escena no cambia el color del suelo, y un fondo propio es un panel sobre el set */
 function setCheck(id, txt) {
   if (/\b(?:white|grey|gray|black) floor\b/i.test(txt)) err(`${id} pone color al suelo: lo da el fondo del episodio`);
   if (/\bagainst an? [^.]*\bbackdrop\b/i.test(txt)) err(`${id} fondo propio: descríbelo como «backdrop panel standing on the set»`);
@@ -69,7 +69,7 @@ EP.forEach((ep, i) => {
     safe(`${E} objeto ${k}`, (o.en || "") + " " + (o.p || ""));
     if (!/^[tsmlxg]$/.test(o.z || "")) err(`${E} objeto ${k} sin tamaño (z: t, s, m, l, x o g)`);
   }
-  let c = 0, t = 0, tot = 0, shape = [], cur = "", coN = 0, bankN = 0, last = "";
+  let c = 0, t = 0, tot = 0, shape = [], cur = "", coN = 0, bankN = 0, last = "", plopN = 0, talk = 0, predict = false;
   const used = {};
   for (const r of ep.shots || []) {
     const k = r[0];
@@ -82,7 +82,6 @@ EP.forEach((ep, i) => {
         const [, cam, tags, es, scene, act, v, fl] = r; vo = v;
         if (r.length < 7) err(`${id} campos`);
         if (!CAM[cam]) err(`${id} cámara ${cam}`);
-        if (tags.includes("P") && tags.includes("L")) err(`${id} Pipo y Plop en la misma toma`);
         for (const x of tags) if (x !== "P" && x !== "L" && !ep.objs[x]) err(`${id} ingrediente ${x}`);
         if (tags.length > 3) err(`${id} más de 3 referencias`);
         if (!es || !scene || !act) err(`${id} texto vacío`);
@@ -96,6 +95,7 @@ EP.forEach((ep, i) => {
         for (const f of (fl || "").split(" ").filter(Boolean)) {
           if (f[0] === "<") { const n = +f.slice(1); if (!(n >= 1 && n < c)) err(`${id} encadena mal ${f}`); }
           else if (/^[a-e]=[tsmlxg]$/.test(f)) { if (!ep.objs[f[0]] || !tags.includes(f[0])) err(`${id} tamaño para un objeto que no está en la toma: ${f}`); }
+          else if (f === "b") { if (!tags.includes("L")) err(`${id} marca «b» (Plop se hace bolita) sin Plop en la toma`); plopN++; }
           else if (!"ko".includes(f)) err(`${id} marca ${f}`);
         }
         last = "";
@@ -111,7 +111,14 @@ EP.forEach((ep, i) => {
         bankN++; last = "";
       }
       if (!vo) err(`${id} sin voz`);
-      else { const w = words(vo); tot += w; if (w > 18) err(`${id} voz de ${w} palabras: ${vo}`); if (w < 8) note(`${id} voz corta (${w})`); }
+      else {
+        const w = words(vo); tot += w;
+        if (w > 18) err(`${id} voz de ${w} palabras: ${vo}`); if (w < 8) note(`${id} voz corta (${w})`);
+        /* Guion al día con el Lore: la reacción deja sitio a su frase en pipoplés */
+        if (ep.lore && k === "R" && w > 15) err(`${id} reacción con ${w} palabras: deja sitio a la frase en pipoplés (15 como máximo)`);
+        if (/(^|[¡¿.!?…]\s*)(?:\[[a-z]+\]\s*)?(?:Pipo|Plop),/.test(vo)) talk++;
+        if (c >= 26 && c <= 30 && /crees|Piénsalo|piénsalo/.test(vo)) predict = true;
+      }
       if (c === 4 && !(k === "R" && r[1] === "P1")) err(`${id} debe ser la idea loca: ["R","P1",…]`);
       if (c === 7 && !(k === "R" && r[1] === "L1")) err(`${id} debe ser la pregunta de Plop: ["R","L1",…]`);
       if (c === 33 && !(k === "R" && r[1] === "L9")) err(`${id} debe ser la invitación al reto: ["R","L9",…]`);
@@ -138,10 +145,17 @@ EP.forEach((ep, i) => {
   if (c !== 34) err(`${E} ${c} clips`);
   if (t !== 300) err(`${E} dura ${t} s`);
   if (coN < 3) err(`${E} el acompañante aparece ${coN} veces`);
+  if (ep.lore) {
+    if (!predict) err(`${E} falta la pausa para predecir en la prueba (bloque 5): «¿Qué crees que pasará?»`);
+    if (!talk) err(`${E} el narrador no habla nunca con Pipo ni con Plop («Pipo, …»)`);
+  }
   for (const [b, n] of Object.entries(used)) if (n > 2) err(`${E} usa ${b} ${n} veces`);
   if (verbose || bad > before) console.log(`${E} ${ep.topic}: ${34 - bankN} clips nuevos + ${bankN} del banco (${coN} del acompañante) · ${tot} palabras`);
 });
 if (new Set(EP.map(e => e.title)).size !== EP.length) err("títulos repetidos");
+for (const k of Object.keys(BANK)) if (!PIPOPLES[k]) err(`reacción ${k} sin frase en pipoplés`);
+const lore = EP.filter(e => e.lore).map(e => e.n);
+console.log(`Guion al día con el Lore: ${lore.length ? lore.join(", ") : "ninguno"}`);
 const cc = {}; EP.forEach(e => { cc[e.cat] = (cc[e.cat] || 0) + 1; });
 console.log(`${EP.length} episodios · ` + Object.entries(cc).map(([k, v]) => CATS[k] + " " + v).join(" · "));
 console.log(bad ? `\n${bad} errores` : "\nTodo correcto");

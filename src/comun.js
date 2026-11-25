@@ -5,32 +5,27 @@
 /* Bloques del formato. Todos los episodios usan la misma estructura. */
 var BLOCKS = [
   ["El misterio", "Mostrar el fenómeno y plantear la pregunta.", "El resultado se ve en los primeros 8 s. Nada de saludos ni logos antes."],
-  ["Las ideas de Pipo y Plop", "Activar lo que el niño ya cree.", "Dos ideas locas puestas a prueba, la pregunta de Plop y la primera pausa para pensar."],
-  ["Zoom al interior", "Presentar las piezas del mecanismo.", "El ritual «¡Hagamos zoom!», tres partes y una lámina que las nombra."],
+  ["Las ideas de Pipo y Plop", "Activar lo que el niño ya cree.", "La idea loca de Pipo, la pregunta de Plop y la primera pausa para pensar."],
+  ["Zoom al interior", "Presentar las piezas del mecanismo.", "«¡Hagamos zoom!», el «¡Zuuum!» de Pipo y Plop, tres partes y una lámina que las nombra."],
   ["Cómo funciona", "Causa y efecto, paso a paso.", "Una comparación de Pipo, tensión que crece y un final en suspenso."],
-  ["La prueba", "Volver al fenómeno, ahora explicado.", "La recompensa visual. Se responde la idea de Pipo y la pregunta de Plop."],
+  ["La prueba", "Volver al fenómeno, ahora explicado.", "Una pausa para predecir, la prueba (con Plop de piloto de pruebas si la ciencia lo permite) y la respuesta a Pipo y a Plop."],
   ["Repaso, dato extra y reto", "Fijar tres ideas y llevarlas a casa.", "Repaso de 8 s, un dato sorpresa como premio y un reto con un adulto."],
   ["Despedida", "Enlazar con el siguiente episodio.", "La próxima pregunta dicha en voz alta: en contenido infantil no hay pantallas finales."]
 ];
 
-/* Cámaras. v = texto para el clip, k = encuadre del fotograma clave, es = nombre en español. */
+/* Cámaras del laboratorio (Blender). es = nombre, lente = distancia focal, mov = movimiento.
+   Son fijas, como en un set de plastilina: solo el acercamiento lento se mueve. */
 var CAM = {
-  W: {es: "Plano general fijo", v: "Static wide shot at eye level, locked-off camera, the whole scene visible", k: "Wide shot at eye level, the whole scene visible"},
-  M: {es: "Plano medio fijo", v: "Static medium shot at eye level, locked-off camera", k: "Medium shot at eye level"},
-  C: {es: "Primer plano fijo", v: "Static close-up at eye level, locked-off camera, shallow depth of field", k: "Close-up at eye level, shallow depth of field"},
-  X: {es: "Macro fijo", v: "Static macro extreme close-up, locked-off camera, shallow depth of field", k: "Macro extreme close-up, shallow depth of field"},
-  T: {es: "Cenital fijo", v: "Static top-down overhead shot, locked-off camera", k: "Top-down overhead shot"},
-  I: {es: "Acercamiento lento", v: "Very slow, smooth camera push-in", k: "Medium shot"}
+  W: {es: "Plano general fijo", lente: 35, mov: "Fija, a la altura de los ojos del títere. Se ve toda la escena."},
+  M: {es: "Plano medio fijo", lente: 50, mov: "Fija, a la altura de los ojos del títere."},
+  C: {es: "Primer plano fijo", lente: 85, mov: "Fija, con el fondo suave (poca profundidad de campo)."},
+  X: {es: "Macro fijo", lente: 100, mov: "Fija, a la altura del detalle, con el fondo muy desenfocado."},
+  T: {es: "Cenital fijo", lente: 35, mov: "Fija, encima de la escena, mirando hacia abajo."},
+  I: {es: "Acercamiento lento", lente: 50, mov: "Avanza despacio hacia el sujeto durante toda la toma. El sujeto se queda quieto."}
 };
 
-/* Bloques de estilo: se repiten palabra por palabra en todos los prompts. */
-/* Fondo: todo el canal usa la misma imagen azul claro (fondo_canal.jpg), adjunta como primera referencia.
-   Los prompts no la describen: solo piden usarla tal cual. */
-var STYLE_V = "Handmade claymation stop-motion look, animated on twos at 12 fps with slightly choppy handmade motion. Matte polymer clay with deep visible fingerprints and solid uniform colors. The background is the attached background image, exactly as it is. Soft diffused top light, gentle contact shadows.";
-var STYLE_I = "Authentic handmade stop-motion claymation still. Matte polymer clay with deep visible fingerprints and solid uniform colors. The background is the attached background image, exactly as it is, with soft contact shadows right under each base. Bright diffused studio light from above with a strong side rim light, 85 mm macro lens look, shallow depth of field. No visible lamps.";
-var NOTEXT = "No text, no letters, no numbers, no subtitles.";
-var MOUTH = "The puppet keeps its mouth closed and stays silent the whole time.";
-var AUDIO = "Audio: quiet studio room tone and soft clay foley only.";
+/* Las acciones de cada toma (escena inicial y acción, en inglés) son indicaciones de animación:
+   las lee el exportador del proyecto de Blender, que detecta con ellas el movimiento de cada toma. */
 
 /* Escenas iniciales que se repiten. */
 var P_CENTER = "Pipo stands in the center of the set, facing the camera.";
@@ -42,20 +37,23 @@ var L_FACE = "Plop faces the camera, centered in frame.";
 var ENV_ES = "De pie sobre un ciclorama de estudio mate blanco roto, sin costuras, con sombras de contacto suaves justo bajo la base y fondo blanco puro y despejado. Iluminación de estudio difusa y brillante desde arriba, con una luz de borde lateral intensa que crea microsombras de alto contraste sobre las profundas huellas dactilares de arcilla y las facetas rugosas sin alisar. Lente macro de 85 mm, poca profundidad de campo, colores mate sólidos y vibrantes.";
 var WHO = {
   P: {tag: "@PIPO", es: "Pipo", rol: "El de las ideas locas",
-      bio: "Impulsivo y valiente. Siempre propone una explicación disparatada y la pone a prueba con su propio cuerpo. Cuando se equivoca, se ríe y lo vuelve a intentar.",
+      bio: "Un pequeño extraterrestre que vino a estudiar la Tierra. Impulsivo, valiente y optimista: siempre propone una explicación disparatada, porque cree que todo funciona como en su planeta, y la pone a prueba. Cuando se equivoca, se ríe y lo vuelve a intentar.",
+      look: "Azul verdoso #096B7C, chaleco mostaza #D08316 con dos botones blancos. Cabeza de frijol sin cuello, cuerpo de pera, dos orejitas romas, ojos de botón, manoplas sin dedos y piernas de pilar.",
+      voz: {id: "PykNIA7IVxUBZpRkQ3cS", es: "Aguda, brillante y rápida, con risa fácil (tono medio de unos 400 Hz). Sílabas con p, b y t."},
       en: "Pipo (the teal-blue clay creature in a mustard-yellow vest)",
       p: "Un solo plano frontal de cuerpo completo (formato 16:9, a la altura de los ojos, de la cabeza a los pies) de un auténtico títere táctil de stop-motion de Pipo, una adorable y peculiar criatura de laboratorio de arcilla, no humana. Cabeza ancha horizontal en forma de frijol, sin cuello, directamente sobre un cuerpo en forma de pera, y dos orejitas diminutas y romas como cuernitos a los lados. Párpados caídos de tiras de plastilina, grandes ojos de botón negros brillantes y curiosos, y una boca ancha, simple y cerrada de arcilla. Dos brazos superiores cortos como paletas (manoplas redondeadas y lisas, sin dedos) y dos piernas cortas cilíndricas como pilares que terminan en muñones lisos de base plana (sin dedos de los pies). Arcilla polimérica mate esculpida a mano, 100% de un solo color azul verdoso vibrante y uniforme, con profundas huellas dactilares. Lleva un chaleco sin mangas de arcilla mate amarillo mostaza uniforme y sólido, con dos botones blancos grandes de arcilla. " + ENV_ES},
   L: {tag: "@PLOP", es: "Plop", rol: "El de las preguntas",
-      bio: "Observador y paciente. Se fija en el detalle que nadie vio y hace la pregunta que el espectador tiene en la cabeza. Sus preguntas mueven la historia.",
+      bio: "Un osito de agua (un tardígrado) que salió de una gota del terrario la primera vez que Pipo encendió la cámara de zoom. Prudente y pensativo: hace la pregunta que el espectador tiene en la cabeza. Es el más miedoso y el más indestructible: se hace bolita, aguanta casi todo y vuelve con un «¡plop!». Dentro de las cosas, él es el guía.",
+      look: "Verde lima #578B27, pajarita naranja terracota #AD410E. Cabeza de frijol unida a un torso segmentado, dos nódulos sensoriales en forma de gota, ojos de botón y manoplas sin dedos.",
+      voz: {id: "M46kPfoaSFdeaL0sLmqQ", es: "Suave, redonda y pausada, con murmullos pensativos (tono medio de unos 133 Hz). Sílabas con pl, l, m y n."},
       en: "Plop (the lime-green clay creature with a terracotta-orange bow tie)",
       p: "Un solo plano frontal de cuerpo completo (formato 16:9, a la altura de los ojos, de la cabeza a los pies) de un auténtico títere táctil de stop-motion de Plop, una adorable y peculiar criatura microscópica de arcilla parecida a un tardígrado. Cabeza ancha horizontal en forma de frijol fusionada con un torso regordete y segmentado, con dos diminutos nódulos sensoriales en forma de gota sobre la cabeza. Párpados caídos de tiras de plastilina, grandes ojos de botón negros brillantes con esclerótica color crema, y una boca ancha, simple y cerrada de arcilla. Dos brazos superiores cortos como paletas (manoplas redondeadas y lisas, sin dedos) y dos piernas cortas cilíndricas como pilares que terminan en muñones lisos de base plana (sin dedos de los pies). Arcilla polimérica mate esculpida a mano, 100% de un solo color verde lima vibrante y uniforme, con profundas huellas dactilares. Lleva una pajarita voluminosa de arcilla mate naranja terracota uniforme y sólida. " + ENV_ES}
 };
 
 /* =====================================================================
    BANCO DE REACCIONES
-   Son las reacciones aprobadas del canal: siempre el mismo prompt y la misma acción. Se generan una vez para todo el
-   canal con el fondo del canal (fondo_canal.jpg) y sirven para los 52 episodios. Así el
-   acompañante aparece con gestos que el niño reconoce, siempre solo en su toma.
+   Veinte reacciones de Pipo y Plop que se animan una sola vez en Blender y se reutilizan en
+   los 52 episodios. Cada una tiene su frase fija en pipoplés (PIPOPLES): el niño la reconoce.
    Formato: código: [nombre, en pantalla, cámara, escena inicial (EN), acción única (EN)]
    ===================================================================== */
 var BANK = {
@@ -100,24 +98,71 @@ var BANK = {
   L10: ["Adiós", "Plop se despide con la manopla.", "M", L_CENTER,
         "Plop waves one paddle arm at the camera, slowly and happily."]
 };
-/* Láminas del canal: las dos únicas imágenes donde Pipo y Plop aparecen juntos. Se generan una vez, con el fondo del canal y sin texto. */
+
+/* Frases fijas en pipoplés: [frase, intención, etiqueta de ElevenLabs]. Ya pasaron el revisor de idioma
+   (idioma.py) en español, inglés, francés, portugués de Brasil e hindi. */
+var PIPOPLES = {
+  P1: ["¡Bipi-ba!", "Tiene una idea", "[excited]"],
+  P2: ["¿Nooo-bo?", "No se lo cree", "[surprised]"],
+  P3: ["Mmm… ¿bo-ti?", "No tiene ni idea", "[curious]"],
+  P4: ["Okibo, okibo.", "Lo acepta", "[thoughtful]"],
+  P5: ["Oooh… ¡tiba!", "Impresionado", "[gasps]"],
+  P6: ["¿Mm? ¿Pibo?", "Curioso", "[curious]"],
+  P7: ["¿Ba? ¿Bo? ¿Bi?", "Desconcertado", "[surprised]"],
+  P8: ["Pa-ti, pa-to… ¡tiba-po!", "Lo explica", "[excited]"],
+  P9: ["¡Bipi-bipi-ba!", "Celebra", "[laughs]"],
+  P10: ["¡Bai-bai-po!", "Se despide", "[excited]"],
+  L1: ["Mmmm… ¿plu-ni?", "Pensativo", "[thoughtful]"],
+  L2: ["Mmm-hm… plo-plo.", "Sospecha algo", "[mischievously]"],
+  L3: ["¡Plin! ¡Plin-lu!", "¡Eso es!", "[excited]"],
+  L4: ["¡Oh! Oh-lu-lu…", "Asombro", "[gasps]"],
+  L5: ["¡Aaah, nilú!", "Lo entendió", "[surprised]"],
+  L6: ["Uy, uy, uy… mu-mu.", "No quiere mirar", "[whispers]"],
+  L7: ["¿Lu-ni? ¡Lu-ni!", "¿Listos?", "[excited]"],
+  L8: ["Ay… plo-mu…", "Preocupado", "[sighs]"],
+  L9: ["¡Tu-lu, tu-lu!", "Invita al reto", "[excited]"],
+  L10: ["¡Chau-lú!", "Se despide", "[excited]"]
+};
+/* Lo que gritan Pipo y Plop juntos en el momento del zoom (clip 10 de cada episodio). */
+var ZUUM = "¡Zuuum!";
+
+/* Láminas del canal: la cortinilla y la tarjeta final. Se animan una vez y son iguales en todos los episodios.
+   Sin texto en pantalla: el video se publica en varios idiomas. */
 var CARDS = {
-  T: ["Cortinilla del canal", "Pipo y Plop, uno a cada lado, contentos.",
+  T: ["Cortinilla del canal", "Pipo y Plop, uno a cada lado, contentos, en la puerta del laboratorio.",
       "Pipo stands on the left and Plop on the right, both facing the camera with happy eyes and smooth fingerless paddle arms.",
-      "[excited] ¡La ciencia con Pipo y Plop!", "La voz dice el nombre del canal. Sin título ni logo en pantalla: el video se publica en varios idiomas."],
-  F: ["Tarjeta final", "Pipo y Plop saludan.",
+      "[excited] ¡La ciencia con Pipo y Plop!", "Suena el estribillo de la canción de apertura. La voz dice el nombre del canal. Sin título ni logo en pantalla."],
+  F: ["Tarjeta final", "Pipo y Plop saludan en la puerta del laboratorio.",
       "Pipo on the left and Plop on the right, both facing the camera, each with one smooth fingerless paddle arm raised in a wave.",
       "La ciencia está en todas partes. ¡Hasta el próximo misterio!", "La voz anuncia el próximo misterio. Sin texto en pantalla."]
 };
 
-/* Kit sonoro del canal: se genera una vez y se usa en todos los episodios. */
+/* Kit sonoro del canal: se hace una vez y se usa en todos los episodios.
+   [nombre, quién lo hace, indicación]. Los efectos siguen el criterio realista del canal:
+   la fuente física real, la perspectiva de grabación y una sola fuente por efecto. */
 var KIT = [
-  ["Cortinilla del canal (3 s)", "Playful three-second jingle with marimba and ukulele, cheerful, ending on a bright high note"],
-  ["La idea loca de Pipo", "Quick comic slide whistle going up"],
-  ["¡Hagamos zoom!", "Short soft whoosh, playful cartoon transition"],
-  ["Pausa para pensar (2 s)", "Gentle playful ticking clock, two seconds"],
-  ["Repaso", "Bright three-note chime"],
-  ["Reto en casa", "Short cheerful toy trumpet fanfare"]
+  ["Estribillo de la canción de apertura (4 s)", "Compositor", "Estribillo en pipoplés, con pocas notas y fácil de cantar. Marimba, ukelele, palmas y cuerdas punteadas. Va en la cortinilla y es igual en todos los idiomas."],
+  ["Jingle del zoom (5 s)", "Compositor", "Acompaña el «¡Zuuum!» de Pipo y Plop en el clip 10. Siempre el mismo."],
+  ["La idea de Pipo", "ElevenLabs", "A real incandescent light bulb switching on with a soft click and a faint filament hum, close-up"],
+  ["El «¡plop!» de Plop", "ElevenLabs", "A soft ball of modeling clay dropped onto a wooden table, a single muffled thud, close-up"],
+  ["Pausa para pensar (2 s)", "ElevenLabs", "Quiet small room ambience with a wall clock ticking softly in the distance, two seconds"],
+  ["Repaso", "ElevenLabs", "Three soft ascending notes played on a real wooden marimba, close-up"],
+  ["Reto en casa", "ElevenLabs", "A short cheerful fanfare played on a real plastic toy trumpet, close-up"]
+];
+
+/* Zonas del laboratorio: un solo set que se reutiliza todo el año. Paredes y suelo azul claro, para dar
+   calma; muebles, objetos y luces de colores vivos, para llamar la atención. */
+var ZONAS = [
+  ["Cámara de zoom", "Entrar dentro de las cosas (bloques 3 y 4). Es la pieza que identifica al canal."],
+  ["Mesa central", "La prueba y los experimentos."],
+  ["Cocinita", "Comida y calor."],
+  ["Rincón del cuerpo", "Maquetas del cuerpo, esqueleto de juguete y espejo."],
+  ["Terrario", "Animales y plantas. De aquí salió Plop."],
+  ["Tina y acuario", "Lo que flota, se hunde o pasa en el agua."],
+  ["Ventana-planetario", "Cielo, clima, la Tierra y el espacio."],
+  ["Rincón de casa", "Cama, sofá, baño y cosas de casa."],
+  ["Pizarra", "Las láminas de cada episodio, sin texto."],
+  ["Puerta del laboratorio", "La cortinilla y la tarjeta final."]
 ];
 
 /* =====================================================================
@@ -171,7 +216,7 @@ var CERT = {
 
 /* =====================================================================
    CONTENIDO PARA NIÑOS DE 5 AÑOS EN ADELANTE
-   El validador comprueba las palabras en inglés de los prompts; estas reglas explican el porqué.
+   El validador comprueba las palabras en inglés de las indicaciones de animación; estas reglas explican el porqué.
    ===================================================================== */
 var SAFE = [
   ["Ninguna parte del cuerpo suelta", "Una lengua, un ojo, una mano o un cerebro sin su dueño pueden catalogarse como contenido sensible. Si hace falta, se muestran unidos a Pipo o a Plop: la lengua de Plop, su manopla, su rodilla."],
@@ -181,6 +226,7 @@ var SAFE = [
   ["Sin sangre ni heridas", "Un raspón es una mancha rosada que se oscurece. Lo que corre por dentro son discos o bolitas en un tubo, nunca sangre."],
   ["Sin cortes de seres vivos", "Ni personas, ni animales, ni personajes cortados por la mitad. Se corta un ají, una manzana o una semilla, no una oruga."],
   ["Nada que un niño pueda imitar y le haga daño", "Los personajes no tocan cables, enchufes, fuego ni cuchillos. Si algo se corta, es con un cuchillo de juguete y sin manos. El reto en casa siempre es con un adulto."],
+  ["Lo que aguanta Plop, solo lo aguanta un tardígrado", "Cuando Plop se congela, sale volando o cae y se hace bolita, la voz recuerda que eso solo lo resiste un osito de agua. Pipo nunca lo imita, y el reto en casa nunca lo pide."],
   ["Sin texto en la imagen", "Ni rótulos, ni letras, ni números, ni signos de interrogación. El video se publica en varios idiomas: todo lo dice la voz."]
 ];
 
