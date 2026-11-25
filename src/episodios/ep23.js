@@ -1,6 +1,6 @@
 EP.push({
   n: 23, topic: "Burbujas", title: "¿Por qué las burbujas siempre son redondas?",
-  star: "P", cat: "ca", mot: "G", anc: 0, cert: 1,
+  star: "P", lore: 1, cat: "ca", mot: "G", anc: 0, cert: 1,
   why: "Jugar con burbujas es universal, y aquí hay una apuesta que siempre se pierde.",
   link: "Ep. 2: vuelven la cabeza y la cola del jabón.", nota: "",
   secret: "La pared de una burbuja es agua entre dos capas de jabón. Se estira como una liga y tira hacia adentro por igual; la esfera es la forma que encierra el aire con menos pared.",
@@ -56,7 +56,7 @@ EP.push({
     ["T"],
 
     ["#"],
-    ["R", "P1", "[mischievously] La idea loca de Pipo: ¡las burbujas son redondas porque el aire de adentro es redondo!"],
+    ["R", "P1", "[mischievously] Idea loca de Pipo: las burbujas son redondas porque el aire de adentro es redondo."],
     ["C", "C", "", "El aire llena una caja y un tubo: toma la forma de cada uno.",
       "A square white clay box and a long thin white clay tube stand side by side in the center of the frame, with small pale-blue clay wisps inside each.",
       "The pale-blue wisps drift around inside the box and inside the tube, filling every corner.",
@@ -103,7 +103,7 @@ EP.push({
       "The soap film model stretches between two small grey clay posts in the center of the frame.",
       "The soap film model stretches wider as the two posts move apart, pulling against them the whole time.",
       "El jabón afloja al agua y la deja estirarse sin romperse. Pero la pared sigue tirando hacia adentro.", "k"],
-    ["R", "L2", "Plop ya lo sospecha: si toda la pared tira hacia adentro por igual… ¿qué forma saldrá?"],
+    ["R", "L2", "Plop lo sospecha: si toda la pared tira hacia adentro por igual… ¿qué forma saldrá?"],
 
     ["#"],
     ["C", "C", "b", "Del aro cuadrado asoma una burbuja con esquinas que se van redondeando.",
@@ -114,7 +114,7 @@ EP.push({
       "A lumpy pale-blue clay blob with soft corners floats in the center of the frame.",
       "The blob pulls its corners in until it is a perfect round ball.",
       "Cada esquina es pared de sobra. La liga la encoge, la alisa… hasta que no queda ninguna.", "<17"],
-    ["R", "P8", "Pipo lo explica a su manera: ¡la burbuja se abraza a sí misma lo más fuerte que puede!"],
+    ["R", "P8", "Pipo lo explica así: ¡la burbuja se abraza a sí misma con todas sus fuerzas!"],
     ["C", "C", "", "Un cubo azul se convierte en una bola igual a la de al lado.",
       "A pale-blue clay cube floats on the left of the frame and a pale-blue clay ball floats on the right.",
       "The cube slowly shrinks its corners and turns into a ball exactly like the one beside it.",
@@ -135,7 +135,7 @@ EP.push({
     ["C", "M", "Pa", "Pipo sigue con la mirada una burbuja que sube.",
       "Pipo stands facing the camera, looking up at the soap bubble floating above him.",
       "Pipo follows the soap bubble with his eyes as it drifts slowly higher.",
-      "Pero ninguna burbuja dura para siempre. ¿Por qué revientan, si nadie las toca?"],
+      "Ninguna burbuja dura para siempre. ¿Por qué crees que revientan, si nadie las toca?"],
 
     ["#"],
     ["C", "C", "d", "La capa de agua adelgaza hasta que las dos filas de jabón se tocan.",
@@ -150,8 +150,8 @@ EP.push({
       "Pipo stands facing the camera, holding the square wand up with one paddle arm.",
       "A soap bubble swells slowly out of the square wand and floats free as a perfect round ball.",
       "Aro cuadrado, burbuja redonda. Ahora ya sabes quién gana siempre esa apuesta.", "k"],
-    ["R", "P4", "No era el aire redondo, Pipo. Es la pared de jabón, que tira por igual hacia adentro."],
-    ["R", "L3", "Y esa es tu respuesta, Plop: la volvió redonda su propia pared, encogiéndose todo lo posible."],
+    ["R", "P4", "No era el aire, Pipo: es la pared de jabón, tirando por igual hacia adentro."],
+    ["R", "L3", "Tu respuesta, Plop: la volvió redonda su propia pared, encogiéndose todo lo posible."],
 
     ["#"],
     ["S", 8, "", "Repaso: la pared en capas, la burbuja con esquinas y la esfera.",

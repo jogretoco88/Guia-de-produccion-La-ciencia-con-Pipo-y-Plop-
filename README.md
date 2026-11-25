@@ -35,7 +35,7 @@ La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador
 
 ## Guiones al día con el Lore
 
-Los episodios marcados con `lore: 1` ya tienen al narrador cómplice, la pausa para predecir antes de la prueba, a Pipo extraterrestre y a Plop de piloto de pruebas cuando la ciencia lo permite. El validador comprueba esas reglas en ellos. Los demás muestran en su pestaña Guía que el guion está pendiente de pasar al Lore.
+Las temporadas 1 y 2 (episodios 1 a 26) ya están al día. Los episodios marcados con `lore: 1` tienen al narrador cómplice, la pausa para predecir antes de la prueba, a Pipo extraterrestre y a Plop de piloto de pruebas cuando la ciencia lo permite. El validador comprueba esas reglas en ellos. Los demás muestran en su pestaña Guía que el guion está pendiente de pasar al Lore.
 
 ## Voz y duración
 

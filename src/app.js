@@ -313,7 +313,7 @@
       "<p class='meta'><b>En la toma:</b> " + esc(cast(ep, s.tags)) + " · <b>Cámara:</b> " + CAM[s.cam].es + " (" + CAM[s.cam].lente + " mm)</p>" + sizeLine(ep, s);
     if (s.from) h += "<p class='note'><b>Continúa</b> exactamente donde terminó " + s.from + ".</p>";
     if (s.open) h += "<p class='note'><b>La boca se abre</b> en esta toma (bostezo, lengua afuera).</p>";
-    if (s.plop) h += "<p class='note'><span class='flag k'>¡plop!</span> Plop se hace bolita y suena el «¡plop!» del kit. La voz recuerda que eso solo lo aguanta un tardígrado.</p>";
+    if (s.plop) h += "<p class='note'><span class='flag k'>¡plop!</span> Plop se hace bolita y suena el «¡plop!» del kit. Si la prueba es extrema, la voz recuerda que eso solo lo aguanta un tardígrado.</p>";
     return h + animFold(s) + "</div></article>";
   }
   function vTomas(ep) {

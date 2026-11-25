@@ -1,6 +1,6 @@
 EP.push({
   n: 25, topic: "Chicle", title: "¿Qué pasa si te tragas un chicle?",
-  star: "P", cat: "co", mot: "CM", anc: 0, cert: 1,
+  star: "P", lore: 1, cat: "co", mot: "CM", anc: 0, cert: 1,
   why: "El mito de los siete años lo han oído todos. Quieren saber si es verdad.",
   link: "Ep. 8: el mismo recorrido por el intestino. Ep. 14: el moco resbaloso.",
   nota: "Derriba un mito. Aclarar que tragar uno no hace daño, pero no es para hacerlo a propósito.",
@@ -57,7 +57,7 @@ EP.push({
     ["T"],
 
     ["#"],
-    ["R", "P1", "[mischievously] La idea loca de Pipo: ¡el chicle se pega adentro y ahí se queda, siete años enteros!"],
+    ["R", "P1", "[mischievously] Idea loca de Pipo: en su planeta, el chicle tragado se queda siete años."],
     ["C", "M", "P", "Pipo se palpa la panza con cuidado.", P_CENTER,
       "Pipo pats his belly with both paddle arms, again and again, checking it carefully.",
       "Si fuera así, mucha gente tendría la panza llena de chicles viejos. Y los doctores jamás los encuentran."],
@@ -103,7 +103,7 @@ EP.push({
       "The pink pouch of the food slide fills the frame, with the cracker and the helper juices inside it.",
       "The helper juices surround the cracker and it slowly breaks into tiny crumbs.",
       "Con una galleta, los jugos pueden: la rompen en trocitos que tu cuerpo absorbe y aprovecha.", "k"],
-    ["R", "L2", "Plop ya lo sospecha: con el chicle, los jugos lo van a tener mucho más difícil."],
+    ["R", "L2", "Plop lo sospecha: con el chicle, los jugos lo van a tener mucho más difícil."],
 
     ["#"],
     ["C", "C", "abc", "Los jugos chocan contra el chicle, que sigue entero.",
@@ -124,7 +124,7 @@ EP.push({
       "A section of the coiled tube of the food slide fills the frame, with the gum piece inside it among small brown clay food bits.",
       "The gum piece and the brown food bits slide slowly along the tube together.",
       "El chicle viaja junto con el resto de lo que no se digiere: cáscaras, semillas, fibra.", "<20"],
-    ["R", "L8", "Plop quiere saber: ¿y no se pega a las paredes? En el zapato sí se pega…"],
+    ["R", "L8", "Plop quiere saber: ¿no se pega a las paredes? En el zapato sí se pega…"],
     ["C", "X", "ab", "El chicle resbala sobre la pared cubierta de moco.",
       "The inner wall of the coiled tube fills the frame, coated with a thin pale-green clay layer, with the gum piece resting on it.",
       "The gum piece slides smoothly and freely along the pale-green layer.",
@@ -132,7 +132,7 @@ EP.push({
     ["C", "W", "ab", "El chicle se acerca al final del tubo.",
       "The food slide stretches across the set, with the gum piece near the open end of the coiled tube on the right.",
       "The gum piece slides slowly toward the open end of the tube.",
-      "Y así, en uno o dos días, el chicle llega al final del recorrido. ¿Y entonces?"],
+      "En uno o dos días, el chicle llega al final del recorrido. ¿Qué crees que pasará?"],
 
     ["#"],
     ["C", "C", "ab", "El chicle sale por el extremo del tubo.",
@@ -146,8 +146,8 @@ EP.push({
       "A big pile of pink clay gum wads sits in the center of the frame.",
       "One more pink gum wad drops onto the pile, making it wobble.",
       "Eso sí: tragar uno por accidente no hace daño. Tragar muchos seguidos sí puede causar un tapón."],
-    ["R", "P4", "No se queda siete años, Pipo. Tu cuerpo no puede digerir la goma, pero sí sabe sacarla."],
-    ["R", "L3", "Y esa es tu respuesta, Plop: no se deshace porque sus hilos resisten a los jugos."],
+    ["R", "P4", "No se queda siete años, Pipo: tu cuerpo no lo digiere, pero sabe sacarlo."],
+    ["R", "L3", "Tu respuesta, Plop: no se deshace porque sus hilos resisten a los jugos."],
 
     ["#"],
     ["S", 8, "", "Repaso: el chicle entre jugos, el tubo que empuja y la salida.",

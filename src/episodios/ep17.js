@@ -1,6 +1,6 @@
 EP.push({
   n: 17, topic: "Electricidad estática", title: "¿Por qué el globo te para los pelos?",
-  star: "P", cat: "ca", mot: "G", anc: 0, cert: 1,
+  star: "P", lore: 1, cat: "ca", mot: "G", anc: 0, cert: 1,
   why: "Un truco de fiesta que pueden repetir cinco minutos después de ver el video.",
   link: "Prepara el Ep. 21 (rayo y trueno).", nota: "",
   secret: "Al frotar el globo, le quita electrones a tu pelo o a tu ropa y queda cargado. Las cargas distintas se atraen, y por eso levanta el pelo y se pega a la pared.",
@@ -56,7 +56,7 @@ EP.push({
     ["T"],
 
     ["#"],
-    ["R", "P1", "[mischievously] La idea loca de Pipo: ¡el globo trae pegamento invisible de fábrica!"],
+    ["R", "P1", "[mischievously] Idea loca de Pipo: en su planeta, los globos traen pegamento invisible."],
     ["C", "C", "ac", "Un globo sin frotar no levanta el pelo.",
       "The hair tuft stands in the center of the frame, with the red balloon floating just above it.",
       "The red balloon bobs gently above the hair tuft while the brown strands stay flat.",
@@ -64,7 +64,7 @@ EP.push({
     ["C", "M", "Pa", "Pipo palpa el globo: está seco y limpio.",
       "Pipo stands facing the camera, holding the red balloon in one paddle arm and touching it with the other.",
       "Pipo pats the red balloon with his free paddle arm, again and again, and his paddle comes away clean.",
-      "Y Pipo lo toca: está seco y limpio. Nada pegajoso. El secreto apareció al frotarlo."],
+      "Pipo, ¿está pegajoso? No: seco y limpio. El secreto apareció al frotarlo."],
     ["R", "L1", "[thoughtful] Plop se pregunta: antes de frotarlo no hacía nada. ¿Qué le pasó al frotarlo?"],
     ["C", "C", "a", "El globo gira despacio.",
       "The red balloon floats in the center of the frame.",
@@ -103,7 +103,7 @@ EP.push({
       "The red balloon floats on the right of the frame, covered with the electrons, and the hair tuft stands on the left.",
       "The electrons on the balloon jiggle in place while the hair tuft's strands lean toward the balloon.",
       "Al frotar, el globo le quita electrones a tu pelo. Ahora tiene de más.", "k"],
-    ["R", "L2", "Plop ya lo sospecha: uno con electrones de más y otro con de menos… ¡se van a buscar!"],
+    ["R", "L2", "Plop lo sospecha: uno con electrones de más y otro con de menos… ¡se buscan!"],
 
     ["#"],
     ["C", "C", "ac", "El pelo y el globo se acercan hasta tocarse.",
@@ -135,7 +135,7 @@ EP.push({
     ["C", "M", "P", "Pipo acerca la manopla a una perilla.",
       "Pipo stands beside a round grey clay doorknob on a white clay door panel, with one paddle arm reaching toward it.",
       "Pipo's paddle arm moves slowly closer and closer to the doorknob.",
-      "Pero esos electrones no se quedan para siempre. Buscan la forma de escapar… y a veces saltan.", "k"],
+      "Esos electrones buscan escapar. ¿Qué crees que pasará si Pipo toca la perilla?", "k"],
 
     ["#"],
     ["C", "X", "", "Una chispa salta de la manopla a la perilla.",
@@ -150,7 +150,7 @@ EP.push({
       "Pipo stands facing the camera, holding the red balloon above his head with both paddle arms.",
       "Pipo sways happily from side to side, holding the balloon up high.",
       "En los días secos funciona mejor. Con humedad, el agua del aire se lleva los electrones."],
-    ["R", "P4", "No era pegamento de fábrica, Pipo. Eran electrones que el globo le quitó a tu ropa."],
+    ["R", "P4", "No era pegamento, Pipo. Eran electrones que el globo le quitó a tu ropa."],
     ["R", "L3", "Y esa es tu respuesta, Plop: al frotarlo, el globo se cargó de electrones."],
 
     ["#"],

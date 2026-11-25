@@ -1,6 +1,6 @@
 EP.push({
   n: 21, topic: "Rayo y trueno", title: "¿Por qué el trueno suena después del rayo?",
-  star: "P", cat: "ci", mot: "F", anc: 0, cert: 1,
+  star: "P", lore: 1, cat: "ci", mot: "F", anc: 0, cert: 1,
   why: "Convierte el miedo a la tormenta en un juego de contar.",
   link: "Ep. 17 (electricidad estática).",
   nota: "Mensaje de calma y seguridad: en tormenta, adentro. Nada de imágenes que asusten.",
@@ -56,7 +56,7 @@ EP.push({
     ["T"],
 
     ["#"],
-    ["R", "P1", "[mischievously] La idea loca de Pipo: ¡las nubes chocan como carritos y hacen ese ruido!"],
+    ["R", "P1", "[mischievously] Idea loca de Pipo: en su planeta, las nubes chocan como carritos y retumban."],
     ["C", "C", "", "Dos nubes se juntan suavemente, como almohadas.",
       "Two puffy grey clay clouds float side by side in the center of the frame.",
       "The two clouds drift into each other and squish together softly, like two pillows.",
@@ -119,7 +119,7 @@ EP.push({
       "The lightning bolt stands in the center of the frame, with the sound rings wrapped closely around it.",
       "The sound rings spread quickly outward from the lightning bolt in all directions.",
       "Sí. Ese aire, calentado de golpe, se hincha con tanta violencia que estalla. Ese estallido es el trueno.", "k"],
-    ["R", "P8", "Pipo lo explica a su manera: ¡es como reventar un globo, pero del tamaño de una montaña!"],
+    ["R", "P8", "Pipo lo explica a su manera: ¡como reventar un globo del tamaño de una montaña!"],
     ["C", "W", "Pbd", "Carrera: la luz llega a Pipo al instante; el sonido avanza despacio hacia él.",
       "The lightning bolt stands at the left edge of the set, and Pipo stands at the right edge, facing it.",
       "A small yellow clay ball of light zips instantly from the lightning bolt to Pipo, while the sound rings travel slowly across the set toward him.",
@@ -131,7 +131,7 @@ EP.push({
     ["R", "L5", "Plop lo acaba de entender: ¡por eso primero lo veo y después lo oigo!"],
     ["C", "M", "P", "Pipo mueve la cabeza a ritmo, contando segundos.", P_CENTER,
       "Pipo nods his head slowly in a steady rhythm, as if counting seconds.",
-      "Y eso te da un superpoder: contando los segundos, puedes saber qué tan lejos cayó el rayo."],
+      "¿Qué crees que pasa si cuentas los segundos entre el rayo y el trueno? Piénsalo…"],
 
     ["#"],
     ["C", "W", "Pbd", "Los anillos de sonido cruzan el estudio hasta llegar a Pipo.",
@@ -145,8 +145,8 @@ EP.push({
       "A small red clay house stands in the center of the frame, under a dark-grey clay cloud.",
       "A warm yellow clay light blinks on in the window of the small house.",
       "Dentro de casa o de un auto estás a salvo. El rayo busca lo más alto: árboles, postes."],
-    ["R", "P4", "Las nubes no chocaban, Pipo. Era una chispa enorme calentando el aire hasta hacerlo estallar."],
-    ["R", "L3", "Y esa es tu respuesta, Plop: nacen juntos, pero la luz corre mucho más que el sonido."],
+    ["R", "P4", "Las nubes no chocan, Pipo: una chispa enorme calienta el aire y lo hace estallar."],
+    ["R", "L3", "Tu respuesta, Plop: nacen juntos, pero la luz corre mucho más que el sonido."],
 
     ["#"],
     ["S", 8, "", "Repaso: la nube cargada, el rayo y los anillos del trueno.",

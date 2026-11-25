@@ -1,6 +1,6 @@
 EP.push({
   n: 24, topic: "Costra", title: "¿Por qué sale costra cuando te raspas?",
-  star: "L", cat: "cu", mot: "MA", anc: 0, cert: 1,
+  star: "L", lore: 1, cat: "cu", mot: "MA", anc: 0, cert: 1,
   why: "A esta edad viven con las rodillas raspadas.",
   link: "Prepara el Ep. 37: la manzana también fabrica su «costra».",
   nota: "Las heridas se muestran en una maqueta de rodilla. La sangre, siempre como gotitas de arcilla y sin dramatismo.",
@@ -60,7 +60,7 @@ EP.push({
     ["T"],
 
     ["#"],
-    ["R", "P1", "[mischievously] La idea loca de Pipo: ¡el cuerpo guarda parches en un bolsillo y los pega cuando hace falta!"],
+    ["R", "P1", "[mischievously] Idea loca de Pipo: en su planeta, el cuerpo guarda parches en un bolsillo."],
     ["C", "M", "L", "Plop se busca el bolsillo y no lo encuentra.", L_CENTER,
       "Plop pats his sides with both paddle arms, searching, and shrugs.",
       "Busquemos el bolsillo… No hay ninguno. Y nadie ha visto jamás un parche guardado."],
@@ -115,7 +115,7 @@ EP.push({
       "The thread net stretches across the center of the frame.",
       "The thread net tightens slowly, its threads pulling closer together.",
       "Los hilos se cruzan y tejen una red, justo encima del agujero."],
-    ["R", "P8", "Pipo lo entiende así: ¡es como una red de pescar, pero diminuta y dentro de mí!"],
+    ["R", "P8", "Pipo lo entiende así: ¡como una red de pescar, diminuta y dentro de mí!"],
     ["C", "C", "de", "La red atrapa a los discos rojos.",
       "The thread net stretches across the center of the frame, with the red discs drifting toward it from the left.",
       "The red discs drift into the thread net one by one and get caught in it.",
@@ -136,7 +136,7 @@ EP.push({
     ["C", "M", "L", "Plop duda si rascarse.",
       "Plop stands facing the camera, with one paddle arm hovering near his side.",
       "Plop's paddle arm moves slowly toward his side and stops, trembling, again and again.",
-      "Y entonces pica. Pica mucho. Dan ganas de arrancarla… ¿Qué pasaría si lo haces?"],
+      "Y entonces pica mucho. ¿Qué crees que pasa si arrancas la costra?"],
 
     ["#"],
     ["C", "C", "", "Sin costra, el hueco vuelve a abrirse.",
@@ -150,7 +150,7 @@ EP.push({
     ["C", "M", "L", "Plop asiente, orgulloso.", L_CENTER,
       "Plop looks down at his side and gives a slow, proud nod.",
       "Lavar la herida con agua y jabón ayuda mucho. Lo demás, lo hace tu cuerpo."],
-    ["R", "P4", "No había parches en un bolsillo, Pipo. La sangre fabrica su propio tapón, con plaquetas e hilos."],
+    ["R", "P4", "No había parches, Pipo: la sangre fabrica su propio tapón, con plaquetas e hilos."],
     ["R", "L3", "Y esa es tu respuesta, Plop: la herida la taparon tus plaquetas."],
 
     ["#"],
