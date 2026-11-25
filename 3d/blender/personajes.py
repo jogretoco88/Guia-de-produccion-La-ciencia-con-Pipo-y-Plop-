@@ -231,7 +231,7 @@ def _ojo(nombre, cuerpo, col, x, z, r, mats, lado=1, estilo="pipo", caida=0.3, c
 
     # Tiras: caen hacia el lado exterior, como los ojos cansados de las láminas.
     g = -12 * lado
-    piezas.append(_arco(f"{nombre}_ceja", cuerpo, col, x, z, r_ext * 1.24, r_ext * 1.56, 32 + g, 148 + g,
+    piezas.append(_arco(f"{nombre}_ceja", cuerpo, col, x, z, r_ext * 1.2, r_ext * 1.46, 34 + g, 146 + g,
                         0.4 * r_ext, mats["piel"]))
     piezas.append(_arco(f"{nombre}_parpado_inf", cuerpo, col, x, z, r_ext * 0.98, r_ext * 1.24, 202 + g, 338 + g,
                         0.3 * r_ext, mats["piel"]))
