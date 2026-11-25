@@ -1,6 +1,6 @@
 # Narración sincronizada en 5 idiomas
 
-> **Pendiente:** los guiones de E01 a E04 de esta carpeta son los de la versión anterior, animada con Flow. La guía ya tiene la temporada 1 reescrita con el Lore (narrador cómplice, Pipo extraterrestre, frases en pipoplés y pausa para predecir), y la versión en Blender tendrá otros tiempos. Hay que volver a narrar esos episodios; las herramientas de esta carpeta siguen sirviendo.
+> El texto del narrador de cada episodio, del 1 al 52, está en la pestaña Guion de la guía, con su archivo .srt de tiempos. Esta carpeta guarda el flujo de narración sincronizada en 5 idiomas y sus herramientas, que sirven para cualquier episodio.
 
 Flujo usado en el Ep. 4 (voz clonada «José Gregorio Torres», ElevenLabs Eleven v4). El audio no se guarda en git: solo los guiones, las anclas, el informe y las herramientas.
 
