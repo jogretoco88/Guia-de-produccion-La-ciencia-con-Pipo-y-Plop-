@@ -206,7 +206,7 @@ def _ojo(nombre, cuerpo, col, x, z, r, mats, lado=1, estilo="pipo", caida=0.3, c
         _esfera(bm, centro, (r, r, r), segs=96, anillos=64)
         piezas.append(_objeto(f"{nombre}_ojo", bm, col, mats["ojo"]))
         bm = bmesh.new()                    # aro crema: cuenco ovalado detrás del botón
-        _esfera(bm, centro, (1.32 * r, 1.32 * r, 0.74 * r), rot=giro, segs=96, anillos=64)
+        _esfera(bm, centro, (1.27 * r, 1.27 * r, 0.74 * r), rot=giro, segs=96, anillos=64)
         piezas.append(_objeto(f"{nombre}_esclera", bm, col, mats["esclera"]))
         r_ext, rl = 1.25 * r, 1.2 * r
 
@@ -462,15 +462,15 @@ def crear_pipo(ubicacion=(0, 0, 0), giro_z=0.0, brazo_izq=0.0, brazo_der=0.0, bo
     col = _coleccion(coleccion)
     mats = _materiales("pipo", semilla=0.0)
     raiz = _raiz("Pipo", col, ubicacion, giro_z)
-    up = 0.016                                                                    # piernas de la lámina
+    up = 0.011                                                                    # piernas de la lámina
 
     bm = bmesh.new()
     _esfera(bm, (0, 0, 0.237 + up), (0.125, 0.082, 0.058), potencia=0.82)        # cabeza de frijol
     _esfera(bm, (0, 0.004, 0.13 + up), (0.077, 0.064, 0.072))                     # cuerpo en pera
-    _esfera(bm, (0, 0.002, 0.094 + up), (0.086, 0.073, 0.052))                    # barriga redonda
+    _esfera(bm, (0, 0.002, 0.094 + up), (0.079, 0.07, 0.052))                     # barriga redonda
     for lado in (-1, 1):
         _capsula(bm, (lado * 0.098, 0.003, 0.258 + up), (lado * 0.136, 0.004, 0.29 + up), 0.02, 0.0078)  # orejitas
-        _capsula(bm, (lado * 0.037, 0.004, -0.01), (lado * 0.037, 0.004, 0.07 + up), 0.0245)       # piernas
+        _capsula(bm, (lado * 0.037, 0.004, 0.01), (lado * 0.037, 0.004, 0.07 + up), 0.0245)        # piernas, pie redondeado
         ang = brazo_der if lado < 0 else brazo_izq   # mirando a cámara, su derecha queda a la izquierda
         hombro = Vector((lado * 0.074, 0.006, 0.17 + up))
         dirb = Vector((lado * math.sin(0.33 + ang), 0, -math.cos(0.33 + ang)))
@@ -541,15 +541,15 @@ def crear_plop(ubicacion=(0, 0, 0), giro_z=0.0, brazo_izq=0.0, brazo_der=0.0, bo
 
     bm = bmesh.new()
     _esfera(bm, (0, 0, 0.24 + up), (0.126, 0.086, 0.07), potencia=0.88)          # cabeza de píldora
-    _esfera(bm, (0, 0.004, 0.118 + up), (0.08, 0.068, 0.088))                    # núcleo del torso
-    for z, rx, rz in ((0.176, 0.08, 0.04), (0.124, 0.097, 0.045), (0.07, 0.095, 0.042)):
+    _esfera(bm, (0, 0.004, 0.118 + up), (0.088, 0.072, 0.088))                   # núcleo del torso, rechoncho
+    for z, rx, rz in ((0.174, 0.084, 0.044), (0.124, 0.1, 0.05), (0.072, 0.098, 0.047)):
         _esfera(bm, (0, 0.004, z + up), (rx, rx * 0.82, rz))                      # tres segmentos marcados
     for lado in (-1, 1):
-        _capsula(bm, (lado * 0.042, 0.004, -0.01), (lado * 0.042, 0.004, 0.06 + up), 0.026)        # piernas
+        _capsula(bm, (lado * 0.042, 0.004, 0.01), (lado * 0.042, 0.004, 0.06 + up), 0.026)         # piernas, pie redondeado
         ang = brazo_der if lado < 0 else brazo_izq   # mirando a cámara, su derecha queda a la izquierda
-        hombro = Vector((lado * 0.085, 0.006, 0.17 + up))
-        dirb = Vector((lado * math.sin(0.27 + ang), 0, -math.cos(0.27 + ang)))
-        _capsula(bm, hombro, hombro + dirb * 0.112, 0.018, 0.02, aplanado=0.8)
+        hombro = Vector((lado * 0.092, 0.006, 0.156 + up))
+        dirb = Vector((lado * math.sin(0.2 + ang), 0, -math.cos(0.2 + ang)))
+        _capsula(bm, hombro, hombro + dirb * 0.098, 0.021, 0.024, aplanado=0.8)
     cuerpo = _objeto("Plop_cuerpo", bm, col, mats["piel"])
     _amasar(cuerpo)
     _BVH.pop(cuerpo.name, None)
@@ -561,7 +561,7 @@ def crear_plop(ubicacion=(0, 0, 0), giro_z=0.0, brazo_izq=0.0, brazo_der=0.0, bo
         _esfera(bm, (lado * 0.031, 0.0, 0.328 + up), (0.0068, 0.0068, 0.0068))
         piezas.append(_objeto(f"Plop_antena_{lado}", bm, col, mats["piel"]))
     for lado, nombre in ((-1, "der"), (1, "izq")):
-        piezas += _ojo(f"Plop_{nombre}", cuerpo, col, lado * 0.045, 0.245 + up, 0.0158, mats, lado=lado,
+        piezas += _ojo(f"Plop_{nombre}", cuerpo, col, lado * 0.045, 0.245 + up, 0.0168, mats, lado=lado,
                        estilo="plop", caida=0.22, cubre=0.42, bolsa=False)
 
     # Corbatín: dos lazos que se ensanchan hacia fuera, acolchados, y un nudo rectangular.
