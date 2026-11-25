@@ -299,7 +299,17 @@ def _boca(nombre, cuerpo, col, cx, cz, forma, k, mats):
     piezas = []
 
     contorno = _contorno_boca(W, H, S)
-    interior = _desplazar_contorno(contorno, [0.0, -0.33 * H, -0.66 * H, -0.95 * H])
+    # Interior denso (si no, la cara curva asoma entre los triángulos). En bocas abiertas se
+    # encoge hacia el centro; en las cerradas (una media luna fina) se desplaza hacia dentro,
+    # porque encoger una media luna la sacaría de la boca.
+    pasos = [i / 13 for i in range(14)]
+    if H > 0.6 * S:
+        mx = sum(x for x, _ in contorno) / len(contorno)
+        mz = sum(z for _, z in contorno) / len(contorno)
+        interior = [[(mx + (x - mx) * (1 - 0.97 * f), mz + (z - mz) * (1 - 0.97 * f)) for x, z in contorno]
+                    for f in pasos]
+    else:
+        interior = _desplazar_contorno(contorno, [-0.95 * H * f for f in pasos])
     ob = _lamina(f"{nombre}_interior", interior, cx, cz, cuerpo, col, mats["interior"],
                  hacia_fuera=False, desfase=0.0002, cerrar=True)
     ob.parent = raiz
