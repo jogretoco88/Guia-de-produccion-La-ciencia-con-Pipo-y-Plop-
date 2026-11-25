@@ -152,6 +152,8 @@ Las huellas, en primer plano:
 
 ![Primer plano de Pipo: huellas dactilares, poros, párpados de plastilina y ojos de botón](pruebas/primer_plano_pipo.jpg)
 
+En movimiento: [`pruebas/prueba_animacion.mp4`](pruebas/prueba_animacion.mp4). Pipo dice «¡Pipo-plop! ¡Din-din!» con las bocas de reemplazo, a dos, con boiling y con la luz que parpadea apenas. Aún no tiene voz: es la prueba de imagen.
+
 ### 5.6 Ciencia que no alucina
 
 En 3D, el experimento hace exactamente lo que dice la ciencia. Las palomitas se inflan con una simulación de cuerpos rígidos y el agua se mueve con física real, todo con estilo de plastilina. Se mantiene la ficha científica de la guía (niveles de certeza, simplificaciones) y se suma un asesor científico. Para una televisión educativa, esto vale tanto como la animación.
