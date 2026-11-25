@@ -258,12 +258,13 @@ Probado en Blender 5.2.5 LTS. Todo en metros, a escala real del títere.
 
 | Archivo | Qué hace |
 | --- | --- |
-| [`blender/arcilla.py`](blender/arcilla.py) | Plastilina procedural: huellas de yema en arcos, marcas de alisado, poros, bultos de modelado a mano y una capa de boiling que cambia cada 2 fotogramas. Además: vidrio de laboratorio, ojos de botón y piezas que brillan. Paleta del canal sacada de las láminas aprobadas. |
+| [`blender/arcilla.py`](blender/arcilla.py) | Plastilina procedural: huellas de yema en arcos, marcas de alisado, poros, bultos de modelado a mano y una capa de boiling que cambia cada 2 fotogramas. Además: vidrio de laboratorio, ojos de botón y piezas que brillan. Paleta del canal calibrada contra las láminas aprobadas. |
 | [`blender/stop_motion.py`](blender/stop_motion.py) | Ajustes de render (Khronos PBR Neutral, que mantiene los colores vivos), animación a dos, parpadeo de luces, lente macro y activación de la GPU con OptiX. |
-| [`blender/personajes.py`](blender/personajes.py) | Maquetas de Pipo y Plop con sus proporciones, ojos con párpados caídos, chaleco, corbatín y 9 bocas de reemplazo. `poner_boca(raíz, "D", fotograma)` cambia la boca. |
+| [`blender/personajes.py`](blender/personajes.py) | Maquetas de Pipo y Plop con las proporciones medidas en sus láminas: ojos con párpados, cejas y bolsas de tiras, chaleco cruzado, corbatín de lazos y 9 bocas de reemplazo. `poner_boca(raíz, "D", fotograma)` cambia la boca. |
 | [`blender/laboratorio.py`](blender/laboratorio.py) | La zona central del laboratorio, pieza a pieza. |
 | [`blender/escena_demo.py`](blender/escena_demo.py) | Monta y renderiza el plano de presentación. |
 | [`blender/hoja_bocas.py`](blender/hoja_bocas.py) | Renderiza las 9 bocas de un personaje. |
+| [`blender/lamina.py`](blender/lamina.py) | Renderiza a un personaje de frente, con el fondo y el encuadre de su lámina aprobada, para compararlo y calibrar el color. |
 | [`blender/labios.py`](blender/labios.py) | Sincronía de labios en Blender, desde el texto o desde Rhubarb, con el audio en la línea de tiempo. |
 | [`blender/benchmark.py`](blender/benchmark.py) | Mide tu PC: segundos por fotograma y horas por episodio. |
 | [`blender/prueba_animacion.py`](blender/prueba_animacion.py) | Prueba animada: Pipo dice una línea con bocas de reemplazo, boiling y parpadeo de luz, todo a dos. |
@@ -281,6 +282,18 @@ blender -b -P hoja_bocas.py -- --personaje plop --carpeta C:/render/bocas
 También puedes abrir `escena_demo.py` en la pestaña Scripting de Blender y pulsar Ejecutar: la escena queda montada para explorarla.
 
 Las maquetas sirven para layout, animática y pruebas de luz. Los personajes definitivos se esculpen o se escanean sobre ellas y conservan sus medidas, su jerarquía y sus bocas, así que todo lo demás sigue funcionando.
+
+### Fieles a las láminas
+
+Las maquetas se ajustaron a las láminas aprobadas de Pipo y Plop (a la izquierda) con medidas, no a ojo.
+
+- **Siluetas.** Se separa cada personaje del fondo y se compara su anchura a cada altura entre la lámina y el render. Así se corrigieron, por ejemplo, el largo de las piernas de Pipo (casi un cuarto de su altura), la apertura de las orejitas y lo ancha que es la cabeza de Plop.
+- **Detalles.** Pipo tiene ojos blancos con una gran pupila negra y Plop, botones negros con aro crema. Los dos llevan párpado y ceja en tiras de plastilina; Pipo además tiene párpado inferior y bolsa. La boca de Pipo es muy ancha y la de Plop, más estrecha. El chaleco va cruzado, con los botones en la solapa, y el corbatín tiene lazos trapezoidales.
+- **Color.** Se mide la mediana de cada plastilina en la lámina y en el render, sin el fondo, y se corrige el albedo. Quedaron turquesa `#096B7C`, mostaza `#D08316`, verde hierba `#578B27` y terracota `#AD410E`.
+
+![Pipo: lámina aprobada y maqueta 3D](pruebas/comparacion_pipo.jpg)
+
+![Plop: lámina aprobada y maqueta 3D](pruebas/comparacion_plop.jpg)
 
 ![Las 9 bocas de reemplazo de Pipo](pruebas/hoja_bocas_pipo.jpg)
 

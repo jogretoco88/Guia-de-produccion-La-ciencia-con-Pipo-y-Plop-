@@ -82,7 +82,7 @@ def montar_escena(plano="general"):
     else:
         # Primer plano de Pipo: la cámara mira su cara de frente; el laboratorio queda desenfocado.
         foco.parent = pipo
-        foco.location = (0.0, -0.085, 0.24)
+        foco.location = (0.0, -0.085, 0.256)
         bpy.context.view_layer.update()
         cara = foco.matrix_world.translation.copy()
         frente = (pipo.matrix_world.to_3x3() @ Vector((0, -1, 0))).normalized()

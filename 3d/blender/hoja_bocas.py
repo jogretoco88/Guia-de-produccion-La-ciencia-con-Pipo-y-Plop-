@@ -32,7 +32,7 @@ def main():
     sc = bpy.context.scene
     crear = personajes.crear_pipo if a.personaje == "pipo" else personajes.crear_plop
     raiz = crear()
-    zc = 0.235 if a.personaje == "pipo" else 0.243
+    zc = 0.248                              # altura de la boca y los ojos de los dos
 
     bpy.ops.mesh.primitive_plane_add(size=4, location=(0, 0.6, 0), rotation=(math.pi / 2, 0, 0))
     bpy.context.active_object.data.materials.append(

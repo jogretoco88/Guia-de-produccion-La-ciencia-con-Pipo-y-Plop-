@@ -73,8 +73,8 @@ def main():
     cam = bpy.data.objects.new("cámara", bpy.data.cameras.new("cámara"))
     sc.collection.objects.link(cam)
     sc.camera = cam
-    cam.location = (0.02, -0.72, 0.215)
-    cam.rotation_euler = (Vector((0, 0, 0.2)) - cam.location).to_track_quat("-Z", "Y").to_euler()
+    cam.location = (0.02, -0.72, 0.232)
+    cam.rotation_euler = (Vector((0, 0, 0.216)) - cam.location).to_track_quat("-Z", "Y").to_euler()
     stop_motion.camara_macro(cam, focal=60, f_stop=4.0, distancia=0.66)
     stop_motion.configurar_render(sc, calidad="prueba", ancho=a.ancho, alto=a.alto, gpu=not a.cpu)
     sc.cycles.samples = a.muestras

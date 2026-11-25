@@ -21,15 +21,16 @@ Para personajes con esqueleto usa coords="rest" y activa en el objeto
 import math
 import bpy
 
-# Paleta del canal (sRGB). Sacada de las láminas aprobadas de Pipo y Plop.
+# Paleta del canal (sRGB): calibrada para que el render coincida con las láminas 8K de Pipo y Plop.
 COLORES = {
-    "pipo": "#1E9EA6",        # azul verdoso
-    "chaleco": "#D9A738",     # amarillo mostaza
+    "pipo": "#096B7C",        # turquesa azulado
+    "chaleco": "#D08316",     # mostaza
     "boton": "#F2EEE4",       # blanco hueso
-    "plop": "#6CBF45",        # verde lima
-    "corbatin": "#D2602F",    # naranja terracota
+    "plop": "#578B27",        # verde hierba
+    "corbatin": "#AD410E",    # naranja terracota
     "ojo": "#0B0D12",         # negro brillante
-    "esclera": "#E6DABF",     # crema
+    "globo": "#ECEAE6",       # blanco de los ojos de Pipo
+    "esclera": "#EDE1BF",     # aro crema de los ojos de Plop
 }
 
 
@@ -185,12 +186,12 @@ def plastilina(nombre, color, *, huellas=1.0, boil=0.35, rugosidad=0.52, sss=0.0
     Pd = g.vec("ADD", P, onda)
 
     tam = 0.024 * escala_huella
-    per = 0.0013 * escala_huella
+    per = 0.0015 * escala_huella
     h1, m1 = _capa_huellas(g, Pd, tam=tam, periodo=per, aniso=(1.0, 1.0, 1.7),
-                           desfase=(0.0, 0.0, 0.0), densidad=0.75)
+                           desfase=(0.0, 0.0, 0.0), densidad=0.85)
     h2, m2 = _capa_huellas(g, Pd, tam=tam * 1.15, periodo=per, aniso=(1.7, 1.0, 1.0),
-                           desfase=(3.3, 1.7, 5.1), densidad=0.6)
-    h4, m4 = _capa_alisado(g, Pd, periodo=per * 0.9)
+                           desfase=(3.3, 1.7, 5.1), densidad=0.72)
+    h4, m4 = _capa_alisado(g, Pd, periodo=per * 0.85, cobertura=0.65)
     huellas_fijas = g.mate("MAXIMUM", g.mate("MAXIMUM", h1, h2), g.mate("MULTIPLY", h4, 0.55))
     mascara_fija = g.mate("MAXIMUM", g.mate("MAXIMUM", m1, m2), g.mate("MULTIPLY", m4, 0.55))
 
