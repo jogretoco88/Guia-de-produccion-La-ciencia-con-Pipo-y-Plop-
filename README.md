@@ -4,8 +4,6 @@ Guía interactiva para producir un año completo del canal: ciencia en plastilin
 
 La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador o publícalo con GitHub Pages (instrucciones abajo).
 
-> **Nuevo: el salto a 3D.** La carpeta [`3d/`](3d/README.md) trae la evaluación y el plan para producir **los 52 episodios** en 3D con aspecto de plastilina ([PLAN_52.md](3d/PLAN_52.md)). Incluye un kit de Blender probado: material de plastilina, laboratorio, personajes con bocas de reemplazo, sincronía de labios lista para el idioma de Pipo y Plop, y una escena por episodio montada directamente desde este archivo matriz.
-
 ## Qué incluye
 
 - **52 episodios completos de 5:00**, uno por semana, en cuatro temporadas de 13. Todos están desarrollados toma por toma, con el mismo nivel de detalle: guion, prompts, láminas, efectos, ficha científica, título, miniatura y reto.
