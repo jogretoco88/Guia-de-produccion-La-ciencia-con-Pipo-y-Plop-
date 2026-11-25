@@ -57,17 +57,7 @@ def montar_escena(plano="general"):
                                  boca="D" if plano == "general" else "C")
     plop = personajes.crear_plop(ubicacion=(0.17, -0.01, 0), giro_z=-0.42, boca="E")
 
-    # Iluminación de estudio de miniatura: clave cálida arriba a la izquierda, relleno frío,
-    # dos contras que despegan a los personajes de la pared y rozan las huellas.
-    luz("clave", (-0.85, -0.75, 1.25), (-0.1, 0.05, 0.2), 42, 0.8, (1.0, 0.95, 0.86))
-    luz("relleno", (1.0, -1.1, 0.45), (0.0, 0.0, 0.2), 9, 1.2, (0.86, 0.93, 1.0))
-    luz("contra derecha", (0.55, 0.38, 0.75), (0.1, -0.03, 0.24), 16, 0.35, (1.0, 0.96, 0.9))
-    luz("contra izquierda", (-0.45, 0.4, 0.7), (-0.12, -0.05, 0.24), 10, 0.35, (0.95, 0.97, 1.0))
-    mundo = bpy.data.worlds.new("estudio")
-    sc.world = mundo
-    fondo = mundo.node_tree.nodes["Background"]
-    fondo.inputs[0].default_value = (0.42, 0.55, 0.72, 1)
-    fondo.inputs[1].default_value = 0.06
+    laboratorio.iluminar()
 
     cam = bpy.data.objects.new("cámara", bpy.data.cameras.new("cámara"))
     sc.collection.objects.link(cam)

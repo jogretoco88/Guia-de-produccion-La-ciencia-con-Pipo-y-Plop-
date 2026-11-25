@@ -94,8 +94,8 @@ def a_dos(obj_o_accion, paso=2):
     Acepta un objeto (usa su acción) o una acción. Repetible: no duplica modificadores.
     """
     accion = obj_o_accion
-    if isinstance(obj_o_accion, bpy.types.Object):
-        ad = obj_o_accion.animation_data
+    if isinstance(obj_o_accion, bpy.types.ID) and not isinstance(obj_o_accion, bpy.types.Action):
+        ad = obj_o_accion.animation_data        # objeto, cámara, luz...
         accion = ad.action if ad else None
     if accion is None:
         return 0

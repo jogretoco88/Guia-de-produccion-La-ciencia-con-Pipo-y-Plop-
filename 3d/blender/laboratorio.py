@@ -147,14 +147,14 @@ def suelo_y_paredes():
     crema = _m("baldosa crema", "#F2E4C6", huellas=0.6, boil=0.0, escala_huella=1.4)
     melocoton = _m("baldosa melocotón", "#E7AE86", huellas=0.6, boil=0.0, escala_huella=1.4, semilla=4)
     junta = _m("junta", "#C9B79A", huellas=0.2, boil=0.0, poros=0.3)
-    caja("junta del suelo", (0, -0.2, -0.004), (2.6, 1.6, 0.008), junta, bisel=0.0, nivel=0)
+    caja("junta del suelo", (0, -0.55, -0.004), (2.6, 2.3, 0.008), junta, bisel=0.0, nivel=0)
     # Baldosas: cada una con un leve desnivel y giro, como cortadas a mano.
     bm = bmesh.new()
     lado = 0.12
     import random
     rnd = random.Random(7)
     for i in range(-11, 11):
-        for j in range(-8, 5):
+        for j in range(-14, 5):                 # el suelo llega hasta las cámaras generales
             c = Vector(((i + 0.5) * lado, (j + 0.5) * lado + 0.07, 0.003 + rnd.uniform(-0.0012, 0.0012)))
             t = bmesh.ops.create_cube(bm, size=1.0)
             vs = t["verts"]
@@ -402,6 +402,28 @@ def muro_descubrimientos(centro=(0.36, 0.548, 0.6), radio=0.13):
         p = Vector((cx + dx, yb + 0.006, cz + dz))
         cilindro(f"hueco_{k}", p + Vector((0, 0.002, 0)), p - Vector((0, 0.002, 0)), 0.022,
                  _m("hueco de insignia", "#B8885A", huellas=0.6, boil=0.0), segs=32, bisel=0.002)
+
+
+def iluminar():
+    """Luz de estudio de miniatura: clave cálida arriba a la izquierda, relleno frío y dos
+    contras que despegan a los personajes de la pared y rozan las huellas."""
+    def luz(nombre, loc, mira, energia, tam, color):
+        d = bpy.data.lights.new(nombre, "AREA")
+        d.energy, d.size, d.color, d.shape = energia, tam, color, "DISK"
+        ob = bpy.data.objects.new(nombre, d)
+        _col().objects.link(ob)
+        ob.location = loc
+        ob.rotation_euler = (Vector(mira) - Vector(loc)).to_track_quat("-Z", "Y").to_euler()
+
+    luz("clave", (-0.85, -0.75, 1.25), (-0.1, 0.05, 0.2), 42, 0.8, (1.0, 0.95, 0.86))
+    luz("relleno", (1.0, -1.1, 0.45), (0.0, 0.0, 0.2), 9, 1.2, (0.86, 0.93, 1.0))
+    luz("contra derecha", (0.55, 0.38, 0.75), (0.1, -0.03, 0.24), 16, 0.35, (1.0, 0.96, 0.9))
+    luz("contra izquierda", (-0.45, 0.4, 0.7), (-0.12, -0.05, 0.24), 10, 0.35, (0.95, 0.97, 1.0))
+    mundo = bpy.data.worlds.new("estudio")
+    bpy.context.scene.world = mundo
+    fondo = mundo.node_tree.nodes["Background"]
+    fondo.inputs[0].default_value = (0.42, 0.55, 0.72, 1)
+    fondo.inputs[1].default_value = 0.06
 
 
 def crear_laboratorio():

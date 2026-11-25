@@ -4,7 +4,7 @@ Guía interactiva para producir un año completo del canal: ciencia en plastilin
 
 La guía es un solo archivo: [`index.html`](index.html). Ábrelo en el navegador o publícalo con GitHub Pages (instrucciones abajo).
 
-> **Nuevo: el salto a 3D.** La carpeta [`3d/`](3d/README.md) trae la evaluación y el plan para producir la serie en 3D con aspecto de plastilina. Incluye el idioma propio de Pipo y Plop ([pipoplopés](3d/idioma/PIPOPLOPES.md)) y un kit de Blender probado: material de plastilina, laboratorio, personajes con bocas de reemplazo y sincronía de labios.
+> **Nuevo: el salto a 3D.** La carpeta [`3d/`](3d/README.md) trae la evaluación y el plan para producir **los 52 episodios** en 3D con aspecto de plastilina ([PLAN_52.md](3d/PLAN_52.md)). Incluye un kit de Blender probado: material de plastilina, laboratorio, personajes con bocas de reemplazo, sincronía de labios lista para el idioma de Pipo y Plop, y una escena por episodio montada directamente desde este archivo matriz.
 
 ## Qué incluye
 

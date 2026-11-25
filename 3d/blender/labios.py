@@ -1,10 +1,11 @@
 """Sincronía de labios en Blender con las bocas de reemplazo de personajes.py.
 
 Dos caminos:
-  1. Animática (sin audio todavía): tiempos estimados desde el texto en pipoplopés.
-         labios.animar(pipo, texto="¡Din-din!", inicio=2.0)
+  1. Animática (sin audio todavía): tiempos estimados desde el texto, en el idioma de
+     Pipo y Plop (su vocabulario está en 3d/idioma/vocabulario.json).
+         labios.animar(pipo, texto="Pipo, Plop", inicio=2.0)
   2. Con la voz grabada: Rhubarb Lip Sync (gratis, github.com/DanielSWolf/rhubarb-lip-sync)
-     con el reconocedor fonético, que sirve para cualquier idioma, también el inventado:
+     con el reconocedor fonético, que sirve para cualquier idioma, también uno propio:
          rhubarb -r phonetic -f tsv -o pipo_l01.tsv pipo_l01.wav
          labios.animar(pipo, tsv="pipo_l01.tsv", inicio=2.0, audio="pipo_l01.wav")
      Las bocas de Rhubarb (X, A-H) son las mismas 9 de nuestros personajes.
@@ -22,7 +23,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(_aqui), "idioma"))
 import bpy  # noqa: E402
 
 import personajes  # noqa: E402
-import pipoplopes  # noqa: E402
+import idioma  # noqa: E402
 
 
 def animar(raiz, texto=None, tsv=None, inicio=0.0, audio=None, ritmo=1.0, canal=1):
@@ -30,12 +31,12 @@ def animar(raiz, texto=None, tsv=None, inicio=0.0, audio=None, ritmo=1.0, canal=
     sc = bpy.context.scene
     fps = sc.render.fps / sc.render.fps_base
     if tsv:
-        eventos = pipoplopes.rhubarb_a_eventos(tsv, inicio)
+        eventos = idioma.rhubarb_a_eventos(tsv, inicio)
     elif texto:
-        eventos = pipoplopes.linea_a_eventos(texto, inicio, ritmo)
+        eventos = idioma.linea_a_eventos(texto, inicio, ritmo)
     else:
         raise ValueError("Hace falta texto o tsv")
-    claves = pipoplopes.a_fotogramas(eventos, fps=round(fps))
+    claves = idioma.a_fotogramas(eventos, fps=round(fps))
     for f, boca in claves:
         personajes.poner_boca(raiz, boca, f)
     if audio:

@@ -1,4 +1,4 @@
-"""Prueba de animación: Pipo dice «¡Pipo-plop! ¡Din-din!» con bocas de reemplazo, boiling y
+"""Prueba de animación: Pipo dice una línea de prueba con bocas de reemplazo, boiling y
 parpadeo de luz, todo a dos (12 poses por segundo). Renderiza solo las poses (fotogramas
 impares) y el montaje repite cada una dos veces, como en stop-motion.
 
@@ -25,7 +25,7 @@ def main():
     argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
     p = argparse.ArgumentParser()
     p.add_argument("--carpeta", default=os.path.join(bpy.app.tempdir, "anim"))
-    p.add_argument("--linea", default="¡Pipo-plop! ¡Din-din!")
+    p.add_argument("--linea", default="Pipo, Plop... ¡Pipo!", help="línea en el idioma de Pipo y Plop")
     p.add_argument("--ancho", type=int, default=1280)
     p.add_argument("--alto", type=int, default=720)
     p.add_argument("--muestras", type=int, default=48)
@@ -38,7 +38,7 @@ def main():
     claves = labios.animar(pipo, texto=a.linea, inicio=0.25)
     fin = claves[-1][0] + 6
     sc.frame_start, sc.frame_end = 1, fin
-    # Un gesto: Pipo se inclina un poco hacia delante al decir «¡Din-din!» (también a dos).
+    # Un gesto: Pipo se inclina un poco hacia delante a mitad de la línea (también a dos).
     pipo.rotation_euler = (0, 0, 0.12)
     pipo.keyframe_insert("rotation_euler", frame=1)
     pipo.rotation_euler = (0.06, 0, 0.0)

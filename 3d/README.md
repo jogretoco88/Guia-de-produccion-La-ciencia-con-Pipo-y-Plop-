@@ -4,7 +4,7 @@
 
 *Primer fotograma del proyecto en 3D. Lo hizo el kit de esta carpeta, sin IA y sin créditos: Pipo y Plop en la misma toma, Pipo hablando (boca D) y Plop sorprendido (boca E). Detrás se ven la ventana, los estantes, el microscopio del zoom, el tubo de las preguntas y el muro con las insignias de los episodios 1 a 4. Se renderizó con la CPU de un servidor; en tu RTX 5060 Ti tarda una fracción de ese tiempo.*
 
-> **La ciencia con Pipo y Plop.** Dos criaturas de plastilina, Pipo, el de las ideas locas, y Plop, una criatura microscópica parecida a un tardígrado, resuelven cada semana un misterio cotidiano en su laboratorio. No hablan ningún idioma humano: hablan con los sonidos de la ciencia. Por eso se entienden en todo el mundo.
+> **La ciencia con Pipo y Plop.** Dos criaturas de plastilina, Pipo, el de las ideas locas, y Plop, una criatura microscópica parecida a un tardígrado, resuelven cada semana un misterio cotidiano en su laboratorio, a lo largo de 52 episodios. Hablan su propio idioma, así que se entienden igual en todos los países; la ciencia la explica el narrador en cada idioma.
 
 ## 1. Veredicto
 
@@ -20,8 +20,12 @@ En 3D, cada una de esas reglas desaparece. Además, el gasto cambia de forma: de
 
 Hay tres condiciones. Si no se cumplen, el proyecto se atasca:
 
-1. **El cuello de botella será animar, no renderizar.** Tu PC renderiza de sobra; lo que cuesta son las horas de animación. El ritmo de un episodio por semana estaba pensado para generar con IA. En 3D, una sola persona hace al principio un episodio cada 4 a 6 semanas. Ver la [sección 6](#6-lo-que-hay-que-saber-antes-riesgos-y-cómo-evitarlos).
-2. **Antes de producir episodios, una pieza de muestra.** Unos 60 a 90 segundos con calidad final. Es lo que se enseña a las empresas y lo que mide tu ritmo real.
+1. **Los 52 episodios del archivo matriz se hacen en 3D; el equipo decide el calendario.** Tu PC renderiza de sobra; lo que cuesta son las horas de animación.
+   - Una persona sola tarda unas 3-4 semanas por episodio.
+   - Con 4-5 personas se sostiene el ritmo de uno por semana del archivo matriz.
+
+   El plan completo, con las cifras sacadas del archivo matriz, está en [PLAN_52.md](PLAN_52.md).
+2. **Antes de producir en serie, el piloto.** El Ep. 1 en 3D, montado sobre su narración en 5 idiomas, que ya existe. Mide el ritmo real y es lo que se enseña a las empresas.
 3. **Amplía la RAM a 32 GB.** Es la mejora más barata y la que más se nota.
 
 ## 2. Lo que gana el proyecto
@@ -88,19 +92,20 @@ Las dos cifras son asumibles. Lo que de verdad lleva tiempo es animar.
 
 ## 5. El toque mágico: siete ideas que hacen el proyecto memorable
 
-### 5.1 Pipoplopés: un idioma hecho con los sonidos de la ciencia
+### 5.1 Su propio idioma: hablan, y no se doblan nunca
 
-Pipo y Plop hablan con onomatopeyas de fenómenos: «pop» es reventar, «plic» es una gota, «hic» es el hipo, «fsss» es el vapor, «buum» es el volcán. Cada momento fijo del formato tiene su frase ritual:
-- «¡Din-din!»: la idea loca;
-- «¿Mmm… plo?»: la pregunta de Plop;
-- «¡Zuuum-pa!»: el zoom;
-- «¡Pipo-plop!»: la despedida.
+Pipo y Plop hablan su propio idioma, el que ya tienes. En 3D eso tiene tres ventajas:
+- **Nunca se dobla.** Sus voces van en la pista de música y efectos, iguales en todas las versiones. Solo el narrador, que no sale en pantalla, cambia de idioma.
+- **Una sola sincronía de labios** sirve para los 5 idiomas del canal y para los que se añadan.
+- **Las frases fijas del formato se vuelven marca.** La idea loca, la pregunta de Plop, el zoom, el reto y la despedida pueden tener siempre la misma frase.
 
-Los niños las aprenden y las repiten. El idioma también aplica ciencia: lo pequeño se dice con *i* y lo grande con *o*, el simbolismo sonoro del experimento *bouba/kiki*.
+El kit ya está listo para tu idioma:
+- se escribe en [`idioma/vocabulario.json`](idioma/vocabulario.json);
+- cada sonido cae en una de las 9 bocas de reemplazo;
+- las grabaciones pasan por Rhubarb Lip Sync;
+- cada palabra se revisa contra palabrotas y habla infantil en los 5 idiomas del canal.
 
-**Lo decisivo es que no se dobla nunca.** Los personajes suenan igual en todas las versiones. El narrador, que no sale en pantalla, explica la ciencia en cada idioma. Una sola sincronía de labios sirve para siempre.
-
-Biblia completa: [`idioma/PIPOPLOPES.md`](idioma/PIPOPLOPES.md). Herramienta: [`idioma/pipoplopes.py`](idioma/pipoplopes.py).
+Detalles en [`idioma/LEEME.md`](idioma/LEEME.md).
 
 ### 5.2 El laboratorio vivo: un solo set que crece con la temporada
 
@@ -152,7 +157,7 @@ Las huellas, en primer plano:
 
 ![Primer plano de Pipo: huellas dactilares, poros, párpados de plastilina y ojos de botón](pruebas/primer_plano_pipo.jpg)
 
-En movimiento: [`pruebas/prueba_animacion.mp4`](pruebas/prueba_animacion.mp4). Pipo dice «¡Pipo-plop! ¡Din-din!» con las bocas de reemplazo, a dos, con boiling y con la luz que parpadea apenas. Aún no tiene voz: es la prueba de imagen.
+En movimiento: [`pruebas/prueba_animacion.mp4`](pruebas/prueba_animacion.mp4). Pipo dice una línea de prueba con las bocas de reemplazo, a dos, con boiling y con la luz que parpadea apenas. Aún no tiene voz: es la prueba de imagen.
 
 ### 5.6 Ciencia que no alucina
 
@@ -161,7 +166,7 @@ En 3D, el experimento hace exactamente lo que dice la ciencia. Las palomitas se 
 ### 5.7 Un máster, todos los idiomas, cinco piezas por episodio
 
 - **Imagen sin texto,** como hasta ahora.
-- **Pipoplopés en la pista de música y efectos (M&E).**
+- **Las voces de Pipo y Plop, en su idioma, en la pista de música y efectos (M&E).**
 - **El narrador en una pista por idioma**, con subtítulos SRT.
 - **Un idioma nuevo cuesta una narración.** Ya hay cinco: español, inglés, francés, portugués e hindi.
 
@@ -176,21 +181,21 @@ Y de cada episodio, sin regenerar nada:
 
 | Riesgo | Cómo se evita |
 | --- | --- |
-| **Las horas de animación.** Una persona sola puede animar, según su experiencia, entre 5 y 15 segundos terminados al día con este estilo. Un episodio de 5:00 tiene unos 2,5 a 3,5 minutos de actuación de personajes. | Cada pose y acción se guarda en una biblioteca y se reutiliza; es el antiguo banco de reacciones, ahora P1-P10 y L1-L10 como acciones de Blender. El zoom y las tomas de experimento se resuelven con simulación. Te grabas en video como referencia de actuación. **Y se mide en la pieza de muestra** antes de prometer un calendario. |
-| **El ritmo de 52 episodios al año.** Era el de la IA. En 3D, una persona sola hace de 8 a 12 episodios al año. | Temporada 1 de 13 episodios. Shorts semanales sacados de los episodios y del set, para mantener vivo el canal. Un equipo de 2 o 3 animadores, cuando haya financiación, para volver al ritmo semanal. |
+| **Las horas de animación.** Una persona sola anima, según su experiencia, entre 5 y 15 segundos terminados al día con este estilo. El archivo matriz tiene 6 clips con personaje por episodio (unos 50 s); con las interacciones que permite el 3D, unos 60-90 s. | Cada pose y acción se guarda en una biblioteca y se reutiliza; es el antiguo banco de reacciones, ahora P1-P10 y L1-L10 como acciones de Blender. El zoom y las tomas de experimento se resuelven con simulación. Te grabas en video como referencia de actuación. **Y se mide en la pieza de muestra** antes de prometer un calendario. |
+| **Los 52 episodios.** Uno por semana, como pide el archivo matriz, necesita en 3D un equipo de 4-5 personas. Una persona sola tarda unos 4-5 años. | Preproducción única: personajes, seis zonas, bibliotecas de acciones y de fenómenos, y layout automático desde el archivo matriz. Producción agrupada por zonas. Escenarios de equipo y calendario en [PLAN_52.md](PLAN_52.md). |
 | **La curva de aprendizaje de Blender.** | El kit ya resuelve material, look, set, bocas y labios. Primero se aprende a posar y animar; el modelado fino de los personajes puede encargarse una vez a un escultor 3D. |
 | **Que se vea «3D barato».** | Las seis reglas del stop-motion (5.5), huellas reales escaneadas y luz de estudio. Nunca movimiento suave a 24 poses por segundo. |
-| **El idioma inventado.** Una palabra podría sonar mal en algún país. | Cada palabra nueva pasa por la herramienta y por un hablante nativo de cada idioma (ver la biblia del idioma). |
+| **El idioma.** Una palabra podría sonar mal en algún país. | La herramienta de idioma revisa cada palabra contra palabrotas y habla infantil en los 5 idiomas del canal. Además, un hablante nativo de cada idioma. |
 | **Perder lo ya hecho.** | No se pierde: ver la sección 8. |
 
 ## 7. El flujo de producción
 
 Todo con programas gratuitos, salvo lo que ya pagas:
 
-1. **Guion.** El de la guía, con las líneas en pipoplopés en los huecos entre frases del narrador.
-2. **Animática.** Storyboard en Blender (Grease Pencil) cronometrado sobre la narración. `pipoplopes.py` da los tiempos de las bocas sin audio.
+1. **Guion.** El del archivo matriz, con las frases de Pipo y Plop, en su idioma, en los huecos entre frases del narrador.
+2. **Animática.** [`blender/episodio.py`](blender/episodio.py) monta las 39 tomas del episodio desde el archivo matriz, con su cámara y su segundo exacto. `idioma/idioma.py` da los tiempos de las bocas sin audio.
 3. **Voces.** Pipo y Plop los graban personas, con un cambiador de voz opcional. El narrador sigue con ElevenLabs en 5 idiomas.
-4. **Layout.** Cámaras y posiciones en el set, a escala real.
+4. **Layout.** Se ajustan las cámaras y posiciones que montó `episodio.py`, a escala real.
 5. **Animación.** Pose a pose y a dos, con la biblioteca de acciones. Los labios, con [Rhubarb Lip Sync](https://github.com/DanielSWolf/rhubarb-lip-sync) y su reconocedor fonético, que sirve para idiomas que no son el inglés, y luego `labios.animar()`.
 6. **Luz y render** en [Blender 5.2 LTS](https://www.blender.org/releases/5-2/), con soporte hasta julio de 2028. EEVEE para la serie y Cycles para los planos estrella. La [5.3](https://www.blender.org/releases/5-3/) salió el 10 de noviembre de 2026, pero para producir conviene la LTS.
 7. **Montaje y mezcla** en DaVinci Resolve, como hoy.
@@ -208,25 +213,31 @@ Todo con programas gratuitos, salvo lo que ya pagas:
 
 ## 8. Lo que ya tienes y se aprovecha
 
-- **El plan de 52 episodios** con guion, ficha científica, niveles de certeza, títulos y retos. Las zonas del laboratorio salen de sus categorías.
-- **El formato de 7 bloques y sus rituales**, que ahora tienen frase en pipoplopés y un lugar en el set.
+- **El plan de 52 episodios** con guion, ficha científica, niveles de certeza, títulos y retos. Las zonas del laboratorio salen de sus categorías, y [`matriz/exportar.mjs`](matriz/exportar.mjs) lo convierte en datos para Blender.
+- **El formato de 7 bloques y sus rituales**, que pueden tener frase fija en el idioma de Pipo y Plop y un lugar en el set.
 - **La narración en 5 idiomas de los episodios 1 a 4**, sincronizada con el esqueleto de 5:00. Si la versión 3D respeta los tiempos de cada toma, las cinco mezclas sirven tal cual. Por eso **el Ep. 1 (palomitas) es el piloto natural.** Los huecos entre frases, que hoy ocupan los rellenos de sonido, son el sitio de las frases de Pipo y Plop.
 - **Los efectos de sonido** y el kit sonoro del canal.
 - **Las reglas de contenido para 5+**, que se mantienen igual.
 - **El banco de reacciones**, que pasa a ser biblioteca de acciones.
 - **El azul del estudio del canal**, que es el color de las paredes del laboratorio.
 
-## 9. Hoja de ruta
+## 9. Los 52 episodios: plan de producción
 
-Las semanas son estimaciones para una persona. Cada fase mide el ritmo real y ajusta la siguiente.
+El plan completo está en **[PLAN_52.md](PLAN_52.md)**. En resumen:
 
-| Fase | Qué sale | Duración |
-| --- | --- | --- |
-| 0 · Puesta a punto | RAM a 32 GB, BIOS, Studio Driver, Blender 5.2 LTS. Ejecutar `benchmark.py` y `escena_demo.py`. Fundamentos de Blender: navegar, posar, animar a dos. | 2 semanas |
-| 1 · Los personajes de verdad | Pipo y Plop esculpidos sobre las maquetas (o escaneados de títeres reales de plastilina), con un esqueleto sencillo, las 9 bocas y los párpados. Biblioteca de poses P1-P10 y L1-L10. | 4-6 semanas |
-| 2 · La pieza de muestra | **60 a 90 s de «Pipo y Plop: el laboratorio»**: llega la cápsula, idea loca, zoom de plastilina, «¡Plim!», sello en el muro. Con calidad final, en 16:9 y en vertical. | 4 semanas |
-| 3 · El piloto | Ep. 1 (palomitas) en 3D sobre la narración ya hecha en 5 idiomas. | 6-8 semanas |
-| 4 · Temporada 1 | Episodios 2 a 13, con Shorts semanales. La Cocina-lab, el Rincón de casa y el Cuerpómetro se construyen a medida que se necesitan. | según el ritmo medido |
+- **El archivo matriz, en cifras.** Son 2.028 piezas en el año. Solo el 18 % de los clips lleva actuación de personaje (316). Unas 640 piezas, un tercio, son reacciones del banco y rituales que se animan una vez. Hay 913 clips de objetos y fenómenos que se resuelven con una biblioteca reutilizable, y 196 objetos repartidos en seis zonas. Cada temporada usa las seis.
+- **Lo que se repite se hace una vez**, en unos 4 meses de preproducción: personajes, zonas, bibliotecas, plantillas y el piloto (Ep. 1).
+- **Cada episodio** lleva unos 16-20 días-persona, con su layout montado automáticamente desde el archivo matriz.
+- **Equipo y calendario:**
+
+  | Ritmo | Los 52 terminados en | Equipo |
+  | --- | --- | --- |
+  | Uno por semana, como el archivo matriz | unos 16 meses | 4-5 personas |
+  | Una temporada de 13 cada 4-5 meses | unos 22 meses | 3 personas |
+  | Tú solo | unos 4-5 años | 1 |
+
+- **Se produce por zonas y se publica en el orden del archivo matriz.**
+- **Seguimiento** en [`matriz/plan_52.csv`](matriz/plan_52.csv), una fila por episodio.
 
 ## 10. Cómo enseñarlo a las grandes compañías
 
@@ -238,13 +249,13 @@ Lo que buscan los canales y estudios infantiles es lo que este proyecto ya puede
 - prueba de que el equipo produce con calidad y a un coste sostenible.
 
 **El paquete de presentación:**
-1. **La pieza de muestra** (fase 2).
+1. **El piloto** (Ep. 1 en 3D) y una pieza corta de 60-90 s.
 2. **Una biblia de la serie:**
    - personajes, con la hoja de bocas;
    - el laboratorio y sus zonas;
-   - el pipoplopés;
+   - el idioma de Pipo y Plop;
    - el formato de 7 bloques;
-   - el plan de 52 episodios;
+   - el plan de 52 episodios y cómo se producen (PLAN_52.md);
    - la ficha científica.
 3. **Tres guiones** y el piloto, en cuanto esté.
 4. **Datos del canal** de YouTube: retención, países, idiomas.
@@ -268,14 +279,17 @@ Probado en Blender 5.2.5 LTS. Todo en metros, a escala real del títere.
 | [`blender/labios.py`](blender/labios.py) | Sincronía de labios en Blender, desde el texto o desde Rhubarb, con el audio en la línea de tiempo. |
 | [`blender/benchmark.py`](blender/benchmark.py) | Mide tu PC: segundos por fotograma y horas por episodio. |
 | [`blender/prueba_animacion.py`](blender/prueba_animacion.py) | Prueba animada: Pipo dice una línea con bocas de reemplazo, boiling y parpadeo de luz, todo a dos. |
-| [`idioma/pipoplopes.py`](idioma/pipoplopes.py) | Vocabulario, revisión de palabras nuevas y hoja de exposición de bocas a dos. |
-| [`idioma/PIPOPLOPES.md`](idioma/PIPOPLOPES.md) | La biblia del idioma. |
+| [`blender/episodio.py`](blender/episodio.py) | Monta la escena de cualquiera de los 52 episodios desde el archivo matriz: 39 tomas con su cámara y su segundo, objetos a tamaño real y notas de cada toma. |
+| [`matriz/exportar.mjs`](matriz/exportar.mjs) | Convierte el archivo matriz (`src/`) en `episodios.json` para Blender y en `plan_52.csv` para el seguimiento. |
+| [`idioma/idioma.py`](idioma/idioma.py) | Convierte lo que dicen Pipo y Plop en bocas a dos y revisa las palabras. |
+| [`idioma/vocabulario.json`](idioma/vocabulario.json) | Aquí va tu idioma: palabras y frases. |
 
 **Para probarlo en tu PC** (abre una terminal en `3d/blender`):
 
 ```sh
 blender -b -P escena_demo.py -- --calidad final --salida C:/render/laboratorio.png
 blender -b -P benchmark.py
+blender -b -P episodio.py -- --ep 1 --audio C:/pipo_plop/E01_ES_mezcla.wav --guardar C:/pipo_plop/ep01_layout.blend
 blender -b -P hoja_bocas.py -- --personaje plop --carpeta C:/render/bocas
 ```
 
